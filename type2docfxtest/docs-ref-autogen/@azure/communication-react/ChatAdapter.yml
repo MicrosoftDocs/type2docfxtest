@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: ChatAdapter
+uid: '@azure/communication-react.ChatAdapter'
+package: '@azure/communication-react'
+summary: '<xref:ChatComposite> Adapter interface.'
+fullName: ChatAdapter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ChatAdapter = ChatAdapterThreadManagement &
+  AdapterState<ChatAdapterState> & Disposable & ChatAdapterSubscribers
