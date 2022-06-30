@@ -7,6 +7,7 @@ fullName: ServicesBeginUpdateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ServicesBeginUpdateResponse = ServiceResource & { _response: HttpResponse
-  & { bodyAsText: string, parsedBody: ServiceResource } }
+syntax: |
+  type ServicesBeginUpdateResponse = ServiceResource & {
+    _response: HttpResponse & { bodyAsText: string, parsedBody: ServiceResource },
+  }

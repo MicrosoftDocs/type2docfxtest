@@ -7,6 +7,9 @@ fullName: SubscriptionQuotaItem
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type SubscriptionQuotaItem = ProxyResource & { current?: undefined | number,
-  default?: undefined | number, systemData?: SystemData }
+syntax: |
+  type SubscriptionQuotaItem = ProxyResource & {
+    current?: undefined | number,
+    default?: undefined | number,
+    systemData?: SystemData,
+  }

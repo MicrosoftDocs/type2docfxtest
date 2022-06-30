@@ -7,6 +7,7 @@ fullName: ExtensionsBeginCreateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ExtensionsBeginCreateResponse = Extension & { _response: HttpResponse & {
-  bodyAsText: string, parsedBody: Extension } }
+syntax: |
+  type ExtensionsBeginCreateResponse = Extension & {
+    _response: HttpResponse & { bodyAsText: string, parsedBody: Extension },
+  }

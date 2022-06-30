@@ -17,4 +17,5 @@ fullName: Enum21
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type Enum21 = string
+syntax: |
+  type Enum21 = string

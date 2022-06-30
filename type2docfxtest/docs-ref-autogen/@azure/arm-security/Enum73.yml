@@ -21,4 +21,5 @@ fullName: Enum73
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type Enum73 = string
+syntax: |
+  type Enum73 = string

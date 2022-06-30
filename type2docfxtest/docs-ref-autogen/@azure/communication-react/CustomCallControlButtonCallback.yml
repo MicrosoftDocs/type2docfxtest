@@ -14,6 +14,7 @@ fullName: CustomCallControlButtonCallback
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: >-
-  type CustomCallControlButtonCallback = (args:
-  CustomCallControlButtonCallbackArgs) => CustomCallControlButtonProps
+syntax: |
+  type CustomCallControlButtonCallback = (
+    args: CustomCallControlButtonCallbackArgs
+  ) => CustomCallControlButtonProps

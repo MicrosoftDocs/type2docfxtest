@@ -7,7 +7,10 @@ fullName: ConfigurationStoresBeginUpdateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type ConfigurationStoresBeginUpdateResponse = ConfigurationStore & {
-  _response: HttpResponse & { bodyAsText: string, parsedBody: ConfigurationStore
-  } }
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: ConfigurationStore,
+    },
+  }

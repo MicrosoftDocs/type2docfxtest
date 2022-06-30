@@ -7,6 +7,9 @@ fullName: RunOutput
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type RunOutput = SubResource & { artifactId?: undefined | string,
-  artifactUri?: undefined | string, provisioningState?: ProvisioningState }
+syntax: |
+  type RunOutput = SubResource & {
+    artifactId?: undefined | string,
+    artifactUri?: undefined | string,
+    provisioningState?: ProvisioningState,
+  }

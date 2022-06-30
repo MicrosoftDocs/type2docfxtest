@@ -9,6 +9,9 @@ fullName: MonitoringSettingState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type MonitoringSettingState = "NotAvailable" | "Failed" | "Succeeded" |
-  "Updating"
+syntax: |
+  type MonitoringSettingState =
+    | "NotAvailable"
+    | "Failed"
+    | "Succeeded"
+    | "Updating"

@@ -9,4 +9,5 @@ fullName: RuntimeVersion
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type RuntimeVersion = "Java_8" | "Java_11" | "NetCore_31"
+syntax: |
+  type RuntimeVersion = "Java_8" | "Java_11" | "NetCore_31"

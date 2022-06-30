@@ -11,6 +11,10 @@ fullName: ProvisioningStateType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ProvisioningStateType = "Accepted" | "Deleting" | "Running" | "Succeeded"
-  | "Failed"
+syntax: |
+  type ProvisioningStateType =
+    | "Accepted"
+    | "Deleting"
+    | "Running"
+    | "Succeeded"
+    | "Failed"

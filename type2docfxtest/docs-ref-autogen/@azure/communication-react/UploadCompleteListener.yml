@@ -7,4 +7,5 @@ fullName: UploadCompleteListener
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: 'type UploadCompleteListener = (id: string, metadata: FileMetadata) => void'
+syntax: |
+  type UploadCompleteListener = (id: string, metadata: FileMetadata) => void

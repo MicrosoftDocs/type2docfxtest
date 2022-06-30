@@ -7,7 +7,10 @@ fullName: ConfigServersBeginUpdatePatchResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type ConfigServersBeginUpdatePatchResponse = ConfigServerResource & {
-  _response: HttpResponse & { bodyAsText: string, parsedBody:
-  ConfigServerResource } }
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: ConfigServerResource,
+    },
+  }

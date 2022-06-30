@@ -7,7 +7,15 @@ fullName: ListBlobsIncludeItem
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ListBlobsIncludeItem = "copy" | "deleted" | "metadata" | "snapshots" |
-  "uncommittedblobs" | "versions" | "tags" | "immutabilitypolicy" | "legalhold"
-  | "deletedwithversions"
+syntax: |
+  type ListBlobsIncludeItem =
+    | "copy"
+    | "deleted"
+    | "metadata"
+    | "snapshots"
+    | "uncommittedblobs"
+    | "versions"
+    | "tags"
+    | "immutabilitypolicy"
+    | "legalhold"
+    | "deletedwithversions"

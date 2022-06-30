@@ -7,7 +7,11 @@ fullName: ConfigurationStoresListByResourceGroupNextResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type ConfigurationStoresListByResourceGroupNextResponse =
-  ConfigurationStoreListResult & { _response: HttpResponse & { bodyAsText:
-  string, parsedBody: ConfigurationStoreListResult } }
+    ConfigurationStoreListResult & {
+      _response: HttpResponse & {
+        bodyAsText: string,
+        parsedBody: ConfigurationStoreListResult,
+      },
+    }

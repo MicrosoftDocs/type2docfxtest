@@ -9,4 +9,5 @@ fullName: ChatAdapterUiState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: 'type ChatAdapterUiState = { error?: Error }'
+syntax: |
+  type ChatAdapterUiState = { error?: Error }

@@ -9,4 +9,5 @@ fullName: SourceKindType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type SourceKindType = "GitRepository" | "Bucket"
+syntax: |
+  type SourceKindType = "GitRepository" | "Bucket"

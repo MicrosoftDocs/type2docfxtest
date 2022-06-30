@@ -9,4 +9,5 @@ fullName: KustomizationValidationType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type KustomizationValidationType = "none" | "client" | "server"
+syntax: |
+  type KustomizationValidationType = "none" | "client" | "server"

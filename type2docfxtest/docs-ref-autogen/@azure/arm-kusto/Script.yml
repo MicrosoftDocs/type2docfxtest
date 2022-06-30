@@ -7,8 +7,12 @@ fullName: Script
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type Script = ProxyResource & { continueOnErrors?: undefined | false | true,
-  forceUpdateTag?: undefined | string, provisioningState?: ProvisioningState,
-  scriptUrl?: undefined | string, scriptUrlSasToken?: undefined | string,
-  systemData?: SystemData }
+syntax: |
+  type Script = ProxyResource & {
+    continueOnErrors?: undefined | false | true,
+    forceUpdateTag?: undefined | string,
+    provisioningState?: ProvisioningState,
+    scriptUrl?: undefined | string,
+    scriptUrlSasToken?: undefined | string,
+    systemData?: SystemData,
+  }

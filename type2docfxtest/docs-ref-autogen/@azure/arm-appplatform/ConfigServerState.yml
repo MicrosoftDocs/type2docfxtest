@@ -11,6 +11,10 @@ fullName: ConfigServerState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ConfigServerState = "NotAvailable" | "Deleted" | "Failed" | "Succeeded" |
-  "Updating"
+syntax: |
+  type ConfigServerState =
+    | "NotAvailable"
+    | "Deleted"
+    | "Failed"
+    | "Succeeded"
+    | "Updating"

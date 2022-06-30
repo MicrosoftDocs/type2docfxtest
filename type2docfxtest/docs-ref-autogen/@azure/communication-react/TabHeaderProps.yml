@@ -7,6 +7,10 @@ fullName: TabHeaderProps
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type TabHeaderProps = { activeTab: TabHeaderTab, onChatButtonClicked?: () =>
-  void, onClose: () => void, onPeopleButtonClicked?: () => void }
+syntax: |
+  type TabHeaderProps = {
+    activeTab: TabHeaderTab,
+    onChatButtonClicked?: () => void,
+    onClose: () => void,
+    onPeopleButtonClicked?: () => void,
+  }

@@ -7,6 +7,6 @@ fullName: ChatMessageContentProps
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: >
   type ChatMessageContentProps = { liveAuthorIntro: string, message: ChatMessage
   }

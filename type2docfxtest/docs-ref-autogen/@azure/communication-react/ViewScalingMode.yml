@@ -7,4 +7,5 @@ fullName: ViewScalingMode
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type ViewScalingMode = "Stretch" | "Crop" | "Fit"
+syntax: |
+  type ViewScalingMode = "Stretch" | "Crop" | "Fit"

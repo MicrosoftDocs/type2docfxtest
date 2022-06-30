@@ -9,4 +9,5 @@ fullName: ClusterResourceName15
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type ClusterResourceName15 = "managedClusters" | "connectedClusters"
+syntax: |
+  type ClusterResourceName15 = "managedClusters" | "connectedClusters"

@@ -9,6 +9,8 @@ fullName: CreateViewResult
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type CreateViewResult = { renderer: VideoStreamRenderer, view:
-  VideoStreamRendererView }
+syntax: |
+  type CreateViewResult = {
+    renderer: VideoStreamRenderer,
+    view: VideoStreamRendererView,
+  }
