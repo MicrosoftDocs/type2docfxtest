@@ -75,11 +75,11 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | [key: string]:
-        Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties
+        userAssignedIdentities?: undefined | {[key: string]:
+        Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
+          undefined | {[key: string]: <xref
           uid="@azure/arm-network.Components1Jq1T4ISchemasManagedserviceidentityPropertiesUserassignedidentitiesAdditionalproperties"
-          />
+          />}

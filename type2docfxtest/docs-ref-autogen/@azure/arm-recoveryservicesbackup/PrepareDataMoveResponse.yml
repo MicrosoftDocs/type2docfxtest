@@ -10,4 +10,4 @@ isDeprecated: false
 syntax: >-
   type PrepareDataMoveResponse = VaultStorageConfigOperationResultResponse & {
   correlationId?: undefined | string, objectType: "PrepareDataMoveResponse",
-  sourceVaultProperties?: undefined | [key: string]: string }
+  sourceVaultProperties?: undefined | {[key: string]: string} }

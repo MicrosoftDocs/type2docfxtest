@@ -437,10 +437,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'metadata?: [key: string]: string'
+      content: 'metadata?: {[key: string]: string}'
       return:
         description: ''
-        type: '[key: string]\: string'
+        type: '{[key: string]: string}'
   - name: requestId
     uid: '@azure/storage-file-share.FileGetPropertiesHeaders.requestId'
     package: '@azure/storage-file-share'

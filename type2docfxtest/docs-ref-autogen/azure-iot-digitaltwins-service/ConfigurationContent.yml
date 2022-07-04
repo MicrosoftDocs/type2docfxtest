@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'deviceContent?: undefined | [key: string]: any'
+      content: 'deviceContent?: undefined | {[key: string]: any}'
       return:
         description: ''
-        type: 'undefined | [key: string]: any'
+        type: 'undefined | {[key: string]: any}'
   - name: moduleContent
     uid: azure-iot-digitaltwins-service.ConfigurationContent.moduleContent
     package: azure-iot-digitaltwins-service
@@ -31,10 +31,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'moduleContent?: undefined | [key: string]: any'
+      content: 'moduleContent?: undefined | {[key: string]: any}'
       return:
         description: ''
-        type: 'undefined | [key: string]: any'
+        type: 'undefined | {[key: string]: any}'
   - name: modulesContent
     uid: azure-iot-digitaltwins-service.ConfigurationContent.modulesContent
     package: azure-iot-digitaltwins-service
@@ -44,7 +44,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modulesContent?: undefined | [key: string]: function'
+      content: 'modulesContent?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'

@@ -14,7 +14,7 @@ syntax: >-
   apiManagementConfig?: ApiManagementConfig, appCommandLine?: undefined |
   string, appSettings?: NameValuePair[], autoHealEnabled?: undefined | false |
   true, autoHealRules?: AutoHealRules, autoSwapSlotName?: undefined | string,
-  azureStorageAccounts?: undefined | [key: string]: AzureStorageInfoValue,
+  azureStorageAccounts?: undefined | {[key: string]: AzureStorageInfoValue},
   connectionStrings?: ConnStringInfo[], cors?: CorsSettings, defaultDocuments?:
   string[], detailedErrorLoggingEnabled?: undefined | false | true,
   documentRoot?: undefined | string, experiments?: Experiments, ftpsState?:

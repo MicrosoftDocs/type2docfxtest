@@ -110,12 +110,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parameters?: undefined | [key: string]: ParameterDefinitionsValue'
+      content: 'parameters?: undefined | {[key: string]: ParameterDefinitionsValue}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-policy.ParameterDefinitionsValue" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-policy.ParameterDefinitionsValue" />}
   - name: policyRule
     uid: '@azure/arm-policy.PolicyDefinition.policyRule'
     package: '@azure/arm-policy'

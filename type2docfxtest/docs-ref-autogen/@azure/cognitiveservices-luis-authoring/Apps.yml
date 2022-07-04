@@ -1111,8 +1111,8 @@ methods:
         description: Promise<Models.AppsListEndpointsResponse>
         type: Promise&lt;<xref uid="Models.AppsListEndpointsResponse" />&gt;
   - name: >-
-      listEndpoints(string, RequestOptionsBase, ServiceCallback<[key: string]:
-      string>)
+      listEndpoints(string, RequestOptionsBase, ServiceCallback<{[key: string]:
+      string}>)
     uid: '@azure/cognitiveservices-luis-authoring.Apps.listEndpoints_2'
     package: '@azure/cognitiveservices-luis-authoring'
     summary: ''
@@ -1122,7 +1122,7 @@ methods:
     syntax:
       content: >-
         function listEndpoints(appId: string, options: RequestOptionsBase,
-        callback: ServiceCallback<[key: string]: string>)
+        callback: ServiceCallback<{[key: string]: string}>)
       parameters:
         - id: appId
           type: string
@@ -1131,10 +1131,10 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: 'ServiceCallback&lt;[key: string]: string&gt;'
+          type: 'ServiceCallback&lt;{[key: string]: string}&gt;'
           description: |
             The callback
-  - name: 'listEndpoints(string, ServiceCallback<[key: string]: string>)'
+  - name: 'listEndpoints(string, ServiceCallback<{[key: string]: string}>)'
     uid: '@azure/cognitiveservices-luis-authoring.Apps.listEndpoints_1'
     package: '@azure/cognitiveservices-luis-authoring'
     summary: ''
@@ -1143,14 +1143,14 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listEndpoints(appId: string, callback: ServiceCallback<[key:
-        string]: string>)
+        function listEndpoints(appId: string, callback: ServiceCallback<{[key:
+        string]: string}>)
       parameters:
         - id: appId
           type: string
           description: The application ID.
         - id: callback
-          type: 'ServiceCallback&lt;[key: string]: string&gt;'
+          type: 'ServiceCallback&lt;{[key: string]: string}&gt;'
           description: |
             The callback
   - name: listSupportedCultures(msRest.RequestOptionsBase)

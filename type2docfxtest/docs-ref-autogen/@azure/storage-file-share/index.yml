@@ -324,7 +324,7 @@ functions:
     package: '@azure/storage-file-share'
     summary: >-
       Creates a new <xref:@azure/storage-file-share.Pipeline> object with
-      <xref:@azure/storage-file-share.AnonymousCredential> provided.
+      <xref:@azure/storage-file-share.Credential> provided.
     remarks: ''
     isPreview: false
     isDeprecated: false

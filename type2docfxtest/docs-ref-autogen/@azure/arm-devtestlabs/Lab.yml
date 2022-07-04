@@ -12,7 +12,7 @@ syntax: >-
   artifactsStorageAccount?: undefined | string, createdDate?: Date,
   defaultPremiumStorageAccount?: undefined | string, defaultStorageAccount?:
   undefined | string, environmentPermission?: EnvironmentPermission,
-  extendedProperties?: undefined | [key: string]: string, labStorageType?:
+  extendedProperties?: undefined | {[key: string]: string}, labStorageType?:
   StorageType, loadBalancerId?: undefined | string,
   mandatoryArtifactsResourceIdsLinux?: string[],
   mandatoryArtifactsResourceIdsWindows?: string[], networkSecurityGroupId?:

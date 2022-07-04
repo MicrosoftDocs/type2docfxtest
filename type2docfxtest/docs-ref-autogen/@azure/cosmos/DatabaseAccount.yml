@@ -9,7 +9,7 @@ isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: 'DatabaseAccount([key: string]: any, CosmosHeaders)'
+  - name: 'DatabaseAccount({[key: string]: any}, CosmosHeaders)'
     uid: '@azure/cosmos.DatabaseAccount.constructor'
     package: '@azure/cosmos'
     summary: ''
@@ -17,10 +17,10 @@ constructors:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'new DatabaseAccount(body: [key: string]: any, headers: CosmosHeaders)'
+      content: 'new DatabaseAccount(body: {[key: string]: any}, headers: CosmosHeaders)'
       parameters:
         - id: body
-          type: '[key: string]\: any'
+          type: '{[key: string]: any}'
           description: ''
         - id: headers
           type: <xref uid="@azure/cosmos.CosmosHeaders" />

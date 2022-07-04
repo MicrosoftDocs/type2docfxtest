@@ -124,9 +124,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'videoStreams: [key: number]: RemoteVideoStreamState'
+      content: 'videoStreams: {[key: number]: RemoteVideoStreamState}'
       return:
         description: ''
         type: >-
-          [key: number]\: <xref
-          uid="@azure/communication-react.RemoteVideoStreamState" />
+          {[key: number]: <xref
+          uid="@azure/communication-react.RemoteVideoStreamState" />}

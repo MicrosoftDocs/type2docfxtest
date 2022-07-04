@@ -44,10 +44,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'headers?: [key: string]: any'
+      content: 'headers?: {[key: string]: any}'
       return:
         description: ''
-        type: '[key: string]\: any'
+        type: '{[key: string]: any}'
   - name: host
     uid: '@azure/ms-rest-js.HttpsProxyOptions.host'
     package: '@azure/ms-rest-js'

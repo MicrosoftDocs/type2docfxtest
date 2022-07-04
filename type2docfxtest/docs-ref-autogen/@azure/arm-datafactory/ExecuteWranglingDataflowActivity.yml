@@ -13,5 +13,5 @@ syntax: >-
   unknown>, dataFlow: DataFlowReference, integrationRuntime?:
   IntegrationRuntimeReference, policy?: ActivityPolicy, queries?:
   PowerQuerySinkMapping[], runConcurrently?: Record<string, unknown>, sinks?:
-  undefined | [key: string]: PowerQuerySink, staging?: DataFlowStagingInfo,
+  undefined | {[key: string]: PowerQuerySink}, staging?: DataFlowStagingInfo,
   traceLevel?: Record<string, unknown>, type: "ExecuteWranglingDataflow" }

@@ -4,8 +4,8 @@ uid: '@azure/communication-react.TypingIndicatorStrings'
 package: '@azure/communication-react'
 summary: >-
   Strings of
-  <xref:@azure/communication-react.AzureCommunicationCallWithChatAdapter.sendTypingIndicator>
-  that can be overridden.
+  <xref:@azure/communication-react.CallWithChatAdapter.sendTypingIndicator> that
+  can be overridden.
 fullName: TypingIndicatorStrings
 remarks: ''
 isPreview: false

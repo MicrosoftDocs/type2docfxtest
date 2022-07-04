@@ -125,10 +125,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'scriptParameters?: undefined | [key: string]: string'
+      content: 'scriptParameters?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: scriptRunOn
     uid: '@azure/arm-automation.Watcher.scriptRunOn'
     package: '@azure/arm-automation'
@@ -216,10 +216,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | [key: string]: string'
+      content: 'tags?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: type
     uid: '@azure/arm-automation.Watcher.type'
     package: '@azure/arm-automation'

@@ -69,10 +69,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: undefined | [key: string]: any'
+      content: 'properties?: undefined | {[key: string]: any}'
       return:
         description: ''
-        type: 'undefined | [key: string]: any'
+        type: 'undefined | {[key: string]: any}'
   - name: type
     uid: '@azure/arm-iothub.EventHubConsumerGroupInfo.type'
     package: '@azure/arm-iothub'

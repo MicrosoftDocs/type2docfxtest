@@ -24,10 +24,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'additionalOrderDetails?: undefined | [key: string]: string'
+      content: 'additionalOrderDetails?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: comments
     uid: '@azure/arm-databoxedge.OrderStatus.comments'
     package: '@azure/arm-databoxedge'

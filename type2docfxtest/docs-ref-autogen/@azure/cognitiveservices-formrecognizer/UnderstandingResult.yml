@@ -22,12 +22,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'fields?: undefined | [key: string]: FieldValueUnion'
+      content: 'fields?: undefined | {[key: string]: FieldValueUnion}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/cognitiveservices-formrecognizer.FieldValueUnion" />
+          undefined | {[key: string]: <xref
+          uid="@azure/cognitiveservices-formrecognizer.FieldValueUnion" />}
   - name: pages
     uid: '@azure/cognitiveservices-formrecognizer.UnderstandingResult.pages'
     package: '@azure/cognitiveservices-formrecognizer'

@@ -83,9 +83,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parameters?: undefined | [key: string]: RunbookParameter'
+      content: 'parameters?: undefined | {[key: string]: RunbookParameter}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-automation.RunbookParameter" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-automation.RunbookParameter" />}

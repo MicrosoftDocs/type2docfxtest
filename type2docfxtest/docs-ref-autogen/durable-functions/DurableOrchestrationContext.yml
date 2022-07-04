@@ -249,7 +249,7 @@ methods:
         description: ''
         type: <xref uid="durable-functions.Task" />
   - name: >-
-      callHttp(string, string, string | object, [key: string]: string,
+      callHttp(string, string, string | object, {[key: string]: string},
       TokenSource, boolean)
     uid: durable-functions.DurableOrchestrationContext.callHttp
     package: durable-functions
@@ -260,7 +260,7 @@ methods:
     syntax:
       content: >-
         function callHttp(method: string, uri: string, content?: string |
-        object, headers?: [key: string]: string, tokenSource?: TokenSource,
+        object, headers?: {[key: string]: string}, tokenSource?: TokenSource,
         asynchronousPatternEnabled?: boolean): Task
       parameters:
         - id: method
@@ -273,7 +273,7 @@ methods:
           type: string | object
           description: ''
         - id: headers
-          type: '[key: string]\: string'
+          type: '{[key: string]: string}'
           description: ''
         - id: tokenSource
           type: <xref uid="durable-functions.TokenSource" />

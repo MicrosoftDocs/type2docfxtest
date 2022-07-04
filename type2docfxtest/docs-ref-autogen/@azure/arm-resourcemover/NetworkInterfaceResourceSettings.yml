@@ -11,5 +11,5 @@ syntax: >-
   type NetworkInterfaceResourceSettings = ResourceSettings & {
   enableAcceleratedNetworking?: undefined | false | true, ipConfigurations?:
   NicIpConfigurationResourceSettings[], resourceType:
-  "Microsoft.Network/networkInterfaces", tags?: undefined | [key: string]:
-  string }
+  "Microsoft.Network/networkInterfaces", tags?: undefined | {[key: string]:
+  string} }

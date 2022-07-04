@@ -9,5 +9,5 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type ChatClientState = { displayName: string, latestErrors: ChatErrors,
-  threads: [key: string]: ChatThreadClientState, userId:
+  threads: {[key: string]: ChatThreadClientState}, userId:
   CommunicationIdentifierKind }

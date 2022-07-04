@@ -10,5 +10,5 @@ isDeprecated: false
 syntax: >-
   type ResourceMetricDefinition = ProxyOnlyResource & { metricAvailabilities?:
   ResourceMetricAvailability[], primaryAggregationType?: undefined | string,
-  properties?: undefined | [key: string]: string, resourceUri?: undefined |
+  properties?: undefined | {[key: string]: string}, resourceUri?: undefined |
   string, unit?: undefined | string }

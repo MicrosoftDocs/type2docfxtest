@@ -14,9 +14,9 @@ syntax: >-
   sqlServerLicenseType?: SqlServerLicenseType, targetAvailabilitySetId?:
   undefined | string, targetAvailabilityZone?: undefined | string,
   targetBootDiagnosticsStorageAccountId?: undefined | string, targetDiskTags?:
-  undefined | [key: string]: string, targetNetworkId?: undefined | string,
-  targetNicTags?: undefined | [key: string]: string,
+  undefined | {[key: string]: string}, targetNetworkId?: undefined | string,
+  targetNicTags?: undefined | {[key: string]: string},
   targetProximityPlacementGroupId?: undefined | string, targetResourceGroupId?:
   undefined | string, targetVmName?: undefined | string, targetVmSize?:
-  undefined | string, targetVmTags?: undefined | [key: string]: string,
+  undefined | string, targetVmTags?: undefined | {[key: string]: string},
   vmDisks?: VMwareCbtUpdateDiskInput[], vmNics?: VMwareCbtNicInput[] }

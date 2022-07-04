@@ -11,6 +11,6 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type FaceDetectorPreset = Preset & { blurType?: BlurType,
-  experimentalOptions?: undefined | [key: string]: string, mode?:
+  experimentalOptions?: undefined | {[key: string]: string}, mode?:
   FaceRedactorMode, odataType: "#Microsoft.Media.FaceDetectorPreset",
   resolution?: AnalysisResolution }

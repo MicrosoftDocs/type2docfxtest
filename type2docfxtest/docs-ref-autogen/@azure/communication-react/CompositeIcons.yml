@@ -6,7 +6,7 @@ summary: >
   Icons that can be overridden in one of the composites exported by this
   library.
 
-  See <xref:@azure/communication-react.CallWithChatCompositeIcons>,
+  See <xref:@azure/communication-react.ChatCompositeIcons>,
   <xref:@azure/communication-react.CallCompositeIcons> and
   <xref:@azure/communication-react.CallWithChatCompositeIcons> for more targeted
   types.

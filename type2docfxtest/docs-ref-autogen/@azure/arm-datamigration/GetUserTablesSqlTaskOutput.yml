@@ -22,10 +22,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'databasesToTables?: undefined | [key: string]: function'
+      content: 'databasesToTables?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'
   - name: id
     uid: '@azure/arm-datamigration.GetUserTablesSqlTaskOutput.id'
     package: '@azure/arm-datamigration'

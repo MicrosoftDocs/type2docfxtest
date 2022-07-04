@@ -11,6 +11,6 @@ syntax: >-
   type TriggeredWebJob = ProxyOnlyResource & { error?: undefined | string,
   extraInfoUrl?: undefined | string, historyUrl?: undefined | string,
   latestRun?: TriggeredJobRun, runCommand?: undefined | string,
-  schedulerLogsUrl?: undefined | string, settings?: undefined | [key: string]:
-  Record, url?: undefined | string, usingSdk?: undefined | false | true,
+  schedulerLogsUrl?: undefined | string, settings?: undefined | {[key: string]:
+  Record}, url?: undefined | string, usingSdk?: undefined | false | true,
   webJobType?: WebJobType }

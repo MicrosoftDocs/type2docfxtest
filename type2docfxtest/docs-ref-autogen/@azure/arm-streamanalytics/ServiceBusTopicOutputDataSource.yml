@@ -12,5 +12,5 @@ syntax: >-
   authenticationMode?: AuthenticationMode, propertyColumns?: string[],
   serviceBusNamespace?: undefined | string, sharedAccessPolicyKey?: undefined |
   string, sharedAccessPolicyName?: undefined | string, systemPropertyColumns?:
-  undefined | [key: string]: string, topicName?: undefined | string, type:
+  undefined | {[key: string]: string}, topicName?: undefined | string, type:
   "Microsoft.ServiceBus/Topic" }

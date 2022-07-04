@@ -31,10 +31,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyBag?: undefined | [key: string]: string'
+      content: 'propertyBag?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: tasksList
     uid: '@azure/arm-recoveryservicesbackup.DpmJobExtendedInfo.tasksList'
     package: '@azure/arm-recoveryservicesbackup'

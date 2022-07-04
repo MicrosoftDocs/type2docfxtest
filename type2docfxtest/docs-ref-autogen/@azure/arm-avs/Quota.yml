@@ -22,10 +22,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'hostsRemaining?: undefined | [key: string]: number'
+      content: 'hostsRemaining?: undefined | {[key: string]: number}'
       return:
         description: ''
-        type: 'undefined | [key: string]: number'
+        type: 'undefined | {[key: string]: number}'
   - name: quotaEnabled
     uid: '@azure/arm-avs.Quota.quotaEnabled'
     package: '@azure/arm-avs'

@@ -13,4 +13,4 @@ syntax: >-
   type Peering = Resource & { direct?: PeeringPropertiesDirect, exchange?:
   PeeringPropertiesExchange, kind: Kind, location: string, peeringLocation?:
   undefined | string, provisioningState?: ProvisioningState, sku: PeeringSku,
-  tags?: undefined | [key: string]: string }
+  tags?: undefined | {[key: string]: string} }

@@ -76,11 +76,11 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | [key: string]:
-        VirtualMachineScaleSetIdentityUserAssignedIdentitiesValue
+        userAssignedIdentities?: undefined | {[key: string]:
+        VirtualMachineScaleSetIdentityUserAssignedIdentitiesValue}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
+          undefined | {[key: string]: <xref
           uid="@azure/arm-compute.VirtualMachineScaleSetIdentityUserAssignedIdentitiesValue"
-          />
+          />}

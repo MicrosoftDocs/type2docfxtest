@@ -37,10 +37,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'appSettingsDictionary?: undefined | [key: string]: Record'
+      content: 'appSettingsDictionary?: undefined | {[key: string]: Record}'
       return:
         description: ''
-        type: 'undefined | [key: string]: Record'
+        type: 'undefined | {[key: string]: Record}'
   - name: displayVersion
     uid: '@azure/arm-appservice.StackMajorVersion.displayVersion'
     package: '@azure/arm-appservice'
@@ -153,7 +153,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'siteConfigPropertiesDictionary?: undefined | [key: string]: Record'
+      content: 'siteConfigPropertiesDictionary?: undefined | {[key: string]: Record}'
       return:
         description: ''
-        type: 'undefined | [key: string]: Record'
+        type: 'undefined | {[key: string]: Record}'

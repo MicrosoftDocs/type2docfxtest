@@ -33,10 +33,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parsedHeaders?: [key: string]: unknown'
+      content: 'parsedHeaders?: {[key: string]: unknown}'
       return:
         description: ''
-        type: '[key: string]\: unknown'
+        type: '{[key: string]: unknown}'
   - name: request
     uid: '@azure/core-client.FullOperationResponse.request'
     package: '@azure/core-client'

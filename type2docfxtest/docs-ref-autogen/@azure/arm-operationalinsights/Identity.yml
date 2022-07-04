@@ -69,10 +69,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | [key: string]:
-        UserIdentityProperties
+        userAssignedIdentities?: undefined | {[key: string]:
+        UserIdentityProperties}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-operationalinsights.UserIdentityProperties" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-operationalinsights.UserIdentityProperties" />}

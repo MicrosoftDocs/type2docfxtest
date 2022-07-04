@@ -10,7 +10,7 @@ isDeprecated: false
 syntax: >-
   type AzureFileshareProtectedItem = ProtectedItem & { extendedInfo?:
   AzureFileshareProtectedItemExtendedInfo, friendlyName?: undefined | string,
-  kpisHealths?: undefined | [key: string]: KPIResourceHealthDetails,
+  kpisHealths?: undefined | {[key: string]: KPIResourceHealthDetails},
   lastBackupStatus?: undefined | string, lastBackupTime?: Date,
   protectedItemType: "AzureFileShareProtectedItem", protectionState?:
   ProtectionState, protectionStatus?: undefined | string }

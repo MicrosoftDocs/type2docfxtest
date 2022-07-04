@@ -23,10 +23,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'databasesToSourceTables?: undefined | [key: string]: function'
+      content: 'databasesToSourceTables?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'
   - name: databasesToTargetTables
     uid: >-
       @azure/arm-datamigration.GetUserTablesSqlSyncTaskOutput.databasesToTargetTables
@@ -41,10 +41,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'databasesToTargetTables?: undefined | [key: string]: function'
+      content: 'databasesToTargetTables?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'
   - name: tableValidationErrors
     uid: >-
       @azure/arm-datamigration.GetUserTablesSqlSyncTaskOutput.tableValidationErrors
@@ -59,10 +59,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tableValidationErrors?: undefined | [key: string]: function'
+      content: 'tableValidationErrors?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'
   - name: validationErrors
     uid: '@azure/arm-datamigration.GetUserTablesSqlSyncTaskOutput.validationErrors'
     package: '@azure/arm-datamigration'

@@ -22,5 +22,5 @@ syntax: >-
   ServiceManagedResourcesSettings, serviceProvisionedResourceGroup?: undefined |
   string, sharedPrivateLinkResources?: SharedPrivateLinkResource[], sku?: Sku,
   storageAccount?: undefined | string, storageHnsEnabled?: undefined | false |
-  true, systemData?: SystemData, tags?: undefined | [key: string]: string,
+  true, systemData?: SystemData, tags?: undefined | {[key: string]: string},
   tenantId?: undefined | string, workspaceId?: undefined | string }

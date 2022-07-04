@@ -11,5 +11,5 @@ syntax: >-
   type PatchRouteFilter = SubResource & { etag?: undefined | string,
   ipv6Peerings?: ExpressRouteCircuitPeering[], name?: undefined | string,
   peerings?: ExpressRouteCircuitPeering[], provisioningState?:
-  ProvisioningState, rules?: RouteFilterRule[], tags?: undefined | [key:
-  string]: string, type?: undefined | string }
+  ProvisioningState, rules?: RouteFilterRule[], tags?: undefined | {[key:
+  string]: string}, type?: undefined | string }

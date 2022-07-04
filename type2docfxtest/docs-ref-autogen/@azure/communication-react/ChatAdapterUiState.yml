@@ -2,9 +2,7 @@
 name: ChatAdapterUiState
 uid: '@azure/communication-react.ChatAdapterUiState'
 package: '@azure/communication-react'
-summary: >-
-  <xref:@azure/communication-react.AzureCommunicationCallWithChatAdapter> state
-  for pure UI purposes.
+summary: '<xref:@azure/communication-react.ChatAdapter> state for pure UI purposes.'
 fullName: ChatAdapterUiState
 remarks: ''
 isPreview: false

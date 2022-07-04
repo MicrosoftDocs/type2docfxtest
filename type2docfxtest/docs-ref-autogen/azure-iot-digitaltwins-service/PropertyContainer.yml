@@ -26,10 +26,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'desired?: undefined | [key: string]: any'
+      content: 'desired?: undefined | {[key: string]: any}'
       return:
         description: ''
-        type: 'undefined | [key: string]: any'
+        type: 'undefined | {[key: string]: any}'
   - name: reported
     uid: azure-iot-digitaltwins-service.PropertyContainer.reported
     package: azure-iot-digitaltwins-service
@@ -46,7 +46,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'reported?: undefined | [key: string]: any'
+      content: 'reported?: undefined | {[key: string]: any}'
       return:
         description: ''
-        type: 'undefined | [key: string]: any'
+        type: 'undefined | {[key: string]: any}'

@@ -18,15 +18,15 @@ syntax: >-
   string, performAutoResync?: undefined | string, protectedDisks?:
   VMwareCbtProtectedDiskDetails[], resyncProgressPercentage?: undefined |
   number, resyncRequired?: undefined | string, resyncRetryCount?: undefined |
-  number, resyncState?: ResyncState, seedDiskTags?: undefined | [key: string]:
-  string, snapshotRunAsAccountId?: undefined | string, sqlServerLicenseType?:
+  number, resyncState?: ResyncState, seedDiskTags?: undefined | {[key: string]:
+  string}, snapshotRunAsAccountId?: undefined | string, sqlServerLicenseType?:
   undefined | string, targetAvailabilitySetId?: undefined | string,
   targetAvailabilityZone?: undefined | string,
   targetBootDiagnosticsStorageAccountId?: undefined | string, targetDiskTags?:
-  undefined | [key: string]: string, targetGeneration?: undefined | string,
+  undefined | {[key: string]: string}, targetGeneration?: undefined | string,
   targetLocation?: undefined | string, targetNetworkId?: undefined | string,
-  targetNicTags?: undefined | [key: string]: string,
+  targetNicTags?: undefined | {[key: string]: string},
   targetProximityPlacementGroupId?: undefined | string, targetResourceGroupId?:
   undefined | string, targetVmName?: undefined | string, targetVmSize?:
-  undefined | string, targetVmTags?: undefined | [key: string]: string, vmNics?:
-  VMwareCbtNicDetails[], vmwareMachineId?: undefined | string }
+  undefined | string, targetVmTags?: undefined | {[key: string]: string},
+  vmNics?: VMwareCbtNicDetails[], vmwareMachineId?: undefined | string }

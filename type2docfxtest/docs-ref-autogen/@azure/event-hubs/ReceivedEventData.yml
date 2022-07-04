@@ -136,10 +136,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: [key: string]: any'
+      content: 'properties?: {[key: string]: any}'
       return:
         description: ''
-        type: '[key: string]\: any'
+        type: '{[key: string]: any}'
   - name: sequenceNumber
     uid: '@azure/event-hubs.ReceivedEventData.sequenceNumber'
     package: '@azure/event-hubs'
@@ -162,10 +162,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'systemProperties?: [key: string]: any'
+      content: 'systemProperties?: {[key: string]: any}'
       return:
         description: ''
-        type: '[key: string]\: any'
+        type: '{[key: string]: any}'
 methods:
   - name: getRawAmqpMessage()
     uid: '@azure/event-hubs.ReceivedEventData.getRawAmqpMessage'

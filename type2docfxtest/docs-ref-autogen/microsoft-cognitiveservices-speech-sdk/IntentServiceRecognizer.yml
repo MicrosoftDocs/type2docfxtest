@@ -374,7 +374,7 @@ inheritedMethods:
         description: ''
         type: Promise&lt;void&gt;
 methods:
-  - name: 'setIntents([key: string]: AddedLmIntent, AddedLmIntent)'
+  - name: 'setIntents({[key: string]: AddedLmIntent}, AddedLmIntent)'
     uid: microsoft-cognitiveservices-speech-sdk.IntentServiceRecognizer.setIntents
     package: microsoft-cognitiveservices-speech-sdk
     summary: ''
@@ -383,13 +383,13 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function setIntents(addedIntents: [key: string]: AddedLmIntent,
+        function setIntents(addedIntents: {[key: string]: AddedLmIntent},
         umbrellaIntent: AddedLmIntent)
       parameters:
         - id: addedIntents
           type: >-
-            [key: string]\: <xref
-            uid="microsoft-cognitiveservices-speech-sdk.AddedLmIntent" />
+            {[key: string]: <xref
+            uid="microsoft-cognitiveservices-speech-sdk.AddedLmIntent" />}
           description: ''
         - id: umbrellaIntent
           type: <xref uid="microsoft-cognitiveservices-speech-sdk.AddedLmIntent" />

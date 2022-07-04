@@ -35,10 +35,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'description?: [key: string]: string'
+      content: 'description?: {[key: string]: string}'
       return:
         description: ''
-        type: '[key: string]\: string'
+        type: '{[key: string]: string}'
   - name: displayName
     uid: '@azure/digital-twins.ModelData.displayName'
     package: '@azure/digital-twins'
@@ -50,10 +50,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'displayName?: [key: string]: string'
+      content: 'displayName?: {[key: string]: string}'
       return:
         description: ''
-        type: '[key: string]\: string'
+        type: '{[key: string]: string}'
   - name: id
     uid: '@azure/digital-twins.ModelData.id'
     package: '@azure/digital-twins'

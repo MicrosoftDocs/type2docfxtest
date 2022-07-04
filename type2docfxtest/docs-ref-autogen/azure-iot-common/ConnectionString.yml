@@ -137,7 +137,7 @@ methods:
     package: azure-iot-common
     summary: >-
       Parses a string and returns the corresponding
-      <xref:azure-iot-common.ConnectionString> object.
+      azure-iot-common.ConnectionString object.
     remarks: ''
     isPreview: false
     isDeprecated: false

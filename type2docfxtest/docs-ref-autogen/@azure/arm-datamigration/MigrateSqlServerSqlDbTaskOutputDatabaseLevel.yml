@@ -185,13 +185,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        objectSummary?: undefined | [key: string]:
-        DataItemMigrationSummaryResult
+        objectSummary?: undefined | {[key: string]:
+        DataItemMigrationSummaryResult}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-datamigration.DataItemMigrationSummaryResult" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-datamigration.DataItemMigrationSummaryResult" />}
   - name: resultPrefix
     uid: >-
       @azure/arm-datamigration.MigrateSqlServerSqlDbTaskOutputDatabaseLevel.resultPrefix

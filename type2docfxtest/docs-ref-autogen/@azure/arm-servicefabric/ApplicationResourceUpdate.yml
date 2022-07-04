@@ -11,6 +11,6 @@ syntax: >-
   type ApplicationResourceUpdate = ProxyResource & { managedIdentities?:
   ApplicationUserAssignedIdentity[], maximumNodes?: undefined | number,
   metrics?: ApplicationMetricDescription[], minimumNodes?: undefined | number,
-  parameters?: undefined | [key: string]: string, removeApplicationCapacity?:
+  parameters?: undefined | {[key: string]: string}, removeApplicationCapacity?:
   undefined | false | true, typeVersion?: undefined | string, upgradePolicy?:
   ApplicationUpgradePolicy }

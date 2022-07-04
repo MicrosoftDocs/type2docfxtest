@@ -87,7 +87,7 @@ inheritedProperties:
         description: ''
         type: '"peekLock" | "receiveAndDelete"'
 inheritedMethods:
-  - name: 'abandonMessage(ServiceBusReceivedMessage, [key: string]: any)'
+  - name: 'abandonMessage(ServiceBusReceivedMessage, {[key: string]: any})'
     uid: '@azure/service-bus.ServiceBusSessionReceiver.abandonMessage'
     package: '@azure/service-bus'
     summary: >-
@@ -101,13 +101,13 @@ inheritedMethods:
     syntax:
       content: >-
         function abandonMessage(message: ServiceBusReceivedMessage,
-        propertiesToModify?: [key: string]: any): Promise<void>
+        propertiesToModify?: {[key: string]: any}): Promise<void>
       parameters:
         - id: message
           type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
           description: ''
         - id: propertiesToModify
-          type: '[key: string]\: any'
+          type: '{[key: string]: any}'
           description: >
             The properties of the message to modify while abandoning the
             message.
@@ -151,8 +151,8 @@ inheritedMethods:
         description: ''
         type: Promise&lt;void&gt;
   - name: >-
-      deadLetterMessage(ServiceBusReceivedMessage, DeadLetterOptions & [key:
-      string]: any)
+      deadLetterMessage(ServiceBusReceivedMessage, DeadLetterOptions & {[key:
+      string]: any})
     uid: '@azure/service-bus.ServiceBusSessionReceiver.deadLetterMessage'
     package: '@azure/service-bus'
     summary: >-
@@ -167,22 +167,22 @@ inheritedMethods:
     syntax:
       content: >-
         function deadLetterMessage(message: ServiceBusReceivedMessage, options?:
-        DeadLetterOptions & [key: string]: any): Promise<void>
+        DeadLetterOptions & {[key: string]: any}): Promise<void>
       parameters:
         - id: message
           type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
           description: ''
         - id: options
           type: >-
-            <xref uid="@azure/service-bus.DeadLetterOptions" /> & [key: string]:
-            any
+            <xref uid="@azure/service-bus.DeadLetterOptions" /> & {[key:
+            string]: any}
           description: |
             The DeadLetter options that can be provided while
             rejecting the message.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: 'deferMessage(ServiceBusReceivedMessage, [key: string]: any)'
+  - name: 'deferMessage(ServiceBusReceivedMessage, {[key: string]: any})'
     uid: '@azure/service-bus.ServiceBusSessionReceiver.deferMessage'
     package: '@azure/service-bus'
     summary: >-
@@ -197,13 +197,13 @@ inheritedMethods:
     syntax:
       content: >-
         function deferMessage(message: ServiceBusReceivedMessage,
-        propertiesToModify?: [key: string]: any): Promise<void>
+        propertiesToModify?: {[key: string]: any}): Promise<void>
       parameters:
         - id: message
           type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
           description: ''
         - id: propertiesToModify
-          type: '[key: string]\: any'
+          type: '{[key: string]: any}'
           description: |
             The properties of the message to modify while deferring the message
       return:

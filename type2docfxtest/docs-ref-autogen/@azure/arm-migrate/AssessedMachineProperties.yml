@@ -145,12 +145,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'disks?: undefined | [key: string]: AssessedDisk'
+      content: 'disks?: undefined | {[key: string]: AssessedDisk}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref uid="@azure/arm-migrate.AssessedDisk"
-          />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-migrate.AssessedDisk" />}
   - name: displayName
     uid: '@azure/arm-migrate.AssessedMachineProperties.displayName'
     package: '@azure/arm-migrate'
@@ -309,12 +309,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'networkAdapters?: undefined | [key: string]: AssessedNetworkAdapter'
+      content: 'networkAdapters?: undefined | {[key: string]: AssessedNetworkAdapter}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-migrate.AssessedNetworkAdapter" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-migrate.AssessedNetworkAdapter" />}
   - name: numberOfCores
     uid: '@azure/arm-migrate.AssessedMachineProperties.numberOfCores'
     package: '@azure/arm-migrate'

@@ -18,5 +18,5 @@ syntax: >-
   undefined | string, replicasPerMaster?: undefined | number,
   replicasPerPrimary?: undefined | number, shardCount?: undefined | number, sku:
   Sku, sslPort?: undefined | number, staticIP?: undefined | string, subnetId?:
-  undefined | string, tenantSettings?: undefined | [key: string]: string,
+  undefined | string, tenantSettings?: undefined | {[key: string]: string},
   zones?: string[] }

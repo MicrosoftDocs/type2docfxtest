@@ -33,10 +33,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'headers: [key: string]: string'
+      content: 'headers: {[key: string]: string}'
       return:
         description: ''
-        type: '[key: string]\: string'
+        type: '{[key: string]: string}'
   - name: statusCode
     uid: '@azure/core-lro.RawResponse.statusCode'
     package: '@azure/core-lro'

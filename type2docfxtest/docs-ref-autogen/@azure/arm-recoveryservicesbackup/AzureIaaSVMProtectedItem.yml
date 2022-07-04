@@ -11,8 +11,8 @@ syntax: >-
   type AzureIaaSVMProtectedItem = ProtectedItem & { extendedInfo?:
   AzureIaaSVMProtectedItemExtendedInfo, extendedProperties?: ExtendedProperties,
   friendlyName?: undefined | string, healthDetails?: AzureIaaSVMHealthDetails[],
-  healthStatus?: HealthStatus, kpisHealths?: undefined | [key: string]:
-  KPIResourceHealthDetails, lastBackupStatus?: undefined | string,
+  healthStatus?: HealthStatus, kpisHealths?: undefined | {[key: string]:
+  KPIResourceHealthDetails}, lastBackupStatus?: undefined | string,
   lastBackupTime?: Date, protectedItemDataId?: undefined | string,
   protectedItemType: "AzureIaaSVMProtectedItem" |
   "Microsoft.ClassicCompute/virtualMachines" |

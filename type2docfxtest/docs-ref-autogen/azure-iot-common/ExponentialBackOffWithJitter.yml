@@ -20,7 +20,7 @@ constructors:
     package: azure-iot-common
     summary: >-
       Initializes a new instance of the
-      <xref:azure-iot-common.ExponentialBackOffWithJitter> class.
+      azure-iot-common.ExponentialBackOffWithJitter class.
     remarks: ''
     isPreview: false
     isDeprecated: false

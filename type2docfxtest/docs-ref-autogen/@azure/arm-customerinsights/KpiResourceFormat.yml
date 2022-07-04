@@ -10,8 +10,8 @@ isDeprecated: false
 syntax: >-
   type KpiResourceFormat = ProxyResource & { aliases?: KpiAlias[],
   calculationWindow?: CalculationWindowTypes, calculationWindowFieldName?:
-  undefined | string, description?: undefined | [key: string]: string,
-  displayName?: undefined | [key: string]: string, entityType?: EntityTypes,
+  undefined | string, description?: undefined | {[key: string]: string},
+  displayName?: undefined | {[key: string]: string}, entityType?: EntityTypes,
   entityTypeName?: undefined | string, expression?: undefined | string,
   extracts?: KpiExtract[], filter?: undefined | string, function?: KpiFunctions,
   groupBy?: string[], groupByMetadata?: KpiGroupByMetadata[], kpiName?:

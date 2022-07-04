@@ -23,13 +23,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        applicationHealthPolicies?: undefined | [key: string]:
-        ApplicationHealthPolicy
+        applicationHealthPolicies?: undefined | {[key: string]:
+        ApplicationHealthPolicy}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-servicefabric.ApplicationHealthPolicy" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-servicefabric.ApplicationHealthPolicy" />}
   - name: maxPercentUnhealthyApplications
     uid: >-
       @azure/arm-servicefabric.ClusterHealthPolicy.maxPercentUnhealthyApplications

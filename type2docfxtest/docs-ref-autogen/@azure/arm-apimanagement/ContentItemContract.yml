@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type ContentItemContract = Resource & { properties?: undefined | [key:
-  string]: Record }
+  type ContentItemContract = Resource & { properties?: undefined | {[key:
+  string]: Record} }

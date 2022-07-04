@@ -19,5 +19,5 @@ syntax: >-
   string, modelDescription?: undefined | string, nodeCount?: undefined | number,
   resourceMoveDetails?: ResourceMoveDetails, serialNumber?: undefined | string,
   sku?: Sku, systemData?: SystemData, systemDataPropertiesSystemData?:
-  SystemData, tags?: undefined | [key: string]: string, timeZone?: undefined |
+  SystemData, tags?: undefined | {[key: string]: string}, timeZone?: undefined |
   string }

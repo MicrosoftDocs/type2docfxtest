@@ -11,7 +11,7 @@ syntax: >-
   type ScriptExecution = ProxyResource & { errors?: string[], failureReason?:
   undefined | string, finishedAt?: Date, hiddenParameters?:
   ScriptExecutionParameterUnion[], information?: string[], namedOutputs?:
-  undefined | [key: string]: Record, output?: string[], parameters?:
+  undefined | {[key: string]: Record}, output?: string[], parameters?:
   ScriptExecutionParameterUnion[], provisioningState?:
   ScriptExecutionProvisioningState, retention?: undefined | string,
   scriptCmdletId?: undefined | string, startedAt?: Date, submittedAt?: Date,

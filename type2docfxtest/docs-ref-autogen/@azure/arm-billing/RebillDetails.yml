@@ -56,9 +56,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'rebillDetails?: undefined | [key: string]: RebillDetails'
+      content: 'rebillDetails?: undefined | {[key: string]: RebillDetails}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-billing.RebillDetails" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-billing.RebillDetails" />}

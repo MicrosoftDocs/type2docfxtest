@@ -10,7 +10,7 @@ isDeprecated: false
 syntax: >-
   type AzureVmWorkloadProtectedItem = ProtectedItem & { extendedInfo?:
   AzureVmWorkloadProtectedItemExtendedInfo, friendlyName?: undefined | string,
-  kpisHealths?: undefined | [key: string]: KPIResourceHealthDetails,
+  kpisHealths?: undefined | {[key: string]: KPIResourceHealthDetails},
   lastBackupErrorDetail?: ErrorDetail, lastBackupStatus?: LastBackupStatus,
   lastBackupTime?: Date, parentName?: undefined | string, parentType?: undefined
   | string, protectedItemDataSourceId?: undefined | string,

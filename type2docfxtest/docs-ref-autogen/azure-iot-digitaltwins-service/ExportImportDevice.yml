@@ -175,10 +175,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | [key: string]: any'
+      content: 'tags?: undefined | {[key: string]: any}'
       return:
         description: ''
-        type: 'undefined | [key: string]: any'
+        type: 'undefined | {[key: string]: any}'
   - name: twinETag
     uid: azure-iot-digitaltwins-service.ExportImportDevice.twinETag
     package: azure-iot-digitaltwins-service

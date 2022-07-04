@@ -22,10 +22,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'dependencyStatus?: undefined | [key: string]: Record'
+      content: 'dependencyStatus?: undefined | {[key: string]: Record}'
       return:
         description: ''
-        type: 'undefined | [key: string]: Record'
+        type: 'undefined | {[key: string]: Record}'
   - name: message
     uid: '@azure/arm-datafactory.TriggerRun.message'
     package: '@azure/arm-datafactory'
@@ -57,10 +57,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: undefined | [key: string]: string'
+      content: 'properties?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: runDimension
     uid: '@azure/arm-datafactory.TriggerRun.runDimension'
     package: '@azure/arm-datafactory'
@@ -74,10 +74,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'runDimension?: undefined | [key: string]: string'
+      content: 'runDimension?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: status
     uid: '@azure/arm-datafactory.TriggerRun.status'
     package: '@azure/arm-datafactory'
@@ -108,10 +108,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'triggeredPipelines?: undefined | [key: string]: string'
+      content: 'triggeredPipelines?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: triggerName
     uid: '@azure/arm-datafactory.TriggerRun.triggerName'
     package: '@azure/arm-datafactory'

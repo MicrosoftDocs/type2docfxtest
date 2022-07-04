@@ -3,14 +3,14 @@ name: DeviceMethodResponse
 uid: azure-iot-device.DeviceMethodResponse
 package: azure-iot-device
 summary: >-
-  a <xref:azure-iot-device.DeviceMethodResponse> object is provided to the user
-  with each <xref:azure-iot-device.DeviceMethodRequest> allowing the user to
-  construct and send a
+  a azure-iot-device.DeviceMethodResponse object is provided to the user with
+  each azure-iot-device.DeviceMethodRequest allowing the user to construct and
+  send a
 
   well-formatted response back to the service for each device method call.
 
   An instance of this class is passed as the second parameter to the callback
-  registered via <xref:azure-iot-device.Client.onDeviceMethod>.
+  registered via azure-iot-device.Client.onDeviceMethod.
 fullName: DeviceMethodResponse
 remarks: ''
 isPreview: false

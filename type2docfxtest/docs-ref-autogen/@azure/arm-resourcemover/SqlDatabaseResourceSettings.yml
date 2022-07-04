@@ -9,5 +9,5 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type SqlDatabaseResourceSettings = ResourceSettings & { resourceType:
-  "Microsoft.Sql/servers/databases", tags?: undefined | [key: string]: string,
+  "Microsoft.Sql/servers/databases", tags?: undefined | {[key: string]: string},
   zoneRedundant?: ZoneRedundant }

@@ -10,4 +10,4 @@ isDeprecated: false
 syntax: >-
   type NetworkSecurityGroupResourceSettings = ResourceSettings & { resourceType:
   "Microsoft.Network/networkSecurityGroups", securityRules?: NsgSecurityRule[],
-  tags?: undefined | [key: string]: string }
+  tags?: undefined | {[key: string]: string} }

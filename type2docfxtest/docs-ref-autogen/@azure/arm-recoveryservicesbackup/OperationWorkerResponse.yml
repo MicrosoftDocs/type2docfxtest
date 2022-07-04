@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'headers?: undefined | [key: string]: function'
+      content: 'headers?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'
   - name: statusCode
     uid: '@azure/arm-recoveryservicesbackup.OperationWorkerResponse.statusCode'
     package: '@azure/arm-recoveryservicesbackup'

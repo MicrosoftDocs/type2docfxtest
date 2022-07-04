@@ -13,6 +13,6 @@ syntax: >-
   definition?: Record<string, unknown>, endpointsConfiguration?:
   FlowEndpointsConfiguration, identity?: ManagedServiceIdentity,
   integrationAccount?: ResourceReference, integrationServiceEnvironment?:
-  ResourceReference, parameters?: undefined | [key: string]: WorkflowParameter,
-  provisioningState?: WorkflowProvisioningState, sku?: Sku, state?:
-  WorkflowState, version?: undefined | string }
+  ResourceReference, parameters?: undefined | {[key: string]:
+  WorkflowParameter}, provisioningState?: WorkflowProvisioningState, sku?: Sku,
+  state?: WorkflowState, version?: undefined | string }

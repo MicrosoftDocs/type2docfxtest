@@ -48,12 +48,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'regions?: undefined | [key: string]: RegionsCapability'
+      content: 'regions?: undefined | {[key: string]: RegionsCapability}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-hdinsight.RegionsCapability" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-hdinsight.RegionsCapability" />}
   - name: versions
     uid: '@azure/arm-hdinsight.CapabilitiesResult.versions'
     package: '@azure/arm-hdinsight'
@@ -63,9 +63,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'versions?: undefined | [key: string]: VersionsCapability'
+      content: 'versions?: undefined | {[key: string]: VersionsCapability}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-hdinsight.VersionsCapability" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-hdinsight.VersionsCapability" />}

@@ -7,7 +7,7 @@ summary: >-
   method is called from the cloud.
 
   An instance of this class is passed to the callback registered via
-  <xref:azure-iot-device.Client.onDeviceMethod>.
+  azure-iot-device.Client.onDeviceMethod.
 fullName: DeviceMethodRequest
 remarks: ''
 isPreview: false

@@ -20,12 +20,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modeValuesInfo?: undefined | [key: string]: ModeValueInfo'
+      content: 'modeValuesInfo?: undefined | {[key: string]: ModeValueInfo}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-webservices.ModeValueInfo" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-webservices.ModeValueInfo" />}
   - name: name
     uid: '@azure/arm-webservices.ModuleAssetParameter.name'
     package: '@azure/arm-webservices'

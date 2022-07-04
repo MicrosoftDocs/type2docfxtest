@@ -10,8 +10,8 @@ isDeprecated: false
 syntax: >-
   type RoleAssignmentResourceFormat = ProxyResource & { assignmentName?:
   undefined | string, conflationPolicies?: ResourceSetDescription, connectors?:
-  ResourceSetDescription, description?: undefined | [key: string]: string,
-  displayName?: undefined | [key: string]: string, interactions?:
+  ResourceSetDescription, description?: undefined | {[key: string]: string},
+  displayName?: undefined | {[key: string]: string}, interactions?:
   ResourceSetDescription, kpis?: ResourceSetDescription, links?:
   ResourceSetDescription, principals?: AssignmentPrincipal[], profiles?:
   ResourceSetDescription, provisioningState?: ProvisioningStates,

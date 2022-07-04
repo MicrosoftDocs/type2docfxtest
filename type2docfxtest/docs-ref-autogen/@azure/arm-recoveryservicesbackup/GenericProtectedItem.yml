@@ -12,4 +12,4 @@ syntax: >-
   friendlyName?: undefined | string, policyState?: undefined | string,
   protectedItemId?: undefined | number, protectedItemType:
   "GenericProtectedItem", protectionState?: ProtectionState,
-  sourceAssociations?: undefined | [key: string]: string }
+  sourceAssociations?: undefined | {[key: string]: string} }

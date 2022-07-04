@@ -72,9 +72,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'userAssignedIdentities?: undefined | [key: string]: UserIdentity'
+      content: 'userAssignedIdentities?: undefined | {[key: string]: UserIdentity}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-recoveryservices.UserIdentity" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-recoveryservices.UserIdentity" />}

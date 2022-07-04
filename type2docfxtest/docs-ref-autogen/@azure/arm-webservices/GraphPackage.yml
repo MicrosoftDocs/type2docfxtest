@@ -35,12 +35,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'graphParameters?: undefined | [key: string]: GraphParameter'
+      content: 'graphParameters?: undefined | {[key: string]: GraphParameter}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-webservices.GraphParameter" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-webservices.GraphParameter" />}
   - name: nodes
     uid: '@azure/arm-webservices.GraphPackage.nodes'
     package: '@azure/arm-webservices'
@@ -52,9 +52,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'nodes?: undefined | [key: string]: GraphNode'
+      content: 'nodes?: undefined | {[key: string]: GraphNode}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-webservices.GraphNode" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-webservices.GraphNode" />}

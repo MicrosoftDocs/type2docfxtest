@@ -12,4 +12,4 @@ syntax: >-
   undefined | string, privateEndpoint?: PrivateEndpoint,
   privateLinkServiceConnectionState?: PrivateLinkServiceConnectionState,
   provisioningState?: PrivateEndpointConnectionProvisioningState, sku?: Sku,
-  systemData?: SystemData, tags?: undefined | [key: string]: string }
+  systemData?: SystemData, tags?: undefined | {[key: string]: string} }

@@ -9,15 +9,15 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type InteractionResourceFormat = ProxyResource & { apiEntitySetName?:
-  undefined | string, attributes?: undefined | [key: string]: function,
+  undefined | string, attributes?: undefined | {[key: string]: function},
   dataSourcePrecedenceRules?: DataSourcePrecedence[], dataSourceReferenceId?:
   undefined | string, dataSourceType?: DataSourceType, description?: undefined |
-  [key: string]: string, displayName?: undefined | [key: string]: string,
+  {[key: string]: string}, displayName?: undefined | {[key: string]: string},
   entityType?: EntityTypes, fields?: PropertyDefinition[],
   idPropertiesDefaultDataSourceId?: undefined | number, idPropertyNames?:
   string[], instancesCount?: undefined | number, isActivity?: undefined | false
   | true, largeImage?: undefined | string, lastChangedUtc?: Date,
-  localizedAttributes?: undefined | [key: string]: function, mediumImage?:
+  localizedAttributes?: undefined | {[key: string]: function}, mediumImage?:
   undefined | string, namePropertiesDefaultDataSourceName?: undefined | string,
   participantProfiles?: Participant[], primaryParticipantProfilePropertyName?:
   undefined | string, provisioningState?: ProvisioningStates,

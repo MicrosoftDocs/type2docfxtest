@@ -132,7 +132,7 @@ functions:
       return:
         description: ''
         type: Pipeline
-  - name: 'createSerializer([key: string]: any, boolean)'
+  - name: 'createSerializer({[key: string]: any}, boolean)'
     uid: '@azure/core-client.createSerializer'
     package: '@azure/core-client'
     summary: Method that creates and returns a Serializer.
@@ -141,11 +141,11 @@ functions:
     isDeprecated: false
     syntax:
       content: >-
-        function createSerializer(modelMappers?: [key: string]: any, isXML?:
+        function createSerializer(modelMappers?: {[key: string]: any}, isXML?:
         boolean): Serializer
       parameters:
         - id: modelMappers
-          type: '[key: string]\: any'
+          type: '{[key: string]: any}'
           description: Known models to map
         - id: isXML
           type: boolean

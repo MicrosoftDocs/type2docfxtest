@@ -13,4 +13,4 @@ syntax: >-
   FailoverGroupReadOnlyEndpoint, readWriteEndpoint?:
   FailoverGroupReadWriteEndpoint, replicationRole?:
   FailoverGroupReplicationRole, replicationState?: undefined | string, tags?:
-  undefined | [key: string]: string }
+  undefined | {[key: string]: string} }

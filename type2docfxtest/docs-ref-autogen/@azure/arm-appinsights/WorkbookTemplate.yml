@@ -48,10 +48,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'localized?: undefined | [key: string]: function'
+      content: 'localized?: undefined | {[key: string]: function}'
       return:
         description: ''
-        type: 'undefined | [key: string]: function'
+        type: 'undefined | {[key: string]: function}'
   - name: priority
     uid: '@azure/arm-appinsights.WorkbookTemplate.priority'
     package: '@azure/arm-appinsights'
@@ -139,10 +139,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | [key: string]: string'
+      content: 'tags?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: type
     uid: '@azure/arm-appinsights.WorkbookTemplate.type'
     package: '@azure/arm-appinsights'

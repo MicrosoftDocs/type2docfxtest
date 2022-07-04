@@ -10,4 +10,4 @@ isDeprecated: false
 syntax: >-
   type ExecutePowerQueryActivityTypeProperties =
   ExecuteDataFlowActivityTypeProperties & { queries?: PowerQuerySinkMapping[],
-  sinks?: undefined | [key: string]: PowerQuerySink }
+  sinks?: undefined | {[key: string]: PowerQuerySink} }

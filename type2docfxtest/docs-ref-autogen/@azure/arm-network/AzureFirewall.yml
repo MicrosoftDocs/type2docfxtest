@@ -8,8 +8,8 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type AzureFirewall = Resource & { additionalProperties?: undefined | [key:
-  string]: string, applicationRuleCollections?:
+  type AzureFirewall = Resource & { additionalProperties?: undefined | {[key:
+  string]: string}, applicationRuleCollections?:
   AzureFirewallApplicationRuleCollection[], etag?: undefined | string,
   firewallPolicy?: SubResource, hubIPAddresses?: HubIPAddresses,
   ipConfigurations?: AzureFirewallIPConfiguration[], ipGroups?:

@@ -80,10 +80,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        serviceTypeHealthPolicyMap?: undefined | [key: string]:
-        ArmServiceTypeHealthPolicy
+        serviceTypeHealthPolicyMap?: undefined | {[key: string]:
+        ArmServiceTypeHealthPolicy}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-servicefabric.ArmServiceTypeHealthPolicy" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-servicefabric.ArmServiceTypeHealthPolicy" />}

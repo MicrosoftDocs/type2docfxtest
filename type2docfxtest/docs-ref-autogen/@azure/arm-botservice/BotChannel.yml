@@ -122,10 +122,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | [key: string]: string'
+      content: 'tags?: undefined | {[key: string]: string}'
       return:
         description: ''
-        type: 'undefined | [key: string]: string'
+        type: 'undefined | {[key: string]: string}'
   - name: type
     uid: '@azure/arm-botservice.BotChannel.type'
     package: '@azure/arm-botservice'

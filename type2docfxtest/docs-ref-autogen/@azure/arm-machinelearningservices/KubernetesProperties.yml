@@ -60,12 +60,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'instanceTypes?: undefined | [key: string]: InstanceTypeSchema'
+      content: 'instanceTypes?: undefined | {[key: string]: InstanceTypeSchema}'
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-machinelearningservices.InstanceTypeSchema" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-machinelearningservices.InstanceTypeSchema" />}
   - name: namespace
     uid: '@azure/arm-machinelearningservices.KubernetesProperties.namespace'
     package: '@azure/arm-machinelearningservices'

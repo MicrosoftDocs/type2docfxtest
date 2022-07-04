@@ -193,10 +193,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'responses: [key: string]: OperationResponse'
+      content: 'responses: {[key: string]: OperationResponse}'
       return:
         description: ''
-        type: '[key: string]\: <xref uid="@azure/core-http.OperationResponse" />'
+        type: '{[key: string]: <xref uid="@azure/core-http.OperationResponse" />}'
   - name: serializer
     uid: '@azure/core-http.OperationSpec.serializer'
     package: '@azure/core-http'

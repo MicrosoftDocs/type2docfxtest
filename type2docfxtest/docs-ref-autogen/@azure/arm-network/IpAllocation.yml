@@ -8,8 +8,8 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type IpAllocation = Resource & { allocationTags?: undefined | [key: string]:
-  string, etag?: undefined | string, ipamAllocationId?: undefined | string,
+  type IpAllocation = Resource & { allocationTags?: undefined | {[key: string]:
+  string}, etag?: undefined | string, ipamAllocationId?: undefined | string,
   prefix?: undefined | string, prefixLength?: undefined | number, prefixType?:
   IPVersion, subnet?: SubResource, typePropertiesType?: IpAllocationType,
   virtualNetwork?: SubResource }

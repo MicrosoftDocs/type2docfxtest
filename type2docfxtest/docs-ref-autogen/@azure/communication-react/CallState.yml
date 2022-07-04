@@ -169,8 +169,8 @@ properties:
       <xref:%40azure%2Fcommunication-calling%23Call.remoteParticipants>.
 
       Object with
-      <xref:@azure/communication-react.CallState.screenShareRemoteParticipant>
-      fields keyed by flattened
+      <xref:@azure/communication-react.VideoGalleryRemoteParticipant> fields
+      keyed by flattened
       <xref:@azure/communication-react.RemoteParticipantState.identifier>.
 
       To obtain a flattened
@@ -182,12 +182,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'remoteParticipants: [key: string]: RemoteParticipantState'
+      content: 'remoteParticipants: {[key: string]: RemoteParticipantState}'
       return:
         description: ''
         type: >-
-          [key: string]\: <xref
-          uid="@azure/communication-react.RemoteParticipantState" />
+          {[key: string]: <xref
+          uid="@azure/communication-react.RemoteParticipantState" />}
   - name: remoteParticipantsEnded
     uid: '@azure/communication-react.CallState.remoteParticipantsEnded'
     package: '@azure/communication-react'
@@ -196,8 +196,8 @@ properties:
       callEndReason could be retrieved.
 
       Object with
-      <xref:@azure/communication-react.CallState.screenShareRemoteParticipant>
-      fields keyed by flattened
+      <xref:@azure/communication-react.VideoGalleryRemoteParticipant> fields
+      keyed by flattened
       <xref:@azure/communication-react.RemoteParticipantState.identifier>.
 
       To obtain a flattened
@@ -209,12 +209,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'remoteParticipantsEnded: [key: string]: RemoteParticipantState'
+      content: 'remoteParticipantsEnded: {[key: string]: RemoteParticipantState}'
       return:
         description: ''
         type: >-
-          [key: string]\: <xref
-          uid="@azure/communication-react.RemoteParticipantState" />
+          {[key: string]: <xref
+          uid="@azure/communication-react.RemoteParticipantState" />}
   - name: screenShareRemoteParticipant
     uid: '@azure/communication-react.CallState.screenShareRemoteParticipant'
     package: '@azure/communication-react'

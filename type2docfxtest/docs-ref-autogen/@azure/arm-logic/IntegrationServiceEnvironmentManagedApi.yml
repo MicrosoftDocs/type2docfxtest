@@ -11,7 +11,7 @@ syntax: >-
   type IntegrationServiceEnvironmentManagedApi = Resource & { apiDefinitionUrl?:
   undefined | string, apiDefinitions?: ApiResourceDefinitions, backendService?:
   ApiResourceBackendService, capabilities?: string[], category?: ApiTier,
-  connectionParameters?: undefined | [key: string]: Record,
+  connectionParameters?: undefined | {[key: string]: Record},
   deploymentParameters?:
   IntegrationServiceEnvironmentManagedApiDeploymentParameters,
   generalInformation?: ApiResourceGeneralInformation,

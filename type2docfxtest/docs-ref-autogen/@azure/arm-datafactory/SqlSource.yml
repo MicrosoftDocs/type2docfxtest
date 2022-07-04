@@ -12,5 +12,5 @@ syntax: >-
   partitionOption?: Record<string, unknown>, partitionSettings?:
   SqlPartitionSettings, sqlReaderQuery?: Record<string, unknown>,
   sqlReaderStoredProcedureName?: Record<string, unknown>,
-  storedProcedureParameters?: undefined | [key: string]:
-  StoredProcedureParameter, type: "SqlSource" }
+  storedProcedureParameters?: undefined | {[key: string]:
+  StoredProcedureParameter}, type: "SqlSource" }

@@ -11,7 +11,7 @@ syntax: >-
   type ApiManagementServiceResource = ApimResource & { additionalLocations?:
   AdditionalLocation[], apiVersionConstraint?: ApiVersionConstraint,
   certificates?: CertificateConfiguration[], createdAtUtc?: Date,
-  customProperties?: undefined | [key: string]: string, developerPortalUrl?:
+  customProperties?: undefined | {[key: string]: string}, developerPortalUrl?:
   undefined | string, disableGateway?: undefined | false | true,
   enableClientCertificate?: undefined | false | true, etag?: undefined | string,
   gatewayRegionalUrl?: undefined | string, gatewayUrl?: undefined | string,

@@ -16,13 +16,13 @@ syntax: >-
   logStorageAccountId?: undefined | string, masterTargetId?: undefined | string,
   multiVmGroupId?: undefined | string, multiVmGroupName?: undefined | string,
   processServerId?: undefined | string, runAsAccountId?: undefined | string,
-  seedManagedDiskTags?: undefined | [key: string]: string,
+  seedManagedDiskTags?: undefined | {[key: string]: string},
   sqlServerLicenseType?: SqlServerLicenseType, storageAccountId?: undefined |
   string, targetAvailabilitySetId?: undefined | string, targetAvailabilityZone?:
   undefined | string, targetAzureNetworkId?: undefined | string,
   targetAzureSubnetId?: undefined | string, targetAzureV1ResourceGroupId?:
   undefined | string, targetAzureV2ResourceGroupId?: undefined | string,
   targetAzureVmName?: undefined | string, targetManagedDiskTags?: undefined |
-  [key: string]: string, targetNicTags?: undefined | [key: string]: string,
+  {[key: string]: string}, targetNicTags?: undefined | {[key: string]: string},
   targetProximityPlacementGroupId?: undefined | string, targetVmSize?: undefined
-  | string, targetVmTags?: undefined | [key: string]: string }
+  | string, targetVmTags?: undefined | {[key: string]: string} }

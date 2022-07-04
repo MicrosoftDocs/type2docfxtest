@@ -91,10 +91,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'meterRates?: undefined | [key: string]: number'
+      content: 'meterRates?: undefined | {[key: string]: number}'
       return:
         description: ''
-        type: 'undefined | [key: string]: number'
+        type: 'undefined | {[key: string]: number}'
   - name: meterRegion
     uid: '@azure/arm-commerce.MeterInfo.meterRegion'
     package: '@azure/arm-commerce'

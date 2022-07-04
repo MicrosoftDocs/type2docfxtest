@@ -56,10 +56,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'calls: [key: string]: CallState'
+      content: 'calls: {[key: string]: CallState}'
       return:
         description: ''
-        type: '[key: string]\: <xref uid="@azure/communication-react.CallState" />'
+        type: '{[key: string]: <xref uid="@azure/communication-react.CallState" />}'
   - name: callsEnded
     uid: '@azure/communication-react.CallClientState.callsEnded'
     package: '@azure/communication-react'
@@ -77,10 +77,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'callsEnded: [key: string]: CallState'
+      content: 'callsEnded: {[key: string]: CallState}'
       return:
         description: ''
-        type: '[key: string]\: <xref uid="@azure/communication-react.CallState" />'
+        type: '{[key: string]: <xref uid="@azure/communication-react.CallState" />}'
   - name: deviceManager
     uid: '@azure/communication-react.CallClientState.deviceManager'
     package: '@azure/communication-react'
@@ -109,12 +109,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'incomingCalls: [key: string]: IncomingCallState'
+      content: 'incomingCalls: {[key: string]: IncomingCallState}'
       return:
         description: ''
         type: >-
-          [key: string]\: <xref
-          uid="@azure/communication-react.IncomingCallState" />
+          {[key: string]: <xref
+          uid="@azure/communication-react.IncomingCallState" />}
   - name: incomingCallsEnded
     uid: '@azure/communication-react.CallClientState.incomingCallsEnded'
     package: '@azure/communication-react'
@@ -133,12 +133,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'incomingCallsEnded: [key: string]: IncomingCallState'
+      content: 'incomingCallsEnded: {[key: string]: IncomingCallState}'
       return:
         description: ''
         type: >-
-          [key: string]\: <xref
-          uid="@azure/communication-react.IncomingCallState" />
+          {[key: string]: <xref
+          uid="@azure/communication-react.IncomingCallState" />}
   - name: latestErrors
     uid: '@azure/communication-react.CallClientState.latestErrors'
     package: '@azure/communication-react'

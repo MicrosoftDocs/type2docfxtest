@@ -23,13 +23,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        applicationDeltaHealthPolicies?: undefined | [key: string]:
-        ApplicationDeltaHealthPolicy
+        applicationDeltaHealthPolicies?: undefined | {[key: string]:
+        ApplicationDeltaHealthPolicy}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-servicefabric.ApplicationDeltaHealthPolicy" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-servicefabric.ApplicationDeltaHealthPolicy" />}
   - name: maxPercentDeltaUnhealthyApplications
     uid: >-
       @azure/arm-servicefabric.ClusterUpgradeDeltaHealthPolicy.maxPercentDeltaUnhealthyApplications

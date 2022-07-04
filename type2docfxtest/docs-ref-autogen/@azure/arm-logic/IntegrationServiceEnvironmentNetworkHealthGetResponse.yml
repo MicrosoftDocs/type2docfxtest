@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type IntegrationServiceEnvironmentNetworkHealthGetResponse = [key: string]:
-  IntegrationServiceEnvironmentSubnetNetworkHealth
+  type IntegrationServiceEnvironmentNetworkHealthGetResponse = {[key: string]:
+  IntegrationServiceEnvironmentSubnetNetworkHealth}

@@ -12,9 +12,9 @@ syntax: >-
   undefined | string, alertUri?: undefined | string, compromisedEntity?:
   undefined | string, correlationKey?: undefined | string, description?:
   undefined | string, endTimeUtc?: Date, entities?: AlertEntity[],
-  extendedLinks?: [key: string]: string[], extendedProperties?: undefined |
-  [key: string]: string, intent?: Intent, isIncident?: undefined | false | true,
-  processingEndTimeUtc?: Date, productComponentName?: undefined | string,
+  extendedLinks?: {[key: string]: string}[], extendedProperties?: undefined |
+  {[key: string]: string}, intent?: Intent, isIncident?: undefined | false |
+  true, processingEndTimeUtc?: Date, productComponentName?: undefined | string,
   productName?: undefined | string, remediationSteps?: string[],
   resourceIdentifiers?: ResourceIdentifierUnion[], severity?: AlertSeverity,
   startTimeUtc?: Date, status?: AlertStatus, systemAlertId?: undefined | string,

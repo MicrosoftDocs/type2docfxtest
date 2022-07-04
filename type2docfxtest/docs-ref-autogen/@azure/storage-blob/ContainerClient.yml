@@ -471,7 +471,7 @@ methods:
   - name: getBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:@azure/storage-blob.AppendBlobClient>'
+    summary: 'Creates a <xref:@azure/storage-blob.BlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -488,8 +488,8 @@ methods:
     uid: '@azure/storage-blob.ContainerClient.getBlobLeaseClient'
     package: '@azure/storage-blob'
     summary: >-
-      Get a <xref:@azure/storage-blob.AppendBlobClient.getBlobLeaseClient> that
-      manages leases on the container.
+      Get a <xref:@azure/storage-blob.BlobLeaseClient> that manages leases on
+      the container.
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -505,7 +505,7 @@ methods:
   - name: getBlockBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getBlockBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:@azure/storage-blob.AppendBlobClient.getBlockBlobClient>'
+    summary: 'Creates a <xref:@azure/storage-blob.BlockBlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -540,7 +540,7 @@ methods:
   - name: getPageBlobClient(string)
     uid: '@azure/storage-blob.ContainerClient.getPageBlobClient'
     package: '@azure/storage-blob'
-    summary: 'Creates a <xref:@azure/storage-blob.AppendBlobClient.getPageBlobClient>'
+    summary: 'Creates a <xref:@azure/storage-blob.PageBlobClient>'
     remarks: ''
     isPreview: false
     isDeprecated: false

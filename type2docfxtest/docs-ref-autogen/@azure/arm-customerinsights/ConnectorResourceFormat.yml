@@ -10,7 +10,7 @@ isDeprecated: false
 syntax: >-
   type ConnectorResourceFormat = ProxyResource & { connectorId?: undefined |
   number, connectorName?: undefined | string, connectorProperties?: undefined |
-  [key: string]: Record, connectorType?: ConnectorTypes, created?: Date,
+  {[key: string]: Record}, connectorType?: ConnectorTypes, created?: Date,
   description?: undefined | string, displayName?: undefined | string,
   isInternal?: undefined | false | true, lastModified?: Date, state?:
   ConnectorStates, tenantId?: undefined | string }

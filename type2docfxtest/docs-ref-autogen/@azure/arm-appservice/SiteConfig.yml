@@ -148,12 +148,14 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'azureStorageAccounts?: undefined | [key: string]: AzureStorageInfoValue'
+      content: >-
+        azureStorageAccounts?: undefined | {[key: string]:
+        AzureStorageInfoValue}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-appservice.AzureStorageInfoValue" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-appservice.AzureStorageInfoValue" />}
   - name: connectionStrings
     uid: '@azure/arm-appservice.SiteConfig.connectionStrings'
     package: '@azure/arm-appservice'

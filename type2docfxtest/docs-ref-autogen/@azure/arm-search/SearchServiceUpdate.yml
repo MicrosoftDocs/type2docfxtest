@@ -15,4 +15,4 @@ syntax: >-
   publicNetworkAccess?: PublicNetworkAccess, replicaCount?: undefined | number,
   sharedPrivateLinkResources?: SharedPrivateLinkResource[], sku?: Sku, status?:
   SearchServiceStatus, statusDetails?: undefined | string, tags?: undefined |
-  [key: string]: string }
+  {[key: string]: string} }

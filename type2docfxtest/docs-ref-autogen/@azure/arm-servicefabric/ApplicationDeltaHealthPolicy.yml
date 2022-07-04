@@ -40,10 +40,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        serviceTypeDeltaHealthPolicies?: undefined | [key: string]:
-        ServiceTypeDeltaHealthPolicy
+        serviceTypeDeltaHealthPolicies?: undefined | {[key: string]:
+        ServiceTypeDeltaHealthPolicy}
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-servicefabric.ServiceTypeDeltaHealthPolicy" />
+          undefined | {[key: string]: <xref
+          uid="@azure/arm-servicefabric.ServiceTypeDeltaHealthPolicy" />}

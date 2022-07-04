@@ -15,6 +15,6 @@ syntax: >-
   "AzureWorkloadSAPHanaPointInTimeRecoveryPoint" |
   "AzureWorkloadSAPHanaRecoveryPoint" | "AzureWorkloadSQLRecoveryPoint" |
   "AzureWorkloadSQLPointInTimeRecoveryPoint", recoveryPointMoveReadinessInfo?:
-  undefined | [key: string]: RecoveryPointMoveReadinessInfo,
+  undefined | {[key: string]: RecoveryPointMoveReadinessInfo},
   recoveryPointTierDetails?: RecoveryPointTierInformationV2[],
   recoveryPointTimeInUTC?: Date, type?: RestorePointType }

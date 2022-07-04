@@ -9,4 +9,4 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type ConnectionStringDictionary = ProxyOnlyResource & { properties?: undefined
-  | [key: string]: ConnStringValueTypePair }
+  | {[key: string]: ConnStringValueTypePair} }

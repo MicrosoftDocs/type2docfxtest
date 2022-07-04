@@ -2,9 +2,7 @@
 name: KnownEnum17
 uid: '@azure/arm-security.KnownEnum17'
 package: '@azure/arm-security'
-summary: >-
-  Known values of <xref:@azure/arm-security.KnownEnum17> that the service
-  accepts.
+summary: 'Known values of <xref:@azure/arm-security.Enum17> that the service accepts.'
 fullName: KnownEnum17
 remarks: ''
 isPreview: false

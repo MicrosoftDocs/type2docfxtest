@@ -189,10 +189,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'query?: [key: string]: any'
+      content: 'query?: {[key: string]: any}'
       return:
         description: ''
-        type: '[key: string]\: any'
+        type: '{[key: string]: any}'
   - name: requestId
     uid: '@azure/core-http.WebResourceLike.requestId'
     package: '@azure/core-http'
