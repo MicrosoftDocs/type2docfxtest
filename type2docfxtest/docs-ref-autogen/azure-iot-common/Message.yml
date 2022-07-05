@@ -3,8 +3,8 @@ name: Message
 uid: azure-iot-common.Message
 package: azure-iot-common
 summary: >-
-  The azure-iot-common.Message object is used for telemetry (device-to-cloud)
-  and commands (cloud-to-device) asynchronous
+  The <xref:azure-iot-common.Message> object is used for telemetry
+  (device-to-cloud) and commands (cloud-to-device) asynchronous
 
   messaging between the device and the IoT Hub service. It is
   transport-agnostic, meaning it works the same way over AMQP, MQTT and HTTP.
@@ -17,7 +17,7 @@ constructors:
   - name: Message(Message.BufferConvertible)
     uid: azure-iot-common.Message.constructor
     package: azure-iot-common
-    summary: Creates a new azure-iot-common.Message object
+    summary: 'Creates a new <xref:azure-iot-common.Message> object'
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -217,7 +217,7 @@ methods:
   - name: getData()
     uid: azure-iot-common.Message.getData
     package: azure-iot-common
-    summary: Gets the content (body) of the azure-iot-common.Message.
+    summary: 'Gets the content (body) of the <xref:azure-iot-common.Message>.'
     remarks: ''
     isPreview: false
     isDeprecated: false

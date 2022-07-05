@@ -3,8 +3,8 @@ name: ExponentialBackoffWithJitterParameters
 uid: azure-iot-common.ExponentialBackoffWithJitterParameters
 package: azure-iot-common
 summary: >-
-  Parameters used with the azure-iot-common.ExponentialBackOffWithJitter policy
-  to compute retry intervals.
+  Parameters used with the <xref:azure-iot-common.ExponentialBackOffWithJitter>
+  policy to compute retry intervals.
 fullName: ExponentialBackoffWithJitterParameters
 remarks: ''
 isPreview: false

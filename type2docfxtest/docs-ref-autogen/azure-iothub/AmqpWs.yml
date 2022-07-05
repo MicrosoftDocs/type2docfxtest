@@ -7,7 +7,7 @@ summary: >-
   connect to the Azure IoT hub using the AMQP protocol over secure websockets.
 
   This class should not be used directly and instead be passed to one of the
-  azure-iothub.Client factory methods:
+  <xref:azure-iothub.Client> factory methods:
   [fromConnectionString](xref:azure-iothub.Client.fromConnectionString) or
   [fromSharedAccessSignature](xref:azure-iothub.Client.fromSharedAccessSignature).
 fullName: AmqpWs

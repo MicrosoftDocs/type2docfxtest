@@ -8,7 +8,7 @@ summary: >-
   socket.
 
   This class should not be used directly and instead be passed to one of the
-  azure-iothub.Client factory methods:
+  <xref:azure-iothub.Client> factory methods:
   [fromConnectionString](xref:azure-iothub.Client.fromConnectionString) or
   [fromSharedAccessSignature](xref:azure-iothub.Client.fromSharedAccessSignature).
 fullName: Amqp
