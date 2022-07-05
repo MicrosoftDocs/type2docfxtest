@@ -3682,7 +3682,7 @@ methods:
         type: Promise&lt;<xref uid="Models.QuerySuggestedImageCountResponse" />&gt;
   - name: >-
       querySuggestedImageCount(string, string, TagFilter, RequestOptionsBase,
-      ServiceCallback<{[key: string]: number}>)
+      ServiceCallback<[key: string]: number>)
     uid: >-
       @azure/cognitiveservices-customvision-training.TrainingAPIClient.querySuggestedImageCount_2
     package: '@azure/cognitiveservices-customvision-training'
@@ -3694,7 +3694,7 @@ methods:
       content: >-
         function querySuggestedImageCount(projectId: string, iterationId:
         string, query: TagFilter, options: RequestOptionsBase, callback:
-        ServiceCallback<{[key: string]: number}>)
+        ServiceCallback<[key: string]: number>)
       parameters:
         - id: projectId
           type: string
@@ -3711,12 +3711,12 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: 'ServiceCallback&lt;{[key: string]: number}&gt;'
+          type: 'ServiceCallback&lt;[key: string]: number&gt;'
           description: |
             The callback
   - name: >-
-      querySuggestedImageCount(string, string, TagFilter, ServiceCallback<{[key:
-      string]: number}>)
+      querySuggestedImageCount(string, string, TagFilter, ServiceCallback<[key:
+      string]: number>)
     uid: >-
       @azure/cognitiveservices-customvision-training.TrainingAPIClient.querySuggestedImageCount_1
     package: '@azure/cognitiveservices-customvision-training'
@@ -3727,8 +3727,8 @@ methods:
     syntax:
       content: >-
         function querySuggestedImageCount(projectId: string, iterationId:
-        string, query: TagFilter, callback: ServiceCallback<{[key: string]:
-        number}>)
+        string, query: TagFilter, callback: ServiceCallback<[key: string]:
+        number>)
       parameters:
         - id: projectId
           type: string
@@ -3742,7 +3742,7 @@ methods:
             />
           description: 'Model that contains tagIds, threshold and projectType to query by.'
         - id: callback
-          type: 'ServiceCallback&lt;{[key: string]: number}&gt;'
+          type: 'ServiceCallback&lt;[key: string]: number&gt;'
           description: |
             The callback
   - name: >-
@@ -4328,7 +4328,7 @@ methods:
           description: |
             The callback
   - name: >-
-      updateImageMetadata(string, string[], {[key: string]: string},
+      updateImageMetadata(string, string[], [key: string]: string,
       msRest.RequestOptionsBase)
     uid: >-
       @azure/cognitiveservices-customvision-training.TrainingAPIClient.updateImageMetadata
@@ -4344,7 +4344,7 @@ methods:
     syntax:
       content: >-
         function updateImageMetadata(projectId: string, imageIds: string[],
-        metadata: {[key: string]: string}, options?: msRest.RequestOptionsBase):
+        metadata: [key: string]: string, options?: msRest.RequestOptionsBase):
         Promise<Models.UpdateImageMetadataResponse>
       parameters:
         - id: projectId
@@ -4354,7 +4354,7 @@ methods:
           type: 'string[]'
           description: The list of image ids to update. Limited to 64.
         - id: metadata
-          type: '{[key: string]: string}'
+          type: '[key: string]\: string'
           description: >-
             The metadata to be updated to the specified images. Limited to 10
             key-value
@@ -4368,7 +4368,7 @@ methods:
         description: Promise<Models.UpdateImageMetadataResponse>
         type: Promise&lt;<xref uid="Models.UpdateImageMetadataResponse" />&gt;
   - name: >-
-      updateImageMetadata(string, string[], {[key: string]: string},
+      updateImageMetadata(string, string[], [key: string]: string,
       RequestOptionsBase, ServiceCallback<ImageMetadataUpdateSummary>)
     uid: >-
       @azure/cognitiveservices-customvision-training.TrainingAPIClient.updateImageMetadata_2
@@ -4380,8 +4380,8 @@ methods:
     syntax:
       content: >-
         function updateImageMetadata(projectId: string, imageIds: string[],
-        metadata: {[key: string]: string}, options: RequestOptionsBase,
-        callback: ServiceCallback<ImageMetadataUpdateSummary>)
+        metadata: [key: string]: string, options: RequestOptionsBase, callback:
+        ServiceCallback<ImageMetadataUpdateSummary>)
       parameters:
         - id: projectId
           type: string
@@ -4390,7 +4390,7 @@ methods:
           type: 'string[]'
           description: The list of image ids to update. Limited to 64.
         - id: metadata
-          type: '{[key: string]: string}'
+          type: '[key: string]\: string'
           description: >-
             The metadata to be updated to the specified images. Limited to 10
             key-value
@@ -4408,7 +4408,7 @@ methods:
           description: |
             The callback
   - name: >-
-      updateImageMetadata(string, string[], {[key: string]: string},
+      updateImageMetadata(string, string[], [key: string]: string,
       ServiceCallback<ImageMetadataUpdateSummary>)
     uid: >-
       @azure/cognitiveservices-customvision-training.TrainingAPIClient.updateImageMetadata_1
@@ -4420,7 +4420,7 @@ methods:
     syntax:
       content: >-
         function updateImageMetadata(projectId: string, imageIds: string[],
-        metadata: {[key: string]: string}, callback:
+        metadata: [key: string]: string, callback:
         ServiceCallback<ImageMetadataUpdateSummary>)
       parameters:
         - id: projectId
@@ -4430,7 +4430,7 @@ methods:
           type: 'string[]'
           description: The list of image ids to update. Limited to 64.
         - id: metadata
-          type: '{[key: string]: string}'
+          type: '[key: string]\: string'
           description: >-
             The metadata to be updated to the specified images. Limited to 10
             key-value

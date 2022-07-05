@@ -10,5 +10,5 @@ isDeprecated: false
 syntax: >-
   type WebJob = ProxyOnlyResource & { error?: undefined | string, extraInfoUrl?:
   undefined | string, runCommand?: undefined | string, settings?: undefined |
-  {[key: string]: Record}, url?: undefined | string, usingSdk?: undefined |
-  false | true, webJobType?: WebJobType }
+  [key: string]: Record, url?: undefined | string, usingSdk?: undefined | false
+  | true, webJobType?: WebJobType }

@@ -23,10 +23,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'agentJobs?: undefined | {[key: string]: string}'
+      content: 'agentJobs?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: databases
     uid: >-
       @azure/arm-datamigration.MigrateSqlServerSqlMITaskOutputMigrationLevel.databases
@@ -41,10 +41,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'databases?: undefined | {[key: string]: string}'
+      content: 'databases?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: endedOn
     uid: >-
       @azure/arm-datamigration.MigrateSqlServerSqlMITaskOutputMigrationLevel.endedOn
@@ -112,10 +112,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'logins?: undefined | {[key: string]: string}'
+      content: 'logins?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: message
     uid: >-
       @azure/arm-datamigration.MigrateSqlServerSqlMITaskOutputMigrationLevel.message
@@ -181,14 +181,14 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        serverRoleResults?: undefined | {[key: string]:
-        StartMigrationScenarioServerRoleResult}
+        serverRoleResults?: undefined | [key: string]:
+        StartMigrationScenarioServerRoleResult
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
+          undefined | [key: string]: <xref
           uid="@azure/arm-datamigration.StartMigrationScenarioServerRoleResult"
-          />}
+          />
   - name: sourceServerBrandVersion
     uid: >-
       @azure/arm-datamigration.MigrateSqlServerSqlMITaskOutputMigrationLevel.sourceServerBrandVersion

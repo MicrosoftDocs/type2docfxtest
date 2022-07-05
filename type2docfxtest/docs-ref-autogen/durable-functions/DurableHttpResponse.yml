@@ -10,7 +10,7 @@ isDeprecated: false
 type: class
 constructors:
   - name: >-
-      DurableHttpResponse(number, string | undefined, {[key: string]: string} |
+      DurableHttpResponse(number, string | undefined, [key: string]: string |
       undefined)
     uid: durable-functions.DurableHttpResponse.constructor
     package: durable-functions
@@ -23,7 +23,7 @@ constructors:
     syntax:
       content: >-
         new DurableHttpResponse(statusCode: number, content?: string |
-        undefined, headers?: {[key: string]: string} | undefined)
+        undefined, headers?: [key: string]: string | undefined)
       parameters:
         - id: statusCode
           type: number
@@ -32,7 +32,7 @@ constructors:
           type: string | undefined
           description: The HTTP response content.
         - id: headers
-          type: '{[key: string]: string} | undefined'
+          type: '[key: string]\: string | undefined'
           description: |
             The HTTP response headers.
 properties:
@@ -58,10 +58,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'headers?: {[key: string]: string} | undefined'
+      content: 'headers?: [key: string]: string | undefined'
       return:
         description: ''
-        type: '{[key: string]: string} | undefined'
+        type: '[key: string]\: string | undefined'
   - name: statusCode
     uid: durable-functions.DurableHttpResponse.statusCode
     package: durable-functions

@@ -10,4 +10,4 @@ isDeprecated: false
 syntax: >-
   type LinkedService = ProxyResource & { provisioningState?:
   LinkedServiceEntityStatus, resourceId?: undefined | string, tags?: undefined |
-  {[key: string]: string}, writeAccessResourceId?: undefined | string }
+  [key: string]: string, writeAccessResourceId?: undefined | string }

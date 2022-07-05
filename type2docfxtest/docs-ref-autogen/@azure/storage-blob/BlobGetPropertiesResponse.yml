@@ -690,10 +690,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'metadata?: {[key: string]: string}'
+      content: 'metadata?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: objectReplicationPolicyId
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.objectReplicationPolicyId'
     package: '@azure/storage-blob'
@@ -723,10 +723,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'objectReplicationRules?: {[key: string]: string}'
+      content: 'objectReplicationRules?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: rehydratePriority
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.rehydratePriority'
     package: '@azure/storage-blob'

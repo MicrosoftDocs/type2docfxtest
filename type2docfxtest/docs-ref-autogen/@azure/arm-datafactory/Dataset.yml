@@ -74,12 +74,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parameters?: undefined | {[key: string]: ParameterSpecification}'
+      content: 'parameters?: undefined | [key: string]: ParameterSpecification'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-datafactory.ParameterSpecification" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-datafactory.ParameterSpecification" />
   - name: schema
     uid: '@azure/arm-datafactory.Dataset.schema'
     package: '@azure/arm-datafactory'

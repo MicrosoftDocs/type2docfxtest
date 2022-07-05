@@ -109,12 +109,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'responsesDefinition?: undefined | {[key: string]: SwaggerSchema}'
+      content: 'responsesDefinition?: undefined | [key: string]: SwaggerSchema'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref uid="@azure/arm-logic.SwaggerSchema"
-          />}
+          undefined | [key: string]: <xref uid="@azure/arm-logic.SwaggerSchema"
+          />
   - name: summary
     uid: '@azure/arm-logic.ApiOperationPropertiesDefinition.summary'
     package: '@azure/arm-logic'

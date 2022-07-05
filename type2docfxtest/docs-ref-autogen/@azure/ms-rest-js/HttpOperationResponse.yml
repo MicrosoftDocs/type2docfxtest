@@ -62,10 +62,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parsedHeaders?: {[key: string]: any}'
+      content: 'parsedHeaders?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: readableStreamBody
     uid: '@azure/ms-rest-js.HttpOperationResponse.readableStreamBody'
     package: '@azure/ms-rest-js'

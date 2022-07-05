@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'delegatedResources?: undefined | {[key: string]: Delegation}'
+      content: 'delegatedResources?: undefined | [key: string]: Delegation'
       return:
         description: ''
-        type: 'undefined | {[key: string]: <xref uid="@azure/arm-sql.Delegation" />}'
+        type: 'undefined | [key: string]: <xref uid="@azure/arm-sql.Delegation" />'
   - name: tenantId
     uid: '@azure/arm-sql.DatabaseIdentity.tenantId'
     package: '@azure/arm-sql'
@@ -61,11 +61,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        DatabaseUserIdentity}
+      content: 'userAssignedIdentities?: undefined | [key: string]: DatabaseUserIdentity'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-sql.DatabaseUserIdentity" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-sql.DatabaseUserIdentity" />

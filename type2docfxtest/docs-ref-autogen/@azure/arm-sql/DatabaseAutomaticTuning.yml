@@ -10,4 +10,4 @@ isDeprecated: false
 syntax: >-
   type DatabaseAutomaticTuning = ProxyResource & { actualState?:
   AutomaticTuningMode, desiredState?: AutomaticTuningMode, options?: undefined |
-  {[key: string]: AutomaticTuningOptions} }
+  [key: string]: AutomaticTuningOptions }

@@ -10,4 +10,4 @@ isDeprecated: false
 syntax: >-
   type AvailabilitySetResourceSettings = ResourceSettings & { faultDomain?:
   undefined | number, resourceType: "Microsoft.Compute/availabilitySets", tags?:
-  undefined | {[key: string]: string}, updateDomain?: undefined | number }
+  undefined | [key: string]: string, updateDomain?: undefined | number }

@@ -70,10 +70,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        UserAssignedIdentityProperty}
+        userAssignedIdentities?: undefined | [key: string]:
+        UserAssignedIdentityProperty
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-webpubsub.UserAssignedIdentityProperty" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-webpubsub.UserAssignedIdentityProperty" />

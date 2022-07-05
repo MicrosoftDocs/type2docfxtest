@@ -27,13 +27,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        dataMigrationTableResults?: undefined | {[key: string]:
-        NonSqlDataMigrationTableResult}
+        dataMigrationTableResults?: undefined | [key: string]:
+        NonSqlDataMigrationTableResult
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-datamigration.NonSqlDataMigrationTableResult" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-datamigration.NonSqlDataMigrationTableResult" />
   - name: endedOn
     uid: '@azure/arm-datamigration.NonSqlMigrationTaskOutput.endedOn'
     package: '@azure/arm-datamigration'

@@ -125,11 +125,11 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        properties: { desired: {[key: string]: any}, reported: {[key: string]:
-        any} }
+        properties: { desired: [key: string]: any, reported: [key: string]: any
+        }
       return:
         description: ''
-        type: '{ desired: {[key: string]: any}, reported: {[key: string]: any} }'
+        type: '{ desired: [key: string]: any, reported: [key: string]: any }'
   - name: tags
     uid: azure-iothub.Twin.tags
     package: azure-iothub
@@ -141,10 +141,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags: {[key: string]: string}'
+      content: 'tags: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
 methods:
   - name: get()
     uid: azure-iothub.Twin.get_1

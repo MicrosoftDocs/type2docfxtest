@@ -104,10 +104,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | {[key: string]: string}'
+      content: 'tags?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: tags1
     uid: '@azure/arm-appinsights.WorkbookUpdateParameters.tags1'
     package: '@azure/arm-appinsights'

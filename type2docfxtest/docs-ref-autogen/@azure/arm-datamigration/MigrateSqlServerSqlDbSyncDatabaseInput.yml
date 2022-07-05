@@ -34,10 +34,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'migrationSetting?: undefined | {[key: string]: string}'
+      content: 'migrationSetting?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: name
     uid: '@azure/arm-datamigration.MigrateSqlServerSqlDbSyncDatabaseInput.name'
     package: '@azure/arm-datamigration'
@@ -74,10 +74,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'sourceSetting?: undefined | {[key: string]: string}'
+      content: 'sourceSetting?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: tableMap
     uid: '@azure/arm-datamigration.MigrateSqlServerSqlDbSyncDatabaseInput.tableMap'
     package: '@azure/arm-datamigration'
@@ -87,10 +87,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tableMap?: undefined | {[key: string]: string}'
+      content: 'tableMap?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: targetDatabaseName
     uid: >-
       @azure/arm-datamigration.MigrateSqlServerSqlDbSyncDatabaseInput.targetDatabaseName
@@ -115,7 +115,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'targetSetting?: undefined | {[key: string]: string}'
+      content: 'targetSetting?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'

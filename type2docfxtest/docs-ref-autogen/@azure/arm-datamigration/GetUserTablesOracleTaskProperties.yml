@@ -20,10 +20,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'clientData?: undefined | {[key: string]: string}'
+      content: 'clientData?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: commands
     uid: '@azure/arm-datamigration.GetUserTablesOracleTaskProperties.commands'
     package: '@azure/arm-datamigration'

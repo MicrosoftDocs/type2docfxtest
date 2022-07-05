@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'dimensions?: undefined | {[key: string]: string}'
+      content: 'dimensions?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: status
     uid: '@azure/arm-monitor.MetricAlertStatusProperties.status'
     package: '@azure/arm-monitor'

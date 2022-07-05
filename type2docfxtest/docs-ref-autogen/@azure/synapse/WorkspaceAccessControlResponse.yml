@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'accessControlList?: undefined | {[key: string]: function}'
+      content: 'accessControlList?: undefined | [key: string]: function'
       return:
         description: ''
-        type: 'undefined | {[key: string]: function}'
+        type: 'undefined | [key: string]: function'
   - name: administrators
     uid: '@azure/synapse.WorkspaceAccessControlResponse.administrators'
     package: '@azure/synapse'

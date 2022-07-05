@@ -11,4 +11,4 @@ syntax: >-
   type VirtualNetworkResourceSettings = ResourceSettings & { addressSpace?:
   string[], dnsServers?: string[], enableDdosProtection?: undefined | false |
   true, resourceType: "Microsoft.Network/virtualNetworks", subnets?:
-  SubnetResourceSettings[], tags?: undefined | {[key: string]: string} }
+  SubnetResourceSettings[], tags?: undefined | [key: string]: string }

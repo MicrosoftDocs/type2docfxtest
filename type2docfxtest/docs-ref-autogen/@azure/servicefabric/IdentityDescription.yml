@@ -77,10 +77,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        IdentityItemDescription}
+        userAssignedIdentities?: undefined | [key: string]:
+        IdentityItemDescription
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/servicefabric.IdentityItemDescription" />}
+          undefined | [key: string]: <xref
+          uid="@azure/servicefabric.IdentityItemDescription" />

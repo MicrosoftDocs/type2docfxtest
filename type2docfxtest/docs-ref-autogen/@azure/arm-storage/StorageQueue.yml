@@ -9,4 +9,4 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type StorageQueue = Resource & { approximateMessageCount?: undefined | number,
-  metadata?: undefined | {[key: string]: string} }
+  metadata?: undefined | [key: string]: string }

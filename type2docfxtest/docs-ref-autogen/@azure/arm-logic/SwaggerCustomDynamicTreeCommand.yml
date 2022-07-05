@@ -97,13 +97,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        parameters?: undefined | {[key: string]:
-        SwaggerCustomDynamicTreeParameter}
+        parameters?: undefined | [key: string]:
+        SwaggerCustomDynamicTreeParameter
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-logic.SwaggerCustomDynamicTreeParameter" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-logic.SwaggerCustomDynamicTreeParameter" />
   - name: selectableFilter
     uid: '@azure/arm-logic.SwaggerCustomDynamicTreeCommand.selectableFilter'
     package: '@azure/arm-logic'

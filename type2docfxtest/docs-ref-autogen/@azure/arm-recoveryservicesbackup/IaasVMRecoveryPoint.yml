@@ -15,8 +15,8 @@ syntax: >-
   originalStorageAccountOption?: undefined | false | true, osType?: undefined |
   string, recoveryPointAdditionalInfo?: undefined | string,
   recoveryPointDiskConfiguration?: RecoveryPointDiskConfiguration,
-  recoveryPointMoveReadinessInfo?: undefined | {[key: string]:
-  RecoveryPointMoveReadinessInfo}, recoveryPointTierDetails?:
+  recoveryPointMoveReadinessInfo?: undefined | [key: string]:
+  RecoveryPointMoveReadinessInfo, recoveryPointTierDetails?:
   RecoveryPointTierInformationV2[], recoveryPointTime?: Date,
   recoveryPointType?: undefined | string, sourceVMStorageType?: undefined |
   string, virtualMachineSize?: undefined | string, zones?: string[] }

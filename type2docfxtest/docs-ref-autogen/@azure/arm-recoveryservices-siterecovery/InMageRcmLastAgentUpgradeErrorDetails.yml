@@ -59,10 +59,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'errorMessageParameters?: undefined | {[key: string]: string}'
+      content: 'errorMessageParameters?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: errorTags
     uid: >-
       @azure/arm-recoveryservices-siterecovery.InMageRcmLastAgentUpgradeErrorDetails.errorTags
@@ -77,10 +77,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'errorTags?: undefined | {[key: string]: string}'
+      content: 'errorTags?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: possibleCauses
     uid: >-
       @azure/arm-recoveryservices-siterecovery.InMageRcmLastAgentUpgradeErrorDetails.possibleCauses

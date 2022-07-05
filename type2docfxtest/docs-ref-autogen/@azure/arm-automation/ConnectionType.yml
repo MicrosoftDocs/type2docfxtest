@@ -52,12 +52,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'fieldDefinitions?: undefined | {[key: string]: FieldDefinition}'
+      content: 'fieldDefinitions?: undefined | [key: string]: FieldDefinition'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-automation.FieldDefinition" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-automation.FieldDefinition" />
   - name: id
     uid: '@azure/arm-automation.ConnectionType.id'
     package: '@azure/arm-automation'

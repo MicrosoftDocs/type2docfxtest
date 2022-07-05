@@ -16,7 +16,7 @@ syntax: >-
   | "AzureWorkloadSAPHanaPointInTimeRestoreWithRehydrateRequest" |
   "AzureWorkloadSAPHanaRestoreWithRehydrateRequest" |
   "AzureWorkloadSQLPointInTimeRestoreWithRehydrateRequest" |
-  "AzureWorkloadSQLRestoreWithRehydrateRequest", propertyBag?: undefined |
-  {[key: string]: string}, recoveryMode?: RecoveryMode, recoveryType?:
-  RecoveryType, sourceResourceId?: undefined | string, targetInfo?:
-  TargetRestoreInfo, targetVirtualMachineId?: undefined | string }
+  "AzureWorkloadSQLRestoreWithRehydrateRequest", propertyBag?: undefined | [key:
+  string]: string, recoveryMode?: RecoveryMode, recoveryType?: RecoveryType,
+  sourceResourceId?: undefined | string, targetInfo?: TargetRestoreInfo,
+  targetVirtualMachineId?: undefined | string }

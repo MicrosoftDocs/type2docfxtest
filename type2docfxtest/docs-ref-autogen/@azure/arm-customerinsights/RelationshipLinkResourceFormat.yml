@@ -9,8 +9,8 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type RelationshipLinkResourceFormat = ProxyResource & { description?:
-  undefined | {[key: string]: string}, displayName?: undefined | {[key: string]:
-  string}, interactionType?: undefined | string, linkName?: undefined | string,
+  undefined | [key: string]: string, displayName?: undefined | [key: string]:
+  string, interactionType?: undefined | string, linkName?: undefined | string,
   mappings?: RelationshipLinkFieldMapping[], profilePropertyReferences?:
   ParticipantProfilePropertyReference[], provisioningState?: ProvisioningStates,
   relatedProfilePropertyReferences?: ParticipantProfilePropertyReference[],

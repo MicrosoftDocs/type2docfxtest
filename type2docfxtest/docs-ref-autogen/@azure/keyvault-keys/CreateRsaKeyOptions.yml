@@ -155,10 +155,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: {[key: string]: string}'
+      content: 'tags?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: tracingOptions
     uid: '@azure/keyvault-keys.CreateRsaKeyOptions.tracingOptions'
     package: '@azure/keyvault-keys'

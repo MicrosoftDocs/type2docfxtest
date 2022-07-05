@@ -9,4 +9,4 @@ fullName: ReadReceiptsBySenderId
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: 'type ReadReceiptsBySenderId = {[key: string]: function}'
+syntax: 'type ReadReceiptsBySenderId = [key: string]: function'

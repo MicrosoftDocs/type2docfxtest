@@ -148,10 +148,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | {[key: string]: string}'
+      content: 'tags?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: tenantSettings
     uid: '@azure/arm-rediscache.RedisUpdateParameters.tenantSettings'
     package: '@azure/arm-rediscache'
@@ -161,7 +161,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tenantSettings?: undefined | {[key: string]: string}'
+      content: 'tenantSettings?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'

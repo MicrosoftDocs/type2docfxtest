@@ -135,12 +135,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'eventHubEndpoints?: undefined | {[key: string]: EventHubProperties}'
+      content: 'eventHubEndpoints?: undefined | [key: string]: EventHubProperties'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-iothub.EventHubProperties" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-iothub.EventHubProperties" />
   - name: features
     uid: '@azure/arm-iothub.IotHubProperties.features'
     package: '@azure/arm-iothub'
@@ -211,13 +211,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        messagingEndpoints?: undefined | {[key: string]:
-        MessagingEndpointProperties}
+        messagingEndpoints?: undefined | [key: string]:
+        MessagingEndpointProperties
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-iothub.MessagingEndpointProperties" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-iothub.MessagingEndpointProperties" />
   - name: minTlsVersion
     uid: '@azure/arm-iothub.IotHubProperties.minTlsVersion'
     package: '@azure/arm-iothub'
@@ -351,11 +351,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        storageEndpoints?: undefined | {[key: string]:
-        StorageEndpointProperties}
+      content: 'storageEndpoints?: undefined | [key: string]: StorageEndpointProperties'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-iothub.StorageEndpointProperties" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-iothub.StorageEndpointProperties" />

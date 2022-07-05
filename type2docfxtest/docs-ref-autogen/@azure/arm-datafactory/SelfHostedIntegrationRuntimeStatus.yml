@@ -10,7 +10,7 @@ isDeprecated: false
 syntax: >-
   type SelfHostedIntegrationRuntimeStatus = IntegrationRuntimeStatus & {
   autoUpdate?: IntegrationRuntimeAutoUpdate, autoUpdateETA?: Date,
-  capabilities?: undefined | {[key: string]: string}, createTime?: Date,
+  capabilities?: undefined | [key: string]: string, createTime?: Date,
   internalChannelEncryption?: IntegrationRuntimeInternalChannelEncryptionMode,
   latestVersion?: undefined | string, links?: LinkedIntegrationRuntime[],
   localTimeZoneOffset?: undefined | string, nodes?:

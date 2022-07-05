@@ -20,10 +20,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'artifactTags?: undefined | {[key: string]: string}'
+      content: 'artifactTags?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: runOutputName
     uid: '@azure/arm-imagebuilder.ImageTemplateDistributor.runOutputName'
     package: '@azure/arm-imagebuilder'

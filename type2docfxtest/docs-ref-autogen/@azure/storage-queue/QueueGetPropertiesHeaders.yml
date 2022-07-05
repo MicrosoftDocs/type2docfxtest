@@ -76,10 +76,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'metadata?: {[key: string]: string}'
+      content: 'metadata?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: requestId
     uid: '@azure/storage-queue.QueueGetPropertiesHeaders.requestId'
     package: '@azure/storage-queue'

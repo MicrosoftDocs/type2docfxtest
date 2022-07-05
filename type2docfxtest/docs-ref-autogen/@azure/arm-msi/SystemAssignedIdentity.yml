@@ -10,5 +10,5 @@ isDeprecated: false
 syntax: >-
   type SystemAssignedIdentity = ProxyResource & { clientId?: undefined | string,
   clientSecretUrl?: undefined | string, location: string, principalId?:
-  undefined | string, tags?: undefined | {[key: string]: string}, tenantId?:
+  undefined | string, tags?: undefined | [key: string]: string, tenantId?:
   undefined | string }

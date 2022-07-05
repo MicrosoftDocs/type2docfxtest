@@ -24,10 +24,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'context?: {[key: string]: string}[]'
+      content: 'context?: [key: string]: string[]'
       return:
         description: ''
-        type: '{[key: string]: string}[]'
+        type: '[key: string]\: string[]'
   - name: origin
     uid: '@azure/arm-network.ConnectivityIssue.origin'
     package: '@azure/arm-network'

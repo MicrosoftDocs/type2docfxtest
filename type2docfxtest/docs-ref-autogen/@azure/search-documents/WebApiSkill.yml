@@ -11,6 +11,6 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type WebApiSkill = BaseSearchIndexerSkill & { batchSize?: number | null,
-  degreeOfParallelism?: number | null, httpHeaders?: {[key: string]: string},
+  degreeOfParallelism?: number | null, httpHeaders?: [key: string]: string,
   httpMethod?: string, odatatype: "#Microsoft.Skills.Custom.WebApiSkill",
   timeout?: string, uri: string }

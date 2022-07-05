@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type TrackedResource = Resource & { location: string, tags?: undefined |
-  {[key: string]: string} }
+  type TrackedResource = Resource & { location: string, tags?: undefined | [key:
+  string]: string }

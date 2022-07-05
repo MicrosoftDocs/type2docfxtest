@@ -37,11 +37,11 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        ComponentsVrq145SchemasImagetemplateidentityPropertiesUserassignedidentitiesAdditionalproperties}
+        userAssignedIdentities?: undefined | [key: string]:
+        ComponentsVrq145SchemasImagetemplateidentityPropertiesUserassignedidentitiesAdditionalproperties
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
+          undefined | [key: string]: <xref
           uid="@azure/arm-imagebuilder.ComponentsVrq145SchemasImagetemplateidentityPropertiesUserassignedidentitiesAdditionalproperties"
-          />}
+          />

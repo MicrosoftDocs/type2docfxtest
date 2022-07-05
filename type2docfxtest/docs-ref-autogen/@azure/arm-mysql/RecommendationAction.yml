@@ -10,5 +10,5 @@ isDeprecated: false
 syntax: >-
   type RecommendationAction = ProxyResource & { actionId?: undefined | number,
   advisorName?: undefined | string, createdTime?: Date, details?: undefined |
-  {[key: string]: string}, expirationTime?: Date, reason?: undefined | string,
+  [key: string]: string, expirationTime?: Date, reason?: undefined | string,
   recommendationType?: undefined | string, sessionId?: undefined | string }

@@ -19,10 +19,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'applicationInsights?: undefined | {[key: string]: Record}'
+      content: 'applicationInsights?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: containerRegistry
     uid: >-
       @azure/arm-machinelearningservices.DiagnoseRequestProperties.containerRegistry
@@ -33,10 +33,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'containerRegistry?: undefined | {[key: string]: Record}'
+      content: 'containerRegistry?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: dnsResolution
     uid: '@azure/arm-machinelearningservices.DiagnoseRequestProperties.dnsResolution'
     package: '@azure/arm-machinelearningservices'
@@ -46,10 +46,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'dnsResolution?: undefined | {[key: string]: Record}'
+      content: 'dnsResolution?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: keyVault
     uid: '@azure/arm-machinelearningservices.DiagnoseRequestProperties.keyVault'
     package: '@azure/arm-machinelearningservices'
@@ -59,10 +59,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'keyVault?: undefined | {[key: string]: Record}'
+      content: 'keyVault?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: nsg
     uid: '@azure/arm-machinelearningservices.DiagnoseRequestProperties.nsg'
     package: '@azure/arm-machinelearningservices'
@@ -72,10 +72,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'nsg?: undefined | {[key: string]: Record}'
+      content: 'nsg?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: others
     uid: '@azure/arm-machinelearningservices.DiagnoseRequestProperties.others'
     package: '@azure/arm-machinelearningservices'
@@ -85,10 +85,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'others?: undefined | {[key: string]: Record}'
+      content: 'others?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: resourceLock
     uid: '@azure/arm-machinelearningservices.DiagnoseRequestProperties.resourceLock'
     package: '@azure/arm-machinelearningservices'
@@ -98,10 +98,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'resourceLock?: undefined | {[key: string]: Record}'
+      content: 'resourceLock?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: storageAccount
     uid: >-
       @azure/arm-machinelearningservices.DiagnoseRequestProperties.storageAccount
@@ -112,10 +112,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'storageAccount?: undefined | {[key: string]: Record}'
+      content: 'storageAccount?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'
   - name: udr
     uid: '@azure/arm-machinelearningservices.DiagnoseRequestProperties.udr'
     package: '@azure/arm-machinelearningservices'
@@ -125,7 +125,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'udr?: undefined | {[key: string]: Record}'
+      content: 'udr?: undefined | [key: string]: Record'
       return:
         description: ''
-        type: 'undefined | {[key: string]: Record}'
+        type: 'undefined | [key: string]: Record'

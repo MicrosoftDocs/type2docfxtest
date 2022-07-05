@@ -16,5 +16,5 @@ syntax: >-
   undefined | false | true, invoiceSections?: InvoiceSectionsOnExpand,
   poNumber?: undefined | string, spendingLimit?: SpendingLimit, status?:
   BillingProfileStatus, statusReasonCode?: StatusReasonCode, systemId?:
-  undefined | string, tags?: undefined | {[key: string]: string}, targetClouds?:
+  undefined | string, tags?: undefined | [key: string]: string, targetClouds?:
   TargetCloud[] }

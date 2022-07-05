@@ -13,6 +13,6 @@ syntax: >-
   type RecordSet = ProxyResource & { aRecords?: ARecord[], aaaaRecords?:
   AaaaRecord[], cnameRecord?: CnameRecord, etag?: undefined | string, fqdn?:
   undefined | string, isAutoRegistered?: undefined | false | true, metadata?:
-  undefined | {[key: string]: string}, mxRecords?: MxRecord[], ptrRecords?:
+  undefined | [key: string]: string, mxRecords?: MxRecord[], ptrRecords?:
   PtrRecord[], soaRecord?: SoaRecord, srvRecords?: SrvRecord[], ttl?: undefined
   | number, txtRecords?: TxtRecord[] }

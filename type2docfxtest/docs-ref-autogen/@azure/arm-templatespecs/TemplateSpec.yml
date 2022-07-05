@@ -10,5 +10,5 @@ isDeprecated: false
 syntax: >-
   type TemplateSpec = AzureResourceBase & { description?: undefined | string,
   displayName?: undefined | string, location: string, metadata?: Record<string,
-  unknown>, tags?: undefined | {[key: string]: string}, versions?: undefined |
-  {[key: string]: TemplateSpecVersionInfo} }
+  unknown>, tags?: undefined | [key: string]: string, versions?: undefined |
+  [key: string]: TemplateSpecVersionInfo }

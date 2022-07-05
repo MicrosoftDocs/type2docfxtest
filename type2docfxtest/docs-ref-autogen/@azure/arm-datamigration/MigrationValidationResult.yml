@@ -77,11 +77,11 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        summaryResults?: undefined | {[key: string]:
-        MigrationValidationDatabaseSummaryResult}
+        summaryResults?: undefined | [key: string]:
+        MigrationValidationDatabaseSummaryResult
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
+          undefined | [key: string]: <xref
           uid="@azure/arm-datamigration.MigrationValidationDatabaseSummaryResult"
-          />}
+          />

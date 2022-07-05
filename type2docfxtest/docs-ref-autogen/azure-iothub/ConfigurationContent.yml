@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'deviceContent?: {[key: string]: any}'
+      content: 'deviceContent?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: moduleContent
     uid: azure-iothub.ConfigurationContent.moduleContent
     package: azure-iothub
@@ -31,10 +31,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'moduleContent?: {[key: string]: any}'
+      content: 'moduleContent?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: modulesContent
     uid: azure-iothub.ConfigurationContent.modulesContent
     package: azure-iothub
@@ -44,7 +44,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modulesContent?: {[key: string]: function}'
+      content: 'modulesContent?: [key: string]: function'
       return:
         description: ''
-        type: '{[key: string]: function}'
+        type: '[key: string]\: function'

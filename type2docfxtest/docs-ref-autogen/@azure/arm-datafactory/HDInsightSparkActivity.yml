@@ -12,5 +12,5 @@ syntax: >-
   unknown>[], className?: undefined | string, entryFilePath: Record<string,
   unknown>, getDebugInfo?: HDInsightActivityDebugInfoOption, proxyUser?:
   Record<string, unknown>, rootPath: Record<string, unknown>, sparkConfig?:
-  undefined | {[key: string]: Record}, sparkJobLinkedService?:
+  undefined | [key: string]: Record, sparkJobLinkedService?:
   LinkedServiceReference, type: "HDInsightSpark" }

@@ -73,12 +73,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startPosition?: EventPosition | {[key: string]: EventPosition}'
+      content: 'startPosition?: EventPosition | [key: string]: EventPosition'
       return:
         description: ''
         type: >-
-          <xref uid="@azure/event-hubs.EventPosition" /> | {[key: string]: <xref
-          uid="@azure/event-hubs.EventPosition" />}
+          <xref uid="@azure/event-hubs.EventPosition" /> | [key: string]: <xref
+          uid="@azure/event-hubs.EventPosition" />
   - name: tracingOptions
     uid: '@azure/event-hubs.SubscribeOptions.tracingOptions'
     package: '@azure/event-hubs'

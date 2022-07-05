@@ -8,8 +8,8 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type SecurityAssessment = Resource & { additionalData?: undefined | {[key:
-  string]: string}, displayName?: undefined | string, links?: AssessmentLinks,
+  type SecurityAssessment = Resource & { additionalData?: undefined | [key:
+  string]: string, displayName?: undefined | string, links?: AssessmentLinks,
   metadata?: SecurityAssessmentMetadataProperties, partnersData?:
   SecurityAssessmentPartnerData, resourceDetails?: ResourceDetailsUnion,
   status?: AssessmentStatus }

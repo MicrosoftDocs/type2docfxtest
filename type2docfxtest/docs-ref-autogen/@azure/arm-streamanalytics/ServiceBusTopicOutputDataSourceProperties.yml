@@ -10,5 +10,5 @@ isDeprecated: false
 syntax: >-
   type ServiceBusTopicOutputDataSourceProperties =
   ServiceBusDataSourceProperties & { propertyColumns?: string[],
-  systemPropertyColumns?: undefined | {[key: string]: string}, topicName?:
+  systemPropertyColumns?: undefined | [key: string]: string, topicName?:
   undefined | string }

@@ -32,10 +32,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'configurationProtectedSettings?: undefined | {[key: string]: string}'
+      content: 'configurationProtectedSettings?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: gitRepository
     uid: '@azure/arm-kubernetesconfiguration.FluxConfigurationPatch.gitRepository'
     package: '@azure/arm-kubernetesconfiguration'
@@ -65,15 +65,13 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        kustomizations?: undefined | {[key: string]:
-        KustomizationPatchDefinition}
+      content: 'kustomizations?: undefined | [key: string]: KustomizationPatchDefinition'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
+          undefined | [key: string]: <xref
           uid="@azure/arm-kubernetesconfiguration.KustomizationPatchDefinition"
-          />}
+          />
   - name: sourceKind
     uid: '@azure/arm-kubernetesconfiguration.FluxConfigurationPatch.sourceKind'
     package: '@azure/arm-kubernetesconfiguration'

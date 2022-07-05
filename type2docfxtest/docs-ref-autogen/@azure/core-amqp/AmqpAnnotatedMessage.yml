@@ -20,10 +20,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'applicationProperties?: {[key: string]: any}'
+      content: 'applicationProperties?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: body
     uid: '@azure/core-amqp.AmqpAnnotatedMessage.body'
     package: '@azure/core-amqp'
@@ -61,10 +61,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'deliveryAnnotations?: {[key: string]: any}'
+      content: 'deliveryAnnotations?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: footer
     uid: '@azure/core-amqp.AmqpAnnotatedMessage.footer'
     package: '@azure/core-amqp'
@@ -74,10 +74,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'footer?: {[key: string]: any}'
+      content: 'footer?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: header
     uid: '@azure/core-amqp.AmqpAnnotatedMessage.header'
     package: '@azure/core-amqp'
@@ -102,10 +102,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'messageAnnotations?: {[key: string]: any}'
+      content: 'messageAnnotations?: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: properties
     uid: '@azure/core-amqp.AmqpAnnotatedMessage.properties'
     package: '@azure/core-amqp'

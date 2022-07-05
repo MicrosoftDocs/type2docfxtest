@@ -11,5 +11,5 @@ syntax: >-
   type PublicIPAddressResourceSettings = ResourceSettings & { domainNameLabel?:
   undefined | string, fqdn?: undefined | string, publicIpAllocationMethod?:
   undefined | string, resourceType: "Microsoft.Network/publicIPAddresses", sku?:
-  undefined | string, tags?: undefined | {[key: string]: string}, zones?:
+  undefined | string, tags?: undefined | [key: string]: string, zones?:
   undefined | string }

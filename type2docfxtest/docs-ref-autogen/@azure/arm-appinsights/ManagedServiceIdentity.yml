@@ -73,11 +73,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        UserAssignedIdentity}
+      content: 'userAssignedIdentities?: undefined | [key: string]: UserAssignedIdentity'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-appinsights.UserAssignedIdentity" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-appinsights.UserAssignedIdentity" />

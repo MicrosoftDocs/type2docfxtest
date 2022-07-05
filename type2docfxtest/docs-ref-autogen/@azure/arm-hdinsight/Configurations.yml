@@ -10,7 +10,7 @@ isDeprecated: false
 type: interface
 methods:
   - name: >-
-      beginUpdate(string, string, string, {[key: string]: string},
+      beginUpdate(string, string, string, [key: string]: string,
       ConfigurationsUpdateOptionalParams)
     uid: '@azure/arm-hdinsight.Configurations.beginUpdate'
     package: '@azure/arm-hdinsight'
@@ -25,8 +25,8 @@ methods:
     syntax:
       content: >-
         function beginUpdate(resourceGroupName: string, clusterName: string,
-        configurationName: string, parameters: {[key: string]: string},
-        options?: ConfigurationsUpdateOptionalParams):
+        configurationName: string, parameters: [key: string]: string, options?:
+        ConfigurationsUpdateOptionalParams):
         Promise<PollerLike<PollOperationState<void>, void>>
       parameters:
         - id: resourceGroupName
@@ -39,7 +39,7 @@ methods:
           type: string
           description: The name of the cluster configuration.
         - id: parameters
-          type: '{[key: string]: string}'
+          type: '[key: string]\: string'
           description: The cluster configurations.
         - id: options
           type: >-
@@ -51,7 +51,7 @@ methods:
         description: ''
         type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
   - name: >-
-      beginUpdateAndWait(string, string, string, {[key: string]: string},
+      beginUpdateAndWait(string, string, string, [key: string]: string,
       ConfigurationsUpdateOptionalParams)
     uid: '@azure/arm-hdinsight.Configurations.beginUpdateAndWait'
     package: '@azure/arm-hdinsight'
@@ -66,7 +66,7 @@ methods:
     syntax:
       content: >-
         function beginUpdateAndWait(resourceGroupName: string, clusterName:
-        string, configurationName: string, parameters: {[key: string]: string},
+        string, configurationName: string, parameters: [key: string]: string,
         options?: ConfigurationsUpdateOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
@@ -79,7 +79,7 @@ methods:
           type: string
           description: The name of the cluster configuration.
         - id: parameters
-          type: '{[key: string]: string}'
+          type: '[key: string]\: string'
           description: The cluster configurations.
         - id: options
           type: >-

@@ -46,12 +46,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: undefined | {[key: string]: ColumnSpecification}'
+      content: 'properties?: undefined | [key: string]: ColumnSpecification'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-webservices.ColumnSpecification" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-webservices.ColumnSpecification" />
   - name: title
     uid: '@azure/arm-webservices.TableSpecification.title'
     package: '@azure/arm-webservices'

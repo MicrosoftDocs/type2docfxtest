@@ -34,10 +34,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'claims: {[key: string]: string}'
+      content: 'claims: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: correlationId
     uid: '@azure/eventgrid.ResourceActionCancelEventData.correlationId'
     package: '@azure/eventgrid'

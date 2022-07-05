@@ -12,4 +12,4 @@ syntax: >-
   LBBackendAddressPoolResourceSettings[], frontendIPConfigurations?:
   LBFrontendIPConfigurationResourceSettings[], resourceType:
   "Microsoft.Network/loadBalancers", sku?: undefined | string, tags?: undefined
-  | {[key: string]: string}, zones?: undefined | string }
+  | [key: string]: string, zones?: undefined | string }

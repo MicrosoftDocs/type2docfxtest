@@ -143,10 +143,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'resourceTokens?: {[key: string]: string}'
+      content: 'resourceTokens?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: tokenProvider
     uid: '@azure/cosmos.CosmosClientOptions.tokenProvider'
     package: '@azure/cosmos'

@@ -20,10 +20,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'affectedObjectDetails?: undefined | {[key: string]: string}'
+      content: 'affectedObjectDetails?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: instanceType
     uid: '@azure/arm-recoveryservices-siterecovery.JobDetails.instanceType'
     package: '@azure/arm-recoveryservices-siterecovery'

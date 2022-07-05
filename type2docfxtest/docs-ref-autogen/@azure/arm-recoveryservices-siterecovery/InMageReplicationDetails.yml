@@ -11,7 +11,7 @@ syntax: >-
   type InMageReplicationDetails = ReplicationProviderSpecificSettings & {
   activeSiteType?: undefined | string, agentDetails?: InMageAgentDetails,
   azureStorageAccountId?: undefined | string, compressedDataRateInMB?: undefined
-  | number, consistencyPoints?: undefined | {[key: string]: Date}, datastores?:
+  | number, consistencyPoints?: undefined | [key: string]: Date, datastores?:
   string[], discoveryType?: undefined | string, diskResized?: undefined |
   string, infrastructureVmId?: undefined | string, instanceType: "InMage",
   ipAddress?: undefined | string, isAdditionalStatsAvailable?: undefined | false

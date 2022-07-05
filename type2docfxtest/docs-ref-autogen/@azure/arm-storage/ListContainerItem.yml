@@ -17,5 +17,5 @@ syntax: >-
   immutableStorageWithVersioning?: ImmutableStorageWithVersioning,
   lastModifiedTime?: Date, leaseDuration?: LeaseDuration, leaseState?:
   LeaseState, leaseStatus?: LeaseStatus, legalHold?: LegalHoldProperties,
-  metadata?: undefined | {[key: string]: string}, publicAccess?: PublicAccess,
+  metadata?: undefined | [key: string]: string, publicAccess?: PublicAccess,
   remainingRetentionDays?: undefined | number, version?: undefined | string }

@@ -36,12 +36,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties: {[key: string]: TableSpecification}'
+      content: 'properties: [key: string]: TableSpecification'
       return:
         description: ''
         type: >-
-          {[key: string]: <xref uid="@azure/arm-webservices.TableSpecification"
-          />}
+          [key: string]\: <xref uid="@azure/arm-webservices.TableSpecification"
+          />
   - name: title
     uid: '@azure/arm-webservices.ServiceInputOutputSpecification.title'
     package: '@azure/arm-webservices'

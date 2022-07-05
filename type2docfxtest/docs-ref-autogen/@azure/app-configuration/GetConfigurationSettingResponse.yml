@@ -132,10 +132,10 @@ inheritedProperties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: {[key: string]: string}'
+      content: 'tags?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: value
     uid: '@azure/app-configuration.GetConfigurationSettingResponse.value'
     package: '@azure/app-configuration'
@@ -151,5 +151,5 @@ inheritedProperties:
         type: string
 extends: >-
   <xref uid="@azure/app-configuration.ConfigurationSettingId" /> & {
-  contentType?: string, tags?: {[key: string]: string} } & { value?: string } &
-  { isReadOnly: boolean, lastModified?: Date }
+  contentType?: string, tags?: [key: string]: string } & { value?: string } & {
+  isReadOnly: boolean, lastModified?: Date }

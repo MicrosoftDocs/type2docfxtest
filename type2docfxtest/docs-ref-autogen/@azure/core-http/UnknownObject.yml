@@ -7,4 +7,4 @@ fullName: UnknownObject
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: 'type UnknownObject = {[key: string]: unknown}'
+syntax: 'type UnknownObject = [key: string]: unknown'

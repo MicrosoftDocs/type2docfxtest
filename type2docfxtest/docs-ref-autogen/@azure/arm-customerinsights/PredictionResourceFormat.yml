@@ -9,8 +9,8 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type PredictionResourceFormat = ProxyResource & { autoAnalyze?: undefined |
-  false | true, description?: undefined | {[key: string]: string}, displayName?:
-  undefined | {[key: string]: string}, grades?: PredictionGradesItem[],
+  false | true, description?: undefined | [key: string]: string, displayName?:
+  undefined | [key: string]: string, grades?: PredictionGradesItem[],
   involvedInteractionTypes?: string[], involvedKpiTypes?: string[],
   involvedRelationships?: string[], mappings?: PredictionMappings,
   negativeOutcomeExpression?: undefined | string, positiveOutcomeExpression?:

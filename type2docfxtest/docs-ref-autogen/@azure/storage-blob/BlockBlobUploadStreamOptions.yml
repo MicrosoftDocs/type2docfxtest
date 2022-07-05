@@ -91,10 +91,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'metadata?: {[key: string]: string}'
+      content: 'metadata?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: onProgress
     uid: '@azure/storage-blob.BlockBlobUploadStreamOptions.onProgress'
     package: '@azure/storage-blob'

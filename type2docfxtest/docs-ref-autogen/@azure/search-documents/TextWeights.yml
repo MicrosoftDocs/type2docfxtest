@@ -22,7 +22,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'weights: {[key: string]: number}'
+      content: 'weights: [key: string]: number'
       return:
         description: ''
-        type: '{[key: string]: number}'
+        type: '[key: string]\: number'

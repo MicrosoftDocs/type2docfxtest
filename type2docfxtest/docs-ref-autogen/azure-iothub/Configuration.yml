@@ -70,10 +70,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'labels?: {[key: string]: string}'
+      content: 'labels?: [key: string]: string'
       return:
         description: ''
-        type: '{[key: string]: string}'
+        type: '[key: string]\: string'
   - name: lastUpdatedTimeUtc
     uid: azure-iothub.Configuration.lastUpdatedTimeUtc
     package: azure-iothub

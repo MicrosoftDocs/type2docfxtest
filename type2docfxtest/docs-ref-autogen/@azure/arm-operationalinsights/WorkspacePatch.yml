@@ -15,5 +15,5 @@ syntax: >-
   provisioningState?: WorkspaceEntityStatus, publicNetworkAccessForIngestion?:
   PublicNetworkAccessType, publicNetworkAccessForQuery?:
   PublicNetworkAccessType, retentionInDays?: undefined | number, sku?:
-  WorkspaceSku, tags?: undefined | {[key: string]: string}, workspaceCapping?:
+  WorkspaceSku, tags?: undefined | [key: string]: string, workspaceCapping?:
   WorkspaceCapping }

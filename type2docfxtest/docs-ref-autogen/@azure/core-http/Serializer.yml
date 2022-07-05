@@ -16,7 +16,7 @@ isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: 'Serializer({[key: string]: any}, boolean | undefined)'
+  - name: 'Serializer([key: string]: any, boolean | undefined)'
     uid: '@azure/core-http.Serializer.constructor'
     package: '@azure/core-http'
     summary: ''
@@ -25,11 +25,11 @@ constructors:
     isDeprecated: false
     syntax:
       content: >-
-        new Serializer(modelMappers?: {[key: string]: any}, isXML?: boolean |
+        new Serializer(modelMappers?: [key: string]: any, isXML?: boolean |
         undefined)
       parameters:
         - id: modelMappers
-          type: '{[key: string]: any}'
+          type: '[key: string]\: any'
           description: ''
         - id: isXML
           type: boolean | undefined
@@ -57,10 +57,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modelMappers: {[key: string]: any}'
+      content: 'modelMappers: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
 methods:
   - name: 'deserialize(Mapper, unknown, string, SerializerOptions)'
     uid: '@azure/core-http.Serializer.deserialize'

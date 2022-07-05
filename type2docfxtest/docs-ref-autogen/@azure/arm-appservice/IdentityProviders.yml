@@ -64,13 +64,13 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        customOpenIdConnectProviders?: undefined | {[key: string]:
-        CustomOpenIdConnectProvider}
+        customOpenIdConnectProviders?: undefined | [key: string]:
+        CustomOpenIdConnectProvider
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-appservice.CustomOpenIdConnectProvider" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-appservice.CustomOpenIdConnectProvider" />
   - name: facebook
     uid: '@azure/arm-appservice.IdentityProviders.facebook'
     package: '@azure/arm-appservice'

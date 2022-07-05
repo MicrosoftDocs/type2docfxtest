@@ -57,10 +57,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'configurationProtectedSettings?: undefined | {[key: string]: string}'
+      content: 'configurationProtectedSettings?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'
   - name: errorMessage
     uid: '@azure/arm-kubernetesconfiguration.FluxConfiguration.errorMessage'
     package: '@azure/arm-kubernetesconfiguration'
@@ -106,12 +106,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'kustomizations?: undefined | {[key: string]: KustomizationDefinition}'
+      content: 'kustomizations?: undefined | [key: string]: KustomizationDefinition'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-kubernetesconfiguration.KustomizationDefinition" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-kubernetesconfiguration.KustomizationDefinition" />
   - name: lastSourceUpdatedAt
     uid: '@azure/arm-kubernetesconfiguration.FluxConfiguration.lastSourceUpdatedAt'
     package: '@azure/arm-kubernetesconfiguration'

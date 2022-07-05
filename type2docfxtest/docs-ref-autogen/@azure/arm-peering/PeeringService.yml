@@ -13,5 +13,5 @@ syntax: >-
   peeringServiceLocation?: undefined | string, peeringServiceProvider?:
   undefined | string, providerBackupPeeringLocation?: undefined | string,
   providerPrimaryPeeringLocation?: undefined | string, provisioningState?:
-  ProvisioningState, sku?: PeeringServiceSku, tags?: undefined | {[key: string]:
-  string} }
+  ProvisioningState, sku?: PeeringServiceSku, tags?: undefined | [key: string]:
+  string }

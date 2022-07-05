@@ -71,11 +71,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        UserAssignedIdentity}
+      content: 'userAssignedIdentities?: undefined | [key: string]: UserAssignedIdentity'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-servicefabric.UserAssignedIdentity" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-servicefabric.UserAssignedIdentity" />

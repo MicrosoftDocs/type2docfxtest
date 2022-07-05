@@ -1280,7 +1280,7 @@ functions:
     syntax:
       content: >-
         function prepareXMLRootList(obj: unknown, elementName: string,
-        xmlNamespaceKey?: string, xmlNamespace?: string): {[key: string]: any}
+        xmlNamespaceKey?: string, xmlNamespace?: string): [key: string]: any
       parameters:
         - id: obj
           type: unknown
@@ -1296,7 +1296,7 @@ functions:
           description: ''
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
   - name: promiseToCallback(Promise<any>)
     uid: '@azure/core-http.promiseToCallback'
     package: '@azure/core-http'

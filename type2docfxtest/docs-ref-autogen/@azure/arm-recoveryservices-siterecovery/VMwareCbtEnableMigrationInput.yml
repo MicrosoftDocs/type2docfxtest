@@ -11,13 +11,13 @@ syntax: >-
   type VMwareCbtEnableMigrationInput = EnableMigrationProviderSpecificInput & {
   dataMoverRunAsAccountId: string, disksToInclude: VMwareCbtDiskInput[],
   instanceType: "VMwareCbt", licenseType?: LicenseType, performAutoResync?:
-  undefined | string, seedDiskTags?: undefined | {[key: string]: string},
+  undefined | string, seedDiskTags?: undefined | [key: string]: string,
   snapshotRunAsAccountId: string, sqlServerLicenseType?: SqlServerLicenseType,
   targetAvailabilitySetId?: undefined | string, targetAvailabilityZone?:
   undefined | string, targetBootDiagnosticsStorageAccountId?: undefined |
-  string, targetDiskTags?: undefined | {[key: string]: string}, targetNetworkId:
-  string, targetNicTags?: undefined | {[key: string]: string},
+  string, targetDiskTags?: undefined | [key: string]: string, targetNetworkId:
+  string, targetNicTags?: undefined | [key: string]: string,
   targetProximityPlacementGroupId?: undefined | string, targetResourceGroupId:
   string, targetSubnetName?: undefined | string, targetVmName?: undefined |
-  string, targetVmSize?: undefined | string, targetVmTags?: undefined | {[key:
-  string]: string}, vmwareMachineId: string }
+  string, targetVmSize?: undefined | string, targetVmTags?: undefined | [key:
+  string]: string, vmwareMachineId: string }

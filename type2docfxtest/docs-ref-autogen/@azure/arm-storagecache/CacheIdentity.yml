@@ -68,10 +68,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        userAssignedIdentities?: undefined | {[key: string]:
-        UserAssignedIdentitiesValue}
+        userAssignedIdentities?: undefined | [key: string]:
+        UserAssignedIdentitiesValue
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-storagecache.UserAssignedIdentitiesValue" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-storagecache.UserAssignedIdentitiesValue" />

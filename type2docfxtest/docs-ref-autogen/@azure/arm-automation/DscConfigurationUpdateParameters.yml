@@ -70,12 +70,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parameters?: undefined | {[key: string]: DscConfigurationParameter}'
+      content: 'parameters?: undefined | [key: string]: DscConfigurationParameter'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-automation.DscConfigurationParameter" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-automation.DscConfigurationParameter" />
   - name: source
     uid: '@azure/arm-automation.DscConfigurationUpdateParameters.source'
     package: '@azure/arm-automation'
@@ -98,7 +98,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tags?: undefined | {[key: string]: string}'
+      content: 'tags?: undefined | [key: string]: string'
       return:
         description: ''
-        type: 'undefined | {[key: string]: string}'
+        type: 'undefined | [key: string]: string'

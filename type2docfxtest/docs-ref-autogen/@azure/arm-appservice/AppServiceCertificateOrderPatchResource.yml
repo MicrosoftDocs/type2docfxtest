@@ -11,8 +11,8 @@ syntax: >-
   type AppServiceCertificateOrderPatchResource = ProxyOnlyResource & {
   appServiceCertificateNotRenewableReasons?:
   AppServiceCertificateOrderPatchResourcePropertiesAppServiceCertificateNotRenewableReasonsItem[],
-  autoRenew?: undefined | false | true, certificates?: undefined | {[key:
-  string]: AppServiceCertificate}, contact?: CertificateOrderContact, csr?:
+  autoRenew?: undefined | false | true, certificates?: undefined | [key:
+  string]: AppServiceCertificate, contact?: CertificateOrderContact, csr?:
   undefined | string, distinguishedName?: undefined | string,
   domainVerificationToken?: undefined | string, expirationTime?: Date,
   intermediate?: CertificateDetails, isPrivateKeyExternal?: undefined | false |

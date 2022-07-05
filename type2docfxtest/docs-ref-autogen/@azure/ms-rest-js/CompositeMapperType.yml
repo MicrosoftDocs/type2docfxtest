@@ -44,10 +44,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modelProperties?: {[key: string]: Mapper}'
+      content: 'modelProperties?: [key: string]: Mapper'
       return:
         description: ''
-        type: '{[key: string]: <xref uid="@azure/ms-rest-js.Mapper" />}'
+        type: '[key: string]\: <xref uid="@azure/ms-rest-js.Mapper" />'
   - name: name
     uid: '@azure/ms-rest-js.CompositeMapperType.name'
     package: '@azure/ms-rest-js'

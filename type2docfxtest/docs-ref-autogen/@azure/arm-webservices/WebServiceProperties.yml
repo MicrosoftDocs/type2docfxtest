@@ -20,12 +20,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'assets?: undefined | {[key: string]: AssetItem}'
+      content: 'assets?: undefined | [key: string]: AssetItem'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-webservices.AssetItem" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-webservices.AssetItem" />
   - name: commitmentPlan
     uid: '@azure/arm-webservices.WebServiceProperties.commitmentPlan'
     package: '@azure/arm-webservices'
@@ -220,12 +220,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parameters?: undefined | {[key: string]: WebServiceParameter}'
+      content: 'parameters?: undefined | [key: string]: WebServiceParameter'
       return:
         description: ''
         type: >-
-          undefined | {[key: string]: <xref
-          uid="@azure/arm-webservices.WebServiceParameter" />}
+          undefined | [key: string]: <xref
+          uid="@azure/arm-webservices.WebServiceParameter" />
   - name: payloadsInBlobStorage
     uid: '@azure/arm-webservices.WebServiceProperties.payloadsInBlobStorage'
     package: '@azure/arm-webservices'

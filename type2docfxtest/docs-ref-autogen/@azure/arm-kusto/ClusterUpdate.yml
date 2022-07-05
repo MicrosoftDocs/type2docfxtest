@@ -19,7 +19,7 @@ syntax: >-
   optimizedAutoscale?: OptimizedAutoscale, provisioningState?:
   ProvisioningState, publicNetworkAccess?: PublicNetworkAccess,
   restrictOutboundNetworkAccess?: ClusterNetworkAccessFlag, sku?: AzureSku,
-  state?: State, stateReason?: undefined | string, tags?: undefined | {[key:
-  string]: string}, trustedExternalTenants?: TrustedExternalTenant[], uri?:
+  state?: State, stateReason?: undefined | string, tags?: undefined | [key:
+  string]: string, trustedExternalTenants?: TrustedExternalTenant[], uri?:
   undefined | string, virtualNetworkConfiguration?: VirtualNetworkConfiguration
   }

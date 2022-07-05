@@ -9,8 +9,8 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type RelationshipResourceFormat = ProxyResource & { cardinality?:
-  CardinalityTypes, description?: undefined | {[key: string]: string},
-  displayName?: undefined | {[key: string]: string}, expiryDateTimeUtc?: Date,
+  CardinalityTypes, description?: undefined | [key: string]: string,
+  displayName?: undefined | [key: string]: string, expiryDateTimeUtc?: Date,
   fields?: PropertyDefinition[], lookupMappings?: RelationshipTypeMapping[],
   profileType?: undefined | string, provisioningState?: ProvisioningStates,
   relatedProfileType?: undefined | string, relationshipGuidId?: undefined |

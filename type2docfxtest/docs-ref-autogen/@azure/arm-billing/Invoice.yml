@@ -16,7 +16,7 @@ syntax: >-
   freeAzureCreditApplied?: Amount, invoiceDate?: Date, invoicePeriodEndDate?:
   Date, invoicePeriodStartDate?: Date, invoiceType?: InvoiceType,
   isMonthlyInvoice?: undefined | false | true, payments?: PaymentProperties[],
-  purchaseOrderNumber?: undefined | string, rebillDetails?: undefined | {[key:
-  string]: RebillDetails}, status?: InvoiceStatus, subTotal?: Amount,
+  purchaseOrderNumber?: undefined | string, rebillDetails?: undefined | [key:
+  string]: RebillDetails, status?: InvoiceStatus, subTotal?: Amount,
   subscriptionId?: undefined | string, taxAmount?: Amount, totalAmount?: Amount
   }

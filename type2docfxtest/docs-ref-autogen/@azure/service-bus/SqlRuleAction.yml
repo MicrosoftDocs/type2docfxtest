@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type SqlRuleAction = { sqlExpression?: string, sqlParameters?: {[key: string]:
-  function} }
+  type SqlRuleAction = { sqlExpression?: string, sqlParameters?: [key: string]:
+  function }

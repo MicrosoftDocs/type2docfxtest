@@ -14,7 +14,7 @@ syntax: >-
   recoveryAzureV1ResourceGroupId?: undefined | string,
   recoveryAzureV2ResourceGroupId?: undefined | string, sqlServerLicenseType?:
   SqlServerLicenseType, targetAvailabilityZone?: undefined | string,
-  targetManagedDiskTags?: undefined | {[key: string]: string}, targetNicTags?:
-  undefined | {[key: string]: string}, targetProximityPlacementGroupId?:
-  undefined | string, targetVmTags?: undefined | {[key: string]: string},
-  useManagedDisks?: undefined | string, vmDisks?: UpdateDiskInput[] }
+  targetManagedDiskTags?: undefined | [key: string]: string, targetNicTags?:
+  undefined | [key: string]: string, targetProximityPlacementGroupId?: undefined
+  | string, targetVmTags?: undefined | [key: string]: string, useManagedDisks?:
+  undefined | string, vmDisks?: UpdateDiskInput[] }

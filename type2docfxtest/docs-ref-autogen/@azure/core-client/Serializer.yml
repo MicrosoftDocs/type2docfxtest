@@ -38,10 +38,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modelMappers: {[key: string]: any}'
+      content: 'modelMappers: [key: string]: any'
       return:
         description: ''
-        type: '{[key: string]: any}'
+        type: '[key: string]\: any'
 methods:
   - name: 'deserialize(Mapper, any, string, SerializerOptions)'
     uid: '@azure/core-client.Serializer.deserialize'

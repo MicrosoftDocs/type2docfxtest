@@ -9,7 +9,7 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type ManagedCluster = Resource & { aadProfile?: ManagedClusterAADProfile,
-  addonProfiles?: undefined | {[key: string]: ManagedClusterAddonProfile},
+  addonProfiles?: undefined | [key: string]: ManagedClusterAddonProfile,
   agentPoolProfiles?: ManagedClusterAgentPoolProfile[], apiServerAccessProfile?:
   ManagedClusterAPIServerAccessProfile, autoScalerProfile?:
   ManagedClusterPropertiesAutoScalerProfile, autoUpgradeProfile?:
@@ -20,7 +20,7 @@ syntax: >-
   extendedLocation?: ExtendedLocation, fqdn?: undefined | string,
   fqdnSubdomain?: undefined | string, httpProxyConfig?:
   ManagedClusterHttpProxyConfig, identity?: ManagedClusterIdentity,
-  identityProfile?: undefined | {[key: string]: UserAssignedIdentity},
+  identityProfile?: undefined | [key: string]: UserAssignedIdentity,
   kubernetesVersion?: undefined | string, linuxProfile?:
   ContainerServiceLinuxProfile, maxAgentPools?: undefined | number,
   networkProfile?: ContainerServiceNetworkProfile, nodeResourceGroup?: undefined
