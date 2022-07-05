@@ -7,10 +7,7 @@ fullName: MonitoringSettingsUpdatePutResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type MonitoringSettingsUpdatePutResponse = MonitoringSettingResource & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: MonitoringSettingResource,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody:
+  MonitoringSettingResource } }

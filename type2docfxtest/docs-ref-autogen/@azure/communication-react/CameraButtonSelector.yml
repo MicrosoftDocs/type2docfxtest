@@ -7,13 +7,7 @@ fullName: CameraButtonSelector
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type CameraButtonSelector = (
-    state: CallClientState,
-    props: CallingBaseSelectorProps
-  ) => {
-    cameras: VideoDeviceInfo[],
-    checked: boolean,
-    disabled: boolean,
-    selectedCamera?: VideoDeviceInfo,
-  }
+syntax: >-
+  type CameraButtonSelector = (state: CallClientState, props:
+  CallingBaseSelectorProps) => { cameras: VideoDeviceInfo[], checked: boolean,
+  disabled: boolean, selectedCamera?: VideoDeviceInfo }

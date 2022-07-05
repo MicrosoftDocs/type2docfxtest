@@ -7,10 +7,7 @@ fullName: DeploymentsBeginCreateOrUpdateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type DeploymentsBeginCreateOrUpdateResponse = DeploymentResource & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: DeploymentResource,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody: DeploymentResource
+  } }

@@ -7,10 +7,7 @@ fullName: RuntimeVersionsListRuntimeVersionsResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type RuntimeVersionsListRuntimeVersionsResponse = AvailableRuntimeVersions & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: AvailableRuntimeVersions,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody:
+  AvailableRuntimeVersions } }

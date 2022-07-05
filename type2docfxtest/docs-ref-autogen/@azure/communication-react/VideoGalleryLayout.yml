@@ -7,5 +7,4 @@ fullName: VideoGalleryLayout
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type VideoGalleryLayout = "default" | "floatingLocalVideo"
+syntax: type VideoGalleryLayout = "default" | "floatingLocalVideo"

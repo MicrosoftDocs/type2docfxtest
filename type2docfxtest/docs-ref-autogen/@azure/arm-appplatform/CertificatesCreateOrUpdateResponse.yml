@@ -7,10 +7,6 @@ fullName: CertificatesCreateOrUpdateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type CertificatesCreateOrUpdateResponse = CertificateResource & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: CertificateResource,
-    },
-  }
+syntax: >-
+  type CertificatesCreateOrUpdateResponse = CertificateResource & { _response:
+  HttpResponse & { bodyAsText: string, parsedBody: CertificateResource } }

@@ -9,5 +9,4 @@ fullName: FileUploadsUiState
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: |
-  type FileUploadsUiState = Record<string, FileUploadState>
+syntax: 'type FileUploadsUiState = Record<string, FileUploadState>'

@@ -7,10 +7,6 @@ fullName: PrivateLinkResourcesGetResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type PrivateLinkResourcesGetResponse = PrivateLinkResource & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: PrivateLinkResource,
-    },
-  }
+syntax: >-
+  type PrivateLinkResourcesGetResponse = PrivateLinkResource & { _response:
+  HttpResponse & { bodyAsText: string, parsedBody: PrivateLinkResource } }

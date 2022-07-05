@@ -8,10 +8,7 @@ fullName: FluxConfigurationsBeginCreateOrUpdateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type FluxConfigurationsBeginCreateOrUpdateResponse = FluxConfiguration & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: FluxConfiguration,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody: FluxConfiguration
+  } }

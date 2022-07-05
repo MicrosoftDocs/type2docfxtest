@@ -9,5 +9,4 @@ fullName: ScopeType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type ScopeType = "cluster" | "namespace"
+syntax: type ScopeType = "cluster" | "namespace"

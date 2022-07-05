@@ -7,10 +7,7 @@ fullName: ServicesListBySubscriptionNextResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type ServicesListBySubscriptionNextResponse = ServiceResourceList & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: ServiceResourceList,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody:
+  ServiceResourceList } }

@@ -7,10 +7,7 @@ fullName: CustomDomainsListNextResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type CustomDomainsListNextResponse = CustomDomainResourceCollection & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: CustomDomainResourceCollection,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody:
+  CustomDomainResourceCollection } }

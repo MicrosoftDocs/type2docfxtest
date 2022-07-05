@@ -7,7 +7,6 @@ fullName: CallWithChatCompositeOptions
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type CallWithChatCompositeOptions = {
-    callControls?: boolean | CallWithChatControlOptions,
-  }
+syntax: >-
+  type CallWithChatCompositeOptions = { callControls?: boolean |
+  CallWithChatControlOptions }

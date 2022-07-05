@@ -7,5 +7,4 @@ fullName: FileUploadError
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: |
-  type FileUploadError = { message: string, timestamp: number }
+syntax: 'type FileUploadError = { message: string, timestamp: number }'

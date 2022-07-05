@@ -31,8 +31,6 @@ fullName: FileDownloadHandler
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: |
-  type FileDownloadHandler = (
-    userId: string,
-    fileMetadata: FileMetadata
-  ) => Promise<URL | FileDownloadError>
+syntax: >-
+  type FileDownloadHandler = (userId: string, fileMetadata: FileMetadata) =>
+  Promise<URL | FileDownloadError>

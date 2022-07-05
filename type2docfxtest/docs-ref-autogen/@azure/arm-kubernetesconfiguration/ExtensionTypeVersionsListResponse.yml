@@ -7,10 +7,6 @@ fullName: ExtensionTypeVersionsListResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type ExtensionTypeVersionsListResponse = ExtensionVersionList & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: ExtensionVersionList,
-    },
-  }
+syntax: >-
+  type ExtensionTypeVersionsListResponse = ExtensionVersionList & { _response:
+  HttpResponse & { bodyAsText: string, parsedBody: ExtensionVersionList } }

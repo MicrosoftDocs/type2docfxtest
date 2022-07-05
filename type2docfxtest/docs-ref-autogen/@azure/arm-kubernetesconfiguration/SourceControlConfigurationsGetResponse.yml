@@ -7,10 +7,7 @@ fullName: SourceControlConfigurationsGetResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type SourceControlConfigurationsGetResponse = SourceControlConfiguration & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: SourceControlConfiguration,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody:
+  SourceControlConfiguration } }

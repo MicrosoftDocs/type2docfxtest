@@ -9,5 +9,4 @@ fullName: UserSourceType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type UserSourceType = "Jar" | "NetCoreZip" | "Source" | "Container"
+syntax: type UserSourceType = "Jar" | "NetCoreZip" | "Source" | "Container"

@@ -7,10 +7,7 @@ fullName: FluxConfigurationsListNextResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
+syntax: >-
   type FluxConfigurationsListNextResponse = FluxConfigurationsList & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: FluxConfigurationsList,
-    },
-  }
+  _response: HttpResponse & { bodyAsText: string, parsedBody:
+  FluxConfigurationsList } }

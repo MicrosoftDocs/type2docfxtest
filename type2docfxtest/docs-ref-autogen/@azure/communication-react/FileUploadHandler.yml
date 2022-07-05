@@ -7,8 +7,6 @@ fullName: FileUploadHandler
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: |
-  type FileUploadHandler = (
-    userId: string,
-    fileUploads: FileUploadManager[]
-  ) => void
+syntax: >-
+  type FileUploadHandler = (userId: string, fileUploads: FileUploadManager[]) =>
+  void

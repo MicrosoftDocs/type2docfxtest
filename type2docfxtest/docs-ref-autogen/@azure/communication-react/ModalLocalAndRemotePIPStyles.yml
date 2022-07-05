@@ -7,5 +7,4 @@ fullName: ModalLocalAndRemotePIPStyles
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type ModalLocalAndRemotePIPStyles = { modal?: Partial<IModalStyles> }
+syntax: 'type ModalLocalAndRemotePIPStyles = { modal?: Partial<IModalStyles> }'

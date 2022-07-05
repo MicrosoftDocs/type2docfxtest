@@ -7,10 +7,6 @@ fullName: LocationExtensionTypesListResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type LocationExtensionTypesListResponse = ExtensionTypeList & {
-    _response: HttpResponse & {
-      bodyAsText: string,
-      parsedBody: ExtensionTypeList,
-    },
-  }
+syntax: >-
+  type LocationExtensionTypesListResponse = ExtensionTypeList & { _response:
+  HttpResponse & { bodyAsText: string, parsedBody: ExtensionTypeList } }

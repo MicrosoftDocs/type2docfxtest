@@ -9,5 +9,4 @@ fullName: SupportedRuntimePlatform
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type SupportedRuntimePlatform = "Java" | ".NET Core"
+syntax: type SupportedRuntimePlatform = "Java" | ".NET Core"

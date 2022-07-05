@@ -9,20 +9,9 @@ fullName: CallWithChatEvent
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type CallWithChatEvent =
-    | "callError"
-    | "chatError"
-    | "callEnded"
-    | "isMutedChanged"
-    | "callIdChanged"
-    | "isLocalScreenSharingActiveChanged"
-    | "displayNameChanged"
-    | "isSpeakingChanged"
-    | "callParticipantsJoined"
-    | "callParticipantsLeft"
-    | "messageReceived"
-    | "messageSent"
-    | "messageRead"
-    | "chatParticipantsAdded"
-    | "chatParticipantsRemoved"
+syntax: >-
+  type CallWithChatEvent = "callError" | "chatError" | "callEnded" |
+  "isMutedChanged" | "callIdChanged" | "isLocalScreenSharingActiveChanged" |
+  "displayNameChanged" | "isSpeakingChanged" | "callParticipantsJoined" |
+  "callParticipantsLeft" | "messageReceived" | "messageSent" | "messageRead" |
+  "chatParticipantsAdded" | "chatParticipantsRemoved"

@@ -11,11 +11,6 @@ fullName: ProvisioningState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type ProvisioningState =
-    | "Succeeded"
-    | "Failed"
-    | "Canceled"
-    | "Creating"
-    | "Updating"
-    | "Deleting"
+syntax: >-
+  type ProvisioningState = "Succeeded" | "Failed" | "Canceled" | "Creating" |
+  "Updating" | "Deleting"

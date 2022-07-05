@@ -13,9 +13,6 @@ fullName: IdentityType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type IdentityType =
-    | "None"
-    | "SystemAssigned"
-    | "UserAssigned"
-    | "SystemAssigned, UserAssigned"
+syntax: >-
+  type IdentityType = "None" | "SystemAssigned" | "UserAssigned" |
+  "SystemAssigned, UserAssigned"

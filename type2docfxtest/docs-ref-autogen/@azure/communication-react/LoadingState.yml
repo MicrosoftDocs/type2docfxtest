@@ -7,5 +7,4 @@ fullName: LoadingState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type LoadingState = "loading" | "none"
+syntax: type LoadingState = "loading" | "none"

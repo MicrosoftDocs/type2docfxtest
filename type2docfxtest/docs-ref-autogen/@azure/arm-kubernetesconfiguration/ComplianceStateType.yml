@@ -11,10 +11,6 @@ fullName: ComplianceStateType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type ComplianceStateType =
-    | "Pending"
-    | "Compliant"
-    | "Noncompliant"
-    | "Installed"
-    | "Failed"
+syntax: >-
+  type ComplianceStateType = "Pending" | "Compliant" | "Noncompliant" |
+  "Installed" | "Failed"

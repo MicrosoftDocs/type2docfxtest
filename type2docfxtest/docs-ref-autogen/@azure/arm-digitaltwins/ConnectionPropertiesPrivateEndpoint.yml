@@ -7,5 +7,4 @@ fullName: ConnectionPropertiesPrivateEndpoint
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type ConnectionPropertiesPrivateEndpoint = PrivateEndpoint & __type
+syntax: type ConnectionPropertiesPrivateEndpoint = PrivateEndpoint & __type

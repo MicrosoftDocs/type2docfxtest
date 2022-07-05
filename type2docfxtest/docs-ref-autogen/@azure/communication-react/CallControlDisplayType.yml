@@ -7,5 +7,4 @@ fullName: CallControlDisplayType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type CallControlDisplayType = "default" | "compact"
+syntax: type CallControlDisplayType = "default" | "compact"

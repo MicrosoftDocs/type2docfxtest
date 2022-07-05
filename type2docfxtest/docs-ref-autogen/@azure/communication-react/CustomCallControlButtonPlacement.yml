@@ -19,5 +19,4 @@ fullName: CustomCallControlButtonPlacement
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: |
-  type CustomCallControlButtonPlacement = "primary"
+syntax: type CustomCallControlButtonPlacement = "primary"

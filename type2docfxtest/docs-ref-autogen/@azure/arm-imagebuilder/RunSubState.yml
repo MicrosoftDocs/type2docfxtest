@@ -7,5 +7,4 @@ fullName: RunSubState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: |
-  type RunSubState = "Queued" | "Building" | "Customizing" | "Distributing"
+syntax: type RunSubState = "Queued" | "Building" | "Customizing" | "Distributing"
