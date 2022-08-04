@@ -3,8 +3,8 @@ name: BlobGetPropertiesOptions
 uid: '@azure/storage-blob.BlobGetPropertiesOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Options to configure the
-  <xref:@azure/storage-blob.AppendBlobClient.getProperties> operation.
+  Options to configure the <xref:@azure/storage-blob.BlobClient.getProperties>
+  operation.
 fullName: BlobGetPropertiesOptions
 remarks: ''
 isPreview: false
@@ -69,4 +69,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-blob.CommonOptions.tracingOptions>
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

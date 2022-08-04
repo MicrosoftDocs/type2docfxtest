@@ -7,7 +7,10 @@ fullName: KeyValuesListByConfigurationStoreResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type KeyValuesListByConfigurationStoreResponse = KeyValueListResult & {
-  _response: HttpResponse & { bodyAsText: string, parsedBody: KeyValueListResult
-  } }
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: KeyValueListResult,
+    },
+  }

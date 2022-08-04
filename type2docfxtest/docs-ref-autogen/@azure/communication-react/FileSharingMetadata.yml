@@ -9,4 +9,5 @@ fullName: FileSharingMetadata
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: 'type FileSharingMetadata = { fileSharingMetadata: string }'
+syntax: |
+  type FileSharingMetadata = { fileSharingMetadata: string }

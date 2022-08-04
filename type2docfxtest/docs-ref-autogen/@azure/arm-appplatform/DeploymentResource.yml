@@ -53,6 +53,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-appplatform.Resource.id>'
   - name: name
     uid: '@azure/arm-appplatform.DeploymentResource.name'
     package: '@azure/arm-appplatform'
@@ -70,6 +71,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-appplatform.Resource.name>'
   - name: type
     uid: '@azure/arm-appplatform.DeploymentResource.type'
     package: '@azure/arm-appplatform'
@@ -87,4 +89,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-appplatform.Resource.type>'
 extends: <xref uid="@azure/arm-appplatform.ProxyResource" />

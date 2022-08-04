@@ -98,6 +98,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.CallWithChatCompositeIcons" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/communication-react.BaseCompositeProps.icons>
   - name: locale
     uid: '@azure/communication-react.CallWithChatCompositeProps.locale'
     package: '@azure/communication-react'
@@ -111,6 +114,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.CompositeLocale" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/communication-react.BaseCompositeProps.locale>
   - name: onFetchAvatarPersonaData
     uid: >-
       @azure/communication-react.CallWithChatCompositeProps.onFetchAvatarPersonaData
@@ -129,6 +135,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.AvatarPersonaDataCallback" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/communication-react.BaseCompositeProps.onFetchAvatarPersonaData>
   - name: onFetchParticipantMenuItems
     uid: >-
       @azure/communication-react.CallWithChatCompositeProps.onFetchParticipantMenuItems
@@ -147,6 +156,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.ParticipantMenuItemsCallback" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/communication-react.BaseCompositeProps.onFetchParticipantMenuItems>
   - name: rtl
     uid: '@azure/communication-react.CallWithChatCompositeProps.rtl'
     package: '@azure/communication-react'
@@ -160,6 +172,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/communication-react.BaseCompositeProps.rtl>
 extends: >-
   <xref uid="@azure/communication-react.BaseCompositeProps" />&lt;<xref
   uid="@azure/communication-react.CallWithChatCompositeIcons" />&gt;

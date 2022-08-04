@@ -12,6 +12,9 @@ fullName: FailActivity
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type FailActivity = ControlActivity & { errorCode: Record<string, unknown>,
-  message: Record<string, unknown>, type: "Fail" }
+syntax: |
+  type FailActivity = ControlActivity & {
+    errorCode: Record<string, unknown>,
+    message: Record<string, unknown>,
+    type: "Fail",
+  }

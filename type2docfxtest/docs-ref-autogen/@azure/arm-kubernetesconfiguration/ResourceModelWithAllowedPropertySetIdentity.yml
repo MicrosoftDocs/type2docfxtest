@@ -27,6 +27,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Identity.principalId>
   - name: tenantId
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetIdentity.tenantId
@@ -45,6 +48,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Identity.tenantId>
   - name: type
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetIdentity.type
@@ -59,4 +65,7 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/arm-kubernetesconfiguration.ResourceIdentityType" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Identity.type>
 extends: <xref uid="@azure/arm-kubernetesconfiguration.Identity" />

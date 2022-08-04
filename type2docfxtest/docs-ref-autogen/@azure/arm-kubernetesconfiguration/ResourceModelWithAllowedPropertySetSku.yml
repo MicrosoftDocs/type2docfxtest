@@ -27,6 +27,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Sku.capacity>
   - name: family
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetSku.family
@@ -45,6 +48,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-kubernetesconfiguration.Sku.family>'
   - name: name
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetSku.name
@@ -59,6 +63,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-kubernetesconfiguration.Sku.name>'
   - name: size
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetSku.size
@@ -77,6 +82,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-kubernetesconfiguration.Sku.size>'
   - name: tier
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetSku.tier
@@ -98,4 +104,5 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/arm-kubernetesconfiguration.SkuTier" />
+    inheritanceDescription: '<b>Inherited From</b> <xref:@azure/arm-kubernetesconfiguration.Sku.tier>'
 extends: <xref uid="@azure/arm-kubernetesconfiguration.Sku" />

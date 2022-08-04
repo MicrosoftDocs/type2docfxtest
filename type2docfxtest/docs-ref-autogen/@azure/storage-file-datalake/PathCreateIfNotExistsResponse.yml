@@ -41,6 +41,9 @@ inheritedProperties:
       return:
         description: ''
         type: number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.contentLength>
   - name: continuation
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.continuation'
     package: '@azure/storage-file-datalake'
@@ -60,6 +63,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.continuation>
   - name: date
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.date'
     package: '@azure/storage-file-datalake'
@@ -75,6 +81,9 @@ inheritedProperties:
       return:
         description: ''
         type: Date
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.date>
   - name: errorCode
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.errorCode'
     package: '@azure/storage-file-datalake'
@@ -88,6 +97,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.errorCode>
   - name: etag
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.etag'
     package: '@azure/storage-file-datalake'
@@ -101,6 +113,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.etag>
   - name: lastModified
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.lastModified'
     package: '@azure/storage-file-datalake'
@@ -116,6 +131,9 @@ inheritedProperties:
       return:
         description: ''
         type: Date
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.lastModified>
   - name: requestId
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.requestId'
     package: '@azure/storage-file-datalake'
@@ -131,6 +149,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.requestId>
   - name: version
     uid: '@azure/storage-file-datalake.PathCreateIfNotExistsResponse.version'
     package: '@azure/storage-file-datalake'
@@ -144,6 +165,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-file-datalake.PathCreateHeaders.version>
 extends: >-
   <xref uid="@azure/storage-file-datalake.PathCreateHeaders" /> & { _response:
   HttpResponse & { parsedHeaders: PathCreateHeaders } }

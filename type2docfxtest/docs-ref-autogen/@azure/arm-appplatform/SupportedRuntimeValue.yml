@@ -9,4 +9,5 @@ fullName: SupportedRuntimeValue
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type SupportedRuntimeValue = "Java_8" | "Java_11" | "NetCore_31"
+syntax: |
+  type SupportedRuntimeValue = "Java_8" | "Java_11" | "NetCore_31"

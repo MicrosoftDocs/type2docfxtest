@@ -2,9 +2,7 @@
 name: KnownEnum19
 uid: '@azure/arm-eventgrid.KnownEnum19'
 package: '@azure/arm-eventgrid'
-summary: >-
-  Known values of <xref:@azure/arm-eventgrid.KnownEnum19> that the service
-  accepts.
+summary: 'Known values of <xref:@azure/arm-eventgrid.Enum19> that the service accepts.'
 fullName: KnownEnum19
 remarks: ''
 isPreview: false

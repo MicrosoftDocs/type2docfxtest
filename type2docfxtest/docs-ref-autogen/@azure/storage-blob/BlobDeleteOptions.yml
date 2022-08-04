@@ -3,7 +3,7 @@ name: BlobDeleteOptions
 uid: '@azure/storage-blob.BlobDeleteOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Options to configure the <xref:@azure/storage-blob.AppendBlobClient.delete>
+  Options to configure the <xref:@azure/storage-blob.BlobClient.delete>
   operation.
 fullName: BlobDeleteOptions
 remarks: ''
@@ -85,4 +85,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-blob.CommonOptions.tracingOptions>
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

@@ -4,7 +4,7 @@ uid: '@azure/communication-react.CallWithChatAdapterSubscriptions'
 package: '@azure/communication-react'
 summary: >-
   Call and Chat events that can be subscribed to in the
-  <xref:@azure/communication-react.AzureCommunicationCallWithChatAdapter>.
+  <xref:@azure/communication-react.CallWithChatAdapter>.
 fullName: CallWithChatAdapterSubscriptions
 remarks: ''
 isPreview: false

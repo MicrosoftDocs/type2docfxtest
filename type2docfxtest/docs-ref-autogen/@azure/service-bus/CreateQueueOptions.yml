@@ -354,6 +354,7 @@ inheritedProperties:
       return:
         description: ''
         type: AbortSignalLike
+    inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: requestOptions
     uid: '@azure/service-bus.CreateQueueOptions.requestOptions'
     package: '@azure/service-bus'
@@ -367,6 +368,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationRequestOptions
+    inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: tracingOptions
     uid: '@azure/service-bus.CreateQueueOptions.tracingOptions'
     package: '@azure/service-bus'
@@ -380,4 +382,5 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: <b>Inherited From</b> OperationOptions.tracingOptions
 extends: OperationOptions

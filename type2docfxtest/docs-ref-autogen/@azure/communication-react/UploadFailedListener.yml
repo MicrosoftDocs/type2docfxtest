@@ -7,4 +7,5 @@ fullName: UploadFailedListener
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: 'type UploadFailedListener = (id: string, message: string) => void'
+syntax: |
+  type UploadFailedListener = (id: string, message: string) => void

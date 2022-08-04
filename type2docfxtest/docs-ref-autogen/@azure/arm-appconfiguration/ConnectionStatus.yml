@@ -9,4 +9,5 @@ fullName: ConnectionStatus
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type ConnectionStatus = "Pending" | "Approved" | "Rejected" | "Disconnected"
+syntax: |
+  type ConnectionStatus = "Pending" | "Approved" | "Rejected" | "Disconnected"

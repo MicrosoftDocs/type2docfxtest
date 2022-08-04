@@ -3,7 +3,7 @@ name: BlobDownloadOptions
 uid: '@azure/storage-blob.BlobDownloadOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Options to configure the <xref:@azure/storage-blob.AppendBlobClient.download>
+  Options to configure the <xref:@azure/storage-blob.BlobClient.download>
   operation.
 fullName: BlobDownloadOptions
 remarks: ''
@@ -167,4 +167,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-blob.CommonOptions.tracingOptions>
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

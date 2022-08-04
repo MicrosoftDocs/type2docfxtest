@@ -7,4 +7,5 @@ fullName: ListContainersIncludeType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type ListContainersIncludeType = "metadata" | "deleted"
+syntax: |
+  type ListContainersIncludeType = "metadata" | "deleted"

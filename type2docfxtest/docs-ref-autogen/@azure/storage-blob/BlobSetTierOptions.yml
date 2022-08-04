@@ -3,8 +3,8 @@ name: BlobSetTierOptions
 uid: '@azure/storage-blob.BlobSetTierOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Options to configure the
-  <xref:@azure/storage-blob.AppendBlobClient.setAccessTier> operation.
+  Options to configure the <xref:@azure/storage-blob.BlobClient.setAccessTier>
+  operation.
 fullName: BlobSetTierOptions
 remarks: ''
 isPreview: false
@@ -79,4 +79,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/storage-blob.CommonOptions.tracingOptions>
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

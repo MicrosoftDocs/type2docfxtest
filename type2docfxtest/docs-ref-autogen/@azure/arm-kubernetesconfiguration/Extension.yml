@@ -271,6 +271,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Resource.id>
   - name: name
     uid: '@azure/arm-kubernetesconfiguration.Extension.name'
     package: '@azure/arm-kubernetesconfiguration'
@@ -288,6 +291,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Resource.name>
   - name: type
     uid: '@azure/arm-kubernetesconfiguration.Extension.type'
     package: '@azure/arm-kubernetesconfiguration'
@@ -307,4 +313,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      <xref:@azure/arm-kubernetesconfiguration.Resource.type>
 extends: <xref uid="@azure/arm-kubernetesconfiguration.ProxyResource" />
