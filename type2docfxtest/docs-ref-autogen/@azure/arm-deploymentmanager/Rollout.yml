@@ -169,6 +169,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:Resource.id)'
   - name: location
     uid: '@azure/arm-deploymentmanager.Rollout.location'
     package: '@azure/arm-deploymentmanager'
@@ -182,6 +183,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [TrackedResource.location](xref:TrackedResource.location)
   - name: name
     uid: '@azure/arm-deploymentmanager.Rollout.name'
     package: '@azure/arm-deploymentmanager'
@@ -199,6 +203,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.name](xref:Resource.name)'
   - name: tags
     uid: '@azure/arm-deploymentmanager.Rollout.tags'
     package: '@azure/arm-deploymentmanager'
@@ -212,6 +217,7 @@ inheritedProperties:
       return:
         description: ''
         type: 'undefined | [key: string]: string'
+    inheritanceDescription: '<b>Inherited From</b> [TrackedResource.tags](xref:TrackedResource.tags)'
   - name: type
     uid: '@azure/arm-deploymentmanager.Rollout.type'
     package: '@azure/arm-deploymentmanager'
@@ -231,4 +237,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.type](xref:Resource.type)'
 extends: <xref uid="@azure/arm-deploymentmanager.TrackedResource" />

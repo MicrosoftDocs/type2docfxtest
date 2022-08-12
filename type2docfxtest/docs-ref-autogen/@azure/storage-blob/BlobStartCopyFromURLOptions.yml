@@ -4,7 +4,7 @@ uid: '@azure/storage-blob.BlobStartCopyFromURLOptions'
 package: '@azure/storage-blob'
 summary: >-
   Options to configure the
-  <xref:@azure/storage-blob.AppendBlobClient.beginCopyFromURL> operation.
+  <xref:@azure/storage-blob.BlobClient.beginCopyFromURL> operation.
 fullName: BlobStartCopyFromURLOptions
 remarks: ''
 isPreview: false
@@ -188,4 +188,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

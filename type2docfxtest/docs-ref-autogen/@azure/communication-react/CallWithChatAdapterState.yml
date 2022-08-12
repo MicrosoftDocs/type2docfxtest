@@ -26,6 +26,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.CallState" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.call](xref:CallWithChatClientState.call)
   - name: chat
     uid: '@azure/communication-react.CallWithChatAdapterState.chat'
     package: '@azure/communication-react'
@@ -39,6 +42,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.ChatThreadClientState" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.chat](xref:CallWithChatClientState.chat)
   - name: devices
     uid: '@azure/communication-react.CallWithChatAdapterState.devices'
     package: '@azure/communication-react'
@@ -52,6 +58,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.DeviceManagerState" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.devices](xref:CallWithChatClientState.devices)
   - name: displayName
     uid: '@azure/communication-react.CallWithChatAdapterState.displayName'
     package: '@azure/communication-react'
@@ -65,6 +74,9 @@ inheritedProperties:
       return:
         description: ''
         type: string | undefined
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.displayName](xref:CallWithChatClientState.displayName)
   - name: isLocalPreviewMicrophoneEnabled
     uid: >-
       @azure/communication-react.CallWithChatAdapterState.isLocalPreviewMicrophoneEnabled
@@ -79,6 +91,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatAdapterUiState.isLocalPreviewMicrophoneEnabled](xref:CallWithChatAdapterUiState.isLocalPreviewMicrophoneEnabled)
   - name: isTeamsCall
     uid: '@azure/communication-react.CallWithChatAdapterState.isTeamsCall'
     package: '@azure/communication-react'
@@ -92,6 +107,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.isTeamsCall](xref:CallWithChatClientState.isTeamsCall)
   - name: latestCallErrors
     uid: '@azure/communication-react.CallWithChatAdapterState.latestCallErrors'
     package: '@azure/communication-react'
@@ -107,6 +125,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.AdapterErrors" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.latestCallErrors](xref:CallWithChatClientState.latestCallErrors)
   - name: latestChatErrors
     uid: '@azure/communication-react.CallWithChatAdapterState.latestChatErrors'
     package: '@azure/communication-react'
@@ -122,6 +143,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.AdapterErrors" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.latestChatErrors](xref:CallWithChatClientState.latestChatErrors)
   - name: page
     uid: '@azure/communication-react.CallWithChatAdapterState.page'
     package: '@azure/communication-react'
@@ -135,6 +159,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.CallCompositePage" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatAdapterUiState.page](xref:CallWithChatAdapterUiState.page)
   - name: userId
     uid: '@azure/communication-react.CallWithChatAdapterState.userId'
     package: '@azure/communication-react'
@@ -148,4 +175,7 @@ inheritedProperties:
       return:
         description: ''
         type: CommunicationIdentifierKind
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallWithChatClientState.userId](xref:CallWithChatClientState.userId)
 extends: <xref uid="@azure/communication-react.CallWithChatAdapterUiState" />

@@ -29,6 +29,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.askDevicePermission](xref:CallAdapterDeviceManagement.askDevicePermission)
   - name: 'createStreamView(string, VideoStreamOptions)'
     uid: '@azure/communication-react.CallAdapter.createStreamView'
     package: '@azure/communication-react'
@@ -56,6 +59,9 @@ inheritedMethods:
         type: >-
           Promise&lt;void | <xref
           uid="@azure/communication-react.CreateVideoStreamViewResult" />&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.createStreamView](xref:CallAdapterCallManagement.createStreamView)
   - name: 'disposeStreamView(string, VideoStreamOptions)'
     uid: '@azure/communication-react.CallAdapter.disposeStreamView'
     package: '@azure/communication-react'
@@ -81,6 +87,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.disposeStreamView](xref:CallAdapterCallManagement.disposeStreamView)
   - name: joinCall(boolean)
     uid: '@azure/communication-react.CallAdapter.joinCall'
     package: '@azure/communication-react'
@@ -98,6 +107,9 @@ inheritedMethods:
       return:
         description: ''
         type: Call | undefined
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.joinCall](xref:CallAdapterCallManagement.joinCall)
   - name: leaveCall(boolean)
     uid: '@azure/communication-react.CallAdapter.leaveCall'
     package: '@azure/communication-react'
@@ -115,6 +127,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.leaveCall](xref:CallAdapterCallManagement.leaveCall)
   - name: mute()
     uid: '@azure/communication-react.CallAdapter.mute'
     package: '@azure/communication-react'
@@ -127,6 +142,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.mute](xref:CallAdapterCallManagement.mute)
   - name: 'off("callEnded", CallEndedListener)'
     uid: '@azure/communication-react.CallAdapter.off_7'
     package: '@azure/communication-react'
@@ -143,6 +161,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.CallEndedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("callIdChanged", CallIdChangedListener)'
     uid: '@azure/communication-react.CallAdapter.off_3'
     package: '@azure/communication-react'
@@ -159,6 +180,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.CallIdChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("diagnosticChanged", DiagnosticChangedEventListner)'
     uid: '@azure/communication-react.CallAdapter.off_8'
     package: '@azure/communication-react'
@@ -179,6 +203,9 @@ inheritedMethods:
             <xref uid="@azure/communication-react.DiagnosticChangedEventListner"
             />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("displayNameChanged", DisplayNameChangedListener)'
     uid: '@azure/communication-react.CallAdapter.off_5'
     package: '@azure/communication-react'
@@ -197,6 +224,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.DisplayNameChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("error", (e: AdapterError) => void)'
     uid: '@azure/communication-react.CallAdapter.off_9'
     package: '@azure/communication-react'
@@ -213,6 +243,9 @@ inheritedMethods:
         - id: listener
           type: '(e: AdapterError) =&gt; void'
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: >-
       off("isLocalScreenSharingActiveChanged",
       IsLocalScreenSharingActiveChangedListener)
@@ -236,6 +269,9 @@ inheritedMethods:
             uid="@azure/communication-react.IsLocalScreenSharingActiveChangedListener"
             />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("isMutedChanged", IsMutedChangedListener)'
     uid: '@azure/communication-react.CallAdapter.off_2'
     package: '@azure/communication-react'
@@ -252,6 +288,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.IsMutedChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("isSpeakingChanged", IsSpeakingChangedListener)'
     uid: '@azure/communication-react.CallAdapter.off_6'
     package: '@azure/communication-react'
@@ -270,6 +309,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.IsSpeakingChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("participantsJoined", ParticipantsJoinedListener)'
     uid: '@azure/communication-react.CallAdapter.off'
     package: '@azure/communication-react'
@@ -288,6 +330,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.ParticipantsJoinedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'off("participantsLeft", ParticipantsLeftListener)'
     uid: '@azure/communication-react.CallAdapter.off_1'
     package: '@azure/communication-react'
@@ -306,6 +351,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.ParticipantsLeftListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.off](xref:CallAdapterSubscribers.off)
   - name: 'on("callEnded", CallEndedListener)'
     uid: '@azure/communication-react.CallAdapter.on_7'
     package: '@azure/communication-react'
@@ -322,6 +370,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.CallEndedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("callIdChanged", CallIdChangedListener)'
     uid: '@azure/communication-react.CallAdapter.on_3'
     package: '@azure/communication-react'
@@ -338,6 +389,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.CallIdChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("diagnosticChanged", DiagnosticChangedEventListner)'
     uid: '@azure/communication-react.CallAdapter.on_8'
     package: '@azure/communication-react'
@@ -362,6 +416,9 @@ inheritedMethods:
             <xref uid="@azure/communication-react.DiagnosticChangedEventListner"
             />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("displayNameChanged", DisplayNameChangedListener)'
     uid: '@azure/communication-react.CallAdapter.on_5'
     package: '@azure/communication-react'
@@ -380,6 +437,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.DisplayNameChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("error", (e: AdapterError) => void)'
     uid: '@azure/communication-react.CallAdapter.on_9'
     package: '@azure/communication-react'
@@ -396,6 +456,9 @@ inheritedMethods:
         - id: listener
           type: '(e: AdapterError) =&gt; void'
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: >-
       on("isLocalScreenSharingActiveChanged",
       IsLocalScreenSharingActiveChangedListener)
@@ -419,6 +482,9 @@ inheritedMethods:
             uid="@azure/communication-react.IsLocalScreenSharingActiveChangedListener"
             />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("isMutedChanged", IsMutedChangedListener)'
     uid: '@azure/communication-react.CallAdapter.on_2'
     package: '@azure/communication-react'
@@ -437,6 +503,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.IsMutedChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("isSpeakingChanged", IsSpeakingChangedListener)'
     uid: '@azure/communication-react.CallAdapter.on_6'
     package: '@azure/communication-react'
@@ -455,6 +524,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.IsSpeakingChangedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("participantsJoined", ParticipantsJoinedListener)'
     uid: '@azure/communication-react.CallAdapter.on'
     package: '@azure/communication-react'
@@ -473,6 +545,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.ParticipantsJoinedListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: 'on("participantsLeft", ParticipantsLeftListener)'
     uid: '@azure/communication-react.CallAdapter.on_1'
     package: '@azure/communication-react'
@@ -491,6 +566,9 @@ inheritedMethods:
         - id: listener
           type: <xref uid="@azure/communication-react.ParticipantsLeftListener" />
           description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterSubscribers.on](xref:CallAdapterSubscribers.on)
   - name: queryCameras()
     uid: '@azure/communication-react.CallAdapter.queryCameras'
     package: '@azure/communication-react'
@@ -505,6 +583,9 @@ inheritedMethods:
           An array of video device information entities {@link
           @azure/communication-calling#VideoDeviceInfo }
         type: 'Promise&lt;VideoDeviceInfo[]&gt;'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.queryCameras](xref:CallAdapterDeviceManagement.queryCameras)
   - name: queryMicrophones()
     uid: '@azure/communication-react.CallAdapter.queryMicrophones'
     package: '@azure/communication-react'
@@ -519,6 +600,9 @@ inheritedMethods:
           An array of audio device information entities {@link
           @azure/communication-calling#AudioDeviceInfo }
         type: 'Promise&lt;AudioDeviceInfo[]&gt;'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.queryMicrophones](xref:CallAdapterDeviceManagement.queryMicrophones)
   - name: querySpeakers()
     uid: '@azure/communication-react.CallAdapter.querySpeakers'
     package: '@azure/communication-react'
@@ -533,6 +617,9 @@ inheritedMethods:
           An array of audio device information entities {@link
           @azure/communication-calling#AudioDeviceInfo }
         type: 'Promise&lt;AudioDeviceInfo[]&gt;'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.querySpeakers](xref:CallAdapterDeviceManagement.querySpeakers)
   - name: removeParticipant(string)
     uid: '@azure/communication-react.CallAdapter.removeParticipant'
     package: '@azure/communication-react'
@@ -550,6 +637,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.removeParticipant](xref:CallAdapterCallManagement.removeParticipant)
   - name: 'setCamera(VideoDeviceInfo, VideoStreamOptions)'
     uid: '@azure/communication-react.CallAdapter.setCamera'
     package: '@azure/communication-react'
@@ -575,6 +665,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.setCamera](xref:CallAdapterDeviceManagement.setCamera)
   - name: setMicrophone(AudioDeviceInfo)
     uid: '@azure/communication-react.CallAdapter.setMicrophone'
     package: '@azure/communication-react'
@@ -593,6 +686,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.setMicrophone](xref:CallAdapterDeviceManagement.setMicrophone)
   - name: setSpeaker(AudioDeviceInfo)
     uid: '@azure/communication-react.CallAdapter.setSpeaker'
     package: '@azure/communication-react'
@@ -611,6 +707,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterDeviceManagement.setSpeaker](xref:CallAdapterDeviceManagement.setSpeaker)
   - name: 'startCall(string[])'
     uid: '@azure/communication-react.CallAdapter.startCall'
     package: '@azure/communication-react'
@@ -628,6 +727,9 @@ inheritedMethods:
       return:
         description: ''
         type: Call | undefined
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.startCall](xref:CallAdapterCallManagement.startCall)
   - name: startCamera(VideoStreamOptions)
     uid: '@azure/communication-react.CallAdapter.startCamera'
     package: '@azure/communication-react'
@@ -650,6 +752,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.startCamera](xref:CallAdapterCallManagement.startCamera)
   - name: startScreenShare()
     uid: '@azure/communication-react.CallAdapter.startScreenShare'
     package: '@azure/communication-react'
@@ -662,6 +767,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.startScreenShare](xref:CallAdapterCallManagement.startScreenShare)
   - name: stopCamera()
     uid: '@azure/communication-react.CallAdapter.stopCamera'
     package: '@azure/communication-react'
@@ -678,6 +786,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.stopCamera](xref:CallAdapterCallManagement.stopCamera)
   - name: stopScreenShare()
     uid: '@azure/communication-react.CallAdapter.stopScreenShare'
     package: '@azure/communication-react'
@@ -690,6 +801,9 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.stopScreenShare](xref:CallAdapterCallManagement.stopScreenShare)
   - name: unmute()
     uid: '@azure/communication-react.CallAdapter.unmute'
     package: '@azure/communication-react'
@@ -702,4 +816,7 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CallAdapterCallManagement.unmute](xref:CallAdapterCallManagement.unmute)
 extends: any

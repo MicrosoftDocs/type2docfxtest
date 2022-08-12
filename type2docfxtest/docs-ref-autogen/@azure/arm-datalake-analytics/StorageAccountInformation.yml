@@ -44,6 +44,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [SubResource.id](xref:SubResource.id)'
   - name: name
     uid: '@azure/arm-datalake-analytics.StorageAccountInformation.name'
     package: '@azure/arm-datalake-analytics'
@@ -61,6 +62,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [SubResource.name](xref:SubResource.name)'
   - name: type
     uid: '@azure/arm-datalake-analytics.StorageAccountInformation.type'
     package: '@azure/arm-datalake-analytics'
@@ -78,4 +80,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [SubResource.type](xref:SubResource.type)'
 extends: <xref uid="@azure/arm-datalake-analytics.SubResource" />

@@ -43,6 +43,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [VolumeReference.destinationPath](xref:VolumeReference.destinationPath)
   - name: name
     uid: '@azure/servicefabric.ApplicationScopedVolume.name'
     package: '@azure/servicefabric'
@@ -56,6 +59,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [VolumeReference.name](xref:VolumeReference.name)'
   - name: readOnly
     uid: '@azure/servicefabric.ApplicationScopedVolume.readOnly'
     package: '@azure/servicefabric'
@@ -69,4 +73,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | false | true
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [VolumeReference.readOnly](xref:VolumeReference.readOnly)
 extends: <xref uid="@azure/servicefabric.VolumeReference" />

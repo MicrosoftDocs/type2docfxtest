@@ -3,7 +3,7 @@ name: BlobExistsOptions
 uid: '@azure/storage-blob.BlobExistsOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Options to configure the <xref:@azure/storage-blob.AppendBlobClient.exists>
+  Options to configure the <xref:@azure/storage-blob.BlobClient.exists>
   operation.
 fullName: BlobExistsOptions
 remarks: ''
@@ -69,4 +69,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

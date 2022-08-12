@@ -7,4 +7,5 @@ fullName: UploadProgressListener
 remarks: ''
 isPreview: true
 isDeprecated: false
-syntax: 'type UploadProgressListener = (id: string, value: number) => void'
+syntax: |
+  type UploadProgressListener = (id: string, value: number) => void

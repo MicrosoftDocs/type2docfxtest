@@ -36,4 +36,5 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [UnknownIdentifier.id](xref:UnknownIdentifier.id)'
 extends: <xref uid="@azure/communication-common.UnknownIdentifier" />

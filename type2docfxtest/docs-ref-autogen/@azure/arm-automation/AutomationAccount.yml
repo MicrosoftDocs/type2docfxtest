@@ -131,6 +131,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:Resource.id)'
   - name: location
     uid: '@azure/arm-automation.AutomationAccount.location'
     package: '@azure/arm-automation'
@@ -144,6 +145,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [TrackedResource.location](xref:TrackedResource.location)
   - name: name
     uid: '@azure/arm-automation.AutomationAccount.name'
     package: '@azure/arm-automation'
@@ -161,6 +165,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.name](xref:Resource.name)'
   - name: tags
     uid: '@azure/arm-automation.AutomationAccount.tags'
     package: '@azure/arm-automation'
@@ -174,6 +179,7 @@ inheritedProperties:
       return:
         description: ''
         type: 'undefined | [key: string]: string'
+    inheritanceDescription: '<b>Inherited From</b> [TrackedResource.tags](xref:TrackedResource.tags)'
   - name: type
     uid: '@azure/arm-automation.AutomationAccount.type'
     package: '@azure/arm-automation'
@@ -191,4 +197,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.type](xref:Resource.type)'
 extends: <xref uid="@azure/arm-automation.TrackedResource" />

@@ -7,6 +7,10 @@ fullName: TelemetryEvent
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type TelemetryEvent = { data?: Record<string, unknown>, level: AzureLogLevel,
-  message: string, name: string }
+syntax: |
+  type TelemetryEvent = {
+    data?: Record<string, unknown>,
+    level: AzureLogLevel,
+    message: string,
+    name: string,
+  }

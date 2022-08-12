@@ -46,6 +46,9 @@ inheritedMethods:
         type: >-
           <xref
           uid="microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [AudioOutputStream.createPullStream](xref:AudioOutputStream.createPullStream)
 methods:
   - name: close()
     uid: microsoft-cognitiveservices-speech-sdk.PullAudioOutputStream.close

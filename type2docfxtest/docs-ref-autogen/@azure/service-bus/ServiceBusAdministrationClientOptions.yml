@@ -42,6 +42,7 @@ inheritedProperties:
       return:
         description: ''
         type: HttpClient
+    inheritanceDescription: <b>Inherited From</b> PipelineOptions.httpClient
   - name: keepAliveOptions
     uid: '@azure/service-bus.ServiceBusAdministrationClientOptions.keepAliveOptions'
     package: '@azure/service-bus'
@@ -57,6 +58,7 @@ inheritedProperties:
       return:
         description: ''
         type: KeepAliveOptions
+    inheritanceDescription: <b>Inherited From</b> PipelineOptions.keepAliveOptions
   - name: proxyOptions
     uid: '@azure/service-bus.ServiceBusAdministrationClientOptions.proxyOptions'
     package: '@azure/service-bus'
@@ -70,6 +72,7 @@ inheritedProperties:
       return:
         description: ''
         type: ProxyOptions
+    inheritanceDescription: <b>Inherited From</b> PipelineOptions.proxyOptions
   - name: redirectOptions
     uid: '@azure/service-bus.ServiceBusAdministrationClientOptions.redirectOptions'
     package: '@azure/service-bus'
@@ -83,6 +86,7 @@ inheritedProperties:
       return:
         description: ''
         type: RedirectOptions
+    inheritanceDescription: <b>Inherited From</b> PipelineOptions.redirectOptions
   - name: retryOptions
     uid: '@azure/service-bus.ServiceBusAdministrationClientOptions.retryOptions'
     package: '@azure/service-bus'
@@ -96,6 +100,7 @@ inheritedProperties:
       return:
         description: ''
         type: RetryOptions
+    inheritanceDescription: <b>Inherited From</b> PipelineOptions.retryOptions
   - name: userAgentOptions
     uid: '@azure/service-bus.ServiceBusAdministrationClientOptions.userAgentOptions'
     package: '@azure/service-bus'
@@ -109,4 +114,5 @@ inheritedProperties:
       return:
         description: ''
         type: UserAgentOptions
+    inheritanceDescription: <b>Inherited From</b> PipelineOptions.userAgentOptions
 extends: PipelineOptions

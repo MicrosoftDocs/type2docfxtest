@@ -7,7 +7,10 @@ fullName: ConfigServersValidateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type ConfigServersValidateResponse = ConfigServerSettingsValidateResult & {
-  _response: HttpResponse & { bodyAsText: string, parsedBody:
-  ConfigServerSettingsValidateResult } }
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: ConfigServerSettingsValidateResult,
+    },
+  }

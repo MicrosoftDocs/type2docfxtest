@@ -36,6 +36,9 @@ inheritedProperties:
       return:
         description: ''
         type: AbortSignalLike
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ListDeletedPathsOptions.abortSignal](xref:ListDeletedPathsOptions.abortSignal)
   - name: prefix
     uid: '@azure/storage-file-datalake.ListDeletedPathsSegmentOptions.prefix'
     package: '@azure/storage-file-datalake'
@@ -49,6 +52,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ListDeletedPathsOptions.prefix](xref:ListDeletedPathsOptions.prefix)
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.ListDeletedPathsSegmentOptions.tracingOptions'
     package: '@azure/storage-file-datalake'
@@ -62,4 +68,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-datalake.ListDeletedPathsOptions" />

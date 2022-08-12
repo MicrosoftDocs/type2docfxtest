@@ -7,8 +7,13 @@ fullName: ClusterPrincipalAssignment
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ClusterPrincipalAssignment = ProxyResource & { principalId?: undefined |
-  string, principalName?: undefined | string, principalType?: PrincipalType,
-  provisioningState?: ProvisioningState, role?: ClusterPrincipalRole, tenantId?:
-  undefined | string, tenantName?: undefined | string }
+syntax: |
+  type ClusterPrincipalAssignment = ProxyResource & {
+    principalId?: undefined | string,
+    principalName?: undefined | string,
+    principalType?: PrincipalType,
+    provisioningState?: ProvisioningState,
+    role?: ClusterPrincipalRole,
+    tenantId?: undefined | string,
+    tenantName?: undefined | string,
+  }

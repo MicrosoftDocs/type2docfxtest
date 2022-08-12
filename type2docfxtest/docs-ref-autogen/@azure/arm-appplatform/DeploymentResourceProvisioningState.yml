@@ -9,6 +9,9 @@ fullName: DeploymentResourceProvisioningState
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type DeploymentResourceProvisioningState = "Creating" | "Updating" |
-  "Succeeded" | "Failed"
+syntax: |
+  type DeploymentResourceProvisioningState =
+    | "Creating"
+    | "Updating"
+    | "Succeeded"
+    | "Failed"

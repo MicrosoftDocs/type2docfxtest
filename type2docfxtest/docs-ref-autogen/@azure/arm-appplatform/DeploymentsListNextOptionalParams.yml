@@ -36,6 +36,7 @@ inheritedProperties:
       return:
         description: ''
         type: AbortSignalLike
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.abortSignal
   - name: customHeaders
     uid: '@azure/arm-appplatform.DeploymentsListNextOptionalParams.customHeaders'
     package: '@azure/arm-appplatform'
@@ -51,6 +52,7 @@ inheritedProperties:
       return:
         description: ''
         type: 'undefined | [key: string]: string'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.customHeaders
   - name: onDownloadProgress
     uid: >-
       @azure/arm-appplatform.DeploymentsListNextOptionalParams.onDownloadProgress
@@ -67,6 +69,7 @@ inheritedProperties:
       return:
         description: ''
         type: 'undefined | (progress: TransferProgressEvent) =&gt; void'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.onDownloadProgress
   - name: onUploadProgress
     uid: '@azure/arm-appplatform.DeploymentsListNextOptionalParams.onUploadProgress'
     package: '@azure/arm-appplatform'
@@ -80,6 +83,7 @@ inheritedProperties:
       return:
         description: ''
         type: 'undefined | (progress: TransferProgressEvent) =&gt; void'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.onUploadProgress
   - name: timeout
     uid: '@azure/arm-appplatform.DeploymentsListNextOptionalParams.timeout'
     package: '@azure/arm-appplatform'
@@ -95,4 +99,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | number
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.timeout
 extends: RequestOptionsBase

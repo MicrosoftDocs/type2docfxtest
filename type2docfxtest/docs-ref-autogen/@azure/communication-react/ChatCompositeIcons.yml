@@ -7,9 +7,18 @@ fullName: ChatCompositeIcons
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ChatCompositeIcons = { EditBoxCancel?: Element, EditBoxSubmit?: Element,
-  MessageDelivered?: Element, MessageEdit?: Element, MessageFailed?: Element,
-  MessageRemove?: Element, MessageSeen?: Element, MessageSending?: Element,
-  ParticipantItemOptions?: Element, ParticipantItemOptionsHovered?: Element,
-  SendBoxSend?: Element, SendBoxSendHovered?: Element }
+syntax: |
+  type ChatCompositeIcons = {
+    EditBoxCancel?: Element,
+    EditBoxSubmit?: Element,
+    MessageDelivered?: Element,
+    MessageEdit?: Element,
+    MessageFailed?: Element,
+    MessageRemove?: Element,
+    MessageSeen?: Element,
+    MessageSending?: Element,
+    ParticipantItemOptions?: Element,
+    ParticipantItemOptionsHovered?: Element,
+    SendBoxSend?: Element,
+    SendBoxSendHovered?: Element,
+  }

@@ -236,6 +236,9 @@ inheritedProperties:
       return:
         description: ''
         type: '[key: string]\: function'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.applicationProperties](xref:ServiceBusMessage.applicationProperties)
   - name: body
     uid: '@azure/service-bus.ServiceBusReceivedMessage.body'
     package: '@azure/service-bus'
@@ -253,6 +256,9 @@ inheritedProperties:
       return:
         description: ''
         type: any
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.body](xref:ServiceBusMessage.body)
   - name: contentType
     uid: '@azure/service-bus.ServiceBusReceivedMessage.contentType'
     package: '@azure/service-bus'
@@ -272,6 +278,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.contentType](xref:ServiceBusMessage.contentType)
   - name: correlationId
     uid: '@azure/service-bus.ServiceBusReceivedMessage.correlationId'
     package: '@azure/service-bus'
@@ -294,6 +303,9 @@ inheritedProperties:
       return:
         description: ''
         type: string | number | Buffer
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.correlationId](xref:ServiceBusMessage.correlationId)
   - name: messageId
     uid: '@azure/service-bus.ServiceBusReceivedMessage.messageId'
     package: '@azure/service-bus'
@@ -313,6 +325,9 @@ inheritedProperties:
       return:
         description: ''
         type: string | number | Buffer
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.messageId](xref:ServiceBusMessage.messageId)
   - name: partitionKey
     uid: '@azure/service-bus.ServiceBusReceivedMessage.partitionKey'
     package: '@azure/service-bus'
@@ -343,6 +358,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.partitionKey](xref:ServiceBusMessage.partitionKey)
   - name: replyTo
     uid: '@azure/service-bus.ServiceBusReceivedMessage.replyTo'
     package: '@azure/service-bus'
@@ -368,6 +386,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.replyTo](xref:ServiceBusMessage.replyTo)
   - name: replyToSessionId
     uid: '@azure/service-bus.ServiceBusReceivedMessage.replyToSessionId'
     package: '@azure/service-bus'
@@ -390,6 +411,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.replyToSessionId](xref:ServiceBusMessage.replyToSessionId)
   - name: scheduledEnqueueTimeUtc
     uid: '@azure/service-bus.ServiceBusReceivedMessage.scheduledEnqueueTimeUtc'
     package: '@azure/service-bus'
@@ -418,6 +442,9 @@ inheritedProperties:
       return:
         description: ''
         type: Date
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.scheduledEnqueueTimeUtc](xref:ServiceBusMessage.scheduledEnqueueTimeUtc)
   - name: sessionId
     uid: '@azure/service-bus.ServiceBusReceivedMessage.sessionId'
     package: '@azure/service-bus'
@@ -446,6 +473,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.sessionId](xref:ServiceBusMessage.sessionId)
   - name: subject
     uid: '@azure/service-bus.ServiceBusReceivedMessage.subject'
     package: '@azure/service-bus'
@@ -465,6 +495,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.subject](xref:ServiceBusMessage.subject)
   - name: timeToLive
     uid: '@azure/service-bus.ServiceBusReceivedMessage.timeToLive'
     package: '@azure/service-bus'
@@ -496,6 +529,9 @@ inheritedProperties:
       return:
         description: ''
         type: number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ServiceBusMessage.timeToLive](xref:ServiceBusMessage.timeToLive)
   - name: to
     uid: '@azure/service-bus.ServiceBusReceivedMessage.to'
     package: '@azure/service-bus'
@@ -518,4 +554,5 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [ServiceBusMessage.to](xref:ServiceBusMessage.to)'
 extends: <xref uid="@azure/service-bus.ServiceBusMessage" />

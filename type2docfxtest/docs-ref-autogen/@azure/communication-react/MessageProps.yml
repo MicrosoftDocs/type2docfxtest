@@ -9,9 +9,14 @@ fullName: MessageProps
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type MessageProps = { disableEditing?: boolean, message: Message,
-  messageContainerStyle?: ComponentSlotStyle, onDeleteMessage?: (messageId:
-  string) => Promise<void>, onSendMessage?: (messageId: string) =>
-  Promise<void>, onUpdateMessage?: UpdateMessageCallback, showDate?: boolean,
-  strings: MessageThreadStrings }
+syntax: |
+  type MessageProps = {
+    disableEditing?: boolean,
+    message: Message,
+    messageContainerStyle?: ComponentSlotStyle,
+    onDeleteMessage?: (messageId: string) => Promise<void>,
+    onSendMessage?: (messageId: string) => Promise<void>,
+    onUpdateMessage?: UpdateMessageCallback,
+    showDate?: boolean,
+    strings: MessageThreadStrings,
+  }

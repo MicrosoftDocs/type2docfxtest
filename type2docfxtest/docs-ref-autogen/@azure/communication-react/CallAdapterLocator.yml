@@ -9,4 +9,5 @@ fullName: CallAdapterLocator
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type CallAdapterLocator = TeamsMeetingLinkLocator | GroupCallLocator
+syntax: |
+  type CallAdapterLocator = TeamsMeetingLinkLocator | GroupCallLocator

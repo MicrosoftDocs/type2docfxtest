@@ -63,4 +63,5 @@ fullName: AzureSkuName
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type AzureSkuName = string
+syntax: |
+  type AzureSkuName = string

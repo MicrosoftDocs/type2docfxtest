@@ -4,7 +4,7 @@ uid: '@azure/identity.AggregateAuthenticationError'
 package: '@azure/identity'
 summary: >-
   Provides an `errors` array containing
-  <xref:@azure/identity.AggregateAuthenticationError> instance
+  <xref:@azure/identity.AuthenticationError> instance
 
   for authentication failures from credentials in a
   <xref:@azure/identity.ChainedTokenCredential>.
@@ -73,6 +73,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: <b>Inherited From</b> Error.message
   - name: name
     uid: '@azure/identity.AggregateAuthenticationError.name'
     package: '@azure/identity'
@@ -86,6 +87,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: <b>Inherited From</b> Error.name
   - name: stack
     uid: '@azure/identity.AggregateAuthenticationError.stack'
     package: '@azure/identity'
@@ -99,4 +101,5 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: <b>Inherited From</b> Error.stack
 extends: Error

@@ -3,8 +3,8 @@ name: BlobSetMetadataOptions
 uid: '@azure/storage-blob.BlobSetMetadataOptions'
 package: '@azure/storage-blob'
 summary: >-
-  Options to configure the
-  <xref:@azure/storage-blob.AppendBlobClient.setMetadata> operation.
+  Options to configure the <xref:@azure/storage-blob.BlobClient.setMetadata>
+  operation.
 fullName: BlobSetMetadataOptions
 remarks: ''
 isPreview: false
@@ -92,4 +92,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

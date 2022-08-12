@@ -53,6 +53,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:Resource.id)'
   - name: location
     uid: '@azure/arm-appplatform.ServiceResource.location'
     package: '@azure/arm-appplatform'
@@ -66,6 +67,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [TrackedResource.location](xref:TrackedResource.location)
   - name: name
     uid: '@azure/arm-appplatform.ServiceResource.name'
     package: '@azure/arm-appplatform'
@@ -83,6 +87,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.name](xref:Resource.name)'
   - name: tags
     uid: '@azure/arm-appplatform.ServiceResource.tags'
     package: '@azure/arm-appplatform'
@@ -98,6 +103,7 @@ inheritedProperties:
       return:
         description: ''
         type: 'undefined | [key: string]: string'
+    inheritanceDescription: '<b>Inherited From</b> [TrackedResource.tags](xref:TrackedResource.tags)'
   - name: type
     uid: '@azure/arm-appplatform.ServiceResource.type'
     package: '@azure/arm-appplatform'
@@ -115,4 +121,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.type](xref:Resource.type)'
 extends: <xref uid="@azure/arm-appplatform.TrackedResource" />

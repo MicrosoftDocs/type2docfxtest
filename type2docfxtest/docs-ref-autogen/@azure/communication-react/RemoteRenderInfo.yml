@@ -38,6 +38,7 @@ inheritedProperties:
       return:
         description: ''
         type: VideoStreamRenderer | undefined
+    inheritanceDescription: '<b>Inherited From</b> [RenderInfo.renderer](xref:RenderInfo.renderer)'
   - name: status
     uid: '@azure/communication-react.RemoteRenderInfo.status'
     package: '@azure/communication-react'
@@ -51,4 +52,5 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/communication-react.RenderStatus" />
+    inheritanceDescription: '<b>Inherited From</b> [RenderInfo.status](xref:RenderInfo.status)'
 extends: <xref uid="@azure/communication-react.RenderInfo" />

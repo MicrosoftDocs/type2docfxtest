@@ -195,6 +195,7 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: function close()
+    inheritanceDescription: '<b>Inherited From</b> [SpeechConfig.close](xref:SpeechConfig.close)'
   - name: 'fromAuthorizationToken(string, string)'
     uid: >-
       microsoft-cognitiveservices-speech-sdk.SpeechConfigImpl.fromAuthorizationToken
@@ -242,6 +243,9 @@ inheritedMethods:
       return:
         description: A speech factory instance.
         type: <xref uid="microsoft-cognitiveservices-speech-sdk.SpeechConfig" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [SpeechConfig.fromAuthorizationToken](xref:SpeechConfig.fromAuthorizationToken)
   - name: 'fromEndpoint(URL, string)'
     uid: microsoft-cognitiveservices-speech-sdk.SpeechConfigImpl.fromEndpoint
     package: microsoft-cognitiveservices-speech-sdk
@@ -295,6 +299,9 @@ inheritedMethods:
       return:
         description: A speech factory instance.
         type: <xref uid="microsoft-cognitiveservices-speech-sdk.SpeechConfig" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [SpeechConfig.fromEndpoint](xref:SpeechConfig.fromEndpoint)
   - name: 'fromHost(URL, string)'
     uid: microsoft-cognitiveservices-speech-sdk.SpeechConfigImpl.fromHost
     package: microsoft-cognitiveservices-speech-sdk
@@ -336,6 +343,7 @@ inheritedMethods:
       return:
         description: A speech factory instance.
         type: <xref uid="microsoft-cognitiveservices-speech-sdk.SpeechConfig" />
+    inheritanceDescription: '<b>Inherited From</b> [SpeechConfig.fromHost](xref:SpeechConfig.fromHost)'
   - name: 'fromSubscription(string, string)'
     uid: microsoft-cognitiveservices-speech-sdk.SpeechConfigImpl.fromSubscription
     package: microsoft-cognitiveservices-speech-sdk
@@ -364,6 +372,9 @@ inheritedMethods:
       return:
         description: The speech factory
         type: <xref uid="microsoft-cognitiveservices-speech-sdk.SpeechConfig" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [SpeechConfig.fromSubscription](xref:SpeechConfig.fromSubscription)
 methods:
   - name: clone()
     uid: microsoft-cognitiveservices-speech-sdk.SpeechConfigImpl.clone

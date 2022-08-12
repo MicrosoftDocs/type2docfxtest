@@ -62,6 +62,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.disabled](xref:CustomControlButtonProps.disabled)
   - name: onItemClick
     uid: '@azure/communication-react.CustomCallControlButtonProps.onItemClick'
     package: '@azure/communication-react'
@@ -75,6 +78,9 @@ inheritedProperties:
       return:
         description: ''
         type: () =&gt; void
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.onItemClick](xref:CustomControlButtonProps.onItemClick)
   - name: showLabel
     uid: '@azure/communication-react.CustomCallControlButtonProps.showLabel'
     package: '@azure/communication-react'
@@ -88,6 +94,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.showLabel](xref:CustomControlButtonProps.showLabel)
   - name: styles
     uid: '@azure/communication-react.CustomCallControlButtonProps.styles'
     package: '@azure/communication-react'
@@ -105,6 +114,9 @@ inheritedProperties:
         type: >-
           <xref uid="@azure/communication-react.ControlBarButtonStyles" /> |
           <xref uid="@azure/communication-react.BaseCustomStyles" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.styles](xref:CustomControlButtonProps.styles)
   - name: text
     uid: '@azure/communication-react.CustomCallControlButtonProps.text'
     package: '@azure/communication-react'
@@ -118,4 +130,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.text](xref:CustomControlButtonProps.text)
 extends: <xref uid="@azure/communication-react.CustomControlButtonProps" />

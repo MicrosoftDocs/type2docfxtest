@@ -21,6 +21,7 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;void&gt;
+    inheritanceDescription: '<b>Inherited From</b> [IDetachable.detach](xref:IDetachable.detach)'
 methods:
   - name: id()
     uid: microsoft-cognitiveservices-speech-sdk.IAudioStreamNode.id

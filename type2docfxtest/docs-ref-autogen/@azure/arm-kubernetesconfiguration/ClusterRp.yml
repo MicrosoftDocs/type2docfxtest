@@ -9,4 +9,5 @@ fullName: ClusterRp
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type ClusterRp = "Microsoft.ContainerService" | "Microsoft.Kubernetes"
+syntax: |
+  type ClusterRp = "Microsoft.ContainerService" | "Microsoft.Kubernetes"

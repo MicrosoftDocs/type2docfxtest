@@ -125,6 +125,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:Resource.id)'
   - name: name
     uid: '@azure/arm-automation.Certificate.name'
     package: '@azure/arm-automation'
@@ -142,6 +143,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.name](xref:Resource.name)'
   - name: type
     uid: '@azure/arm-automation.Certificate.type'
     package: '@azure/arm-automation'
@@ -159,4 +161,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.type](xref:Resource.type)'
 extends: <xref uid="@azure/arm-automation.ProxyResource" />

@@ -92,6 +92,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [UserBase.givenName](xref:UserBase.givenName)'
   - name: immutableId
     uid: '@azure/graph.UserUpdateParameters.immutableId'
     package: '@azure/graph'
@@ -112,6 +113,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [UserBase.immutableId](xref:UserBase.immutableId)'
   - name: surname
     uid: '@azure/graph.UserUpdateParameters.surname'
     package: '@azure/graph'
@@ -125,6 +127,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [UserBase.surname](xref:UserBase.surname)'
   - name: usageLocation
     uid: '@azure/graph.UserUpdateParameters.usageLocation'
     package: '@azure/graph'
@@ -145,6 +148,9 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [UserBase.usageLocation](xref:UserBase.usageLocation)
   - name: userType
     uid: '@azure/graph.UserUpdateParameters.userType'
     package: '@azure/graph'
@@ -162,4 +168,5 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/graph.UserType" />
+    inheritanceDescription: '<b>Inherited From</b> [UserBase.userType](xref:UserBase.userType)'
 extends: <xref uid="@azure/graph.UserBase" />

@@ -49,6 +49,9 @@ inheritedProperties:
       return:
         description: ''
         type: Date
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [MessageCommon.createdOn](xref:MessageCommon.createdOn)
   - name: iconName
     uid: '@azure/communication-react.ContentSystemMessage.iconName'
     package: '@azure/communication-react'
@@ -62,6 +65,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [SystemMessageCommon.iconName](xref:SystemMessageCommon.iconName)
   - name: messageId
     uid: '@azure/communication-react.ContentSystemMessage.messageId'
     package: '@azure/communication-react'
@@ -75,6 +81,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [MessageCommon.messageId](xref:MessageCommon.messageId)
   - name: messageType
     uid: '@azure/communication-react.ContentSystemMessage.messageType'
     package: '@azure/communication-react'
@@ -88,4 +97,7 @@ inheritedProperties:
       return:
         description: ''
         type: '"system"'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [SystemMessageCommon.messageType](xref:SystemMessageCommon.messageType)
 extends: <xref uid="@azure/communication-react.SystemMessageCommon" />

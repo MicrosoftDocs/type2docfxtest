@@ -43,6 +43,9 @@ inheritedProperties:
       return:
         description: ''
         type: IStyle
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ParticipantItemStyles.avatar](xref:ParticipantItemStyles.avatar)
   - name: iconContainer
     uid: '@azure/communication-react.ParticipantListItemStyles.iconContainer'
     package: '@azure/communication-react'
@@ -56,6 +59,9 @@ inheritedProperties:
       return:
         description: ''
         type: IStyle
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ParticipantItemStyles.iconContainer](xref:ParticipantItemStyles.iconContainer)
   - name: me
     uid: '@azure/communication-react.ParticipantListItemStyles.me'
     package: '@azure/communication-react'
@@ -69,6 +75,9 @@ inheritedProperties:
       return:
         description: ''
         type: IStyle
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ParticipantItemStyles.me](xref:ParticipantItemStyles.me)
   - name: menu
     uid: '@azure/communication-react.ParticipantListItemStyles.menu'
     package: '@azure/communication-react'
@@ -82,6 +91,9 @@ inheritedProperties:
       return:
         description: ''
         type: IStyle
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ParticipantItemStyles.menu](xref:ParticipantItemStyles.menu)
   - name: root
     uid: '@azure/communication-react.ParticipantListItemStyles.root'
     package: '@azure/communication-react'
@@ -95,4 +107,5 @@ inheritedProperties:
       return:
         description: ''
         type: IStyle
+    inheritanceDescription: '<b>Inherited From</b> [BaseCustomStyles.root](xref:BaseCustomStyles.root)'
 extends: <xref uid="@azure/communication-react.ParticipantItemStyles" />

@@ -11,6 +11,9 @@ fullName: ManagedIdentityType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ManagedIdentityType = "None" | "SystemAssigned" | "UserAssigned" |
-  "SystemAssigned,UserAssigned"
+syntax: |
+  type ManagedIdentityType =
+    | "None"
+    | "SystemAssigned"
+    | "UserAssigned"
+    | "SystemAssigned,UserAssigned"

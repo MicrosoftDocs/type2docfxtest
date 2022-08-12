@@ -313,6 +313,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:Resource.id)'
   - name: name
     uid: '@azure/arm-kubernetesconfiguration.FluxConfiguration.name'
     package: '@azure/arm-kubernetesconfiguration'
@@ -330,6 +331,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.name](xref:Resource.name)'
   - name: type
     uid: '@azure/arm-kubernetesconfiguration.FluxConfiguration.type'
     package: '@azure/arm-kubernetesconfiguration'
@@ -349,4 +351,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Resource.type](xref:Resource.type)'
 extends: <xref uid="@azure/arm-kubernetesconfiguration.ProxyResource" />

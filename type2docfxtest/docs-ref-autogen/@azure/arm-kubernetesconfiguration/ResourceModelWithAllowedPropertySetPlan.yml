@@ -23,6 +23,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [Plan.name](xref:Plan.name)'
   - name: product
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetPlan.product
@@ -41,6 +42,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [Plan.product](xref:Plan.product)'
   - name: promotionCode
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetPlan.promotionCode
@@ -59,6 +61,7 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Plan.promotionCode](xref:Plan.promotionCode)'
   - name: publisher
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetPlan.publisher
@@ -75,6 +78,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [Plan.publisher](xref:Plan.publisher)'
   - name: version
     uid: >-
       @azure/arm-kubernetesconfiguration.ResourceModelWithAllowedPropertySetPlan.version
@@ -89,4 +93,5 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
+    inheritanceDescription: '<b>Inherited From</b> [Plan.version](xref:Plan.version)'
 extends: <xref uid="@azure/arm-kubernetesconfiguration.Plan" />

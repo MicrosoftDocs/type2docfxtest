@@ -64,4 +64,7 @@ inheritedProperties:
       return:
         description: ''
         type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-share.CommonOptions" />

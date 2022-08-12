@@ -11,6 +11,8 @@ fullName: Pricing
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type Pricing = Resource & { freeTrialRemainingTime?: undefined | string,
-  pricingTier?: PricingTier }
+syntax: |
+  type Pricing = Resource & {
+    freeTrialRemainingTime?: undefined | string,
+    pricingTier?: PricingTier,
+  }

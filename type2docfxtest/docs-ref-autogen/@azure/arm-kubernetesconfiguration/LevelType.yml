@@ -9,4 +9,5 @@ fullName: LevelType
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: type LevelType = "Error" | "Warning" | "Information"
+syntax: |
+  type LevelType = "Error" | "Warning" | "Information"

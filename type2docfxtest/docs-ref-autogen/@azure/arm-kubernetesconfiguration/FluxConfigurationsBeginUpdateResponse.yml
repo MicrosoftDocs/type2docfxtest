@@ -7,6 +7,10 @@ fullName: FluxConfigurationsBeginUpdateResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type FluxConfigurationsBeginUpdateResponse = FluxConfiguration & { _response:
-  HttpResponse & { bodyAsText: string, parsedBody: FluxConfiguration } }
+syntax: |
+  type FluxConfigurationsBeginUpdateResponse = FluxConfiguration & {
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: FluxConfiguration,
+    },
+  }

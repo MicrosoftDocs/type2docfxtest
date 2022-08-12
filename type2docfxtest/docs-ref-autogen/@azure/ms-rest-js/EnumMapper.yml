@@ -36,6 +36,9 @@ inheritedProperties:
       return:
         description: ''
         type: <xref uid="@azure/ms-rest-js.MapperConstraints" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseMapper.constraints](xref:BaseMapper.constraints)
   - name: defaultValue
     uid: '@azure/ms-rest-js.EnumMapper.defaultValue'
     package: '@azure/ms-rest-js'
@@ -49,6 +52,9 @@ inheritedProperties:
       return:
         description: ''
         type: any
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseMapper.defaultValue](xref:BaseMapper.defaultValue)
   - name: isConstant
     uid: '@azure/ms-rest-js.EnumMapper.isConstant'
     package: '@azure/ms-rest-js'
@@ -62,6 +68,7 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: '<b>Inherited From</b> [BaseMapper.isConstant](xref:BaseMapper.isConstant)'
   - name: nullable
     uid: '@azure/ms-rest-js.EnumMapper.nullable'
     package: '@azure/ms-rest-js'
@@ -75,6 +82,7 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: '<b>Inherited From</b> [BaseMapper.nullable](xref:BaseMapper.nullable)'
   - name: readOnly
     uid: '@azure/ms-rest-js.EnumMapper.readOnly'
     package: '@azure/ms-rest-js'
@@ -88,6 +96,7 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: '<b>Inherited From</b> [BaseMapper.readOnly](xref:BaseMapper.readOnly)'
   - name: required
     uid: '@azure/ms-rest-js.EnumMapper.required'
     package: '@azure/ms-rest-js'
@@ -101,6 +110,7 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: '<b>Inherited From</b> [BaseMapper.required](xref:BaseMapper.required)'
   - name: serializedName
     uid: '@azure/ms-rest-js.EnumMapper.serializedName'
     package: '@azure/ms-rest-js'
@@ -114,6 +124,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseMapper.serializedName](xref:BaseMapper.serializedName)
   - name: xmlElementName
     uid: '@azure/ms-rest-js.EnumMapper.xmlElementName'
     package: '@azure/ms-rest-js'
@@ -127,6 +140,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseMapper.xmlElementName](xref:BaseMapper.xmlElementName)
   - name: xmlIsAttribute
     uid: '@azure/ms-rest-js.EnumMapper.xmlIsAttribute'
     package: '@azure/ms-rest-js'
@@ -140,6 +156,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseMapper.xmlIsAttribute](xref:BaseMapper.xmlIsAttribute)
   - name: xmlIsWrapped
     uid: '@azure/ms-rest-js.EnumMapper.xmlIsWrapped'
     package: '@azure/ms-rest-js'
@@ -153,6 +172,9 @@ inheritedProperties:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseMapper.xmlIsWrapped](xref:BaseMapper.xmlIsWrapped)
   - name: xmlName
     uid: '@azure/ms-rest-js.EnumMapper.xmlName'
     package: '@azure/ms-rest-js'
@@ -166,4 +188,5 @@ inheritedProperties:
       return:
         description: ''
         type: string
+    inheritanceDescription: '<b>Inherited From</b> [BaseMapper.xmlName](xref:BaseMapper.xmlName)'
 extends: <xref uid="@azure/ms-rest-js.BaseMapper" />
