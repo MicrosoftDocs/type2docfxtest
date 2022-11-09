@@ -5,29 +5,8 @@
     - uid: '@azure/maps-search.Address'
       name: Address
       items: []
-    - uid: '@azure/maps-search.Address'
-      name: Address
-      items: []
-    - uid: '@azure/maps-search.Address'
-      name: Address
-      items: []
-    - uid: '@azure/maps-search.Address'
-      name: Address
-      items: []
     - uid: '@azure/maps-search.AddressRanges'
       name: AddressRanges
-      items: []
-    - uid: '@azure/maps-search.AddressRanges'
-      name: AddressRanges
-      items: []
-    - uid: '@azure/maps-search.AddressRanges'
-      name: AddressRanges
-      items: []
-    - uid: '@azure/maps-search.AddressRanges'
-      name: AddressRanges
-      items: []
-    - uid: '@azure/maps-search.BatchItem'
-      name: BatchItem
       items: []
     - uid: '@azure/maps-search.BatchItem'
       name: BatchItem
@@ -35,59 +14,8 @@
     - uid: '@azure/maps-search.BatchPollerOptions'
       name: BatchPollerOptions
       items: []
-    - uid: '@azure/maps-search.BatchPollerOptions'
-      name: BatchPollerOptions
-      items: []
-    - uid: '@azure/maps-search.BatchRequest'
-      name: BatchRequest
-      items: []
-    - uid: '@azure/maps-search.BatchRequest'
-      name: BatchRequest
-      items: []
-    - uid: '@azure/maps-search.BatchRequestItem'
-      name: BatchRequestItem
-      items: []
-    - uid: '@azure/maps-search.BatchRequestItem'
-      name: BatchRequestItem
-      items: []
     - uid: '@azure/maps-search.BatchResult'
       name: BatchResult
-      items: []
-    - uid: '@azure/maps-search.BatchResult'
-      name: BatchResult
-      items: []
-    - uid: '@azure/maps-search.BatchResult'
-      name: BatchResult
-      items: []
-    - uid: '@azure/maps-search.BatchResult'
-      name: BatchResult
-      items: []
-    - uid: '@azure/maps-search.BatchResultItem'
-      name: BatchResultItem
-      items: []
-    - uid: '@azure/maps-search.BatchResultItem'
-      name: BatchResultItem
-      items: []
-    - uid: '@azure/maps-search.BatchResultSummary'
-      name: BatchResultSummary
-      items: []
-    - uid: '@azure/maps-search.BatchResultSummary'
-      name: BatchResultSummary
-      items: []
-    - uid: '@azure/maps-search.BoundingBox'
-      name: BoundingBox
-      items: []
-    - uid: '@azure/maps-search.BoundingBox'
-      name: BoundingBox
-      items: []
-    - uid: '@azure/maps-search.BoundingBoxCompassNotation'
-      name: BoundingBoxCompassNotation
-      items: []
-    - uid: '@azure/maps-search.BoundingBoxCompassNotation'
-      name: BoundingBoxCompassNotation
-      items: []
-    - uid: '@azure/maps-search.Brand'
-      name: Brand
       items: []
     - uid: '@azure/maps-search.Brand'
       name: Brand
@@ -95,17 +23,8 @@
     - uid: '@azure/maps-search.Classification'
       name: Classification
       items: []
-    - uid: '@azure/maps-search.Classification'
-      name: Classification
-      items: []
     - uid: '@azure/maps-search.ClassificationName'
       name: ClassificationName
-      items: []
-    - uid: '@azure/maps-search.ClassificationName'
-      name: ClassificationName
-      items: []
-    - uid: '@azure/maps-search.DataSource'
-      name: DataSource
       items: []
     - uid: '@azure/maps-search.DataSource'
       name: DataSource
@@ -113,29 +32,8 @@
     - uid: '@azure/maps-search.ElectricVehicleConnector'
       name: ElectricVehicleConnector
       items: []
-    - uid: '@azure/maps-search.ElectricVehicleConnector'
-      name: ElectricVehicleConnector
-      items: []
-    - uid: '@azure/maps-search.Entity'
-      name: Entity
-      items: []
-    - uid: '@azure/maps-search.Entity'
-      name: Entity
-      items: []
     - uid: '@azure/maps-search.EntityGeometry'
       name: EntityGeometry
-      items: []
-    - uid: '@azure/maps-search.EntityGeometry'
-      name: EntityGeometry
-      items: []
-    - uid: '@azure/maps-search.EntryPoint'
-      name: EntryPoint
-      items: []
-    - uid: '@azure/maps-search.EntryPoint'
-      name: EntryPoint
-      items: []
-    - uid: '@azure/maps-search.EntryPoint'
-      name: EntryPoint
       items: []
     - uid: '@azure/maps-search.EntryPoint'
       name: EntryPoint
@@ -143,17 +41,8 @@
     - uid: '@azure/maps-search.EntryPointType'
       name: EntryPointType
       items: []
-    - uid: '@azure/maps-search.EntryPointType'
-      name: EntryPointType
-      items: []
     - uid: '@azure/maps-search.ErrorDetail'
       name: ErrorDetail
-      items: []
-    - uid: '@azure/maps-search.ErrorDetail'
-      name: ErrorDetail
-      items: []
-    - uid: '@azure/maps-search.ErrorResponse'
-      name: ErrorResponse
       items: []
     - uid: '@azure/maps-search.ErrorResponse'
       name: ErrorResponse
@@ -161,17 +50,8 @@
     - uid: '@azure/maps-search.FuzzySearchBaseOptions'
       name: FuzzySearchBaseOptions
       items: []
-    - uid: '@azure/maps-search.FuzzySearchBaseOptions'
-      name: FuzzySearchBaseOptions
-      items: []
     - uid: '@azure/maps-search.FuzzySearchBatchOptions'
       name: FuzzySearchBatchOptions
-      items: []
-    - uid: '@azure/maps-search.FuzzySearchBatchOptions'
-      name: FuzzySearchBatchOptions
-      items: []
-    - uid: '@azure/maps-search.FuzzySearchBatchPoller'
-      name: FuzzySearchBatchPoller
       items: []
     - uid: '@azure/maps-search.FuzzySearchBatchPoller'
       name: FuzzySearchBatchPoller
@@ -179,35 +59,8 @@
     - uid: '@azure/maps-search.FuzzySearchOptions'
       name: FuzzySearchOptions
       items: []
-    - uid: '@azure/maps-search.FuzzySearchOptions'
-      name: FuzzySearchOptions
-      items: []
     - uid: '@azure/maps-search.FuzzySearchRequest'
       name: FuzzySearchRequest
-      items: []
-    - uid: '@azure/maps-search.FuzzySearchRequest'
-      name: FuzzySearchRequest
-      items: []
-    - uid: '@azure/maps-search.GeneratedClient'
-      name: GeneratedClient
-      items: []
-    - uid: '@azure/maps-search.GeneratedClient'
-      name: GeneratedClient
-      items: []
-    - uid: '@azure/maps-search.GeneratedClientContext'
-      name: GeneratedClientContext
-      items: []
-    - uid: '@azure/maps-search.GeneratedClientContext'
-      name: GeneratedClientContext
-      items: []
-    - uid: '@azure/maps-search.GeneratedClientOptionalParams'
-      name: GeneratedClientOptionalParams
-      items: []
-    - uid: '@azure/maps-search.GeneratedClientOptionalParams'
-      name: GeneratedClientOptionalParams
-      items: []
-    - uid: '@azure/maps-search.GeographicEntityType'
-      name: GeographicEntityType
       items: []
     - uid: '@azure/maps-search.GeographicEntityType'
       name: GeographicEntityType
@@ -215,167 +68,14 @@
     - uid: '@azure/maps-search.GeoJsonCircleFeature'
       name: GeoJsonCircleFeature
       items: []
-    - uid: '@azure/maps-search.GeoJsonCircleFeature'
-      name: GeoJsonCircleFeature
-      items: []
-    - uid: '@azure/maps-search.GeoJsonCircleOrPolygonFeature'
-      name: GeoJsonCircleOrPolygonFeature
-      items: []
     - uid: '@azure/maps-search.GeoJsonCircleOrPolygonFeature'
       name: GeoJsonCircleOrPolygonFeature
       items: []
     - uid: '@azure/maps-search.GeoJsonCircleOrPolygonFeatureCollection'
       name: GeoJsonCircleOrPolygonFeatureCollection
       items: []
-    - uid: '@azure/maps-search.GeoJsonCircleOrPolygonFeatureCollection'
-      name: GeoJsonCircleOrPolygonFeatureCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeature'
-      name: GeoJsonFeature
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeature'
-      name: GeoJsonFeature
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeatureCollection'
-      name: GeoJsonFeatureCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeatureCollection'
-      name: GeoJsonFeatureCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeatureCollectionData'
-      name: GeoJsonFeatureCollectionData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeatureCollectionData'
-      name: GeoJsonFeatureCollectionData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeatureData'
-      name: GeoJsonFeatureData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonFeatureData'
-      name: GeoJsonFeatureData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometry'
-      name: GeoJsonGeometry
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometry'
-      name: GeoJsonGeometry
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometryCollection'
-      name: GeoJsonGeometryCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometryCollection'
-      name: GeoJsonGeometryCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometryCollectionData'
-      name: GeoJsonGeometryCollectionData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometryCollectionData'
-      name: GeoJsonGeometryCollectionData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometryUnion'
-      name: GeoJsonGeometryUnion
-      items: []
-    - uid: '@azure/maps-search.GeoJsonGeometryUnion'
-      name: GeoJsonGeometryUnion
-      items: []
-    - uid: '@azure/maps-search.GeoJsonLineString'
-      name: GeoJsonLineString
-      items: []
-    - uid: '@azure/maps-search.GeoJsonLineString'
-      name: GeoJsonLineString
-      items: []
-    - uid: '@azure/maps-search.GeoJsonLineStringData'
-      name: GeoJsonLineStringData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonLineStringData'
-      name: GeoJsonLineStringData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiLineString'
-      name: GeoJsonMultiLineString
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiLineString'
-      name: GeoJsonMultiLineString
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiLineStringData'
-      name: GeoJsonMultiLineStringData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiLineStringData'
-      name: GeoJsonMultiLineStringData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPoint'
-      name: GeoJsonMultiPoint
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPoint'
-      name: GeoJsonMultiPoint
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPointData'
-      name: GeoJsonMultiPointData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPointData'
-      name: GeoJsonMultiPointData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPolygon'
-      name: GeoJsonMultiPolygon
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPolygon'
-      name: GeoJsonMultiPolygon
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPolygonData'
-      name: GeoJsonMultiPolygonData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonMultiPolygonData'
-      name: GeoJsonMultiPolygonData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonObject'
-      name: GeoJsonObject
-      items: []
-    - uid: '@azure/maps-search.GeoJsonObject'
-      name: GeoJsonObject
-      items: []
-    - uid: '@azure/maps-search.GeoJsonObjectType'
-      name: GeoJsonObjectType
-      items: []
-    - uid: '@azure/maps-search.GeoJsonObjectType'
-      name: GeoJsonObjectType
-      items: []
-    - uid: '@azure/maps-search.GeoJsonObjectUnion'
-      name: GeoJsonObjectUnion
-      items: []
-    - uid: '@azure/maps-search.GeoJsonObjectUnion'
-      name: GeoJsonObjectUnion
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPoint'
-      name: GeoJsonPoint
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPoint'
-      name: GeoJsonPoint
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPointData'
-      name: GeoJsonPointData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPointData'
-      name: GeoJsonPointData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPolygon'
-      name: GeoJsonPolygon
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPolygon'
-      name: GeoJsonPolygon
-      items: []
     - uid: '@azure/maps-search.GeoJsonPolygonCollection'
       name: GeoJsonPolygonCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPolygonCollection'
-      name: GeoJsonPolygonCollection
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPolygonData'
-      name: GeoJsonPolygonData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPolygonData'
-      name: GeoJsonPolygonData
-      items: []
-    - uid: '@azure/maps-search.GeoJsonPolygonFeature'
-      name: GeoJsonPolygonFeature
       items: []
     - uid: '@azure/maps-search.GeoJsonPolygonFeature'
       name: GeoJsonPolygonFeature
@@ -383,41 +83,14 @@
     - uid: '@azure/maps-search.GeometryIdentifier'
       name: GeometryIdentifier
       items: []
-    - uid: '@azure/maps-search.GeometryIdentifier'
-      name: GeometryIdentifier
-      items: []
-    - uid: '@azure/maps-search.GetGeometriesOptions'
-      name: GetGeometriesOptions
-      items: []
     - uid: '@azure/maps-search.GetGeometriesOptions'
       name: GetGeometriesOptions
       items: []
     - uid: '@azure/maps-search.GetPointOfInterestCategoriesOptions'
       name: GetPointOfInterestCategoriesOptions
       items: []
-    - uid: '@azure/maps-search.GetPointOfInterestCategoriesOptions'
-      name: GetPointOfInterestCategoriesOptions
-      items: []
-    - uid: '@azure/maps-search.JsonFormat'
-      name: JsonFormat
-      items: []
-    - uid: '@azure/maps-search.JsonFormat'
-      name: JsonFormat
-      items: []
     - uid: '@azure/maps-search.KnownElectricVehicleConnector'
       name: KnownElectricVehicleConnector
-      items: []
-    - uid: '@azure/maps-search.KnownElectricVehicleConnector'
-      name: KnownElectricVehicleConnector
-      items: []
-    - uid: '@azure/maps-search.KnownEntity'
-      name: KnownEntity
-      items: []
-    - uid: '@azure/maps-search.KnownEntity'
-      name: KnownEntity
-      items: []
-    - uid: '@azure/maps-search.KnownEntryPointType'
-      name: KnownEntryPointType
       items: []
     - uid: '@azure/maps-search.KnownEntryPointType'
       name: KnownEntryPointType
@@ -425,23 +98,8 @@
     - uid: '@azure/maps-search.KnownGeographicEntityType'
       name: KnownGeographicEntityType
       items: []
-    - uid: '@azure/maps-search.KnownGeographicEntityType'
-      name: KnownGeographicEntityType
-      items: []
-    - uid: '@azure/maps-search.KnownJsonFormat'
-      name: KnownJsonFormat
-      items: []
-    - uid: '@azure/maps-search.KnownJsonFormat'
-      name: KnownJsonFormat
-      items: []
     - uid: '@azure/maps-search.KnownLocalizedMapView'
       name: KnownLocalizedMapView
-      items: []
-    - uid: '@azure/maps-search.KnownLocalizedMapView'
-      name: KnownLocalizedMapView
-      items: []
-    - uid: '@azure/maps-search.KnownMatchType'
-      name: KnownMatchType
       items: []
     - uid: '@azure/maps-search.KnownMatchType'
       name: KnownMatchType
@@ -449,29 +107,8 @@
     - uid: '@azure/maps-search.KnownOperatingHoursRange'
       name: KnownOperatingHoursRange
       items: []
-    - uid: '@azure/maps-search.KnownOperatingHoursRange'
-      name: KnownOperatingHoursRange
-      items: []
-    - uid: '@azure/maps-search.KnownPointOfInterestExtendedPostalCodes'
-      name: KnownPointOfInterestExtendedPostalCodes
-      items: []
-    - uid: '@azure/maps-search.KnownPointOfInterestExtendedPostalCodes'
-      name: KnownPointOfInterestExtendedPostalCodes
-      items: []
     - uid: '@azure/maps-search.KnownQueryType'
       name: KnownQueryType
-      items: []
-    - uid: '@azure/maps-search.KnownQueryType'
-      name: KnownQueryType
-      items: []
-    - uid: '@azure/maps-search.KnownResponseFormat'
-      name: KnownResponseFormat
-      items: []
-    - uid: '@azure/maps-search.KnownResponseFormat'
-      name: KnownResponseFormat
-      items: []
-    - uid: '@azure/maps-search.KnownRoadUseType'
-      name: KnownRoadUseType
       items: []
     - uid: '@azure/maps-search.KnownRoadUseType'
       name: KnownRoadUseType
@@ -479,35 +116,11 @@
     - uid: '@azure/maps-search.KnownSearchAddressResultType'
       name: KnownSearchAddressResultType
       items: []
-    - uid: '@azure/maps-search.KnownSearchAddressResultType'
-      name: KnownSearchAddressResultType
-      items: []
     - uid: '@azure/maps-search.KnownSearchIndexes'
       name: KnownSearchIndexes
       items: []
-    - uid: '@azure/maps-search.KnownSearchIndexes'
-      name: KnownSearchIndexes
-      items: []
-    - uid: '@azure/maps-search.LatLongPairAbbreviated'
-      name: LatLongPairAbbreviated
-      items: []
-    - uid: '@azure/maps-search.LatLongPairAbbreviated'
-      name: LatLongPairAbbreviated
-      items: []
     - uid: '@azure/maps-search.LocalizedMapView'
       name: LocalizedMapView
-      items: []
-    - uid: '@azure/maps-search.LocalizedMapView'
-      name: LocalizedMapView
-      items: []
-    - uid: '@azure/maps-search.LroImpl'
-      name: LroImpl
-      items: []
-    - uid: '@azure/maps-search.LroImpl'
-      name: LroImpl
-      items: []
-    - uid: '@azure/maps-search.MapsSearchClient'
-      name: MapsSearchClient
       items: []
     - uid: '@azure/maps-search.MapsSearchClient'
       name: MapsSearchClient
@@ -515,17 +128,8 @@
     - uid: '@azure/maps-search.MapsSearchClientOptions'
       name: MapsSearchClientOptions
       items: []
-    - uid: '@azure/maps-search.MapsSearchClientOptions'
-      name: MapsSearchClientOptions
-      items: []
     - uid: '@azure/maps-search.MatchType'
       name: MatchType
-      items: []
-    - uid: '@azure/maps-search.MatchType'
-      name: MatchType
-      items: []
-    - uid: '@azure/maps-search.OperatingHours'
-      name: OperatingHours
       items: []
     - uid: '@azure/maps-search.OperatingHours'
       name: OperatingHours
@@ -533,17 +137,8 @@
     - uid: '@azure/maps-search.OperatingHoursRange'
       name: OperatingHoursRange
       items: []
-    - uid: '@azure/maps-search.OperatingHoursRange'
-      name: OperatingHoursRange
-      items: []
     - uid: '@azure/maps-search.OperatingHoursTime'
       name: OperatingHoursTime
-      items: []
-    - uid: '@azure/maps-search.OperatingHoursTime'
-      name: OperatingHoursTime
-      items: []
-    - uid: '@azure/maps-search.OperatingHoursTimeRange'
-      name: OperatingHoursTimeRange
       items: []
     - uid: '@azure/maps-search.OperatingHoursTimeRange'
       name: OperatingHoursTimeRange
@@ -551,17 +146,8 @@
     - uid: '@azure/maps-search.PointOfInterest'
       name: PointOfInterest
       items: []
-    - uid: '@azure/maps-search.PointOfInterest'
-      name: PointOfInterest
-      items: []
     - uid: '@azure/maps-search.PointOfInterestCategory'
       name: PointOfInterestCategory
-      items: []
-    - uid: '@azure/maps-search.PointOfInterestCategory'
-      name: PointOfInterestCategory
-      items: []
-    - uid: '@azure/maps-search.PointOfInterestCategorySet'
-      name: PointOfInterestCategorySet
       items: []
     - uid: '@azure/maps-search.PointOfInterestCategorySet'
       name: PointOfInterestCategorySet
@@ -569,53 +155,8 @@
     - uid: '@azure/maps-search.PointOfInterestCategoryTreeResult'
       name: PointOfInterestCategoryTreeResult
       items: []
-    - uid: '@azure/maps-search.PointOfInterestCategoryTreeResult'
-      name: PointOfInterestCategoryTreeResult
-      items: []
-    - uid: '@azure/maps-search.PointOfInterestExtendedPostalCodes'
-      name: PointOfInterestExtendedPostalCodes
-      items: []
-    - uid: '@azure/maps-search.PointOfInterestExtendedPostalCodes'
-      name: PointOfInterestExtendedPostalCodes
-      items: []
-    - uid: '@azure/maps-search.Polygon'
-      name: Polygon
-      items: []
-    - uid: '@azure/maps-search.Polygon'
-      name: Polygon
-      items: []
-    - uid: '@azure/maps-search.PolygonResult'
-      name: PolygonResult
-      items: []
-    - uid: '@azure/maps-search.PolygonResult'
-      name: PolygonResult
-      items: []
     - uid: '@azure/maps-search.QueryType'
       name: QueryType
-      items: []
-    - uid: '@azure/maps-search.QueryType'
-      name: QueryType
-      items: []
-    - uid: '@azure/maps-search.ResponseFormat'
-      name: ResponseFormat
-      items: []
-    - uid: '@azure/maps-search.ResponseFormat'
-      name: ResponseFormat
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchItem'
-      name: ReverseSearchAddressBatchItem
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchItem'
-      name: ReverseSearchAddressBatchItem
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchItemResponse'
-      name: ReverseSearchAddressBatchItemResponse
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchItemResponse'
-      name: ReverseSearchAddressBatchItemResponse
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchOptions'
-      name: ReverseSearchAddressBatchOptions
       items: []
     - uid: '@azure/maps-search.ReverseSearchAddressBatchOptions'
       name: ReverseSearchAddressBatchOptions
@@ -623,47 +164,14 @@
     - uid: '@azure/maps-search.ReverseSearchAddressBatchPoller'
       name: ReverseSearchAddressBatchPoller
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchPoller'
-      name: ReverseSearchAddressBatchPoller
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchResult'
-      name: ReverseSearchAddressBatchResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchResult'
-      name: ReverseSearchAddressBatchResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressOptions'
-      name: ReverseSearchAddressOptions
-      items: []
     - uid: '@azure/maps-search.ReverseSearchAddressOptions'
       name: ReverseSearchAddressOptions
       items: []
     - uid: '@azure/maps-search.ReverseSearchAddressRequest'
       name: ReverseSearchAddressRequest
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressRequest'
-      name: ReverseSearchAddressRequest
-      items: []
     - uid: '@azure/maps-search.ReverseSearchAddressResult'
       name: ReverseSearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResult'
-      name: ReverseSearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResult'
-      name: ReverseSearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResult'
-      name: ReverseSearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResultItem'
-      name: ReverseSearchAddressResultItem
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResultItem'
-      name: ReverseSearchAddressResultItem
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResultItem'
-      name: ReverseSearchAddressResultItem
       items: []
     - uid: '@azure/maps-search.ReverseSearchAddressResultItem'
       name: ReverseSearchAddressResultItem
@@ -671,35 +179,11 @@
     - uid: '@azure/maps-search.ReverseSearchBaseOptions'
       name: ReverseSearchBaseOptions
       items: []
-    - uid: '@azure/maps-search.ReverseSearchBaseOptions'
-      name: ReverseSearchBaseOptions
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressOptions'
-      name: ReverseSearchCrossStreetAddressOptions
-      items: []
     - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressOptions'
       name: ReverseSearchCrossStreetAddressOptions
       items: []
     - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResult'
       name: ReverseSearchCrossStreetAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResult'
-      name: ReverseSearchCrossStreetAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResult'
-      name: ReverseSearchCrossStreetAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResult'
-      name: ReverseSearchCrossStreetAddressResult
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResultItem'
-      name: ReverseSearchCrossStreetAddressResultItem
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResultItem'
-      name: ReverseSearchCrossStreetAddressResultItem
-      items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResultItem'
-      name: ReverseSearchCrossStreetAddressResultItem
       items: []
     - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResultItem'
       name: ReverseSearchCrossStreetAddressResultItem
@@ -707,35 +191,8 @@
     - uid: '@azure/maps-search.RoadUseType'
       name: RoadUseType
       items: []
-    - uid: '@azure/maps-search.RoadUseType'
-      name: RoadUseType
-      items: []
-    - uid: '@azure/maps-search.Search'
-      name: Search
-      items: []
-    - uid: '@azure/maps-search.Search'
-      name: Search
-      items: []
     - uid: '@azure/maps-search.SearchAddressBaseOptions'
       name: SearchAddressBaseOptions
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBaseOptions'
-      name: SearchAddressBaseOptions
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchItem'
-      name: SearchAddressBatchItem
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchItem'
-      name: SearchAddressBatchItem
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchItemResponse'
-      name: SearchAddressBatchItemResponse
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchItemResponse'
-      name: SearchAddressBatchItemResponse
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchOptions'
-      name: SearchAddressBatchOptions
       items: []
     - uid: '@azure/maps-search.SearchAddressBatchOptions'
       name: SearchAddressBatchOptions
@@ -743,47 +200,14 @@
     - uid: '@azure/maps-search.SearchAddressBatchPoller'
       name: SearchAddressBatchPoller
       items: []
-    - uid: '@azure/maps-search.SearchAddressBatchPoller'
-      name: SearchAddressBatchPoller
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchResult'
-      name: SearchAddressBatchResult
-      items: []
-    - uid: '@azure/maps-search.SearchAddressBatchResult'
-      name: SearchAddressBatchResult
-      items: []
-    - uid: '@azure/maps-search.SearchAddressOptions'
-      name: SearchAddressOptions
-      items: []
     - uid: '@azure/maps-search.SearchAddressOptions'
       name: SearchAddressOptions
       items: []
     - uid: '@azure/maps-search.SearchAddressRequest'
       name: SearchAddressRequest
       items: []
-    - uid: '@azure/maps-search.SearchAddressRequest'
-      name: SearchAddressRequest
-      items: []
     - uid: '@azure/maps-search.SearchAddressResult'
       name: SearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.SearchAddressResult'
-      name: SearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.SearchAddressResult'
-      name: SearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.SearchAddressResult'
-      name: SearchAddressResult
-      items: []
-    - uid: '@azure/maps-search.SearchAddressResultItem'
-      name: SearchAddressResultItem
-      items: []
-    - uid: '@azure/maps-search.SearchAddressResultItem'
-      name: SearchAddressResultItem
-      items: []
-    - uid: '@azure/maps-search.SearchAddressResultItem'
-      name: SearchAddressResultItem
       items: []
     - uid: '@azure/maps-search.SearchAddressResultItem'
       name: SearchAddressResultItem
@@ -791,23 +215,8 @@
     - uid: '@azure/maps-search.SearchAddressResultType'
       name: SearchAddressResultType
       items: []
-    - uid: '@azure/maps-search.SearchAddressResultType'
-      name: SearchAddressResultType
-      items: []
     - uid: '@azure/maps-search.SearchAlongRouteOptions'
       name: SearchAlongRouteOptions
-      items: []
-    - uid: '@azure/maps-search.SearchAlongRouteOptions'
-      name: SearchAlongRouteOptions
-      items: []
-    - uid: '@azure/maps-search.SearchAlongRouteRequest'
-      name: SearchAlongRouteRequest
-      items: []
-    - uid: '@azure/maps-search.SearchAlongRouteRequest'
-      name: SearchAlongRouteRequest
-      items: []
-    - uid: '@azure/maps-search.SearchBaseOptions'
-      name: SearchBaseOptions
       items: []
     - uid: '@azure/maps-search.SearchBaseOptions'
       name: SearchBaseOptions
@@ -815,137 +224,11 @@
     - uid: '@azure/maps-search.SearchExtraFilterOptions'
       name: SearchExtraFilterOptions
       items: []
-    - uid: '@azure/maps-search.SearchExtraFilterOptions'
-      name: SearchExtraFilterOptions
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchHeaders'
-      name: SearchFuzzySearchBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchHeaders'
-      name: SearchFuzzySearchBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchOptionalParams'
-      name: SearchFuzzySearchBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchOptionalParams'
-      name: SearchFuzzySearchBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchResponse'
-      name: SearchFuzzySearchBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchResponse'
-      name: SearchFuzzySearchBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchSyncOptionalParams'
-      name: SearchFuzzySearchBatchSyncOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchSyncOptionalParams'
-      name: SearchFuzzySearchBatchSyncOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchSyncResponse'
-      name: SearchFuzzySearchBatchSyncResponse
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchBatchSyncResponse'
-      name: SearchFuzzySearchBatchSyncResponse
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchOptionalParams'
-      name: SearchFuzzySearchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchOptionalParams'
-      name: SearchFuzzySearchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchResponse'
-      name: SearchFuzzySearchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchFuzzySearchResponse'
-      name: SearchFuzzySearchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGeometry'
-      name: SearchGeometry
-      items: []
     - uid: '@azure/maps-search.SearchGeometry'
       name: SearchGeometry
       items: []
     - uid: '@azure/maps-search.SearchGeometryBaseOptions'
       name: SearchGeometryBaseOptions
-      items: []
-    - uid: '@azure/maps-search.SearchGeometryBaseOptions'
-      name: SearchGeometryBaseOptions
-      items: []
-    - uid: '@azure/maps-search.SearchGetFuzzySearchBatchHeaders'
-      name: SearchGetFuzzySearchBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchGetFuzzySearchBatchHeaders'
-      name: SearchGetFuzzySearchBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchGetFuzzySearchBatchOptionalParams'
-      name: SearchGetFuzzySearchBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetFuzzySearchBatchOptionalParams'
-      name: SearchGetFuzzySearchBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetFuzzySearchBatchResponse'
-      name: SearchGetFuzzySearchBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetFuzzySearchBatchResponse'
-      name: SearchGetFuzzySearchBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetPointOfInterestCategoryTreeOptionalParams'
-      name: SearchGetPointOfInterestCategoryTreeOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetPointOfInterestCategoryTreeOptionalParams'
-      name: SearchGetPointOfInterestCategoryTreeOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetPointOfInterestCategoryTreeResponse'
-      name: SearchGetPointOfInterestCategoryTreeResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetPointOfInterestCategoryTreeResponse'
-      name: SearchGetPointOfInterestCategoryTreeResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetReverseSearchAddressBatchHeaders'
-      name: SearchGetReverseSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchGetReverseSearchAddressBatchHeaders'
-      name: SearchGetReverseSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchGetReverseSearchAddressBatchOptionalParams'
-      name: SearchGetReverseSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetReverseSearchAddressBatchOptionalParams'
-      name: SearchGetReverseSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetReverseSearchAddressBatchResponse'
-      name: SearchGetReverseSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetReverseSearchAddressBatchResponse'
-      name: SearchGetReverseSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetSearchAddressBatchHeaders'
-      name: SearchGetSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchGetSearchAddressBatchHeaders'
-      name: SearchGetSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchGetSearchAddressBatchOptionalParams'
-      name: SearchGetSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetSearchAddressBatchOptionalParams'
-      name: SearchGetSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchGetSearchAddressBatchResponse'
-      name: SearchGetSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchGetSearchAddressBatchResponse'
-      name: SearchGetSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchImpl'
-      name: SearchImpl
-      items: []
-    - uid: '@azure/maps-search.SearchImpl'
-      name: SearchImpl
-      items: []
-    - uid: '@azure/maps-search.SearchIndexes'
-      name: SearchIndexes
       items: []
     - uid: '@azure/maps-search.SearchIndexes'
       name: SearchIndexes
@@ -953,35 +236,8 @@
     - uid: '@azure/maps-search.SearchInsideGeometryOptions'
       name: SearchInsideGeometryOptions
       items: []
-    - uid: '@azure/maps-search.SearchInsideGeometryOptions'
-      name: SearchInsideGeometryOptions
-      items: []
-    - uid: '@azure/maps-search.SearchInsideGeometryRequest'
-      name: SearchInsideGeometryRequest
-      items: []
-    - uid: '@azure/maps-search.SearchInsideGeometryRequest'
-      name: SearchInsideGeometryRequest
-      items: []
-    - uid: '@azure/maps-search.SearchListPolygonsOptionalParams'
-      name: SearchListPolygonsOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchListPolygonsOptionalParams'
-      name: SearchListPolygonsOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchListPolygonsResponse'
-      name: SearchListPolygonsResponse
-      items: []
-    - uid: '@azure/maps-search.SearchListPolygonsResponse'
-      name: SearchListPolygonsResponse
-      items: []
     - uid: '@azure/maps-search.SearchNearbyPointOfInterestOptions'
       name: SearchNearbyPointOfInterestOptions
-      items: []
-    - uid: '@azure/maps-search.SearchNearbyPointOfInterestOptions'
-      name: SearchNearbyPointOfInterestOptions
-      items: []
-    - uid: '@azure/maps-search.SearchPointOfInterestBaseOptions'
-      name: SearchPointOfInterestBaseOptions
       items: []
     - uid: '@azure/maps-search.SearchPointOfInterestBaseOptions'
       name: SearchPointOfInterestBaseOptions
@@ -989,210 +245,15 @@
     - uid: '@azure/maps-search.SearchPointOfInterestCategoryOptions'
       name: SearchPointOfInterestCategoryOptions
       items: []
-    - uid: '@azure/maps-search.SearchPointOfInterestCategoryOptions'
-      name: SearchPointOfInterestCategoryOptions
-      items: []
-    - uid: '@azure/maps-search.SearchPointOfInterestOptions'
-      name: SearchPointOfInterestOptions
-      items: []
     - uid: '@azure/maps-search.SearchPointOfInterestOptions'
       name: SearchPointOfInterestOptions
       items: []
     - uid: '@azure/maps-search.SearchQuery'
       name: SearchQuery
       items: []
-    - uid: '@azure/maps-search.SearchQuery'
-      name: SearchQuery
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchHeaders'
-      name: SearchReverseSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchHeaders'
-      name: SearchReverseSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchOptionalParams'
-      name: SearchReverseSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchOptionalParams'
-      name: SearchReverseSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchResponse'
-      name: SearchReverseSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchResponse'
-      name: SearchReverseSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchSyncOptionalParams'
-      name: SearchReverseSearchAddressBatchSyncOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchSyncOptionalParams'
-      name: SearchReverseSearchAddressBatchSyncOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchSyncResponse'
-      name: SearchReverseSearchAddressBatchSyncResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressBatchSyncResponse'
-      name: SearchReverseSearchAddressBatchSyncResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressOptionalParams'
-      name: SearchReverseSearchAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressOptionalParams'
-      name: SearchReverseSearchAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressResponse'
-      name: SearchReverseSearchAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchAddressResponse'
-      name: SearchReverseSearchAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchCrossStreetAddressOptionalParams'
-      name: SearchReverseSearchCrossStreetAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchCrossStreetAddressOptionalParams'
-      name: SearchReverseSearchCrossStreetAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchCrossStreetAddressResponse'
-      name: SearchReverseSearchCrossStreetAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchReverseSearchCrossStreetAddressResponse'
-      name: SearchReverseSearchCrossStreetAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchHeaders'
-      name: SearchSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchHeaders'
-      name: SearchSearchAddressBatchHeaders
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchOptionalParams'
-      name: SearchSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchOptionalParams'
-      name: SearchSearchAddressBatchOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchResponse'
-      name: SearchSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchResponse'
-      name: SearchSearchAddressBatchResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchSyncOptionalParams'
-      name: SearchSearchAddressBatchSyncOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchSyncOptionalParams'
-      name: SearchSearchAddressBatchSyncOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchSyncResponse'
-      name: SearchSearchAddressBatchSyncResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressBatchSyncResponse'
-      name: SearchSearchAddressBatchSyncResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressOptionalParams'
-      name: SearchSearchAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressOptionalParams'
-      name: SearchSearchAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressResponse'
-      name: SearchSearchAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAddressResponse'
-      name: SearchSearchAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAlongRouteOptionalParams'
-      name: SearchSearchAlongRouteOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAlongRouteOptionalParams'
-      name: SearchSearchAlongRouteOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAlongRouteResponse'
-      name: SearchSearchAlongRouteResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchAlongRouteResponse'
-      name: SearchSearchAlongRouteResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchInsideGeometryOptionalParams'
-      name: SearchSearchInsideGeometryOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchInsideGeometryOptionalParams'
-      name: SearchSearchInsideGeometryOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchInsideGeometryResponse'
-      name: SearchSearchInsideGeometryResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchInsideGeometryResponse'
-      name: SearchSearchInsideGeometryResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchNearbyPointOfInterestOptionalParams'
-      name: SearchSearchNearbyPointOfInterestOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchNearbyPointOfInterestOptionalParams'
-      name: SearchSearchNearbyPointOfInterestOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchNearbyPointOfInterestResponse'
-      name: SearchSearchNearbyPointOfInterestResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchNearbyPointOfInterestResponse'
-      name: SearchSearchNearbyPointOfInterestResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestCategoryOptionalParams'
-      name: SearchSearchPointOfInterestCategoryOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestCategoryOptionalParams'
-      name: SearchSearchPointOfInterestCategoryOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestCategoryResponse'
-      name: SearchSearchPointOfInterestCategoryResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestCategoryResponse'
-      name: SearchSearchPointOfInterestCategoryResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestOptionalParams'
-      name: SearchSearchPointOfInterestOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestOptionalParams'
-      name: SearchSearchPointOfInterestOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestResponse'
-      name: SearchSearchPointOfInterestResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchPointOfInterestResponse'
-      name: SearchSearchPointOfInterestResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchStructuredAddressOptionalParams'
-      name: SearchSearchStructuredAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchStructuredAddressOptionalParams'
-      name: SearchSearchStructuredAddressOptionalParams
-      items: []
-    - uid: '@azure/maps-search.SearchSearchStructuredAddressResponse'
-      name: SearchSearchStructuredAddressResponse
-      items: []
-    - uid: '@azure/maps-search.SearchSearchStructuredAddressResponse'
-      name: SearchSearchStructuredAddressResponse
-      items: []
     - uid: '@azure/maps-search.SearchStructuredAddressOptions'
       name: SearchStructuredAddressOptions
       items: []
-    - uid: '@azure/maps-search.SearchStructuredAddressOptions'
-      name: SearchStructuredAddressOptions
-      items: []
-    - uid: '@azure/maps-search.SearchSummary'
-      name: SearchSummary
-      items: []
-    - uid: '@azure/maps-search.SearchSummary'
-      name: SearchSummary
-      items: []
     - uid: '@azure/maps-search.StructuredAddress'
       name: StructuredAddress
-      items: []
-    - uid: '@azure/maps-search.StructuredAddress'
-      name: StructuredAddress
-      items: []
-    - uid: '@azure/maps-search.Viewport'
-      name: Viewport
-      items: []
-    - uid: '@azure/maps-search.Viewport'
-      name: Viewport
       items: []
