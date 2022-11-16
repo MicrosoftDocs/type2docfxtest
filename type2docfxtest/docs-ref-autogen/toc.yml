@@ -1,259 +1,238 @@
-- name: '@azure/maps-search'
+- name: '@azure/arm-advisor'
   items:
     - name: Overview
-      uid: '@azure/maps-search'
-    - uid: '@azure/maps-search.Address'
-      name: Address
+      uid: '@azure/arm-advisor'
+    - uid: '@azure/arm-advisor.AdvisorManagementClient'
+      name: AdvisorManagementClient
       items: []
-    - uid: '@azure/maps-search.AddressRanges'
-      name: AddressRanges
+    - uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams'
+      name: AdvisorManagementClientOptionalParams
       items: []
-    - uid: '@azure/maps-search.BatchItem'
-      name: BatchItem
+    - uid: '@azure/arm-advisor.ArmErrorResponse'
+      name: ArmErrorResponse
       items: []
-    - uid: '@azure/maps-search.BatchPollerOptions'
-      name: BatchPollerOptions
+    - uid: '@azure/arm-advisor.ARMErrorResponseBody'
+      name: ARMErrorResponseBody
       items: []
-    - uid: '@azure/maps-search.BatchResult'
-      name: BatchResult
+    - uid: '@azure/arm-advisor.Category'
+      name: Category
       items: []
-    - uid: '@azure/maps-search.Brand'
-      name: Brand
+    - uid: '@azure/arm-advisor.ConfigData'
+      name: ConfigData
       items: []
-    - uid: '@azure/maps-search.Classification'
-      name: Classification
+    - uid: '@azure/arm-advisor.ConfigurationListResult'
+      name: ConfigurationListResult
       items: []
-    - uid: '@azure/maps-search.ClassificationName'
-      name: ClassificationName
+    - uid: '@azure/arm-advisor.ConfigurationName'
+      name: ConfigurationName
       items: []
-    - uid: '@azure/maps-search.DataSource'
-      name: DataSource
+    - uid: '@azure/arm-advisor.Configurations'
+      name: Configurations
       items: []
-    - uid: '@azure/maps-search.ElectricVehicleConnector'
-      name: ElectricVehicleConnector
+    - uid: '@azure/arm-advisor.ConfigurationsCreateInResourceGroupOptionalParams'
+      name: ConfigurationsCreateInResourceGroupOptionalParams
       items: []
-    - uid: '@azure/maps-search.EntityGeometry'
-      name: EntityGeometry
+    - uid: '@azure/arm-advisor.ConfigurationsCreateInResourceGroupResponse'
+      name: ConfigurationsCreateInResourceGroupResponse
       items: []
-    - uid: '@azure/maps-search.EntryPoint'
-      name: EntryPoint
+    - uid: '@azure/arm-advisor.ConfigurationsCreateInSubscriptionOptionalParams'
+      name: ConfigurationsCreateInSubscriptionOptionalParams
       items: []
-    - uid: '@azure/maps-search.EntryPointType'
-      name: EntryPointType
+    - uid: '@azure/arm-advisor.ConfigurationsCreateInSubscriptionResponse'
+      name: ConfigurationsCreateInSubscriptionResponse
       items: []
-    - uid: '@azure/maps-search.ErrorDetail'
-      name: ErrorDetail
+    - uid: '@azure/arm-advisor.ConfigurationsListByResourceGroupOptionalParams'
+      name: ConfigurationsListByResourceGroupOptionalParams
       items: []
-    - uid: '@azure/maps-search.ErrorResponse'
-      name: ErrorResponse
+    - uid: '@azure/arm-advisor.ConfigurationsListByResourceGroupResponse'
+      name: ConfigurationsListByResourceGroupResponse
       items: []
-    - uid: '@azure/maps-search.FuzzySearchBaseOptions'
-      name: FuzzySearchBaseOptions
+    - uid: '@azure/arm-advisor.ConfigurationsListBySubscriptionNextOptionalParams'
+      name: ConfigurationsListBySubscriptionNextOptionalParams
       items: []
-    - uid: '@azure/maps-search.FuzzySearchBatchOptions'
-      name: FuzzySearchBatchOptions
+    - uid: '@azure/arm-advisor.ConfigurationsListBySubscriptionNextResponse'
+      name: ConfigurationsListBySubscriptionNextResponse
       items: []
-    - uid: '@azure/maps-search.FuzzySearchBatchPoller'
-      name: FuzzySearchBatchPoller
+    - uid: '@azure/arm-advisor.ConfigurationsListBySubscriptionOptionalParams'
+      name: ConfigurationsListBySubscriptionOptionalParams
       items: []
-    - uid: '@azure/maps-search.FuzzySearchOptions'
-      name: FuzzySearchOptions
+    - uid: '@azure/arm-advisor.ConfigurationsListBySubscriptionResponse'
+      name: ConfigurationsListBySubscriptionResponse
       items: []
-    - uid: '@azure/maps-search.FuzzySearchRequest'
-      name: FuzzySearchRequest
+    - uid: '@azure/arm-advisor.CpuThreshold'
+      name: CpuThreshold
       items: []
-    - uid: '@azure/maps-search.GeographicEntityType'
-      name: GeographicEntityType
+    - uid: '@azure/arm-advisor.DigestConfig'
+      name: DigestConfig
       items: []
-    - uid: '@azure/maps-search.GeoJsonCircleFeature'
-      name: GeoJsonCircleFeature
+    - uid: '@azure/arm-advisor.DigestConfigState'
+      name: DigestConfigState
       items: []
-    - uid: '@azure/maps-search.GeoJsonCircleOrPolygonFeature'
-      name: GeoJsonCircleOrPolygonFeature
+    - uid: '@azure/arm-advisor.Impact'
+      name: Impact
       items: []
-    - uid: '@azure/maps-search.GeoJsonCircleOrPolygonFeatureCollection'
-      name: GeoJsonCircleOrPolygonFeatureCollection
+    - uid: '@azure/arm-advisor.KnownCategory'
+      name: KnownCategory
       items: []
-    - uid: '@azure/maps-search.GeoJsonPolygonCollection'
-      name: GeoJsonPolygonCollection
+    - uid: '@azure/arm-advisor.KnownConfigurationName'
+      name: KnownConfigurationName
       items: []
-    - uid: '@azure/maps-search.GeoJsonPolygonFeature'
-      name: GeoJsonPolygonFeature
+    - uid: '@azure/arm-advisor.KnownCpuThreshold'
+      name: KnownCpuThreshold
       items: []
-    - uid: '@azure/maps-search.GeometryIdentifier'
-      name: GeometryIdentifier
+    - uid: '@azure/arm-advisor.KnownDigestConfigState'
+      name: KnownDigestConfigState
       items: []
-    - uid: '@azure/maps-search.GetGeometriesOptions'
-      name: GetGeometriesOptions
+    - uid: '@azure/arm-advisor.KnownImpact'
+      name: KnownImpact
       items: []
-    - uid: '@azure/maps-search.GetPointOfInterestCategoriesOptions'
-      name: GetPointOfInterestCategoriesOptions
+    - uid: '@azure/arm-advisor.KnownRisk'
+      name: KnownRisk
       items: []
-    - uid: '@azure/maps-search.KnownElectricVehicleConnector'
-      name: KnownElectricVehicleConnector
+    - uid: '@azure/arm-advisor.KnownScenario'
+      name: KnownScenario
       items: []
-    - uid: '@azure/maps-search.KnownEntryPointType'
-      name: KnownEntryPointType
+    - uid: '@azure/arm-advisor.MetadataEntity'
+      name: MetadataEntity
       items: []
-    - uid: '@azure/maps-search.KnownGeographicEntityType'
-      name: KnownGeographicEntityType
+    - uid: '@azure/arm-advisor.MetadataEntityListResult'
+      name: MetadataEntityListResult
       items: []
-    - uid: '@azure/maps-search.KnownLocalizedMapView'
-      name: KnownLocalizedMapView
+    - uid: '@azure/arm-advisor.MetadataSupportedValueDetail'
+      name: MetadataSupportedValueDetail
       items: []
-    - uid: '@azure/maps-search.KnownMatchType'
-      name: KnownMatchType
+    - uid: '@azure/arm-advisor.OperationDisplayInfo'
+      name: OperationDisplayInfo
       items: []
-    - uid: '@azure/maps-search.KnownOperatingHoursRange'
-      name: KnownOperatingHoursRange
+    - uid: '@azure/arm-advisor.OperationEntity'
+      name: OperationEntity
       items: []
-    - uid: '@azure/maps-search.KnownQueryType'
-      name: KnownQueryType
+    - uid: '@azure/arm-advisor.OperationEntityListResult'
+      name: OperationEntityListResult
       items: []
-    - uid: '@azure/maps-search.KnownRoadUseType'
-      name: KnownRoadUseType
+    - uid: '@azure/arm-advisor.Operations'
+      name: Operations
       items: []
-    - uid: '@azure/maps-search.KnownSearchAddressResultType'
-      name: KnownSearchAddressResultType
+    - uid: '@azure/arm-advisor.OperationsListNextOptionalParams'
+      name: OperationsListNextOptionalParams
       items: []
-    - uid: '@azure/maps-search.KnownSearchIndexes'
-      name: KnownSearchIndexes
+    - uid: '@azure/arm-advisor.OperationsListNextResponse'
+      name: OperationsListNextResponse
       items: []
-    - uid: '@azure/maps-search.LocalizedMapView'
-      name: LocalizedMapView
+    - uid: '@azure/arm-advisor.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
       items: []
-    - uid: '@azure/maps-search.MapsSearchClient'
-      name: MapsSearchClient
+    - uid: '@azure/arm-advisor.OperationsListResponse'
+      name: OperationsListResponse
       items: []
-    - uid: '@azure/maps-search.MapsSearchClientOptions'
-      name: MapsSearchClientOptions
+    - uid: '@azure/arm-advisor.RecommendationMetadata'
+      name: RecommendationMetadata
       items: []
-    - uid: '@azure/maps-search.MatchType'
-      name: MatchType
+    - uid: '@azure/arm-advisor.RecommendationMetadataGetOptionalParams'
+      name: RecommendationMetadataGetOptionalParams
       items: []
-    - uid: '@azure/maps-search.OperatingHours'
-      name: OperatingHours
+    - uid: '@azure/arm-advisor.RecommendationMetadataGetResponse'
+      name: RecommendationMetadataGetResponse
       items: []
-    - uid: '@azure/maps-search.OperatingHoursRange'
-      name: OperatingHoursRange
+    - uid: '@azure/arm-advisor.RecommendationMetadataListNextOptionalParams'
+      name: RecommendationMetadataListNextOptionalParams
       items: []
-    - uid: '@azure/maps-search.OperatingHoursTime'
-      name: OperatingHoursTime
+    - uid: '@azure/arm-advisor.RecommendationMetadataListNextResponse'
+      name: RecommendationMetadataListNextResponse
       items: []
-    - uid: '@azure/maps-search.OperatingHoursTimeRange'
-      name: OperatingHoursTimeRange
+    - uid: '@azure/arm-advisor.RecommendationMetadataListOptionalParams'
+      name: RecommendationMetadataListOptionalParams
       items: []
-    - uid: '@azure/maps-search.PointOfInterest'
-      name: PointOfInterest
+    - uid: '@azure/arm-advisor.RecommendationMetadataListResponse'
+      name: RecommendationMetadataListResponse
       items: []
-    - uid: '@azure/maps-search.PointOfInterestCategory'
-      name: PointOfInterestCategory
+    - uid: '@azure/arm-advisor.Recommendations'
+      name: Recommendations
       items: []
-    - uid: '@azure/maps-search.PointOfInterestCategorySet'
-      name: PointOfInterestCategorySet
+    - uid: '@azure/arm-advisor.RecommendationsGenerateHeaders'
+      name: RecommendationsGenerateHeaders
       items: []
-    - uid: '@azure/maps-search.PointOfInterestCategoryTreeResult'
-      name: PointOfInterestCategoryTreeResult
+    - uid: '@azure/arm-advisor.RecommendationsGenerateOptionalParams'
+      name: RecommendationsGenerateOptionalParams
       items: []
-    - uid: '@azure/maps-search.QueryType'
-      name: QueryType
+    - uid: '@azure/arm-advisor.RecommendationsGenerateResponse'
+      name: RecommendationsGenerateResponse
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchOptions'
-      name: ReverseSearchAddressBatchOptions
+    - uid: '@azure/arm-advisor.RecommendationsGetGenerateStatusOptionalParams'
+      name: RecommendationsGetGenerateStatusOptionalParams
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressBatchPoller'
-      name: ReverseSearchAddressBatchPoller
+    - uid: '@azure/arm-advisor.RecommendationsGetOptionalParams'
+      name: RecommendationsGetOptionalParams
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressOptions'
-      name: ReverseSearchAddressOptions
+    - uid: '@azure/arm-advisor.RecommendationsGetResponse'
+      name: RecommendationsGetResponse
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressRequest'
-      name: ReverseSearchAddressRequest
+    - uid: '@azure/arm-advisor.RecommendationsListNextOptionalParams'
+      name: RecommendationsListNextOptionalParams
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResult'
-      name: ReverseSearchAddressResult
+    - uid: '@azure/arm-advisor.RecommendationsListNextResponse'
+      name: RecommendationsListNextResponse
       items: []
-    - uid: '@azure/maps-search.ReverseSearchAddressResultItem'
-      name: ReverseSearchAddressResultItem
+    - uid: '@azure/arm-advisor.RecommendationsListOptionalParams'
+      name: RecommendationsListOptionalParams
       items: []
-    - uid: '@azure/maps-search.ReverseSearchBaseOptions'
-      name: ReverseSearchBaseOptions
+    - uid: '@azure/arm-advisor.RecommendationsListResponse'
+      name: RecommendationsListResponse
       items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressOptions'
-      name: ReverseSearchCrossStreetAddressOptions
+    - uid: '@azure/arm-advisor.Resource'
+      name: Resource
       items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResult'
-      name: ReverseSearchCrossStreetAddressResult
+    - uid: '@azure/arm-advisor.ResourceMetadata'
+      name: ResourceMetadata
       items: []
-    - uid: '@azure/maps-search.ReverseSearchCrossStreetAddressResultItem'
-      name: ReverseSearchCrossStreetAddressResultItem
+    - uid: '@azure/arm-advisor.ResourceRecommendationBase'
+      name: ResourceRecommendationBase
       items: []
-    - uid: '@azure/maps-search.RoadUseType'
-      name: RoadUseType
+    - uid: '@azure/arm-advisor.ResourceRecommendationBaseListResult'
+      name: ResourceRecommendationBaseListResult
       items: []
-    - uid: '@azure/maps-search.SearchAddressBaseOptions'
-      name: SearchAddressBaseOptions
+    - uid: '@azure/arm-advisor.Risk'
+      name: Risk
       items: []
-    - uid: '@azure/maps-search.SearchAddressBatchOptions'
-      name: SearchAddressBatchOptions
+    - uid: '@azure/arm-advisor.Scenario'
+      name: Scenario
       items: []
-    - uid: '@azure/maps-search.SearchAddressBatchPoller'
-      name: SearchAddressBatchPoller
+    - uid: '@azure/arm-advisor.ShortDescription'
+      name: ShortDescription
       items: []
-    - uid: '@azure/maps-search.SearchAddressOptions'
-      name: SearchAddressOptions
+    - uid: '@azure/arm-advisor.SuppressionContract'
+      name: SuppressionContract
       items: []
-    - uid: '@azure/maps-search.SearchAddressRequest'
-      name: SearchAddressRequest
+    - uid: '@azure/arm-advisor.SuppressionContractListResult'
+      name: SuppressionContractListResult
       items: []
-    - uid: '@azure/maps-search.SearchAddressResult'
-      name: SearchAddressResult
+    - uid: '@azure/arm-advisor.Suppressions'
+      name: Suppressions
       items: []
-    - uid: '@azure/maps-search.SearchAddressResultItem'
-      name: SearchAddressResultItem
+    - uid: '@azure/arm-advisor.SuppressionsCreateOptionalParams'
+      name: SuppressionsCreateOptionalParams
       items: []
-    - uid: '@azure/maps-search.SearchAddressResultType'
-      name: SearchAddressResultType
+    - uid: '@azure/arm-advisor.SuppressionsCreateResponse'
+      name: SuppressionsCreateResponse
       items: []
-    - uid: '@azure/maps-search.SearchAlongRouteOptions'
-      name: SearchAlongRouteOptions
+    - uid: '@azure/arm-advisor.SuppressionsDeleteOptionalParams'
+      name: SuppressionsDeleteOptionalParams
       items: []
-    - uid: '@azure/maps-search.SearchBaseOptions'
-      name: SearchBaseOptions
+    - uid: '@azure/arm-advisor.SuppressionsGetOptionalParams'
+      name: SuppressionsGetOptionalParams
       items: []
-    - uid: '@azure/maps-search.SearchExtraFilterOptions'
-      name: SearchExtraFilterOptions
+    - uid: '@azure/arm-advisor.SuppressionsGetResponse'
+      name: SuppressionsGetResponse
       items: []
-    - uid: '@azure/maps-search.SearchGeometry'
-      name: SearchGeometry
+    - uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams'
+      name: SuppressionsListNextOptionalParams
       items: []
-    - uid: '@azure/maps-search.SearchGeometryBaseOptions'
-      name: SearchGeometryBaseOptions
+    - uid: '@azure/arm-advisor.SuppressionsListNextResponse'
+      name: SuppressionsListNextResponse
       items: []
-    - uid: '@azure/maps-search.SearchIndexes'
-      name: SearchIndexes
+    - uid: '@azure/arm-advisor.SuppressionsListOptionalParams'
+      name: SuppressionsListOptionalParams
       items: []
-    - uid: '@azure/maps-search.SearchInsideGeometryOptions'
-      name: SearchInsideGeometryOptions
-      items: []
-    - uid: '@azure/maps-search.SearchNearbyPointOfInterestOptions'
-      name: SearchNearbyPointOfInterestOptions
-      items: []
-    - uid: '@azure/maps-search.SearchPointOfInterestBaseOptions'
-      name: SearchPointOfInterestBaseOptions
-      items: []
-    - uid: '@azure/maps-search.SearchPointOfInterestCategoryOptions'
-      name: SearchPointOfInterestCategoryOptions
-      items: []
-    - uid: '@azure/maps-search.SearchPointOfInterestOptions'
-      name: SearchPointOfInterestOptions
-      items: []
-    - uid: '@azure/maps-search.SearchQuery'
-      name: SearchQuery
-      items: []
-    - uid: '@azure/maps-search.SearchStructuredAddressOptions'
-      name: SearchStructuredAddressOptions
-      items: []
-    - uid: '@azure/maps-search.StructuredAddress'
-      name: StructuredAddress
+    - uid: '@azure/arm-advisor.SuppressionsListResponse'
+      name: SuppressionsListResponse
       items: []
