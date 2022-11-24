@@ -38,7 +38,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ConfigurationSettingId.etag](xref:ConfigurationSettingId.etag)
+      [ConfigurationSettingId.etag](xref:@azure/app-configuration.ConfigurationSettingId.etag)
   - name: isReadOnly
     uid: '@azure/app-configuration.AddConfigurationSettingResponse.isReadOnly'
     package: '@azure/app-configuration'
@@ -72,7 +72,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ConfigurationSettingId.key](xref:ConfigurationSettingId.key)
+      [ConfigurationSettingId.key](xref:@azure/app-configuration.ConfigurationSettingId.key)
   - name: label
     uid: '@azure/app-configuration.AddConfigurationSettingResponse.label'
     package: '@azure/app-configuration'
@@ -90,7 +90,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ConfigurationSettingId.label](xref:ConfigurationSettingId.label)
+      [ConfigurationSettingId.label](xref:@azure/app-configuration.ConfigurationSettingId.label)
   - name: lastModified
     uid: '@azure/app-configuration.AddConfigurationSettingResponse.lastModified'
     package: '@azure/app-configuration'
@@ -124,7 +124,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SyncTokenHeaderField.syncToken](xref:SyncTokenHeaderField.syncToken)
+      [SyncTokenHeaderField.syncToken](xref:@azure/app-configuration.SyncTokenHeaderField.syncToken)
   - name: tags
     uid: '@azure/app-configuration.AddConfigurationSettingResponse.tags'
     package: '@azure/app-configuration'

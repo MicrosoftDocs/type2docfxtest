@@ -40,7 +40,7 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [HttpOnlyIfUnchangedField.onlyIfUnchanged](xref:HttpOnlyIfUnchangedField.onlyIfUnchanged)
+      [HttpOnlyIfUnchangedField.onlyIfUnchanged](xref:@azure/app-configuration.HttpOnlyIfUnchangedField.onlyIfUnchanged)
   - name: requestOptions
     uid: '@azure/app-configuration.SetReadOnlyOptions.requestOptions'
     package: '@azure/app-configuration'

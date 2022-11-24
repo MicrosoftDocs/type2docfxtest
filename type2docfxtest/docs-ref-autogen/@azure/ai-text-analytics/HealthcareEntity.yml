@@ -141,7 +141,7 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [Entity.confidenceScore](xref:Entity.confidenceScore)
+      [Entity.confidenceScore](xref:@azure/ai-text-analytics.Entity.confidenceScore)
   - name: length
     uid: '@azure/ai-text-analytics.HealthcareEntity.length'
     package: '@azure/ai-text-analytics'
@@ -157,7 +157,9 @@ inheritedProperties:
       return:
         description: ''
         type: number
-    inheritanceDescription: '<b>Inherited From</b> [Entity.length](xref:Entity.length)'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [Entity.length](xref:@azure/ai-text-analytics.Entity.length)
   - name: offset
     uid: '@azure/ai-text-analytics.HealthcareEntity.offset'
     package: '@azure/ai-text-analytics'
@@ -173,7 +175,9 @@ inheritedProperties:
       return:
         description: ''
         type: number
-    inheritanceDescription: '<b>Inherited From</b> [Entity.offset](xref:Entity.offset)'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [Entity.offset](xref:@azure/ai-text-analytics.Entity.offset)
   - name: subCategory
     uid: '@azure/ai-text-analytics.HealthcareEntity.subCategory'
     package: '@azure/ai-text-analytics'
@@ -187,7 +191,9 @@ inheritedProperties:
       return:
         description: ''
         type: string
-    inheritanceDescription: '<b>Inherited From</b> [Entity.subCategory](xref:Entity.subCategory)'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [Entity.subCategory](xref:@azure/ai-text-analytics.Entity.subCategory)
   - name: text
     uid: '@azure/ai-text-analytics.HealthcareEntity.text'
     package: '@azure/ai-text-analytics'
@@ -201,5 +207,7 @@ inheritedProperties:
       return:
         description: ''
         type: string
-    inheritanceDescription: '<b>Inherited From</b> [Entity.text](xref:Entity.text)'
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [Entity.text](xref:@azure/ai-text-analytics.Entity.text)
 extends: <xref uid="@azure/ai-text-analytics.Entity" />

@@ -70,7 +70,7 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.error](xref:TextAnalyticsSuccessResult.error)
+      [TextAnalyticsSuccessResult.error](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.error)
   - name: id
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.id'
     package: '@azure/ai-text-analytics'
@@ -86,7 +86,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.id](xref:TextAnalyticsSuccessResult.id)
+      [TextAnalyticsSuccessResult.id](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.id)
   - name: statistics
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.statistics'
     package: '@azure/ai-text-analytics'
@@ -108,7 +108,7 @@ inheritedProperties:
         type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.statistics](xref:TextAnalyticsSuccessResult.statistics)
+      [TextAnalyticsSuccessResult.statistics](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.statistics)
   - name: warnings
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.warnings'
     package: '@azure/ai-text-analytics'
@@ -126,5 +126,5 @@ inheritedProperties:
         type: '<xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.warnings](xref:TextAnalyticsSuccessResult.warnings)
+      [TextAnalyticsSuccessResult.warnings](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.warnings)
 extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />

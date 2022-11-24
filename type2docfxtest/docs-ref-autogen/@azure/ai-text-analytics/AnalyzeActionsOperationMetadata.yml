@@ -80,7 +80,7 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.createdOn](xref:OperationMetadata.createdOn)
+      [OperationMetadata.createdOn](xref:@azure/ai-text-analytics.OperationMetadata.createdOn)
   - name: expiresOn
     uid: '@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.expiresOn'
     package: '@azure/ai-text-analytics'
@@ -96,7 +96,7 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.expiresOn](xref:OperationMetadata.expiresOn)
+      [OperationMetadata.expiresOn](xref:@azure/ai-text-analytics.OperationMetadata.expiresOn)
   - name: lastModifiedOn
     uid: '@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.lastModifiedOn'
     package: '@azure/ai-text-analytics'
@@ -112,7 +112,7 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.lastModifiedOn](xref:OperationMetadata.lastModifiedOn)
+      [OperationMetadata.lastModifiedOn](xref:@azure/ai-text-analytics.OperationMetadata.lastModifiedOn)
   - name: operationId
     uid: '@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.operationId'
     package: '@azure/ai-text-analytics'
@@ -128,7 +128,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.operationId](xref:OperationMetadata.operationId)
+      [OperationMetadata.operationId](xref:@azure/ai-text-analytics.OperationMetadata.operationId)
   - name: status
     uid: '@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.status'
     package: '@azure/ai-text-analytics'
@@ -144,5 +144,5 @@ inheritedProperties:
         type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.status](xref:OperationMetadata.status)
+      [OperationMetadata.status](xref:@azure/ai-text-analytics.OperationMetadata.status)
 extends: <xref uid="@azure/ai-text-analytics.OperationMetadata" />

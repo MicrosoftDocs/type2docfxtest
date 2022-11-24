@@ -38,7 +38,7 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.completedOn](xref:TextAnalyticsActionSuccessState.completedOn)
+      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.completedOn)
   - name: error
     uid: '@azure/ai-text-analytics.ExtractKeyPhrasesActionSuccessResult.error'
     package: '@azure/ai-text-analytics'
@@ -54,5 +54,5 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.error](xref:TextAnalyticsActionSuccessState.error)
+      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.error)
 extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />

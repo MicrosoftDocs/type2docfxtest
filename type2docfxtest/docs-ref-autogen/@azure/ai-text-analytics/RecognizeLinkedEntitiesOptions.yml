@@ -72,7 +72,7 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsOperationOptions.disableServiceLogs](xref:TextAnalyticsOperationOptions.disableServiceLogs)
+      [TextAnalyticsOperationOptions.disableServiceLogs](xref:@azure/ai-text-analytics.TextAnalyticsOperationOptions.disableServiceLogs)
   - name: includeStatistics
     uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions.includeStatistics'
     package: '@azure/ai-text-analytics'
@@ -88,7 +88,7 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsOperationOptions.includeStatistics](xref:TextAnalyticsOperationOptions.includeStatistics)
+      [TextAnalyticsOperationOptions.includeStatistics](xref:@azure/ai-text-analytics.TextAnalyticsOperationOptions.includeStatistics)
   - name: modelVersion
     uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions.modelVersion'
     package: '@azure/ai-text-analytics'
@@ -113,7 +113,7 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsOperationOptions.modelVersion](xref:TextAnalyticsOperationOptions.modelVersion)
+      [TextAnalyticsOperationOptions.modelVersion](xref:@azure/ai-text-analytics.TextAnalyticsOperationOptions.modelVersion)
   - name: onResponse
     uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions.onResponse'
     package: '@azure/ai-text-analytics'
