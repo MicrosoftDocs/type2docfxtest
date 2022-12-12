@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: SqlDatabaseGetPropertiesResource
+uid: '@azure/arm-cosmosdb.SqlDatabaseGetPropertiesResource'
+package: '@azure/arm-cosmosdb'
+summary: ''
+fullName: SqlDatabaseGetPropertiesResource
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SqlDatabaseGetPropertiesResource = SqlDatabaseResource &
+    ExtendedResourceProperties & {
+      colls?: undefined | string,
+      users?: undefined | string,
+    }

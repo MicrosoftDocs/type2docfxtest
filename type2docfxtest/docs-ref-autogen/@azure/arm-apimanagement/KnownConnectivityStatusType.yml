@@ -7,18 +7,17 @@ summary: >-
   the service accepts.
 fullName: KnownConnectivityStatusType
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Failure
     uid: '@azure/arm-apimanagement.KnownConnectivityStatusType.Failure'
     package: '@azure/arm-apimanagement'
-    summary: Failure
+    summary: ''
   - name: Initializing
     uid: '@azure/arm-apimanagement.KnownConnectivityStatusType.Initializing'
     package: '@azure/arm-apimanagement'
-    summary: Initializing
+    summary: ''
   - name: Success
     uid: '@azure/arm-apimanagement.KnownConnectivityStatusType.Success'
     package: '@azure/arm-apimanagement'
-    summary: Success
+    summary: ''

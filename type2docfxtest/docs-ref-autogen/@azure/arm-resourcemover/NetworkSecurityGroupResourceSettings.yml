@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: NetworkSecurityGroupResourceSettings
+uid: '@azure/arm-resourcemover.NetworkSecurityGroupResourceSettings'
+package: '@azure/arm-resourcemover'
+summary: Defines the NSG resource settings.
+fullName: NetworkSecurityGroupResourceSettings
+remarks: ''
+isDeprecated: false
+syntax: >-
+  type NetworkSecurityGroupResourceSettings = ResourceSettings & { resourceType:
+  "Microsoft.Network/networkSecurityGroups", securityRules?: NsgSecurityRule[],
+  tags?: undefined | [key: string]: string }

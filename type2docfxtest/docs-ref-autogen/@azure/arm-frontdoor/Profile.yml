@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: Profile
+uid: '@azure/arm-frontdoor.Profile'
+package: '@azure/arm-frontdoor'
+summary: Defines an Network Experiment Profile and lists of Experiments
+fullName: Profile
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Profile = Resource & {
+    enabledState?: State,
+    etag?: undefined | string,
+    resourceState?: NetworkExperimentResourceState,
+  }

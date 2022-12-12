@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: Policy
+uid: '@azure/arm-billing.Policy'
+package: '@azure/arm-billing'
+summary: A policy.
+fullName: Policy
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Policy = Resource & {
+    marketplacePurchases?: MarketplacePurchasesPolicy,
+    reservationPurchases?: ReservationPurchasesPolicy,
+    viewCharges?: ViewChargesPolicy,
+  }

@@ -1,0 +1,18 @@
+### YamlMime:TSTypeAlias
+name: TabHeaderProps
+uid: '@azure/communication-react.TabHeaderProps'
+package: '@azure/communication-react'
+summary: 'Props for <xref:TabHeader> component'
+fullName: TabHeaderProps
+remarks: ''
+isDeprecated: false
+syntax: |
+  type TabHeaderProps = {
+    activeTab: TabHeaderTab,
+    disableChatButton?: boolean,
+    disablePeopleButton?: boolean,
+    onChatButtonClicked?: () => void,
+    onClose: () => void,
+    onPeopleButtonClicked?: () => void,
+    strings: CallWithChatCompositeStrings,
+  }

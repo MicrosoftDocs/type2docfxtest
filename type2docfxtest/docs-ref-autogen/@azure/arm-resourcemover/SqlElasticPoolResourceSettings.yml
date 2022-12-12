@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: SqlElasticPoolResourceSettings
+uid: '@azure/arm-resourcemover.SqlElasticPoolResourceSettings'
+package: '@azure/arm-resourcemover'
+summary: Defines the Sql ElasticPool resource settings.
+fullName: SqlElasticPoolResourceSettings
+remarks: ''
+isDeprecated: false
+syntax: >-
+  type SqlElasticPoolResourceSettings = ResourceSettings & { resourceType:
+  "Microsoft.Sql/servers/elasticPools", tags?: undefined | [key: string]:
+  string, zoneRedundant?: ZoneRedundant }

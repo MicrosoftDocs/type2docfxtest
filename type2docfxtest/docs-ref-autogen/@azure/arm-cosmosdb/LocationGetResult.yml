@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: LocationGetResult
+uid: '@azure/arm-cosmosdb.LocationGetResult'
+package: '@azure/arm-cosmosdb'
+summary: Cosmos DB location get result
+fullName: LocationGetResult
+remarks: ''
+isDeprecated: false
+syntax: >
+  type LocationGetResult = ARMProxyResource & { properties?: LocationProperties
+  }

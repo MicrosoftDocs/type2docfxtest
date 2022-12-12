@@ -1,0 +1,15 @@
+### YamlMime:TSTypeAlias
+name: MonitoringSettingsBeginUpdatePutResponse
+uid: '@azure/arm-appplatform.MonitoringSettingsBeginUpdatePutResponse'
+package: '@azure/arm-appplatform'
+summary: Contains response data for the beginUpdatePut operation.
+fullName: MonitoringSettingsBeginUpdatePutResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type MonitoringSettingsBeginUpdatePutResponse = MonitoringSettingResource & {
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: MonitoringSettingResource,
+    },
+  }

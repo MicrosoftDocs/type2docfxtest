@@ -7,10 +7,9 @@ summary: >-
   accepts.
 fullName: KnownExportApi
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: 'True'
     uid: '@azure/arm-apimanagement.KnownExportApi.True'
     package: '@azure/arm-apimanagement'
-    summary: 'True'
+    summary: ''

@@ -1,0 +1,17 @@
+### YamlMime:TSTypeAlias
+name: KubernetesRole
+uid: '@azure/arm-databoxedge.KubernetesRole'
+package: '@azure/arm-databoxedge'
+summary: Kubernetes role.
+fullName: KubernetesRole
+remarks: ''
+isDeprecated: false
+syntax: |
+  type KubernetesRole = Role & {
+    hostPlatform?: PlatformType,
+    hostPlatformType?: HostPlatformType,
+    kubernetesClusterInfo?: KubernetesClusterInfo,
+    kubernetesRoleResources?: KubernetesRoleResources,
+    provisioningState?: KubernetesState,
+    roleStatus?: RoleStatus,
+  }

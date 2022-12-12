@@ -1,0 +1,19 @@
+### YamlMime:TSTypeAlias
+name: ArcAddon
+uid: '@azure/arm-databoxedge.ArcAddon'
+package: '@azure/arm-databoxedge'
+summary: Arc Addon.
+fullName: ArcAddon
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ArcAddon = Addon & {
+    hostPlatform?: PlatformType,
+    hostPlatformType?: HostPlatformType,
+    provisioningState?: AddonState,
+    resourceGroupName: string,
+    resourceLocation: string,
+    resourceName: string,
+    subscriptionId: string,
+    version?: undefined | string,
+  }

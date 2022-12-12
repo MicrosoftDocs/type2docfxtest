@@ -1,0 +1,581 @@
+### YamlMime:TSType
+name: Users
+uid: '@azure/arm-labservices.Users'
+package: '@azure/arm-labservices'
+summary: Class representing a Users.
+fullName: Users
+remarks: ''
+isDeprecated: false
+type: class
+constructors:
+  - name: Users(LabServicesClientContext)
+    uid: '@azure/arm-labservices.Users.constructor'
+    package: '@azure/arm-labservices'
+    summary: Create a Users.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'new Users(client: LabServicesClientContext)'
+      parameters:
+        - id: client
+          type: <xref uid="@azure/arm-labservices.LabServicesClientContext" />
+          description: |
+            Reference to the service client.
+methods:
+  - name: >-
+      beginCreateOrUpdate(User, string, string, string,
+      msRest.RequestOptionsBase)
+    uid: '@azure/arm-labservices.Users.beginCreateOrUpdate'
+    package: '@azure/arm-labservices'
+    summary: Operation to create or update a lab user.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginCreateOrUpdate(body: User, resourceGroupName: string,
+        labName: string, userName: string, options?: msRest.RequestOptionsBase):
+        Promise<LROPoller>
+      parameters:
+        - id: body
+          type: <xref uid="@azure/arm-labservices.User" />
+          description: The request body.
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<msRestAzure.LROPoller>
+        type: Promise&lt;LROPoller&gt;
+  - name: 'beginDeleteMethod(string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.beginDeleteMethod'
+    package: '@azure/arm-labservices'
+    summary: Operation to delete a user resource.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginDeleteMethod(resourceGroupName: string, labName: string,
+        userName: string, options?: msRest.RequestOptionsBase):
+        Promise<LROPoller>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<msRestAzure.LROPoller>
+        type: Promise&lt;LROPoller&gt;
+  - name: 'beginInvite(InviteBody, string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.beginInvite'
+    package: '@azure/arm-labservices'
+    summary: Operation to invite a user to a lab.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginInvite(body: InviteBody, resourceGroupName: string,
+        labName: string, userName: string, options?: msRest.RequestOptionsBase):
+        Promise<LROPoller>
+      parameters:
+        - id: body
+          type: <xref uid="@azure/arm-labservices.InviteBody" />
+          description: The request body.
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<msRestAzure.LROPoller>
+        type: Promise&lt;LROPoller&gt;
+  - name: 'beginUpdate(UserUpdate, string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.beginUpdate'
+    package: '@azure/arm-labservices'
+    summary: Operation to update a lab user.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginUpdate(body: UserUpdate, resourceGroupName: string,
+        labName: string, userName: string, options?: msRest.RequestOptionsBase):
+        Promise<LROPoller>
+      parameters:
+        - id: body
+          type: <xref uid="@azure/arm-labservices.UserUpdate" />
+          description: The request body.
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<msRestAzure.LROPoller>
+        type: Promise&lt;LROPoller&gt;
+  - name: 'createOrUpdate(User, string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.createOrUpdate'
+    package: '@azure/arm-labservices'
+    summary: Operation to create or update a lab user.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createOrUpdate(body: User, resourceGroupName: string, labName:
+        string, userName: string, options?: msRest.RequestOptionsBase):
+        Promise<Models.UsersCreateOrUpdateResponse>
+      parameters:
+        - id: body
+          type: <xref uid="@azure/arm-labservices.User" />
+          description: The request body.
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<Models.UsersCreateOrUpdateResponse>
+        type: Promise&lt;<xref uid="Models.UsersCreateOrUpdateResponse" />&gt;
+  - name: 'deleteMethod(string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.deleteMethod'
+    package: '@azure/arm-labservices'
+    summary: Operation to delete a user resource.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function deleteMethod(resourceGroupName: string, labName: string,
+        userName: string, options?: msRest.RequestOptionsBase):
+        Promise<RestResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<msRest.RestResponse>
+        type: Promise&lt;RestResponse&gt;
+  - name: 'get(string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.get'
+    package: '@azure/arm-labservices'
+    summary: Returns the properties of a lab user.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, labName: string, userName:
+        string, options?: msRest.RequestOptionsBase):
+        Promise<Models.UsersGetResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<Models.UsersGetResponse>
+        type: Promise&lt;<xref uid="Models.UsersGetResponse" />&gt;
+  - name: 'get(string, string, string, RequestOptionsBase, ServiceCallback<User>)'
+    uid: '@azure/arm-labservices.Users.get_2'
+    package: '@azure/arm-labservices'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, labName: string, userName:
+        string, options: RequestOptionsBase, callback: ServiceCallback<User>)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: RequestOptionsBase
+          description: The optional parameters
+        - id: callback
+          type: ServiceCallback&lt;<xref uid="@azure/arm-labservices.User" />&gt;
+          description: |
+            The callback
+  - name: 'get(string, string, string, ServiceCallback<User>)'
+    uid: '@azure/arm-labservices.Users.get_1'
+    package: '@azure/arm-labservices'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, labName: string, userName:
+        string, callback: ServiceCallback<User>)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: callback
+          type: ServiceCallback&lt;<xref uid="@azure/arm-labservices.User" />&gt;
+          description: |
+            The callback
+  - name: 'invite(InviteBody, string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.invite'
+    package: '@azure/arm-labservices'
+    summary: Operation to invite a user to a lab.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function invite(body: InviteBody, resourceGroupName: string, labName:
+        string, userName: string, options?: msRest.RequestOptionsBase):
+        Promise<RestResponse>
+      parameters:
+        - id: body
+          type: <xref uid="@azure/arm-labservices.InviteBody" />
+          description: The request body.
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<msRest.RestResponse>
+        type: Promise&lt;RestResponse&gt;
+  - name: 'listByLab(string, string, Models.UsersListByLabOptionalParams)'
+    uid: '@azure/arm-labservices.Users.listByLab'
+    package: '@azure/arm-labservices'
+    summary: Returns a list of all users for a lab.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByLab(resourceGroupName: string, labName: string, options?:
+        Models.UsersListByLabOptionalParams):
+        Promise<Models.UsersListByLabResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: options
+          type: <xref uid="Models.UsersListByLabOptionalParams" />
+          description: ''
+      return:
+        description: Promise<Models.UsersListByLabResponse>
+        type: Promise&lt;<xref uid="Models.UsersListByLabResponse" />&gt;
+  - name: 'listByLab(string, string, ServiceCallback<PagedUsers>)'
+    uid: '@azure/arm-labservices.Users.listByLab_1'
+    package: '@azure/arm-labservices'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByLab(resourceGroupName: string, labName: string, callback:
+        ServiceCallback<PagedUsers>)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: callback
+          type: >-
+            ServiceCallback&lt;<xref uid="@azure/arm-labservices.PagedUsers"
+            />&gt;
+          description: |
+            The callback
+  - name: >-
+      listByLab(string, string, UsersListByLabOptionalParams,
+      ServiceCallback<PagedUsers>)
+    uid: '@azure/arm-labservices.Users.listByLab_2'
+    package: '@azure/arm-labservices'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByLab(resourceGroupName: string, labName: string, options:
+        UsersListByLabOptionalParams, callback: ServiceCallback<PagedUsers>)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: options
+          type: <xref uid="@azure/arm-labservices.UsersListByLabOptionalParams" />
+          description: The optional parameters
+        - id: callback
+          type: >-
+            ServiceCallback&lt;<xref uid="@azure/arm-labservices.PagedUsers"
+            />&gt;
+          description: |
+            The callback
+  - name: 'listByLabNext(string, Models.UsersListByLabNextOptionalParams)'
+    uid: '@azure/arm-labservices.Users.listByLabNext'
+    package: '@azure/arm-labservices'
+    summary: Returns a list of all users for a lab.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByLabNext(nextPageLink: string, options?:
+        Models.UsersListByLabNextOptionalParams):
+        Promise<Models.UsersListByLabNextResponse>
+      parameters:
+        - id: nextPageLink
+          type: string
+          description: The NextLink from the previous successful call to List operation.
+        - id: options
+          type: <xref uid="Models.UsersListByLabNextOptionalParams" />
+          description: ''
+      return:
+        description: Promise<Models.UsersListByLabNextResponse>
+        type: Promise&lt;<xref uid="Models.UsersListByLabNextResponse" />&gt;
+  - name: 'listByLabNext(string, ServiceCallback<PagedUsers>)'
+    uid: '@azure/arm-labservices.Users.listByLabNext_1'
+    package: '@azure/arm-labservices'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByLabNext(nextPageLink: string, callback:
+        ServiceCallback<PagedUsers>)
+      parameters:
+        - id: nextPageLink
+          type: string
+          description: The NextLink from the previous successful call to List operation.
+        - id: callback
+          type: >-
+            ServiceCallback&lt;<xref uid="@azure/arm-labservices.PagedUsers"
+            />&gt;
+          description: |
+            The callback
+  - name: >-
+      listByLabNext(string, UsersListByLabNextOptionalParams,
+      ServiceCallback<PagedUsers>)
+    uid: '@azure/arm-labservices.Users.listByLabNext_2'
+    package: '@azure/arm-labservices'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByLabNext(nextPageLink: string, options:
+        UsersListByLabNextOptionalParams, callback: ServiceCallback<PagedUsers>)
+      parameters:
+        - id: nextPageLink
+          type: string
+          description: The NextLink from the previous successful call to List operation.
+        - id: options
+          type: >-
+            <xref uid="@azure/arm-labservices.UsersListByLabNextOptionalParams"
+            />
+          description: The optional parameters
+        - id: callback
+          type: >-
+            ServiceCallback&lt;<xref uid="@azure/arm-labservices.PagedUsers"
+            />&gt;
+          description: |
+            The callback
+  - name: 'update(UserUpdate, string, string, string, msRest.RequestOptionsBase)'
+    uid: '@azure/arm-labservices.Users.update'
+    package: '@azure/arm-labservices'
+    summary: Operation to update a lab user.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function update(body: UserUpdate, resourceGroupName: string, labName:
+        string, userName: string, options?: msRest.RequestOptionsBase):
+        Promise<Models.UsersUpdateResponse>
+      parameters:
+        - id: body
+          type: <xref uid="@azure/arm-labservices.UserUpdate" />
+          description: The request body.
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: labName
+          type: string
+          description: >-
+            The name of the lab that uniquely identifies it within containing
+            lab account.
+
+            Used in resource URIs.
+        - id: userName
+          type: string
+          description: >-
+            The name of the user that uniquely identifies it within containing
+            lab. Used in
+
+            resource URIs.
+        - id: options
+          type: <xref uid="msRest.RequestOptionsBase" />
+          description: ''
+      return:
+        description: Promise<Models.UsersUpdateResponse>
+        type: Promise&lt;<xref uid="Models.UsersUpdateResponse" />&gt;

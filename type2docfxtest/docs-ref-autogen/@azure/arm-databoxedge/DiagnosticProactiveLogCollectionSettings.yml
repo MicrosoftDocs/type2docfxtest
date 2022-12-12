@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: DiagnosticProactiveLogCollectionSettings
+uid: '@azure/arm-databoxedge.DiagnosticProactiveLogCollectionSettings'
+package: '@azure/arm-databoxedge'
+summary: The diagnostic proactive log collection settings of a device.
+fullName: DiagnosticProactiveLogCollectionSettings
+remarks: ''
+isDeprecated: false
+syntax: |
+  type DiagnosticProactiveLogCollectionSettings = ARMBaseModel & {
+    systemData?: SystemData,
+    userConsent: ProactiveDiagnosticsConsent,
+  }

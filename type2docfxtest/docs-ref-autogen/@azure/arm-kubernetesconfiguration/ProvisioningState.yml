@@ -1,0 +1,20 @@
+### YamlMime:TSTypeAlias
+name: ProvisioningState
+uid: '@azure/arm-kubernetesconfiguration.ProvisioningState'
+package: '@azure/arm-kubernetesconfiguration'
+summary: >-
+  Defines values for ProvisioningState.
+
+  Possible values include: 'Succeeded', 'Failed', 'Canceled', 'Creating',
+  'Updating', 'Deleting'
+fullName: ProvisioningState
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ProvisioningState =
+    | "Succeeded"
+    | "Failed"
+    | "Canceled"
+    | "Creating"
+    | "Updating"
+    | "Deleting"

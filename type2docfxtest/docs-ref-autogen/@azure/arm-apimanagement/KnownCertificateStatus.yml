@@ -7,18 +7,17 @@ summary: >-
   service accepts.
 fullName: KnownCertificateStatus
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Completed
     uid: '@azure/arm-apimanagement.KnownCertificateStatus.Completed'
     package: '@azure/arm-apimanagement'
-    summary: Completed
+    summary: ''
   - name: Failed
     uid: '@azure/arm-apimanagement.KnownCertificateStatus.Failed'
     package: '@azure/arm-apimanagement'
-    summary: Failed
+    summary: ''
   - name: InProgress
     uid: '@azure/arm-apimanagement.KnownCertificateStatus.InProgress'
     package: '@azure/arm-apimanagement'
-    summary: InProgress
+    summary: ''

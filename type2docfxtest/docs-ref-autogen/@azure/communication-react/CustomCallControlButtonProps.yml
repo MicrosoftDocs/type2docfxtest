@@ -1,0 +1,189 @@
+### YamlMime:TSType
+name: CustomCallControlButtonProps
+uid: '@azure/communication-react.CustomCallControlButtonProps'
+package: '@azure/communication-react'
+summary: >
+  Response from
+  <xref:@azure/communication-react.CustomCallControlButtonCallback>.
+
+  Includes the placement prop necessary to indicate where to place the
+
+  <xref:ControlBarButton> and a <xref:DrawerMenuItem>
+fullName: CustomCallControlButtonProps
+remarks: ''
+previewState: beta
+isDeprecated: false
+type: interface
+properties:
+  - name: iconName
+    uid: '@azure/communication-react.CustomCallControlButtonProps.iconName'
+    package: '@azure/communication-react'
+    summary: >-
+      Icon to render. Icon is a non-default icon name that needs to be
+      registered as a
+
+      custom icon using registerIcons through fluentui. Examples include icons
+      from the fluentui library
+    fullName: iconName
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'iconName?: string'
+      return:
+        description: ''
+        type: string
+  - name: placement
+    uid: '@azure/communication-react.CustomCallControlButtonProps.placement'
+    package: '@azure/communication-react'
+    summary: Where to place the custom button relative to other buttons.
+    fullName: placement
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'placement: CustomCallControlButtonPlacement'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure/communication-react.CustomCallControlButtonPlacement" />
+inheritedProperties:
+  - name: ariaDescription
+    uid: '@azure/communication-react.CustomCallControlButtonProps.ariaDescription'
+    package: '@azure/communication-react'
+    summary: Detailed description of the button for the benefit of screen readers.
+    fullName: ariaDescription
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ariaDescription?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.ariaDescription](xref:@azure/communication-react.CustomControlButtonProps.ariaDescription)
+  - name: ariaLabel
+    uid: '@azure/communication-react.CustomCallControlButtonProps.ariaLabel'
+    package: '@azure/communication-react'
+    summary: The aria label of the button for the benefit of screen readers.
+    fullName: ariaLabel
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.ariaLabel](xref:@azure/communication-react.CustomControlButtonProps.ariaLabel)
+  - name: disabled
+    uid: '@azure/communication-react.CustomCallControlButtonProps.disabled'
+    package: '@azure/communication-react'
+    summary: Whether the buttons is disabled
+    fullName: disabled
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        description: ''
+        type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.disabled](xref:@azure/communication-react.CustomControlButtonProps.disabled)
+  - name: id
+    uid: '@azure/communication-react.CustomCallControlButtonProps.id'
+    package: '@azure/communication-react'
+    summary: A unique id set for the standard HTML id attibute
+    fullName: id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.id](xref:@azure/communication-react.CustomControlButtonProps.id)
+  - name: key
+    uid: '@azure/communication-react.CustomCallControlButtonProps.key'
+    package: '@azure/communication-react'
+    summary: A unique key for the button
+    fullName: key
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'key?: string | number'
+      return:
+        description: ''
+        type: string | number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.key](xref:@azure/communication-react.CustomControlButtonProps.key)
+  - name: onItemClick
+    uid: '@azure/communication-react.CustomCallControlButtonProps.onItemClick'
+    package: '@azure/communication-react'
+    summary: Calback for when button is clicked
+    fullName: onItemClick
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'onItemClick?: () => void'
+      return:
+        description: ''
+        type: () =&gt; void
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.onItemClick](xref:@azure/communication-react.CustomControlButtonProps.onItemClick)
+  - name: showLabel
+    uid: '@azure/communication-react.CustomCallControlButtonProps.showLabel'
+    package: '@azure/communication-react'
+    summary: Whether the label is displayed or not.
+    fullName: showLabel
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'showLabel?: boolean'
+      return:
+        description: ''
+        type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.showLabel](xref:@azure/communication-react.CustomControlButtonProps.showLabel)
+  - name: styles
+    uid: '@azure/communication-react.CustomCallControlButtonProps.styles'
+    package: '@azure/communication-react'
+    summary: >-
+      Fluent styles, common to all <xref:ControlBarButton>s or
+      <xref:DrawerMenuItem>s.
+    fullName: styles
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'styles?: ControlBarButtonStyles | BaseCustomStyles'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure/communication-react.ControlBarButtonStyles" /> |
+          <xref uid="@azure/communication-react.BaseCustomStyles" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.styles](xref:@azure/communication-react.CustomControlButtonProps.styles)
+  - name: text
+    uid: '@azure/communication-react.CustomCallControlButtonProps.text'
+    package: '@azure/communication-react'
+    summary: Optional label for the button
+    fullName: text
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'text?: string'
+      return:
+        description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CustomControlButtonProps.text](xref:@azure/communication-react.CustomControlButtonProps.text)
+extends: <xref uid="@azure/communication-react.CustomControlButtonProps" />

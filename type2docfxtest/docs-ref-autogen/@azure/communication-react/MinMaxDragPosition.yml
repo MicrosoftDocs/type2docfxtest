@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: MinMaxDragPosition
+uid: '@azure/communication-react.MinMaxDragPosition'
+package: '@azure/communication-react'
+summary: Interface for ModalLocalAndRemotePIP drag positions
+fullName: MinMaxDragPosition
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: maxDragPosition
+    uid: '@azure/communication-react.MinMaxDragPosition.maxDragPosition'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: maxDragPosition
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'maxDragPosition: _ICoordinates | undefined'
+      return:
+        description: ''
+        type: _ICoordinates | undefined
+  - name: minDragPosition
+    uid: '@azure/communication-react.MinMaxDragPosition.minDragPosition'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: minDragPosition
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'minDragPosition: _ICoordinates | undefined'
+      return:
+        description: ''
+        type: _ICoordinates | undefined

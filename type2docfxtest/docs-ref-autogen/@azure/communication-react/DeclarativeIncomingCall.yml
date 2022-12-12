@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: DeclarativeIncomingCall
+uid: '@azure/communication-react.DeclarativeIncomingCall'
+package: '@azure/communication-react'
+summary: ''
+fullName: DeclarativeIncomingCall
+remarks: ''
+previewState: beta
+isDeprecated: false
+syntax: |
+  type DeclarativeIncomingCall = IncomingCall

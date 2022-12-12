@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: SqlStoredProcedureCreateUpdateParameters
+uid: '@azure/arm-cosmosdb.SqlStoredProcedureCreateUpdateParameters'
+package: '@azure/arm-cosmosdb'
+summary: Parameters to create and update Cosmos DB storedProcedure.
+fullName: SqlStoredProcedureCreateUpdateParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SqlStoredProcedureCreateUpdateParameters = ARMResourceProperties & {
+    options?: CreateUpdateOptions,
+    resource: SqlStoredProcedureResource,
+  }

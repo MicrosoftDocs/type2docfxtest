@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: CassandraTableGetResults
+uid: '@azure/arm-cosmosdb.CassandraTableGetResults'
+package: '@azure/arm-cosmosdb'
+summary: An Azure Cosmos DB Cassandra table.
+fullName: CassandraTableGetResults
+remarks: ''
+isDeprecated: false
+syntax: |
+  type CassandraTableGetResults = ARMResourceProperties & {
+    options?: CassandraTableGetPropertiesOptions,
+    resource?: CassandraTableGetPropertiesResource,
+  }

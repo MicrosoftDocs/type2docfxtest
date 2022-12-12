@@ -7,22 +7,21 @@ summary: >-
   accepts.
 fullName: KnownCreatedByType
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Application
     uid: '@azure/arm-apimanagement.KnownCreatedByType.Application'
     package: '@azure/arm-apimanagement'
-    summary: Application
+    summary: ''
   - name: Key
     uid: '@azure/arm-apimanagement.KnownCreatedByType.Key'
     package: '@azure/arm-apimanagement'
-    summary: Key
+    summary: ''
   - name: ManagedIdentity
     uid: '@azure/arm-apimanagement.KnownCreatedByType.ManagedIdentity'
     package: '@azure/arm-apimanagement'
-    summary: ManagedIdentity
+    summary: ''
   - name: User
     uid: '@azure/arm-apimanagement.KnownCreatedByType.User'
     package: '@azure/arm-apimanagement'
-    summary: User
+    summary: ''

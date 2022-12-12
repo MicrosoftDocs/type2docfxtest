@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: PartitionUsage
+uid: '@azure/arm-cosmosdb.PartitionUsage'
+package: '@azure/arm-cosmosdb'
+summary: The partition level usage data for a usage request.
+fullName: PartitionUsage
+remarks: ''
+isDeprecated: false
+syntax: |
+  type PartitionUsage = Usage & {
+    partitionId?: undefined | string,
+    partitionKeyRangeId?: undefined | string,
+  }

@@ -5,26 +5,25 @@ package: '@azure/arm-advisor'
 summary: 'Known values of <xref:@azure/arm-advisor.Category> that the service accepts.'
 fullName: KnownCategory
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Cost
     uid: '@azure/arm-advisor.KnownCategory.Cost'
     package: '@azure/arm-advisor'
-    summary: Cost
+    summary: ''
   - name: HighAvailability
     uid: '@azure/arm-advisor.KnownCategory.HighAvailability'
     package: '@azure/arm-advisor'
-    summary: HighAvailability
+    summary: ''
   - name: OperationalExcellence
     uid: '@azure/arm-advisor.KnownCategory.OperationalExcellence'
     package: '@azure/arm-advisor'
-    summary: OperationalExcellence
+    summary: ''
   - name: Performance
     uid: '@azure/arm-advisor.KnownCategory.Performance'
     package: '@azure/arm-advisor'
-    summary: Performance
+    summary: ''
   - name: Security
     uid: '@azure/arm-advisor.KnownCategory.Security'
     package: '@azure/arm-advisor'
-    summary: Security
+    summary: ''

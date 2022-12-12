@@ -7,14 +7,13 @@ summary: >-
   service accepts.
 fullName: KnownPublicNetworkAccess
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Disabled
     uid: '@azure/arm-apimanagement.KnownPublicNetworkAccess.Disabled'
     package: '@azure/arm-apimanagement'
-    summary: Disabled
+    summary: ''
   - name: Enabled
     uid: '@azure/arm-apimanagement.KnownPublicNetworkAccess.Enabled'
     package: '@azure/arm-apimanagement'
-    summary: Enabled
+    summary: ''

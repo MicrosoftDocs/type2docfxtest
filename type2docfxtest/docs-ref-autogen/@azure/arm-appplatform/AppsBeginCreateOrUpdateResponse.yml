@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: AppsBeginCreateOrUpdateResponse
+uid: '@azure/arm-appplatform.AppsBeginCreateOrUpdateResponse'
+package: '@azure/arm-appplatform'
+summary: Contains response data for the beginCreateOrUpdate operation.
+fullName: AppsBeginCreateOrUpdateResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type AppsBeginCreateOrUpdateResponse = AppResource & {
+    _response: HttpResponse & { bodyAsText: string, parsedBody: AppResource },
+  }

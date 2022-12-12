@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: GremlinGraphCreateUpdateParameters
+uid: '@azure/arm-cosmosdb.GremlinGraphCreateUpdateParameters'
+package: '@azure/arm-cosmosdb'
+summary: Parameters to create and update Cosmos DB Gremlin graph.
+fullName: GremlinGraphCreateUpdateParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type GremlinGraphCreateUpdateParameters = ARMResourceProperties & {
+    options?: CreateUpdateOptions,
+    resource: GremlinGraphResource,
+  }

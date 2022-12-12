@@ -7,22 +7,21 @@ summary: >-
   accepts.
 fullName: KnownCpuThreshold
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Fifteen
     uid: '@azure/arm-advisor.KnownCpuThreshold.Fifteen'
     package: '@azure/arm-advisor'
-    summary: Fifteen
+    summary: ''
   - name: Five
     uid: '@azure/arm-advisor.KnownCpuThreshold.Five'
     package: '@azure/arm-advisor'
-    summary: Five
+    summary: ''
   - name: Ten
     uid: '@azure/arm-advisor.KnownCpuThreshold.Ten'
     package: '@azure/arm-advisor'
-    summary: Ten
+    summary: ''
   - name: Twenty
     uid: '@azure/arm-advisor.KnownCpuThreshold.Twenty'
     package: '@azure/arm-advisor'
-    summary: Twenty
+    summary: ''

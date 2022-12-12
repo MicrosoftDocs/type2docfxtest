@@ -1,0 +1,125 @@
+### YamlMime:TSType
+name: CustomControlButtonProps
+uid: '@azure/communication-react.CustomControlButtonProps'
+package: '@azure/communication-react'
+summary: >-
+  Includes the base props necessary to render a <xref:ControlBarButton> or
+  <xref:DrawerMenuItem>.
+fullName: CustomControlButtonProps
+remarks: ''
+previewState: beta
+isDeprecated: false
+type: interface
+properties:
+  - name: ariaDescription
+    uid: '@azure/communication-react.CustomControlButtonProps.ariaDescription'
+    package: '@azure/communication-react'
+    summary: Detailed description of the button for the benefit of screen readers.
+    fullName: ariaDescription
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ariaDescription?: string'
+      return:
+        description: ''
+        type: string
+  - name: ariaLabel
+    uid: '@azure/communication-react.CustomControlButtonProps.ariaLabel'
+    package: '@azure/communication-react'
+    summary: The aria label of the button for the benefit of screen readers.
+    fullName: ariaLabel
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'ariaLabel?: string'
+      return:
+        description: ''
+        type: string
+  - name: disabled
+    uid: '@azure/communication-react.CustomControlButtonProps.disabled'
+    package: '@azure/communication-react'
+    summary: Whether the buttons is disabled
+    fullName: disabled
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'disabled?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: id
+    uid: '@azure/communication-react.CustomControlButtonProps.id'
+    package: '@azure/communication-react'
+    summary: A unique id set for the standard HTML id attibute
+    fullName: id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: key
+    uid: '@azure/communication-react.CustomControlButtonProps.key'
+    package: '@azure/communication-react'
+    summary: A unique key for the button
+    fullName: key
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'key?: string | number'
+      return:
+        description: ''
+        type: string | number
+  - name: onItemClick
+    uid: '@azure/communication-react.CustomControlButtonProps.onItemClick'
+    package: '@azure/communication-react'
+    summary: Calback for when button is clicked
+    fullName: onItemClick
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'onItemClick?: () => void'
+      return:
+        description: ''
+        type: () =&gt; void
+  - name: showLabel
+    uid: '@azure/communication-react.CustomControlButtonProps.showLabel'
+    package: '@azure/communication-react'
+    summary: Whether the label is displayed or not.
+    fullName: showLabel
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'showLabel?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: styles
+    uid: '@azure/communication-react.CustomControlButtonProps.styles'
+    package: '@azure/communication-react'
+    summary: >-
+      Fluent styles, common to all <xref:ControlBarButton>s or
+      <xref:DrawerMenuItem>s.
+    fullName: styles
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'styles?: ControlBarButtonStyles | BaseCustomStyles'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure/communication-react.ControlBarButtonStyles" /> |
+          <xref uid="@azure/communication-react.BaseCustomStyles" />
+  - name: text
+    uid: '@azure/communication-react.CustomControlButtonProps.text'
+    package: '@azure/communication-react'
+    summary: Optional label for the button
+    fullName: text
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'text?: string'
+      return:
+        description: ''
+        type: string

@@ -7,10 +7,9 @@ summary: >-
   service accepts.
 fullName: KnownConfigurationIdName
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Configuration
     uid: '@azure/arm-apimanagement.KnownConfigurationIdName.Configuration'
     package: '@azure/arm-apimanagement'
-    summary: Configuration
+    summary: ''

@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: SqlDatabaseGetResults
+uid: '@azure/arm-cosmosdb.SqlDatabaseGetResults'
+package: '@azure/arm-cosmosdb'
+summary: An Azure Cosmos DB SQL database.
+fullName: SqlDatabaseGetResults
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SqlDatabaseGetResults = ARMResourceProperties & {
+    options?: SqlDatabaseGetPropertiesOptions,
+    resource?: SqlDatabaseGetPropertiesResource,
+  }

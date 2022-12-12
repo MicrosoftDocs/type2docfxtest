@@ -1,0 +1,15 @@
+### YamlMime:TSTypeAlias
+name: IotHubDescription
+uid: '@azure/arm-iothub.IotHubDescription'
+package: '@azure/arm-iothub'
+summary: The description of the IoT hub.
+fullName: IotHubDescription
+remarks: ''
+isDeprecated: false
+syntax: |
+  type IotHubDescription = Resource & {
+    etag?: undefined | string,
+    identity?: ArmIdentity,
+    properties?: IotHubProperties,
+    sku: IotHubSkuInfo,
+  }

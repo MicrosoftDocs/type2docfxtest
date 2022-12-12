@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: LogFile
+uid: '@azure/arm-mariadb.LogFile'
+package: '@azure/arm-mariadb'
+summary: Represents a log file.
+fullName: LogFile
+remarks: ''
+isDeprecated: false
+syntax: |
+  type LogFile = ProxyResource & {
+    createdTime?: Date,
+    lastModifiedTime?: Date,
+    sizeInKB?: undefined | number,
+    typePropertiesType?: undefined | string,
+    url?: undefined | string,
+  }

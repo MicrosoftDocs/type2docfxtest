@@ -1,0 +1,17 @@
+### YamlMime:TSTypeAlias
+name: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+uid: >-
+  @azure/arm-appconfiguration.PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+package: '@azure/arm-appconfiguration'
+summary: Contains response data for the beginCreateOrUpdate operation.
+fullName: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type PrivateEndpointConnectionsBeginCreateOrUpdateResponse =
+    PrivateEndpointConnection & {
+      _response: HttpResponse & {
+        bodyAsText: string,
+        parsedBody: PrivateEndpointConnection,
+      },
+    }

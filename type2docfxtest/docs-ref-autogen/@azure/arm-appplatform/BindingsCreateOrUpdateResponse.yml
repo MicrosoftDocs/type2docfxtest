@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: BindingsCreateOrUpdateResponse
+uid: '@azure/arm-appplatform.BindingsCreateOrUpdateResponse'
+package: '@azure/arm-appplatform'
+summary: Contains response data for the createOrUpdate operation.
+fullName: BindingsCreateOrUpdateResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type BindingsCreateOrUpdateResponse = BindingResource & {
+    _response: HttpResponse & { bodyAsText: string, parsedBody: BindingResource },
+  }

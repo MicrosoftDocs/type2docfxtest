@@ -1,0 +1,23 @@
+### YamlMime:TSType
+name: FileDownloadError
+uid: '@azure/communication-react.FileDownloadError'
+package: '@azure/communication-react'
+summary: ''
+fullName: FileDownloadError
+remarks: ''
+previewState: beta
+isDeprecated: false
+type: interface
+properties:
+  - name: errorMessage
+    uid: '@azure/communication-react.FileDownloadError.errorMessage'
+    package: '@azure/communication-react'
+    summary: The error message to display in the UI
+    fullName: errorMessage
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'errorMessage: string'
+      return:
+        description: ''
+        type: string

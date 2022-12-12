@@ -1,0 +1,15 @@
+### YamlMime:TSTypeAlias
+name: DeploymentsListNextResponse
+uid: '@azure/arm-appplatform.DeploymentsListNextResponse'
+package: '@azure/arm-appplatform'
+summary: Contains response data for the listNext operation.
+fullName: DeploymentsListNextResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type DeploymentsListNextResponse = DeploymentResourceCollection & {
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: DeploymentResourceCollection,
+    },
+  }

@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: TableGetResults
+uid: '@azure/arm-cosmosdb.TableGetResults'
+package: '@azure/arm-cosmosdb'
+summary: An Azure Cosmos DB Table.
+fullName: TableGetResults
+remarks: ''
+isDeprecated: false
+syntax: |
+  type TableGetResults = ARMResourceProperties & {
+    options?: TableGetPropertiesOptions,
+    resource?: TableGetPropertiesResource,
+  }

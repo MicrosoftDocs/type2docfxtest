@@ -1,0 +1,15 @@
+### YamlMime:TSTypeAlias
+name: Audio_2
+uid: '@azure/arm-mediaservices.Audio_2'
+package: '@azure/arm-mediaservices'
+summary: Defines the common properties for all audio codecs.
+fullName: Audio_2
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Audio_2 = Codec & {
+    bitrate?: undefined | number,
+    channels?: undefined | number,
+    odataType: "#Microsoft.Media.Audio" | "#Microsoft.Media.AacAudio",
+    samplingRate?: undefined | number,
+  }

@@ -7,10 +7,9 @@ summary: >-
   accepts.
 fullName: KnownPolicyIdName
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Policy
     uid: '@azure/arm-apimanagement.KnownPolicyIdName.Policy'
     package: '@azure/arm-apimanagement'
-    summary: Policy
+    summary: ''

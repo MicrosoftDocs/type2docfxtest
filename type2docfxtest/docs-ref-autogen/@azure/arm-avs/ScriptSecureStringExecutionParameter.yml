@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: ScriptSecureStringExecutionParameter
+uid: '@azure/arm-avs.ScriptSecureStringExecutionParameter'
+package: '@azure/arm-avs'
+summary: a plain text value execution parameter
+fullName: ScriptSecureStringExecutionParameter
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ScriptSecureStringExecutionParameter = ScriptExecutionParameter & {
+    secureValue?: undefined | string,
+    type: "SecureValue",
+  }

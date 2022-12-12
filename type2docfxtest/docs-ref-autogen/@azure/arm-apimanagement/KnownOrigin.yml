@@ -7,18 +7,17 @@ summary: >-
   accepts.
 fullName: KnownOrigin
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Inbound
     uid: '@azure/arm-apimanagement.KnownOrigin.Inbound'
     package: '@azure/arm-apimanagement'
-    summary: Inbound
+    summary: ''
   - name: Local
     uid: '@azure/arm-apimanagement.KnownOrigin.Local'
     package: '@azure/arm-apimanagement'
-    summary: Local
+    summary: ''
   - name: Outbound
     uid: '@azure/arm-apimanagement.KnownOrigin.Outbound'
     package: '@azure/arm-apimanagement'
-    summary: Outbound
+    summary: ''

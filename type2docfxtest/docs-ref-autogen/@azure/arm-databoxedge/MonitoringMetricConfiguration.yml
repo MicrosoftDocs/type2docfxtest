@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: MonitoringMetricConfiguration
+uid: '@azure/arm-databoxedge.MonitoringMetricConfiguration'
+package: '@azure/arm-databoxedge'
+summary: The metric setting details for the role
+fullName: MonitoringMetricConfiguration
+remarks: ''
+isDeprecated: false
+syntax: |
+  type MonitoringMetricConfiguration = ARMBaseModel & {
+    metricConfigurations: MetricConfiguration[],
+    systemData?: SystemData,
+  }

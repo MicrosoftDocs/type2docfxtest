@@ -7,14 +7,13 @@ summary: >-
   accepts.
 fullName: KnownDigestConfigState
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Active
     uid: '@azure/arm-advisor.KnownDigestConfigState.Active'
     package: '@azure/arm-advisor'
-    summary: Active
+    summary: ''
   - name: Disabled
     uid: '@azure/arm-advisor.KnownDigestConfigState.Disabled'
     package: '@azure/arm-advisor'
-    summary: Disabled
+    summary: ''

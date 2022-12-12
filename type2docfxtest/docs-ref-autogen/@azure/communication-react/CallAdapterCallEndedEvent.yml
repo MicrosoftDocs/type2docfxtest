@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: CallAdapterCallEndedEvent
+uid: '@azure/communication-react.CallAdapterCallEndedEvent'
+package: '@azure/communication-react'
+summary: >-
+  Payload for <xref:@azure/communication-react.CallEndedListener> containing
+  details on the ended call.
+fullName: CallAdapterCallEndedEvent
+remarks: ''
+isDeprecated: false
+syntax: |
+  type CallAdapterCallEndedEvent = { callId: string }

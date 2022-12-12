@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: VideoTileStrings
+uid: '@azure/communication-react.VideoTileStrings'
+package: '@azure/communication-react'
+summary: >-
+  Strings of
+  <xref:@azure/communication-react.VideoGalleryProps.onRenderLocalVideoTile>
+  that can be overridden.
+fullName: VideoTileStrings
+remarks: ''
+previewState: beta
+isDeprecated: false
+type: interface
+properties:
+  - name: participantStateConnecting
+    uid: '@azure/communication-react.VideoTileStrings.participantStateConnecting'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: participantStateConnecting
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'participantStateConnecting: string'
+      return:
+        description: ''
+        type: string
+  - name: participantStateHold
+    uid: '@azure/communication-react.VideoTileStrings.participantStateHold'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: participantStateHold
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'participantStateHold: string'
+      return:
+        description: ''
+        type: string
+  - name: participantStateRinging
+    uid: '@azure/communication-react.VideoTileStrings.participantStateRinging'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: participantStateRinging
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'participantStateRinging: string'
+      return:
+        description: ''
+        type: string

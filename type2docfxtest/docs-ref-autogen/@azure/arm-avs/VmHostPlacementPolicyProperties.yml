@@ -1,0 +1,15 @@
+### YamlMime:TSTypeAlias
+name: VmHostPlacementPolicyProperties
+uid: '@azure/arm-avs.VmHostPlacementPolicyProperties'
+package: '@azure/arm-avs'
+summary: VM-Host placement policy properties
+fullName: VmHostPlacementPolicyProperties
+remarks: ''
+isDeprecated: false
+syntax: |
+  type VmHostPlacementPolicyProperties = PlacementPolicyProperties & {
+    affinityType: AffinityType,
+    hostMembers: string[],
+    type: "VmHost",
+    vmMembers: string[],
+  }

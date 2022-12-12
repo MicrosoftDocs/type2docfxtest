@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: SqlRoleAssignmentGetResults
+uid: '@azure/arm-cosmosdb.SqlRoleAssignmentGetResults'
+package: '@azure/arm-cosmosdb'
+summary: An Azure Cosmos DB Role Assignment
+fullName: SqlRoleAssignmentGetResults
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SqlRoleAssignmentGetResults = ARMProxyResource & {
+    principalId?: undefined | string,
+    roleDefinitionId?: undefined | string,
+    scope?: undefined | string,
+  }

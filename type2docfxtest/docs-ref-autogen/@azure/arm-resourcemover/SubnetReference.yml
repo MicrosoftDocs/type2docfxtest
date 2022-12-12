@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: SubnetReference
+uid: '@azure/arm-resourcemover.SubnetReference'
+package: '@azure/arm-resourcemover'
+summary: Defines reference to subnet.
+fullName: SubnetReference
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SubnetReference = ProxyResourceReference & __type

@@ -5,18 +5,17 @@ package: '@azure/arm-advisor'
 summary: 'Known values of <xref:@azure/arm-advisor.Impact> that the service accepts.'
 fullName: KnownImpact
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: High
     uid: '@azure/arm-advisor.KnownImpact.High'
     package: '@azure/arm-advisor'
-    summary: High
+    summary: ''
   - name: Low
     uid: '@azure/arm-advisor.KnownImpact.Low'
     package: '@azure/arm-advisor'
-    summary: Low
+    summary: ''
   - name: Medium
     uid: '@azure/arm-advisor.KnownImpact.Medium'
     package: '@azure/arm-advisor'
-    summary: Medium
+    summary: ''

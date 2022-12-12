@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: Trigger
+uid: '@azure/arm-databoxedge.Trigger'
+package: '@azure/arm-databoxedge'
+summary: Trigger details.
+fullName: Trigger
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Trigger = ARMBaseModel & {
+    kind: TriggerEventType,
+    systemData?: SystemData,
+  }

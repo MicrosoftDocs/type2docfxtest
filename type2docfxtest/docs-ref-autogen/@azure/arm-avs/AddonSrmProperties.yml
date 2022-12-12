@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: AddonSrmProperties
+uid: '@azure/arm-avs.AddonSrmProperties'
+package: '@azure/arm-avs'
+summary: The properties of a Site Recovery Manager (SRM) addon
+fullName: AddonSrmProperties
+remarks: ''
+isDeprecated: false
+syntax: |
+  type AddonSrmProperties = AddonProperties & {
+    addonType: "SRM",
+    licenseKey?: undefined | string,
+  }

@@ -8,26 +8,25 @@ summary: >-
   that the service accepts.
 fullName: KnownPrivateEndpointConnectionProvisioningState
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Creating
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Creating
     package: '@azure/arm-apimanagement'
-    summary: Creating
+    summary: ''
   - name: Deleting
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Deleting
     package: '@azure/arm-apimanagement'
-    summary: Deleting
+    summary: ''
   - name: Failed
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Failed
     package: '@azure/arm-apimanagement'
-    summary: Failed
+    summary: ''
   - name: Succeeded
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Succeeded
     package: '@azure/arm-apimanagement'
-    summary: Succeeded
+    summary: ''

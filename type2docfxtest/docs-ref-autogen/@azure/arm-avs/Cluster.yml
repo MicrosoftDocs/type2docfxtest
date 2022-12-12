@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: Cluster
+uid: '@azure/arm-avs.Cluster'
+package: '@azure/arm-avs'
+summary: A cluster resource
+fullName: Cluster
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Cluster = Resource & {
+    clusterId?: undefined | number,
+    clusterSize?: undefined | number,
+    hosts?: string[],
+    provisioningState?: ClusterProvisioningState,
+    sku: Sku,
+  }

@@ -8,21 +8,20 @@ summary: >-
   the service accepts.
 fullName: KnownPrivateEndpointServiceConnectionStatus
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Approved
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointServiceConnectionStatus.Approved
     package: '@azure/arm-apimanagement'
-    summary: Approved
+    summary: ''
   - name: Pending
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointServiceConnectionStatus.Pending
     package: '@azure/arm-apimanagement'
-    summary: Pending
+    summary: ''
   - name: Rejected
     uid: >-
       @azure/arm-apimanagement.KnownPrivateEndpointServiceConnectionStatus.Rejected
     package: '@azure/arm-apimanagement'
-    summary: Rejected
+    summary: ''

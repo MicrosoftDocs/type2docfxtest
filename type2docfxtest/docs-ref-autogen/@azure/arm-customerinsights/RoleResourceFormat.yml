@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: RoleResourceFormat
+uid: '@azure/arm-customerinsights.RoleResourceFormat'
+package: '@azure/arm-customerinsights'
+summary: The role resource format.
+fullName: RoleResourceFormat
+remarks: ''
+isDeprecated: false
+syntax: |
+  type RoleResourceFormat = ProxyResource & {
+    description?: undefined | string,
+    roleName?: undefined | string,
+  }

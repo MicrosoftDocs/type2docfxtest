@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: PartitionMetric
+uid: '@azure/arm-cosmosdb.PartitionMetric'
+package: '@azure/arm-cosmosdb'
+summary: The metric values for a single partition.
+fullName: PartitionMetric
+remarks: ''
+isDeprecated: false
+syntax: |
+  type PartitionMetric = Metric & {
+    partitionId?: undefined | string,
+    partitionKeyRangeId?: undefined | string,
+  }

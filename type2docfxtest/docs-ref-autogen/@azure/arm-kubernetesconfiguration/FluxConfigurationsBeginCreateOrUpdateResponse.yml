@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: FluxConfigurationsBeginCreateOrUpdateResponse
+uid: >-
+  @azure/arm-kubernetesconfiguration.FluxConfigurationsBeginCreateOrUpdateResponse
+package: '@azure/arm-kubernetesconfiguration'
+summary: Contains response data for the beginCreateOrUpdate operation.
+fullName: FluxConfigurationsBeginCreateOrUpdateResponse
+remarks: ''
+isDeprecated: false
+syntax: |
+  type FluxConfigurationsBeginCreateOrUpdateResponse = FluxConfiguration & {
+    _response: HttpResponse & {
+      bodyAsText: string,
+      parsedBody: FluxConfiguration,
+    },
+  }

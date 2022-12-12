@@ -7,10 +7,9 @@ summary: >-
   service accepts.
 fullName: KnownPreferredIPVersion
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: IPv4
     uid: '@azure/arm-apimanagement.KnownPreferredIPVersion.IPv4'
     package: '@azure/arm-apimanagement'
-    summary: IPv4
+    summary: ''

@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: SqlTriggerCreateUpdateParameters
+uid: '@azure/arm-cosmosdb.SqlTriggerCreateUpdateParameters'
+package: '@azure/arm-cosmosdb'
+summary: Parameters to create and update Cosmos DB trigger.
+fullName: SqlTriggerCreateUpdateParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SqlTriggerCreateUpdateParameters = ARMResourceProperties & {
+    options?: CreateUpdateOptions,
+    resource: SqlTriggerResource,
+  }

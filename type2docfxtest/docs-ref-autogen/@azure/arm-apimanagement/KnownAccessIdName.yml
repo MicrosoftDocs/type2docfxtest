@@ -7,14 +7,13 @@ summary: >-
   accepts.
 fullName: KnownAccessIdName
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Access
     uid: '@azure/arm-apimanagement.KnownAccessIdName.Access'
     package: '@azure/arm-apimanagement'
-    summary: Access
+    summary: ''
   - name: GitAccess
     uid: '@azure/arm-apimanagement.KnownAccessIdName.GitAccess'
     package: '@azure/arm-apimanagement'
-    summary: GitAccess
+    summary: ''

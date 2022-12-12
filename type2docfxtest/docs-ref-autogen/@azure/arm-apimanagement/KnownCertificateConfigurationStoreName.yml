@@ -8,15 +8,14 @@ summary: >-
   service accepts.
 fullName: KnownCertificateConfigurationStoreName
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: CertificateAuthority
     uid: >-
       @azure/arm-apimanagement.KnownCertificateConfigurationStoreName.CertificateAuthority
     package: '@azure/arm-apimanagement'
-    summary: CertificateAuthority
+    summary: ''
   - name: Root
     uid: '@azure/arm-apimanagement.KnownCertificateConfigurationStoreName.Root'
     package: '@azure/arm-apimanagement'
-    summary: Root
+    summary: ''

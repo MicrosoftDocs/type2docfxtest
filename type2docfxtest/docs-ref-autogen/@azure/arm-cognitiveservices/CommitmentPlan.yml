@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: CommitmentPlan
+uid: '@azure/arm-cognitiveservices.CommitmentPlan'
+package: '@azure/arm-cognitiveservices'
+summary: Cognitive Services account commitment plan.
+fullName: CommitmentPlan
+remarks: ''
+isDeprecated: false
+syntax: |
+  type CommitmentPlan = ProxyResource & {
+    etag?: undefined | string,
+    properties?: CommitmentPlanProperties,
+    systemData?: SystemData,
+  }

@@ -5,18 +5,17 @@ package: '@azure/arm-advisor'
 summary: 'Known values of <xref:@azure/arm-advisor.Risk> that the service accepts.'
 fullName: KnownRisk
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Error
     uid: '@azure/arm-advisor.KnownRisk.Error'
     package: '@azure/arm-advisor'
-    summary: Error
+    summary: ''
   - name: None
     uid: '@azure/arm-advisor.KnownRisk.None'
     package: '@azure/arm-advisor'
-    summary: None
+    summary: ''
   - name: Warning
     uid: '@azure/arm-advisor.KnownRisk.Warning'
     package: '@azure/arm-advisor'
-    summary: Warning
+    summary: ''

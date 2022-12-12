@@ -1,0 +1,109 @@
+### YamlMime:TSType
+name: DialpadProps
+uid: '@azure/communication-react.DialpadProps'
+package: '@azure/communication-react'
+summary: 'Props for <xref:Dialpad> component.'
+fullName: DialpadProps
+remarks: ''
+previewState: beta
+isDeprecated: false
+type: interface
+properties:
+  - name: isMobile
+    uid: '@azure/communication-react.DialpadProps.isMobile'
+    package: '@azure/communication-react'
+    summary: 'boolean input to determine if dialpad is in mobile view, default false'
+    fullName: isMobile
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'isMobile?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onChange
+    uid: '@azure/communication-react.DialpadProps.onChange'
+    package: '@azure/communication-react'
+    summary: 'on change function for text field, provides an unformatted plain text'
+    fullName: onChange
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'onChange?: (input: string) => void'
+      return:
+        description: ''
+        type: '(input: string) =&gt; void'
+  - name: onClickDialpadButton
+    uid: '@azure/communication-react.DialpadProps.onClickDialpadButton'
+    package: '@azure/communication-react'
+    summary: Callback for dialpad button behavior
+    fullName: onClickDialpadButton
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        onClickDialpadButton?: (buttonValue: string, buttonIndex: number) =>
+        void
+      return:
+        description: ''
+        type: '(buttonValue: string, buttonIndex: number) =&gt; void'
+  - name: onSendDtmfTone
+    uid: '@azure/communication-react.DialpadProps.onSendDtmfTone'
+    package: '@azure/communication-react'
+    summary: function to send dtmf tones on button click
+    fullName: onSendDtmfTone
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'onSendDtmfTone?: (dtmfTone: DtmfTone) => Promise<void>'
+      return:
+        description: ''
+        type: '(dtmfTone: DtmfTone) =&gt; Promise&lt;void&gt;'
+  - name: showDeleteButton
+    uid: '@azure/communication-react.DialpadProps.showDeleteButton'
+    package: '@azure/communication-react'
+    summary: 'boolean input to determine when to show/hide delete button, default true'
+    fullName: showDeleteButton
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'showDeleteButton?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: strings
+    uid: '@azure/communication-react.DialpadProps.strings'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: strings
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'strings?: DialpadStrings'
+      return:
+        description: ''
+        type: <xref uid="@azure/communication-react.DialpadStrings" />
+  - name: styles
+    uid: '@azure/communication-react.DialpadProps.styles'
+    package: '@azure/communication-react'
+    summary: ''
+    fullName: styles
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'styles?: DialpadStyles'
+      return:
+        description: ''
+        type: <xref uid="@azure/communication-react.DialpadStyles" />
+  - name: textFieldValue
+    uid: '@azure/communication-react.DialpadProps.textFieldValue'
+    package: '@azure/communication-react'
+    summary: set dialpad textfield content
+    fullName: textFieldValue
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'textFieldValue?: string'
+      return:
+        description: ''
+        type: string

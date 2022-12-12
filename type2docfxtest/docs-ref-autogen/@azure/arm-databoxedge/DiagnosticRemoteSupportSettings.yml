@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: DiagnosticRemoteSupportSettings
+uid: '@azure/arm-databoxedge.DiagnosticRemoteSupportSettings'
+package: '@azure/arm-databoxedge'
+summary: The remote support settings of a device.
+fullName: DiagnosticRemoteSupportSettings
+remarks: ''
+isDeprecated: false
+syntax: |
+  type DiagnosticRemoteSupportSettings = ARMBaseModel & {
+    remoteSupportSettingsList?: RemoteSupportSettings[],
+    systemData?: SystemData,
+  }

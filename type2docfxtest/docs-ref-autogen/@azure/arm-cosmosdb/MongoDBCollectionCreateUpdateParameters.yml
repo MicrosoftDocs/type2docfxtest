@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: MongoDBCollectionCreateUpdateParameters
+uid: '@azure/arm-cosmosdb.MongoDBCollectionCreateUpdateParameters'
+package: '@azure/arm-cosmosdb'
+summary: Parameters to create and update Cosmos DB MongoDB collection.
+fullName: MongoDBCollectionCreateUpdateParameters
+remarks: ''
+isDeprecated: false
+syntax: |
+  type MongoDBCollectionCreateUpdateParameters = ARMResourceProperties & {
+    options?: CreateUpdateOptions,
+    resource: MongoDBCollectionResource,
+  }

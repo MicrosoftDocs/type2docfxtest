@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: Container
+uid: '@azure/arm-databoxedge.Container'
+package: '@azure/arm-databoxedge'
+summary: Represents a container on the  Data Box Edge/Gateway device.
+fullName: Container
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Container = ARMBaseModel & {
+    containerStatus?: ContainerStatus,
+    createdDateTime?: Date,
+    dataFormat: AzureContainerDataFormat,
+    refreshDetails?: RefreshDetails,
+    systemData?: SystemData,
+  }

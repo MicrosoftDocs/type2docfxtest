@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: HcxEnterpriseSite
+uid: '@azure/arm-avs.HcxEnterpriseSite'
+package: '@azure/arm-avs'
+summary: An HCX Enterprise Site resource
+fullName: HcxEnterpriseSite
+remarks: ''
+isDeprecated: false
+syntax: |
+  type HcxEnterpriseSite = Resource & {
+    activationKey?: undefined | string,
+    status?: HcxEnterpriseSiteStatus,
+  }
