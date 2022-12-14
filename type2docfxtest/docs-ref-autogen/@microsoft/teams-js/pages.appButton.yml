@@ -10,7 +10,6 @@ functions:
     package: '@microsoft/teams-js'
     summary: Checks if pages.appButton capability is supported by the host
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function isSupported(): boolean'
@@ -30,7 +29,6 @@ functions:
       Only one handler can be registered at a time. A subsequent registration
       replaces an existing registration.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function onClick(handler: () => void)'
@@ -49,7 +47,6 @@ functions:
       Only one handler can be registered at a time. A subsequent registration
       replaces an existing registration.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function onHoverEnter(handler: () => void)'
@@ -68,7 +65,6 @@ functions:
       Only one handler can be registered at a time. A subsequent registration
       replaces an existing registration.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function onHoverLeave(handler: () => void)'
