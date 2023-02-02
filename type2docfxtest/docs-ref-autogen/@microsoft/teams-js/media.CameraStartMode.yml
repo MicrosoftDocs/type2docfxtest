@@ -1,29 +1,29 @@
 ### YamlMime:TSEnum
 name: CameraStartMode
-uid: '@microsoft/teams-js.media.CameraStartMode'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.media.CameraStartMode'
+package: '@microsoft/teams-js - v2.5.0'
 summary: The modes in which camera can be launched in select Media API
 fullName: CameraStartMode
 remarks: ''
 isDeprecated: false
 fields:
   - name: Photo
-    uid: '@microsoft/teams-js.media.CameraStartMode.Photo'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.CameraStartMode.Photo'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 1
   - name: Document
-    uid: '@microsoft/teams-js.media.CameraStartMode.Document'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.CameraStartMode.Document'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 2
   - name: Whiteboard
-    uid: '@microsoft/teams-js.media.CameraStartMode.Whiteboard'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.CameraStartMode.Whiteboard'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 3
   - name: BusinessCard
-    uid: '@microsoft/teams-js.media.CameraStartMode.BusinessCard'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.CameraStartMode.BusinessCard'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 4

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DeletedServicesCollection
-uid: '@azure/arm-apimanagement.DeletedServicesCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.DeletedServicesCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged deleted API Management Services List Representation.
 fullName: DeletedServicesCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement.DeletedServicesCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DeletedServicesCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link if any.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.DeletedServicesCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DeletedServicesCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Page values.
 
@@ -39,4 +39,6 @@ properties:
       content: 'value?: DeletedServiceContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.DeletedServiceContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.DeletedServiceContract"
+          />[]

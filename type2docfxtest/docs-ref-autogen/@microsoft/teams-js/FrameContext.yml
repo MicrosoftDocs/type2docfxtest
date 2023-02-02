@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: FrameContext
-uid: '@microsoft/teams-js.FrameContext'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.FrameContext'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: FrameContext
 remarks: ''
 isDeprecated: true
-customDeprecatedMessage: 'As of 2.0.0, please use <xref:@microsoft/teams-js.FrameInfo> instead.'
+customDeprecatedMessage: 'As of 2.0.0, please use <xref:@microsoft/teams-js - v2.5.0.FrameInfo> instead.'
 syntax: |
   type FrameContext = FrameInfo

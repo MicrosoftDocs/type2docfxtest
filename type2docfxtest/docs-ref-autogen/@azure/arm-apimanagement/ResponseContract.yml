@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ResponseContract
-uid: '@azure/arm-apimanagement.ResponseContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ResponseContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Operation response details.
 fullName: ResponseContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.ResponseContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResponseContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation response description.
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: headers
-    uid: '@azure/arm-apimanagement.ResponseContract.headers'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResponseContract.headers'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of operation response headers.
     fullName: headers
     remarks: ''
@@ -31,10 +31,10 @@ properties:
       content: 'headers?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'
   - name: representations
-    uid: '@azure/arm-apimanagement.ResponseContract.representations'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResponseContract.representations'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of operation response representations.
     fullName: representations
     remarks: ''
@@ -43,10 +43,12 @@ properties:
       content: 'representations?: RepresentationContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.RepresentationContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.RepresentationContract"
+          />[]
   - name: statusCode
-    uid: '@azure/arm-apimanagement.ResponseContract.statusCode'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResponseContract.statusCode'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation response HTTP status code.
     fullName: statusCode
     remarks: ''

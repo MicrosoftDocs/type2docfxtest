@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GatewayCertificateAuthorityGetResponse
-uid: '@azure/arm-apimanagement.GatewayCertificateAuthorityGetResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayCertificateAuthorityGetResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the get operation.
 fullName: GatewayCertificateAuthorityGetResponse
 remarks: ''

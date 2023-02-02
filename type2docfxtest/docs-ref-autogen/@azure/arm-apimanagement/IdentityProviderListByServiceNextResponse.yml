@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: IdentityProviderListByServiceNextResponse
-uid: '@azure/arm-apimanagement.IdentityProviderListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: IdentityProviderListByServiceNextResponse
 remarks: ''

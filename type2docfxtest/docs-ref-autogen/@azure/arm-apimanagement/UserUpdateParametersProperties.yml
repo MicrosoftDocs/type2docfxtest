@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserUpdateParametersProperties
-uid: '@azure/arm-apimanagement.UserUpdateParametersProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameters supplied to the Update User operation.
 fullName: UserUpdateParametersProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: email
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.email'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties.email'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Email address. Must not be empty and must be unique within the service
       instance.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: firstName
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.firstName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties.firstName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: First name.
     fullName: firstName
     remarks: ''
@@ -35,8 +35,8 @@ properties:
         description: ''
         type: undefined | string
   - name: lastName
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.lastName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties.lastName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Last name.
     fullName: lastName
     remarks: ''
@@ -47,8 +47,8 @@ properties:
         description: ''
         type: undefined | string
   - name: password
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.password'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties.password'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: User Password.
     fullName: password
     remarks: ''
@@ -60,8 +60,10 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: identities
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.identities'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.UserUpdateParametersProperties.identities
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of user identities.
     fullName: identities
     remarks: ''
@@ -70,13 +72,16 @@ inheritedProperties:
       content: 'identities?: UserIdentityContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.UserIdentityContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.UserIdentityContract"
+          />[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [UserEntityBaseParameters.identities](xref:@azure/arm-apimanagement.UserEntityBaseParameters.identities)
+      [UserEntityBaseParameters.identities](xref:@azure/arm-apimanagement -
+      v8.1.2.UserEntityBaseParameters.identities)
   - name: note
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.note'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties.note'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Optional note about a user set by the administrator.
     fullName: note
     remarks: ''
@@ -88,10 +93,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [UserEntityBaseParameters.note](xref:@azure/arm-apimanagement.UserEntityBaseParameters.note)
+      [UserEntityBaseParameters.note](xref:@azure/arm-apimanagement -
+      v8.1.2.UserEntityBaseParameters.note)
   - name: state
-    uid: '@azure/arm-apimanagement.UserUpdateParametersProperties.state'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserUpdateParametersProperties.state'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Account state. Specifies whether the user is active or not. Blocked users
       are unable to sign into the developer portal or call any APIs of
@@ -103,8 +109,9 @@ inheritedProperties:
       content: 'state?: UserState'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserState" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserState" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [UserEntityBaseParameters.state](xref:@azure/arm-apimanagement.UserEntityBaseParameters.state)
-extends: <xref uid="@azure/arm-apimanagement.UserEntityBaseParameters" />
+      [UserEntityBaseParameters.state](xref:@azure/arm-apimanagement -
+      v8.1.2.UserEntityBaseParameters.state)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserEntityBaseParameters" />'

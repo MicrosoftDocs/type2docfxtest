@@ -1,19 +1,19 @@
 ### YamlMime:TSEnum
 name: KnownPublicNetworkAccess
-uid: '@azure/arm-apimanagement.KnownPublicNetworkAccess'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownPublicNetworkAccess'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.PublicNetworkAccess> that the
-  service accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.PublicNetworkAccess>
+  that the service accepts.
 fullName: KnownPublicNetworkAccess
 remarks: ''
 isDeprecated: false
 fields:
   - name: Disabled
-    uid: '@azure/arm-apimanagement.KnownPublicNetworkAccess.Disabled'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPublicNetworkAccess.Disabled'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Disabled
   - name: Enabled
-    uid: '@azure/arm-apimanagement.KnownPublicNetworkAccess.Enabled'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPublicNetworkAccess.Enabled'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Enabled

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ReportsListByProductResponse
-uid: '@azure/arm-apimanagement.ReportsListByProductResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ReportsListByProductResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByProduct operation.
 fullName: ReportsListByProductResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: OpenIdConnectProviderGetEntityTagResponse
-uid: '@azure/arm-apimanagement.OpenIdConnectProviderGetEntityTagResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProviderGetEntityTagResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the getEntityTag operation.
 fullName: OpenIdConnectProviderGetEntityTagResponse
 remarks: ''

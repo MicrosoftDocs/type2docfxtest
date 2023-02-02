@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductEntityBaseParameters
-uid: '@azure/arm-apimanagement.ProductEntityBaseParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductEntityBaseParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Product Entity Base Parameters
 fullName: ProductEntityBaseParameters
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: approvalRequired
-    uid: '@azure/arm-apimanagement.ProductEntityBaseParameters.approvalRequired'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductEntityBaseParameters.approvalRequired
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       whether subscription approval is required. If false, new subscriptions
       will be approved automatically enabling developers to call the product’s
@@ -27,8 +29,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: description
-    uid: '@azure/arm-apimanagement.ProductEntityBaseParameters.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductEntityBaseParameters.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Product description. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -39,8 +41,8 @@ properties:
         description: ''
         type: undefined | string
   - name: state
-    uid: '@azure/arm-apimanagement.ProductEntityBaseParameters.state'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductEntityBaseParameters.state'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       whether product is published or not. Published products are discoverable
       by users of developer portal. Non published products are visible only to
@@ -52,10 +54,12 @@ properties:
       content: 'state?: ProductState'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ProductState" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductState" />'
   - name: subscriptionRequired
-    uid: '@azure/arm-apimanagement.ProductEntityBaseParameters.subscriptionRequired'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductEntityBaseParameters.subscriptionRequired
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Whether a product subscription is required for accessing APIs included in
       this product. If true, the product is referred to as "protected" and a
@@ -73,8 +77,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: subscriptionsLimit
-    uid: '@azure/arm-apimanagement.ProductEntityBaseParameters.subscriptionsLimit'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductEntityBaseParameters.subscriptionsLimit
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Whether the number of subscriptions a user can have to this product at the
       same time. Set to null or omit to allow unlimited per user subscriptions.
@@ -89,8 +95,8 @@ properties:
         description: ''
         type: undefined | number
   - name: terms
-    uid: '@azure/arm-apimanagement.ProductEntityBaseParameters.terms'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductEntityBaseParameters.terms'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Product terms of use. Developers trying to subscribe to the product will
       be presented and required to accept these terms before they can complete

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Media
-uid: '@microsoft/teams-js.media.Media'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.media.Media'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Media object returned by the select Media API
 fullName: Media
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: class
 constructors:
   - name: Media(Media)
-    uid: '@microsoft/teams-js.media.Media.constructor'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.constructor'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -18,12 +18,12 @@ constructors:
       content: 'new Media(that?: Media)'
       parameters:
         - id: that
-          type: <xref uid="@microsoft/teams-js.media.Media" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.media.Media" />'
           description: ''
 properties:
   - name: preview
-    uid: '@microsoft/teams-js.media.Media.preview'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.preview'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       A preview of the file which is a lightweight representation.
 
@@ -39,8 +39,8 @@ properties:
         type: string
 inheritedProperties:
   - name: content
-    uid: '@microsoft/teams-js.media.Media.content'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.content'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Content of the file. When format is Base64, this is the base64 content
 
@@ -57,11 +57,11 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [File.content](xref:@microsoft/teams-js.media.File.content)
+      <b>Inherited From</b> [File.content](xref:@microsoft/teams-js -
+      v2.5.0.media.File.content)
   - name: format
-    uid: '@microsoft/teams-js.media.Media.format'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.format'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Format of the content
     fullName: format
     remarks: ''
@@ -70,13 +70,13 @@ inheritedProperties:
       content: 'format: FileFormat'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.media.FileFormat" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.media.FileFormat" />'
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [File.format](xref:@microsoft/teams-js.media.File.format)
+      <b>Inherited From</b> [File.format](xref:@microsoft/teams-js -
+      v2.5.0.media.File.format)
   - name: mimeType
-    uid: '@microsoft/teams-js.media.Media.mimeType'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.mimeType'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: 'MIME type. This can be used for constructing a dataUrl, if needed.'
     fullName: mimeType
     remarks: ''
@@ -87,11 +87,11 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [File.mimeType](xref:@microsoft/teams-js.media.File.mimeType)
+      <b>Inherited From</b> [File.mimeType](xref:@microsoft/teams-js -
+      v2.5.0.media.File.mimeType)
   - name: name
-    uid: '@microsoft/teams-js.media.Media.name'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.name'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: 'Optional: Name of the file'
     fullName: name
     remarks: ''
@@ -102,11 +102,11 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [File.name](xref:@microsoft/teams-js.media.File.name)
+      <b>Inherited From</b> [File.name](xref:@microsoft/teams-js -
+      v2.5.0.media.File.name)
   - name: size
-    uid: '@microsoft/teams-js.media.Media.size'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.size'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Size of the file in KB
     fullName: size
     remarks: ''
@@ -117,12 +117,12 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [File.size](xref:@microsoft/teams-js.media.File.size)
+      <b>Inherited From</b> [File.size](xref:@microsoft/teams-js -
+      v2.5.0.media.File.size)
 methods:
   - name: 'getMedia((error: SdkError, blob: Blob) => void)'
-    uid: '@microsoft/teams-js.media.Media.getMedia'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.Media.getMedia'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Gets the media in chunks irrespective of size, these chunks are assembled
       and sent back to the webapp as file/blob
@@ -138,4 +138,4 @@ methods:
 
             If error is null or undefined, the callback will be called with @see
             Blob.
-extends: <xref uid="@microsoft/teams-js.media.File" />
+extends: '@microsoft/teams-js - <xref uid="v2.5.0.media.File" />'

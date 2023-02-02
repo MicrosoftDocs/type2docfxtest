@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BackendServiceFabricClusterProperties
-uid: '@azure/arm-apimanagement.BackendServiceFabricClusterProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.BackendServiceFabricClusterProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Properties of the Service Fabric Type Backend.
 fullName: BackendServiceFabricClusterProperties
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: clientCertificateId
     uid: >-
-      @azure/arm-apimanagement.BackendServiceFabricClusterProperties.clientCertificateId
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.BackendServiceFabricClusterProperties.clientCertificateId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The client certificate id for the management endpoint.
     fullName: clientCertificateId
     remarks: ''
@@ -23,8 +24,9 @@ properties:
         type: undefined | string
   - name: clientCertificatethumbprint
     uid: >-
-      @azure/arm-apimanagement.BackendServiceFabricClusterProperties.clientCertificatethumbprint
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.BackendServiceFabricClusterProperties.clientCertificatethumbprint
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The client certificate thumbprint for the management endpoint. Will be
       ignored if certificatesIds are provided
@@ -38,8 +40,9 @@ properties:
         type: undefined | string
   - name: managementEndpoints
     uid: >-
-      @azure/arm-apimanagement.BackendServiceFabricClusterProperties.managementEndpoints
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.BackendServiceFabricClusterProperties.managementEndpoints
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The cluster management endpoint.
     fullName: managementEndpoints
     remarks: ''
@@ -51,8 +54,9 @@ properties:
         type: 'string[]'
   - name: maxPartitionResolutionRetries
     uid: >-
-      @azure/arm-apimanagement.BackendServiceFabricClusterProperties.maxPartitionResolutionRetries
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.BackendServiceFabricClusterProperties.maxPartitionResolutionRetries
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Maximum number of retries while attempting resolve the partition.
     fullName: maxPartitionResolutionRetries
     remarks: ''
@@ -64,8 +68,9 @@ properties:
         type: undefined | number
   - name: serverCertificateThumbprints
     uid: >-
-      @azure/arm-apimanagement.BackendServiceFabricClusterProperties.serverCertificateThumbprints
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.BackendServiceFabricClusterProperties.serverCertificateThumbprints
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Thumbprints of certificates cluster management service uses for tls
       communication
@@ -79,8 +84,9 @@ properties:
         type: 'string[]'
   - name: serverX509Names
     uid: >-
-      @azure/arm-apimanagement.BackendServiceFabricClusterProperties.serverX509Names
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.BackendServiceFabricClusterProperties.serverX509Names
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Server X509 Certificate Names Collection
     fullName: serverX509Names
     remarks: ''
@@ -89,4 +95,4 @@ properties:
       content: 'serverX509Names?: X509CertificateName[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.X509CertificateName" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.X509CertificateName" />[]'

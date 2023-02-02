@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiTagDescriptionCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.ApiTagDescriptionCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiTagDescriptionCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: ApiTagDescriptionCreateOrUpdateResponse
 remarks: ''

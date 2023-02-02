@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: EntityConditionality
-uid: '@azure/ai-text-analytics.EntityConditionality'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.EntityConditionality'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Defines values for Conditionality.
 fullName: EntityConditionality
 remarks: ''

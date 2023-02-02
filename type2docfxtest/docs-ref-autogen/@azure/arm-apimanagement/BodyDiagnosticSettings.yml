@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BodyDiagnosticSettings
-uid: '@azure/arm-apimanagement.BodyDiagnosticSettings'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.BodyDiagnosticSettings'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Body logging settings.
 fullName: BodyDiagnosticSettings
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: bytes
-    uid: '@azure/arm-apimanagement.BodyDiagnosticSettings.bytes'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BodyDiagnosticSettings.bytes'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of request body bytes to log.
     fullName: bytes
     remarks: ''

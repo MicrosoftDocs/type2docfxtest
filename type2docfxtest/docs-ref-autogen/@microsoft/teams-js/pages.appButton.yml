@@ -1,13 +1,13 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.pages.appButton'
+uid: '@microsoft/teams-js - v2.5.0.pages.appButton'
 name: appButton
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Provides APIs to interact with the app button part of the SDK.
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.pages.appButton.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.appButton.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if pages.appButton capability is supported by the host
     remarks: ''
     isDeprecated: false
@@ -21,8 +21,8 @@ functions:
           false if it is disabled
         type: boolean
   - name: onClick(() => void)
-    uid: '@microsoft/teams-js.pages.appButton.onClick'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.appButton.onClick'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for clicking the app button.
 
@@ -39,8 +39,8 @@ functions:
             The handler to invoke when the personal app button is clicked in the
             app bar.
   - name: onHoverEnter(() => void)
-    uid: '@microsoft/teams-js.pages.appButton.onHoverEnter'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.appButton.onHoverEnter'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for entering hover of the app button.
 
@@ -57,8 +57,8 @@ functions:
             The handler to invoke when entering hover of the personal app button
             in the app bar.
   - name: onHoverLeave(() => void)
-    uid: '@microsoft/teams-js.pages.appButton.onHoverLeave'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.appButton.onHoverLeave'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for exiting hover of the app button.
 

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IssueUpdateContractProperties
-uid: '@azure/arm-apimanagement.IssueUpdateContractProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.IssueUpdateContractProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Issue contract Update Properties.
 fullName: IssueUpdateContractProperties
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.IssueUpdateContractProperties.description'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.IssueUpdateContractProperties.description
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Text describing the issue.
     fullName: description
     remarks: ''
@@ -21,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: title
-    uid: '@azure/arm-apimanagement.IssueUpdateContractProperties.title'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueUpdateContractProperties.title'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The issue title.
     fullName: title
     remarks: ''
@@ -33,8 +35,8 @@ properties:
         description: ''
         type: undefined | string
   - name: userId
-    uid: '@azure/arm-apimanagement.IssueUpdateContractProperties.userId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueUpdateContractProperties.userId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A resource identifier for the user created the issue.
     fullName: userId
     remarks: ''
@@ -46,8 +48,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: apiId
-    uid: '@azure/arm-apimanagement.IssueUpdateContractProperties.apiId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueUpdateContractProperties.apiId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A resource identifier for the API the issue was created for.
     fullName: apiId
     remarks: ''
@@ -59,10 +61,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IssueContractBaseProperties.apiId](xref:@azure/arm-apimanagement.IssueContractBaseProperties.apiId)
+      [IssueContractBaseProperties.apiId](xref:@azure/arm-apimanagement -
+      v8.1.2.IssueContractBaseProperties.apiId)
   - name: createdDate
-    uid: '@azure/arm-apimanagement.IssueUpdateContractProperties.createdDate'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.IssueUpdateContractProperties.createdDate
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Date and time when the issue was created.
     fullName: createdDate
     remarks: ''
@@ -74,10 +79,11 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IssueContractBaseProperties.createdDate](xref:@azure/arm-apimanagement.IssueContractBaseProperties.createdDate)
+      [IssueContractBaseProperties.createdDate](xref:@azure/arm-apimanagement -
+      v8.1.2.IssueContractBaseProperties.createdDate)
   - name: state
-    uid: '@azure/arm-apimanagement.IssueUpdateContractProperties.state'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueUpdateContractProperties.state'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Status of the issue.
     fullName: state
     remarks: ''
@@ -86,8 +92,9 @@ inheritedProperties:
       content: 'state?: State'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.State" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.State" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IssueContractBaseProperties.state](xref:@azure/arm-apimanagement.IssueContractBaseProperties.state)
-extends: <xref uid="@azure/arm-apimanagement.IssueContractBaseProperties" />
+      [IssueContractBaseProperties.state](xref:@azure/arm-apimanagement -
+      v8.1.2.IssueContractBaseProperties.state)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.IssueContractBaseProperties" />'

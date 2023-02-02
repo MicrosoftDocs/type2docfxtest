@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DiagnosticContract
-uid: '@azure/arm-apimanagement.DiagnosticContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Diagnostic details.
 fullName: DiagnosticContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: alwaysLog
-    uid: '@azure/arm-apimanagement.DiagnosticContract.alwaysLog'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.alwaysLog'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Specifies for what type of messages sampling settings should not apply.
     fullName: alwaysLog
     remarks: ''
@@ -19,10 +19,10 @@ properties:
       content: 'alwaysLog?: AlwaysLog'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AlwaysLog" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AlwaysLog" />'
   - name: backend
-    uid: '@azure/arm-apimanagement.DiagnosticContract.backend'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.backend'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Diagnostic settings for incoming/outgoing HTTP messages to the Backend
     fullName: backend
     remarks: ''
@@ -31,10 +31,12 @@ properties:
       content: 'backend?: PipelineDiagnosticSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PipelineDiagnosticSettings" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PipelineDiagnosticSettings" />
   - name: frontend
-    uid: '@azure/arm-apimanagement.DiagnosticContract.frontend'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.frontend'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Diagnostic settings for incoming/outgoing HTTP messages to the Gateway.
     fullName: frontend
     remarks: ''
@@ -43,10 +45,14 @@ properties:
       content: 'frontend?: PipelineDiagnosticSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PipelineDiagnosticSettings" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PipelineDiagnosticSettings" />
   - name: httpCorrelationProtocol
-    uid: '@azure/arm-apimanagement.DiagnosticContract.httpCorrelationProtocol'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.DiagnosticContract.httpCorrelationProtocol
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Sets correlation protocol to use for Application Insights diagnostics.
     fullName: httpCorrelationProtocol
     remarks: ''
@@ -55,10 +61,12 @@ properties:
       content: 'httpCorrelationProtocol?: HttpCorrelationProtocol'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.HttpCorrelationProtocol" />
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.HttpCorrelationProtocol"
+          />
   - name: logClientIp
-    uid: '@azure/arm-apimanagement.DiagnosticContract.logClientIp'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.logClientIp'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Log the ClientIP. Default is false.
     fullName: logClientIp
     remarks: ''
@@ -69,8 +77,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: loggerId
-    uid: '@azure/arm-apimanagement.DiagnosticContract.loggerId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.loggerId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Resource Id of a target logger.
     fullName: loggerId
     remarks: ''
@@ -81,8 +89,8 @@ properties:
         description: ''
         type: undefined | string
   - name: operationNameFormat
-    uid: '@azure/arm-apimanagement.DiagnosticContract.operationNameFormat'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.operationNameFormat'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The format of the Operation Name for Application Insights telemetries.
       Default is Name.
@@ -93,10 +101,10 @@ properties:
       content: 'operationNameFormat?: OperationNameFormat'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.OperationNameFormat" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.OperationNameFormat" />'
   - name: sampling
-    uid: '@azure/arm-apimanagement.DiagnosticContract.sampling'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.sampling'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Sampling settings for Diagnostic.
     fullName: sampling
     remarks: ''
@@ -105,10 +113,10 @@ properties:
       content: 'sampling?: SamplingSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SamplingSettings" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SamplingSettings" />'
   - name: verbosity
-    uid: '@azure/arm-apimanagement.DiagnosticContract.verbosity'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.verbosity'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The verbosity level applied to traces emitted by trace policies.
     fullName: verbosity
     remarks: ''
@@ -117,11 +125,11 @@ properties:
       content: 'verbosity?: Verbosity'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Verbosity" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Verbosity" />'
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.DiagnosticContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -137,11 +145,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.DiagnosticContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -156,11 +164,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.DiagnosticContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -176,6 +184,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

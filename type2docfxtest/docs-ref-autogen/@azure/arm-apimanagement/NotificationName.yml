@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: NotificationName
-uid: '@azure/arm-apimanagement.NotificationName'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NotificationName'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for NotificationName. \
 
-  <xref:@azure/arm-apimanagement.KnownNotificationName> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownNotificationName> can be used
   interchangeably with NotificationName,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

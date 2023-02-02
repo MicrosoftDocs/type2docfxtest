@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: DigestConfigState
-uid: '@azure/arm-advisor.DigestConfigState'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.DigestConfigState'
+package: '@azure/arm-advisor - v3.1.0'
 summary: >-
   Defines values for DigestConfigState. \
 
-  <xref:@azure/arm-advisor.KnownDigestConfigState> can be used interchangeably
-  with DigestConfigState,
+  <xref:@azure/arm-advisor - v3.1.0.KnownDigestConfigState> can be used
+  interchangeably with DigestConfigState,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

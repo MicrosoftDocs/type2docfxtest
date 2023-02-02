@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ExtractKeyPhrasesResultArray
-uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
   Array of `ExtractKeyPhrasesResult` objects corresponding to a batch of input
   documents, and
@@ -13,8 +13,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: Array
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.Array'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.Array'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
     fullName: Array
     remarks: ''
@@ -25,8 +25,10 @@ properties:
         description: ''
         type: ArrayConstructor
   - name: modelVersion
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.modelVersion'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.ExtractKeyPhrasesResultArray.modelVersion
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: |-
       The version of the text analytics model used by this operation on this
       batch of input documents.
@@ -39,8 +41,8 @@ properties:
         description: ''
         type: string
   - name: statistics
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.statistics'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.statistics'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Statistics about the input document batch and how it was processed
 
@@ -55,11 +57,13 @@ properties:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.TextDocumentBatchStatistics" />
 inheritedProperties:
   - name: length
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.length'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.length'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Gets or sets the length of the array. This is a number one higher than the
       highest element defined in an array.
@@ -74,8 +78,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> Array.length
 inheritedMethods:
   - name: 'concat((T | ConcatArray<T>)[])'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.concat_1'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.concat_1'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Combines two or more arrays.
     remarks: ''
     isDeprecated: false
@@ -90,11 +94,13 @@ inheritedMethods:
             Additional items to add to the end of array1.
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: 'concat(ConcatArray<ExtractKeyPhrasesResult>[])'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.concat'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.concat'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Combines two or more arrays.
     remarks: ''
     isDeprecated: false
@@ -105,19 +111,21 @@ inheritedMethods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />&gt;[]
+            ConcatArray&lt;@azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: >-
       every((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => unknown, any)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.every'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.every'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Determines whether all the members of an array satisfy the specified test.
     remarks: ''
     isDeprecated: false
@@ -133,14 +141,20 @@ inheritedMethods:
             ExtractKeyPhrasesResult[]) =&gt; unknown
           description: >-
             A function that accepts up to three arguments. The every method
-            calls the callbackfn function for each element in array1 until the
-            callbackfn returns false, or until the end of the array.
+            calls
+
+            the callbackfn function for each element in the array until the
+            callbackfn returns a value
+
+            which is coercible to the Boolean value false, or until the end of
+            the array.
         - id: thisArg
           type: any
           description: >
             An object to which the this keyword can refer in the callbackfn
-            function. If thisArg is omitted, undefined is used as the this
-            value.
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
         type: boolean
@@ -148,8 +162,8 @@ inheritedMethods:
   - name: >-
       filter((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => unknown, any)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.filter_1'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.filter_1'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Returns the elements of an array that meet the condition specified in a
       callback function.
@@ -177,13 +191,15 @@ inheritedMethods:
             value.
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: ExtractKeyPhrasesResult, index: number, array:
-      ExtractKeyPhrasesResult[]) => boolean, any)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.filter'
-    package: '@azure/ai-text-analytics'
+      ExtractKeyPhrasesResult[]) => value, any)
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.filter'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Returns the elements of an array that meet the condition specified in a
       callback function.
@@ -192,13 +208,12 @@ inheritedMethods:
     syntax:
       content: >-
         function filter<S>(callbackfn: (value: ExtractKeyPhrasesResult, index:
-        number, array: ExtractKeyPhrasesResult[]) => boolean, thisArg?: any):
-        S[]
+        number, array: ExtractKeyPhrasesResult[]) => value, thisArg?: any): S[]
       parameters:
         - id: callbackfn
           type: >-
             (value: ExtractKeyPhrasesResult, index: number, array:
-            ExtractKeyPhrasesResult[]) =&gt; boolean
+            ExtractKeyPhrasesResult[]) =&gt; value
           description: >-
             A function that accepts up to three arguments. The filter method
             calls the callbackfn function one time for each element in the
@@ -216,8 +231,8 @@ inheritedMethods:
   - name: >-
       forEach((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => void, any)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.forEach'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.forEach'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Performs the specified action for each element in an array.
     remarks: ''
     isDeprecated: false
@@ -241,8 +256,8 @@ inheritedMethods:
             value.
     inheritanceDescription: <b>Inherited From</b> Array.forEach
   - name: 'indexOf(ExtractKeyPhrasesResult, number)'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.indexOf'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.indexOf'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Returns the index of the first occurrence of a value in an array.
     remarks: ''
     isDeprecated: false
@@ -252,7 +267,9 @@ inheritedMethods:
         number): number
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -264,8 +281,8 @@ inheritedMethods:
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.indexOf
   - name: join(string)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.join'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.join'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Adds all the elements of an array separated by the specified separator
       string.
@@ -285,8 +302,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.join
   - name: 'lastIndexOf(ExtractKeyPhrasesResult, number)'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.lastIndexOf'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.lastIndexOf'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Returns the index of the last occurrence of a specified value in an array.
     remarks: ''
     isDeprecated: false
@@ -296,7 +313,9 @@ inheritedMethods:
         number): number
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -310,8 +329,8 @@ inheritedMethods:
   - name: >-
       map<U>((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => U, any)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.map'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.map'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Calls a defined callback function on each element of an array, and returns
       an array that contains the results.
@@ -340,8 +359,8 @@ inheritedMethods:
         type: 'U[]'
     inheritanceDescription: <b>Inherited From</b> Array.map
   - name: pop()
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.pop'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.pop'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Removes the last element from an array and returns it.
     remarks: ''
     isDeprecated: false
@@ -350,12 +369,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" /> |
-          undefined
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          /> | undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: 'push(ExtractKeyPhrasesResult[])'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.push'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.push'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: 'Appends new elements to an array, and returns the new length of the array.'
     remarks: ''
     isDeprecated: false
@@ -363,7 +382,9 @@ inheritedMethods:
       content: 'function push(items: ExtractKeyPhrasesResult[]): number'
       parameters:
         - id: items
-          type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />[]
           description: |
             New elements of the Array.
       return:
@@ -374,8 +395,8 @@ inheritedMethods:
       reduce((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
       ExtractKeyPhrasesResult[]) => ExtractKeyPhrasesResult)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reduce'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.reduce'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Calls the specified callback function for all the elements in an array.
       The return value of the callback function is the accumulated result, and
@@ -400,15 +421,17 @@ inheritedMethods:
             array.
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />
     inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
       ExtractKeyPhrasesResult[]) => ExtractKeyPhrasesResult,
       ExtractKeyPhrasesResult)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reduce_1'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.reduce_1'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -426,17 +449,21 @@ inheritedMethods:
             ExtractKeyPhrasesResult[]) =&gt; ExtractKeyPhrasesResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />
           description: ''
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />
     inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce<U>((previousValue: U, currentValue: ExtractKeyPhrasesResult,
       currentIndex: number, array: ExtractKeyPhrasesResult[]) => U, U)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reduce_2'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.reduce_2'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Calls the specified callback function for all the elements in an array.
       The return value of the callback function is the accumulated result, and
@@ -471,8 +498,8 @@ inheritedMethods:
       reduceRight((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
       ExtractKeyPhrasesResult[]) => ExtractKeyPhrasesResult)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reduceRight'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.reduceRight'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Calls the specified callback function for all the elements in an array, in
       descending order. The return value of the callback function is the
@@ -498,15 +525,19 @@ inheritedMethods:
             array.
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
       ExtractKeyPhrasesResult[]) => ExtractKeyPhrasesResult,
       ExtractKeyPhrasesResult)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reduceRight_1'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.ExtractKeyPhrasesResultArray.reduceRight_1
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -525,17 +556,23 @@ inheritedMethods:
             ExtractKeyPhrasesResult[]) =&gt; ExtractKeyPhrasesResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />
           description: ''
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: ExtractKeyPhrasesResult,
       currentIndex: number, array: ExtractKeyPhrasesResult[]) => U, U)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reduceRight_2'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.ExtractKeyPhrasesResultArray.reduceRight_2
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Calls the specified callback function for all the elements in an array, in
       descending order. The return value of the callback function is the
@@ -568,8 +605,8 @@ inheritedMethods:
         type: U
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: reverse()
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.reverse'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.reverse'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Reverses the elements in an Array.
     remarks: ''
     isDeprecated: false
@@ -577,11 +614,13 @@ inheritedMethods:
       content: 'function reverse(): ExtractKeyPhrasesResult[]'
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.reverse
   - name: shift()
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.shift'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.shift'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Removes the first element from an array and returns it.
     remarks: ''
     isDeprecated: false
@@ -590,12 +629,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" /> |
-          undefined
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          /> | undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: 'slice(number, number)'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.slice'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.slice'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Returns a section of an array.
     remarks: ''
     isDeprecated: false
@@ -607,17 +646,20 @@ inheritedMethods:
           description: The beginning of the specified portion of the array.
         - id: end
           type: number
-          description: |
-            The end of the specified portion of the array.
+          description: >
+            The end of the specified portion of the array. This is exclusive of
+            the element at the index 'end'.
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.slice
   - name: >-
       some((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => unknown, any)
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.some'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.some'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Determines whether the specified callback function returns true for any
       element of an array.
@@ -635,21 +677,26 @@ inheritedMethods:
             ExtractKeyPhrasesResult[]) =&gt; unknown
           description: >-
             A function that accepts up to three arguments. The some method calls
-            the callbackfn function for each element in array1 until the
-            callbackfn returns true, or until the end of the array.
+
+            the callbackfn function for each element in the array until the
+            callbackfn returns a value
+
+            which is coercible to the Boolean value true, or until the end of
+            the array.
         - id: thisArg
           type: any
           description: >
             An object to which the this keyword can refer in the callbackfn
-            function. If thisArg is omitted, undefined is used as the this
-            value.
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
       return:
         description: ''
         type: boolean
     inheritanceDescription: <b>Inherited From</b> Array.some
   - name: 'sort((a: ExtractKeyPhrasesResult, b: ExtractKeyPhrasesResult) => number)'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.sort'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.sort'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Sorts an array.
     remarks: ''
     isDeprecated: false
@@ -663,16 +710,27 @@ inheritedMethods:
             (a: ExtractKeyPhrasesResult, b: ExtractKeyPhrasesResult) =&gt;
             number
           description: >
-            The name of the function used to determine the order of the
-            elements. If omitted, the elements are sorted in ascending, ASCII
-            character order.
+            Function used to determine the order of the elements. It is expected
+            to return
+
+            a negative value if first argument is less than second argument,
+            zero if they're equal and a positive
+
+            value otherwise. If omitted, the elements are sorted in ascending,
+            ASCII character order.
+
+            ```ts
+
+            [11,2,22,1].sort((a, b) => a - b)
+
+            ```
       return:
         description: ''
         type: this
     inheritanceDescription: <b>Inherited From</b> Array.sort
   - name: 'splice(number, number)'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.splice'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.splice'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
@@ -694,11 +752,13 @@ inheritedMethods:
             The number of elements to remove.
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: 'splice(number, number, ExtractKeyPhrasesResult[])'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.splice_1'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.splice_1'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
@@ -718,16 +778,22 @@ inheritedMethods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+          />[]
     inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: toLocaleString()
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.toLocaleString'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.ExtractKeyPhrasesResultArray.toLocaleString
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Returns a string representation of an array. The elements are converted to
       string using their toLocalString methods.
@@ -740,8 +806,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
   - name: toString()
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.toString'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.toString'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Returns a string representation of an array.
     remarks: ''
     isDeprecated: false
@@ -752,8 +818,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.toString
   - name: 'unshift(ExtractKeyPhrasesResult[])'
-    uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.unshift'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesResultArray.unshift'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Inserts new elements at the start of an array.
     remarks: ''
     isDeprecated: false
@@ -761,11 +827,15 @@ inheritedMethods:
       content: 'function unshift(items: ExtractKeyPhrasesResult[]): number'
       parameters:
         - id: items
-          type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]'
+          type: >-
+            @azure/ai-text-analytics - <xref
+            uid="v5.1.0.ExtractKeyPhrasesResult" />[]
           description: |
             Elements to insert at the start of the Array.
       return:
         description: ''
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.unshift
-extends: Array&lt;<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />&gt;
+extends: >-
+  Array&lt;@azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesResult"
+  />&gt;

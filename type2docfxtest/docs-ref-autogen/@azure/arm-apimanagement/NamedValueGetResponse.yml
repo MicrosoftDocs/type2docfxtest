@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: NamedValueGetResponse
-uid: '@azure/arm-apimanagement.NamedValueGetResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NamedValueGetResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the get operation.
 fullName: NamedValueGetResponse
 remarks: ''

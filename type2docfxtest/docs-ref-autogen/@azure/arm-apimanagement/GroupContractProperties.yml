@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GroupContractProperties
-uid: '@azure/arm-apimanagement.GroupContractProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GroupContractProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Group contract Properties.
 fullName: GroupContractProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: builtIn
-    uid: '@azure/arm-apimanagement.GroupContractProperties.builtIn'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContractProperties.builtIn'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       true if the group is one of the three system groups (Administrators,
       Developers, or Guests); otherwise false.
@@ -26,8 +26,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: description
-    uid: '@azure/arm-apimanagement.GroupContractProperties.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContractProperties.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Group description. Can contain HTML formatting tags.
     fullName: description
     remarks: ''
@@ -38,8 +38,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement.GroupContractProperties.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContractProperties.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Group name.
     fullName: displayName
     remarks: ''
@@ -50,8 +50,8 @@ properties:
         description: ''
         type: string
   - name: externalId
-    uid: '@azure/arm-apimanagement.GroupContractProperties.externalId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContractProperties.externalId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       For external groups, this property contains the id of the group from the
       external identity provider, e.g. for Azure Active Directory
@@ -66,8 +66,8 @@ properties:
         description: ''
         type: undefined | string
   - name: type
-    uid: '@azure/arm-apimanagement.GroupContractProperties.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContractProperties.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Group type.
     fullName: type
     remarks: ''
@@ -76,4 +76,4 @@ properties:
       content: 'type?: GroupType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.GroupType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.GroupType" />'

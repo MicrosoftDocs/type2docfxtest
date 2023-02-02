@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: DiagnosticCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.DiagnosticCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: DiagnosticCreateOrUpdateResponse
 remarks: ''

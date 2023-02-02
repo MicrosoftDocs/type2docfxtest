@@ -1,7 +1,9 @@
 ### YamlMime:TSType
 name: ApiManagementServiceCheckNameAvailabilityParameters
-uid: '@azure/arm-apimanagement.ApiManagementServiceCheckNameAvailabilityParameters'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceCheckNameAvailabilityParameters
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameters supplied to the CheckNameAvailability operation.
 fullName: ApiManagementServiceCheckNameAvailabilityParameters
 remarks: ''
@@ -10,8 +12,9 @@ type: interface
 properties:
   - name: name
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceCheckNameAvailabilityParameters.name
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceCheckNameAvailabilityParameters.name
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The name to check for availability.
     fullName: name
     remarks: ''

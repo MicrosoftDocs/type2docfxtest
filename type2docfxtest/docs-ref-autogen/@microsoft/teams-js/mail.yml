@@ -1,22 +1,22 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.mail'
+uid: '@microsoft/teams-js - v2.5.0.mail'
 name: mail
 summary: ''
 type: module
 interfaces:
-  - '@microsoft/teams-js.mail.ComposeMailBase'
-  - '@microsoft/teams-js.mail.ComposeNewParams'
-  - '@microsoft/teams-js.mail.ComposeReplyOrForwardParams'
-  - '@microsoft/teams-js.mail.OpenMailItemParams'
+  - '@microsoft/teams-js - v2.5.0.mail.ComposeMailBase'
+  - '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams'
+  - '@microsoft/teams-js - v2.5.0.mail.ComposeReplyOrForwardParams'
+  - '@microsoft/teams-js - v2.5.0.mail.OpenMailItemParams'
 typeAliases:
-  - '@microsoft/teams-js.mail.ComposeMailParams'
+  - '@microsoft/teams-js - v2.5.0.mail.ComposeMailParams'
 enums:
-  - '@microsoft/teams-js.mail.ComposeMailType'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.mail.ComposeMailType'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: composeMail(ComposeMailParams)
-    uid: '@microsoft/teams-js.mail.composeMail'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.mail.composeMail'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -26,14 +26,14 @@ functions:
         Promise<void>
       parameters:
         - id: composeMailParams
-          type: <xref uid="@microsoft/teams-js.mail.ComposeMailParams" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.mail.ComposeMailParams" />'
           description: ''
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: isSupported()
-    uid: '@microsoft/teams-js.mail.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.mail.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -43,8 +43,8 @@ functions:
         description: ''
         type: boolean
   - name: openMailItem(OpenMailItemParams)
-    uid: '@microsoft/teams-js.mail.openMailItem'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.mail.openMailItem'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -54,7 +54,7 @@ functions:
         Promise<void>
       parameters:
         - id: openMailItemParams
-          type: <xref uid="@microsoft/teams-js.mail.OpenMailItemParams" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.mail.OpenMailItemParams" />'
           description: ''
       return:
         description: ''

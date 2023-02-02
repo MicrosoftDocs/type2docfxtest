@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: DataMaskingMode
-uid: '@azure/arm-apimanagement.DataMaskingMode'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.DataMaskingMode'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for DataMaskingMode. \
 
-  <xref:@azure/arm-apimanagement.KnownDataMaskingMode> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownDataMaskingMode> can be used
   interchangeably with DataMaskingMode,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

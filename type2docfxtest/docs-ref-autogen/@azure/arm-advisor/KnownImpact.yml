@@ -1,21 +1,23 @@
 ### YamlMime:TSEnum
 name: KnownImpact
-uid: '@azure/arm-advisor.KnownImpact'
-package: '@azure/arm-advisor'
-summary: 'Known values of <xref:@azure/arm-advisor.Impact> that the service accepts.'
+uid: '@azure/arm-advisor - v3.1.0.KnownImpact'
+package: '@azure/arm-advisor - v3.1.0'
+summary: >-
+  Known values of <xref:@azure/arm-advisor - v3.1.0.Impact> that the service
+  accepts.
 fullName: KnownImpact
 remarks: ''
 isDeprecated: false
 fields:
   - name: High
-    uid: '@azure/arm-advisor.KnownImpact.High'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.KnownImpact.High'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: High
   - name: Low
-    uid: '@azure/arm-advisor.KnownImpact.Low'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.KnownImpact.Low'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Low
   - name: Medium
-    uid: '@azure/arm-advisor.KnownImpact.Medium'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.KnownImpact.Medium'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Medium

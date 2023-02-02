@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PrivateEndpointConnectionOperations
-uid: '@azure/arm-apimanagement.PrivateEndpointConnectionOperations'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointConnectionOperations'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a PrivateEndpointConnectionOperations.
 fullName: PrivateEndpointConnectionOperations
 remarks: ''
@@ -13,8 +13,9 @@ methods:
       PrivateEndpointConnectionRequest,
       PrivateEndpointConnectionCreateOrUpdateOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.PrivateEndpointConnectionOperations.beginCreateOrUpdate
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.beginCreateOrUpdate
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates a new Private Endpoint Connection or updates an existing one.
     remarks: ''
     isDeprecated: false
@@ -38,31 +39,32 @@ methods:
           description: Name of the private endpoint connection.
         - id: privateEndpointConnectionRequest
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionRequest" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionRequest" />
           description: A request to approve or reject a private endpoint connection
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionCreateOrUpdateOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionCreateOrUpdateResponse"
-          />&gt;, <xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionCreateOrUpdateResponse"
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.PrivateEndpointConnectionCreateOrUpdateResponse"
+          />&gt;, @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionCreateOrUpdateResponse"
           />&gt;&gt;
   - name: >-
       beginCreateOrUpdateAndWait(string, string, string,
       PrivateEndpointConnectionRequest,
       PrivateEndpointConnectionCreateOrUpdateOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.PrivateEndpointConnectionOperations.beginCreateOrUpdateAndWait
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.beginCreateOrUpdateAndWait
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates a new Private Endpoint Connection or updates an existing one.
     remarks: ''
     isDeprecated: false
@@ -85,27 +87,28 @@ methods:
           description: Name of the private endpoint connection.
         - id: privateEndpointConnectionRequest
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionRequest" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionRequest" />
           description: A request to approve or reject a private endpoint connection
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionCreateOrUpdateOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionCreateOrUpdateResponse" />&gt;
   - name: >-
       beginDelete(string, string, string,
       PrivateEndpointConnectionDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnectionOperations.beginDelete'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.beginDelete
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified Private Endpoint Connection.
     remarks: ''
     isDeprecated: false
@@ -127,9 +130,8 @@ methods:
           description: Name of the private endpoint connection.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -139,8 +141,9 @@ methods:
       beginDeleteAndWait(string, string, string,
       PrivateEndpointConnectionDeleteOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.PrivateEndpointConnectionOperations.beginDeleteAndWait
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.beginDeleteAndWait
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified Private Endpoint Connection.
     remarks: ''
     isDeprecated: false
@@ -161,9 +164,8 @@ methods:
           description: Name of the private endpoint connection.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -172,8 +174,10 @@ methods:
   - name: >-
       getByName(string, string, string,
       PrivateEndpointConnectionGetByNameOptionalParams)
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnectionOperations.getByName'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.getByName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the details of the Private Endpoint Connection specified by its
       identifier.
@@ -197,23 +201,22 @@ methods:
           description: Name of the private endpoint connection.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionGetByNameOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionGetByNameOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionGetByNameResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionGetByNameResponse" />&gt;
   - name: >-
       getPrivateLinkResource(string, string, string,
       PrivateEndpointConnectionGetPrivateLinkResourceOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.PrivateEndpointConnectionOperations.getPrivateLinkResource
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.getPrivateLinkResource
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description for Gets the private link resources
     remarks: ''
     isDeprecated: false
@@ -235,22 +238,24 @@ methods:
           description: Name of the private link resource.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionGetPrivateLinkResourceOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionGetPrivateLinkResourceOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionGetPrivateLinkResourceResponse"
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionGetPrivateLinkResourceResponse"
           />&gt;
   - name: >-
       listByService(string, string,
       PrivateEndpointConnectionListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnectionOperations.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.listByService
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Lists all private endpoint connections of the API Management service
       instance.
@@ -270,22 +275,22 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnection" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnection" />&gt;
   - name: >-
       listPrivateLinkResources(string, string,
       PrivateEndpointConnectionListPrivateLinkResourcesOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.PrivateEndpointConnectionOperations.listPrivateLinkResources
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionOperations.listPrivateLinkResources
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description for Gets the private link resources
     remarks: ''
     isDeprecated: false
@@ -304,14 +309,14 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PrivateEndpointConnectionListPrivateLinkResourcesOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PrivateEndpointConnectionListPrivateLinkResourcesOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionListPrivateLinkResourcesResponse"
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionListPrivateLinkResourcesResponse"
           />&gt;

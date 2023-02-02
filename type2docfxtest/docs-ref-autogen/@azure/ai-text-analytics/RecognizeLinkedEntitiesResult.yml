@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: RecognizeLinkedEntitiesResult
-uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.RecognizeLinkedEntitiesResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The result of the recognize linked entities operation on a single document.
 fullName: RecognizeLinkedEntitiesResult
 remarks: ''

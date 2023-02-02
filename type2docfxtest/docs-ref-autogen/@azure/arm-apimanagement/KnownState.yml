@@ -1,31 +1,31 @@
 ### YamlMime:TSEnum
 name: KnownState
-uid: '@azure/arm-apimanagement.KnownState'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownState'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.State> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.State> that the
+  service accepts.
 fullName: KnownState
 remarks: ''
 isDeprecated: false
 fields:
   - name: Closed
-    uid: '@azure/arm-apimanagement.KnownState.Closed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownState.Closed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The issue was closed.
   - name: Open
-    uid: '@azure/arm-apimanagement.KnownState.Open'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownState.Open'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The issue is opened.
   - name: Proposed
-    uid: '@azure/arm-apimanagement.KnownState.Proposed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownState.Proposed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The issue is proposed.
   - name: Removed
-    uid: '@azure/arm-apimanagement.KnownState.Removed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownState.Removed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The issue was removed.
   - name: Resolved
-    uid: '@azure/arm-apimanagement.KnownState.Resolved'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownState.Resolved'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The issue is now resolved.

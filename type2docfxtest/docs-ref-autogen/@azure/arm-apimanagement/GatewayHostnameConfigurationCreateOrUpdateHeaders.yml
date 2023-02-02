@@ -1,7 +1,9 @@
 ### YamlMime:TSType
 name: GatewayHostnameConfigurationCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.GatewayHostnameConfigurationCreateOrUpdateHeaders
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for GatewayHostnameConfiguration_createOrUpdate operation.
 fullName: GatewayHostnameConfigurationCreateOrUpdateHeaders
 remarks: ''
@@ -10,8 +12,9 @@ type: interface
 properties:
   - name: eTag
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationCreateOrUpdateHeaders.eTag
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationCreateOrUpdateHeaders.eTag
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

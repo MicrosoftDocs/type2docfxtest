@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AnalyzeActionsResult
-uid: '@azure/ai-text-analytics.AnalyzeActionsResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The results of an analyze Actions operation.
 fullName: AnalyzeActionsResult
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: analyzeSentimentResults
-    uid: '@azure/ai-text-analytics.AnalyzeActionsResult.analyzeSentimentResults'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsResult.analyzeSentimentResults
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Array of the results for each analyze sentiment action.
     fullName: analyzeSentimentResults
     remarks: ''
@@ -19,10 +21,14 @@ properties:
       content: 'analyzeSentimentResults: AnalyzeSentimentActionResult[]'
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.AnalyzeSentimentActionResult" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.AnalyzeSentimentActionResult" />[]
   - name: extractKeyPhrasesResults
-    uid: '@azure/ai-text-analytics.AnalyzeActionsResult.extractKeyPhrasesResults'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsResult.extractKeyPhrasesResults
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Array of the results for each key phrases extraction action.
     fullName: extractKeyPhrasesResults
     remarks: ''
@@ -32,11 +38,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesActionResult"
-          />[]
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.ExtractKeyPhrasesActionResult" />[]
   - name: recognizeEntitiesResults
-    uid: '@azure/ai-text-analytics.AnalyzeActionsResult.recognizeEntitiesResults'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsResult.recognizeEntitiesResults
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Array of the results for each categorized entities recognition action.
     fullName: recognizeEntitiesResults
     remarks: ''
@@ -46,13 +54,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionResult"
-          />[]
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.RecognizeCategorizedEntitiesActionResult" />[]
   - name: recognizeLinkedEntitiesResults
     uid: >-
-      @azure/ai-text-analytics.AnalyzeActionsResult.recognizeLinkedEntitiesResults
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsResult.recognizeLinkedEntitiesResults
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Array of the results for each linked entities recognition action.
     fullName: recognizeLinkedEntitiesResults
     remarks: ''
@@ -62,12 +70,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesActionResult"
-          />[]
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.RecognizeLinkedEntitiesActionResult" />[]
   - name: recognizePiiEntitiesResults
-    uid: '@azure/ai-text-analytics.AnalyzeActionsResult.recognizePiiEntitiesResults'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsResult.recognizePiiEntitiesResults
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Array of the results for each Pii entities recognition action.
     fullName: recognizePiiEntitiesResults
     remarks: ''
@@ -77,5 +86,5 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesActionResult"
-          />[]
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.RecognizePiiEntitiesActionResult" />[]

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AnalyzeSentimentActionErrorResult
-uid: '@azure/ai-text-analytics.AnalyzeSentimentActionErrorResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeSentimentActionErrorResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The error of an analyze sentiment action.
 fullName: AnalyzeSentimentActionErrorResult
 remarks: ''

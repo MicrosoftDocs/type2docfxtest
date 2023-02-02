@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GatewayListKeysResponse
-uid: '@azure/arm-apimanagement.GatewayListKeysResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayListKeysResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listKeys operation.
 fullName: GatewayListKeysResponse
 remarks: ''

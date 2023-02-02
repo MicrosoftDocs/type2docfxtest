@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSku
-uid: '@azure/arm-apimanagement.ApiManagementSku'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Describes an available ApiManagement SKU.
 fullName: ApiManagementSku
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiVersions
-    uid: '@azure/arm-apimanagement.ApiManagementSku.apiVersions'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.apiVersions'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The api versions that support this SKU.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: capabilities
-    uid: '@azure/arm-apimanagement.ApiManagementSku.capabilities'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.capabilities'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A name value pair to describe the capability.
 
@@ -39,10 +39,12 @@ properties:
       content: 'capabilities?: ApiManagementSkuCapabilities[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ApiManagementSkuCapabilities" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSkuCapabilities" />[]
   - name: capacity
-    uid: '@azure/arm-apimanagement.ApiManagementSku.capacity'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.capacity'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Specifies the number of virtual machines in the scale set.
 
@@ -55,10 +57,12 @@ properties:
       content: 'capacity?: ApiManagementSkuCapacity'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiManagementSkuCapacity" />
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementSkuCapacity"
+          />
   - name: costs
-    uid: '@azure/arm-apimanagement.ApiManagementSku.costs'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.costs'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Metadata for retrieving price info.
 
@@ -71,10 +75,12 @@ properties:
       content: 'costs?: ApiManagementSkuCosts[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ApiManagementSkuCosts" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementSkuCosts"
+          />[]
   - name: family
-    uid: '@azure/arm-apimanagement.ApiManagementSku.family'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.family'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The Family of this particular SKU.
 
@@ -89,8 +95,8 @@ properties:
         description: ''
         type: undefined | string
   - name: kind
-    uid: '@azure/arm-apimanagement.ApiManagementSku.kind'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.kind'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The Kind of resources that are supported in this SKU.
 
@@ -105,8 +111,8 @@ properties:
         description: ''
         type: undefined | string
   - name: locationInfo
-    uid: '@azure/arm-apimanagement.ApiManagementSku.locationInfo'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.locationInfo'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A list of locations and availability zones in those locations where the
       SKU is available.
@@ -120,10 +126,12 @@ properties:
       content: 'locationInfo?: ApiManagementSkuLocationInfo[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ApiManagementSkuLocationInfo" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSkuLocationInfo" />[]
   - name: locations
-    uid: '@azure/arm-apimanagement.ApiManagementSku.locations'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.locations'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The set of locations that the SKU is available.
 
@@ -138,8 +146,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: name
-    uid: '@azure/arm-apimanagement.ApiManagementSku.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of SKU.
 
@@ -154,8 +162,8 @@ properties:
         description: ''
         type: undefined | string
   - name: resourceType
-    uid: '@azure/arm-apimanagement.ApiManagementSku.resourceType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.resourceType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of resource the SKU applies to.
 
@@ -170,8 +178,8 @@ properties:
         description: ''
         type: undefined | string
   - name: restrictions
-    uid: '@azure/arm-apimanagement.ApiManagementSku.restrictions'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.restrictions'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The restrictions because of which SKU cannot be used. This is empty if
       there are no restrictions.
@@ -185,10 +193,12 @@ properties:
       content: 'restrictions?: ApiManagementSkuRestrictions[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ApiManagementSkuRestrictions" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSkuRestrictions" />[]
   - name: size
-    uid: '@azure/arm-apimanagement.ApiManagementSku.size'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.size'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The Size of the SKU.
 
@@ -203,8 +213,8 @@ properties:
         description: ''
         type: undefined | string
   - name: tier
-    uid: '@azure/arm-apimanagement.ApiManagementSku.tier'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSku.tier'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Specifies the tier of virtual machines in a scale set.<br /><br />
       Possible Values:<br /><br /> **Standard**<br /><br /> **Basic**

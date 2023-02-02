@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.notifications'
+uid: '@microsoft/teams-js - v2.5.0.notifications'
 name: notifications
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''

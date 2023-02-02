@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiIssueAttachmentListByServiceResponse
-uid: '@azure/arm-apimanagement.ApiIssueAttachmentListByServiceResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachmentListByServiceResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByService operation.
 fullName: ApiIssueAttachmentListByServiceResponse
 remarks: ''

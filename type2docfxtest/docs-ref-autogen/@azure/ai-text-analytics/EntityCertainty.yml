@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: EntityCertainty
-uid: '@azure/ai-text-analytics.EntityCertainty'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.EntityCertainty'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Defines values for Certainty.
 fullName: EntityCertainty
 remarks: ''

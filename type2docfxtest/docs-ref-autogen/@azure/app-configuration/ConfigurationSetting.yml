@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ConfigurationSetting
-uid: '@azure/app-configuration.ConfigurationSetting'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.ConfigurationSetting'
+package: '@azure/app-configuration - v1.3.1'
 summary: |-
   Configuration setting with extra metadata from the server, indicating
   its etag, whether it is currently readOnly and when it was last modified.

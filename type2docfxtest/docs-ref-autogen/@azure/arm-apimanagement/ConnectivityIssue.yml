@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ConnectivityIssue
-uid: '@azure/arm-apimanagement.ConnectivityIssue'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityIssue'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Information about an issue encountered in the process of checking for
   connectivity.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: context
-    uid: '@azure/arm-apimanagement.ConnectivityIssue.context'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityIssue.context'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Provides additional context on the issue.
 
@@ -27,8 +27,8 @@ properties:
         description: ''
         type: '[key: string]\: string[]'
   - name: origin
-    uid: '@azure/arm-apimanagement.ConnectivityIssue.origin'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityIssue.origin'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The origin of the issue.
 
@@ -41,10 +41,10 @@ properties:
       content: 'origin?: Origin'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Origin" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Origin" />'
   - name: severity
-    uid: '@azure/arm-apimanagement.ConnectivityIssue.severity'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityIssue.severity'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The severity of the issue.
 
@@ -57,10 +57,10 @@ properties:
       content: 'severity?: Severity'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Severity" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Severity" />'
   - name: type
-    uid: '@azure/arm-apimanagement.ConnectivityIssue.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityIssue.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of issue.
 
@@ -73,4 +73,4 @@ properties:
       content: 'type?: IssueType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.IssueType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.IssueType" />'

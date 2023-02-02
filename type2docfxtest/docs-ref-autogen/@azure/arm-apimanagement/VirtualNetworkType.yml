@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: VirtualNetworkType
-uid: '@azure/arm-apimanagement.VirtualNetworkType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.VirtualNetworkType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for VirtualNetworkType. \
 
-  <xref:@azure/arm-apimanagement.KnownVirtualNetworkType> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownVirtualNetworkType> can be used
   interchangeably with VirtualNetworkType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

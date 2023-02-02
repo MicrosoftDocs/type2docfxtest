@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: CertificateStatus
-uid: '@azure/arm-apimanagement.CertificateStatus'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.CertificateStatus'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for CertificateStatus. \
 
-  <xref:@azure/arm-apimanagement.KnownCertificateStatus> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownCertificateStatus> can be used
   interchangeably with CertificateStatus,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

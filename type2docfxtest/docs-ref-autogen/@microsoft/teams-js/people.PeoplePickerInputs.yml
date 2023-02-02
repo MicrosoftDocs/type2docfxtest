@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PeoplePickerInputs
-uid: '@microsoft/teams-js.people.PeoplePickerInputs'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.people.PeoplePickerInputs'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Input parameter supplied to the People Picker API
 fullName: PeoplePickerInputs
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: openOrgWideSearchInChatOrChannel
     uid: >-
-      @microsoft/teams-js.people.PeoplePickerInputs.openOrgWideSearchInChatOrChannel
-    package: '@microsoft/teams-js'
+      @microsoft/teams-js -
+      v2.5.0.people.PeoplePickerInputs.openOrgWideSearchInChatOrChannel
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Optional; launches the people picker in org wide scope even if the app is
       added to a chat or channel
@@ -26,8 +27,8 @@ properties:
         description: ''
         type: boolean
   - name: setSelected
-    uid: '@microsoft/teams-js.people.PeoplePickerInputs.setSelected'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.people.PeoplePickerInputs.setSelected'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Optional; AAD ids of the users to be pre-populated in the search box of
       people picker control
@@ -45,8 +46,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: singleSelect
-    uid: '@microsoft/teams-js.people.PeoplePickerInputs.singleSelect'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.people.PeoplePickerInputs.singleSelect'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Optional; launches the people picker for which only 1 person can be
       selected
@@ -61,8 +62,8 @@ properties:
         description: ''
         type: boolean
   - name: title
-    uid: '@microsoft/teams-js.people.PeoplePickerInputs.title'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.people.PeoplePickerInputs.title'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Optional; Set title for the people picker
 

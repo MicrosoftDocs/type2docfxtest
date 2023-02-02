@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: RecommendationsListResponse
-uid: '@azure/arm-advisor.RecommendationsListResponse'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.RecommendationsListResponse'
+package: '@azure/arm-advisor - v3.1.0'
 summary: Contains response data for the list operation.
 fullName: RecommendationsListResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PortalSettingsCollection
-uid: '@azure/arm-apimanagement.PortalSettingsCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PortalSettingsCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Descriptions of APIM policies.
 fullName: PortalSettingsCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.PortalSettingsCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PortalSettingsCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: value
-    uid: '@azure/arm-apimanagement.PortalSettingsCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PortalSettingsCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Descriptions of APIM policies.
     fullName: value
     remarks: ''
@@ -31,4 +31,6 @@ properties:
       content: 'value?: PortalSettingsContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.PortalSettingsContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.PortalSettingsContract"
+          />[]

@@ -1,12 +1,13 @@
 ### YamlMime:TSTypeAlias
 name: PrivateEndpointServiceConnectionStatus
-uid: '@azure/arm-apimanagement.PrivateEndpointServiceConnectionStatus'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointServiceConnectionStatus'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for PrivateEndpointServiceConnectionStatus. \
 
-  <xref:@azure/arm-apimanagement.KnownPrivateEndpointServiceConnectionStatus>
-  can be used interchangeably with PrivateEndpointServiceConnectionStatus,
+  <xref:@azure/arm-apimanagement -
+  v8.1.2.KnownPrivateEndpointServiceConnectionStatus> can be used
+  interchangeably with PrivateEndpointServiceConnectionStatus,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: CertificateListByServiceOptionalParams
-uid: '@azure/arm-apimanagement.CertificateListByServiceOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.CertificateListByServiceOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: CertificateListByServiceOptionalParams
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: filter
-    uid: '@azure/arm-apimanagement.CertificateListByServiceOptionalParams.filter'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.filter
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -30,8 +32,9 @@ properties:
         type: undefined | string
   - name: isKeyVaultRefreshFailed
     uid: >-
-      @azure/arm-apimanagement.CertificateListByServiceOptionalParams.isKeyVaultRefreshFailed
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.isKeyVaultRefreshFailed
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       When set to true, the response contains only certificates entities which
       failed refresh.
@@ -44,8 +47,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: skip
-    uid: '@azure/arm-apimanagement.CertificateListByServiceOptionalParams.skip'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.skip
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -56,8 +61,10 @@ properties:
         description: ''
         type: undefined | number
   - name: top
-    uid: '@azure/arm-apimanagement.CertificateListByServiceOptionalParams.top'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.top
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -70,8 +77,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.CertificateListByServiceOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -83,8 +91,10 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-apimanagement.CertificateListByServiceOptionalParams.onResponse'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -100,8 +110,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.CertificateListByServiceOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -114,8 +125,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.CertificateListByServiceOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -128,8 +140,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.CertificateListByServiceOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.CertificateListByServiceOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

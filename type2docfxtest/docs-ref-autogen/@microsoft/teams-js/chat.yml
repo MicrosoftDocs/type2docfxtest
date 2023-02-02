@@ -1,14 +1,14 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.chat'
+uid: '@microsoft/teams-js - v2.5.0.chat'
 name: chat
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Contains functionality to start chat with others
 previewState: beta
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.chat.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.chat.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if chat capability is supported by the host
     remarks: ''
     previewState: beta
@@ -19,8 +19,8 @@ functions:
         description: boolean to represent whether the chat capability is supported
         type: boolean
   - name: openChat(OpenSingleChatRequest)
-    uid: '@microsoft/teams-js.chat.openChat'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.chat.openChat'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: |-
       Allows the user to open a chat with a single user and allows
       for the user to specify the message they wish to send.
@@ -31,14 +31,14 @@ functions:
       content: 'function openChat(openChatRequest: OpenSingleChatRequest): Promise<void>'
       parameters:
         - id: openChatRequest
-          type: <xref uid="@microsoft/teams-js.OpenSingleChatRequest" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.OpenSingleChatRequest" />'
           description: ''
       return:
         description: Promise resolved upon completion
         type: Promise&lt;void&gt;
   - name: openGroupChat(OpenGroupChatRequest)
-    uid: '@microsoft/teams-js.chat.openGroupChat'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.chat.openGroupChat'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Allows the user to create a chat with multiple users (2+) and allows
 
@@ -55,7 +55,7 @@ functions:
         Promise<void>
       parameters:
         - id: openChatRequest
-          type: <xref uid="@microsoft/teams-js.OpenGroupChatRequest" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.OpenGroupChatRequest" />'
           description: ''
       return:
         description: Promise resolved upon completion

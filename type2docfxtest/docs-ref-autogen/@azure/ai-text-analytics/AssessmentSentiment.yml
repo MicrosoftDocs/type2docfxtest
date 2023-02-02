@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AssessmentSentiment
-uid: '@azure/ai-text-analytics.AssessmentSentiment'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
   AssessmentSentiment contains the predicted sentiment, confidence scores and
 
@@ -15,8 +15,8 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: confidenceScores
-    uid: '@azure/ai-text-analytics.AssessmentSentiment.confidenceScores'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment.confidenceScores'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Assessment sentiment confidence scores in the sentence.
     fullName: confidenceScores
     remarks: ''
@@ -25,13 +25,16 @@ inheritedProperties:
       content: 'confidenceScores: TargetConfidenceScoreLabel'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TargetConfidenceScoreLabel" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.TargetConfidenceScoreLabel" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SentenceAssessment.confidenceScores](xref:@azure/ai-text-analytics.SentenceAssessment.confidenceScores)
+      [SentenceAssessment.confidenceScores](xref:@azure/ai-text-analytics -
+      v5.1.0.SentenceAssessment.confidenceScores)
   - name: isNegated
-    uid: '@azure/ai-text-analytics.AssessmentSentiment.isNegated'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment.isNegated'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The indicator representing if the assessment is negated.
     fullName: isNegated
     remarks: ''
@@ -43,10 +46,11 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SentenceAssessment.isNegated](xref:@azure/ai-text-analytics.SentenceAssessment.isNegated)
+      [SentenceAssessment.isNegated](xref:@azure/ai-text-analytics -
+      v5.1.0.SentenceAssessment.isNegated)
   - name: length
-    uid: '@azure/ai-text-analytics.AssessmentSentiment.length'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment.length'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The length of the assessment.
     fullName: length
     remarks: ''
@@ -58,10 +62,11 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SentenceAssessment.length](xref:@azure/ai-text-analytics.SentenceAssessment.length)
+      [SentenceAssessment.length](xref:@azure/ai-text-analytics -
+      v5.1.0.SentenceAssessment.length)
   - name: offset
-    uid: '@azure/ai-text-analytics.AssessmentSentiment.offset'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment.offset'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The assessment offset from the start of the sentence.
     fullName: offset
     remarks: ''
@@ -73,10 +78,11 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SentenceAssessment.offset](xref:@azure/ai-text-analytics.SentenceAssessment.offset)
+      [SentenceAssessment.offset](xref:@azure/ai-text-analytics -
+      v5.1.0.SentenceAssessment.offset)
   - name: sentiment
-    uid: '@azure/ai-text-analytics.AssessmentSentiment.sentiment'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment.sentiment'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Assessment sentiment in the sentence.
     fullName: sentiment
     remarks: ''
@@ -85,13 +91,14 @@ inheritedProperties:
       content: 'sentiment: TokenSentimentValue'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TokenSentimentValue" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.TokenSentimentValue" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SentenceAssessment.sentiment](xref:@azure/ai-text-analytics.SentenceAssessment.sentiment)
+      [SentenceAssessment.sentiment](xref:@azure/ai-text-analytics -
+      v5.1.0.SentenceAssessment.sentiment)
   - name: text
-    uid: '@azure/ai-text-analytics.AssessmentSentiment.text'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AssessmentSentiment.text'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The assessment text detected.
     fullName: text
     remarks: ''
@@ -103,5 +110,6 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SentenceAssessment.text](xref:@azure/ai-text-analytics.SentenceAssessment.text)
-extends: <xref uid="@azure/ai-text-analytics.SentenceAssessment" />
+      [SentenceAssessment.text](xref:@azure/ai-text-analytics -
+      v5.1.0.SentenceAssessment.text)
+extends: '@azure/ai-text-analytics - <xref uid="v5.1.0.SentenceAssessment" />'

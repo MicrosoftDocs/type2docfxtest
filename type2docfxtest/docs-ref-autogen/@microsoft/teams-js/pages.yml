@@ -1,16 +1,16 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.pages'
+uid: '@microsoft/teams-js - v2.5.0.pages'
 name: pages
 summary: Navigation-specific part of the SDK.
 type: module
 interfaces:
-  - '@microsoft/teams-js.pages.InstanceConfig'
-  - '@microsoft/teams-js.pages.NavigateToAppParams'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.pages.InstanceConfig'
+  - '@microsoft/teams-js - v2.5.0.pages.NavigateToAppParams'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: getConfig()
-    uid: '@microsoft/teams-js.pages.getConfig'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.getConfig'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Gets the config for the current instance.
     remarks: ''
     isDeprecated: false
@@ -18,12 +18,14 @@ functions:
       content: 'function getConfig(): Promise<InstanceConfig>'
       return:
         description: >-
-          Promise that resolves with the
-          <xref:@microsoft/teams-js.pages.InstanceConfig> object.
-        type: Promise&lt;<xref uid="@microsoft/teams-js.pages.InstanceConfig" />&gt;
+          Promise that resolves with the <xref:@microsoft/teams-js -
+          v2.5.0.pages.InstanceConfig> object.
+        type: >-
+          Promise&lt;@microsoft/teams-js - <xref
+          uid="v2.5.0.pages.InstanceConfig" />&gt;
   - name: 'initializeWithFrameContext(FrameInfo, () => void, string[])'
-    uid: '@microsoft/teams-js.pages.initializeWithFrameContext'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.initializeWithFrameContext'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Initializes the library with context information for the frame
     remarks: ''
     isDeprecated: false
@@ -33,7 +35,7 @@ functions:
         => void, validMessageOrigins?: string[])
       parameters:
         - id: frameInfo
-          type: <xref uid="@microsoft/teams-js.FrameInfo" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.FrameInfo" />'
           description: >-
             Frame information containing the URL used in the iframe on reload
             and the URL for when the
@@ -51,8 +53,8 @@ functions:
             https: protocol otherwise they will be ignored. Example:
             https:www.example.com
   - name: isSupported()
-    uid: '@microsoft/teams-js.pages.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if the pages capability is supported by the host
     remarks: ''
     isDeprecated: false
@@ -64,8 +66,8 @@ functions:
           false if it is disabled
         type: boolean
   - name: navigateCrossDomain(string)
-    uid: '@microsoft/teams-js.pages.navigateCrossDomain'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.navigateCrossDomain'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Navigates the frame to a new cross-domain URL. The domain of this URL must
       match at least one of the
@@ -92,8 +94,8 @@ functions:
         description: Promise that resolves when the navigation has completed.
         type: Promise&lt;void&gt;
   - name: navigateToApp(NavigateToAppParams)
-    uid: '@microsoft/teams-js.pages.navigateToApp'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.navigateToApp'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Navigate to the given application ID and page ID, with optional parameters
       for a WebURL (if the application
@@ -114,14 +116,16 @@ functions:
       content: 'function navigateToApp(params: NavigateToAppParams): Promise<void>'
       parameters:
         - id: params
-          type: <xref uid="@microsoft/teams-js.pages.NavigateToAppParams" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.pages.NavigateToAppParams"
+            />
           description: Parameters for the navigation
       return:
         description: a promise that will resolve if the navigation was successful
         type: Promise&lt;void&gt;
   - name: 'registerFullScreenHandler((isFullScreen: boolean) => void)'
-    uid: '@microsoft/teams-js.pages.registerFullScreenHandler'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.registerFullScreenHandler'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for changes from or to full-screen view for a tab.
 
@@ -145,8 +149,8 @@ functions:
             The handler to invoke when the user toggles full-screen view for a
             tab.
   - name: returnFocus(boolean)
-    uid: '@microsoft/teams-js.pages.returnFocus'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.returnFocus'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Return focus to the host. Will move focus forward or backward based on
       where the application container falls in
@@ -167,8 +171,8 @@ functions:
           description: |
             Determines the direction to focus in host.
   - name: setCurrentFrame(FrameInfo)
-    uid: '@microsoft/teams-js.pages.setCurrentFrame'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.setCurrentFrame'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Sets/Updates the current frame with new information
     remarks: ''
     isDeprecated: false
@@ -176,15 +180,15 @@ functions:
       content: 'function setCurrentFrame(frameInfo: FrameInfo)'
       parameters:
         - id: frameInfo
-          type: <xref uid="@microsoft/teams-js.FrameInfo" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.FrameInfo" />'
           description: >
             Frame information containing the URL used in the iframe on reload
             and the URL for when the
 
             user clicks 'Go To Website'
   - name: shareDeepLink(ShareDeepLinkParameters)
-    uid: '@microsoft/teams-js.pages.shareDeepLink'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.pages.shareDeepLink'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Shares a deep link that a user can use to navigate back to a specific
       state in this page.
@@ -196,6 +200,6 @@ functions:
       content: 'function shareDeepLink(deepLinkParameters: ShareDeepLinkParameters)'
       parameters:
         - id: deepLinkParameters
-          type: <xref uid="@microsoft/teams-js.ShareDeepLinkParameters" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.ShareDeepLinkParameters" />'
           description: |
             ID and label for the link and fallback URL.

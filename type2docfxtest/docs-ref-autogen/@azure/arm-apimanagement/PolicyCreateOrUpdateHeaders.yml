@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PolicyCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.PolicyCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PolicyCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Policy_createOrUpdate operation.
 fullName: PolicyCreateOrUpdateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.PolicyCreateOrUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PolicyCreateOrUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Current entity state version
     fullName: eTag
     remarks: ''

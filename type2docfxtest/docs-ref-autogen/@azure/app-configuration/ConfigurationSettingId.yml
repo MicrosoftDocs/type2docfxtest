@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ConfigurationSettingId
-uid: '@azure/app-configuration.ConfigurationSettingId'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.ConfigurationSettingId'
+package: '@azure/app-configuration - v1.3.1'
 summary: Fields that uniquely identify a configuration setting
 fullName: ConfigurationSettingId
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: etag
-    uid: '@azure/app-configuration.ConfigurationSettingId.etag'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ConfigurationSettingId.etag'
+    package: '@azure/app-configuration - v1.3.1'
     summary: The etag for this setting
     fullName: etag
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: string
   - name: key
-    uid: '@azure/app-configuration.ConfigurationSettingId.key'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ConfigurationSettingId.key'
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       The key for this setting.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: string
   - name: label
-    uid: '@azure/app-configuration.ConfigurationSettingId.label'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ConfigurationSettingId.label'
+    package: '@azure/app-configuration - v1.3.1'
     summary: |-
       The label for this setting. Leaving this undefined means this
       setting does not have a label.

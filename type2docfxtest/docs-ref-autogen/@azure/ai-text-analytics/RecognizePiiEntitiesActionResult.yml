@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: RecognizePiiEntitiesActionResult
-uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesActionResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The result of a recognize pii entities action.
 fullName: RecognizePiiEntitiesActionResult
 remarks: ''

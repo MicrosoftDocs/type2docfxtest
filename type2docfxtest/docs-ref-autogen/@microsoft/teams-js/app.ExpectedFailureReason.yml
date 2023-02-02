@@ -1,7 +1,7 @@
 ### YamlMime:TSEnum
 name: ExpectedFailureReason
-uid: '@microsoft/teams-js.app.ExpectedFailureReason'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.app.ExpectedFailureReason'
+package: '@microsoft/teams-js - v2.5.0'
 summary: |-
   Describes expected errors that occurred during an otherwise successful
   app initialization
@@ -10,22 +10,22 @@ remarks: ''
 isDeprecated: false
 fields:
   - name: NotFound
-    uid: '@microsoft/teams-js.app.ExpectedFailureReason.NotFound'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.ExpectedFailureReason.NotFound'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The item was not found
   - name: Offline
-    uid: '@microsoft/teams-js.app.ExpectedFailureReason.Offline'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.ExpectedFailureReason.Offline'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The application is currently offline
   - name: Other
-    uid: '@microsoft/teams-js.app.ExpectedFailureReason.Other'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.ExpectedFailureReason.Other'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The app failed for a different reason
   - name: PermissionError
-    uid: '@microsoft/teams-js.app.ExpectedFailureReason.PermissionError'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.ExpectedFailureReason.PermissionError'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: There was a permission error
   - name: Throttling
-    uid: '@microsoft/teams-js.app.ExpectedFailureReason.Throttling'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.ExpectedFailureReason.Throttling'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The network is currently throttled

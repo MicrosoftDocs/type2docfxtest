@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RepresentationContract
-uid: '@azure/arm-apimanagement.RepresentationContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.RepresentationContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Operation request/response representation details.
 fullName: RepresentationContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: contentType
-    uid: '@azure/arm-apimanagement.RepresentationContract.contentType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RepresentationContract.contentType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Specifies a registered or custom content type for this representation,
       e.g. application/xml.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: string
   - name: examples
-    uid: '@azure/arm-apimanagement.RepresentationContract.examples'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RepresentationContract.examples'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Exampled defined for the representation.
     fullName: examples
     remarks: ''
@@ -34,11 +34,11 @@ properties:
       return:
         description: ''
         type: >-
-          undefined | [key: string]: <xref
-          uid="@azure/arm-apimanagement.ParameterExampleContract" />
+          undefined | [key: string]: @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ParameterExampleContract" />
   - name: formParameters
-    uid: '@azure/arm-apimanagement.RepresentationContract.formParameters'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RepresentationContract.formParameters'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Collection of form parameters. Required if 'contentType' value is either
       'application/x-www-form-urlencoded' or 'multipart/form-data'..
@@ -49,10 +49,10 @@ properties:
       content: 'formParameters?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'
   - name: schemaId
-    uid: '@azure/arm-apimanagement.RepresentationContract.schemaId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RepresentationContract.schemaId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Schema identifier. Applicable only if 'contentType' value is neither
       'application/x-www-form-urlencoded' nor 'multipart/form-data'.
@@ -65,8 +65,8 @@ properties:
         description: ''
         type: undefined | string
   - name: typeName
-    uid: '@azure/arm-apimanagement.RepresentationContract.typeName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RepresentationContract.typeName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Type name defined by the schema. Applicable only if 'contentType' value is
       neither 'application/x-www-form-urlencoded' nor 'multipart/form-data'.

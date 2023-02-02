@@ -1,27 +1,27 @@
 ### YamlMime:TSEnum
 name: KnownPortalRevisionStatus
-uid: '@azure/arm-apimanagement.KnownPortalRevisionStatus'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownPortalRevisionStatus'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.PortalRevisionStatus> that the
-  service accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.PortalRevisionStatus>
+  that the service accepts.
 fullName: KnownPortalRevisionStatus
 remarks: ''
 isDeprecated: false
 fields:
   - name: Completed
-    uid: '@azure/arm-apimanagement.KnownPortalRevisionStatus.Completed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPortalRevisionStatus.Completed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Portal's revision publishing completed.
   - name: Failed
-    uid: '@azure/arm-apimanagement.KnownPortalRevisionStatus.Failed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPortalRevisionStatus.Failed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Portal's revision publishing failed.
   - name: Pending
-    uid: '@azure/arm-apimanagement.KnownPortalRevisionStatus.Pending'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPortalRevisionStatus.Pending'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Portal's revision has been queued.
   - name: Publishing
-    uid: '@azure/arm-apimanagement.KnownPortalRevisionStatus.Publishing'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPortalRevisionStatus.Publishing'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Portal's revision is being published.

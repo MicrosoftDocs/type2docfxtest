@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ReportsListBySubscriptionResponse
-uid: '@azure/arm-apimanagement.ReportsListBySubscriptionResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ReportsListBySubscriptionResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listBySubscription operation.
 fullName: ReportsListBySubscriptionResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GatewayApiListByServiceResponse
-uid: '@azure/arm-apimanagement.GatewayApiListByServiceResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayApiListByServiceResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByService operation.
 fullName: GatewayApiListByServiceResponse
 remarks: ''

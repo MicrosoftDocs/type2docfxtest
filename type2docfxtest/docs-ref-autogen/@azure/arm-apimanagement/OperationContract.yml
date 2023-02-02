@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationContract
-uid: '@azure/arm-apimanagement.OperationContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OperationContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: API Operation details.
 fullName: OperationContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.OperationContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the operation. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement.OperationContract.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation Name.
     fullName: displayName
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: method
-    uid: '@azure/arm-apimanagement.OperationContract.method'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.method'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A Valid HTTP Operation Method. Typical Http Methods like GET, PUT, POST
       but not limited by only them.
@@ -47,8 +47,8 @@ properties:
         description: ''
         type: undefined | string
   - name: policies
-    uid: '@azure/arm-apimanagement.OperationContract.policies'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.policies'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation Policies
     fullName: policies
     remarks: ''
@@ -59,8 +59,8 @@ properties:
         description: ''
         type: undefined | string
   - name: request
-    uid: '@azure/arm-apimanagement.OperationContract.request'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.request'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: An entity containing request details.
     fullName: request
     remarks: ''
@@ -69,10 +69,10 @@ properties:
       content: 'request?: RequestContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.RequestContract" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.RequestContract" />'
   - name: responses
-    uid: '@azure/arm-apimanagement.OperationContract.responses'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.responses'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Array of Operation responses.
     fullName: responses
     remarks: ''
@@ -81,10 +81,10 @@ properties:
       content: 'responses?: ResponseContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ResponseContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ResponseContract" />[]'
   - name: templateParameters
-    uid: '@azure/arm-apimanagement.OperationContract.templateParameters'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.templateParameters'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of URL template parameters.
     fullName: templateParameters
     remarks: ''
@@ -93,10 +93,10 @@ properties:
       content: 'templateParameters?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'
   - name: urlTemplate
-    uid: '@azure/arm-apimanagement.OperationContract.urlTemplate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.urlTemplate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Relative URL template identifying the target resource for this operation.
       May include parameters. Example:
@@ -111,8 +111,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.OperationContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -128,11 +128,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.OperationContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -147,11 +147,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.OperationContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -167,6 +167,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

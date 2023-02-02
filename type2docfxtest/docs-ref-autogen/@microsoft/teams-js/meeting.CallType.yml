@@ -1,17 +1,17 @@
 ### YamlMime:TSEnum
 name: CallType
-uid: '@microsoft/teams-js.meeting.CallType'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.meeting.CallType'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: CallType
 remarks: ''
 isDeprecated: false
 fields:
   - name: GroupCall
-    uid: '@microsoft/teams-js.meeting.CallType.GroupCall'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.CallType.GroupCall'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: OneOnOneCall
-    uid: '@microsoft/teams-js.meeting.CallType.OneOnOneCall'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.CallType.OneOnOneCall'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''

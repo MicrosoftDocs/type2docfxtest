@@ -1,10 +1,10 @@
 ### YamlMime:TSTypeAlias
 name: DialogSubmitHandler
-uid: '@microsoft/teams-js.dialog.DialogSubmitHandler'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.dialog.DialogSubmitHandler'
+package: '@microsoft/teams-js - v2.5.0'
 summary: >-
   Handler used for receiving results when a dialog closes, either the value
-  passed by <code><xref:@microsoft/teams-js.dialog.submit></code>
+  passed by <code><xref:@microsoft/teams-js - v2.5.0.dialog.submit></code>
 
   or an error if the dialog was closed by the user.
 fullName: DialogSubmitHandler

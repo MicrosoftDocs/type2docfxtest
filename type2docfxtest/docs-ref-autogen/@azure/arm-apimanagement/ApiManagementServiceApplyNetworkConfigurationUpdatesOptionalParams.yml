@@ -1,8 +1,9 @@
 ### YamlMime:TSType
 name: ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams
 uid: >-
-  @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams
 remarks: ''
@@ -11,8 +12,9 @@ type: interface
 properties:
   - name: parameters
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.parameters
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.parameters
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Parameters supplied to the Apply Network Configuration operation. If the
       parameters are empty, all the regions in which the Api Management service
@@ -26,13 +28,14 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationParameters"
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementServiceApplyNetworkConfigurationParameters"
           />
   - name: resumeFrom
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.resumeFrom
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.resumeFrom
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A serialized poller which can be used to resume an existing paused
       Long-Running-Operation.
@@ -46,8 +49,9 @@ properties:
         type: undefined | string
   - name: updateIntervalInMs
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.updateIntervalInMs
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.updateIntervalInMs
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Delay to wait until next poll, in milliseconds.'
     fullName: updateIntervalInMs
     remarks: ''
@@ -60,8 +64,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -74,8 +79,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.onResponse
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -91,8 +97,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -105,8 +112,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -119,8 +127,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

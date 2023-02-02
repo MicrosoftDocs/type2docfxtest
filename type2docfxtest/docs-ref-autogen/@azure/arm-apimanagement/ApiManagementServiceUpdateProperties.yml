@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementServiceUpdateProperties
-uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceUpdateProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Properties of an API Management service resource description.
 fullName: ApiManagementServiceUpdateProperties
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: publisherEmail
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.publisherEmail
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.publisherEmail
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Publisher email.
     fullName: publisherEmail
     remarks: ''
@@ -23,8 +24,9 @@ properties:
         type: undefined | string
   - name: publisherName
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.publisherName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.publisherName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Publisher name.
     fullName: publisherName
     remarks: ''
@@ -37,8 +39,9 @@ properties:
 inheritedProperties:
   - name: additionalLocations
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.additionalLocations
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.additionalLocations
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Additional datacenter locations of the API Management service.
     fullName: additionalLocations
     remarks: ''
@@ -47,14 +50,16 @@ inheritedProperties:
       content: 'additionalLocations?: AdditionalLocation[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.AdditionalLocation" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AdditionalLocation" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.additionalLocations](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.additionalLocations)
+      [ApiManagementServiceBaseProperties.additionalLocations](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.additionalLocations)
   - name: apiVersionConstraint
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.apiVersionConstraint
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.apiVersionConstraint
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Control Plane Apis version constraint for the API Management service.
     fullName: apiVersionConstraint
     remarks: ''
@@ -63,13 +68,16 @@ inheritedProperties:
       content: 'apiVersionConstraint?: ApiVersionConstraint'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiVersionConstraint" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiVersionConstraint" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.apiVersionConstraint](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.apiVersionConstraint)
+      [ApiManagementServiceBaseProperties.apiVersionConstraint](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.apiVersionConstraint)
   - name: certificates
-    uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties.certificates'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.certificates
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       List of Certificates that need to be installed in the API Management
       service. Max supported certificates that can be installed is 10.
@@ -80,13 +88,18 @@ inheritedProperties:
       content: 'certificates?: CertificateConfiguration[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.CertificateConfiguration" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.CertificateConfiguration"
+          />[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.certificates](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.certificates)
+      [ApiManagementServiceBaseProperties.certificates](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.certificates)
   - name: createdAtUtc
-    uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties.createdAtUtc'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.createdAtUtc
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Creation UTC date of the API Management service.The date conforms to the
       following format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601
@@ -104,11 +117,13 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.createdAtUtc](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.createdAtUtc)
+      [ApiManagementServiceBaseProperties.createdAtUtc](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.createdAtUtc)
   - name: customProperties
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.customProperties
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.customProperties
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Custom properties of the API Management service.</br>Setting
       `Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Ciphers.TripleDes168`
@@ -152,11 +167,13 @@ inheritedProperties:
         type: 'undefined | [key: string]: string'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.customProperties](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.customProperties)
+      [ApiManagementServiceBaseProperties.customProperties](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.customProperties)
   - name: developerPortalUrl
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.developerPortalUrl
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.developerPortalUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       DEveloper Portal endpoint URL of the API Management service.
 
@@ -172,11 +189,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.developerPortalUrl](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.developerPortalUrl)
+      [ApiManagementServiceBaseProperties.developerPortalUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.developerPortalUrl)
   - name: disableGateway
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.disableGateway
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.disableGateway
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Property only valid for an Api Management service deployed in multiple
       locations. This can be used to disable the gateway in master region.
@@ -190,11 +209,13 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.disableGateway](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.disableGateway)
+      [ApiManagementServiceBaseProperties.disableGateway](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.disableGateway)
   - name: enableClientCertificate
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.enableClientCertificate
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.enableClientCertificate
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Property only meant to be used for Consumption SKU Service. This enforces
       a client certificate to be presented on each request to the gateway. This
@@ -210,11 +231,13 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.enableClientCertificate](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.enableClientCertificate)
+      [ApiManagementServiceBaseProperties.enableClientCertificate](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.enableClientCertificate)
   - name: gatewayRegionalUrl
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.gatewayRegionalUrl
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.gatewayRegionalUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gateway URL of the API Management service in the Default Region.
 
@@ -230,10 +253,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.gatewayRegionalUrl](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.gatewayRegionalUrl)
+      [ApiManagementServiceBaseProperties.gatewayRegionalUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.gatewayRegionalUrl)
   - name: gatewayUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties.gatewayUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.gatewayUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gateway URL of the API Management service.
 
@@ -249,11 +275,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.gatewayUrl](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.gatewayUrl)
+      [ApiManagementServiceBaseProperties.gatewayUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.gatewayUrl)
   - name: hostnameConfigurations
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.hostnameConfigurations
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.hostnameConfigurations
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Custom hostname configuration of the API Management service.
     fullName: hostnameConfigurations
     remarks: ''
@@ -262,14 +290,18 @@ inheritedProperties:
       content: 'hostnameConfigurations?: HostnameConfiguration[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.HostnameConfiguration" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.HostnameConfiguration"
+          />[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.hostnameConfigurations](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.hostnameConfigurations)
+      [ApiManagementServiceBaseProperties.hostnameConfigurations](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.hostnameConfigurations)
   - name: managementApiUrl
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.managementApiUrl
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.managementApiUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Management API endpoint URL of the API Management service.
 
@@ -285,11 +317,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.managementApiUrl](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.managementApiUrl)
+      [ApiManagementServiceBaseProperties.managementApiUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.managementApiUrl)
   - name: notificationSenderEmail
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.notificationSenderEmail
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.notificationSenderEmail
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Email address from which the notification will be sent.
     fullName: notificationSenderEmail
     remarks: ''
@@ -301,11 +335,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.notificationSenderEmail](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.notificationSenderEmail)
+      [ApiManagementServiceBaseProperties.notificationSenderEmail](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.notificationSenderEmail)
   - name: platformVersion
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.platformVersion
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.platformVersion
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Compute Platform Version running the service in this location.
 
@@ -318,13 +354,16 @@ inheritedProperties:
       content: 'platformVersion?: PlatformVersion'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PlatformVersion" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PlatformVersion" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.platformVersion](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.platformVersion)
+      [ApiManagementServiceBaseProperties.platformVersion](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.platformVersion)
   - name: portalUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties.portalUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.portalUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Publisher portal endpoint Url of the API Management service.
 
@@ -340,11 +379,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.portalUrl](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.portalUrl)
+      [ApiManagementServiceBaseProperties.portalUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.portalUrl)
   - name: privateEndpointConnections
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.privateEndpointConnections
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.privateEndpointConnections
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: List of Private Endpoint Connections of this service.
     fullName: privateEndpointConnections
     remarks: ''
@@ -354,16 +395,17 @@ inheritedProperties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper"
-          />[]
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.RemotePrivateEndpointConnectionWrapper" />[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.privateEndpointConnections](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.privateEndpointConnections)
+      [ApiManagementServiceBaseProperties.privateEndpointConnections](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.privateEndpointConnections)
   - name: privateIPAddresses
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.privateIPAddresses
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.privateIPAddresses
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Private Static Load Balanced IP addresses of the API Management service in
       Primary region which is deployed in an Internal Virtual Network. Available
@@ -381,11 +423,13 @@ inheritedProperties:
         type: 'string[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.privateIPAddresses](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.privateIPAddresses)
+      [ApiManagementServiceBaseProperties.privateIPAddresses](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.privateIPAddresses)
   - name: provisioningState
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.provisioningState
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.provisioningState
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The current provisioning state of the API Management service which can be
       one of the following:
@@ -403,11 +447,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.provisioningState](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.provisioningState)
+      [ApiManagementServiceBaseProperties.provisioningState](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.provisioningState)
   - name: publicIPAddresses
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.publicIPAddresses
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.publicIPAddresses
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Public Static Load Balanced IP addresses of the API Management service in
       Primary region. Available only for Basic, Standard, Premium and Isolated
@@ -425,11 +471,13 @@ inheritedProperties:
         type: 'string[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.publicIPAddresses](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.publicIPAddresses)
+      [ApiManagementServiceBaseProperties.publicIPAddresses](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.publicIPAddresses)
   - name: publicIpAddressId
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.publicIpAddressId
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.publicIpAddressId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Public Standard SKU IP V4 based IP address to be associated with Virtual
       Network deployed service in the region. Supported only for Developer and
@@ -444,11 +492,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.publicIpAddressId](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.publicIpAddressId)
+      [ApiManagementServiceBaseProperties.publicIpAddressId](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.publicIpAddressId)
   - name: publicNetworkAccess
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.publicNetworkAccess
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.publicNetworkAccess
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Whether or not public endpoint access is allowed for this API Management
       service.  Value is optional but if passed in, must be 'Enabled' or
@@ -461,13 +511,16 @@ inheritedProperties:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PublicNetworkAccess" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PublicNetworkAccess" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.publicNetworkAccess](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.publicNetworkAccess)
+      [ApiManagementServiceBaseProperties.publicNetworkAccess](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.publicNetworkAccess)
   - name: restore
-    uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties.restore'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.restore
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Undelete Api Management Service if it was previously soft-deleted. If this
       flag is specified and set to True all other properties will be ignored.
@@ -481,10 +534,13 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.restore](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.restore)
+      [ApiManagementServiceBaseProperties.restore](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.restore)
   - name: scmUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceUpdateProperties.scmUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.scmUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       SCM endpoint URL of the API Management service.
 
@@ -500,11 +556,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.scmUrl](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.scmUrl)
+      [ApiManagementServiceBaseProperties.scmUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.scmUrl)
   - name: targetProvisioningState
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.targetProvisioningState
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.targetProvisioningState
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The provisioning state of the API Management service, which is targeted by
       the long running operation started on the service.
@@ -521,11 +579,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.targetProvisioningState](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.targetProvisioningState)
+      [ApiManagementServiceBaseProperties.targetProvisioningState](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.targetProvisioningState)
   - name: virtualNetworkConfiguration
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.virtualNetworkConfiguration
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.virtualNetworkConfiguration
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Virtual network configuration of the API Management service.
     fullName: virtualNetworkConfiguration
     remarks: ''
@@ -534,14 +594,18 @@ inheritedProperties:
       content: 'virtualNetworkConfiguration?: VirtualNetworkConfiguration'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.VirtualNetworkConfiguration" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.VirtualNetworkConfiguration" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.virtualNetworkConfiguration](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.virtualNetworkConfiguration)
+      [ApiManagementServiceBaseProperties.virtualNetworkConfiguration](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.virtualNetworkConfiguration)
   - name: virtualNetworkType
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceUpdateProperties.virtualNetworkType
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceUpdateProperties.virtualNetworkType
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of VPN in which API Management service needs to be configured in.
       None (Default Value) means the API Management service is not part of any
@@ -556,8 +620,11 @@ inheritedProperties:
       content: 'virtualNetworkType?: VirtualNetworkType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.VirtualNetworkType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.VirtualNetworkType" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiManagementServiceBaseProperties.virtualNetworkType](xref:@azure/arm-apimanagement.ApiManagementServiceBaseProperties.virtualNetworkType)
-extends: <xref uid="@azure/arm-apimanagement.ApiManagementServiceBaseProperties" />
+      [ApiManagementServiceBaseProperties.virtualNetworkType](xref:@azure/arm-apimanagement
+      - v8.1.2.ApiManagementServiceBaseProperties.virtualNetworkType)
+extends: >-
+  @azure/arm-apimanagement - <xref
+  uid="v8.1.2.ApiManagementServiceBaseProperties" />

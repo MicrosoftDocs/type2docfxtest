@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: CreatedByType
-uid: '@azure/arm-apimanagement.CreatedByType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.CreatedByType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for CreatedByType. \
 
-  <xref:@azure/arm-apimanagement.KnownCreatedByType> can be used interchangeably
-  with CreatedByType,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownCreatedByType> can be used
+  interchangeably with CreatedByType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

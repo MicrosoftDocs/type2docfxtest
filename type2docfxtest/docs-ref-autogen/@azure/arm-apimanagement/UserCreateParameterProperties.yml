@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserCreateParameterProperties
-uid: '@azure/arm-apimanagement.UserCreateParameterProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameters supplied to the Create User operation.
 fullName: UserCreateParameterProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: appType
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.appType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.appType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines the type of application which send the create user request.
       Default is legacy portal.
@@ -21,10 +21,12 @@ properties:
       content: 'appType?: AppType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AppType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AppType" />'
   - name: confirmation
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.confirmation'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.UserCreateParameterProperties.confirmation
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines the type of confirmation e-mail that will be sent to the newly
       created user.
@@ -35,10 +37,10 @@ properties:
       content: 'confirmation?: Confirmation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Confirmation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Confirmation" />'
   - name: email
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.email'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.email'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Email address. Must not be empty and must be unique within the service
       instance.
@@ -51,8 +53,8 @@ properties:
         description: ''
         type: string
   - name: firstName
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.firstName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.firstName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: First name.
     fullName: firstName
     remarks: ''
@@ -63,8 +65,8 @@ properties:
         description: ''
         type: string
   - name: lastName
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.lastName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.lastName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Last name.
     fullName: lastName
     remarks: ''
@@ -75,8 +77,8 @@ properties:
         description: ''
         type: string
   - name: password
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.password'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.password'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'User Password. If no value is provided, a default password is generated.'
     fullName: password
     remarks: ''
@@ -88,8 +90,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: identities
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.identities'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.identities'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of user identities.
     fullName: identities
     remarks: ''
@@ -98,13 +100,16 @@ inheritedProperties:
       content: 'identities?: UserIdentityContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.UserIdentityContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.UserIdentityContract"
+          />[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [UserEntityBaseParameters.identities](xref:@azure/arm-apimanagement.UserEntityBaseParameters.identities)
+      [UserEntityBaseParameters.identities](xref:@azure/arm-apimanagement -
+      v8.1.2.UserEntityBaseParameters.identities)
   - name: note
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.note'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.note'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Optional note about a user set by the administrator.
     fullName: note
     remarks: ''
@@ -116,10 +121,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [UserEntityBaseParameters.note](xref:@azure/arm-apimanagement.UserEntityBaseParameters.note)
+      [UserEntityBaseParameters.note](xref:@azure/arm-apimanagement -
+      v8.1.2.UserEntityBaseParameters.note)
   - name: state
-    uid: '@azure/arm-apimanagement.UserCreateParameterProperties.state'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameterProperties.state'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Account state. Specifies whether the user is active or not. Blocked users
       are unable to sign into the developer portal or call any APIs of
@@ -131,8 +137,9 @@ inheritedProperties:
       content: 'state?: UserState'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserState" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserState" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [UserEntityBaseParameters.state](xref:@azure/arm-apimanagement.UserEntityBaseParameters.state)
-extends: <xref uid="@azure/arm-apimanagement.UserEntityBaseParameters" />
+      [UserEntityBaseParameters.state](xref:@azure/arm-apimanagement -
+      v8.1.2.UserEntityBaseParameters.state)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserEntityBaseParameters" />'

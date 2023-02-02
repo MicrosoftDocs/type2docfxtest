@@ -1,14 +1,14 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.dialog.bot'
+uid: '@microsoft/teams-js - v2.5.0.dialog.bot'
 name: bot
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Namespace to open a dialog that sends results to the bot framework
 previewState: beta
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.dialog.bot.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.dialog.bot.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if dialog.bot capability is supported by the host
     remarks: ''
     previewState: beta
@@ -19,8 +19,8 @@ functions:
         description: boolean to represent whether dialog.bot is supported
         type: boolean
   - name: 'open(BotUrlDialogInfo, DialogSubmitHandler, PostMessageChannel)'
-    uid: '@microsoft/teams-js.dialog.bot.open'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.dialog.bot.open'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Allows an app to open the dialog module using bot.
     remarks: ''
     previewState: beta
@@ -31,14 +31,18 @@ functions:
         DialogSubmitHandler, messageFromChildHandler?: PostMessageChannel)
       parameters:
         - id: botUrlDialogInfo
-          type: <xref uid="@microsoft/teams-js.BotUrlDialogInfo" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.BotUrlDialogInfo" />'
           description: >-
             An object containing the parameters of the dialog module including
             completionBotId.
         - id: submitHandler
-          type: <xref uid="@microsoft/teams-js.dialog.DialogSubmitHandler" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.dialog.DialogSubmitHandler"
+            />
           description: Handler that triggers when the dialog has been submitted or closed.
         - id: messageFromChildHandler
-          type: <xref uid="@microsoft/teams-js.dialog.PostMessageChannel" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.dialog.PostMessageChannel"
+            />
           description: |
             Handler that triggers if dialog sends a message to the app.

@@ -1,7 +1,9 @@
 ### YamlMime:TSType
 name: ConnectivityCheckRequestProtocolConfiguration
-uid: '@azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfiguration'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.ConnectivityCheckRequestProtocolConfiguration
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Protocol-specific configuration.
 fullName: ConnectivityCheckRequestProtocolConfiguration
 remarks: ''
@@ -10,8 +12,9 @@ type: interface
 properties:
   - name: httpConfiguration
     uid: >-
-      @azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfiguration.httpConfiguration
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ConnectivityCheckRequestProtocolConfiguration.httpConfiguration
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Configuration for HTTP or HTTPS requests.
     fullName: httpConfiguration
     remarks: ''
@@ -23,6 +26,6 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration"
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration"
           />

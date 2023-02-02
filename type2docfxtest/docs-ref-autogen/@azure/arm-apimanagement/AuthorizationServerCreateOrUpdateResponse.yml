@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AuthorizationServerCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.AuthorizationServerCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServerCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: AuthorizationServerCreateOrUpdateResponse
 remarks: ''

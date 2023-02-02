@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PolicyGetResponse
-uid: '@azure/arm-apimanagement.PolicyGetResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PolicyGetResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the get operation.
 fullName: PolicyGetResponse
 remarks: ''

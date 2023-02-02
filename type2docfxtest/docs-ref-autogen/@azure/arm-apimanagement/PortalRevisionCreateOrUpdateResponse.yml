@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PortalRevisionCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.PortalRevisionCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PortalRevisionCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: PortalRevisionCreateOrUpdateResponse
 remarks: ''

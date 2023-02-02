@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: SentenceSentimentLabel
-uid: '@azure/ai-text-analytics.SentenceSentimentLabel'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentimentLabel'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Defines values for SentenceSentimentLabel.
 fullName: SentenceSentimentLabel
 remarks: ''

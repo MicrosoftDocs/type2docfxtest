@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RetryOptions
-uid: '@azure/app-configuration.RetryOptions'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.RetryOptions'
+package: '@azure/app-configuration - v1.3.1'
 summary: Options that control how to retry failed requests.
 fullName: RetryOptions
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: maxRetries
-    uid: '@azure/app-configuration.RetryOptions.maxRetries'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.RetryOptions.maxRetries'
+    package: '@azure/app-configuration - v1.3.1'
     summary: The maximum number of retry attempts.  Defaults to 3.
     fullName: maxRetries
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: number
   - name: maxRetryDelayInMs
-    uid: '@azure/app-configuration.RetryOptions.maxRetryDelayInMs'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.RetryOptions.maxRetryDelayInMs'
+    package: '@azure/app-configuration - v1.3.1'
     summary: The maximum delay in milliseconds allowed before retrying an operation.
     fullName: maxRetryDelayInMs
     remarks: ''

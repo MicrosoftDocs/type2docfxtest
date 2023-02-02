@@ -1,19 +1,19 @@
 ### YamlMime:TSEnum
 name: KnownAppType
-uid: '@azure/arm-apimanagement.KnownAppType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownAppType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.AppType> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.AppType> that the
+  service accepts.
 fullName: KnownAppType
 remarks: ''
 isDeprecated: false
 fields:
   - name: DeveloperPortal
-    uid: '@azure/arm-apimanagement.KnownAppType.DeveloperPortal'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownAppType.DeveloperPortal'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: User create request was sent by new developer portal.
   - name: Portal
-    uid: '@azure/arm-apimanagement.KnownAppType.Portal'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownAppType.Portal'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: User create request was sent by legacy developer portal.

@@ -1,23 +1,27 @@
 ### YamlMime:TSEnum
 name: KnownAccessType
-uid: '@azure/arm-apimanagement.KnownAccessType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownAccessType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.AccessType> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.AccessType> that the
+  service accepts.
 fullName: KnownAccessType
 remarks: ''
 isDeprecated: false
 fields:
   - name: AccessKey
-    uid: '@azure/arm-apimanagement.KnownAccessType.AccessKey'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownAccessType.AccessKey'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Use access key.
   - name: SystemAssignedManagedIdentity
-    uid: '@azure/arm-apimanagement.KnownAccessType.SystemAssignedManagedIdentity'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownAccessType.SystemAssignedManagedIdentity
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Use system assigned managed identity.
   - name: UserAssignedManagedIdentity
-    uid: '@azure/arm-apimanagement.KnownAccessType.UserAssignedManagedIdentity'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownAccessType.UserAssignedManagedIdentity
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Use user assigned managed identity.

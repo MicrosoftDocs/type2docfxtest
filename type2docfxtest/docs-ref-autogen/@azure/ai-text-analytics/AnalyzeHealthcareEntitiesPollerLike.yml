@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AnalyzeHealthcareEntitiesPollerLike
-uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareEntitiesPollerLike'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Result type of the Health Long-Running-Operation (LRO)
 fullName: AnalyzeHealthcareEntitiesPollerLike
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TenantConfiguration
-uid: '@azure/arm-apimanagement.TenantConfiguration'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a TenantConfiguration.
 fullName: TenantConfiguration
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       beginDeploy(string, string, ConfigurationIdName,
       DeployConfigurationParameters, TenantConfigurationDeployOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.beginDeploy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.beginDeploy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       This operation applies changes from the specified Git branch to the
       configuration database. This is
@@ -36,33 +36,31 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-apimanagement.DeployConfigurationParameters"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.DeployConfigurationParameters" />
           description: Deploy Configuration parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationDeployOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationDeployOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationDeployResponse"
-          />&gt;, <xref
-          uid="@azure/arm-apimanagement.TenantConfigurationDeployResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.TenantConfigurationDeployResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationDeployResponse" />&gt;&gt;
   - name: >-
       beginDeployAndWait(string, string, ConfigurationIdName,
       DeployConfigurationParameters, TenantConfigurationDeployOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.beginDeployAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.beginDeployAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       This operation applies changes from the specified Git branch to the
       configuration database. This is
@@ -85,31 +83,29 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-apimanagement.DeployConfigurationParameters"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.DeployConfigurationParameters" />
           description: Deploy Configuration parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationDeployOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationDeployOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationDeployResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationDeployResponse" />&gt;
   - name: >-
       beginSave(string, string, ConfigurationIdName, SaveConfigurationParameter,
       TenantConfigurationSaveOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.beginSave'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.beginSave'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       This operation creates a commit with the current configuration snapshot to
       the specified branch in
@@ -134,30 +130,31 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.SaveConfigurationParameter" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.SaveConfigurationParameter" />
           description: Save Configuration parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationSaveOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationSaveOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationSaveResponse" />&gt;,
-          <xref uid="@azure/arm-apimanagement.TenantConfigurationSaveResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.TenantConfigurationSaveResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationSaveResponse" />&gt;&gt;
   - name: >-
       beginSaveAndWait(string, string, ConfigurationIdName,
       SaveConfigurationParameter, TenantConfigurationSaveOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.beginSaveAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.beginSaveAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       This operation creates a commit with the current configuration snapshot to
       the specified branch in
@@ -181,28 +178,29 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.SaveConfigurationParameter" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.SaveConfigurationParameter" />
           description: Save Configuration parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationSaveOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationSaveOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationSaveResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationSaveResponse" />&gt;
   - name: >-
       beginValidate(string, string, ConfigurationIdName,
       DeployConfigurationParameters, TenantConfigurationValidateOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.beginValidate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.beginValidate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       This operation validates the changes in the specified Git branch. This is
       a long running operation
@@ -226,33 +224,31 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-apimanagement.DeployConfigurationParameters"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.DeployConfigurationParameters" />
           description: Validate Configuration parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationValidateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationValidateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationValidateResponse"
-          />&gt;, <xref
-          uid="@azure/arm-apimanagement.TenantConfigurationValidateResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.TenantConfigurationValidateResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationValidateResponse" />&gt;&gt;
   - name: >-
       beginValidateAndWait(string, string, ConfigurationIdName,
       DeployConfigurationParameters, TenantConfigurationValidateOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.beginValidateAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.beginValidateAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       This operation validates the changes in the specified Git branch. This is
       a long running operation
@@ -275,31 +271,29 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-apimanagement.DeployConfigurationParameters"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.DeployConfigurationParameters" />
           description: Validate Configuration parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationValidateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationValidateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationValidateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationValidateResponse" />&gt;
   - name: >-
       getSyncState(string, string, ConfigurationIdName,
       TenantConfigurationGetSyncStateOptionalParams)
-    uid: '@azure/arm-apimanagement.TenantConfiguration.getSyncState'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TenantConfiguration.getSyncState'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the status of the most recent synchronization between the
       configuration database and the Git
@@ -321,18 +315,16 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: configurationName
-          type: <xref uid="@azure/arm-apimanagement.ConfigurationIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConfigurationIdName" />'
           description: The identifier of the Git Configuration Operation.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.TenantConfigurationGetSyncStateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.TenantConfigurationGetSyncStateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.TenantConfigurationGetSyncStateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.TenantConfigurationGetSyncStateResponse" />&gt;

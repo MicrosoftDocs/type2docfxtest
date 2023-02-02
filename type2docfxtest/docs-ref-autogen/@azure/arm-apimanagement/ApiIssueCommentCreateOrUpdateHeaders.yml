@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiIssueCommentCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.ApiIssueCommentCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueCommentCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for ApiIssueComment_createOrUpdate operation.
 fullName: ApiIssueCommentCreateOrUpdateHeaders
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.ApiIssueCommentCreateOrUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueCommentCreateOrUpdateHeaders.eTag
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

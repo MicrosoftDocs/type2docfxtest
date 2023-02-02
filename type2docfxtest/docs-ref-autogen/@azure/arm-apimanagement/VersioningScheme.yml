@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: VersioningScheme
-uid: '@azure/arm-apimanagement.VersioningScheme'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.VersioningScheme'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for VersioningScheme. \
 
-  <xref:@azure/arm-apimanagement.KnownVersioningScheme> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownVersioningScheme> can be used
   interchangeably with VersioningScheme,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

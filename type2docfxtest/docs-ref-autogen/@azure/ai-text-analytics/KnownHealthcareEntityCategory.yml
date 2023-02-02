@@ -1,116 +1,149 @@
 ### YamlMime:TSEnum
 name: KnownHealthcareEntityCategory
-uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
-  Known values of <xref:@azure/ai-text-analytics.HealthcareEntityCategory> that
-  the service accepts.
+  Known values of <xref:@azure/ai-text-analytics -
+  v5.1.0.HealthcareEntityCategory> that the service accepts.
 fullName: KnownHealthcareEntityCategory
 remarks: ''
 isDeprecated: false
 fields:
   - name: AGE
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.AGE'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.AGE'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: AdministrativeEvent
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.AdministrativeEvent'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.AdministrativeEvent
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: BodyStructure
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.BodyStructure'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.BodyStructure
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: CareEnvironment
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.CareEnvironment'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.CareEnvironment
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: ConditionQualifier
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.ConditionQualifier'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.ConditionQualifier
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Date
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Date'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Date'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Diagnosis
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Diagnosis'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Diagnosis'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Direction
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Direction'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Direction'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Dosage
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Dosage'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Dosage'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: ExaminationName
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.ExaminationName'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.ExaminationName
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: FamilyRelation
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.FamilyRelation'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.FamilyRelation
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Frequency
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Frequency'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Frequency'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Gender
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Gender'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Gender'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: GeneORProtein
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.GeneORProtein'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.GeneORProtein
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: HealthcareProfession
     uid: >-
-      @azure/ai-text-analytics.KnownHealthcareEntityCategory.HealthcareProfession
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.HealthcareProfession
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MeasurementUnit
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.MeasurementUnit'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.MeasurementUnit
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MeasurementValue
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.MeasurementValue'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.MeasurementValue
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MedicationClass
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationClass'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.MedicationClass
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MedicationForm
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationForm'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.MedicationForm
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MedicationName
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationName'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.MedicationName
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MedicationRoute
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationRoute'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.MedicationRoute
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: RelationalOperator
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.RelationalOperator'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.RelationalOperator
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: SymptomORSign
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.SymptomORSign'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.SymptomORSign
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Time
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Time'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Time'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: TreatmentName
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.TreatmentName'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownHealthcareEntityCategory.TreatmentName
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: Variant
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Variant'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory.Variant'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''

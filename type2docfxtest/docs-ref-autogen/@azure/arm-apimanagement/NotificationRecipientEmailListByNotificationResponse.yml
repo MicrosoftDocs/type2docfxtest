@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: NotificationRecipientEmailListByNotificationResponse
-uid: '@azure/arm-apimanagement.NotificationRecipientEmailListByNotificationResponse'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.NotificationRecipientEmailListByNotificationResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByNotification operation.
 fullName: NotificationRecipientEmailListByNotificationResponse
 remarks: ''

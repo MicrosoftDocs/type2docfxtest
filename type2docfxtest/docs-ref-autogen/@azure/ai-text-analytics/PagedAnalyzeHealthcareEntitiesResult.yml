@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PagedAnalyzeHealthcareEntitiesResult
-uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.PagedAnalyzeHealthcareEntitiesResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: |-
   The results of a healthcare operation represented as a paged iterator that can
   either iterate over the results on a document-by-document basis or, by
@@ -12,8 +12,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: modelVersion
-    uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult.modelVersion'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.PagedAnalyzeHealthcareEntitiesResult.modelVersion
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: |-
       The version of the text analytics model used by this operation on this
       batch of input documents.
@@ -26,8 +28,10 @@ properties:
         description: ''
         type: string
   - name: statistics
-    uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult.statistics'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.PagedAnalyzeHealthcareEntitiesResult.statistics
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Statistics about the input document batch and how it was processed
 
@@ -42,11 +46,15 @@ properties:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.TextDocumentBatchStatistics" />
 inheritedProperties:
   - name: byPage
-    uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult.byPage'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.PagedAnalyzeHealthcareEntitiesResult.byPage
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Return an AsyncIterableIterator that works a page at a time
     fullName: byPage
     remarks: ''
@@ -59,8 +67,10 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> PagedAsyncIterableIterator.byPage
 inheritedMethods:
   - name: next()
-    uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult.next'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.PagedAnalyzeHealthcareEntitiesResult.next
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: 'The next method, part of the iteration protocol'
     remarks: ''
     isDeprecated: false
@@ -70,4 +80,20 @@ inheritedMethods:
         description: ''
         type: Promise&lt;IteratorResult&lt;TElement&gt;&gt;
     inheritanceDescription: <b>Inherited From</b> PagedAsyncIterableIterator.next
+  - name: '[Symbol.asyncIterator]()'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.PagedAnalyzeHealthcareEntitiesResult.[Symbol.asyncIterator]
+    package: '@azure/ai-text-analytics - v5.1.0'
+    summary: 'The connection to the async iterator, part of the iteration protocol'
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function [Symbol.asyncIterator](): PagedAsyncIterableIterator<TElement,
+        TPage, TPageSettings>
+      return:
+        description: ''
+        type: 'PagedAsyncIterableIterator&lt;TElement, TPage, TPageSettings&gt;'
+    inheritanceDescription: '<b>Inherited From</b> PagedAsyncIterableIterator.[Symbol.asyncIterator]'
 extends: PagedAsyncIterableIterator

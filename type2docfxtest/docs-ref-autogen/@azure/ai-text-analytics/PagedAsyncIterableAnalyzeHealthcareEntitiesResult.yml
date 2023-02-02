@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: PagedAsyncIterableAnalyzeHealthcareEntitiesResult
-uid: '@azure/ai-text-analytics.PagedAsyncIterableAnalyzeHealthcareEntitiesResult'
-package: '@azure/ai-text-analytics'
+uid: >-
+  @azure/ai-text-analytics -
+  v5.1.0.PagedAsyncIterableAnalyzeHealthcareEntitiesResult
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: |-
   The results of a healthcare operation represented as a paged iterator that can
   either iterate over the results on a document-by-document basis or, by

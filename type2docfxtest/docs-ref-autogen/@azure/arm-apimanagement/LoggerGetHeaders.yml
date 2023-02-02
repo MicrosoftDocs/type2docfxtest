@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: LoggerGetHeaders
-uid: '@azure/arm-apimanagement.LoggerGetHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.LoggerGetHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Logger_get operation.
 fullName: LoggerGetHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.LoggerGetHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerGetHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

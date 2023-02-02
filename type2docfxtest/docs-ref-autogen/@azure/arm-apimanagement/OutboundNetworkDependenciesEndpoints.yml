@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OutboundNetworkDependenciesEndpoints
-uid: '@azure/arm-apimanagement.OutboundNetworkDependenciesEndpoints'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OutboundNetworkDependenciesEndpoints'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a OutboundNetworkDependenciesEndpoints.
 fullName: OutboundNetworkDependenciesEndpoints
 remarks: ''
@@ -12,8 +12,9 @@ methods:
       listByService(string, string,
       OutboundNetworkDependenciesEndpointsListByServiceOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.OutboundNetworkDependenciesEndpoints.listByService
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.OutboundNetworkDependenciesEndpoints.listByService
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the network endpoints of all outbound dependencies of a ApiManagement
       service.
@@ -34,14 +35,14 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.OutboundNetworkDependenciesEndpointsListByServiceOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.OutboundNetworkDependenciesEndpointsListByServiceOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.OutboundNetworkDependenciesEndpointsListByServiceResponse"
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.OutboundNetworkDependenciesEndpointsListByServiceResponse"
           />&gt;

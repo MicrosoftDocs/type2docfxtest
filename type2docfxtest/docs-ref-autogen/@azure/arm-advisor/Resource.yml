@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Resource
-uid: '@azure/arm-advisor.Resource'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.Resource'
+package: '@azure/arm-advisor - v3.1.0'
 summary: An Azure resource.
 fullName: Resource
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: id
-    uid: '@azure/arm-advisor.Resource.id'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Resource.id'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       The resource ID.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: '@azure/arm-advisor.Resource.name'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Resource.name'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       The name of the resource.
 
@@ -41,8 +41,8 @@ properties:
         description: ''
         type: undefined | string
   - name: type
-    uid: '@azure/arm-advisor.Resource.type'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Resource.type'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       The type of the resource.
 

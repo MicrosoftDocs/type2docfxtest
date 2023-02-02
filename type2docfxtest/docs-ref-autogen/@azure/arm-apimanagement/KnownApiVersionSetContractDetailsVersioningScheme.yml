@@ -1,27 +1,31 @@
 ### YamlMime:TSEnum
 name: KnownApiVersionSetContractDetailsVersioningScheme
-uid: '@azure/arm-apimanagement.KnownApiVersionSetContractDetailsVersioningScheme'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.KnownApiVersionSetContractDetailsVersioningScheme
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of
-  <xref:@azure/arm-apimanagement.ApiVersionSetContractDetailsVersioningScheme>
-  that the service accepts.
+  Known values of <xref:@azure/arm-apimanagement -
+  v8.1.2.ApiVersionSetContractDetailsVersioningScheme> that the service accepts.
 fullName: KnownApiVersionSetContractDetailsVersioningScheme
 remarks: ''
 isDeprecated: false
 fields:
   - name: Header
     uid: >-
-      @azure/arm-apimanagement.KnownApiVersionSetContractDetailsVersioningScheme.Header
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownApiVersionSetContractDetailsVersioningScheme.Header
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Header
   - name: Query
     uid: >-
-      @azure/arm-apimanagement.KnownApiVersionSetContractDetailsVersioningScheme.Query
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownApiVersionSetContractDetailsVersioningScheme.Query
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Query
   - name: Segment
     uid: >-
-      @azure/arm-apimanagement.KnownApiVersionSetContractDetailsVersioningScheme.Segment
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownApiVersionSetContractDetailsVersioningScheme.Segment
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Segment

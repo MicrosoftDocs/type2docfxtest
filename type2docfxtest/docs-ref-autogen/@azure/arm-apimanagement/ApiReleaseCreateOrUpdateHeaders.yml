@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiReleaseCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.ApiReleaseCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for ApiRelease_createOrUpdate operation.
 fullName: ApiReleaseCreateOrUpdateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.ApiReleaseCreateOrUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseCreateOrUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: NetworkStatusListByLocationResponse
-uid: '@azure/arm-apimanagement.NetworkStatusListByLocationResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatusListByLocationResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByLocation operation.
 fullName: NetworkStatusListByLocationResponse
 remarks: ''

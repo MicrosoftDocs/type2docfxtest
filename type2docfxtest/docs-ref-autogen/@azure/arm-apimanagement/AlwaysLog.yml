@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: AlwaysLog
-uid: '@azure/arm-apimanagement.AlwaysLog'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.AlwaysLog'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for AlwaysLog. \
 
-  <xref:@azure/arm-apimanagement.KnownAlwaysLog> can be used interchangeably
-  with AlwaysLog,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownAlwaysLog> can be used
+  interchangeably with AlwaysLog,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

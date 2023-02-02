@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: EndpointDetail
-uid: '@azure/arm-apimanagement.EndpointDetail'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.EndpointDetail'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Current TCP connectivity information from the Api Management Service to a
   single endpoint.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: port
-    uid: '@azure/arm-apimanagement.EndpointDetail.port'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EndpointDetail.port'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The port an endpoint is connected to.
     fullName: port
     remarks: ''
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | number
   - name: region
-    uid: '@azure/arm-apimanagement.EndpointDetail.region'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EndpointDetail.region'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The region of the dependency.
     fullName: region
     remarks: ''

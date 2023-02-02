@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiSchemaListByApiResponse
-uid: '@azure/arm-apimanagement.ApiSchemaListByApiResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiSchemaListByApiResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByApi operation.
 fullName: ApiSchemaListByApiResponse
 remarks: ''

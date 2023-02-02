@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: BackendGetResponse
-uid: '@azure/arm-apimanagement.BackendGetResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.BackendGetResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the get operation.
 fullName: BackendGetResponse
 remarks: ''

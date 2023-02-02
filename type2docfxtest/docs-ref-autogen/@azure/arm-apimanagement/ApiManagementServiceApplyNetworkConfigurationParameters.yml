@@ -1,8 +1,9 @@
 ### YamlMime:TSType
 name: ApiManagementServiceApplyNetworkConfigurationParameters
 uid: >-
-  @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationParameters
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceApplyNetworkConfigurationParameters
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameter supplied to the Apply Network configuration operation.
 fullName: ApiManagementServiceApplyNetworkConfigurationParameters
 remarks: ''
@@ -11,8 +12,9 @@ type: interface
 properties:
   - name: location
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationParameters.location
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceApplyNetworkConfigurationParameters.location
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Location of the Api Management service to update for a multi-region
       service. For a service deployed in a single region, this parameter is not

@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: ConfigurationName
-uid: '@azure/arm-advisor.ConfigurationName'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.ConfigurationName'
+package: '@azure/arm-advisor - v3.1.0'
 summary: >-
   Defines values for ConfigurationName. \
 
-  <xref:@azure/arm-advisor.KnownConfigurationName> can be used interchangeably
-  with ConfigurationName,
+  <xref:@azure/arm-advisor - v3.1.0.KnownConfigurationName> can be used
+  interchangeably with ConfigurationName,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

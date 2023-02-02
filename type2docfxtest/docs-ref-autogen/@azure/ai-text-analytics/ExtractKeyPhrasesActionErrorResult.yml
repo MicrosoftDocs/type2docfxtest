@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ExtractKeyPhrasesActionErrorResult
-uid: '@azure/ai-text-analytics.ExtractKeyPhrasesActionErrorResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.ExtractKeyPhrasesActionErrorResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The error of a extract key phrases action.
 fullName: ExtractKeyPhrasesActionErrorResult
 remarks: ''

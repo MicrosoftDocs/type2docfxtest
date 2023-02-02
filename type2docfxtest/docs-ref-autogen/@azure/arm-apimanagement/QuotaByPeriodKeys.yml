@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: QuotaByPeriodKeys
-uid: '@azure/arm-apimanagement.QuotaByPeriodKeys'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.QuotaByPeriodKeys'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a QuotaByPeriodKeys.
 fullName: QuotaByPeriodKeys
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'get(string, string, string, string, QuotaByPeriodKeysGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.QuotaByPeriodKeys.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.QuotaByPeriodKeys.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the value of the quota counter associated with the counter-key in the
       policy for the specific
@@ -44,20 +44,20 @@ methods:
           description: Quota period key identifier.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.QuotaByPeriodKeysGetOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.QuotaByPeriodKeysGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.QuotaByPeriodKeysGetResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.QuotaByPeriodKeysGetResponse" />&gt;
   - name: >-
       update(string, string, string, string, QuotaCounterValueUpdateContract,
       QuotaByPeriodKeysUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.QuotaByPeriodKeys.update'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.QuotaByPeriodKeys.update'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Updates an existing quota counter value in the specified service instance.
     remarks: ''
     isDeprecated: false
@@ -88,20 +88,19 @@ methods:
           description: Quota period key identifier.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-apimanagement.QuotaCounterValueUpdateContract"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.QuotaCounterValueUpdateContract" />
           description: >-
             The value of the Quota counter to be applied on the specified
             period.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.QuotaByPeriodKeysUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.QuotaByPeriodKeysUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.QuotaByPeriodKeysUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.QuotaByPeriodKeysUpdateResponse" />&gt;

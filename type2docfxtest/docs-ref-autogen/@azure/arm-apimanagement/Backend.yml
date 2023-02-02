@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Backend
-uid: '@azure/arm-apimanagement.Backend'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.Backend'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a Backend.
 fullName: Backend
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, BackendContract,
       BackendCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.Backend.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates or Updates a backend.
     remarks: ''
     isDeprecated: false
@@ -36,23 +36,22 @@ methods:
             Management
                              service instance.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.BackendContract" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendContract" />'
           description: Create parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.BackendCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.BackendCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, BackendDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement.Backend.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified backend.
     remarks: ''
     isDeprecated: false
@@ -81,15 +80,17 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.BackendDeleteOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, BackendGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.Backend.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the details of the backend specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -111,17 +112,19 @@ methods:
             Management
                              service instance.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.BackendGetOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.BackendGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendGetResponse" />&gt;
   - name: 'getEntityTag(string, string, string, BackendGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement.Backend.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the backend specified by its
       identifier.
@@ -147,18 +150,18 @@ methods:
                              service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.BackendGetEntityTagOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.BackendGetEntityTagResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, BackendListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement.Backend.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists a collection of backends in the specified service instance.
     remarks: ''
     isDeprecated: false
@@ -176,18 +179,18 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.BackendListByServiceOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.BackendContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendContract" />&gt;
   - name: 'reconnect(string, string, string, BackendReconnectOptionalParams)'
-    uid: '@azure/arm-apimanagement.Backend.reconnect'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.reconnect'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Notifies the APIM proxy to create a new connection to the backend after
       the specified timeout. If no
@@ -215,8 +218,8 @@ methods:
                              service instance.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.BackendReconnectOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendReconnectOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -225,8 +228,8 @@ methods:
   - name: >-
       update(string, string, string, string, BackendUpdateParameters,
       BackendUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.Backend.update'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Backend.update'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Updates an existing backend.
     remarks: ''
     isDeprecated: false
@@ -255,14 +258,18 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.BackendUpdateParameters" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendUpdateParameters" />
           description: Update parameters.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.BackendUpdateOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.BackendUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.BackendUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendUpdateResponse" />&gt;

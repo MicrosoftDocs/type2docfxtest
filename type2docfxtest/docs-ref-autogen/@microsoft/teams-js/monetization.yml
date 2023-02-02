@@ -1,13 +1,13 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.monetization'
+uid: '@microsoft/teams-js - v2.5.0.monetization'
 name: monetization
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.monetization.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.monetization.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false

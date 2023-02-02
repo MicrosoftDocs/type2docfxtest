@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductApi
-uid: '@azure/arm-apimanagement.ProductApi'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductApi'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ProductApi.
 fullName: ProductApi
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       checkEntityExists(string, string, string, string,
       ProductApiCheckEntityExistsOptionalParams)
-    uid: '@azure/arm-apimanagement.ProductApi.checkEntityExists'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductApi.checkEntityExists'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Checks that API entity specified by identifier is associated with the
       Product entity.
@@ -44,22 +44,20 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ProductApiCheckEntityExistsOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ProductApiCheckEntityExistsOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ProductApiCheckEntityExistsResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ProductApiCheckEntityExistsResponse" />&gt;
   - name: >-
       createOrUpdate(string, string, string, string,
       ProductApiCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ProductApi.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductApi.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Adds an API to the specified product.
     remarks: ''
     isDeprecated: false
@@ -89,19 +87,18 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ProductApiCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ProductApiCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ProductApiCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ProductApiCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, ProductApiDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement.ProductApi.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductApi.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified API from the specified product.
     remarks: ''
     isDeprecated: false
@@ -130,8 +127,8 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.ProductApiDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ProductApiDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -140,8 +137,8 @@ methods:
   - name: >-
       listByProduct(string, string, string,
       ProductApiListByProductOptionalParams)
-    uid: '@azure/arm-apimanagement.ProductApi.listByProduct'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductApi.listByProduct'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists a collection of the APIs associated with a product.
     remarks: ''
     isDeprecated: false
@@ -164,13 +161,12 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ProductApiListByProductOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ProductApiListByProductOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.ApiContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiContract" />&gt;

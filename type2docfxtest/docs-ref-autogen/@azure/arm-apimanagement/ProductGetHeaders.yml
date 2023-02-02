@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductGetHeaders
-uid: '@azure/arm-apimanagement.ProductGetHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductGetHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Product_get operation.
 fullName: ProductGetHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.ProductGetHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductGetHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

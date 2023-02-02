@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: EntityAssertion
-uid: '@azure/ai-text-analytics.EntityAssertion'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.EntityAssertion'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: ''
 fullName: EntityAssertion
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: association
-    uid: '@azure/ai-text-analytics.EntityAssertion.association'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.EntityAssertion.association'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Describes if the entity is the subject of the text or if it describes
       someone else.
@@ -21,10 +21,10 @@ properties:
       content: 'association?: EntityAssociation'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.EntityAssociation" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.EntityAssociation" />'
   - name: certainty
-    uid: '@azure/ai-text-analytics.EntityAssertion.certainty'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.EntityAssertion.certainty'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Describes the entities certainty and polarity.
     fullName: certainty
     remarks: ''
@@ -33,10 +33,10 @@ properties:
       content: 'certainty?: EntityCertainty'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.EntityCertainty" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.EntityCertainty" />'
   - name: conditionality
-    uid: '@azure/ai-text-analytics.EntityAssertion.conditionality'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.EntityAssertion.conditionality'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Describes any conditionality on the entity.
     fullName: conditionality
     remarks: ''
@@ -45,4 +45,4 @@ properties:
       content: 'conditionality?: EntityConditionality'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.EntityConditionality" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.EntityConditionality" />'

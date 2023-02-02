@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GenerateSsoUrlResult
-uid: '@azure/arm-apimanagement.GenerateSsoUrlResult'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GenerateSsoUrlResult'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Generate SSO Url operations response details.
 fullName: GenerateSsoUrlResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: value
-    uid: '@azure/arm-apimanagement.GenerateSsoUrlResult.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GenerateSsoUrlResult.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Redirect Url containing the SSO URL value.
     fullName: value
     remarks: ''

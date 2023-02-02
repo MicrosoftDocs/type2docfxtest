@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthorizationServerGetEntityTagHeaders
-uid: '@azure/arm-apimanagement.AuthorizationServerGetEntityTagHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServerGetEntityTagHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for AuthorizationServer_getEntityTag operation.
 fullName: AuthorizationServerGetEntityTagHeaders
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.AuthorizationServerGetEntityTagHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.AuthorizationServerGetEntityTagHeaders.eTag
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

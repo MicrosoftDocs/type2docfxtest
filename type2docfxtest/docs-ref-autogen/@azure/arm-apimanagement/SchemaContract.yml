@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SchemaContract
-uid: '@azure/arm-apimanagement.SchemaContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Schema Contract details.
 fullName: SchemaContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: components
-    uid: '@azure/arm-apimanagement.SchemaContract.components'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.components'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Types definitions. Used for OpenAPI v3 schemas only, null otherwise.'
     fullName: components
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: 'Record&lt;string, unknown&gt;'
   - name: contentType
-    uid: '@azure/arm-apimanagement.SchemaContract.contentType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.contentType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Must be a valid a media type used in a Content-Type header as defined in
       the RFC 2616. Media type of the schema document (e.g. application/json,
@@ -40,8 +40,8 @@ properties:
         description: ''
         type: undefined | string
   - name: definitions
-    uid: '@azure/arm-apimanagement.SchemaContract.definitions'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.definitions'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Types definitions. Used for OpenAPI v2 (Swagger) schemas only, null
       otherwise.
@@ -54,8 +54,8 @@ properties:
         description: ''
         type: 'Record&lt;string, unknown&gt;'
   - name: value
-    uid: '@azure/arm-apimanagement.SchemaContract.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Json escaped string defining the document representing the Schema. Used
       for schemas other than Swagger/OpenAPI.
@@ -69,8 +69,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.SchemaContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -86,11 +86,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.SchemaContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -105,11 +105,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.SchemaContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -125,6 +125,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

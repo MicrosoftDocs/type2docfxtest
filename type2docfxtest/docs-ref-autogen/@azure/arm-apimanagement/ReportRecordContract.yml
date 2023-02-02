@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ReportRecordContract
-uid: '@azure/arm-apimanagement.ReportRecordContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Report data.
 fullName: ReportRecordContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiId
-    uid: '@azure/arm-apimanagement.ReportRecordContract.apiId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.apiId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'API identifier path. /apis/{apiId}'
     fullName: apiId
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiRegion
-    uid: '@azure/arm-apimanagement.ReportRecordContract.apiRegion'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.apiRegion'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: API region identifier.
     fullName: apiRegion
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiTimeAvg
-    uid: '@azure/arm-apimanagement.ReportRecordContract.apiTimeAvg'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.apiTimeAvg'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Average time it took to process request.
     fullName: apiTimeAvg
     remarks: ''
@@ -45,8 +45,8 @@ properties:
         description: ''
         type: undefined | number
   - name: apiTimeMax
-    uid: '@azure/arm-apimanagement.ReportRecordContract.apiTimeMax'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.apiTimeMax'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Maximum time it took to process request.
     fullName: apiTimeMax
     remarks: ''
@@ -57,8 +57,8 @@ properties:
         description: ''
         type: undefined | number
   - name: apiTimeMin
-    uid: '@azure/arm-apimanagement.ReportRecordContract.apiTimeMin'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.apiTimeMin'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Minimum time it took to process request.
     fullName: apiTimeMin
     remarks: ''
@@ -69,8 +69,8 @@ properties:
         description: ''
         type: undefined | number
   - name: bandwidth
-    uid: '@azure/arm-apimanagement.ReportRecordContract.bandwidth'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.bandwidth'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Bandwidth consumed.
     fullName: bandwidth
     remarks: ''
@@ -81,8 +81,8 @@ properties:
         description: ''
         type: undefined | number
   - name: cacheHitCount
-    uid: '@azure/arm-apimanagement.ReportRecordContract.cacheHitCount'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.cacheHitCount'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of times when content was served from cache policy.
     fullName: cacheHitCount
     remarks: ''
@@ -93,8 +93,8 @@ properties:
         description: ''
         type: undefined | number
   - name: cacheMissCount
-    uid: '@azure/arm-apimanagement.ReportRecordContract.cacheMissCount'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.cacheMissCount'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of times content was fetched from backend.
     fullName: cacheMissCount
     remarks: ''
@@ -105,8 +105,8 @@ properties:
         description: ''
         type: undefined | number
   - name: callCountBlocked
-    uid: '@azure/arm-apimanagement.ReportRecordContract.callCountBlocked'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.callCountBlocked'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Number of calls blocked due to invalid credentials. This includes calls
       returning HttpStatusCode.Unauthorized and HttpStatusCode.Forbidden and
@@ -120,8 +120,8 @@ properties:
         description: ''
         type: undefined | number
   - name: callCountFailed
-    uid: '@azure/arm-apimanagement.ReportRecordContract.callCountFailed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.callCountFailed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Number of calls failed due to proxy or backend errors. This includes calls
       returning HttpStatusCode.BadRequest(400) and any Code between
@@ -135,8 +135,8 @@ properties:
         description: ''
         type: undefined | number
   - name: callCountOther
-    uid: '@azure/arm-apimanagement.ReportRecordContract.callCountOther'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.callCountOther'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of other calls.
     fullName: callCountOther
     remarks: ''
@@ -147,8 +147,8 @@ properties:
         description: ''
         type: undefined | number
   - name: callCountSuccess
-    uid: '@azure/arm-apimanagement.ReportRecordContract.callCountSuccess'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.callCountSuccess'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Number of successful calls. This includes calls returning HttpStatusCode
       <= 301 and HttpStatusCode.NotModified and HttpStatusCode.TemporaryRedirect
@@ -161,8 +161,8 @@ properties:
         description: ''
         type: undefined | number
   - name: callCountTotal
-    uid: '@azure/arm-apimanagement.ReportRecordContract.callCountTotal'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.callCountTotal'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total number of calls.
     fullName: callCountTotal
     remarks: ''
@@ -173,8 +173,8 @@ properties:
         description: ''
         type: undefined | number
   - name: country
-    uid: '@azure/arm-apimanagement.ReportRecordContract.country'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.country'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Country to which this record data is related.
     fullName: country
     remarks: ''
@@ -185,8 +185,8 @@ properties:
         description: ''
         type: undefined | string
   - name: interval
-    uid: '@azure/arm-apimanagement.ReportRecordContract.interval'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.interval'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Length of aggregation period.  Interval must be multiple of 15 minutes and
       may not be zero. The value should be in ISO 8601 format
@@ -200,8 +200,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: '@azure/arm-apimanagement.ReportRecordContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Name depending on report endpoint specifies product, API, operation or
       developer name.
@@ -214,8 +214,8 @@ properties:
         description: ''
         type: undefined | string
   - name: operationId
-    uid: '@azure/arm-apimanagement.ReportRecordContract.operationId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.operationId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Operation identifier path. /apis/{apiId}/operations/{operationId}'
     fullName: operationId
     remarks: ''
@@ -226,8 +226,8 @@ properties:
         description: ''
         type: undefined | string
   - name: productId
-    uid: '@azure/arm-apimanagement.ReportRecordContract.productId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.productId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Product identifier path. /products/{productId}
 
@@ -242,8 +242,8 @@ properties:
         description: ''
         type: undefined | string
   - name: region
-    uid: '@azure/arm-apimanagement.ReportRecordContract.region'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.region'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Country region to which this record data is related.
     fullName: region
     remarks: ''
@@ -254,8 +254,8 @@ properties:
         description: ''
         type: undefined | string
   - name: serviceTimeAvg
-    uid: '@azure/arm-apimanagement.ReportRecordContract.serviceTimeAvg'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.serviceTimeAvg'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Average time it took to process request on backend.
     fullName: serviceTimeAvg
     remarks: ''
@@ -266,8 +266,8 @@ properties:
         description: ''
         type: undefined | number
   - name: serviceTimeMax
-    uid: '@azure/arm-apimanagement.ReportRecordContract.serviceTimeMax'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.serviceTimeMax'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Maximum time it took to process request on backend.
     fullName: serviceTimeMax
     remarks: ''
@@ -278,8 +278,8 @@ properties:
         description: ''
         type: undefined | number
   - name: serviceTimeMin
-    uid: '@azure/arm-apimanagement.ReportRecordContract.serviceTimeMin'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.serviceTimeMin'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Minimum time it took to process request on backend.
     fullName: serviceTimeMin
     remarks: ''
@@ -290,8 +290,8 @@ properties:
         description: ''
         type: undefined | number
   - name: subscriptionId
-    uid: '@azure/arm-apimanagement.ReportRecordContract.subscriptionId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.subscriptionId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Subscription identifier path. /subscriptions/{subscriptionId}'
     fullName: subscriptionId
     remarks: ''
@@ -302,8 +302,8 @@ properties:
         description: ''
         type: undefined | string
   - name: timestamp
-    uid: '@azure/arm-apimanagement.ReportRecordContract.timestamp'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.timestamp'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Start of aggregation period. The date conforms to the following format:
       `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601 standard.
@@ -316,8 +316,8 @@ properties:
         description: ''
         type: Date
   - name: userId
-    uid: '@azure/arm-apimanagement.ReportRecordContract.userId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.userId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       User identifier path. /users/{userId}
 
@@ -332,8 +332,8 @@ properties:
         description: ''
         type: undefined | string
   - name: zip
-    uid: '@azure/arm-apimanagement.ReportRecordContract.zip'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ReportRecordContract.zip'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Zip code to which this record data is related.
     fullName: zip
     remarks: ''

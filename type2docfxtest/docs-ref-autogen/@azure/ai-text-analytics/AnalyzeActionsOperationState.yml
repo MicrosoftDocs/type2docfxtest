@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AnalyzeActionsOperationState
-uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The state of the begin analyze polling operation.
 fullName: AnalyzeActionsOperationState
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: actionsFailedCount
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.actionsFailedCount'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsOperationState.actionsFailedCount
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Number of failed actions.
     fullName: actionsFailedCount
     remarks: ''
@@ -22,11 +24,13 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AnalyzeActionsOperationMetadata.actionsFailedCount](xref:@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.actionsFailedCount)
+      [AnalyzeActionsOperationMetadata.actionsFailedCount](xref:@azure/ai-text-analytics
+      - v5.1.0.AnalyzeActionsOperationMetadata.actionsFailedCount)
   - name: actionsInProgressCount
     uid: >-
-      @azure/ai-text-analytics.AnalyzeActionsOperationState.actionsInProgressCount
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsOperationState.actionsInProgressCount
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Number of actions still in progress.
     fullName: actionsInProgressCount
     remarks: ''
@@ -38,11 +42,13 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AnalyzeActionsOperationMetadata.actionsInProgressCount](xref:@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.actionsInProgressCount)
+      [AnalyzeActionsOperationMetadata.actionsInProgressCount](xref:@azure/ai-text-analytics
+      - v5.1.0.AnalyzeActionsOperationMetadata.actionsInProgressCount)
   - name: actionsSucceededCount
     uid: >-
-      @azure/ai-text-analytics.AnalyzeActionsOperationState.actionsSucceededCount
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsOperationState.actionsSucceededCount
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Number of successfully completed actions.
     fullName: actionsSucceededCount
     remarks: ''
@@ -54,10 +60,11 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AnalyzeActionsOperationMetadata.actionsSucceededCount](xref:@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.actionsSucceededCount)
+      [AnalyzeActionsOperationMetadata.actionsSucceededCount](xref:@azure/ai-text-analytics
+      - v5.1.0.AnalyzeActionsOperationMetadata.actionsSucceededCount)
   - name: createdOn
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.createdOn'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.createdOn'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The date and time the operation was created.
     fullName: createdOn
     remarks: ''
@@ -69,10 +76,11 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.createdOn](xref:@azure/ai-text-analytics.OperationMetadata.createdOn)
+      [OperationMetadata.createdOn](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.createdOn)
   - name: displayName
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.displayName'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.displayName'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The operation's display name.
     fullName: displayName
     remarks: ''
@@ -84,10 +92,11 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AnalyzeActionsOperationMetadata.displayName](xref:@azure/ai-text-analytics.AnalyzeActionsOperationMetadata.displayName)
+      [AnalyzeActionsOperationMetadata.displayName](xref:@azure/ai-text-analytics
+      - v5.1.0.AnalyzeActionsOperationMetadata.displayName)
   - name: error
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.error'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.error'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Will exist if the operation encountered any error.
     fullName: error
     remarks: ''
@@ -99,8 +108,8 @@ inheritedProperties:
         type: Error
     inheritanceDescription: <b>Inherited From</b> PollOperationState.error
   - name: expiresOn
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.expiresOn'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.expiresOn'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The date and time when the operation results will expire on the server.
     fullName: expiresOn
     remarks: ''
@@ -112,10 +121,11 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.expiresOn](xref:@azure/ai-text-analytics.OperationMetadata.expiresOn)
+      [OperationMetadata.expiresOn](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.expiresOn)
   - name: isCancelled
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.isCancelled'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.isCancelled'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: True if the operation has been cancelled.
     fullName: isCancelled
     remarks: ''
@@ -127,8 +137,8 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> PollOperationState.isCancelled
   - name: isCompleted
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.isCompleted'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.isCompleted'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: True if the operation has been completed.
     fullName: isCompleted
     remarks: ''
@@ -140,8 +150,8 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> PollOperationState.isCompleted
   - name: isStarted
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.isStarted'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.isStarted'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: True if the operation has started.
     fullName: isStarted
     remarks: ''
@@ -153,8 +163,10 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> PollOperationState.isStarted
   - name: lastModifiedOn
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.lastModifiedOn'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeActionsOperationState.lastModifiedOn
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The time the operation status was last updated.
     fullName: lastModifiedOn
     remarks: ''
@@ -166,10 +178,11 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.lastModifiedOn](xref:@azure/ai-text-analytics.OperationMetadata.lastModifiedOn)
+      [OperationMetadata.lastModifiedOn](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.lastModifiedOn)
   - name: operationId
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.operationId'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.operationId'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The operation id.
     fullName: operationId
     remarks: ''
@@ -181,10 +194,11 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.operationId](xref:@azure/ai-text-analytics.OperationMetadata.operationId)
+      [OperationMetadata.operationId](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.operationId)
   - name: result
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.result'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.result'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Will exist if the operation concluded in a result of an expected type.
     fullName: result
     remarks: ''
@@ -193,11 +207,13 @@ inheritedProperties:
       content: 'result?: PagedAnalyzeActionsResult'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.PagedAnalyzeActionsResult" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.PagedAnalyzeActionsResult" />
     inheritanceDescription: <b>Inherited From</b> PollOperationState.result
   - name: status
-    uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.status'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeActionsOperationState.status'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The current status of the operation.
     fullName: status
     remarks: ''
@@ -206,10 +222,14 @@ inheritedProperties:
       content: 'status: TextAnalyticsOperationStatus'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.TextAnalyticsOperationStatus" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.status](xref:@azure/ai-text-analytics.OperationMetadata.status)
+      [OperationMetadata.status](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.status)
 extends: >-
-  <xref uid="@azure/ai-text-analytics.AnalysisPollOperationState" />&lt;<xref
-  uid="@azure/ai-text-analytics.PagedAnalyzeActionsResult" />&gt;
+  @azure/ai-text-analytics - <xref uid="v5.1.0.AnalysisPollOperationState"
+  />&lt;@azure/ai-text-analytics - <xref uid="v5.1.0.PagedAnalyzeActionsResult"
+  />&gt;

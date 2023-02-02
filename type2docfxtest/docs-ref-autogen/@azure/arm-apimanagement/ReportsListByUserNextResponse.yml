@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ReportsListByUserNextResponse
-uid: '@azure/arm-apimanagement.ReportsListByUserNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ReportsListByUserNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByUserNext operation.
 fullName: ReportsListByUserNextResponse
 remarks: ''

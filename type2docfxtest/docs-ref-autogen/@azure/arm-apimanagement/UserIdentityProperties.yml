@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserIdentityProperties
-uid: '@azure/arm-apimanagement.UserIdentityProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserIdentityProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: ''
 fullName: UserIdentityProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: clientId
-    uid: '@azure/arm-apimanagement.UserIdentityProperties.clientId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserIdentityProperties.clientId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The client id of user assigned identity.
     fullName: clientId
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: principalId
-    uid: '@azure/arm-apimanagement.UserIdentityProperties.principalId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserIdentityProperties.principalId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The principal id of user assigned identity.
     fullName: principalId
     remarks: ''

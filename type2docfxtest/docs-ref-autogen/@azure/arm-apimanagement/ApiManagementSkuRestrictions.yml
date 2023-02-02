@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkuRestrictions
-uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictions'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictions'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Describes scaling information of a SKU.
 fullName: ApiManagementSkuRestrictions
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: reasonCode
-    uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictions.reasonCode'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictions.reasonCode'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The reason for restriction.
 
@@ -24,12 +24,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.ApiManagementSkuRestrictionsReasonCode"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSkuRestrictionsReasonCode" />
   - name: restrictionInfo
-    uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictions.restrictionInfo'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementSkuRestrictions.restrictionInfo
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The information about the restriction where the SKU cannot be used.
 
@@ -43,11 +44,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/arm-apimanagement.ApiManagementSkuRestrictionInfo"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSkuRestrictionInfo" />
   - name: type
-    uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictions.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictions.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of restrictions.
 
@@ -61,11 +62,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/arm-apimanagement.ApiManagementSkuRestrictionsType"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSkuRestrictionsType" />
   - name: values
-    uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictions.values'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictions.values'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The value of restrictions. If the restriction type is set to location.
       This would be different locations where the SKU is restricted.

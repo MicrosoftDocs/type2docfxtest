@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizeCategorizedEntitiesOptions
-uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.RecognizeCategorizedEntitiesOptions'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Options for the recognize entities operation.
 fullName: RecognizeCategorizedEntitiesOptions
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: stringIndexType
     uid: >-
-      @azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.stringIndexType
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.stringIndexType
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Specifies the measurement unit used to calculate the offset and length
       properties.
@@ -27,11 +28,13 @@ properties:
       content: 'stringIndexType?: StringIndexType'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.StringIndexType" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.StringIndexType" />'
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.abortSignal'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.abortSignal
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -44,8 +47,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: disableServiceLogs
     uid: >-
-      @azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.disableServiceLogs
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.disableServiceLogs
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       If set to true (the default for `beginAnalyzeHealthcareEntities` and
       `recognizePiiEntities`),
@@ -70,11 +74,13 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsOperationOptions.disableServiceLogs](xref:@azure/ai-text-analytics.TextAnalyticsOperationOptions.disableServiceLogs)
+      [TextAnalyticsOperationOptions.disableServiceLogs](xref:@azure/ai-text-analytics
+      - v5.1.0.TextAnalyticsOperationOptions.disableServiceLogs)
   - name: includeStatistics
     uid: >-
-      @azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.includeStatistics
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.includeStatistics
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: 'If set to true, response will contain input and document level statistics.'
     fullName: includeStatistics
     remarks: ''
@@ -86,10 +92,13 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsOperationOptions.includeStatistics](xref:@azure/ai-text-analytics.TextAnalyticsOperationOptions.includeStatistics)
+      [TextAnalyticsOperationOptions.includeStatistics](xref:@azure/ai-text-analytics
+      - v5.1.0.TextAnalyticsOperationOptions.includeStatistics)
   - name: modelVersion
-    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.modelVersion'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.modelVersion
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       This value indicates which model will be used for scoring. If a
       model-version is
@@ -110,10 +119,13 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsOperationOptions.modelVersion](xref:@azure/ai-text-analytics.TextAnalyticsOperationOptions.modelVersion)
+      [TextAnalyticsOperationOptions.modelVersion](xref:@azure/ai-text-analytics
+      - v5.1.0.TextAnalyticsOperationOptions.modelVersion)
   - name: onResponse
-    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.onResponse'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.onResponse
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -129,8 +141,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.requestOptions
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.requestOptions
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -143,8 +156,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.serializerOptions
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.serializerOptions
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -157,8 +171,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions.tracingOptions
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeCategorizedEntitiesOptions.tracingOptions
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
@@ -169,4 +184,4 @@ inheritedProperties:
         description: ''
         type: OperationTracingOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.tracingOptions
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationOptions" />
+extends: '@azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsOperationOptions" />'

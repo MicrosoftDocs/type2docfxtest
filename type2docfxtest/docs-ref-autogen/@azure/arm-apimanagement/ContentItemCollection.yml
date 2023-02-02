@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ContentItemCollection
-uid: '@azure/arm-apimanagement.ContentItemCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ContentItemCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged list of content items.
 fullName: ContentItemCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement.ContentItemCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ContentItemCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link, if any.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ContentItemCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ContentItemCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Collection of content items.
 
@@ -39,4 +39,4 @@ properties:
       content: 'value?: ContentItemContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ContentItemContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ContentItemContract" />[]'

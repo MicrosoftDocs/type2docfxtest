@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SubscriptionsDelegationSettingsProperties
-uid: '@azure/arm-apimanagement.SubscriptionsDelegationSettingsProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionsDelegationSettingsProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Subscriptions delegation settings properties.
 fullName: SubscriptionsDelegationSettingsProperties
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: enabled
-    uid: '@azure/arm-apimanagement.SubscriptionsDelegationSettingsProperties.enabled'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionsDelegationSettingsProperties.enabled
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Enable or disable delegation for subscriptions.
     fullName: enabled
     remarks: ''

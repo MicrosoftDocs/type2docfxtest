@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AdvisorManagementClient
-uid: '@azure/arm-advisor.AdvisorManagementClient'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient'
+package: '@azure/arm-advisor - v3.1.0'
 summary: ''
 fullName: AdvisorManagementClient
 remarks: ''
@@ -11,8 +11,8 @@ constructors:
   - name: >-
       AdvisorManagementClient(TokenCredential, string,
       AdvisorManagementClientOptionalParams)
-    uid: '@azure/arm-advisor.AdvisorManagementClient.constructor'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.constructor'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Initializes a new instance of the AdvisorManagementClient class.
     remarks: ''
     isDeprecated: false
@@ -31,14 +31,14 @@ constructors:
           description: The Azure subscription ID.
         - id: options
           type: >-
-            <xref uid="@azure/arm-advisor.AdvisorManagementClientOptionalParams"
-            />
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.AdvisorManagementClientOptionalParams" />
           description: |
             The parameter options
 properties:
   - name: $host
-    uid: '@azure/arm-advisor.AdvisorManagementClient.$host'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.$host'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: $host
     remarks: ''
@@ -49,8 +49,8 @@ properties:
         description: ''
         type: string
   - name: apiVersion
-    uid: '@azure/arm-advisor.AdvisorManagementClient.apiVersion'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.apiVersion'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: apiVersion
     remarks: ''
@@ -61,8 +61,8 @@ properties:
         description: ''
         type: string
   - name: configurations
-    uid: '@azure/arm-advisor.AdvisorManagementClient.configurations'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.configurations'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: configurations
     remarks: ''
@@ -71,10 +71,10 @@ properties:
       content: 'configurations: Configurations'
       return:
         description: ''
-        type: <xref uid="@azure/arm-advisor.Configurations" />
+        type: '@azure/arm-advisor - <xref uid="v3.1.0.Configurations" />'
   - name: operations
-    uid: '@azure/arm-advisor.AdvisorManagementClient.operations'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.operations'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: operations
     remarks: ''
@@ -83,10 +83,10 @@ properties:
       content: 'operations: Operations'
       return:
         description: ''
-        type: <xref uid="@azure/arm-advisor.Operations" />
+        type: '@azure/arm-advisor - <xref uid="v3.1.0.Operations" />'
   - name: recommendationMetadata
-    uid: '@azure/arm-advisor.AdvisorManagementClient.recommendationMetadata'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.recommendationMetadata'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: recommendationMetadata
     remarks: ''
@@ -95,10 +95,10 @@ properties:
       content: 'recommendationMetadata: RecommendationMetadata'
       return:
         description: ''
-        type: <xref uid="@azure/arm-advisor.RecommendationMetadata" />
+        type: '@azure/arm-advisor - <xref uid="v3.1.0.RecommendationMetadata" />'
   - name: recommendations
-    uid: '@azure/arm-advisor.AdvisorManagementClient.recommendations'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.recommendations'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: recommendations
     remarks: ''
@@ -107,10 +107,10 @@ properties:
       content: 'recommendations: Recommendations'
       return:
         description: ''
-        type: <xref uid="@azure/arm-advisor.Recommendations" />
+        type: '@azure/arm-advisor - <xref uid="v3.1.0.Recommendations" />'
   - name: subscriptionId
-    uid: '@azure/arm-advisor.AdvisorManagementClient.subscriptionId'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.subscriptionId'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: subscriptionId
     remarks: ''
@@ -121,8 +121,8 @@ properties:
         description: ''
         type: string
   - name: suppressions
-    uid: '@azure/arm-advisor.AdvisorManagementClient.suppressions'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.suppressions'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ''
     fullName: suppressions
     remarks: ''
@@ -131,11 +131,11 @@ properties:
       content: 'suppressions: Suppressions'
       return:
         description: ''
-        type: <xref uid="@azure/arm-advisor.Suppressions" />
+        type: '@azure/arm-advisor - <xref uid="v3.1.0.Suppressions" />'
 inheritedProperties:
   - name: pipeline
-    uid: '@azure/arm-advisor.AdvisorManagementClient.pipeline'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.pipeline'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: The pipeline used by this client to make requests
     fullName: pipeline
     remarks: ''
@@ -148,8 +148,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> ServiceClient.pipeline
 inheritedMethods:
   - name: 'sendOperationRequest<T>(OperationArguments, OperationSpec)'
-    uid: '@azure/arm-advisor.AdvisorManagementClient.sendOperationRequest'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.sendOperationRequest'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Send an HTTP request that is populated using the provided OperationSpec.
     remarks: ''
     isDeprecated: false
@@ -172,8 +172,8 @@ inheritedMethods:
         type: Promise&lt;T&gt;
     inheritanceDescription: <b>Inherited From</b> ServiceClient.sendOperationRequest
   - name: sendRequest(PipelineRequest)
-    uid: '@azure/arm-advisor.AdvisorManagementClient.sendRequest'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClient.sendRequest'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Send the provided httpRequest.
     remarks: ''
     isDeprecated: false

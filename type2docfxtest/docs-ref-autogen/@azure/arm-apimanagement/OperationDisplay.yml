@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationDisplay
-uid: '@azure/arm-apimanagement.OperationDisplay'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OperationDisplay'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: The object that describes the operation.
 fullName: OperationDisplay
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.OperationDisplay.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationDisplay.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Friendly name of the operation
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: operation
-    uid: '@azure/arm-apimanagement.OperationDisplay.operation'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationDisplay.operation'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Operation type: read, write, delete, listKeys/action, etc.'
     fullName: operation
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: provider
-    uid: '@azure/arm-apimanagement.OperationDisplay.provider'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationDisplay.provider'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Friendly name of the resource provider
     fullName: provider
     remarks: ''
@@ -45,8 +45,8 @@ properties:
         description: ''
         type: undefined | string
   - name: resource
-    uid: '@azure/arm-apimanagement.OperationDisplay.resource'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationDisplay.resource'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Resource type on which the operation is performed.
     fullName: resource
     remarks: ''

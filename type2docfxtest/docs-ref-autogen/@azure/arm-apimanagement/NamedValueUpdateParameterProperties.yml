@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NamedValueUpdateParameterProperties
-uid: '@azure/arm-apimanagement.NamedValueUpdateParameterProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NamedValueUpdateParameterProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: NamedValue Contract properties.
 fullName: NamedValueUpdateParameterProperties
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: displayName
-    uid: '@azure/arm-apimanagement.NamedValueUpdateParameterProperties.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.NamedValueUpdateParameterProperties.displayName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Unique name of NamedValue. It may contain only letters, digits, period,
       dash, and underscore characters.
@@ -23,8 +25,10 @@ properties:
         description: ''
         type: undefined | string
   - name: keyVault
-    uid: '@azure/arm-apimanagement.NamedValueUpdateParameterProperties.keyVault'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.NamedValueUpdateParameterProperties.keyVault
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: KeyVault location details of the namedValue.
     fullName: keyVault
     remarks: ''
@@ -34,11 +38,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/arm-apimanagement.KeyVaultContractCreateProperties"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.KeyVaultContractCreateProperties" />
   - name: value
-    uid: '@azure/arm-apimanagement.NamedValueUpdateParameterProperties.value'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.NamedValueUpdateParameterProperties.value
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Value of the NamedValue. Can contain policy expressions. It may not be
       empty or consist only of whitespace.
@@ -52,8 +58,10 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: secret
-    uid: '@azure/arm-apimanagement.NamedValueUpdateParameterProperties.secret'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.NamedValueUpdateParameterProperties.secret
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines whether the value is a secret and should be encrypted or not.
       Default value is false.
@@ -67,10 +75,11 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [NamedValueEntityBaseParameters.secret](xref:@azure/arm-apimanagement.NamedValueEntityBaseParameters.secret)
+      [NamedValueEntityBaseParameters.secret](xref:@azure/arm-apimanagement -
+      v8.1.2.NamedValueEntityBaseParameters.secret)
   - name: tags
-    uid: '@azure/arm-apimanagement.NamedValueUpdateParameterProperties.tags'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueUpdateParameterProperties.tags'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Optional tags that when provided can be used to filter the NamedValue
       list.
@@ -84,5 +93,8 @@ inheritedProperties:
         type: 'string[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [NamedValueEntityBaseParameters.tags](xref:@azure/arm-apimanagement.NamedValueEntityBaseParameters.tags)
-extends: <xref uid="@azure/arm-apimanagement.NamedValueEntityBaseParameters" />
+      [NamedValueEntityBaseParameters.tags](xref:@azure/arm-apimanagement -
+      v8.1.2.NamedValueEntityBaseParameters.tags)
+extends: >-
+  @azure/arm-apimanagement - <xref uid="v8.1.2.NamedValueEntityBaseParameters"
+  />

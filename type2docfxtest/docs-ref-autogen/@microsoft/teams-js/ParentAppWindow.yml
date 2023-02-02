@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ParentAppWindow
-uid: '@microsoft/teams-js.ParentAppWindow'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.ParentAppWindow'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: ParentAppWindow
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: class
 properties:
   - name: Instance
-    uid: '@microsoft/teams-js.ParentAppWindow.Instance'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ParentAppWindow.Instance'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     fullName: Instance
     remarks: ''
@@ -19,11 +19,11 @@ properties:
       content: static IAppWindow Instance
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.IAppWindow" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.IAppWindow" />'
 methods:
   - name: 'addEventListener(string, (message: any) => void)'
-    uid: '@microsoft/teams-js.ParentAppWindow.addEventListener'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ParentAppWindow.addEventListener'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Add a listener that will be called when an event is received from the
       ParentAppWindow.
@@ -44,8 +44,8 @@ methods:
           description: |
             The listener that will be called
   - name: 'postMessage(any, (status: boolean, reason?: string) => void)'
-    uid: '@microsoft/teams-js.ParentAppWindow.postMessage'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ParentAppWindow.postMessage'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Send a message to the ParentAppWindow.
     remarks: ''
     isDeprecated: false

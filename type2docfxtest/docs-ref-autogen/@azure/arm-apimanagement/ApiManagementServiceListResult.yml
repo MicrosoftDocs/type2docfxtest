@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementServiceListResult
-uid: '@azure/arm-apimanagement.ApiManagementServiceListResult'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceListResult'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: The response of the List API Management services operation.
 fullName: ApiManagementServiceListResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement.ApiManagementServiceListResult.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceListResult.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Link to the next set of results. Not empty if Value contains incomplete
       list of API Management services.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ApiManagementServiceListResult.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceListResult.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Result of the List API Management services operation.
     fullName: value
     remarks: ''
@@ -33,4 +33,6 @@ properties:
       content: 'value: ApiManagementServiceResource[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ApiManagementServiceResource" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementServiceResource" />[]

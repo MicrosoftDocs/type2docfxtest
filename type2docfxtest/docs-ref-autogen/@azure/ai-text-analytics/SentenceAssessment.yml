@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SentenceAssessment
-uid: '@azure/ai-text-analytics.SentenceAssessment'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: ''
 fullName: SentenceAssessment
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: confidenceScores
-    uid: '@azure/ai-text-analytics.SentenceAssessment.confidenceScores'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment.confidenceScores'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Assessment sentiment confidence scores in the sentence.
     fullName: confidenceScores
     remarks: ''
@@ -19,10 +19,12 @@ properties:
       content: 'confidenceScores: TargetConfidenceScoreLabel'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TargetConfidenceScoreLabel" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.TargetConfidenceScoreLabel" />
   - name: isNegated
-    uid: '@azure/ai-text-analytics.SentenceAssessment.isNegated'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment.isNegated'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The indicator representing if the assessment is negated.
     fullName: isNegated
     remarks: ''
@@ -33,8 +35,8 @@ properties:
         description: ''
         type: boolean
   - name: length
-    uid: '@azure/ai-text-analytics.SentenceAssessment.length'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment.length'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The length of the assessment.
     fullName: length
     remarks: ''
@@ -45,8 +47,8 @@ properties:
         description: ''
         type: number
   - name: offset
-    uid: '@azure/ai-text-analytics.SentenceAssessment.offset'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment.offset'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The assessment offset from the start of the sentence.
     fullName: offset
     remarks: ''
@@ -57,8 +59,8 @@ properties:
         description: ''
         type: number
   - name: sentiment
-    uid: '@azure/ai-text-analytics.SentenceAssessment.sentiment'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment.sentiment'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Assessment sentiment in the sentence.
     fullName: sentiment
     remarks: ''
@@ -67,10 +69,10 @@ properties:
       content: 'sentiment: TokenSentimentValue'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TokenSentimentValue" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.TokenSentimentValue" />'
   - name: text
-    uid: '@azure/ai-text-analytics.SentenceAssessment.text'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.SentenceAssessment.text'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The assessment text detected.
     fullName: text
     remarks: ''

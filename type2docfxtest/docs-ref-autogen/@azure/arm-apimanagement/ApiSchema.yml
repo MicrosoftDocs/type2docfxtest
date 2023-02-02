@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiSchema
-uid: '@azure/arm-apimanagement.ApiSchema'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiSchema.
 fullName: ApiSchema
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       beginCreateOrUpdate(string, string, string, string, SchemaContract,
       ApiSchemaCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiSchema.beginCreateOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema.beginCreateOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates or updates schema configuration for the API.
     remarks: ''
     isDeprecated: false
@@ -43,27 +43,26 @@ methods:
             Management
                             service instance.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.SchemaContract" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SchemaContract" />'
           description: The schema contents to apply.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiSchemaCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.ApiSchemaCreateOrUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-apimanagement.ApiSchemaCreateOrUpdateResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.ApiSchemaCreateOrUpdateResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiSchemaCreateOrUpdateResponse" />&gt;&gt;
   - name: >-
       beginCreateOrUpdateAndWait(string, string, string, string, SchemaContract,
       ApiSchemaCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiSchema.beginCreateOrUpdateAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema.beginCreateOrUpdateAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates or updates schema configuration for the API.
     remarks: ''
     isDeprecated: false
@@ -93,25 +92,24 @@ methods:
             Management
                             service instance.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.SchemaContract" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SchemaContract" />'
           description: The schema contents to apply.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiSchemaCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiSchemaCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiSchemaCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string, string,
       ApiSchemaDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiSchema.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the schema configuration at the Api.
     remarks: ''
     isDeprecated: false
@@ -147,16 +145,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.ApiSchemaDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiSchemaDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, string, ApiSchemaGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.ApiSchema.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Get the schema configuration at the API level.
     remarks: ''
     isDeprecated: false
@@ -185,19 +183,21 @@ methods:
             Management
                             service instance.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.ApiSchemaGetOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiSchemaGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiSchemaGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiSchemaGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       ApiSchemaGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiSchema.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the schema specified by its
       identifier.
@@ -230,19 +230,18 @@ methods:
                             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiSchemaGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiSchemaGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiSchemaGetEntityTagResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiSchemaGetEntityTagResponse" />&gt;
   - name: 'listByApi(string, string, string, ApiSchemaListByApiOptionalParams)'
-    uid: '@azure/arm-apimanagement.ApiSchema.listByApi'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiSchema.listByApi'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Get the schema configuration at the API level.
     remarks: ''
     isDeprecated: false
@@ -266,12 +265,12 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiSchemaListByApiOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiSchemaListByApiOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.SchemaContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.SchemaContract" />&gt;

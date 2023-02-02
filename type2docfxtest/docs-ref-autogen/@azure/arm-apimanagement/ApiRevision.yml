@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiRevision
-uid: '@azure/arm-apimanagement.ApiRevision'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiRevision'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiRevision.
 fullName: ApiRevision
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       listByService(string, string, string,
       ApiRevisionListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiRevision.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiRevision.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists all revisions of an API.
     remarks: ''
     isDeprecated: false
@@ -35,13 +35,12 @@ methods:
             instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiRevisionListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiRevisionListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.ApiRevisionContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiRevisionContract" />&gt;

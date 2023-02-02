@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationCollection
-uid: '@azure/arm-apimanagement.OperationCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OperationCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged Operation list representation.
 fullName: OperationCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.OperationCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement.OperationCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link if any.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.OperationCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Page values.
 
@@ -51,4 +51,4 @@ properties:
       content: 'value?: OperationContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.OperationContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.OperationContract" />[]'

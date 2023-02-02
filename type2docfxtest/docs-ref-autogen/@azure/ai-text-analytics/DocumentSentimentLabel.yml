@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: DocumentSentimentLabel
-uid: '@azure/ai-text-analytics.DocumentSentimentLabel'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.DocumentSentimentLabel'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Defines values for DocumentSentimentLabel.
 fullName: DocumentSentimentLabel
 remarks: ''

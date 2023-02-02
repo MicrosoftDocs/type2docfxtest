@@ -1,31 +1,30 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.authentication'
+uid: '@microsoft/teams-js - v2.5.0.authentication'
 name: authentication
 summary: |
   Namespace to interact with the authentication-specific part of the SDK.
   This object is used for starting or completing authentication flows.
 type: module
 typeAliases:
-  - '@microsoft/teams-js.authentication.AuthenticateParameters'
-  - '@microsoft/teams-js.authentication.AuthTokenRequest'
+  - '@microsoft/teams-js - v2.5.0.authentication.AuthenticateParameters'
+  - '@microsoft/teams-js - v2.5.0.authentication.AuthTokenRequest'
 interfaces:
-  - '@microsoft/teams-js.authentication.AuthenticatePopUpParameters'
-  - '@microsoft/teams-js.authentication.AuthTokenRequestParameters'
-  - '@microsoft/teams-js.authentication.LegacyCallBacks'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.authentication.AuthenticatePopUpParameters'
+  - '@microsoft/teams-js - v2.5.0.authentication.AuthTokenRequestParameters'
+  - '@microsoft/teams-js - v2.5.0.authentication.LegacyCallBacks'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: authenticate(AuthenticateParameters)
-    uid: '@microsoft/teams-js.authentication.authenticate_1'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.authenticate_1'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use
       [authentication.authenticate(authenticateParameters:
-      AuthenticatePopUpParameters):
-      Promise\<string\>](xref:@microsoft/teams-js.authentication.authenticate)
-      instead.
+      AuthenticatePopUpParameters): Promise\<string\>](xref:@microsoft/teams-js
+      - v2.5.0.authentication.authenticate) instead.
 
 
       Initiates an authentication request, which opens a new window with the
@@ -35,14 +34,14 @@ functions:
       parameters:
         - id: authenticateParameters
           type: >-
-            <xref
-            uid="@microsoft/teams-js.authentication.AuthenticateParameters" />
+            @microsoft/teams-js - <xref
+            uid="v2.5.0.authentication.AuthenticateParameters" />
           description: |+
             The parameters for the authentication request.
 
   - name: authenticate(AuthenticatePopUpParameters)
-    uid: '@microsoft/teams-js.authentication.authenticate'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.authenticate'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Initiates an authentication request, which opens a new window with the
       specified settings.
@@ -55,9 +54,8 @@ functions:
       parameters:
         - id: authenticateParameters
           type: >-
-            <xref
-            uid="@microsoft/teams-js.authentication.AuthenticatePopUpParameters"
-            />
+            @microsoft/teams-js - <xref
+            uid="v2.5.0.authentication.AuthenticatePopUpParameters" />
           description: >
             The parameters for the authentication request. It is a required
             parameter since v2 upgrade
@@ -67,16 +65,15 @@ functions:
           pop-up if successful.
         type: Promise&lt;string&gt;
   - name: getAuthToken(AuthTokenRequest)
-    uid: '@microsoft/teams-js.authentication.getAuthToken_1'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.getAuthToken_1'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [authentication.getAuthToken(authTokenRequest:
-      AuthTokenRequestParameters):
-      Promise\<string\>](xref:@microsoft/teams-js.authentication.getAuthToken)
-      instead.
+      AuthTokenRequestParameters): Promise\<string\>](xref:@microsoft/teams-js -
+      v2.5.0.authentication.getAuthToken) instead.
 
 
       Requests an Azure AD token to be issued on behalf of the app. The token is
@@ -88,13 +85,15 @@ functions:
       content: 'function getAuthToken(authTokenRequest?: AuthTokenRequest)'
       parameters:
         - id: authTokenRequest
-          type: <xref uid="@microsoft/teams-js.authentication.AuthTokenRequest" />
+          type: >-
+            @microsoft/teams-js - <xref
+            uid="v2.5.0.authentication.AuthTokenRequest" />
           description: |
             An optional set of values that configure the token request.
             It contains callbacks to call in case of success/failure
   - name: getAuthToken(AuthTokenRequestParameters)
-    uid: '@microsoft/teams-js.authentication.getAuthToken'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.getAuthToken'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Requests an Azure AD token to be issued on behalf of the app. The token is
       acquired from the cache
@@ -110,25 +109,24 @@ functions:
       parameters:
         - id: authTokenRequest
           type: >-
-            <xref
-            uid="@microsoft/teams-js.authentication.AuthTokenRequestParameters"
-            />
+            @microsoft/teams-js - <xref
+            uid="v2.5.0.authentication.AuthTokenRequestParameters" />
           description: |
             An optional set of values that configure the token request.
       return:
         description: Promise that will be fulfilled with the token if successful.
         type: Promise&lt;string&gt;
   - name: initialize()
-    uid: '@microsoft/teams-js.authentication.initialize'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.initialize'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
       content: function initialize()
   - name: 'notifyFailure(string, string)'
-    uid: '@microsoft/teams-js.authentication.notifyFailure'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.notifyFailure'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Notifies the frame that initiated this authentication request that the
       request failed.
@@ -148,8 +146,8 @@ functions:
             Specifies the url to redirect back to if the client is Win32
             Outlook.
   - name: 'notifySuccess(string, string)'
-    uid: '@microsoft/teams-js.authentication.notifySuccess'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.notifySuccess'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Notifies the frame that initiated this authentication request that the
       request was successful.
@@ -172,8 +170,8 @@ functions:
             Specifies the url to redirect back to if the client is Win32
             Outlook.
   - name: registerAuthenticationHandlers(AuthenticateParameters)
-    uid: '@microsoft/teams-js.authentication.registerAuthenticationHandlers'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.authentication.registerAuthenticationHandlers'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
@@ -189,7 +187,7 @@ functions:
       parameters:
         - id: authenticateParameters
           type: >-
-            <xref
-            uid="@microsoft/teams-js.authentication.AuthenticateParameters" />
+            @microsoft/teams-js - <xref
+            uid="v2.5.0.authentication.AuthenticateParameters" />
           description: |
             A set of values that configure the authentication pop-up.

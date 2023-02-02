@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PostMessageChannel
-uid: '@microsoft/teams-js.dialog.PostMessageChannel'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.dialog.PostMessageChannel'
+package: '@microsoft/teams-js - v2.5.0'
 summary: >-
   Handler used to receive and process messages sent between a dialog and the app
   that launched it

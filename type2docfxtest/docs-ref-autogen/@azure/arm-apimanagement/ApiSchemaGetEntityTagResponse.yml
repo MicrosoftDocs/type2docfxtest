@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiSchemaGetEntityTagResponse
-uid: '@azure/arm-apimanagement.ApiSchemaGetEntityTagResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiSchemaGetEntityTagResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the getEntityTag operation.
 fullName: ApiSchemaGetEntityTagResponse
 remarks: ''

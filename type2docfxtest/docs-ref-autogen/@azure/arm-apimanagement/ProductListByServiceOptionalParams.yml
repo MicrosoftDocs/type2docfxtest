@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductListByServiceOptionalParams
-uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductListByServiceOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: ProductListByServiceOptionalParams
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: expandGroups
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.expandGroups'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.expandGroups
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       When set to true, the response contains an array of groups that have
       visibility to the product. The default is false.
@@ -23,8 +25,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: filter
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.filter'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.filter
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -45,8 +49,8 @@ properties:
         description: ''
         type: undefined | string
   - name: skip
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.skip'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductListByServiceOptionalParams.skip'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -57,8 +61,8 @@ properties:
         description: ''
         type: undefined | number
   - name: tags
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.tags'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductListByServiceOptionalParams.tags'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Products which are part of a specific tag.
     fullName: tags
     remarks: ''
@@ -69,8 +73,8 @@ properties:
         description: ''
         type: undefined | string
   - name: top
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.top'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductListByServiceOptionalParams.top'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -82,8 +86,10 @@ properties:
         type: undefined | number
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.abortSignal'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -95,8 +101,10 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.onResponse'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -111,8 +119,10 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.requestOptions'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -125,8 +135,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.ProductListByServiceOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -138,8 +149,10 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: '@azure/arm-apimanagement.ProductListByServiceOptionalParams.tracingOptions'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ProductListByServiceOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

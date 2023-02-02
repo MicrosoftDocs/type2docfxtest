@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecommendationMetadata
-uid: '@azure/arm-advisor.RecommendationMetadata'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.RecommendationMetadata'
+package: '@azure/arm-advisor - v3.1.0'
 summary: Interface representing a RecommendationMetadata.
 fullName: RecommendationMetadata
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'get(string, RecommendationMetadataGetOptionalParams)'
-    uid: '@azure/arm-advisor.RecommendationMetadata.get'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.RecommendationMetadata.get'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Gets the metadata entity.
     remarks: ''
     isDeprecated: false
@@ -25,18 +25,18 @@ methods:
           description: Name of metadata entity.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-advisor.RecommendationMetadataGetOptionalParams" />
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.RecommendationMetadataGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-advisor.RecommendationMetadataGetResponse" />&gt;
+          Promise&lt;@azure/arm-advisor - <xref
+          uid="v3.1.0.RecommendationMetadataGetResponse" />&gt;
   - name: list(RecommendationMetadataListOptionalParams)
-    uid: '@azure/arm-advisor.RecommendationMetadata.list'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.RecommendationMetadata.list'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Gets the list of metadata entities.
     remarks: ''
     isDeprecated: false
@@ -47,12 +47,12 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-advisor.RecommendationMetadataListOptionalParams" />
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.RecommendationMetadataListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-advisor.MetadataEntity" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-advisor - <xref
+          uid="v3.1.0.MetadataEntity" />&gt;

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementSkuRestrictionsType
-uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictionsType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictionsType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines values for ApiManagementSkuRestrictionsType.
 fullName: ApiManagementSkuRestrictionsType
 remarks: ''

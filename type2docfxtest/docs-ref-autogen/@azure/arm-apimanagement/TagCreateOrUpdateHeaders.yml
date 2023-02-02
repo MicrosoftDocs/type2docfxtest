@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.TagCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TagCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Tag_createOrUpdate operation.
 fullName: TagCreateOrUpdateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.TagCreateOrUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TagCreateOrUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

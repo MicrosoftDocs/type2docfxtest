@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: BackendProtocol
-uid: '@azure/arm-apimanagement.BackendProtocol'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.BackendProtocol'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for BackendProtocol. \
 
-  <xref:@azure/arm-apimanagement.KnownBackendProtocol> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownBackendProtocol> can be used
   interchangeably with BackendProtocol,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

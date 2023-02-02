@@ -1,27 +1,27 @@
 ### YamlMime:TSEnum
 name: KnownApiType
-uid: '@azure/arm-apimanagement.KnownApiType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownApiType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.ApiType> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.ApiType> that the
+  service accepts.
 fullName: KnownApiType
 remarks: ''
 isDeprecated: false
 fields:
   - name: Graphql
-    uid: '@azure/arm-apimanagement.KnownApiType.Graphql'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApiType.Graphql'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Graphql
   - name: Http
-    uid: '@azure/arm-apimanagement.KnownApiType.Http'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApiType.Http'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Http
   - name: Soap
-    uid: '@azure/arm-apimanagement.KnownApiType.Soap'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApiType.Soap'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Soap
   - name: Websocket
-    uid: '@azure/arm-apimanagement.KnownApiType.Websocket'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApiType.Websocket'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Websocket

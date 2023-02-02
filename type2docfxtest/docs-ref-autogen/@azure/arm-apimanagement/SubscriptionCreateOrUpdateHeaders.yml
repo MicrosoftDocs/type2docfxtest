@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SubscriptionCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.SubscriptionCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Subscription_createOrUpdate operation.
 fullName: SubscriptionCreateOrUpdateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.SubscriptionCreateOrUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionCreateOrUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

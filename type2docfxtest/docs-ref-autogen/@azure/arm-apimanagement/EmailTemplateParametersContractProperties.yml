@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: EmailTemplateParametersContractProperties
-uid: '@azure/arm-apimanagement.EmailTemplateParametersContractProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateParametersContractProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Email Template Parameter contract.
 fullName: EmailTemplateParametersContractProperties
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: description
     uid: >-
-      @azure/arm-apimanagement.EmailTemplateParametersContractProperties.description
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.EmailTemplateParametersContractProperties.description
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Template parameter description.
     fullName: description
     remarks: ''
@@ -22,8 +23,10 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: '@azure/arm-apimanagement.EmailTemplateParametersContractProperties.name'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.EmailTemplateParametersContractProperties.name
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Template parameter name.
     fullName: name
     remarks: ''
@@ -34,8 +37,10 @@ properties:
         description: ''
         type: undefined | string
   - name: title
-    uid: '@azure/arm-apimanagement.EmailTemplateParametersContractProperties.title'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.EmailTemplateParametersContractProperties.title
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Template parameter title.
     fullName: title
     remarks: ''

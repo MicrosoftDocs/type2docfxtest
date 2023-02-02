@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: NotificationRecipientEmailCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.NotificationRecipientEmailCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.NotificationRecipientEmailCreateOrUpdateResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: NotificationRecipientEmailCreateOrUpdateResponse
 remarks: ''

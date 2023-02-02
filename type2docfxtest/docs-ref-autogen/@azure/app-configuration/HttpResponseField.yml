@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: HttpResponseField
-uid: '@azure/app-configuration.HttpResponseField'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.HttpResponseField'
+package: '@azure/app-configuration - v1.3.1'
 summary: HTTP response related information - headers and raw body.
 fullName: HttpResponseField<HeadersT>
 remarks: ''

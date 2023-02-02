@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ProductGroupCheckEntityExistsResponse
-uid: '@azure/arm-apimanagement.ProductGroupCheckEntityExistsResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductGroupCheckEntityExistsResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the checkEntityExists operation.
 fullName: ProductGroupCheckEntityExistsResponse
 remarks: ''

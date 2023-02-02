@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: HttpMessageDiagnostic
-uid: '@azure/arm-apimanagement.HttpMessageDiagnostic'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.HttpMessageDiagnostic'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Http message diagnostic settings.
 fullName: HttpMessageDiagnostic
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: body
-    uid: '@azure/arm-apimanagement.HttpMessageDiagnostic.body'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.HttpMessageDiagnostic.body'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Body logging settings.
     fullName: body
     remarks: ''
@@ -19,10 +19,12 @@ properties:
       content: 'body?: BodyDiagnosticSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BodyDiagnosticSettings" />
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.BodyDiagnosticSettings"
+          />
   - name: dataMasking
-    uid: '@azure/arm-apimanagement.HttpMessageDiagnostic.dataMasking'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.HttpMessageDiagnostic.dataMasking'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Data masking settings.
     fullName: dataMasking
     remarks: ''
@@ -31,10 +33,10 @@ properties:
       content: 'dataMasking?: DataMasking'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.DataMasking" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.DataMasking" />'
   - name: headers
-    uid: '@azure/arm-apimanagement.HttpMessageDiagnostic.headers'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.HttpMessageDiagnostic.headers'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Array of HTTP Headers to log.
     fullName: headers
     remarks: ''

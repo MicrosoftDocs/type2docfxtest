@@ -1,21 +1,21 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.profile'
+uid: '@microsoft/teams-js - v2.5.0.profile'
 name: profile
 summary: Namespace for profile related APIs.
 type: module
 typeAliases:
-  - '@microsoft/teams-js.profile.Modality'
-  - '@microsoft/teams-js.profile.PersonaIdentifiers'
-  - '@microsoft/teams-js.profile.TriggerType'
+  - '@microsoft/teams-js - v2.5.0.profile.Modality'
+  - '@microsoft/teams-js - v2.5.0.profile.PersonaIdentifiers'
+  - '@microsoft/teams-js - v2.5.0.profile.TriggerType'
 interfaces:
-  - '@microsoft/teams-js.profile.Persona'
-  - '@microsoft/teams-js.profile.ShowProfileRequest'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.profile.Persona'
+  - '@microsoft/teams-js - v2.5.0.profile.ShowProfileRequest'
+package: '@microsoft/teams-js - v2.5.0'
 previewState: beta
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.profile.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.profile.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if the profile capability is supported by the host
     remarks: ''
     previewState: beta
@@ -26,8 +26,8 @@ functions:
         description: boolean to represent whether the profile capability is supported
         type: boolean
   - name: showProfile(ShowProfileRequest)
-    uid: '@microsoft/teams-js.profile.showProfile'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.profile.showProfile'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Opens a profile card at a specified position to show profile information
       about a persona.
@@ -40,7 +40,9 @@ functions:
         Promise<void>
       parameters:
         - id: showProfileRequest
-          type: <xref uid="@microsoft/teams-js.profile.ShowProfileRequest" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.profile.ShowProfileRequest"
+            />
           description: The parameters to position the card and identify the target user.
       return:
         description: Promise that will be fulfilled when the operation has completed

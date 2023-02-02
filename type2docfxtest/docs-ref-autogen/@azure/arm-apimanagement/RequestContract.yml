@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RequestContract
-uid: '@azure/arm-apimanagement.RequestContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.RequestContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Operation request details.
 fullName: RequestContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.RequestContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RequestContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation request description.
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: headers
-    uid: '@azure/arm-apimanagement.RequestContract.headers'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RequestContract.headers'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of operation request headers.
     fullName: headers
     remarks: ''
@@ -31,10 +31,10 @@ properties:
       content: 'headers?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'
   - name: queryParameters
-    uid: '@azure/arm-apimanagement.RequestContract.queryParameters'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RequestContract.queryParameters'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of operation request query parameters.
     fullName: queryParameters
     remarks: ''
@@ -43,10 +43,10 @@ properties:
       content: 'queryParameters?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'
   - name: representations
-    uid: '@azure/arm-apimanagement.RequestContract.representations'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.RequestContract.representations'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of operation request representations.
     fullName: representations
     remarks: ''
@@ -55,4 +55,6 @@ properties:
       content: 'representations?: RepresentationContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.RepresentationContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.RepresentationContract"
+          />[]

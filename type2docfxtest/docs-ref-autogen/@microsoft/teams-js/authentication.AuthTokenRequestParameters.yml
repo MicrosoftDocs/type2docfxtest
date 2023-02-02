@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthTokenRequestParameters
-uid: '@microsoft/teams-js.authentication.AuthTokenRequestParameters'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.authentication.AuthTokenRequestParameters'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Describes authentication token request parameters
 fullName: AuthTokenRequestParameters
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: claims
-    uid: '@microsoft/teams-js.authentication.AuthTokenRequestParameters.claims'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthTokenRequestParameters.claims
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       An optional list of claims which to pass to AAD when requesting the access
       token.
@@ -23,8 +25,10 @@ properties:
         description: ''
         type: 'string[]'
   - name: resources
-    uid: '@microsoft/teams-js.authentication.AuthTokenRequestParameters.resources'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthTokenRequestParameters.resources
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       An optional list of resource for which to acquire the access token; only
       used for full trust apps.
@@ -37,8 +41,10 @@ properties:
         description: ''
         type: 'string[]'
   - name: silent
-    uid: '@microsoft/teams-js.authentication.AuthTokenRequestParameters.silent'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthTokenRequestParameters.silent
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       An optional flag indicating whether to attempt the token acquisition
       silently or allow a prompt to be shown.

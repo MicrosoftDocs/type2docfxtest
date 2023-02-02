@@ -1,73 +1,93 @@
 ### YamlMime:TSEnum
 name: KnownTemplateName
-uid: '@azure/arm-apimanagement.KnownTemplateName'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownTemplateName'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.TemplateName> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.TemplateName> that the
+  service accepts.
 fullName: KnownTemplateName
 remarks: ''
 isDeprecated: false
 fields:
   - name: AccountClosedDeveloper
-    uid: '@azure/arm-apimanagement.KnownTemplateName.AccountClosedDeveloper'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownTemplateName.AccountClosedDeveloper'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: AccountClosedDeveloper
   - name: ApplicationApprovedNotificationMessage
     uid: >-
-      @azure/arm-apimanagement.KnownTemplateName.ApplicationApprovedNotificationMessage
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.ApplicationApprovedNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ApplicationApprovedNotificationMessage
   - name: ConfirmSignUpIdentityDefault
-    uid: '@azure/arm-apimanagement.KnownTemplateName.ConfirmSignUpIdentityDefault'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.ConfirmSignUpIdentityDefault
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ConfirmSignUpIdentityDefault
   - name: EmailChangeIdentityDefault
-    uid: '@azure/arm-apimanagement.KnownTemplateName.EmailChangeIdentityDefault'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.EmailChangeIdentityDefault
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: EmailChangeIdentityDefault
   - name: InviteUserNotificationMessage
-    uid: '@azure/arm-apimanagement.KnownTemplateName.InviteUserNotificationMessage'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.InviteUserNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: InviteUserNotificationMessage
   - name: NewCommentNotificationMessage
-    uid: '@azure/arm-apimanagement.KnownTemplateName.NewCommentNotificationMessage'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.NewCommentNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: NewCommentNotificationMessage
   - name: NewDeveloperNotificationMessage
-    uid: '@azure/arm-apimanagement.KnownTemplateName.NewDeveloperNotificationMessage'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.NewDeveloperNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: NewDeveloperNotificationMessage
   - name: NewIssueNotificationMessage
-    uid: '@azure/arm-apimanagement.KnownTemplateName.NewIssueNotificationMessage'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.NewIssueNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: NewIssueNotificationMessage
   - name: PasswordResetByAdminNotificationMessage
     uid: >-
-      @azure/arm-apimanagement.KnownTemplateName.PasswordResetByAdminNotificationMessage
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.PasswordResetByAdminNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: PasswordResetByAdminNotificationMessage
   - name: PasswordResetIdentityDefault
-    uid: '@azure/arm-apimanagement.KnownTemplateName.PasswordResetIdentityDefault'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.PasswordResetIdentityDefault
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: PasswordResetIdentityDefault
   - name: PurchaseDeveloperNotificationMessage
     uid: >-
-      @azure/arm-apimanagement.KnownTemplateName.PurchaseDeveloperNotificationMessage
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.PurchaseDeveloperNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: PurchaseDeveloperNotificationMessage
   - name: QuotaLimitApproachingDeveloperNotificationMessage
     uid: >-
-      @azure/arm-apimanagement.KnownTemplateName.QuotaLimitApproachingDeveloperNotificationMessage
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.QuotaLimitApproachingDeveloperNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: QuotaLimitApproachingDeveloperNotificationMessage
   - name: RejectDeveloperNotificationMessage
     uid: >-
-      @azure/arm-apimanagement.KnownTemplateName.RejectDeveloperNotificationMessage
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.RejectDeveloperNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: RejectDeveloperNotificationMessage
   - name: RequestDeveloperNotificationMessage
     uid: >-
-      @azure/arm-apimanagement.KnownTemplateName.RequestDeveloperNotificationMessage
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownTemplateName.RequestDeveloperNotificationMessage
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: RequestDeveloperNotificationMessage

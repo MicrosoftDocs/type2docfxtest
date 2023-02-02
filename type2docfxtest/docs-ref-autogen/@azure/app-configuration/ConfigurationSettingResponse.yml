@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ConfigurationSettingResponse
-uid: '@azure/app-configuration.ConfigurationSettingResponse'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.ConfigurationSettingResponse'
+package: '@azure/app-configuration - v1.3.1'
 summary: >-
   Standard base response for getting, deleting or updating a configuration
   setting

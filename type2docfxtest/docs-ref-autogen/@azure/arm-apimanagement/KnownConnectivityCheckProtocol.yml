@@ -1,23 +1,23 @@
 ### YamlMime:TSEnum
 name: KnownConnectivityCheckProtocol
-uid: '@azure/arm-apimanagement.KnownConnectivityCheckProtocol'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityCheckProtocol'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.ConnectivityCheckProtocol> that
-  the service accepts.
+  Known values of <xref:@azure/arm-apimanagement -
+  v8.1.2.ConnectivityCheckProtocol> that the service accepts.
 fullName: KnownConnectivityCheckProtocol
 remarks: ''
 isDeprecated: false
 fields:
   - name: Http
-    uid: '@azure/arm-apimanagement.KnownConnectivityCheckProtocol.Http'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityCheckProtocol.Http'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Http
   - name: Https
-    uid: '@azure/arm-apimanagement.KnownConnectivityCheckProtocol.Https'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityCheckProtocol.Https'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Https
   - name: TCP
-    uid: '@azure/arm-apimanagement.KnownConnectivityCheckProtocol.TCP'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityCheckProtocol.TCP'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: TCP

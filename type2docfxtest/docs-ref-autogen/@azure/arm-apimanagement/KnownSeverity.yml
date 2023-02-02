@@ -1,19 +1,19 @@
 ### YamlMime:TSEnum
 name: KnownSeverity
-uid: '@azure/arm-apimanagement.KnownSeverity'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownSeverity'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.Severity> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.Severity> that the
+  service accepts.
 fullName: KnownSeverity
 remarks: ''
 isDeprecated: false
 fields:
   - name: Error
-    uid: '@azure/arm-apimanagement.KnownSeverity.Error'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownSeverity.Error'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Error
   - name: Warning
-    uid: '@azure/arm-apimanagement.KnownSeverity.Warning'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownSeverity.Warning'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Warning

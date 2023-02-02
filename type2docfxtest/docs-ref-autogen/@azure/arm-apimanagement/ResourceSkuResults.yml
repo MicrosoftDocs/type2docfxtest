@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ResourceSkuResults
-uid: '@azure/arm-apimanagement.ResourceSkuResults'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResults'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: The API Management service SKUs operation response.
 fullName: ResourceSkuResults
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement.ResourceSkuResults.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResults.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The uri to fetch the next page of API Management service Skus.
     fullName: nextLink
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ResourceSkuResults.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResults.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The list of skus available for the service.
     fullName: value
     remarks: ''
@@ -31,4 +31,4 @@ properties:
       content: 'value: ResourceSkuResult[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ResourceSkuResult" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ResourceSkuResult" />[]'

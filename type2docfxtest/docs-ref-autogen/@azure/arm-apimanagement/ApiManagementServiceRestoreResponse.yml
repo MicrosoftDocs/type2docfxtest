@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceRestoreResponse
-uid: '@azure/arm-apimanagement.ApiManagementServiceRestoreResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceRestoreResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the restore operation.
 fullName: ApiManagementServiceRestoreResponse
 remarks: ''

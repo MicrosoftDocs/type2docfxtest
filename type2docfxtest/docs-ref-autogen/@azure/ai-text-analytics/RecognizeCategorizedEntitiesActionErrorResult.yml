@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: RecognizeCategorizedEntitiesActionErrorResult
-uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionErrorResult'
-package: '@azure/ai-text-analytics'
+uid: >-
+  @azure/ai-text-analytics -
+  v5.1.0.RecognizeCategorizedEntitiesActionErrorResult
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The error of a recognize categorized entities action.
 fullName: RecognizeCategorizedEntitiesActionErrorResult
 remarks: ''

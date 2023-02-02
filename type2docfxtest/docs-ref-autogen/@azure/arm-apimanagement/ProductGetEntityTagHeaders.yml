@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductGetEntityTagHeaders
-uid: '@azure/arm-apimanagement.ProductGetEntityTagHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductGetEntityTagHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Product_getEntityTag operation.
 fullName: ProductGetEntityTagHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.ProductGetEntityTagHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductGetEntityTagHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ErrorCode
-uid: '@azure/ai-text-analytics.ErrorCode'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.ErrorCode'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >
   An Error Code returned from the Text Analytics service. Possible
 

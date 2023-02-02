@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: UserIdentitiesListNextResponse
-uid: '@azure/arm-apimanagement.UserIdentitiesListNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserIdentitiesListNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listNext operation.
 fullName: UserIdentitiesListNextResponse
 remarks: ''

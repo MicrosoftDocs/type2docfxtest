@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AppConfigurationClient
-uid: '@azure/app-configuration.AppConfigurationClient'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.AppConfigurationClient'
+package: '@azure/app-configuration - v1.3.1'
 summary: Client for the Azure App Configuration service.
 fullName: AppConfigurationClient
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: class
 constructors:
   - name: 'AppConfigurationClient(string, AppConfigurationClientOptions)'
-    uid: '@azure/app-configuration.AppConfigurationClient.constructor'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.AppConfigurationClient.constructor'
+    package: '@azure/app-configuration - v1.3.1'
     summary: Initializes a new instance of the AppConfigurationClient class.
     remarks: ''
     isDeprecated: false
@@ -24,15 +24,15 @@ constructors:
           description: Connection string needed for a client to connect to Azure.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.AppConfigurationClientOptions"
-            />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.AppConfigurationClientOptions" />
           description: |
             Options for the AppConfigurationClient.
   - name: >-
       AppConfigurationClient(string, TokenCredential,
       AppConfigurationClientOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.constructor_1'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.AppConfigurationClient.constructor_1'
+    package: '@azure/app-configuration - v1.3.1'
     summary: |-
       Initializes a new instance of the AppConfigurationClient class using
       a TokenCredential.
@@ -56,8 +56,8 @@ constructors:
             package to create a credential that suits your needs.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.AppConfigurationClientOptions"
-            />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.AppConfigurationClientOptions" />
           description: |
             Options for the AppConfigurationClient.
 methods:
@@ -66,8 +66,10 @@ methods:
       AddConfigurationSettingParam<FeatureFlagValue> |
       AddConfigurationSettingParam<SecretReferenceValue>,
       AddConfigurationSettingOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.addConfigurationSetting'
-    package: '@azure/app-configuration'
+    uid: >-
+      @azure/app-configuration -
+      v1.3.1.AppConfigurationClient.addConfigurationSetting
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Add a setting into the Azure App Configuration service, failing if it
 
@@ -94,29 +96,34 @@ methods:
       parameters:
         - id: configurationSetting
           type: >-
-            <xref uid="@azure/app-configuration.AddConfigurationSettingParam" />
-            | <xref uid="@azure/app-configuration.AddConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.FeatureFlagValue" />&gt; |
-            <xref uid="@azure/app-configuration.AddConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.SecretReferenceValue"
-            />&gt;
+            @azure/app-configuration - <xref
+            uid="v1.3.1.AddConfigurationSettingParam" /> |
+            @azure/app-configuration - <xref
+            uid="v1.3.1.AddConfigurationSettingParam"
+            />&lt;@azure/app-configuration - <xref uid="v1.3.1.FeatureFlagValue"
+            />&gt; | @azure/app-configuration - <xref
+            uid="v1.3.1.AddConfigurationSettingParam"
+            />&lt;@azure/app-configuration - <xref
+            uid="v1.3.1.SecretReferenceValue" />&gt;
           description: A configuration setting.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.AddConfigurationSettingOptions"
-            />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.AddConfigurationSettingOptions" />
           description: |
             Optional parameters for the request.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/app-configuration.AddConfigurationSettingResponse" />&gt;
+          Promise&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.AddConfigurationSettingResponse" />&gt;
   - name: >-
       deleteConfigurationSetting(ConfigurationSettingId,
       DeleteConfigurationSettingOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.deleteConfigurationSetting'
-    package: '@azure/app-configuration'
+    uid: >-
+      @azure/app-configuration -
+      v1.3.1.AppConfigurationClient.deleteConfigurationSetting
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Delete a setting from the Azure App Configuration service
 
@@ -137,25 +144,28 @@ methods:
         Promise<DeleteConfigurationSettingResponse>
       parameters:
         - id: id
-          type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
+          type: >-
+            @azure/app-configuration - <xref uid="v1.3.1.ConfigurationSettingId"
+            />
           description: The id of the configuration setting to delete.
         - id: options
           type: >-
-            <xref
-            uid="@azure/app-configuration.DeleteConfigurationSettingOptions" />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.DeleteConfigurationSettingOptions" />
           description: |
             Optional parameters for the request (ex: etag, label)
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/app-configuration.DeleteConfigurationSettingResponse"
-          />&gt;
+          Promise&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.DeleteConfigurationSettingResponse" />&gt;
   - name: >-
       getConfigurationSetting(ConfigurationSettingId,
       GetConfigurationSettingOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.getConfigurationSetting'
-    package: '@azure/app-configuration'
+    uid: >-
+      @azure/app-configuration -
+      v1.3.1.AppConfigurationClient.getConfigurationSetting
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Gets a setting from the Azure App Configuration service.
 
@@ -176,22 +186,26 @@ methods:
         Promise<GetConfigurationSettingResponse>
       parameters:
         - id: id
-          type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
+          type: >-
+            @azure/app-configuration - <xref uid="v1.3.1.ConfigurationSettingId"
+            />
           description: The id of the configuration setting to get.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.GetConfigurationSettingOptions"
-            />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.GetConfigurationSettingOptions" />
           description: |
             Optional parameters for the request.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/app-configuration.GetConfigurationSettingResponse" />&gt;
+          Promise&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.GetConfigurationSettingResponse" />&gt;
   - name: listConfigurationSettings(ListConfigurationSettingsOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.listConfigurationSettings'
-    package: '@azure/app-configuration'
+    uid: >-
+      @azure/app-configuration -
+      v1.3.1.AppConfigurationClient.listConfigurationSettings
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Lists settings from the Azure App Configuration service, optionally
 
@@ -216,20 +230,20 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref
-            uid="@azure/app-configuration.ListConfigurationSettingsOptions" />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.ListConfigurationSettingsOptions" />
           description: |
             Optional parameters for the request.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/app-configuration.ConfigurationSetting" />, <xref
-          uid="@azure/app-configuration.ListConfigurationSettingPage" />, <xref
-          uid="@azure/app-configuration.PageSettings" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.ConfigurationSetting" />, @azure/app-configuration - <xref
+          uid="v1.3.1.ListConfigurationSettingPage" />, @azure/app-configuration
+          - <xref uid="v1.3.1.PageSettings" />&gt;
   - name: listRevisions(ListRevisionsOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.listRevisions'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.AppConfigurationClient.listRevisions'
+    package: '@azure/app-configuration - v1.3.1'
     summary: |-
       Lists revisions of a set of keys, optionally filtered by key names,
       labels and accept datetime.
@@ -246,23 +260,27 @@ methods:
         PageSettings>
       parameters:
         - id: options
-          type: <xref uid="@azure/app-configuration.ListRevisionsOptions" />
+          type: >-
+            @azure/app-configuration - <xref uid="v1.3.1.ListRevisionsOptions"
+            />
           description: |
             Optional parameters for the request.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/app-configuration.ConfigurationSetting" />, <xref
-          uid="@azure/app-configuration.ListRevisionsPage" />, <xref
-          uid="@azure/app-configuration.PageSettings" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.ConfigurationSetting" />, @azure/app-configuration - <xref
+          uid="v1.3.1.ListRevisionsPage" />, @azure/app-configuration - <xref
+          uid="v1.3.1.PageSettings" />&gt;
   - name: >-
       setConfigurationSetting(SetConfigurationSettingParam |
       SetConfigurationSettingParam<FeatureFlagValue> |
       SetConfigurationSettingParam<SecretReferenceValue>,
       SetConfigurationSettingOptions)
-    uid: '@azure/app-configuration.AppConfigurationClient.setConfigurationSetting'
-    package: '@azure/app-configuration'
+    uid: >-
+      @azure/app-configuration -
+      v1.3.1.AppConfigurationClient.setConfigurationSetting
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Sets the value of a key in the Azure App Configuration service, allowing
       for an optional etag.
@@ -279,17 +297,20 @@ methods:
       parameters:
         - id: configurationSetting
           type: >-
-            <xref uid="@azure/app-configuration.SetConfigurationSettingParam" />
-            | <xref uid="@azure/app-configuration.SetConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.FeatureFlagValue" />&gt; |
-            <xref uid="@azure/app-configuration.SetConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.SecretReferenceValue"
-            />&gt;
+            @azure/app-configuration - <xref
+            uid="v1.3.1.SetConfigurationSettingParam" /> |
+            @azure/app-configuration - <xref
+            uid="v1.3.1.SetConfigurationSettingParam"
+            />&lt;@azure/app-configuration - <xref uid="v1.3.1.FeatureFlagValue"
+            />&gt; | @azure/app-configuration - <xref
+            uid="v1.3.1.SetConfigurationSettingParam"
+            />&lt;@azure/app-configuration - <xref
+            uid="v1.3.1.SecretReferenceValue" />&gt;
           description: A configuration value.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.SetConfigurationSettingOptions"
-            />
+            @azure/app-configuration - <xref
+            uid="v1.3.1.SetConfigurationSettingOptions" />
           description: >
             Optional parameters for the request.
 
@@ -305,11 +326,11 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/app-configuration.SetConfigurationSettingResponse" />&gt;
+          Promise&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.SetConfigurationSettingResponse" />&gt;
   - name: 'setReadOnly(ConfigurationSettingId, boolean, SetReadOnlyOptions)'
-    uid: '@azure/app-configuration.AppConfigurationClient.setReadOnly'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.AppConfigurationClient.setReadOnly'
+    package: '@azure/app-configuration - v1.3.1'
     summary: Sets or clears a key's read-only status.
     remarks: ''
     isDeprecated: false
@@ -319,23 +340,25 @@ methods:
         options?: SetReadOnlyOptions): Promise<SetReadOnlyResponse>
       parameters:
         - id: id
-          type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
+          type: >-
+            @azure/app-configuration - <xref uid="v1.3.1.ConfigurationSettingId"
+            />
           description: |
             The id of the configuration setting to modify.
         - id: readOnly
           type: boolean
           description: ''
         - id: options
-          type: <xref uid="@azure/app-configuration.SetReadOnlyOptions" />
+          type: '@azure/app-configuration - <xref uid="v1.3.1.SetReadOnlyOptions" />'
           description: ''
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/app-configuration.SetReadOnlyResponse"
-          />&gt;
+          Promise&lt;@azure/app-configuration - <xref
+          uid="v1.3.1.SetReadOnlyResponse" />&gt;
   - name: updateSyncToken(string)
-    uid: '@azure/app-configuration.AppConfigurationClient.updateSyncToken'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.AppConfigurationClient.updateSyncToken'
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Adds an external synchronization token to ensure service requests receive
       up-to-date values.

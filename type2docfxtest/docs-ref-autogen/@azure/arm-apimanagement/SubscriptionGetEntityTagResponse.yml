@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: SubscriptionGetEntityTagResponse
-uid: '@azure/arm-apimanagement.SubscriptionGetEntityTagResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionGetEntityTagResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the getEntityTag operation.
 fullName: SubscriptionGetEntityTagResponse
 remarks: ''

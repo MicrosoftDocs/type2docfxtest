@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NamedValueEntityBaseParameters
-uid: '@azure/arm-apimanagement.NamedValueEntityBaseParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NamedValueEntityBaseParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: NamedValue Entity Base Parameters set.
 fullName: NamedValueEntityBaseParameters
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: secret
-    uid: '@azure/arm-apimanagement.NamedValueEntityBaseParameters.secret'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueEntityBaseParameters.secret'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines whether the value is a secret and should be encrypted or not.
       Default value is false.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: tags
-    uid: '@azure/arm-apimanagement.NamedValueEntityBaseParameters.tags'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueEntityBaseParameters.tags'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Optional tags that when provided can be used to filter the NamedValue
       list.

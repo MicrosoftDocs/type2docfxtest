@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: QuotaByCounterKeysUpdateResponse
-uid: '@azure/arm-apimanagement.QuotaByCounterKeysUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.QuotaByCounterKeysUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the update operation.
 fullName: QuotaByCounterKeysUpdateResponse
 remarks: ''

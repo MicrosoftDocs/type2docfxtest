@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TenantSettingsListByServiceNextResponse
-uid: '@azure/arm-apimanagement.TenantSettingsListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TenantSettingsListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: TenantSettingsListByServiceNextResponse
 remarks: ''

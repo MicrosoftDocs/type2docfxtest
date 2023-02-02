@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IdentityProviderCreateOrUpdateOptionalParams
-uid: '@azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderCreateOrUpdateOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: IdentityProviderCreateOrUpdateOptionalParams
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: ifMatch
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams.ifMatch
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateOrUpdateOptionalParams.ifMatch
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       ETag of the Entity. Not required when creating an entity, but required
       when updating an entity.
@@ -26,8 +27,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateOrUpdateOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -40,8 +42,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams.onResponse
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateOrUpdateOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -57,8 +60,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateOrUpdateOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -71,8 +75,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateOrUpdateOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -85,8 +90,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateOrUpdateOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

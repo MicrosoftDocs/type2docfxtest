@@ -1,27 +1,27 @@
 ### YamlMime:TSEnum
 name: KnownProtocol
-uid: '@azure/arm-apimanagement.KnownProtocol'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownProtocol'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.Protocol> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.Protocol> that the
+  service accepts.
 fullName: KnownProtocol
 remarks: ''
 isDeprecated: false
 fields:
   - name: Http
-    uid: '@azure/arm-apimanagement.KnownProtocol.Http'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownProtocol.Http'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Http
   - name: Https
-    uid: '@azure/arm-apimanagement.KnownProtocol.Https'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownProtocol.Https'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Https
   - name: Ws
-    uid: '@azure/arm-apimanagement.KnownProtocol.Ws'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownProtocol.Ws'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Ws
   - name: Wss
-    uid: '@azure/arm-apimanagement.KnownProtocol.Wss'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownProtocol.Wss'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Wss

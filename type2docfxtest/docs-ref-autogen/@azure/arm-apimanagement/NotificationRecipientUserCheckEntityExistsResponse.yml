@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: NotificationRecipientUserCheckEntityExistsResponse
-uid: '@azure/arm-apimanagement.NotificationRecipientUserCheckEntityExistsResponse'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.NotificationRecipientUserCheckEntityExistsResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the checkEntityExists operation.
 fullName: NotificationRecipientUserCheckEntityExistsResponse
 remarks: ''

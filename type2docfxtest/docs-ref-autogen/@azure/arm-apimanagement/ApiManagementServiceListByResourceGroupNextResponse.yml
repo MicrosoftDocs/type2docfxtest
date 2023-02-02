@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceListByResourceGroupNextResponse
-uid: '@azure/arm-apimanagement.ApiManagementServiceListByResourceGroupNextResponse'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceListByResourceGroupNextResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByResourceGroupNext operation.
 fullName: ApiManagementServiceListByResourceGroupNextResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AccessInformationCollection
-uid: '@azure/arm-apimanagement.AccessInformationCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.AccessInformationCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged AccessInformation list representation.
 fullName: AccessInformationCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.AccessInformationCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AccessInformationCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement.AccessInformationCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AccessInformationCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link if any.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.AccessInformationCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AccessInformationCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Page values.
 
@@ -51,4 +51,6 @@ properties:
       content: 'value?: AccessInformationContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.AccessInformationContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.AccessInformationContract" />[]

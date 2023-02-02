@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiIssueCommentCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.ApiIssueCommentCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueCommentCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: ApiIssueCommentCreateOrUpdateResponse
 remarks: ''

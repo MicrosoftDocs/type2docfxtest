@@ -1,19 +1,19 @@
 ### YamlMime:TSEnum
 name: KnownDigestConfigState
-uid: '@azure/arm-advisor.KnownDigestConfigState'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.KnownDigestConfigState'
+package: '@azure/arm-advisor - v3.1.0'
 summary: >-
-  Known values of <xref:@azure/arm-advisor.DigestConfigState> that the service
-  accepts.
+  Known values of <xref:@azure/arm-advisor - v3.1.0.DigestConfigState> that the
+  service accepts.
 fullName: KnownDigestConfigState
 remarks: ''
 isDeprecated: false
 fields:
   - name: Active
-    uid: '@azure/arm-advisor.KnownDigestConfigState.Active'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.KnownDigestConfigState.Active'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Active
   - name: Disabled
-    uid: '@azure/arm-advisor.KnownDigestConfigState.Disabled'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.KnownDigestConfigState.Disabled'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Disabled

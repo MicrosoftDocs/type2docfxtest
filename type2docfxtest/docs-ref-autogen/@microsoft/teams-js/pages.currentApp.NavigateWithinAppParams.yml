@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NavigateWithinAppParams
-uid: '@microsoft/teams-js.pages.currentApp.NavigateWithinAppParams'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.pages.currentApp.NavigateWithinAppParams'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Parameters for the NavigateWithinApp
 fullName: NavigateWithinAppParams
 remarks: ''
@@ -10,8 +10,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: pageId
-    uid: '@microsoft/teams-js.pages.currentApp.NavigateWithinAppParams.pageId'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.pages.currentApp.NavigateWithinAppParams.pageId
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       The developer-defined unique ID for the page defined in the manifest or
       when first configuring
@@ -26,14 +28,17 @@ properties:
         description: ''
         type: string
   - name: subPageId
-    uid: '@microsoft/teams-js.pages.currentApp.NavigateWithinAppParams.subPageId'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.pages.currentApp.NavigateWithinAppParams.subPageId
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Optional developer-defined unique ID describing the content to navigate to
       within the page. This
 
       can be retrieved from the Context object [|
-      app.Context.page.subPageId](xref:@microsoft/teams-js.app.PageInfo.subPageId)
+      app.Context.page.subPageId](xref:@microsoft/teams-js -
+      v2.5.0.app.PageInfo.subPageId)
     fullName: subPageId
     remarks: ''
     isDeprecated: false

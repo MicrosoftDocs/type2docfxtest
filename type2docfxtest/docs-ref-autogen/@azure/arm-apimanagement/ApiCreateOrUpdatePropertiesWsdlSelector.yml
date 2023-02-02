@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiCreateOrUpdatePropertiesWsdlSelector
-uid: '@azure/arm-apimanagement.ApiCreateOrUpdatePropertiesWsdlSelector'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdatePropertiesWsdlSelector'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Criteria to limit import of WSDL to a subset of the document.
 fullName: ApiCreateOrUpdatePropertiesWsdlSelector
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: wsdlEndpointName
     uid: >-
-      @azure/arm-apimanagement.ApiCreateOrUpdatePropertiesWsdlSelector.wsdlEndpointName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdatePropertiesWsdlSelector.wsdlEndpointName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Name of endpoint(port) to import from WSDL
     fullName: wsdlEndpointName
     remarks: ''
@@ -23,8 +24,9 @@ properties:
         type: undefined | string
   - name: wsdlServiceName
     uid: >-
-      @azure/arm-apimanagement.ApiCreateOrUpdatePropertiesWsdlSelector.wsdlServiceName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdatePropertiesWsdlSelector.wsdlServiceName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Name of service to import from WSDL
     fullName: wsdlServiceName
     remarks: ''

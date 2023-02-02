@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TenantSettingsGetResponse
-uid: '@azure/arm-apimanagement.TenantSettingsGetResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TenantSettingsGetResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the get operation.
 fullName: TenantSettingsGetResponse
 remarks: ''

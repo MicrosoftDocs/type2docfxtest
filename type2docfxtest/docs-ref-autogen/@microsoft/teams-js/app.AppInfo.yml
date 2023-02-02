@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AppInfo
-uid: '@microsoft/teams-js.app.AppInfo'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.app.AppInfo'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Represents application information.
 fullName: AppInfo
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: appLaunchId
-    uid: '@microsoft/teams-js.app.AppInfo.appLaunchId'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.appLaunchId'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       ID for the current visible app which is different for across cached
       sessions. Used for correlating telemetry data.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: string
   - name: host
-    uid: '@microsoft/teams-js.app.AppInfo.host'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.host'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Info of the host
     fullName: host
     remarks: ''
@@ -33,10 +33,10 @@ properties:
       content: 'host: AppHostInfo'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.app.AppHostInfo" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.AppHostInfo" />'
   - name: iconPositionVertical
-    uid: '@microsoft/teams-js.app.AppInfo.iconPositionVertical'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.iconPositionVertical'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Personal app icon y coordinate position
     fullName: iconPositionVertical
     remarks: ''
@@ -47,8 +47,8 @@ properties:
         description: ''
         type: number
   - name: locale
-    uid: '@microsoft/teams-js.app.AppInfo.locale'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.locale'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: |-
       The current locale that the user has configured for the app formatted as
       languageId-countryId (for example, en-us).
@@ -61,8 +61,8 @@ properties:
         description: ''
         type: string
   - name: osLocaleInfo
-    uid: '@microsoft/teams-js.app.AppInfo.osLocaleInfo'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.osLocaleInfo'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       More detailed locale info from the user's OS if available. Can be used
       together with
@@ -78,10 +78,10 @@ properties:
       content: 'osLocaleInfo?: LocaleInfo'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.LocaleInfo" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.LocaleInfo" />'
   - name: parentMessageId
-    uid: '@microsoft/teams-js.app.AppInfo.parentMessageId'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.parentMessageId'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: |-
       The ID of the parent message from which this task module was launched.
       This is only available in task modules launched from bot cards.
@@ -94,8 +94,8 @@ properties:
         description: ''
         type: string
   - name: sessionId
-    uid: '@microsoft/teams-js.app.AppInfo.sessionId'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.sessionId'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Unique ID for the current session for use in correlating telemetry data.
     fullName: sessionId
     remarks: ''
@@ -106,8 +106,8 @@ properties:
         description: ''
         type: string
   - name: theme
-    uid: '@microsoft/teams-js.app.AppInfo.theme'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.theme'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       The current UI theme of the host. Possible values: "default", "dark", or
       "contrast".
@@ -120,8 +120,8 @@ properties:
         description: ''
         type: string
   - name: userClickTime
-    uid: '@microsoft/teams-js.app.AppInfo.userClickTime'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.userClickTime'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Time when the user clicked on the tab
     fullName: userClickTime
     remarks: ''
@@ -132,8 +132,8 @@ properties:
         description: ''
         type: number
   - name: userFileOpenPreference
-    uid: '@microsoft/teams-js.app.AppInfo.userFileOpenPreference'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.AppInfo.userFileOpenPreference'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Where the user prefers the file to be opened from by default during file
       open
@@ -144,4 +144,4 @@ properties:
       content: 'userFileOpenPreference?: FileOpenPreference'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.FileOpenPreference" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.FileOpenPreference" />'

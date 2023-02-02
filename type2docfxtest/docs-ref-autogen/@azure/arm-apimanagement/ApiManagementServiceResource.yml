@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementServiceResource
-uid: '@azure/arm-apimanagement.ApiManagementServiceResource'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: A single API Management service resource in List or Get response.
 fullName: ApiManagementServiceResource
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: additionalLocations
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.additionalLocations'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.additionalLocations
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Additional datacenter locations of the API Management service.
     fullName: additionalLocations
     remarks: ''
@@ -19,10 +21,12 @@ properties:
       content: 'additionalLocations?: AdditionalLocation[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.AdditionalLocation" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AdditionalLocation" />[]'
   - name: apiVersionConstraint
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.apiVersionConstraint'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.apiVersionConstraint
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Control Plane Apis version constraint for the API Management service.
     fullName: apiVersionConstraint
     remarks: ''
@@ -31,10 +35,12 @@ properties:
       content: 'apiVersionConstraint?: ApiVersionConstraint'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiVersionConstraint" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiVersionConstraint" />'
   - name: certificates
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.certificates'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.certificates
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       List of Certificates that need to be installed in the API Management
       service. Max supported certificates that can be installed is 10.
@@ -45,10 +51,14 @@ properties:
       content: 'certificates?: CertificateConfiguration[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.CertificateConfiguration" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.CertificateConfiguration"
+          />[]
   - name: createdAtUtc
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.createdAtUtc'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.createdAtUtc
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Creation UTC date of the API Management service.The date conforms to the
       following format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601
@@ -65,8 +75,10 @@ properties:
         description: ''
         type: Date
   - name: customProperties
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.customProperties'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.customProperties
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Custom properties of the API Management service.</br>Setting
       `Microsoft.WindowsAzure.ApiManagement.Gateway.Security.Ciphers.TripleDes168`
@@ -109,8 +121,10 @@ properties:
         description: ''
         type: 'undefined | [key: string]: string'
   - name: developerPortalUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.developerPortalUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.developerPortalUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       DEveloper Portal endpoint URL of the API Management service.
 
@@ -125,8 +139,10 @@ properties:
         description: ''
         type: undefined | string
   - name: disableGateway
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.disableGateway'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.disableGateway
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Property only valid for an Api Management service deployed in multiple
       locations. This can be used to disable the gateway in master region.
@@ -140,8 +156,9 @@ properties:
         type: undefined | false | true
   - name: enableClientCertificate
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceResource.enableClientCertificate
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.enableClientCertificate
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Property only meant to be used for Consumption SKU Service. This enforces
       a client certificate to be presented on each request to the gateway. This
@@ -156,8 +173,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: etag
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.etag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.etag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       ETag of the resource.
 
@@ -172,8 +189,10 @@ properties:
         description: ''
         type: undefined | string
   - name: gatewayRegionalUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.gatewayRegionalUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.gatewayRegionalUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gateway URL of the API Management service in the Default Region.
 
@@ -188,8 +207,8 @@ properties:
         description: ''
         type: undefined | string
   - name: gatewayUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.gatewayUrl'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.gatewayUrl'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gateway URL of the API Management service.
 
@@ -205,8 +224,9 @@ properties:
         type: undefined | string
   - name: hostnameConfigurations
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceResource.hostnameConfigurations
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.hostnameConfigurations
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Custom hostname configuration of the API Management service.
     fullName: hostnameConfigurations
     remarks: ''
@@ -215,10 +235,12 @@ properties:
       content: 'hostnameConfigurations?: HostnameConfiguration[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.HostnameConfiguration" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.HostnameConfiguration"
+          />[]
   - name: identity
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.identity'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.identity'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Managed service identity of the Api Management service.
     fullName: identity
     remarks: ''
@@ -227,10 +249,12 @@ properties:
       content: 'identity?: ApiManagementServiceIdentity'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiManagementServiceIdentity" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementServiceIdentity" />
   - name: location
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.location'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.location'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Resource location.
     fullName: location
     remarks: ''
@@ -241,8 +265,10 @@ properties:
         description: ''
         type: string
   - name: managementApiUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.managementApiUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.managementApiUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Management API endpoint URL of the API Management service.
 
@@ -258,8 +284,9 @@ properties:
         type: undefined | string
   - name: notificationSenderEmail
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceResource.notificationSenderEmail
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.notificationSenderEmail
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Email address from which the notification will be sent.
     fullName: notificationSenderEmail
     remarks: ''
@@ -270,8 +297,10 @@ properties:
         description: ''
         type: undefined | string
   - name: platformVersion
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.platformVersion'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.platformVersion
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Compute Platform Version running the service in this location.
 
@@ -284,10 +313,10 @@ properties:
       content: 'platformVersion?: PlatformVersion'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PlatformVersion" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PlatformVersion" />'
   - name: portalUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.portalUrl'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.portalUrl'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Publisher portal endpoint Url of the API Management service.
 
@@ -303,8 +332,9 @@ properties:
         type: undefined | string
   - name: privateEndpointConnections
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceResource.privateEndpointConnections
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.privateEndpointConnections
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: List of Private Endpoint Connections of this service.
     fullName: privateEndpointConnections
     remarks: ''
@@ -314,12 +344,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper"
-          />[]
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.RemotePrivateEndpointConnectionWrapper" />[]
   - name: privateIPAddresses
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.privateIPAddresses'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.privateIPAddresses
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Private Static Load Balanced IP addresses of the API Management service in
       Primary region which is deployed in an Internal Virtual Network. Available
@@ -336,8 +367,10 @@ properties:
         description: ''
         type: 'string[]'
   - name: provisioningState
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.provisioningState'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.provisioningState
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The current provisioning state of the API Management service which can be
       one of the following:
@@ -354,8 +387,10 @@ properties:
         description: ''
         type: undefined | string
   - name: publicIPAddresses
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.publicIPAddresses'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.publicIPAddresses
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Public Static Load Balanced IP addresses of the API Management service in
       Primary region. Available only for Basic, Standard, Premium and Isolated
@@ -372,8 +407,10 @@ properties:
         description: ''
         type: 'string[]'
   - name: publicIpAddressId
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.publicIpAddressId'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.publicIpAddressId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Public Standard SKU IP V4 based IP address to be associated with Virtual
       Network deployed service in the region. Supported only for Developer and
@@ -387,8 +424,10 @@ properties:
         description: ''
         type: undefined | string
   - name: publicNetworkAccess
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.publicNetworkAccess'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.publicNetworkAccess
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Whether or not public endpoint access is allowed for this API Management
       service.  Value is optional but if passed in, must be 'Enabled' or
@@ -401,10 +440,12 @@ properties:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PublicNetworkAccess" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PublicNetworkAccess" />'
   - name: publisherEmail
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.publisherEmail'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.publisherEmail
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Publisher email.
     fullName: publisherEmail
     remarks: ''
@@ -415,8 +456,10 @@ properties:
         description: ''
         type: string
   - name: publisherName
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.publisherName'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.publisherName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Publisher name.
     fullName: publisherName
     remarks: ''
@@ -427,8 +470,8 @@ properties:
         description: ''
         type: string
   - name: restore
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.restore'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.restore'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Undelete Api Management Service if it was previously soft-deleted. If this
       flag is specified and set to True all other properties will be ignored.
@@ -441,8 +484,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: scmUrl
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.scmUrl'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.scmUrl'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       SCM endpoint URL of the API Management service.
 
@@ -457,8 +500,8 @@ properties:
         description: ''
         type: undefined | string
   - name: sku
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.sku'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.sku'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: SKU properties of the API Management service.
     fullName: sku
     remarks: ''
@@ -468,11 +511,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/arm-apimanagement.ApiManagementServiceSkuProperties"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementServiceSkuProperties" />
   - name: systemData
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.systemData'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.systemData'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Metadata pertaining to creation and last modification of the resource.
 
@@ -485,11 +528,12 @@ properties:
       content: 'systemData?: SystemData'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SystemData" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SystemData" />'
   - name: targetProvisioningState
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceResource.targetProvisioningState
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.targetProvisioningState
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The provisioning state of the API Management service, which is targeted by
       the long running operation started on the service.
@@ -506,8 +550,9 @@ properties:
         type: undefined | string
   - name: virtualNetworkConfiguration
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceResource.virtualNetworkConfiguration
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.virtualNetworkConfiguration
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Virtual network configuration of the API Management service.
     fullName: virtualNetworkConfiguration
     remarks: ''
@@ -516,10 +561,14 @@ properties:
       content: 'virtualNetworkConfiguration?: VirtualNetworkConfiguration'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.VirtualNetworkConfiguration" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.VirtualNetworkConfiguration" />
   - name: virtualNetworkType
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.virtualNetworkType'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceResource.virtualNetworkType
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of VPN in which API Management service needs to be configured in.
       None (Default Value) means the API Management service is not part of any
@@ -534,10 +583,10 @@ properties:
       content: 'virtualNetworkType?: VirtualNetworkType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.VirtualNetworkType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.VirtualNetworkType" />'
   - name: zones
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.zones'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.zones'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A list of availability zones denoting where the resource needs to come
       from.
@@ -551,8 +600,8 @@ properties:
         type: 'string[]'
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Resource ID.
 
@@ -567,11 +616,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [ApimResource.id](xref:@azure/arm-apimanagement.ApimResource.id)
+      <b>Inherited From</b> [ApimResource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.ApimResource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Resource name.
 
@@ -586,11 +635,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [ApimResource.name](xref:@azure/arm-apimanagement.ApimResource.name)
+      <b>Inherited From</b> [ApimResource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.ApimResource.name)
   - name: tags
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.tags'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.tags'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Resource tags.
     fullName: tags
     remarks: ''
@@ -601,11 +650,11 @@ inheritedProperties:
         description: ''
         type: 'undefined | [key: string]: string'
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [ApimResource.tags](xref:@azure/arm-apimanagement.ApimResource.tags)
+      <b>Inherited From</b> [ApimResource.tags](xref:@azure/arm-apimanagement -
+      v8.1.2.ApimResource.tags)
   - name: type
-    uid: '@azure/arm-apimanagement.ApiManagementServiceResource.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceResource.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Resource type for API Management resource is set to
       Microsoft.ApiManagement.
@@ -621,6 +670,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [ApimResource.type](xref:@azure/arm-apimanagement.ApimResource.type)
-extends: <xref uid="@azure/arm-apimanagement.ApimResource" />
+      <b>Inherited From</b> [ApimResource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.ApimResource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApimResource" />'

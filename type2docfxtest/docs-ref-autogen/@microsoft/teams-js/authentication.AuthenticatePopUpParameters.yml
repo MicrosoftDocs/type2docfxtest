@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthenticatePopUpParameters
-uid: '@microsoft/teams-js.authentication.AuthenticatePopUpParameters'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.authentication.AuthenticatePopUpParameters'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Describes the authentication pop-up parameters
 fullName: AuthenticatePopUpParameters
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: height
-    uid: '@microsoft/teams-js.authentication.AuthenticatePopUpParameters.height'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthenticatePopUpParameters.height
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       The preferred height for the pop-up. This value can be ignored if outside
       the acceptable bounds.
@@ -23,8 +25,10 @@ properties:
         description: ''
         type: number
   - name: isExternal
-    uid: '@microsoft/teams-js.authentication.AuthenticatePopUpParameters.isExternal'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthenticatePopUpParameters.isExternal
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       The flag which indicates whether the auth page should be opened in an
       external browser. This flag has no effect on the web client.
@@ -37,8 +41,10 @@ properties:
         description: ''
         type: boolean
   - name: url
-    uid: '@microsoft/teams-js.authentication.AuthenticatePopUpParameters.url'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthenticatePopUpParameters.url
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The URL for the authentication pop-up.
     fullName: url
     remarks: ''
@@ -49,8 +55,10 @@ properties:
         description: ''
         type: string
   - name: width
-    uid: '@microsoft/teams-js.authentication.AuthenticatePopUpParameters.width'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.authentication.AuthenticatePopUpParameters.width
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       The preferred width for the pop-up. This value can be ignored if outside
       the acceptable bounds.

@@ -1,5 +1,5 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.menus'
+uid: '@microsoft/teams-js - v2.5.0.menus'
 name: menus
 summary: >-
   Namespace to interact with the menu-specific part of the SDK.
@@ -8,22 +8,22 @@ summary: >-
   Menu.
 type: module
 interfaces:
-  - '@microsoft/teams-js.menus.ActionMenuParameters'
+  - '@microsoft/teams-js - v2.5.0.menus.ActionMenuParameters'
 enums:
-  - '@microsoft/teams-js.menus.DisplayMode'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.menus.DisplayMode'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: initialize()
-    uid: '@microsoft/teams-js.menus.initialize'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.menus.initialize'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
     syntax:
       content: function initialize()
   - name: isSupported()
-    uid: '@microsoft/teams-js.menus.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.menus.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiIssueListByServiceNextOptionalParams
-uid: '@azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueListByServiceNextOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: ApiIssueListByServiceNextOptionalParams
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: expandCommentsAttachments
     uid: >-
-      @azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.expandCommentsAttachments
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.expandCommentsAttachments
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Expand the comment attachments.
     fullName: expandCommentsAttachments
     remarks: ''
@@ -22,8 +23,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: filter
-    uid: '@azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.filter'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.filter
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -40,8 +43,10 @@ properties:
         description: ''
         type: undefined | string
   - name: skip
-    uid: '@azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.skip'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.skip
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -52,8 +57,10 @@ properties:
         description: ''
         type: undefined | number
   - name: top
-    uid: '@azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.top'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.top
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -66,8 +73,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -80,8 +88,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.onResponse
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -97,8 +106,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -111,8 +121,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -125,8 +136,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.ApiIssueListByServiceNextOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiIssueListByServiceNextOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NotificationListByServiceNextOptionalParams
-uid: '@azure/arm-apimanagement.NotificationListByServiceNextOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NotificationListByServiceNextOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: NotificationListByServiceNextOptionalParams
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: skip
-    uid: '@azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.skip'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.skip
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -21,8 +23,10 @@ properties:
         description: ''
         type: undefined | number
   - name: top
-    uid: '@azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.top'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.top
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -35,8 +39,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -49,8 +54,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.onResponse
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -66,8 +72,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -80,8 +87,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -94,8 +102,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.NotificationListByServiceNextOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.NotificationListByServiceNextOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

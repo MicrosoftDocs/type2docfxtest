@@ -1,21 +1,21 @@
 ### YamlMime:TSEnum
 name: ChannelType
-uid: '@microsoft/teams-js.ChannelType'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.ChannelType'
+package: '@microsoft/teams-js - v2.5.0'
 summary: The type of the channel with which the content is associated.
 fullName: ChannelType
 remarks: ''
 isDeprecated: false
 fields:
   - name: Private
-    uid: '@microsoft/teams-js.ChannelType.Private'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ChannelType.Private'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: Regular
-    uid: '@microsoft/teams-js.ChannelType.Regular'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ChannelType.Regular'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: Shared
-    uid: '@microsoft/teams-js.ChannelType.Shared'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ChannelType.Shared'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''

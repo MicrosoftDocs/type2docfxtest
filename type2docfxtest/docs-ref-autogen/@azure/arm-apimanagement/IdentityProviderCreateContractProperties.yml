@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IdentityProviderCreateContractProperties
-uid: '@azure/arm-apimanagement.IdentityProviderCreateContractProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderCreateContractProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   The external Identity Providers like Facebook, Google, Microsoft, Twitter or
   Azure Active Directory which can be used to enable access to the API
@@ -12,8 +12,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: clientId
-    uid: '@azure/arm-apimanagement.IdentityProviderCreateContractProperties.clientId'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.clientId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Client Id of the Application in the external Identity Provider. It is App
       ID for Facebook login, Client ID for Google login, App ID for Microsoft.
@@ -27,8 +29,9 @@ properties:
         type: string
   - name: clientSecret
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.clientSecret
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.clientSecret
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Client secret of the Application in external Identity Provider, used to
       authenticate login request. For example, it is App Secret for Facebook
@@ -46,8 +49,9 @@ properties:
 inheritedProperties:
   - name: allowedTenants
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.allowedTenants
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.allowedTenants
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: List of Allowed Tenants when configuring Azure Active Directory login.
     fullName: allowedTenants
     remarks: ''
@@ -59,11 +63,13 @@ inheritedProperties:
         type: 'string[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.allowedTenants](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.allowedTenants)
+      [IdentityProviderBaseParameters.allowedTenants](xref:@azure/arm-apimanagement
+      - v8.1.2.IdentityProviderBaseParameters.allowedTenants)
   - name: authority
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.authority
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.authority
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: OpenID Connect discovery endpoint hostname for AAD or AAD B2C.
     fullName: authority
     remarks: ''
@@ -75,11 +81,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.authority](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.authority)
+      [IdentityProviderBaseParameters.authority](xref:@azure/arm-apimanagement -
+      v8.1.2.IdentityProviderBaseParameters.authority)
   - name: passwordResetPolicyName
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.passwordResetPolicyName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.passwordResetPolicyName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Password Reset Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: passwordResetPolicyName
     remarks: ''
@@ -91,11 +99,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.passwordResetPolicyName](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.passwordResetPolicyName)
+      [IdentityProviderBaseParameters.passwordResetPolicyName](xref:@azure/arm-apimanagement
+      - v8.1.2.IdentityProviderBaseParameters.passwordResetPolicyName)
   - name: profileEditingPolicyName
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.profileEditingPolicyName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.profileEditingPolicyName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Profile Editing Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: profileEditingPolicyName
     remarks: ''
@@ -107,11 +117,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.profileEditingPolicyName](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.profileEditingPolicyName)
+      [IdentityProviderBaseParameters.profileEditingPolicyName](xref:@azure/arm-apimanagement
+      - v8.1.2.IdentityProviderBaseParameters.profileEditingPolicyName)
   - name: signinPolicyName
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.signinPolicyName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.signinPolicyName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Signin Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: signinPolicyName
     remarks: ''
@@ -123,11 +135,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.signinPolicyName](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.signinPolicyName)
+      [IdentityProviderBaseParameters.signinPolicyName](xref:@azure/arm-apimanagement
+      - v8.1.2.IdentityProviderBaseParameters.signinPolicyName)
   - name: signinTenant
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.signinTenant
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.signinTenant
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The TenantId to use instead of Common when logging into Active Directory
     fullName: signinTenant
     remarks: ''
@@ -139,11 +153,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.signinTenant](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.signinTenant)
+      [IdentityProviderBaseParameters.signinTenant](xref:@azure/arm-apimanagement
+      - v8.1.2.IdentityProviderBaseParameters.signinTenant)
   - name: signupPolicyName
     uid: >-
-      @azure/arm-apimanagement.IdentityProviderCreateContractProperties.signupPolicyName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.signupPolicyName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Signup Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: signupPolicyName
     remarks: ''
@@ -155,10 +171,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.signupPolicyName](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.signupPolicyName)
+      [IdentityProviderBaseParameters.signupPolicyName](xref:@azure/arm-apimanagement
+      - v8.1.2.IdentityProviderBaseParameters.signupPolicyName)
   - name: type
-    uid: '@azure/arm-apimanagement.IdentityProviderCreateContractProperties.type'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.IdentityProviderCreateContractProperties.type
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Identity Provider Type identifier.
     fullName: type
     remarks: ''
@@ -167,8 +186,11 @@ inheritedProperties:
       content: 'type?: IdentityProviderType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [IdentityProviderBaseParameters.type](xref:@azure/arm-apimanagement.IdentityProviderBaseParameters.type)
-extends: <xref uid="@azure/arm-apimanagement.IdentityProviderBaseParameters" />
+      [IdentityProviderBaseParameters.type](xref:@azure/arm-apimanagement -
+      v8.1.2.IdentityProviderBaseParameters.type)
+extends: >-
+  @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderBaseParameters"
+  />

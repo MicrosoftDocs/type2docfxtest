@@ -1,47 +1,47 @@
 ### YamlMime:TSEnum
 name: KnownIssueType
-uid: '@azure/arm-apimanagement.KnownIssueType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.IssueType> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.IssueType> that the
+  service accepts.
 fullName: KnownIssueType
 remarks: ''
 isDeprecated: false
 fields:
   - name: AgentStopped
-    uid: '@azure/arm-apimanagement.KnownIssueType.AgentStopped'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.AgentStopped'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: AgentStopped
   - name: DnsResolution
-    uid: '@azure/arm-apimanagement.KnownIssueType.DnsResolution'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.DnsResolution'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: DnsResolution
   - name: GuestFirewall
-    uid: '@azure/arm-apimanagement.KnownIssueType.GuestFirewall'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.GuestFirewall'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: GuestFirewall
   - name: NetworkSecurityRule
-    uid: '@azure/arm-apimanagement.KnownIssueType.NetworkSecurityRule'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.NetworkSecurityRule'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: NetworkSecurityRule
   - name: Platform
-    uid: '@azure/arm-apimanagement.KnownIssueType.Platform'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.Platform'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Platform
   - name: PortThrottled
-    uid: '@azure/arm-apimanagement.KnownIssueType.PortThrottled'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.PortThrottled'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: PortThrottled
   - name: SocketBind
-    uid: '@azure/arm-apimanagement.KnownIssueType.SocketBind'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.SocketBind'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: SocketBind
   - name: Unknown
-    uid: '@azure/arm-apimanagement.KnownIssueType.Unknown'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.Unknown'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Unknown
   - name: UserDefinedRoute
-    uid: '@azure/arm-apimanagement.KnownIssueType.UserDefinedRoute'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownIssueType.UserDefinedRoute'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: UserDefinedRoute

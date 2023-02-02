@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Recommendations
-uid: '@azure/arm-advisor.Recommendations'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.Recommendations'
+package: '@azure/arm-advisor - v3.1.0'
 summary: Interface representing a Recommendations.
 fullName: Recommendations
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: generate(RecommendationsGenerateOptionalParams)
-    uid: '@azure/arm-advisor.Recommendations.generate'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Recommendations.generate'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       Initiates the recommendation generation or computation process for a
       subscription. This operation is
@@ -26,18 +26,18 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/arm-advisor.RecommendationsGenerateOptionalParams"
-            />
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.RecommendationsGenerateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-advisor.RecommendationsGenerateResponse" />&gt;
+          Promise&lt;@azure/arm-advisor - <xref
+          uid="v3.1.0.RecommendationsGenerateResponse" />&gt;
   - name: 'get(string, string, RecommendationsGetOptionalParams)'
-    uid: '@azure/arm-advisor.Recommendations.get'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Recommendations.get'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Obtains details of a cached recommendation.
     remarks: ''
     isDeprecated: false
@@ -56,17 +56,19 @@ methods:
           type: string
           description: The recommendation ID.
         - id: options
-          type: <xref uid="@azure/arm-advisor.RecommendationsGetOptionalParams" />
+          type: >-
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.RecommendationsGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-advisor.RecommendationsGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-advisor - <xref
+          uid="v3.1.0.RecommendationsGetResponse" />&gt;
   - name: 'getGenerateStatus(string, RecommendationsGetGenerateStatusOptionalParams)'
-    uid: '@azure/arm-advisor.Recommendations.getGenerateStatus'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Recommendations.getGenerateStatus'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       Retrieves the status of the recommendation computation or generation
       process. Invoke this API after
@@ -90,17 +92,16 @@ methods:
                                recommendation response header.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-advisor.RecommendationsGetGenerateStatusOptionalParams"
-            />
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.RecommendationsGetGenerateStatusOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: list(RecommendationsListOptionalParams)
-    uid: '@azure/arm-advisor.Recommendations.list'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.Recommendations.list'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       Obtains cached recommendations for a subscription. The recommendations are
       generated or computed by
@@ -114,11 +115,13 @@ methods:
         PagedAsyncIterableIterator<ResourceRecommendationBase>
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-advisor.RecommendationsListOptionalParams" />
+          type: >-
+            @azure/arm-advisor - <xref
+            uid="v3.1.0.RecommendationsListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-advisor.ResourceRecommendationBase" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-advisor - <xref
+          uid="v3.1.0.ResourceRecommendationBase" />&gt;

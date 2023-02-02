@@ -1,12 +1,13 @@
 ### YamlMime:TSTypeAlias
 name: ApiVersionSetContractDetailsVersioningScheme
-uid: '@azure/arm-apimanagement.ApiVersionSetContractDetailsVersioningScheme'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContractDetailsVersioningScheme'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for ApiVersionSetContractDetailsVersioningScheme. \
 
-  <xref:@azure/arm-apimanagement.KnownApiVersionSetContractDetailsVersioningScheme>
-  can be used interchangeably with ApiVersionSetContractDetailsVersioningScheme,
+  <xref:@azure/arm-apimanagement -
+  v8.1.2.KnownApiVersionSetContractDetailsVersioningScheme> can be used
+  interchangeably with ApiVersionSetContractDetailsVersioningScheme,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

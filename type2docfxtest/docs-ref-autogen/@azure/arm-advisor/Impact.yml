@@ -1,14 +1,19 @@
 ### YamlMime:TSTypeAlias
 name: Impact
-uid: '@azure/arm-advisor.Impact'
-package: '@azure/arm-advisor'
-summary: |-
+uid: '@azure/arm-advisor - v3.1.0.Impact'
+package: '@azure/arm-advisor - v3.1.0'
+summary: >-
   Defines values for Impact. \
-  <xref:@azure/arm-advisor.KnownImpact> can be used interchangeably with Impact,
+
+  <xref:@azure/arm-advisor - v3.1.0.KnownImpact> can be used interchangeably
+  with Impact,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
+
   **High** \
+
   **Medium** \
+
   **Low**
 fullName: Impact
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GroupUser
-uid: '@azure/arm-apimanagement.GroupUser'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GroupUser'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a GroupUser.
 fullName: GroupUser
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       checkEntityExists(string, string, string, string,
       GroupUserCheckEntityExistsOptionalParams)
-    uid: '@azure/arm-apimanagement.GroupUser.checkEntityExists'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupUser.checkEntityExists'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Checks that user entity specified by identifier is associated with the
       group entity.
@@ -43,20 +43,18 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GroupUserCheckEntityExistsOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GroupUserCheckEntityExistsOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GroupUserCheckEntityExistsResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GroupUserCheckEntityExistsResponse" />&gt;
   - name: 'create(string, string, string, string, GroupUserCreateOptionalParams)'
-    uid: '@azure/arm-apimanagement.GroupUser.create'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupUser.create'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Add existing user to existing group
     remarks: ''
     isDeprecated: false
@@ -84,18 +82,18 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.GroupUserCreateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GroupUserCreateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GroupUserCreateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GroupUserCreateResponse" />&gt;
   - name: 'delete(string, string, string, string, GroupUserDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement.GroupUser.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupUser.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Remove existing user from existing group.
     remarks: ''
     isDeprecated: false
@@ -123,16 +121,16 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.GroupUserDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GroupUserDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'list(string, string, string, GroupUserListOptionalParams)'
-    uid: '@azure/arm-apimanagement.GroupUser.list'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupUser.list'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists a collection of user entities associated with the group.
     remarks: ''
     isDeprecated: false
@@ -154,11 +152,13 @@ methods:
             Group identifier. Must be unique in the current API Management
             service instance.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.GroupUserListOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GroupUserListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.UserContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.UserContract" />&gt;

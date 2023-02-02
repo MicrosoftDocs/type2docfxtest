@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: HealthcareEntity
-uid: '@azure/ai-text-analytics.HealthcareEntity'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
   A healthcare entity represented as a node in a directed graph where the edges
   are
@@ -13,8 +13,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: assertion
-    uid: '@azure/ai-text-analytics.HealthcareEntity.assertion'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.assertion'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Whether the entity is negated.
     fullName: assertion
     remarks: ''
@@ -23,15 +23,15 @@ properties:
       content: 'assertion?: EntityAssertion'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.EntityAssertion" />
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.EntityAssertion" />'
   - name: category
-    uid: '@azure/ai-text-analytics.HealthcareEntity.category'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.category'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Defines values for HealthcareEntityCategory.
 
-      <xref:@azure/ai-text-analytics.KnownHealthcareEntityCategory> can be used
-      interchangeably with HealthcareEntityCategory,
+      <xref:@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory> can
+      be used interchangeably with HealthcareEntityCategory,
        this enum contains the known values that the service supports.
       ### Known values supported by the service
 
@@ -93,10 +93,12 @@ properties:
       content: 'category: HealthcareEntityCategory'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.HealthcareEntityCategory" />
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.HealthcareEntityCategory"
+          />
   - name: dataSources
-    uid: '@azure/ai-text-analytics.HealthcareEntity.dataSources'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.dataSources'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Entity references in known data sources.
     fullName: dataSources
     remarks: ''
@@ -105,10 +107,10 @@ properties:
       content: 'dataSources: EntityDataSource[]'
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.EntityDataSource" />[]'
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.EntityDataSource" />[]'
   - name: normalizedText
-    uid: '@azure/ai-text-analytics.HealthcareEntity.normalizedText'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.normalizedText'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Normalized name for the entity. For example, the normalized text for
       "histologically" is "histologic".
@@ -122,8 +124,8 @@ properties:
         type: string
 inheritedProperties:
   - name: confidenceScore
-    uid: '@azure/ai-text-analytics.HealthcareEntity.confidenceScore'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.confidenceScore'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Confidence score between 0 and 1 of the extracted entity.
     fullName: confidenceScore
     remarks: ''
@@ -135,10 +137,11 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [Entity.confidenceScore](xref:@azure/ai-text-analytics.Entity.confidenceScore)
+      [Entity.confidenceScore](xref:@azure/ai-text-analytics -
+      v5.1.0.Entity.confidenceScore)
   - name: length
-    uid: '@azure/ai-text-analytics.HealthcareEntity.length'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.length'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Length for the entity text. Use of different 'stringIndexType' values can
       affect the length returned.
@@ -151,11 +154,11 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Entity.length](xref:@azure/ai-text-analytics.Entity.length)
+      <b>Inherited From</b> [Entity.length](xref:@azure/ai-text-analytics -
+      v5.1.0.Entity.length)
   - name: offset
-    uid: '@azure/ai-text-analytics.HealthcareEntity.offset'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.offset'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Start position for the entity text. Use of different 'stringIndexType'
       values can affect the offset returned.
@@ -168,11 +171,11 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Entity.offset](xref:@azure/ai-text-analytics.Entity.offset)
+      <b>Inherited From</b> [Entity.offset](xref:@azure/ai-text-analytics -
+      v5.1.0.Entity.offset)
   - name: subCategory
-    uid: '@azure/ai-text-analytics.HealthcareEntity.subCategory'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.subCategory'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: (Optional) Entity sub type.
     fullName: subCategory
     remarks: ''
@@ -183,11 +186,11 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Entity.subCategory](xref:@azure/ai-text-analytics.Entity.subCategory)
+      <b>Inherited From</b> [Entity.subCategory](xref:@azure/ai-text-analytics -
+      v5.1.0.Entity.subCategory)
   - name: text
-    uid: '@azure/ai-text-analytics.HealthcareEntity.text'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntity.text'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Entity text as appears in the request.
     fullName: text
     remarks: ''
@@ -198,6 +201,6 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Entity.text](xref:@azure/ai-text-analytics.Entity.text)
-extends: <xref uid="@azure/ai-text-analytics.Entity" />
+      <b>Inherited From</b> [Entity.text](xref:@azure/ai-text-analytics -
+      v5.1.0.Entity.text)
+extends: '@azure/ai-text-analytics - <xref uid="v5.1.0.Entity" />'

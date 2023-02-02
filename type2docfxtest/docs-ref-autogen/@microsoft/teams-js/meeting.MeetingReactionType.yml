@@ -1,7 +1,7 @@
 ### YamlMime:TSEnum
 name: MeetingReactionType
-uid: '@microsoft/teams-js.meeting.MeetingReactionType'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Different types of meeting reactions that can be sent/received
 fullName: MeetingReactionType
 remarks: ''
@@ -9,22 +9,22 @@ previewState: beta
 isDeprecated: false
 fields:
   - name: applause
-    uid: '@microsoft/teams-js.meeting.MeetingReactionType.applause'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType.applause'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: heart
-    uid: '@microsoft/teams-js.meeting.MeetingReactionType.heart'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType.heart'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: laugh
-    uid: '@microsoft/teams-js.meeting.MeetingReactionType.laugh'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType.laugh'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: like
-    uid: '@microsoft/teams-js.meeting.MeetingReactionType.like'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType.like'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
   - name: surprised
-    uid: '@microsoft/teams-js.meeting.MeetingReactionType.surprised'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType.surprised'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''

@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Scenario
-uid: '@azure/arm-advisor.Scenario'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.Scenario'
+package: '@azure/arm-advisor - v3.1.0'
 summary: >-
   Defines values for Scenario. \
 
-  <xref:@azure/arm-advisor.KnownScenario> can be used interchangeably with
-  Scenario,
+  <xref:@azure/arm-advisor - v3.1.0.KnownScenario> can be used interchangeably
+  with Scenario,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

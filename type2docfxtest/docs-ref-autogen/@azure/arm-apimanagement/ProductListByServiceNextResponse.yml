@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ProductListByServiceNextResponse
-uid: '@azure/arm-apimanagement.ProductListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: ProductListByServiceNextResponse
 remarks: ''

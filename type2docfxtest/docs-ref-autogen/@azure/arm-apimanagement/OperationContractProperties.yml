@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationContractProperties
-uid: '@azure/arm-apimanagement.OperationContractProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Operation Contract Properties
 fullName: OperationContractProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: displayName
-    uid: '@azure/arm-apimanagement.OperationContractProperties.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation Name.
     fullName: displayName
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: string
   - name: method
-    uid: '@azure/arm-apimanagement.OperationContractProperties.method'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.method'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A Valid HTTP Operation Method. Typical Http Methods like GET, PUT, POST
       but not limited by only them.
@@ -35,8 +35,8 @@ properties:
         description: ''
         type: string
   - name: urlTemplate
-    uid: '@azure/arm-apimanagement.OperationContractProperties.urlTemplate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.urlTemplate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Relative URL template identifying the target resource for this operation.
       May include parameters. Example:
@@ -51,8 +51,8 @@ properties:
         type: string
 inheritedProperties:
   - name: description
-    uid: '@azure/arm-apimanagement.OperationContractProperties.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the operation. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -64,10 +64,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationEntityBaseContract.description](xref:@azure/arm-apimanagement.OperationEntityBaseContract.description)
+      [OperationEntityBaseContract.description](xref:@azure/arm-apimanagement -
+      v8.1.2.OperationEntityBaseContract.description)
   - name: policies
-    uid: '@azure/arm-apimanagement.OperationContractProperties.policies'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.policies'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation Policies
     fullName: policies
     remarks: ''
@@ -79,10 +80,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationEntityBaseContract.policies](xref:@azure/arm-apimanagement.OperationEntityBaseContract.policies)
+      [OperationEntityBaseContract.policies](xref:@azure/arm-apimanagement -
+      v8.1.2.OperationEntityBaseContract.policies)
   - name: request
-    uid: '@azure/arm-apimanagement.OperationContractProperties.request'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.request'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: An entity containing request details.
     fullName: request
     remarks: ''
@@ -91,13 +93,14 @@ inheritedProperties:
       content: 'request?: RequestContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.RequestContract" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.RequestContract" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationEntityBaseContract.request](xref:@azure/arm-apimanagement.OperationEntityBaseContract.request)
+      [OperationEntityBaseContract.request](xref:@azure/arm-apimanagement -
+      v8.1.2.OperationEntityBaseContract.request)
   - name: responses
-    uid: '@azure/arm-apimanagement.OperationContractProperties.responses'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationContractProperties.responses'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Array of Operation responses.
     fullName: responses
     remarks: ''
@@ -106,13 +109,16 @@ inheritedProperties:
       content: 'responses?: ResponseContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ResponseContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ResponseContract" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationEntityBaseContract.responses](xref:@azure/arm-apimanagement.OperationEntityBaseContract.responses)
+      [OperationEntityBaseContract.responses](xref:@azure/arm-apimanagement -
+      v8.1.2.OperationEntityBaseContract.responses)
   - name: templateParameters
-    uid: '@azure/arm-apimanagement.OperationContractProperties.templateParameters'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.OperationContractProperties.templateParameters
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of URL template parameters.
     fullName: templateParameters
     remarks: ''
@@ -121,8 +127,9 @@ inheritedProperties:
       content: 'templateParameters?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationEntityBaseContract.templateParameters](xref:@azure/arm-apimanagement.OperationEntityBaseContract.templateParameters)
-extends: <xref uid="@azure/arm-apimanagement.OperationEntityBaseContract" />
+      [OperationEntityBaseContract.templateParameters](xref:@azure/arm-apimanagement
+      - v8.1.2.OperationEntityBaseContract.templateParameters)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.OperationEntityBaseContract" />'

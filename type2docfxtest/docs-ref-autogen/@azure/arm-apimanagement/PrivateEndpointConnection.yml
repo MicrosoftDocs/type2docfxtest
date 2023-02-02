@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PrivateEndpointConnection
-uid: '@azure/arm-apimanagement.PrivateEndpointConnection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointConnection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: The Private Endpoint Connection resource.
 fullName: PrivateEndpointConnection
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: privateEndpoint
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnection.privateEndpoint'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnection.privateEndpoint
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The resource of private end point.
     fullName: privateEndpoint
     remarks: ''
@@ -19,11 +21,12 @@ properties:
       content: 'privateEndpoint?: PrivateEndpoint'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PrivateEndpoint" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PrivateEndpoint" />'
   - name: privateLinkServiceConnectionState
     uid: >-
-      @azure/arm-apimanagement.PrivateEndpointConnection.privateLinkServiceConnectionState
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnection.privateLinkServiceConnectionState
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       A collection of information about the state of the connection between
       service consumer and provider.
@@ -35,11 +38,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/arm-apimanagement.PrivateLinkServiceConnectionState"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateLinkServiceConnectionState" />
   - name: provisioningState
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnection.provisioningState'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnection.provisioningState
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The provisioning state of the private endpoint connection resource.
 
@@ -53,13 +58,12 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionProvisioningState"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionProvisioningState" />
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnection.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointConnection.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -75,11 +79,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnection.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointConnection.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -94,11 +98,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnection.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointConnection.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -114,6 +118,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

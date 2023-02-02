@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: DeletedServicesGetByNameResponse
-uid: '@azure/arm-apimanagement.DeletedServicesGetByNameResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.DeletedServicesGetByNameResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the getByName operation.
 fullName: DeletedServicesGetByNameResponse
 remarks: ''

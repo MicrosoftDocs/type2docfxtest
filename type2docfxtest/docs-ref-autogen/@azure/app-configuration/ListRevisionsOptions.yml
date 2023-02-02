@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ListRevisionsOptions
-uid: '@azure/app-configuration.ListRevisionsOptions'
-package: '@azure/app-configuration'
+uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions'
+package: '@azure/app-configuration - v1.3.1'
 summary: >-
   Options for listRevisions that allow for filtering based on keys, labels and
   other fields.
@@ -16,8 +16,8 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/app-configuration.ListRevisionsOptions.abortSignal'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.abortSignal'
+    package: '@azure/app-configuration - v1.3.1'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -29,8 +29,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: acceptDateTime
-    uid: '@azure/app-configuration.ListRevisionsOptions.acceptDateTime'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.acceptDateTime'
+    package: '@azure/app-configuration - v1.3.1'
     summary: >-
       Requests the server to respond with the state of the resource at the
       specified time.
@@ -44,10 +44,11 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ListSettingsOptions.acceptDateTime](xref:@azure/app-configuration.ListSettingsOptions.acceptDateTime)
+      [ListSettingsOptions.acceptDateTime](xref:@azure/app-configuration -
+      v1.3.1.ListSettingsOptions.acceptDateTime)
   - name: fields
-    uid: '@azure/app-configuration.ListRevisionsOptions.fields'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.fields'
+    package: '@azure/app-configuration - v1.3.1'
     summary: Which fields to return for each ConfigurationSetting
     fullName: fields
     remarks: ''
@@ -63,10 +64,11 @@ inheritedProperties:
           "isReadOnly" | "lastModified")[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OptionalFields.fields](xref:@azure/app-configuration.OptionalFields.fields)
+      [OptionalFields.fields](xref:@azure/app-configuration -
+      v1.3.1.OptionalFields.fields)
   - name: keyFilter
-    uid: '@azure/app-configuration.ListRevisionsOptions.keyFilter'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.keyFilter'
+    package: '@azure/app-configuration - v1.3.1'
     summary: >
       Filters for keys. There are two types of matching:
 
@@ -94,10 +96,11 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ListSettingsOptions.keyFilter](xref:@azure/app-configuration.ListSettingsOptions.keyFilter)
+      [ListSettingsOptions.keyFilter](xref:@azure/app-configuration -
+      v1.3.1.ListSettingsOptions.keyFilter)
   - name: labelFilter
-    uid: '@azure/app-configuration.ListRevisionsOptions.labelFilter'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.labelFilter'
+    package: '@azure/app-configuration - v1.3.1'
     summary: |
       Filters for labels. There are two types of matching:
       1. Exact matching. Up to 5 labels are allowed, separated by commas (',')
@@ -122,10 +125,11 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ListSettingsOptions.labelFilter](xref:@azure/app-configuration.ListSettingsOptions.labelFilter)
+      [ListSettingsOptions.labelFilter](xref:@azure/app-configuration -
+      v1.3.1.ListSettingsOptions.labelFilter)
   - name: requestOptions
-    uid: '@azure/app-configuration.ListRevisionsOptions.requestOptions'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.requestOptions'
+    package: '@azure/app-configuration - v1.3.1'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -137,8 +141,8 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: tracingOptions
-    uid: '@azure/app-configuration.ListRevisionsOptions.tracingOptions'
-    package: '@azure/app-configuration'
+    uid: '@azure/app-configuration - v1.3.1.ListRevisionsOptions.tracingOptions'
+    package: '@azure/app-configuration - v1.3.1'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

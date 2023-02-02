@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayHostnameConfigurationContract
-uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayHostnameConfigurationContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Gateway hostname configuration details.
 fullName: GatewayHostnameConfigurationContract
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: certificateId
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationContract.certificateId
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.certificateId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Identifier of Certificate entity that will be used for TLS connection
       establishment
@@ -24,8 +25,10 @@ properties:
         description: ''
         type: undefined | string
   - name: hostname
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.hostname'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.hostname
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Hostname value. Supports valid domain name, partial or full wildcard'
     fullName: hostname
     remarks: ''
@@ -36,8 +39,10 @@ properties:
         description: ''
         type: undefined | string
   - name: http2Enabled
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.http2Enabled'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.http2Enabled
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Specifies if HTTP/2.0 is supported
     fullName: http2Enabled
     remarks: ''
@@ -49,8 +54,9 @@ properties:
         type: undefined | false | true
   - name: negotiateClientCertificate
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationContract.negotiateClientCertificate
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.negotiateClientCertificate
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Determines whether gateway requests client certificate
     fullName: negotiateClientCertificate
     remarks: ''
@@ -61,8 +67,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: tls10Enabled
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.tls10Enabled'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.tls10Enabled
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Specifies if TLS 1.0 is supported
     fullName: tls10Enabled
     remarks: ''
@@ -73,8 +81,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: tls11Enabled
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.tls11Enabled'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.tls11Enabled
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Specifies if TLS 1.1 is supported
     fullName: tls11Enabled
     remarks: ''
@@ -86,8 +96,8 @@ properties:
         type: undefined | false | true
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayHostnameConfigurationContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -103,11 +113,13 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.name
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -122,11 +134,13 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationContract.type
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -142,6 +156,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

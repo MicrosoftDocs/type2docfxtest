@@ -1,7 +1,7 @@
 ### YamlMime:TSEnum
 name: TeamType
-uid: '@microsoft/teams-js.TeamType'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.TeamType'
+package: '@microsoft/teams-js - v2.5.0'
 summary: |-
   Indicates the team type, currently used to distinguish between different team
   types in Office 365 for Education (team types 1, 2, 3, and 4).
@@ -10,27 +10,27 @@ remarks: ''
 isDeprecated: false
 fields:
   - name: Standard
-    uid: '@microsoft/teams-js.TeamType.Standard'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.TeamType.Standard'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 0
   - name: Edu
-    uid: '@microsoft/teams-js.TeamType.Edu'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.TeamType.Edu'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 1
   - name: Class
-    uid: '@microsoft/teams-js.TeamType.Class'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.TeamType.Class'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 2
   - name: Plc
-    uid: '@microsoft/teams-js.TeamType.Plc'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.TeamType.Plc'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 3
   - name: Staff
-    uid: '@microsoft/teams-js.TeamType.Staff'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.TeamType.Staff'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 4

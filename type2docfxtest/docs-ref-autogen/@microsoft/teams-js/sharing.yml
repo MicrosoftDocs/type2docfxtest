@@ -1,20 +1,20 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.sharing'
+uid: '@microsoft/teams-js - v2.5.0.sharing'
 name: sharing
 summary: ''
 type: module
 typeAliases:
-  - '@microsoft/teams-js.sharing.ContentType'
-  - '@microsoft/teams-js.sharing.IShareRequestContentType'
+  - '@microsoft/teams-js - v2.5.0.sharing.ContentType'
+  - '@microsoft/teams-js - v2.5.0.sharing.IShareRequestContentType'
 interfaces:
-  - '@microsoft/teams-js.sharing.IBaseSharedContent'
-  - '@microsoft/teams-js.sharing.IShareRequest'
-  - '@microsoft/teams-js.sharing.IURLContent'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.sharing.IBaseSharedContent'
+  - '@microsoft/teams-js - v2.5.0.sharing.IShareRequest'
+  - '@microsoft/teams-js - v2.5.0.sharing.IURLContent'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.sharing.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -24,8 +24,8 @@ functions:
         description: ''
         type: boolean
   - name: shareWebContent(IShareRequest<IShareRequestContentType>)
-    uid: '@microsoft/teams-js.sharing.shareWebContent'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.shareWebContent'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: |-
       Feature is under development
       Opens a share dialog for web content
@@ -38,8 +38,9 @@ functions:
       parameters:
         - id: shareWebContentRequest
           type: >-
-            <xref uid="@microsoft/teams-js.sharing.IShareRequest" />&lt;<xref
-            uid="@microsoft/teams-js.sharing.IShareRequestContentType" />&gt;
+            @microsoft/teams-js - <xref uid="v2.5.0.sharing.IShareRequest"
+            />&lt;@microsoft/teams-js - <xref
+            uid="v2.5.0.sharing.IShareRequestContentType" />&gt;
           description: web content info
       return:
         description: Promise that will be fulfilled when the operation has completed
@@ -47,16 +48,16 @@ functions:
   - name: >-
       shareWebContent(IShareRequest<IShareRequestContentType>, (err?: SdkError)
       => void)
-    uid: '@microsoft/teams-js.sharing.shareWebContent_1'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.shareWebContent_1'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [sharing.shareWebContent(shareWebContentRequest:
       IShareRequest\<IShareRequestContentType\>):
-      Promise\<void\>](xref:@microsoft/teams-js.sharing.shareWebContent)
-      instead.
+      Promise\<void\>](xref:@microsoft/teams-js -
+      v2.5.0.sharing.shareWebContent) instead.
 
 
       Feature is under development
@@ -70,8 +71,9 @@ functions:
       parameters:
         - id: shareWebContentRequest
           type: >-
-            <xref uid="@microsoft/teams-js.sharing.IShareRequest" />&lt;<xref
-            uid="@microsoft/teams-js.sharing.IShareRequestContentType" />&gt;
+            @microsoft/teams-js - <xref uid="v2.5.0.sharing.IShareRequest"
+            />&lt;@microsoft/teams-js - <xref
+            uid="v2.5.0.sharing.IShareRequestContentType" />&gt;
           description: web content info
         - id: callback
           type: '(err?: SdkError) =&gt; void'

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: OpenIdConnectProviderUpdateResponse
-uid: '@azure/arm-apimanagement.OpenIdConnectProviderUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProviderUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the update operation.
 fullName: OpenIdConnectProviderUpdateResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TenantConfigurationGetSyncStateResponse
-uid: '@azure/arm-apimanagement.TenantConfigurationGetSyncStateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TenantConfigurationGetSyncStateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the getSyncState operation.
 fullName: TenantConfigurationGetSyncStateResponse
 remarks: ''

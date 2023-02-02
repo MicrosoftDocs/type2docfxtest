@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SubscriptionContract
-uid: '@azure/arm-apimanagement.SubscriptionContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Subscription details.
 fullName: SubscriptionContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: allowTracing
-    uid: '@azure/arm-apimanagement.SubscriptionContract.allowTracing'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.allowTracing'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Determines whether tracing is enabled
     fullName: allowTracing
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: createdDate
-    uid: '@azure/arm-apimanagement.SubscriptionContract.createdDate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.createdDate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >
       Subscription creation date. The date conforms to the following format:
       `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601 standard.
@@ -38,8 +38,8 @@ properties:
         description: ''
         type: Date
   - name: displayName
-    uid: '@azure/arm-apimanagement.SubscriptionContract.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'The name of the subscription, or null if the subscription has no name.'
     fullName: displayName
     remarks: ''
@@ -50,8 +50,8 @@ properties:
         description: ''
         type: undefined | string
   - name: endDate
-    uid: '@azure/arm-apimanagement.SubscriptionContract.endDate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.endDate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Date when subscription was cancelled or expired. The setting is for audit
       purposes only and the subscription is not automatically cancelled. The
@@ -67,8 +67,8 @@ properties:
         description: ''
         type: Date
   - name: expirationDate
-    uid: '@azure/arm-apimanagement.SubscriptionContract.expirationDate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.expirationDate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Subscription expiration date. The setting is for audit purposes only and
       the subscription is not automatically expired. The subscription lifecycle
@@ -84,8 +84,8 @@ properties:
         description: ''
         type: Date
   - name: notificationDate
-    uid: '@azure/arm-apimanagement.SubscriptionContract.notificationDate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.notificationDate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Upcoming subscription expiration notification date. The date conforms to
       the following format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601
@@ -99,8 +99,8 @@ properties:
         description: ''
         type: Date
   - name: ownerId
-    uid: '@azure/arm-apimanagement.SubscriptionContract.ownerId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.ownerId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The user resource identifier of the subscription owner. The value is a
       valid relative URL in the format of /users/{userId} where {userId} is a
@@ -114,8 +114,8 @@ properties:
         description: ''
         type: undefined | string
   - name: primaryKey
-    uid: '@azure/arm-apimanagement.SubscriptionContract.primaryKey'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.primaryKey'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Subscription primary key. This property will not be filled on 'GET'
       operations! Use '/listSecrets' POST request to get the value.
@@ -128,8 +128,8 @@ properties:
         description: ''
         type: undefined | string
   - name: scope
-    uid: '@azure/arm-apimanagement.SubscriptionContract.scope'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.scope'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Scope like /products/{productId} or /apis or /apis/{apiId}.'
     fullName: scope
     remarks: ''
@@ -140,8 +140,8 @@ properties:
         description: ''
         type: undefined | string
   - name: secondaryKey
-    uid: '@azure/arm-apimanagement.SubscriptionContract.secondaryKey'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.secondaryKey'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Subscription secondary key. This property will not be filled on 'GET'
       operations! Use '/listSecrets' POST request to get the value.
@@ -154,8 +154,8 @@ properties:
         description: ''
         type: undefined | string
   - name: startDate
-    uid: '@azure/arm-apimanagement.SubscriptionContract.startDate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.startDate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Subscription activation date. The setting is for audit purposes only and
       the subscription is not automatically activated. The subscription
@@ -171,8 +171,8 @@ properties:
         description: ''
         type: Date
   - name: state
-    uid: '@azure/arm-apimanagement.SubscriptionContract.state'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.state'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Subscription state. Possible states are * active – the subscription is
       active, * suspended – the subscription is blocked, and the subscriber
@@ -189,10 +189,10 @@ properties:
       content: 'state?: SubscriptionState'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SubscriptionState" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SubscriptionState" />'
   - name: stateComment
-    uid: '@azure/arm-apimanagement.SubscriptionContract.stateComment'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.stateComment'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Optional subscription comment added by an administrator when the state is
       changed to the 'rejected'.
@@ -206,8 +206,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.SubscriptionContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -223,11 +223,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.SubscriptionContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -242,11 +242,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.SubscriptionContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -262,6 +262,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

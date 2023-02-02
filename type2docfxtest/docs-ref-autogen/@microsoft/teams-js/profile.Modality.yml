@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: Modality
-uid: '@microsoft/teams-js.profile.Modality'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.profile.Modality'
+package: '@microsoft/teams-js - v2.5.0'
 summary: |-
   The type of modalities that are supported when showing a profile.
   Can be provided as an optional hint with the request and will be

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: QuotaCounterValueContract
-uid: '@azure/arm-apimanagement.QuotaCounterValueContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.QuotaCounterValueContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Quota counter value details.
 fullName: QuotaCounterValueContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: callsCount
-    uid: '@azure/arm-apimanagement.QuotaCounterValueContract.callsCount'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.QuotaCounterValueContract.callsCount'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of times Counter was called.
     fullName: callsCount
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: kbTransferred
-    uid: '@azure/arm-apimanagement.QuotaCounterValueContract.kbTransferred'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.QuotaCounterValueContract.kbTransferred'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Data Transferred in KiloBytes.
     fullName: kbTransferred
     remarks: ''

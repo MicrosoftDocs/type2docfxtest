@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiEntityBaseContract
-uid: '@azure/arm-apimanagement.ApiEntityBaseContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: API base contract details.
 fullName: ApiEntityBaseContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiRevision
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.apiRevision'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.apiRevision'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Describes the revision of the API. If no value is provided, default
       revision 1 is created
@@ -23,8 +23,10 @@ properties:
         description: ''
         type: undefined | string
   - name: apiRevisionDescription
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.apiRevisionDescription'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiEntityBaseContract.apiRevisionDescription
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the API Revision.
     fullName: apiRevisionDescription
     remarks: ''
@@ -35,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiType
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.apiType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.apiType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Type of API.
     fullName: apiType
     remarks: ''
@@ -45,10 +47,10 @@ properties:
       content: 'apiType?: ApiType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiType" />'
   - name: apiVersion
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.apiVersion'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.apiVersion'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Indicates the version identifier of the API if the API is versioned
     fullName: apiVersion
     remarks: ''
@@ -59,8 +61,10 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionDescription
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.apiVersionDescription'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiEntityBaseContract.apiVersionDescription
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the API Version.
     fullName: apiVersionDescription
     remarks: ''
@@ -71,8 +75,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionSetId
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.apiVersionSetId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.apiVersionSetId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A resource identifier for the related ApiVersionSet.
     fullName: apiVersionSetId
     remarks: ''
@@ -83,8 +87,10 @@ properties:
         description: ''
         type: undefined | string
   - name: authenticationSettings
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.authenticationSettings'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiEntityBaseContract.authenticationSettings
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of authentication settings included into this API.
     fullName: authenticationSettings
     remarks: ''
@@ -93,10 +99,12 @@ properties:
       content: 'authenticationSettings?: AuthenticationSettingsContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AuthenticationSettingsContract" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthenticationSettingsContract" />
   - name: contact
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.contact'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.contact'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Contact information for the API.
     fullName: contact
     remarks: ''
@@ -105,10 +113,10 @@ properties:
       content: 'contact?: ApiContactInformation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiContactInformation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiContactInformation" />'
   - name: description
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the API. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -119,8 +127,8 @@ properties:
         description: ''
         type: undefined | string
   - name: isCurrent
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.isCurrent'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.isCurrent'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Indicates if API revision is current api revision.
     fullName: isCurrent
     remarks: ''
@@ -131,8 +139,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: isOnline
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.isOnline'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.isOnline'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Indicates if API revision is accessible via the gateway.
 
@@ -147,8 +155,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: license
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.license'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.license'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: License information for the API.
     fullName: license
     remarks: ''
@@ -157,11 +165,12 @@ properties:
       content: 'license?: ApiLicenseInformation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiLicenseInformation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiLicenseInformation" />'
   - name: subscriptionKeyParameterNames
     uid: >-
-      @azure/arm-apimanagement.ApiEntityBaseContract.subscriptionKeyParameterNames
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiEntityBaseContract.subscriptionKeyParameterNames
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Protocols over which API is made available.
     fullName: subscriptionKeyParameterNames
     remarks: ''
@@ -171,12 +180,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.SubscriptionKeyParameterNamesContract" />
   - name: subscriptionRequired
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.subscriptionRequired'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiEntityBaseContract.subscriptionRequired
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Specifies whether an API or Product subscription is required for accessing
       the API.
@@ -189,8 +199,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: termsOfServiceUrl
-    uid: '@azure/arm-apimanagement.ApiEntityBaseContract.termsOfServiceUrl'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiEntityBaseContract.termsOfServiceUrl'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A URL to the Terms of Service for the API. MUST be in the format of a URL.
     fullName: termsOfServiceUrl
     remarks: ''

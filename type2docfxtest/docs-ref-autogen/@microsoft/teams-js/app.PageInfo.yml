@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PageInfo
-uid: '@microsoft/teams-js.app.PageInfo'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.app.PageInfo'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Represents Page information.
 fullName: PageInfo
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: frameContext
-    uid: '@microsoft/teams-js.app.PageInfo.frameContext'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.PageInfo.frameContext'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       The context where page url is loaded (content, task, setting, remove,
       sidePanel)
@@ -21,10 +21,10 @@ properties:
       content: 'frameContext: FrameContexts'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.FrameContexts" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.FrameContexts" />'
   - name: id
-    uid: '@microsoft/teams-js.app.PageInfo.id'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.PageInfo.id'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The developer-defined unique ID for the page this content points to.
     fullName: id
     remarks: ''
@@ -35,8 +35,8 @@ properties:
         description: ''
         type: string
   - name: isFullScreen
-    uid: '@microsoft/teams-js.app.PageInfo.isFullScreen'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.PageInfo.isFullScreen'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Indication whether the page is in full-screen mode.
     fullName: isFullScreen
     remarks: ''
@@ -47,8 +47,8 @@ properties:
         description: ''
         type: boolean
   - name: isMultiWindow
-    uid: '@microsoft/teams-js.app.PageInfo.isMultiWindow'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.PageInfo.isMultiWindow'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Indication whether the page is in a pop out window
     fullName: isMultiWindow
     remarks: ''
@@ -59,8 +59,8 @@ properties:
         description: ''
         type: boolean
   - name: sourceOrigin
-    uid: '@microsoft/teams-js.app.PageInfo.sourceOrigin'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.PageInfo.sourceOrigin'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Source origin from where the page is opened
     fullName: sourceOrigin
     remarks: ''
@@ -71,8 +71,8 @@ properties:
         description: ''
         type: string
   - name: subPageId
-    uid: '@microsoft/teams-js.app.PageInfo.subPageId'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.PageInfo.subPageId'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: |-
       The developer-defined unique ID for the sub-page this content points to.
       This field should be used to restore to a specific state within a page,

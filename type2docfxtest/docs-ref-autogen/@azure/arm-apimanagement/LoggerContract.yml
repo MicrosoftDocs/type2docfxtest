@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: LoggerContract
-uid: '@azure/arm-apimanagement.LoggerContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Logger details.
 fullName: LoggerContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: credentials
-    uid: '@azure/arm-apimanagement.LoggerContract.credentials'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.credentials'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name and SendRule connection string of the event hub for azureEventHub
       logger.
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: 'undefined | [key: string]: string'
   - name: description
-    uid: '@azure/arm-apimanagement.LoggerContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Logger description.
     fullName: description
     remarks: ''
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: isBuffered
-    uid: '@azure/arm-apimanagement.LoggerContract.isBuffered'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.isBuffered'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Whether records are buffered in the logger before publishing. Default is
       assumed to be true.
@@ -51,8 +51,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: loggerType
-    uid: '@azure/arm-apimanagement.LoggerContract.loggerType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.loggerType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Logger type.
     fullName: loggerType
     remarks: ''
@@ -61,10 +61,10 @@ properties:
       content: 'loggerType?: LoggerType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.LoggerType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.LoggerType" />'
   - name: resourceId
-    uid: '@azure/arm-apimanagement.LoggerContract.resourceId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.resourceId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Azure Resource Id of a log target (either Azure Event Hub resource or
       Azure Application Insights resource).
@@ -78,8 +78,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.LoggerContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -95,11 +95,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.LoggerContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -114,11 +114,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.LoggerContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -134,6 +134,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

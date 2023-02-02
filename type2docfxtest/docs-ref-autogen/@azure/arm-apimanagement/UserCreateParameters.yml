@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserCreateParameters
-uid: '@azure/arm-apimanagement.UserCreateParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: User create details.
 fullName: UserCreateParameters
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: appType
-    uid: '@azure/arm-apimanagement.UserCreateParameters.appType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.appType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines the type of application which send the create user request.
       Default is legacy portal.
@@ -21,10 +21,10 @@ properties:
       content: 'appType?: AppType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AppType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AppType" />'
   - name: confirmation
-    uid: '@azure/arm-apimanagement.UserCreateParameters.confirmation'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.confirmation'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines the type of confirmation e-mail that will be sent to the newly
       created user.
@@ -35,10 +35,10 @@ properties:
       content: 'confirmation?: Confirmation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Confirmation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Confirmation" />'
   - name: email
-    uid: '@azure/arm-apimanagement.UserCreateParameters.email'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.email'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Email address. Must not be empty and must be unique within the service
       instance.
@@ -51,8 +51,8 @@ properties:
         description: ''
         type: undefined | string
   - name: firstName
-    uid: '@azure/arm-apimanagement.UserCreateParameters.firstName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.firstName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: First name.
     fullName: firstName
     remarks: ''
@@ -63,8 +63,8 @@ properties:
         description: ''
         type: undefined | string
   - name: identities
-    uid: '@azure/arm-apimanagement.UserCreateParameters.identities'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.identities'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of user identities.
     fullName: identities
     remarks: ''
@@ -73,10 +73,12 @@ properties:
       content: 'identities?: UserIdentityContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.UserIdentityContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.UserIdentityContract"
+          />[]
   - name: lastName
-    uid: '@azure/arm-apimanagement.UserCreateParameters.lastName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.lastName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Last name.
     fullName: lastName
     remarks: ''
@@ -87,8 +89,8 @@ properties:
         description: ''
         type: undefined | string
   - name: note
-    uid: '@azure/arm-apimanagement.UserCreateParameters.note'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.note'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Optional note about a user set by the administrator.
     fullName: note
     remarks: ''
@@ -99,8 +101,8 @@ properties:
         description: ''
         type: undefined | string
   - name: password
-    uid: '@azure/arm-apimanagement.UserCreateParameters.password'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.password'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'User Password. If no value is provided, a default password is generated.'
     fullName: password
     remarks: ''
@@ -111,8 +113,8 @@ properties:
         description: ''
         type: undefined | string
   - name: state
-    uid: '@azure/arm-apimanagement.UserCreateParameters.state'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserCreateParameters.state'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Account state. Specifies whether the user is active or not. Blocked users
       are unable to sign into the developer portal or call any APIs of
@@ -124,4 +126,4 @@ properties:
       content: 'state?: UserState'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserState" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserState" />'

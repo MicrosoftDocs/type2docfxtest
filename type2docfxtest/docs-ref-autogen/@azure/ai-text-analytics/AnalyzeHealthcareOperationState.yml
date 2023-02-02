@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AnalyzeHealthcareOperationState
-uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareOperationState'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The state of the begin analyze healthcare polling operation.
 fullName: AnalyzeHealthcareOperationState
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: createdOn
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.createdOn'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.createdOn
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The date and time the operation was created.
     fullName: createdOn
     remarks: ''
@@ -22,10 +24,11 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.createdOn](xref:@azure/ai-text-analytics.OperationMetadata.createdOn)
+      [OperationMetadata.createdOn](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.createdOn)
   - name: error
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.error'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareOperationState.error'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Will exist if the operation encountered any error.
     fullName: error
     remarks: ''
@@ -37,8 +40,10 @@ inheritedProperties:
         type: Error
     inheritanceDescription: <b>Inherited From</b> PollOperationState.error
   - name: expiresOn
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.expiresOn'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.expiresOn
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The date and time when the operation results will expire on the server.
     fullName: expiresOn
     remarks: ''
@@ -50,10 +55,13 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.expiresOn](xref:@azure/ai-text-analytics.OperationMetadata.expiresOn)
+      [OperationMetadata.expiresOn](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.expiresOn)
   - name: isCancelled
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.isCancelled'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.isCancelled
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: True if the operation has been cancelled.
     fullName: isCancelled
     remarks: ''
@@ -65,8 +73,10 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> PollOperationState.isCancelled
   - name: isCompleted
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.isCompleted'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.isCompleted
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: True if the operation has been completed.
     fullName: isCompleted
     remarks: ''
@@ -78,8 +88,10 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> PollOperationState.isCompleted
   - name: isStarted
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.isStarted'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.isStarted
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: True if the operation has started.
     fullName: isStarted
     remarks: ''
@@ -91,8 +103,10 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> PollOperationState.isStarted
   - name: lastModifiedOn
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.lastModifiedOn'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.lastModifiedOn
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The time the operation status was last updated.
     fullName: lastModifiedOn
     remarks: ''
@@ -104,10 +118,13 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.lastModifiedOn](xref:@azure/ai-text-analytics.OperationMetadata.lastModifiedOn)
+      [OperationMetadata.lastModifiedOn](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.lastModifiedOn)
   - name: operationId
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.operationId'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.AnalyzeHealthcareOperationState.operationId
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The operation id.
     fullName: operationId
     remarks: ''
@@ -119,10 +136,11 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.operationId](xref:@azure/ai-text-analytics.OperationMetadata.operationId)
+      [OperationMetadata.operationId](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.operationId)
   - name: result
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.result'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareOperationState.result'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Will exist if the operation concluded in a result of an expected type.
     fullName: result
     remarks: ''
@@ -132,12 +150,12 @@ inheritedProperties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult" />
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.PagedAnalyzeHealthcareEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> PollOperationState.result
   - name: status
-    uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState.status'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareOperationState.status'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The current status of the operation.
     fullName: status
     remarks: ''
@@ -146,10 +164,14 @@ inheritedProperties:
       content: 'status: TextAnalyticsOperationStatus'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
+        type: >-
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.TextAnalyticsOperationStatus" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OperationMetadata.status](xref:@azure/ai-text-analytics.OperationMetadata.status)
+      [OperationMetadata.status](xref:@azure/ai-text-analytics -
+      v5.1.0.OperationMetadata.status)
 extends: >-
-  <xref uid="@azure/ai-text-analytics.AnalysisPollOperationState" />&lt;<xref
-  uid="@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult" />&gt;
+  @azure/ai-text-analytics - <xref uid="v5.1.0.AnalysisPollOperationState"
+  />&lt;@azure/ai-text-analytics - <xref
+  uid="v5.1.0.PagedAnalyzeHealthcareEntitiesResult" />&gt;

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SchemaCollection
-uid: '@azure/arm-apimanagement.SchemaCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SchemaCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: The response of the list schema operation.
 fullName: SchemaCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.SchemaCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement.SchemaCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link if any.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.SchemaCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SchemaCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       API Schema Contract value.
 
@@ -51,4 +51,4 @@ properties:
       content: 'value?: SchemaContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.SchemaContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SchemaContract" />[]'

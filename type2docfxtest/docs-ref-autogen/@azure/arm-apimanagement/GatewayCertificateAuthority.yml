@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayCertificateAuthority
-uid: '@azure/arm-apimanagement.GatewayCertificateAuthority'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayCertificateAuthority'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a GatewayCertificateAuthority.
 fullName: GatewayCertificateAuthority
 remarks: ''
@@ -12,8 +12,10 @@ methods:
       createOrUpdate(string, string, string, string,
       GatewayCertificateAuthorityContract,
       GatewayCertificateAuthorityCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayCertificateAuthority.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayCertificateAuthority.createOrUpdate
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Assign Certificate entity to Gateway entity as Certificate Authority.
     remarks: ''
     isDeprecated: false
@@ -45,28 +47,26 @@ methods:
                                  Management service instance.
         - id: parameters
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayCertificateAuthorityContract"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayCertificateAuthorityContract" />
           description: Gateway certificate authority details.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayCertificateAuthorityCreateOrUpdateOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayCertificateAuthorityCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GatewayCertificateAuthorityCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayCertificateAuthorityCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string, string,
       GatewayCertificateAuthorityDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayCertificateAuthority.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayCertificateAuthority.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Remove relationship between Certificate Authority and Gateway entity.
     remarks: ''
     isDeprecated: false
@@ -102,9 +102,8 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayCertificateAuthorityDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayCertificateAuthorityDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -113,8 +112,8 @@ methods:
   - name: >-
       get(string, string, string, string,
       GatewayCertificateAuthorityGetOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayCertificateAuthority.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayCertificateAuthority.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Get assigned Gateway Certificate Authority details.
     remarks: ''
     isDeprecated: false
@@ -145,22 +144,20 @@ methods:
                                  Management service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayCertificateAuthorityGetOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayCertificateAuthorityGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GatewayCertificateAuthorityGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayCertificateAuthorityGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       GatewayCertificateAuthorityGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayCertificateAuthority.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayCertificateAuthority.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Checks if Certificate entity is assigned to Gateway entity as Certificate
       Authority.
@@ -193,22 +190,23 @@ methods:
                                  Management service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayCertificateAuthorityGetEntityTagOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayCertificateAuthorityGetEntityTagOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GatewayCertificateAuthorityGetEntityTagResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayCertificateAuthorityGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string, string,
       GatewayCertificateAuthorityListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayCertificateAuthority.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayCertificateAuthority.listByService
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Lists the collection of Certificate Authorities for the specified Gateway
       entity.
@@ -235,14 +233,13 @@ methods:
                              instance. Must not have value 'managed'
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceOptionalParams"
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayCertificateAuthorityListByServiceOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.GatewayCertificateAuthorityContract"
-          />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayCertificateAuthorityContract" />&gt;

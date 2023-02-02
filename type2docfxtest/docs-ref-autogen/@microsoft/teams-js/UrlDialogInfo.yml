@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UrlDialogInfo
-uid: '@microsoft/teams-js.UrlDialogInfo'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.UrlDialogInfo'
+package: '@microsoft/teams-js - v2.5.0'
 summary: >-
   Data structure to describe dialog information needed to open a url based
   dialog.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: fallbackUrl
-    uid: '@microsoft/teams-js.UrlDialogInfo.fallbackUrl'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.UrlDialogInfo.fallbackUrl'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       If client doesnt support the URL, the URL that needs to be opened in the
       browser.
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: string
   - name: size
-    uid: '@microsoft/teams-js.UrlDialogInfo.size'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.UrlDialogInfo.size'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     fullName: size
     remarks: ''
@@ -35,10 +35,10 @@ properties:
       content: 'size: DialogSize'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.DialogSize" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.DialogSize" />'
   - name: title
-    uid: '@microsoft/teams-js.UrlDialogInfo.title'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.UrlDialogInfo.title'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Title of the task module.
     fullName: title
     remarks: ''
@@ -49,8 +49,8 @@ properties:
         description: ''
         type: string
   - name: url
-    uid: '@microsoft/teams-js.UrlDialogInfo.url'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.UrlDialogInfo.url'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The url to be rendered in the webview/iframe.
     fullName: url
     remarks: |-

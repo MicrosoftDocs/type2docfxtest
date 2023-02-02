@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkuCapabilities
-uid: '@azure/arm-apimanagement.ApiManagementSkuCapabilities'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapabilities'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Describes The SKU capabilities object.
 fullName: ApiManagementSkuCapabilities
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: name
-    uid: '@azure/arm-apimanagement.ApiManagementSkuCapabilities.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapabilities.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       An invariant to describe the feature.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ApiManagementSkuCapabilities.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapabilities.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       An invariant if the feature is measured by quantity.
 

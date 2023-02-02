@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Verbosity
-uid: '@azure/arm-apimanagement.Verbosity'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.Verbosity'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for Verbosity. \
 
-  <xref:@azure/arm-apimanagement.KnownVerbosity> can be used interchangeably
-  with Verbosity,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownVerbosity> can be used
+  interchangeably with Verbosity,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiDiagnosticListByServiceNextResponse
-uid: '@azure/arm-apimanagement.ApiDiagnosticListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnosticListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: ApiDiagnosticListByServiceNextResponse
 remarks: ''

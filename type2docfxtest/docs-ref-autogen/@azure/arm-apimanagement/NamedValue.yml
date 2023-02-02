@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NamedValue
-uid: '@azure/arm-apimanagement.NamedValue'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NamedValue'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a NamedValue.
 fullName: NamedValue
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       beginCreateOrUpdate(string, string, string, NamedValueCreateContract,
       NamedValueCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.NamedValue.beginCreateOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.beginCreateOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates or updates named value.
     remarks: ''
     isDeprecated: false
@@ -34,28 +34,28 @@ methods:
           type: string
           description: Identifier of the NamedValue.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.NamedValueCreateContract" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueCreateContract" />
           description: Create parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueCreateOrUpdateResponse"
-          />&gt;, <xref
-          uid="@azure/arm-apimanagement.NamedValueCreateOrUpdateResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.NamedValueCreateOrUpdateResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueCreateOrUpdateResponse" />&gt;&gt;
   - name: >-
       beginCreateOrUpdateAndWait(string, string, string,
       NamedValueCreateContract, NamedValueCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.NamedValue.beginCreateOrUpdateAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.beginCreateOrUpdateAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates or updates named value.
     remarks: ''
     isDeprecated: false
@@ -77,25 +77,26 @@ methods:
           type: string
           description: Identifier of the NamedValue.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.NamedValueCreateContract" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueCreateContract" />
           description: Create parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueCreateOrUpdateResponse" />&gt;
   - name: >-
       beginRefreshSecret(string, string, string,
       NamedValueRefreshSecretOptionalParams)
-    uid: '@azure/arm-apimanagement.NamedValue.beginRefreshSecret'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.beginRefreshSecret'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Refresh the secret of the named value specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -118,23 +119,22 @@ methods:
           description: Identifier of the NamedValue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueRefreshSecretOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueRefreshSecretOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueRefreshSecretResponse" />&gt;,
-          <xref uid="@azure/arm-apimanagement.NamedValueRefreshSecretResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.NamedValueRefreshSecretResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueRefreshSecretResponse" />&gt;&gt;
   - name: >-
       beginRefreshSecretAndWait(string, string, string,
       NamedValueRefreshSecretOptionalParams)
-    uid: '@azure/arm-apimanagement.NamedValue.beginRefreshSecretAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.beginRefreshSecretAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Refresh the secret of the named value specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -156,21 +156,20 @@ methods:
           description: Identifier of the NamedValue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueRefreshSecretOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueRefreshSecretOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueRefreshSecretResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueRefreshSecretResponse" />&gt;
   - name: >-
       beginUpdate(string, string, string, string, NamedValueUpdateParameters,
       NamedValueUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.NamedValue.beginUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.beginUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Updates the specific named value.
     remarks: ''
     isDeprecated: false
@@ -198,25 +197,28 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.NamedValueUpdateParameters" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueUpdateParameters" />
           description: Update parameters.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.NamedValueUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-apimanagement.NamedValueUpdateResponse" />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.NamedValueUpdateResponse" />&gt;,
+          @azure/arm-apimanagement - <xref uid="v8.1.2.NamedValueUpdateResponse"
+          />&gt;&gt;
   - name: >-
       beginUpdateAndWait(string, string, string, string,
       NamedValueUpdateParameters, NamedValueUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.NamedValue.beginUpdateAndWait'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.beginUpdateAndWait'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Updates the specific named value.
     remarks: ''
     isDeprecated: false
@@ -243,22 +245,24 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.NamedValueUpdateParameters" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueUpdateParameters" />
           description: Update parameters.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.NamedValueUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, NamedValueDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement.NamedValue.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes specific named value from the API Management service instance.
     remarks: ''
     isDeprecated: false
@@ -285,16 +289,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.NamedValueDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, NamedValueGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.NamedValue.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the details of the named value specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -314,17 +318,19 @@ methods:
           type: string
           description: Identifier of the NamedValue.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.NamedValueGetOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.NamedValueGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueGetResponse" />&gt;
   - name: 'getEntityTag(string, string, string, NamedValueGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement.NamedValue.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the named value specified by its
       identifier.
@@ -347,19 +353,18 @@ methods:
           description: Identifier of the NamedValue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueGetEntityTagResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, NamedValueListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement.NamedValue.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists a collection of named values defined within a service instance.
     remarks: ''
     isDeprecated: false
@@ -377,19 +382,18 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueContract" />&gt;
   - name: 'listValue(string, string, string, NamedValueListValueOptionalParams)'
-    uid: '@azure/arm-apimanagement.NamedValue.listValue'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValue.listValue'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the secret of the named value specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -410,12 +414,12 @@ methods:
           description: Identifier of the NamedValue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.NamedValueListValueOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.NamedValueListValueOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.NamedValueListValueResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.NamedValueListValueResponse" />&gt;

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagCreateUpdateParameters
-uid: '@azure/arm-apimanagement.TagCreateUpdateParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TagCreateUpdateParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameters supplied to Create/Update Tag operations.
 fullName: TagCreateUpdateParameters
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: displayName
-    uid: '@azure/arm-apimanagement.TagCreateUpdateParameters.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TagCreateUpdateParameters.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Tag name.
     fullName: displayName
     remarks: ''

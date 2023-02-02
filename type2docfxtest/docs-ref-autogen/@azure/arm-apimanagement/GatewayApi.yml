@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayApi
-uid: '@azure/arm-apimanagement.GatewayApi'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayApi'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a GatewayApi.
 fullName: GatewayApi
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string,
       GatewayApiCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayApi.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayApi.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Adds an API to the specified Gateway.
     remarks: ''
     isDeprecated: false
@@ -42,19 +42,18 @@ methods:
             instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayApiCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GatewayApiCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayApiCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, GatewayApiDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement.GatewayApi.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayApi.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified API from the specified Gateway.
     remarks: ''
     isDeprecated: false
@@ -83,8 +82,8 @@ methods:
             instance.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.GatewayApiDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayApiDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -93,8 +92,8 @@ methods:
   - name: >-
       getEntityTag(string, string, string, string,
       GatewayApiGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayApi.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayApi.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Checks that API entity specified by identifier is associated with the
       Gateway entity.
@@ -126,21 +125,20 @@ methods:
             instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayApiGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayApiGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.GatewayApiGetEntityTagResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayApiGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string, string,
       GatewayApiListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.GatewayApi.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayApi.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists a collection of the APIs associated with a gateway.
     remarks: ''
     isDeprecated: false
@@ -164,13 +162,12 @@ methods:
                              instance. Must not have value 'managed'
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.GatewayApiListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.GatewayApiListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.ApiContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiContract" />&gt;

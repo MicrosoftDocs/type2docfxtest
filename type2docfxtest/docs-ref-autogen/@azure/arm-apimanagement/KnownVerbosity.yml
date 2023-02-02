@@ -1,29 +1,29 @@
 ### YamlMime:TSEnum
 name: KnownVerbosity
-uid: '@azure/arm-apimanagement.KnownVerbosity'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownVerbosity'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.Verbosity> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.Verbosity> that the
+  service accepts.
 fullName: KnownVerbosity
 remarks: ''
 isDeprecated: false
 fields:
   - name: Error
-    uid: '@azure/arm-apimanagement.KnownVerbosity.Error'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownVerbosity.Error'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Only traces with 'severity' set to 'error' will be sent to the logger
       attached to this diagnostic instance.
   - name: Information
-    uid: '@azure/arm-apimanagement.KnownVerbosity.Information'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownVerbosity.Information'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Traces with 'severity' set to 'information' and 'error' will be sent to
       the logger attached to this diagnostic instance.
   - name: Verbose
-    uid: '@azure/arm-apimanagement.KnownVerbosity.Verbose'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownVerbosity.Verbose'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       All the traces emitted by trace policies will be sent to the logger
       attached to this diagnostic instance.

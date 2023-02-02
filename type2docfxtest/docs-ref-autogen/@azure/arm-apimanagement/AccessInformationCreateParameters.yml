@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AccessInformationCreateParameters
-uid: '@azure/arm-apimanagement.AccessInformationCreateParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.AccessInformationCreateParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Tenant access information update parameters.
 fullName: AccessInformationCreateParameters
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: enabled
-    uid: '@azure/arm-apimanagement.AccessInformationCreateParameters.enabled'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.AccessInformationCreateParameters.enabled
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Determines whether direct access is enabled.
     fullName: enabled
     remarks: ''
@@ -21,8 +23,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: primaryKey
-    uid: '@azure/arm-apimanagement.AccessInformationCreateParameters.primaryKey'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.AccessInformationCreateParameters.primaryKey
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Primary access key. This property will not be filled on 'GET' operations!
       Use '/listSecrets' POST request to get the value.
@@ -35,8 +39,10 @@ properties:
         description: ''
         type: undefined | string
   - name: principalId
-    uid: '@azure/arm-apimanagement.AccessInformationCreateParameters.principalId'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.AccessInformationCreateParameters.principalId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Principal (User) Identifier.
     fullName: principalId
     remarks: ''
@@ -47,8 +53,10 @@ properties:
         description: ''
         type: undefined | string
   - name: secondaryKey
-    uid: '@azure/arm-apimanagement.AccessInformationCreateParameters.secondaryKey'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.AccessInformationCreateParameters.secondaryKey
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Secondary access key. This property will not be filled on 'GET'
       operations! Use '/listSecrets' POST request to get the value.

@@ -1,8 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceSkusListAvailableServiceSkusNextResponse
 uid: >-
-  @azure/arm-apimanagement.ApiManagementServiceSkusListAvailableServiceSkusNextResponse
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceSkusListAvailableServiceSkusNextResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listAvailableServiceSkusNext operation.
 fullName: ApiManagementServiceSkusListAvailableServiceSkusNextResponse
 remarks: ''

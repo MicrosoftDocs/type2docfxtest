@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: ContentFormat
-uid: '@azure/arm-apimanagement.ContentFormat'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ContentFormat'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for ContentFormat. \
 
-  <xref:@azure/arm-apimanagement.KnownContentFormat> can be used interchangeably
-  with ContentFormat,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownContentFormat> can be used
+  interchangeably with ContentFormat,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

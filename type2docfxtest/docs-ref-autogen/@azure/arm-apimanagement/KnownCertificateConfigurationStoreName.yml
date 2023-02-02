@@ -1,21 +1,23 @@
 ### YamlMime:TSEnum
 name: KnownCertificateConfigurationStoreName
-uid: '@azure/arm-apimanagement.KnownCertificateConfigurationStoreName'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownCertificateConfigurationStoreName'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of
-  <xref:@azure/arm-apimanagement.CertificateConfigurationStoreName> that the
-  service accepts.
+  Known values of <xref:@azure/arm-apimanagement -
+  v8.1.2.CertificateConfigurationStoreName> that the service accepts.
 fullName: KnownCertificateConfigurationStoreName
 remarks: ''
 isDeprecated: false
 fields:
   - name: CertificateAuthority
     uid: >-
-      @azure/arm-apimanagement.KnownCertificateConfigurationStoreName.CertificateAuthority
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownCertificateConfigurationStoreName.CertificateAuthority
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: CertificateAuthority
   - name: Root
-    uid: '@azure/arm-apimanagement.KnownCertificateConfigurationStoreName.Root'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownCertificateConfigurationStoreName.Root
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Root

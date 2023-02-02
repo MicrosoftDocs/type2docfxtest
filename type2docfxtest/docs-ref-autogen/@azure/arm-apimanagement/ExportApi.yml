@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: ExportApi
-uid: '@azure/arm-apimanagement.ExportApi'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ExportApi'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for ExportApi. \
 
-  <xref:@azure/arm-apimanagement.KnownExportApi> can be used interchangeably
-  with ExportApi,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownExportApi> can be used
+  interchangeably with ExportApi,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

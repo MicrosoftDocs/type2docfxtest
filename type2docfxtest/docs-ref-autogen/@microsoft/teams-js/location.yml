@@ -1,16 +1,16 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.location'
+uid: '@microsoft/teams-js - v2.5.0.location'
 name: location
 summary: ''
 type: module
 interfaces:
-  - '@microsoft/teams-js.location.Location'
-  - '@microsoft/teams-js.location.LocationProps'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.location.Location'
+  - '@microsoft/teams-js - v2.5.0.location.LocationProps'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: 'getLocation(LocationProps, (error: SdkError, location: Location) => void)'
-    uid: '@microsoft/teams-js.location.getLocation'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.location.getLocation'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
@@ -18,12 +18,12 @@ functions:
       As of 2.1.0, please use one of the following functions:
 
       - [geoLocation.getCurrentLocation():
-      Promise\<Location\>](xref:@microsoft/teams-js.geoLocation.getCurrentLocation)
-      to get the current location.
+      Promise\<Location\>](xref:@microsoft/teams-js -
+      v2.5.0.geoLocation.getCurrentLocation) to get the current location.
 
       - [geoLocation.map.chooseLocation():
-      Promise\<Location\>](xref:@microsoft/teams-js.geoLocation.map.chooseLocation)
-      to choose location on map.
+      Promise\<Location\>](xref:@microsoft/teams-js -
+      v2.5.0.geoLocation.map.chooseLocation) to choose location on map.
 
 
       Fetches user location
@@ -33,23 +33,22 @@ functions:
         location: Location) => void)
       parameters:
         - id: props
-          type: <xref uid="@microsoft/teams-js.location.LocationProps" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.location.LocationProps" />'
           description: Specifying how the location request is handled
         - id: callback
           type: '(error: SdkError, location: Location) =&gt; void'
           description: |
             Callback to invoke when current user location is fetched
   - name: isSupported()
-    uid: '@microsoft/teams-js.location.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.location.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.1.0, please use geoLocation namespace, and use
-      [geoLocation.isSupported:
-      boolean](xref:@microsoft/teams-js.geoLocation.isSupported) to check if
-      geoLocation is supported.
+      [geoLocation.isSupported: boolean](xref:@microsoft/teams-js -
+      v2.5.0.geoLocation.isSupported) to check if geoLocation is supported.
 
 
       Checks if Location capability is supported by the host
@@ -59,15 +58,15 @@ functions:
         description: boolean to represent whether Location is supported
         type: boolean
   - name: 'showLocation(Location, (error: SdkError, status: boolean) => void)'
-    uid: '@microsoft/teams-js.location.showLocation'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.location.showLocation'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.1.0, please use [geoLocation.map.showLocation(location: Location):
-      Promise\<void\>](xref:@microsoft/teams-js.geoLocation.map.showLocation)
-      instead.
+      Promise\<void\>](xref:@microsoft/teams-js -
+      v2.5.0.geoLocation.map.showLocation) instead.
 
 
       Shows the location on map corresponding to the given coordinates
@@ -77,7 +76,7 @@ functions:
         status: boolean) => void)
       parameters:
         - id: location
-          type: <xref uid="@microsoft/teams-js.location.Location" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.location.Location" />'
           description: Location to be shown on the map
         - id: callback
           type: '(error: SdkError, status: boolean) =&gt; void'

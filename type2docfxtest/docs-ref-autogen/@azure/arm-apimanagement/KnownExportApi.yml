@@ -1,15 +1,15 @@
 ### YamlMime:TSEnum
 name: KnownExportApi
-uid: '@azure/arm-apimanagement.KnownExportApi'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownExportApi'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.ExportApi> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.ExportApi> that the
+  service accepts.
 fullName: KnownExportApi
 remarks: ''
 isDeprecated: false
 fields:
   - name: 'True'
-    uid: '@azure/arm-apimanagement.KnownExportApi.True'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownExportApi.True'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'True'

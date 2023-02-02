@@ -1,14 +1,14 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.dialog.update'
+uid: '@microsoft/teams-js - v2.5.0.dialog.update'
 name: update
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Namespace to update the dialog
 previewState: beta
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.dialog.update.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.dialog.update.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if dialog.update capability is supported by the host
     remarks: ''
     previewState: beta
@@ -19,8 +19,8 @@ functions:
         description: boolean to represent whether dialog.update is supported
         type: boolean
   - name: resize(DialogSize)
-    uid: '@microsoft/teams-js.dialog.update.resize'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.dialog.update.resize'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Update dimensions - height/width of a dialog.
     remarks: ''
     previewState: beta
@@ -29,6 +29,6 @@ functions:
       content: 'function resize(dimensions: DialogSize)'
       parameters:
         - id: dimensions
-          type: <xref uid="@microsoft/teams-js.DialogSize" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.DialogSize" />'
           description: |
             An object containing width and height properties.

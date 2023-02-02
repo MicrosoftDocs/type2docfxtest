@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Severity
-uid: '@azure/arm-apimanagement.Severity'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.Severity'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for Severity. \
 
-  <xref:@azure/arm-apimanagement.KnownSeverity> can be used interchangeably with
-  Severity,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownSeverity> can be used
+  interchangeably with Severity,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

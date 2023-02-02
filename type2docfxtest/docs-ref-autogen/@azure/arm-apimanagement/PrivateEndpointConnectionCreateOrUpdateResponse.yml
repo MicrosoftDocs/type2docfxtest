@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.PrivateEndpointConnectionCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.PrivateEndpointConnectionCreateOrUpdateResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: PrivateEndpointConnectionCreateOrUpdateResponse
 remarks: ''

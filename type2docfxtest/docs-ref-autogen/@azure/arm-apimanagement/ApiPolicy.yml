@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiPolicy
-uid: '@azure/arm-apimanagement.ApiPolicy'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiPolicy'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiPolicy.
 fullName: ApiPolicy
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, PolicyIdName, PolicyContract,
       ApiPolicyCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiPolicy.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiPolicy.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates or updates policy configuration for the API.
     remarks: ''
     isDeprecated: false
@@ -36,28 +36,27 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: policyId
-          type: <xref uid="@azure/arm-apimanagement.PolicyIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PolicyIdName" />'
           description: The identifier of the Policy.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.PolicyContract" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PolicyContract" />'
           description: The policy contents to apply.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiPolicyCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiPolicyCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiPolicyCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiPolicyCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, PolicyIdName, string,
       ApiPolicyDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiPolicy.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiPolicy.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the policy configuration at the Api.
     remarks: ''
     isDeprecated: false
@@ -80,7 +79,7 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: policyId
-          type: <xref uid="@azure/arm-apimanagement.PolicyIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PolicyIdName" />'
           description: The identifier of the Policy.
         - id: ifMatch
           type: string
@@ -90,16 +89,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.ApiPolicyDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiPolicyDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, PolicyIdName, ApiPolicyGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.ApiPolicy.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiPolicy.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Get the policy configuration at the API level.
     remarks: ''
     isDeprecated: false
@@ -122,22 +121,24 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: policyId
-          type: <xref uid="@azure/arm-apimanagement.PolicyIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PolicyIdName" />'
           description: The identifier of the Policy.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.ApiPolicyGetOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiPolicyGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiPolicyGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiPolicyGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, PolicyIdName,
       ApiPolicyGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiPolicy.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiPolicy.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the API policy specified by its
       identifier.
@@ -163,23 +164,22 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: policyId
-          type: <xref uid="@azure/arm-apimanagement.PolicyIdName" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PolicyIdName" />'
           description: The identifier of the Policy.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiPolicyGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiPolicyGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiPolicyGetEntityTagResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiPolicyGetEntityTagResponse" />&gt;
   - name: 'listByApi(string, string, string, ApiPolicyListByApiOptionalParams)'
-    uid: '@azure/arm-apimanagement.ApiPolicy.listByApi'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiPolicy.listByApi'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Get the policy configuration at the API level.
     remarks: ''
     isDeprecated: false
@@ -203,12 +203,12 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiPolicyListByApiOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiPolicyListByApiOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiPolicyListByApiResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiPolicyListByApiResponse" />&gt;

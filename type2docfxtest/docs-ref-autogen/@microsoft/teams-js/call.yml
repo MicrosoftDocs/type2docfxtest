@@ -1,17 +1,17 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.call'
+uid: '@microsoft/teams-js - v2.5.0.call'
 name: call
 summary: ''
 type: module
 enums:
-  - '@microsoft/teams-js.call.CallModalities'
+  - '@microsoft/teams-js - v2.5.0.call.CallModalities'
 interfaces:
-  - '@microsoft/teams-js.call.StartCallParams'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.call.StartCallParams'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.call.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.call.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -21,8 +21,8 @@ functions:
         description: ''
         type: boolean
   - name: startCall(StartCallParams)
-    uid: '@microsoft/teams-js.call.startCall'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.call.startCall'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Starts a call with other users
     remarks: ''
     isDeprecated: false
@@ -30,7 +30,7 @@ functions:
       content: 'function startCall(startCallParams: StartCallParams): Promise<boolean>'
       parameters:
         - id: startCallParams
-          type: <xref uid="@microsoft/teams-js.call.StartCallParams" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.call.StartCallParams" />'
           description: Parameters for the call
       return:
         description: If the call is accepted

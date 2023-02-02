@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: SubscriptionState
-uid: '@azure/arm-apimanagement.SubscriptionState'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionState'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines values for SubscriptionState.
 fullName: SubscriptionState
 remarks: ''

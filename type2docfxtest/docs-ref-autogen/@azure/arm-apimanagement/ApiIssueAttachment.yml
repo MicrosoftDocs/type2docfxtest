@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiIssueAttachment
-uid: '@azure/arm-apimanagement.ApiIssueAttachment'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachment'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiIssueAttachment.
 fullName: ApiIssueAttachment
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string, string,
       IssueAttachmentContract, ApiIssueAttachmentCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueAttachment.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachment.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Creates a new Attachment for the Issue in an API or updates an existing
       one.
@@ -48,26 +48,26 @@ methods:
             Attachment identifier within an Issue. Must be unique in the current
             Issue.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.IssueAttachmentContract" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.IssueAttachmentContract" />
           description: Create parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueAttachmentCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueAttachmentCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueAttachmentCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueAttachmentCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string, string, string,
       ApiIssueAttachmentDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueAttachment.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachment.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified comment from an Issue.
     remarks: ''
     isDeprecated: false
@@ -106,9 +106,8 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueAttachmentDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueAttachmentDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -117,8 +116,8 @@ methods:
   - name: >-
       get(string, string, string, string, string,
       ApiIssueAttachmentGetOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueAttachment.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachment.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the details of the issue Attachment for an API specified by its
       identifier.
@@ -154,21 +153,20 @@ methods:
             Issue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueAttachmentGetOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueAttachmentGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueAttachmentGetResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueAttachmentGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string, string,
       ApiIssueAttachmentGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueAttachment.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachment.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the issue Attachment for an API
       specified by its identifier.
@@ -204,22 +202,20 @@ methods:
             Issue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueAttachmentGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueAttachmentGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueAttachmentGetEntityTagResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueAttachmentGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string, string, string,
       ApiIssueAttachmentListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueAttachment.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachment.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists all attachments for the Issue associated with the specified API.
     remarks: ''
     isDeprecated: false
@@ -248,13 +244,12 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueAttachmentListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueAttachmentListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.IssueAttachmentContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.IssueAttachmentContract" />&gt;

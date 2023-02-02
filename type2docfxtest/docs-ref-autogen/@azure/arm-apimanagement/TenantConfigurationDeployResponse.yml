@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TenantConfigurationDeployResponse
-uid: '@azure/arm-apimanagement.TenantConfigurationDeployResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TenantConfigurationDeployResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the deploy operation.
 fullName: TenantConfigurationDeployResponse
 remarks: ''

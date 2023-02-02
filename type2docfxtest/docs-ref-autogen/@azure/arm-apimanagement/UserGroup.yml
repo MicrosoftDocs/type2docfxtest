@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserGroup
-uid: '@azure/arm-apimanagement.UserGroup'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserGroup'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a UserGroup.
 fullName: UserGroup
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'list(string, string, string, UserGroupListOptionalParams)'
-    uid: '@azure/arm-apimanagement.UserGroup.list'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserGroup.list'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists all user groups.
     remarks: ''
     isDeprecated: false
@@ -32,11 +32,13 @@ methods:
             User identifier. Must be unique in the current API Management
             service instance.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.UserGroupListOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.UserGroupListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.GroupContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.GroupContract" />&gt;

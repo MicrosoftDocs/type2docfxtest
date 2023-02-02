@@ -1,19 +1,19 @@
 ### YamlMime:TSEnum
 name: KnownWarningCode
-uid: '@azure/ai-text-analytics.KnownWarningCode'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.KnownWarningCode'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
-  Known values of <xref:@azure/ai-text-analytics.WarningCode> that the service
-  accepts.
+  Known values of <xref:@azure/ai-text-analytics - v5.1.0.WarningCode> that the
+  service accepts.
 fullName: KnownWarningCode
 remarks: ''
 isDeprecated: false
 fields:
   - name: DocumentTruncated
-    uid: '@azure/ai-text-analytics.KnownWarningCode.DocumentTruncated'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownWarningCode.DocumentTruncated'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: LongWordsInDocument
-    uid: '@azure/ai-text-analytics.KnownWarningCode.LongWordsInDocument'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownWarningCode.LongWordsInDocument'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''

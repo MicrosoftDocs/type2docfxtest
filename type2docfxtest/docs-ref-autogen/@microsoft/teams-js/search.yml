@@ -1,5 +1,5 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.search'
+uid: '@microsoft/teams-js - v2.5.0.search'
 name: search
 summary: >-
   Allows your application to interact with the host M365 application's search
@@ -13,15 +13,15 @@ summary: >-
   This functionality is in Beta.
 type: module
 interfaces:
-  - '@microsoft/teams-js.search.SearchQuery'
+  - '@microsoft/teams-js - v2.5.0.search.SearchQuery'
 typeAliases:
-  - '@microsoft/teams-js.search.SearchQueryHandler'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.search.SearchQueryHandler'
+package: '@microsoft/teams-js - v2.5.0'
 previewState: beta
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js.search.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.search.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if search capability is supported by the host
     remarks: ''
     previewState: beta
@@ -38,8 +38,8 @@ functions:
   - name: >-
       registerHandlers(SearchQueryHandler, SearchQueryHandler,
       SearchQueryHandler)
-    uid: '@microsoft/teams-js.search.registerHandlers'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.search.registerHandlers'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >+
       Allows the caller to register for various events fired by the host search
       experience.
@@ -102,29 +102,35 @@ functions:
         SearchQueryHandler)
       parameters:
         - id: onClosedHandler
-          type: <xref uid="@microsoft/teams-js.search.SearchQueryHandler" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.search.SearchQueryHandler"
+            />
           description: >
             This handler will be called when the user exits or cancels their
             search.
 
             Should be used to return your application to its most recent,
-            non-search state. The value of
-            <xref:@microsoft/teams-js.search.SearchQuery.searchTerm>
+            non-search state. The value of <xref:@microsoft/teams-js -
+            v2.5.0.search.SearchQuery.searchTerm>
 
             will be whatever the last query was before ending search.
         - id: onExecuteHandler
-          type: <xref uid="@microsoft/teams-js.search.SearchQueryHandler" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.search.SearchQueryHandler"
+            />
           description: >
             The handler will be called when the user executes their
 
             search (by pressing Enter for example). Should be used to display
             the full list of search results.
 
-            The value of
-            <xref:@microsoft/teams-js.search.SearchQuery.searchTerm> is the
-            complete query the user entered in the search box.
+            The value of <xref:@microsoft/teams-js -
+            v2.5.0.search.SearchQuery.searchTerm> is the complete query the user
+            entered in the search box.
         - id: onChangeHandler
-          type: <xref uid="@microsoft/teams-js.search.SearchQueryHandler" />
+          type: >-
+            @microsoft/teams-js - <xref uid="v2.5.0.search.SearchQueryHandler"
+            />
           description: >-
             This optional handler will be called when the user first starts
             using the
@@ -135,14 +141,14 @@ functions:
             word-wheeling state or to display suggestions as the user is typing.
 
 
-            This handler will be called with an empty
-            <xref:@microsoft/teams-js.search.SearchQuery.searchTerm> when search
-            is beginning, and subsequently,
+            This handler will be called with an empty <xref:@microsoft/teams-js
+            - v2.5.0.search.SearchQuery.searchTerm> when search is beginning,
+            and subsequently,
 
             with the current contents of the search box.
   - name: unregisterHandlers()
-    uid: '@microsoft/teams-js.search.unregisterHandlers'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.search.unregisterHandlers'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Allows the caller to unregister for all events fired by the host search
       experience. Calling

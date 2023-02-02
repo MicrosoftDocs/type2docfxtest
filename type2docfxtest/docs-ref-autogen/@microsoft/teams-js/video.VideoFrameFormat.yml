@@ -1,7 +1,7 @@
 ### YamlMime:TSEnum
 name: VideoFrameFormat
-uid: '@microsoft/teams-js.video.VideoFrameFormat'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.video.VideoFrameFormat'
+package: '@microsoft/teams-js - v2.5.0'
 summary: 'Video frame format enum, currently only support NV12'
 fullName: VideoFrameFormat
 remarks: ''
@@ -9,7 +9,7 @@ previewState: beta
 isDeprecated: false
 fields:
   - name: NV12
-    uid: '@microsoft/teams-js.video.VideoFrameFormat.NV12'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.video.VideoFrameFormat.NV12'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 0

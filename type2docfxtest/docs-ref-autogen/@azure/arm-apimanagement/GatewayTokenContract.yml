@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayTokenContract
-uid: '@azure/arm-apimanagement.GatewayTokenContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayTokenContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Gateway access token.
 fullName: GatewayTokenContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: value
-    uid: '@azure/arm-apimanagement.GatewayTokenContract.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GatewayTokenContract.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Shared Access Authentication token value for the Gateway.
     fullName: value
     remarks: ''

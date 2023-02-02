@@ -1,8 +1,9 @@
 ### YamlMime:TSType
 name: GatewayHostnameConfigurationListByServiceOptionalParams
 uid: >-
-  @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: GatewayHostnameConfigurationListByServiceOptionalParams
 remarks: ''
@@ -11,8 +12,9 @@ type: interface
 properties:
   - name: filter
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.filter
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.filter
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -30,8 +32,9 @@ properties:
         type: undefined | string
   - name: skip
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.skip
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.skip
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -43,8 +46,9 @@ properties:
         type: undefined | number
   - name: top
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.top
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.top
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -57,8 +61,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -71,8 +76,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.onResponse
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -88,8 +94,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -102,8 +109,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -116,8 +124,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

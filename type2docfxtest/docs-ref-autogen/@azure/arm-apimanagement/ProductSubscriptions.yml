@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductSubscriptions
-uid: '@azure/arm-apimanagement.ProductSubscriptions'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ProductSubscriptions'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ProductSubscriptions.
 fullName: ProductSubscriptions
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'list(string, string, string, ProductSubscriptionsListOptionalParams)'
-    uid: '@azure/arm-apimanagement.ProductSubscriptions.list'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ProductSubscriptions.list'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists the collection of subscriptions to the specified product.
     remarks: ''
     isDeprecated: false
@@ -33,13 +33,12 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ProductSubscriptionsListOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ProductSubscriptionsListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.SubscriptionContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.SubscriptionContract" />&gt;

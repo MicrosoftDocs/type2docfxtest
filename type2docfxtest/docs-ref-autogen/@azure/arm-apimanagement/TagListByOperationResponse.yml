@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TagListByOperationResponse
-uid: '@azure/arm-apimanagement.TagListByOperationResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TagListByOperationResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByOperation operation.
 fullName: TagListByOperationResponse
 remarks: ''

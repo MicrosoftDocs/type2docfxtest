@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiIssueComment
-uid: '@azure/arm-apimanagement.ApiIssueComment'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueComment'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiIssueComment.
 fullName: ApiIssueComment
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string, string,
       IssueCommentContract, ApiIssueCommentCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueComment.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueComment.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates a new Comment for the Issue in an API or updates an existing one.
     remarks: ''
     isDeprecated: false
@@ -46,26 +46,26 @@ methods:
             Comment identifier within an Issue. Must be unique in the current
             Issue.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.IssueCommentContract" />
+          type: >-
+            @azure/arm-apimanagement - <xref uid="v8.1.2.IssueCommentContract"
+            />
           description: Create parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueCommentCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueCommentCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueCommentCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueCommentCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string, string, string,
       ApiIssueCommentDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueComment.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueComment.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified comment from an Issue.
     remarks: ''
     isDeprecated: false
@@ -104,9 +104,8 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueCommentDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueCommentDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -115,8 +114,8 @@ methods:
   - name: >-
       get(string, string, string, string, string,
       ApiIssueCommentGetOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueComment.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueComment.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the details of the issue Comment for an API specified by its
       identifier.
@@ -151,20 +150,20 @@ methods:
             Issue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueCommentGetOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueCommentGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueCommentGetResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueCommentGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string, string,
       ApiIssueCommentGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueComment.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueComment.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the issue Comment for an API
       specified by its identifier.
@@ -200,22 +199,20 @@ methods:
             Issue.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueCommentGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueCommentGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueCommentGetEntityTagResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueCommentGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string, string, string,
       ApiIssueCommentListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssueComment.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueComment.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists all comments for the Issue associated with the specified API.
     remarks: ''
     isDeprecated: false
@@ -244,13 +241,12 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueCommentListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueCommentListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.IssueCommentContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.IssueCommentContract" />&gt;

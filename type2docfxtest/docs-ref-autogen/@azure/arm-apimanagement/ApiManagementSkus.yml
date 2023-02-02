@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkus
-uid: '@azure/arm-apimanagement.ApiManagementSkus'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkus'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiManagementSkus.
 fullName: ApiManagementSkus
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: list(ApiManagementSkusListOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiManagementSkus.list'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkus.list'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the list of Microsoft.ApiManagement SKUs available for your
       Subscription.
@@ -23,13 +23,12 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiManagementSkusListOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiManagementSkusListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.ApiManagementSku" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiManagementSku" />&gt;

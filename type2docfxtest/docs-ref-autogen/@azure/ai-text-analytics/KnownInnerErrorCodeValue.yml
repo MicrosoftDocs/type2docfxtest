@@ -1,47 +1,61 @@
 ### YamlMime:TSEnum
 name: KnownInnerErrorCodeValue
-uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.KnownInnerErrorCodeValue'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
-  Known values of <xref:@azure/ai-text-analytics.InnerErrorCodeValue> that the
-  service accepts.
+  Known values of <xref:@azure/ai-text-analytics - v5.1.0.InnerErrorCodeValue>
+  that the service accepts.
 fullName: KnownInnerErrorCodeValue
 remarks: ''
 isDeprecated: false
 fields:
   - name: EmptyRequest
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.EmptyRequest'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownInnerErrorCodeValue.EmptyRequest'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: InvalidCountryHint
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidCountryHint'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.InvalidCountryHint
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: InvalidDocument
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidDocument'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.KnownInnerErrorCodeValue.InvalidDocument'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: InvalidDocumentBatch
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidDocumentBatch'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.InvalidDocumentBatch
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: InvalidParameterValue
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidParameterValue'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.InvalidParameterValue
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: InvalidRequestBodyFormat
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidRequestBodyFormat'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.InvalidRequestBodyFormat
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: MissingInputRecords
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.MissingInputRecords'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.MissingInputRecords
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: ModelVersionIncorrect
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.ModelVersionIncorrect'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.ModelVersionIncorrect
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''
   - name: UnsupportedLanguageCode
-    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.UnsupportedLanguageCode'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.KnownInnerErrorCodeValue.UnsupportedLanguageCode
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: ''

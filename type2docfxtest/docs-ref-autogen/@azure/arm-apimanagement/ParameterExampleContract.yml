@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ParameterExampleContract
-uid: '@azure/arm-apimanagement.ParameterExampleContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ParameterExampleContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameter example.
 fullName: ParameterExampleContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.ParameterExampleContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ParameterExampleContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Long description for the example
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: externalValue
-    uid: '@azure/arm-apimanagement.ParameterExampleContract.externalValue'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ParameterExampleContract.externalValue'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A URL that points to the literal example
     fullName: externalValue
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: summary
-    uid: '@azure/arm-apimanagement.ParameterExampleContract.summary'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ParameterExampleContract.summary'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Short description for the example
     fullName: summary
     remarks: ''
@@ -45,8 +45,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ParameterExampleContract.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ParameterExampleContract.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Example value. May be a primitive value, or an object.'
     fullName: value
     remarks: ''

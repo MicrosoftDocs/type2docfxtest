@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ConnectivityCheckResponse
-uid: '@azure/arm-apimanagement.ConnectivityCheckResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Information on the connectivity status.
 fullName: ConnectivityCheckResponse
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: avgLatencyInMs
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.avgLatencyInMs'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse.avgLatencyInMs'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Average latency in milliseconds.
 
@@ -25,8 +25,10 @@ properties:
         description: ''
         type: undefined | number
   - name: connectionStatus
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.connectionStatus'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ConnectivityCheckResponse.connectionStatus
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The connection status.
 
@@ -39,10 +41,10 @@ properties:
       content: 'connectionStatus?: ConnectionStatus'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ConnectionStatus" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConnectionStatus" />'
   - name: hops
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.hops'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse.hops'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       List of hops between the source and the destination.
 
@@ -55,10 +57,10 @@ properties:
       content: 'hops?: ConnectivityHop[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ConnectivityHop" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ConnectivityHop" />[]'
   - name: maxLatencyInMs
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.maxLatencyInMs'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse.maxLatencyInMs'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Maximum latency in milliseconds.
 
@@ -73,8 +75,8 @@ properties:
         description: ''
         type: undefined | number
   - name: minLatencyInMs
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.minLatencyInMs'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse.minLatencyInMs'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Minimum latency in milliseconds.
 
@@ -89,8 +91,8 @@ properties:
         description: ''
         type: undefined | number
   - name: probesFailed
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.probesFailed'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse.probesFailed'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Number of failed probes.
 
@@ -105,8 +107,8 @@ properties:
         description: ''
         type: undefined | number
   - name: probesSent
-    uid: '@azure/arm-apimanagement.ConnectivityCheckResponse.probesSent'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckResponse.probesSent'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Total number of probes sent.
 

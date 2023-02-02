@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SubscriptionListNextOptionalParams
-uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionListNextOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: SubscriptionListNextOptionalParams
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: filter
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.filter'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionListNextOptionalParams.filter
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -35,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: skip
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.skip'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionListNextOptionalParams.skip'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -47,8 +49,8 @@ properties:
         description: ''
         type: undefined | number
   - name: top
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.top'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionListNextOptionalParams.top'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -60,8 +62,10 @@ properties:
         type: undefined | number
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.abortSignal'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionListNextOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -73,8 +77,10 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.onResponse'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionListNextOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -89,8 +95,10 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.requestOptions'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionListNextOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -103,8 +111,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.SubscriptionListNextOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionListNextOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -116,8 +125,10 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: '@azure/arm-apimanagement.SubscriptionListNextOptionalParams.tracingOptions'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionListNextOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

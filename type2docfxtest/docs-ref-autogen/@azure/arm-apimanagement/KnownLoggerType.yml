@@ -1,23 +1,23 @@
 ### YamlMime:TSEnum
 name: KnownLoggerType
-uid: '@azure/arm-apimanagement.KnownLoggerType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownLoggerType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.LoggerType> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.LoggerType> that the
+  service accepts.
 fullName: KnownLoggerType
 remarks: ''
 isDeprecated: false
 fields:
   - name: ApplicationInsights
-    uid: '@azure/arm-apimanagement.KnownLoggerType.ApplicationInsights'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownLoggerType.ApplicationInsights'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Azure Application Insights as log destination.
   - name: AzureEventHub
-    uid: '@azure/arm-apimanagement.KnownLoggerType.AzureEventHub'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownLoggerType.AzureEventHub'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Azure Event Hub as log destination.
   - name: AzureMonitor
-    uid: '@azure/arm-apimanagement.KnownLoggerType.AzureMonitor'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownLoggerType.AzureMonitor'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Azure Monitor

@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: PolicyContentFormat
-uid: '@azure/arm-apimanagement.PolicyContentFormat'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PolicyContentFormat'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for PolicyContentFormat. \
 
-  <xref:@azure/arm-apimanagement.KnownPolicyContentFormat> can be used
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownPolicyContentFormat> can be used
   interchangeably with PolicyContentFormat,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

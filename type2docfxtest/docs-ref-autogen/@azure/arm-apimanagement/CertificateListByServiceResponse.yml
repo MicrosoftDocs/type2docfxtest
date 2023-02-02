@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: CertificateListByServiceResponse
-uid: '@azure/arm-apimanagement.CertificateListByServiceResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.CertificateListByServiceResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByService operation.
 fullName: CertificateListByServiceResponse
 remarks: ''

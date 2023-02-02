@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ChildAppWindow
-uid: '@microsoft/teams-js.ChildAppWindow'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.ChildAppWindow'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: ChildAppWindow
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: class
 methods:
   - name: 'addEventListener(string, (message: any) => void)'
-    uid: '@microsoft/teams-js.ChildAppWindow.addEventListener'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ChildAppWindow.addEventListener'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Add a listener that will be called when an event is received from the
       ChildAppWindow.
@@ -31,8 +31,8 @@ methods:
           description: |
             The listener that will be called
   - name: 'postMessage(any, (status: boolean, reason?: string) => void)'
-    uid: '@microsoft/teams-js.ChildAppWindow.postMessage'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.ChildAppWindow.postMessage'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Send a message to the ChildAppWindow.
     remarks: ''
     isDeprecated: false

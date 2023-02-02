@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SubscriptionKeyParameterNamesContract
-uid: '@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionKeyParameterNamesContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Subscription key parameter names details.
 fullName: SubscriptionKeyParameterNamesContract
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: header
-    uid: '@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract.header'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionKeyParameterNamesContract.header
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Subscription key header name.
     fullName: header
     remarks: ''
@@ -21,8 +23,10 @@ properties:
         description: ''
         type: undefined | string
   - name: query
-    uid: '@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract.query'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.SubscriptionKeyParameterNamesContract.query
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Subscription key query string parameter name.
     fullName: query
     remarks: ''

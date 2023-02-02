@@ -1,13 +1,13 @@
 ### YamlMime:TSTypeAlias
 name: AuthenticateParameters
-uid: '@microsoft/teams-js.authentication.AuthenticateParameters'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.authentication.AuthenticateParameters'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: AuthenticateParameters
 remarks: ''
 isDeprecated: true
 customDeprecatedMessage: >-
-  As of 2.0.0, please use
-  <xref:@microsoft/teams-js.authentication.AuthenticatePopUpParameters> instead.
+  As of 2.0.0, please use <xref:@microsoft/teams-js -
+  v2.5.0.authentication.AuthenticatePopUpParameters> instead.
 syntax: |
   type AuthenticateParameters = AuthenticatePopUpParameters & LegacyCallBacks

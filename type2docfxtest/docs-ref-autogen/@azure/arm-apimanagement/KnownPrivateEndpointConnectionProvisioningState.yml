@@ -1,32 +1,37 @@
 ### YamlMime:TSEnum
 name: KnownPrivateEndpointConnectionProvisioningState
-uid: '@azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.KnownPrivateEndpointConnectionProvisioningState
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of
-  <xref:@azure/arm-apimanagement.PrivateEndpointConnectionProvisioningState>
-  that the service accepts.
+  Known values of <xref:@azure/arm-apimanagement -
+  v8.1.2.PrivateEndpointConnectionProvisioningState> that the service accepts.
 fullName: KnownPrivateEndpointConnectionProvisioningState
 remarks: ''
 isDeprecated: false
 fields:
   - name: Creating
     uid: >-
-      @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Creating
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownPrivateEndpointConnectionProvisioningState.Creating
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creating
   - name: Deleting
     uid: >-
-      @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Deleting
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownPrivateEndpointConnectionProvisioningState.Deleting
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deleting
   - name: Failed
     uid: >-
-      @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Failed
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownPrivateEndpointConnectionProvisioningState.Failed
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Failed
   - name: Succeeded
     uid: >-
-      @azure/arm-apimanagement.KnownPrivateEndpointConnectionProvisioningState.Succeeded
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.KnownPrivateEndpointConnectionProvisioningState.Succeeded
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Succeeded

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Resource
-uid: '@azure/arm-apimanagement.Resource'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.Resource'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Common fields that are returned in the response for all Azure Resource Manager
   resources
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: id
-    uid: '@azure/arm-apimanagement.Resource.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Resource.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -28,8 +28,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: '@azure/arm-apimanagement.Resource.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Resource.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -44,8 +44,8 @@ properties:
         description: ''
         type: undefined | string
   - name: type
-    uid: '@azure/arm-apimanagement.Resource.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.Resource.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"

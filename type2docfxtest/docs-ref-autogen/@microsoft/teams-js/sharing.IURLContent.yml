@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IURLContent
-uid: '@microsoft/teams-js.sharing.IURLContent'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.sharing.IURLContent'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: IURLContent
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: message
-    uid: '@microsoft/teams-js.sharing.IURLContent.message'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.IURLContent.message'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Default initial message text
     fullName: message
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: string
   - name: preview
-    uid: '@microsoft/teams-js.sharing.IURLContent.preview'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.IURLContent.preview'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: 'Show URL preview, defaults to true'
     fullName: preview
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: boolean
   - name: type
-    uid: '@microsoft/teams-js.sharing.IURLContent.type'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.IURLContent.type'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     fullName: type
     remarks: ''
@@ -45,8 +45,8 @@ properties:
         description: ''
         type: '"URL"'
   - name: url
-    uid: '@microsoft/teams-js.sharing.IURLContent.url'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.sharing.IURLContent.url'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Required URL
     fullName: url
     remarks: ''
@@ -56,4 +56,4 @@ properties:
       return:
         description: ''
         type: string
-extends: <xref uid="@microsoft/teams-js.sharing.IBaseSharedContent" />
+extends: '@microsoft/teams-js - <xref uid="v2.5.0.sharing.IBaseSharedContent" />'

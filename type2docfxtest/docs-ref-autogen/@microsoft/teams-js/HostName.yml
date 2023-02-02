@@ -1,33 +1,33 @@
 ### YamlMime:TSEnum
 name: HostName
-uid: '@microsoft/teams-js.HostName'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.HostName'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: HostName
 remarks: ''
 isDeprecated: false
 fields:
   - name: office
-    uid: '@microsoft/teams-js.HostName.office'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.HostName.office'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Office.com and Office Windows App
   - name: orange
-    uid: '@microsoft/teams-js.HostName.orange'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.HostName.orange'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Microsoft-internal test Host
   - name: outlook
-    uid: '@microsoft/teams-js.HostName.outlook'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.HostName.outlook'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       For "desktop" specifically, this refers to the new, pre-release version of
       Outlook for Windows.
 
       Also used on other platforms that map to a single Outlook client.
   - name: outlookWin32
-    uid: '@microsoft/teams-js.HostName.outlookWin32'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.HostName.outlookWin32'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: 'Outlook for Windows: the classic, native, desktop client'
   - name: teams
-    uid: '@microsoft/teams-js.HostName.teams'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.HostName.teams'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Teams

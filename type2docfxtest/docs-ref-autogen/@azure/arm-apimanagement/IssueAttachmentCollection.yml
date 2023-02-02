@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IssueAttachmentCollection
-uid: '@azure/arm-apimanagement.IssueAttachmentCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.IssueAttachmentCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged Issue Attachment list representation.
 fullName: IssueAttachmentCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.IssueAttachmentCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueAttachmentCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement.IssueAttachmentCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueAttachmentCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link if any.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.IssueAttachmentCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.IssueAttachmentCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Issue Attachment values.
 
@@ -51,4 +51,6 @@ properties:
       content: 'value?: IssueAttachmentContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.IssueAttachmentContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.IssueAttachmentContract"
+          />[]

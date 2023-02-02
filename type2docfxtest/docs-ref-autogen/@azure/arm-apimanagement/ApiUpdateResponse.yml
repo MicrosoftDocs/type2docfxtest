@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiUpdateResponse
-uid: '@azure/arm-apimanagement.ApiUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the update operation.
 fullName: ApiUpdateResponse
 remarks: ''

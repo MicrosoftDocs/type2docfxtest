@@ -1,7 +1,9 @@
 ### YamlMime:TSType
 name: TenantSettingsListByServiceNextOptionalParams
-uid: '@azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.TenantSettingsListByServiceNextOptionalParams
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: TenantSettingsListByServiceNextOptionalParams
 remarks: ''
@@ -10,8 +12,9 @@ type: interface
 properties:
   - name: filter
     uid: >-
-      @azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams.filter
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TenantSettingsListByServiceNextOptionalParams.filter
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Not used
     fullName: filter
     remarks: ''
@@ -24,8 +27,9 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TenantSettingsListByServiceNextOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -38,8 +42,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams.onResponse
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TenantSettingsListByServiceNextOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -55,8 +60,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TenantSettingsListByServiceNextOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -69,8 +75,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TenantSettingsListByServiceNextOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -83,8 +90,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.TenantSettingsListByServiceNextOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TenantSettingsListByServiceNextOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SignUpSettings
-uid: '@azure/arm-apimanagement.SignUpSettings'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.SignUpSettings'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a SignUpSettings.
 fullName: SignUpSettings
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, PortalSignupSettings,
       SignUpSettingsCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.SignUpSettings.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SignUpSettings.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Create or Update Sign-Up settings.
     remarks: ''
     isDeprecated: false
@@ -30,24 +30,24 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.PortalSignupSettings" />
+          type: >-
+            @azure/arm-apimanagement - <xref uid="v8.1.2.PortalSignupSettings"
+            />
           description: Create or update parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.SignUpSettingsCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.SignUpSettingsCreateOrUpdateResponse" />&gt;
   - name: 'get(string, string, SignUpSettingsGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.SignUpSettings.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SignUpSettings.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Get Sign Up Settings for the Portal
     remarks: ''
     isDeprecated: false
@@ -64,18 +64,18 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref uid="@azure/arm-apimanagement.SignUpSettingsGetOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.SignUpSettingsGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.SignUpSettingsGetResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.SignUpSettingsGetResponse" />&gt;
   - name: 'getEntityTag(string, string, SignUpSettingsGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement.SignUpSettings.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SignUpSettings.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the entity state (Etag) version of the SignUpSettings.
     remarks: ''
     isDeprecated: false
@@ -93,22 +93,20 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.SignUpSettingsGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.SignUpSettingsGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.SignUpSettingsGetEntityTagResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.SignUpSettingsGetEntityTagResponse" />&gt;
   - name: >-
       update(string, string, string, PortalSignupSettings,
       SignUpSettingsUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.SignUpSettings.update'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.SignUpSettings.update'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Update Sign-Up settings.
     remarks: ''
     isDeprecated: false
@@ -131,12 +129,14 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.PortalSignupSettings" />
+          type: >-
+            @azure/arm-apimanagement - <xref uid="v8.1.2.PortalSignupSettings"
+            />
           description: Update Sign-Up settings.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.SignUpSettingsUpdateOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.SignUpSettingsUpdateOptionalParams" />
           description: |
             The options parameters.
       return:

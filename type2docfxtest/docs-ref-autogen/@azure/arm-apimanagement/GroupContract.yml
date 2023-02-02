@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GroupContract
-uid: '@azure/arm-apimanagement.GroupContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GroupContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contract details.
 fullName: GroupContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: builtIn
-    uid: '@azure/arm-apimanagement.GroupContract.builtIn'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.builtIn'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       true if the group is one of the three system groups (Administrators,
       Developers, or Guests); otherwise false.
@@ -26,8 +26,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: description
-    uid: '@azure/arm-apimanagement.GroupContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Group description. Can contain HTML formatting tags.
     fullName: description
     remarks: ''
@@ -38,8 +38,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement.GroupContract.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Group name.
     fullName: displayName
     remarks: ''
@@ -50,8 +50,8 @@ properties:
         description: ''
         type: undefined | string
   - name: externalId
-    uid: '@azure/arm-apimanagement.GroupContract.externalId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.externalId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       For external groups, this property contains the id of the group from the
       external identity provider, e.g. for Azure Active Directory
@@ -66,8 +66,8 @@ properties:
         description: ''
         type: undefined | string
   - name: typePropertiesType
-    uid: '@azure/arm-apimanagement.GroupContract.typePropertiesType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.typePropertiesType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Group type.
     fullName: typePropertiesType
     remarks: ''
@@ -76,11 +76,11 @@ properties:
       content: 'typePropertiesType?: GroupType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.GroupType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.GroupType" />'
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.GroupContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -96,11 +96,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.GroupContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -115,11 +115,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.GroupContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.GroupContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -135,6 +135,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

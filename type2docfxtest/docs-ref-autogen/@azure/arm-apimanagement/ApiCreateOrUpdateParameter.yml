@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiCreateOrUpdateParameter
-uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: API Create or Update Parameters.
 fullName: ApiCreateOrUpdateParameter
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiRevision
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiRevision'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.apiRevision'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Describes the revision of the API. If no value is provided, default
       revision 1 is created
@@ -23,8 +23,10 @@ properties:
         description: ''
         type: undefined | string
   - name: apiRevisionDescription
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiRevisionDescription'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.apiRevisionDescription
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the API Revision.
     fullName: apiRevisionDescription
     remarks: ''
@@ -35,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiType
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.apiType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Type of API.
     fullName: apiType
     remarks: ''
@@ -45,10 +47,10 @@ properties:
       content: 'apiType?: ApiType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiType" />'
   - name: apiVersion
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiVersion'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.apiVersion'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Indicates the version identifier of the API if the API is versioned
     fullName: apiVersion
     remarks: ''
@@ -59,8 +61,10 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionDescription
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiVersionDescription'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.apiVersionDescription
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the API Version.
     fullName: apiVersionDescription
     remarks: ''
@@ -71,8 +75,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionSet
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiVersionSet'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.apiVersionSet'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Version set details
     fullName: apiVersionSet
     remarks: ''
@@ -81,10 +85,14 @@ properties:
       content: 'apiVersionSet?: ApiVersionSetContractDetails'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiVersionSetContractDetails" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiVersionSetContractDetails" />
   - name: apiVersionSetId
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.apiVersionSetId'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.apiVersionSetId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A resource identifier for the related ApiVersionSet.
     fullName: apiVersionSetId
     remarks: ''
@@ -95,8 +103,10 @@ properties:
         description: ''
         type: undefined | string
   - name: authenticationSettings
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.authenticationSettings'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.authenticationSettings
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of authentication settings included into this API.
     fullName: authenticationSettings
     remarks: ''
@@ -105,10 +115,12 @@ properties:
       content: 'authenticationSettings?: AuthenticationSettingsContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AuthenticationSettingsContract" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthenticationSettingsContract" />
   - name: contact
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.contact'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.contact'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Contact information for the API.
     fullName: contact
     remarks: ''
@@ -117,10 +129,10 @@ properties:
       content: 'contact?: ApiContactInformation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiContactInformation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiContactInformation" />'
   - name: description
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the API. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -131,8 +143,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: API name. Must be 1 to 300 characters long.
     fullName: displayName
     remarks: ''
@@ -143,8 +155,8 @@ properties:
         description: ''
         type: undefined | string
   - name: format
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.format'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.format'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Format of the Content in which the API is getting imported.
     fullName: format
     remarks: ''
@@ -153,10 +165,10 @@ properties:
       content: 'format?: ContentFormat'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ContentFormat" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ContentFormat" />'
   - name: isCurrent
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.isCurrent'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.isCurrent'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Indicates if API revision is current api revision.
     fullName: isCurrent
     remarks: ''
@@ -167,8 +179,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: isOnline
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.isOnline'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.isOnline'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Indicates if API revision is accessible via the gateway.
 
@@ -183,8 +195,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: license
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.license'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.license'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: License information for the API.
     fullName: license
     remarks: ''
@@ -193,10 +205,10 @@ properties:
       content: 'license?: ApiLicenseInformation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiLicenseInformation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiLicenseInformation" />'
   - name: path
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.path'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.path'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Relative URL uniquely identifying this API and all of its resource paths
       within the API Management service instance. It is appended to the API
@@ -211,8 +223,8 @@ properties:
         description: ''
         type: undefined | string
   - name: protocols
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.protocols'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.protocols'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Describes on which protocols the operations in this API can be invoked.
     fullName: protocols
     remarks: ''
@@ -221,10 +233,10 @@ properties:
       content: 'protocols?: Protocol[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.Protocol" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Protocol" />[]'
   - name: serviceUrl
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.serviceUrl'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.serviceUrl'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Absolute URL of the backend service implementing this API. Cannot be more
       than 2000 characters long.
@@ -237,8 +249,8 @@ properties:
         description: ''
         type: undefined | string
   - name: soapApiType
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.soapApiType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.soapApiType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       Type of API to create.
        * `http` creates a REST API
@@ -252,10 +264,10 @@ properties:
       content: 'soapApiType?: SoapApiType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SoapApiType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SoapApiType" />'
   - name: sourceApiId
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.sourceApiId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.sourceApiId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: API identifier of the source API.
     fullName: sourceApiId
     remarks: ''
@@ -267,8 +279,9 @@ properties:
         type: undefined | string
   - name: subscriptionKeyParameterNames
     uid: >-
-      @azure/arm-apimanagement.ApiCreateOrUpdateParameter.subscriptionKeyParameterNames
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.subscriptionKeyParameterNames
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Protocols over which API is made available.
     fullName: subscriptionKeyParameterNames
     remarks: ''
@@ -278,12 +291,13 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.SubscriptionKeyParameterNamesContract" />
   - name: subscriptionRequired
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.subscriptionRequired'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.subscriptionRequired
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Specifies whether an API or Product subscription is required for accessing
       the API.
@@ -296,8 +310,10 @@ properties:
         description: ''
         type: undefined | false | true
   - name: termsOfServiceUrl
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.termsOfServiceUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiCreateOrUpdateParameter.termsOfServiceUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: A URL to the Terms of Service for the API. MUST be in the format of a URL.
     fullName: termsOfServiceUrl
     remarks: ''
@@ -308,8 +324,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Content value when Importing an API.
     fullName: value
     remarks: ''
@@ -320,8 +336,8 @@ properties:
         description: ''
         type: undefined | string
   - name: wsdlSelector
-    uid: '@azure/arm-apimanagement.ApiCreateOrUpdateParameter.wsdlSelector'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCreateOrUpdateParameter.wsdlSelector'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Criteria to limit import of WSDL to a subset of the document.
     fullName: wsdlSelector
     remarks: ''
@@ -331,6 +347,5 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.ApiCreateOrUpdatePropertiesWsdlSelector"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiCreateOrUpdatePropertiesWsdlSelector" />

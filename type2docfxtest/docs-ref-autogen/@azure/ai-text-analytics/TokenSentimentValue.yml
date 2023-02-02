@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TokenSentimentValue
-uid: '@azure/ai-text-analytics.TokenSentimentValue'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.TokenSentimentValue'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: Defines values for TokenSentimentValue.
 fullName: TokenSentimentValue
 remarks: ''

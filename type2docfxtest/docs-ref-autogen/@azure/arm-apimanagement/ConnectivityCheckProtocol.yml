@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: ConnectivityCheckProtocol
-uid: '@azure/arm-apimanagement.ConnectivityCheckProtocol'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckProtocol'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for ConnectivityCheckProtocol. \
 
-  <xref:@azure/arm-apimanagement.KnownConnectivityCheckProtocol> can be used
-  interchangeably with ConnectivityCheckProtocol,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownConnectivityCheckProtocol> can be
+  used interchangeably with ConnectivityCheckProtocol,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

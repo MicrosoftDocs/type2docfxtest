@@ -1,8 +1,9 @@
 ### YamlMime:TSType
 name: ConnectivityCheckRequestProtocolConfigurationHttpConfiguration
 uid: >-
-  @azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Configuration for HTTP or HTTPS requests.
 fullName: ConnectivityCheckRequestProtocolConfigurationHttpConfiguration
 remarks: ''
@@ -11,8 +12,9 @@ type: interface
 properties:
   - name: headers
     uid: >-
-      @azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration.headers
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration.headers
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: List of headers to be included in the request.
     fullName: headers
     remarks: ''
@@ -21,11 +23,12 @@ properties:
       content: 'headers?: HttpHeader[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.HttpHeader" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.HttpHeader" />[]'
   - name: method
     uid: >-
-      @azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration.method
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration.method
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The HTTP method to be used.
     fullName: method
     remarks: ''
@@ -34,11 +37,12 @@ properties:
       content: 'method?: Method'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Method" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Method" />'
   - name: validStatusCodes
     uid: >-
-      @azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration.validStatusCodes
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ConnectivityCheckRequestProtocolConfigurationHttpConfiguration.validStatusCodes
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: List of HTTP status codes considered valid for the request response.
     fullName: validStatusCodes
     remarks: ''

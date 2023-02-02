@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizeLinkedEntitiesActionSuccessResult
-uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionSuccessResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.RecognizeLinkedEntitiesActionSuccessResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The results of a succeeded recognize linked entities action.
 fullName: RecognizeLinkedEntitiesActionSuccessResult
 remarks: ''
@@ -10,8 +10,9 @@ type: interface
 properties:
   - name: results
     uid: >-
-      @azure/ai-text-analytics.RecognizeLinkedEntitiesActionSuccessResult.results
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeLinkedEntitiesActionSuccessResult.results
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Array of the results for each linked entities recognition action.
     fullName: results
     remarks: ''
@@ -21,13 +22,14 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray" />
+          @azure/ai-text-analytics - <xref
+          uid="v5.1.0.RecognizeLinkedEntitiesResultArray" />
 inheritedProperties:
   - name: completedOn
     uid: >-
-      @azure/ai-text-analytics.RecognizeLinkedEntitiesActionSuccessResult.completedOn
-    package: '@azure/ai-text-analytics'
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeLinkedEntitiesActionSuccessResult.completedOn
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: When this action was completed by the service.
     fullName: completedOn
     remarks: ''
@@ -39,10 +41,13 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.completedOn)
+      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics
+      - v5.1.0.TextAnalyticsActionSuccessState.completedOn)
   - name: error
-    uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionSuccessResult.error'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizeLinkedEntitiesActionSuccessResult.error
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Discriminant to determine if that this is an error result.
     fullName: error
     remarks: ''
@@ -54,5 +59,8 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.error)
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />
+      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics -
+      v5.1.0.TextAnalyticsActionSuccessState.error)
+extends: >-
+  @azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsActionSuccessState"
+  />

@@ -1,16 +1,17 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.tasks'
+uid: '@microsoft/teams-js - v2.5.0.tasks'
 name: tasks
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 functions:
   - name: getDefaultSizeIfNotProvided(TaskInfo)
-    uid: '@microsoft/teams-js.tasks.getDefaultSizeIfNotProvided'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.tasks.getDefaultSizeIfNotProvided'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
-      Sets the height and width of the <xref:@microsoft/teams-js.TaskInfo>
-      object to the original height and width, if initially specified,
+      Sets the height and width of the <xref:@microsoft/teams-js -
+      v2.5.0.TaskInfo> object to the original height and width, if initially
+      specified,
 
       otherwise uses the height and width values corresponding to [|
       TaskModuleDimension.Small](xref:TaskModuleDimension)
@@ -20,27 +21,27 @@ functions:
       content: 'function getDefaultSizeIfNotProvided(taskInfo: TaskInfo): TaskInfo'
       parameters:
         - id: taskInfo
-          type: <xref uid="@microsoft/teams-js.TaskInfo" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.TaskInfo" />'
           description: 'TaskInfo object from which to extract size info, if specified'
       return:
         description: TaskInfo with height and width specified
-        type: <xref uid="@microsoft/teams-js.TaskInfo" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.TaskInfo" />'
   - name: 'startTask(TaskInfo, (err: string, result: string | object) => void)'
-    uid: '@microsoft/teams-js.tasks.startTask'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.tasks.startTask'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [dialog.open(urlDialogInfo: UrlDialogInfo,
       submitHandler?: DialogSubmitHandler, messageFromChildHandler?:
-      PostMessageChannel): void](xref:@microsoft/teams-js.dialog.open) for url
-      based dialogs
+      PostMessageChannel): void](xref:@microsoft/teams-js - v2.5.0.dialog.open)
+      for url based dialogs
 
       and [dialog.bot.open(botUrlDialogInfo: BotUrlDialogInfo, submitHandler?:
       DialogSubmitHandler, messageFromChildHandler?: PostMessageChannel):
-      void](xref:@microsoft/teams-js.dialog.bot.open) for bot based dialogs. In
-      Teams,
+      void](xref:@microsoft/teams-js - v2.5.0.dialog.bot.open) for bot based
+      dialogs. In Teams,
 
       this function can be used for adaptive card based dialogs. Support for
       adaptive card based dialogs is coming to other hosts in the future.
@@ -53,7 +54,7 @@ functions:
         result: string | object) => void): IAppWindow
       parameters:
         - id: taskInfo
-          type: <xref uid="@microsoft/teams-js.TaskInfo" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.TaskInfo" />'
           description: An object containing the parameters of the task module
         - id: submitHandler
           type: '(err: string, result: string | object) =&gt; void'
@@ -61,15 +62,17 @@ functions:
             Handler to call when the task module is completed
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.IAppWindow" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.IAppWindow" />'
   - name: 'submitTask(string | object, string | string[])'
-    uid: '@microsoft/teams-js.tasks.submitTask'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.tasks.submitTask'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: |-
-      As of 2.0.0, please use <xref:@microsoft/teams-js.dialog.submit> instead.
+    customDeprecatedMessage: >-
+      As of 2.0.0, please use <xref:@microsoft/teams-js - v2.5.0.dialog.submit>
+      instead.
+
 
       Submit the task module.
     syntax:
@@ -91,14 +94,14 @@ functions:
             because a web app from a single underlying domain can power multiple
             apps across different environments and branding schemes.
   - name: updateTask(TaskInfo)
-    uid: '@microsoft/teams-js.tasks.updateTask'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.tasks.updateTask'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [dialog.update.resize(dimensions: DialogSize):
-      void](xref:@microsoft/teams-js.dialog.update.resize) instead.
+      void](xref:@microsoft/teams-js - v2.5.0.dialog.update.resize) instead.
 
 
       Update height/width task info properties.
@@ -106,6 +109,6 @@ functions:
       content: 'function updateTask(taskInfo: TaskInfo)'
       parameters:
         - id: taskInfo
-          type: <xref uid="@microsoft/teams-js.TaskInfo" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.TaskInfo" />'
           description: |
             An object containing width and height properties

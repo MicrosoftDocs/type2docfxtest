@@ -1,7 +1,7 @@
 ### YamlMime:TSEnum
 name: MediaControllerEvent
-uid: '@microsoft/teams-js.media.MediaControllerEvent'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.media.MediaControllerEvent'
+package: '@microsoft/teams-js - v2.5.0'
 summary: ''
 fullName: MediaControllerEvent
 remarks: ''
@@ -9,12 +9,12 @@ previewState: beta
 isDeprecated: false
 fields:
   - name: StartRecording
-    uid: '@microsoft/teams-js.media.MediaControllerEvent.StartRecording'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.MediaControllerEvent.StartRecording'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 1
   - name: StopRecording
-    uid: '@microsoft/teams-js.media.MediaControllerEvent.StopRecording'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.MediaControllerEvent.StopRecording'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     numericValue: 2

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ArmErrorResponse
-uid: '@azure/arm-advisor.ArmErrorResponse'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.ArmErrorResponse'
+package: '@azure/arm-advisor - v3.1.0'
 summary: ''
 fullName: ArmErrorResponse
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: error
-    uid: '@azure/arm-advisor.ArmErrorResponse.error'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.ArmErrorResponse.error'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: ARM error response body.
     fullName: error
     remarks: ''
@@ -19,4 +19,4 @@ properties:
       content: 'error?: ARMErrorResponseBody'
       return:
         description: ''
-        type: <xref uid="@azure/arm-advisor.ARMErrorResponseBody" />
+        type: '@azure/arm-advisor - <xref uid="v3.1.0.ARMErrorResponseBody" />'

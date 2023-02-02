@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: SuppressionsCreateResponse
-uid: '@azure/arm-advisor.SuppressionsCreateResponse'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.SuppressionsCreateResponse'
+package: '@azure/arm-advisor - v3.1.0'
 summary: Contains response data for the create operation.
 fullName: SuppressionsCreateResponse
 remarks: ''

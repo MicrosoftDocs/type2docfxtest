@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GatewayGenerateTokenResponse
-uid: '@azure/arm-apimanagement.GatewayGenerateTokenResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayGenerateTokenResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the generateToken operation.
 fullName: GatewayGenerateTokenResponse
 remarks: ''

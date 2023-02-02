@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ResourceSku
-uid: '@azure/arm-apimanagement.ResourceSku'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ResourceSku'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Describes an available API Management SKU.
 fullName: ResourceSku
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: name
-    uid: '@azure/arm-apimanagement.ResourceSku.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ResourceSku.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Name of the Sku.
     fullName: name
     remarks: ''
@@ -19,4 +19,4 @@ properties:
       content: 'name?: SkuType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SkuType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SkuType" />'

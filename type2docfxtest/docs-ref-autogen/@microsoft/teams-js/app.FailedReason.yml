@@ -1,21 +1,21 @@
 ### YamlMime:TSEnum
 name: FailedReason
-uid: '@microsoft/teams-js.app.FailedReason'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.app.FailedReason'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Describes errors that caused app initialization to fail
 fullName: FailedReason
 remarks: ''
 isDeprecated: false
 fields:
   - name: AuthFailed
-    uid: '@microsoft/teams-js.app.FailedReason.AuthFailed'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.FailedReason.AuthFailed'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Authentication failed
   - name: Other
-    uid: '@microsoft/teams-js.app.FailedReason.Other'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.FailedReason.Other'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The app failed for a different reason
   - name: Timeout
-    uid: '@microsoft/teams-js.app.FailedReason.Timeout'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.app.FailedReason.Timeout'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The application timed out

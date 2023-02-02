@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ConnectivityCheckRequestDestination
-uid: '@azure/arm-apimanagement.ConnectivityCheckRequestDestination'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckRequestDestination'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: The connectivity check operation destination.
 fullName: ConnectivityCheckRequestDestination
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: address
-    uid: '@azure/arm-apimanagement.ConnectivityCheckRequestDestination.address'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ConnectivityCheckRequestDestination.address
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Destination address. Can either be an IP address or a FQDN.
     fullName: address
     remarks: ''
@@ -21,8 +23,8 @@ properties:
         description: ''
         type: string
   - name: port
-    uid: '@azure/arm-apimanagement.ConnectivityCheckRequestDestination.port'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckRequestDestination.port'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Destination port.
     fullName: port
     remarks: ''

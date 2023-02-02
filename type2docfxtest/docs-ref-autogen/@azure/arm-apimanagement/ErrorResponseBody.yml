@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ErrorResponseBody
-uid: '@azure/arm-apimanagement.ErrorResponseBody'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ErrorResponseBody'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Error Body contract.
 fullName: ErrorResponseBody
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: code
-    uid: '@azure/arm-apimanagement.ErrorResponseBody.code'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ErrorResponseBody.code'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Service-defined error code. This code serves as a sub-status for the HTTP
       error code specified in the response.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: details
-    uid: '@azure/arm-apimanagement.ErrorResponseBody.details'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ErrorResponseBody.details'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'The list of invalid fields send in request, in case of validation error.'
     fullName: details
     remarks: ''
@@ -33,10 +33,10 @@ properties:
       content: 'details?: ErrorFieldContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ErrorFieldContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ErrorFieldContract" />[]'
   - name: message
-    uid: '@azure/arm-apimanagement.ErrorResponseBody.message'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ErrorResponseBody.message'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Human-readable representation of the error.
     fullName: message
     remarks: ''

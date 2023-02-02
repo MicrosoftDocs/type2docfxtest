@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: LoggerCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement.LoggerCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.LoggerCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for Logger_createOrUpdate operation.
 fullName: LoggerCreateOrUpdateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.LoggerCreateOrUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.LoggerCreateOrUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

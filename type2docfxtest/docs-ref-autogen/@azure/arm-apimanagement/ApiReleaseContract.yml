@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiReleaseContract
-uid: '@azure/arm-apimanagement.ApiReleaseContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: ApiRelease details.
 fullName: ApiReleaseContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiId
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.apiId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.apiId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Identifier of the API the release belongs to.
     fullName: apiId
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: createdDateTime
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.createdDateTime'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.createdDateTime'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The time the API was released. The date conforms to the following format:
       yyyy-MM-ddTHH:mm:ssZ as specified by the ISO 8601 standard.
@@ -38,8 +38,8 @@ properties:
         description: ''
         type: Date
   - name: notes
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.notes'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.notes'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Release Notes
     fullName: notes
     remarks: ''
@@ -50,8 +50,8 @@ properties:
         description: ''
         type: undefined | string
   - name: updatedDateTime
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.updatedDateTime'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.updatedDateTime'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The time the API release was updated.
 
@@ -67,8 +67,8 @@ properties:
         type: Date
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -84,11 +84,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -103,11 +103,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.ApiReleaseContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -123,6 +123,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

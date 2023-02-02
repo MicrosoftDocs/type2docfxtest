@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: HealthcareEntityRelationRoleType
-uid: '@azure/ai-text-analytics.HealthcareEntityRelationRoleType'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntityRelationRoleType'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The type of different roles a healthcare entity can play in a relation.
 fullName: HealthcareEntityRelationRoleType
 remarks: ''

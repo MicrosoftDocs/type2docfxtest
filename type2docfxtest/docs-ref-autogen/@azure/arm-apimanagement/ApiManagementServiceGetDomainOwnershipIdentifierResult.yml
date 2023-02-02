@@ -1,8 +1,9 @@
 ### YamlMime:TSType
 name: ApiManagementServiceGetDomainOwnershipIdentifierResult
 uid: >-
-  @azure/arm-apimanagement.ApiManagementServiceGetDomainOwnershipIdentifierResult
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceGetDomainOwnershipIdentifierResult
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Response of the GetDomainOwnershipIdentifier operation.
 fullName: ApiManagementServiceGetDomainOwnershipIdentifierResult
 remarks: ''
@@ -11,8 +12,9 @@ type: interface
 properties:
   - name: domainOwnershipIdentifier
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceGetDomainOwnershipIdentifierResult.domainOwnershipIdentifier
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceGetDomainOwnershipIdentifierResult.domainOwnershipIdentifier
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The domain ownership identifier value.
 

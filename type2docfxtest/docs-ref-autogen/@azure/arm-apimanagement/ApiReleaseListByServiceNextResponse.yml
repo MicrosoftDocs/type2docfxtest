@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiReleaseListByServiceNextResponse
-uid: '@azure/arm-apimanagement.ApiReleaseListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiReleaseListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: ApiReleaseListByServiceNextResponse
 remarks: ''

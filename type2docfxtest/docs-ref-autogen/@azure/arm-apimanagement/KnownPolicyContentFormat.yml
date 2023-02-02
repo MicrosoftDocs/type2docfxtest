@@ -1,33 +1,33 @@
 ### YamlMime:TSEnum
 name: KnownPolicyContentFormat
-uid: '@azure/arm-apimanagement.KnownPolicyContentFormat'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownPolicyContentFormat'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.PolicyContentFormat> that the
-  service accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.PolicyContentFormat>
+  that the service accepts.
 fullName: KnownPolicyContentFormat
 remarks: ''
 isDeprecated: false
 fields:
   - name: Rawxml
-    uid: '@azure/arm-apimanagement.KnownPolicyContentFormat.Rawxml'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPolicyContentFormat.Rawxml'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The contents are inline and Content type is a non XML encoded policy
       document.
   - name: RawxmlLink
-    uid: '@azure/arm-apimanagement.KnownPolicyContentFormat.RawxmlLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPolicyContentFormat.RawxmlLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The policy document is not Xml encoded and is hosted on a http endpoint
       accessible from the API Management service.
   - name: Xml
-    uid: '@azure/arm-apimanagement.KnownPolicyContentFormat.Xml'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPolicyContentFormat.Xml'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The contents are inline and Content type is an XML document.
   - name: XmlLink
-    uid: '@azure/arm-apimanagement.KnownPolicyContentFormat.XmlLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownPolicyContentFormat.XmlLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The policy XML document is hosted on a http endpoint accessible from the
       API Management service.

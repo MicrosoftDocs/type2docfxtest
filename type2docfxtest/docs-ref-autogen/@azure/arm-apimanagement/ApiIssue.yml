@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiIssue
-uid: '@azure/arm-apimanagement.ApiIssue'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a ApiIssue.
 fullName: ApiIssue
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string, IssueContract,
       ApiIssueCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssue.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Creates a new Issue for an API or updates an existing one.
     remarks: ''
     isDeprecated: false
@@ -40,25 +40,24 @@ methods:
             Issue identifier. Must be unique in the current API Management
             service instance.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.IssueContract" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.IssueContract" />'
           description: Create parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueCreateOrUpdateResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string, string,
       ApiIssueDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssue.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes the specified Issue from an API.
     remarks: ''
     isDeprecated: false
@@ -91,15 +90,17 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.ApiIssueDeleteOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, string, ApiIssueGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.ApiIssue.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the details of the Issue for an API specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -126,19 +127,21 @@ methods:
             Issue identifier. Must be unique in the current API Management
             service instance.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.ApiIssueGetOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiIssueGetResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       ApiIssueGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssue.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the Issue for an API specified by
       its identifier.
@@ -169,18 +172,18 @@ methods:
             service instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueGetEntityTagOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.ApiIssueGetEntityTagResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, string, ApiIssueListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement.ApiIssue.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists all issues associated with the specified API.
     remarks: ''
     isDeprecated: false
@@ -203,21 +206,20 @@ methods:
             instance.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiIssueListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.IssueContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.IssueContract" />&gt;
   - name: >-
       update(string, string, string, string, string, IssueUpdateContract,
       ApiIssueUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiIssue.update'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiIssue.update'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Updates an existing issue for an API.
     remarks: ''
     isDeprecated: false
@@ -251,14 +253,16 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.IssueUpdateContract" />
+          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.IssueUpdateContract" />'
           description: Update parameters.
         - id: options
-          type: <xref uid="@azure/arm-apimanagement.ApiIssueUpdateOptionalParams" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiIssueUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiIssueUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiIssueUpdateResponse" />&gt;

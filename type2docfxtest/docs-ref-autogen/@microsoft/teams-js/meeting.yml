@@ -1,28 +1,28 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.meeting'
+uid: '@microsoft/teams-js - v2.5.0.meeting'
 name: meeting
 summary: ''
 type: module
 enums:
-  - '@microsoft/teams-js.meeting.CallType'
-  - '@microsoft/teams-js.meeting.MeetingReactionType'
-  - '@microsoft/teams-js.meeting.MeetingType'
+  - '@microsoft/teams-js - v2.5.0.meeting.CallType'
+  - '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionType'
+  - '@microsoft/teams-js - v2.5.0.meeting.MeetingType'
 interfaces:
-  - '@microsoft/teams-js.meeting.IAppContentStageSharingCapabilities'
-  - '@microsoft/teams-js.meeting.IAppContentStageSharingState'
-  - '@microsoft/teams-js.meeting.IRaiseHandState'
-  - '@microsoft/teams-js.meeting.ISpeakingState'
-  - '@microsoft/teams-js.meeting.LiveStreamState'
-  - '@microsoft/teams-js.meeting.MeetingReactionReceivedEventData'
-  - '@microsoft/teams-js.meeting.RaiseHandStateChangedEventData'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.meeting.IAppContentStageSharingCapabilities'
+  - '@microsoft/teams-js - v2.5.0.meeting.IAppContentStageSharingState'
+  - '@microsoft/teams-js - v2.5.0.meeting.IRaiseHandState'
+  - '@microsoft/teams-js - v2.5.0.meeting.ISpeakingState'
+  - '@microsoft/teams-js - v2.5.0.meeting.LiveStreamState'
+  - '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionReceivedEventData'
+  - '@microsoft/teams-js - v2.5.0.meeting.RaiseHandStateChangedEventData'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: >-
       getAppContentStageSharingCapabilities((error: SdkError | null,
       appContentStageSharingCapabilities: IAppContentStageSharingCapabilities |
       null) => void)
-    uid: '@microsoft/teams-js.meeting.getAppContentStageSharingCapabilities'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.getAppContentStageSharingCapabilities'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Provides information related app's in-meeting sharing capabilities
     remarks: ''
     isDeprecated: false
@@ -50,8 +50,8 @@ functions:
   - name: >-
       getAppContentStageSharingState((error: SdkError | null,
       appContentStageSharingState: IAppContentStageSharingState | null) => void)
-    uid: '@microsoft/teams-js.meeting.getAppContentStageSharingState'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.getAppContentStageSharingState'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Provides information related to current stage sharing state for app
     remarks: ''
     isDeprecated: false
@@ -79,8 +79,8 @@ functions:
   - name: >-
       getIncomingClientAudioState((error: SdkError | null, result: boolean |
       null) => void)
-    uid: '@microsoft/teams-js.meeting.getIncomingClientAudioState'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.getIncomingClientAudioState'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Allows an app to get the incoming audio speaker setting for the meeting
       user
@@ -108,8 +108,8 @@ functions:
   - name: >-
       getLiveStreamState((error: SdkError | null, liveStreamState:
       LiveStreamState | null) => void)
-    uid: '@microsoft/teams-js.meeting.getLiveStreamState'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.getLiveStreamState'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Allows an app to get the state of the live stream in the current meeting
     remarks: ''
     isDeprecated: false
@@ -133,8 +133,8 @@ functions:
   - name: >-
       registerLiveStreamChangedHandler((liveStreamState: LiveStreamState) =>
       void)
-    uid: '@microsoft/teams-js.meeting.registerLiveStreamChangedHandler'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.registerLiveStreamChangedHandler'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Registers a handler for changes to the live stream.
     remarks: >-
       Only one handler can be registered at a time. A subsequent registration
@@ -152,8 +152,10 @@ functions:
   - name: >-
       registerMeetingReactionReceivedHandler((eventData:
       MeetingReactionReceivedEventData) => void)
-    uid: '@microsoft/teams-js.meeting.registerMeetingReactionReceivedHandler'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.meeting.registerMeetingReactionReceivedHandler
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for receiving meeting reactions. When the
       selfParticipant (current user) successfully sends a meeting reaction and
@@ -177,15 +179,15 @@ functions:
   - name: >-
       registerRaiseHandStateChangedHandler((eventData:
       RaiseHandStateChangedEventData) => void)
-    uid: '@microsoft/teams-js.meeting.registerRaiseHandStateChangedHandler'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.registerRaiseHandStateChangedHandler'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for changes to the selfParticipant's (current user's)
       raiseHandState. If the selfParticipant raises their hand, isHandRaised
 
       will be true. By default and if the selfParticipant hand is lowered,
-      isHandRaised will be false. This API will return
-      <xref:@microsoft/teams-js.meeting.RaiseHandStateChangedEventData>
+      isHandRaised will be false. This API will return <xref:@microsoft/teams-js
+      - v2.5.0.meeting.RaiseHandStateChangedEventData>
 
       that will have the raiseHandState or an error object. Only one handler can
       be registered at a time. A subsequent registration
@@ -207,12 +209,12 @@ functions:
   - name: >-
       registerSpeakingStateChangeHandler((speakingState: ISpeakingState) =>
       void)
-    uid: '@microsoft/teams-js.meeting.registerSpeakingStateChangeHandler'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.registerSpeakingStateChangeHandler'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Registers a handler for changes to paticipant speaking states. This API
-      returns <xref:@microsoft/teams-js.meeting.ISpeakingState>, which will have
-      isSpeakingDetected
+      returns <xref:@microsoft/teams-js - v2.5.0.meeting.ISpeakingState>, which
+      will have isSpeakingDetected
 
       and/or an error object. If any participant is speaking, isSpeakingDetected
       will be true. If no participants are speaking, isSpeakingDetected
@@ -234,8 +236,8 @@ functions:
   - name: >-
       requestStartLiveStreaming((error: SdkError | null) => void, string,
       string)
-    uid: '@microsoft/teams-js.meeting.requestStartLiveStreaming'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.requestStartLiveStreaming'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Allows an app to request the live streaming be started at the given
       streaming url
@@ -260,8 +262,8 @@ functions:
           type: string
           description: the key to the stream resource
   - name: 'requestStopLiveStreaming((error: SdkError | null) => void)'
-    uid: '@microsoft/teams-js.meeting.requestStopLiveStreaming'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.requestStopLiveStreaming'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Allows an app to request the live streaming be stopped at the given
       streaming url
@@ -282,8 +284,8 @@ functions:
   - name: >-
       shareAppContentToStage((error: SdkError | null, result: boolean | null) =>
       void, string)
-    uid: '@microsoft/teams-js.meeting.shareAppContentToStage'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.shareAppContentToStage'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Allows an app to share contents in the meeting
     remarks: ''
     isDeprecated: false
@@ -309,8 +311,8 @@ functions:
   - name: >-
       toggleIncomingClientAudio((error: SdkError | null, result: boolean | null)
       => void)
-    uid: '@microsoft/teams-js.meeting.toggleIncomingClientAudio'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.meeting.toggleIncomingClientAudio'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Allows an app to toggle the incoming audio speaker setting for the meeting
       user from mute to unmute or vice-versa

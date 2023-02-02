@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: RecognizeLinkedEntitiesActionErrorResult
-uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionErrorResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.RecognizeLinkedEntitiesActionErrorResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The error of a recognize linked entities action.
 fullName: RecognizeLinkedEntitiesActionErrorResult
 remarks: ''

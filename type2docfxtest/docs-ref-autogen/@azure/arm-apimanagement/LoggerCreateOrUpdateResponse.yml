@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: LoggerCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement.LoggerCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.LoggerCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the createOrUpdate operation.
 fullName: LoggerCreateOrUpdateResponse
 remarks: ''

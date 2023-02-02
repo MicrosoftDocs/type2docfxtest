@@ -1,8 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceGetDomainOwnershipIdentifierResponse
 uid: >-
-  @azure/arm-apimanagement.ApiManagementServiceGetDomainOwnershipIdentifierResponse
-package: '@azure/arm-apimanagement'
+  @azure/arm-apimanagement -
+  v8.1.2.ApiManagementServiceGetDomainOwnershipIdentifierResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the getDomainOwnershipIdentifier operation.
 fullName: ApiManagementServiceGetDomainOwnershipIdentifierResponse
 remarks: ''

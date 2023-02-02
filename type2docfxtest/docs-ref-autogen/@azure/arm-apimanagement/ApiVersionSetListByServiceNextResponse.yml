@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiVersionSetListByServiceNextResponse
-uid: '@azure/arm-apimanagement.ApiVersionSetListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: ApiVersionSetListByServiceNextResponse
 remarks: ''

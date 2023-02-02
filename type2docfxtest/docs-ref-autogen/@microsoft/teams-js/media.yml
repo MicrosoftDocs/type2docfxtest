@@ -1,37 +1,37 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.media'
+uid: '@microsoft/teams-js - v2.5.0.media'
 name: media
 summary: ''
 type: module
 interfaces:
-  - '@microsoft/teams-js.media.AssembleAttachment'
-  - '@microsoft/teams-js.media.AudioProps'
-  - '@microsoft/teams-js.media.BarCodeConfig'
-  - '@microsoft/teams-js.media.ImageProps'
-  - '@microsoft/teams-js.media.ImageUri'
-  - '@microsoft/teams-js.media.MediaChunk'
-  - '@microsoft/teams-js.media.MediaInputs'
-  - '@microsoft/teams-js.media.MediaResult'
-  - '@microsoft/teams-js.media.VideoAndImageProps'
-  - '@microsoft/teams-js.media.VideoControllerCallback'
-  - '@microsoft/teams-js.media.VideoProps'
+  - '@microsoft/teams-js - v2.5.0.media.AssembleAttachment'
+  - '@microsoft/teams-js - v2.5.0.media.AudioProps'
+  - '@microsoft/teams-js - v2.5.0.media.BarCodeConfig'
+  - '@microsoft/teams-js - v2.5.0.media.ImageProps'
+  - '@microsoft/teams-js - v2.5.0.media.ImageUri'
+  - '@microsoft/teams-js - v2.5.0.media.MediaChunk'
+  - '@microsoft/teams-js - v2.5.0.media.MediaInputs'
+  - '@microsoft/teams-js - v2.5.0.media.MediaResult'
+  - '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps'
+  - '@microsoft/teams-js - v2.5.0.media.VideoControllerCallback'
+  - '@microsoft/teams-js - v2.5.0.media.VideoProps'
 enums:
-  - '@microsoft/teams-js.media.CameraStartMode'
-  - '@microsoft/teams-js.media.FileFormat'
-  - '@microsoft/teams-js.media.ImageOutputFormats'
-  - '@microsoft/teams-js.media.ImageUriType'
-  - '@microsoft/teams-js.media.MediaControllerEvent'
-  - '@microsoft/teams-js.media.MediaType'
-  - '@microsoft/teams-js.media.Source'
+  - '@microsoft/teams-js - v2.5.0.media.CameraStartMode'
+  - '@microsoft/teams-js - v2.5.0.media.FileFormat'
+  - '@microsoft/teams-js - v2.5.0.media.ImageOutputFormats'
+  - '@microsoft/teams-js - v2.5.0.media.ImageUriType'
+  - '@microsoft/teams-js - v2.5.0.media.MediaControllerEvent'
+  - '@microsoft/teams-js - v2.5.0.media.MediaType'
+  - '@microsoft/teams-js - v2.5.0.media.Source'
 classes:
-  - '@microsoft/teams-js.media.File'
-  - '@microsoft/teams-js.media.Media'
-  - '@microsoft/teams-js.media.VideoController'
-package: '@microsoft/teams-js'
+  - '@microsoft/teams-js - v2.5.0.media.File'
+  - '@microsoft/teams-js - v2.5.0.media.Media'
+  - '@microsoft/teams-js - v2.5.0.media.VideoController'
+package: '@microsoft/teams-js - v2.5.0'
 functions:
   - name: 'captureImage((error: SdkError, files: File[]) => void)'
-    uid: '@microsoft/teams-js.media.captureImage'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.captureImage'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Launch camera, capture image or choose image from gallery and return the
       images as a File[] object to the callback.
@@ -51,8 +51,8 @@ functions:
           type: '(error: SdkError, files: File[]) =&gt; void'
           description: ''
   - name: 'scanBarCode((error: SdkError, decodedText: string) => void, BarCodeConfig)'
-    uid: '@microsoft/teams-js.media.scanBarCode'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.scanBarCode'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     remarks: >-
       Note: For desktop and web, this API is not supported. Callback will be
@@ -60,7 +60,8 @@ functions:
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.1.0, please use [barCode.scanBarCode(config?: BarCodeConfig):
-      Promise\<string\>](xref:@microsoft/teams-js.barCode.scanBarCode) instead.
+      Promise\<string\>](xref:@microsoft/teams-js - v2.5.0.barCode.scanBarCode)
+      instead.
 
 
       Scan Barcode/QRcode using camera
@@ -73,13 +74,13 @@ functions:
           type: '(error: SdkError, decodedText: string) =&gt; void'
           description: callback to invoke after scanning the barcode
         - id: config
-          type: <xref uid="@microsoft/teams-js.media.BarCodeConfig" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.media.BarCodeConfig" />'
           description: >
             optional input configuration to customize the barcode scanning
             experience
   - name: 'selectMedia(MediaInputs, (error: SdkError, attachments: Media[]) => void)'
-    uid: '@microsoft/teams-js.media.selectMedia'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.selectMedia'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Select an attachment using camera/gallery
     remarks: ''
     isDeprecated: false
@@ -89,15 +90,15 @@ functions:
         SdkError, attachments: Media[]) => void)
       parameters:
         - id: mediaInputs
-          type: <xref uid="@microsoft/teams-js.media.MediaInputs" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.media.MediaInputs" />'
           description: The input params to customize the media to be selected
         - id: callback
           type: '(error: SdkError, attachments: Media[]) =&gt; void'
           description: |
             The callback to invoke after fetching the media
   - name: 'viewImages(ImageUri[], (error?: SdkError) => void)'
-    uid: '@microsoft/teams-js.media.viewImages'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.media.viewImages'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: View images using native image viewer
     remarks: ''
     isDeprecated: false
@@ -107,7 +108,7 @@ functions:
         void)
       parameters:
         - id: uriList
-          type: '<xref uid="@microsoft/teams-js.media.ImageUri" />[]'
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.media.ImageUri" />[]'
           description: >-
             list of URIs for images to be viewed - can be content URI or server
             URL. Supports up to 10 Images in a single call

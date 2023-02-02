@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayApiCreateOrUpdateOptionalParams
-uid: '@azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayApiCreateOrUpdateOptionalParams'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Optional parameters.
 fullName: GatewayApiCreateOrUpdateOptionalParams
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: parameters
-    uid: '@azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams.parameters'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayApiCreateOrUpdateOptionalParams.parameters
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Association entity details.
     fullName: parameters
     remarks: ''
@@ -19,12 +21,13 @@ properties:
       content: 'parameters?: AssociationContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AssociationContract" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AssociationContract" />'
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayApiCreateOrUpdateOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -36,8 +39,10 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams.onResponse'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayApiCreateOrUpdateOptionalParams.onResponse
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -53,8 +58,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayApiCreateOrUpdateOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -67,8 +73,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayApiCreateOrUpdateOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -81,8 +88,9 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement.GatewayApiCreateOrUpdateOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.GatewayApiCreateOrUpdateOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

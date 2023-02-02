@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NamedValueCreateContract
-uid: '@azure/arm-apimanagement.NamedValueCreateContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: NamedValue details.
 fullName: NamedValueCreateContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: displayName
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.displayName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Unique name of NamedValue. It may contain only letters, digits, period,
       dash, and underscore characters.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: keyVault
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.keyVault'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.keyVault'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: KeyVault location details of the namedValue.
     fullName: keyVault
     remarks: ''
@@ -34,11 +34,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref uid="@azure/arm-apimanagement.KeyVaultContractCreateProperties"
-          />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.KeyVaultContractCreateProperties" />
   - name: secret
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.secret'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.secret'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Determines whether the value is a secret and should be encrypted or not.
       Default value is false.
@@ -51,8 +51,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: tags
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.tags'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.tags'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Optional tags that when provided can be used to filter the NamedValue
       list.
@@ -65,8 +65,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: value
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Value of the NamedValue. Can contain policy expressions. It may not be
       empty or consist only of whitespace. This property will not be filled on
@@ -81,8 +81,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -98,11 +98,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -117,11 +117,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.NamedValueCreateContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCreateContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -137,6 +137,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

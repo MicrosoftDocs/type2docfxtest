@@ -1,23 +1,23 @@
 ### YamlMime:TSEnum
 name: KnownOrigin
-uid: '@azure/arm-apimanagement.KnownOrigin'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownOrigin'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.Origin> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.Origin> that the
+  service accepts.
 fullName: KnownOrigin
 remarks: ''
 isDeprecated: false
 fields:
   - name: Inbound
-    uid: '@azure/arm-apimanagement.KnownOrigin.Inbound'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownOrigin.Inbound'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Inbound
   - name: Local
-    uid: '@azure/arm-apimanagement.KnownOrigin.Local'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownOrigin.Local'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Local
   - name: Outbound
-    uid: '@azure/arm-apimanagement.KnownOrigin.Outbound'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownOrigin.Outbound'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Outbound

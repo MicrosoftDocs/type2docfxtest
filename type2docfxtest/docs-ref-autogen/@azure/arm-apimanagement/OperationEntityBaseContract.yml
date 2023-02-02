@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationEntityBaseContract
-uid: '@azure/arm-apimanagement.OperationEntityBaseContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.OperationEntityBaseContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: API Operation Entity Base Contract details.
 fullName: OperationEntityBaseContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement.OperationEntityBaseContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationEntityBaseContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the operation. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: policies
-    uid: '@azure/arm-apimanagement.OperationEntityBaseContract.policies'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationEntityBaseContract.policies'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Operation Policies
     fullName: policies
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: request
-    uid: '@azure/arm-apimanagement.OperationEntityBaseContract.request'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationEntityBaseContract.request'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: An entity containing request details.
     fullName: request
     remarks: ''
@@ -43,10 +43,10 @@ properties:
       content: 'request?: RequestContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.RequestContract" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.RequestContract" />'
   - name: responses
-    uid: '@azure/arm-apimanagement.OperationEntityBaseContract.responses'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.OperationEntityBaseContract.responses'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Array of Operation responses.
     fullName: responses
     remarks: ''
@@ -55,10 +55,12 @@ properties:
       content: 'responses?: ResponseContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ResponseContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ResponseContract" />[]'
   - name: templateParameters
-    uid: '@azure/arm-apimanagement.OperationEntityBaseContract.templateParameters'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.OperationEntityBaseContract.templateParameters
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Collection of URL template parameters.
     fullName: templateParameters
     remarks: ''
@@ -67,4 +69,4 @@ properties:
       content: 'templateParameters?: ParameterContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ParameterContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ParameterContract" />[]'

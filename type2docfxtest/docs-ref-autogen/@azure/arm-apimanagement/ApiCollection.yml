@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiCollection
-uid: '@azure/arm-apimanagement.ApiCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged API list representation.
 fullName: ApiCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.ApiCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement.ApiCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Next page link if any.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.ApiCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Page values.
 
@@ -51,4 +51,4 @@ properties:
       content: 'value?: ApiContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ApiContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiContract" />[]'

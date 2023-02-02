@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: EmailTemplateContract
-uid: '@azure/arm-apimanagement.EmailTemplateContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Email Template details.
 fullName: EmailTemplateContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: body
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.body'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.body'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Email Template Body. This should be a valid XDocument
     fullName: body
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: description
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the Email Template.
     fullName: description
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: isDefault
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.isDefault'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.isDefault'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Whether the template is the default template provided by API Management or
       has been edited.
@@ -50,8 +50,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: parameters
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.parameters'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.parameters'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Email Template Parameter values.
     fullName: parameters
     remarks: ''
@@ -61,12 +61,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.EmailTemplateParametersContractProperties"
-          />[]
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.EmailTemplateParametersContractProperties" />[]
   - name: subject
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.subject'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.subject'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Subject of the Template.
     fullName: subject
     remarks: ''
@@ -77,8 +76,8 @@ properties:
         description: ''
         type: undefined | string
   - name: title
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.title'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.title'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Title of the Template.
     fullName: title
     remarks: ''
@@ -90,8 +89,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -107,11 +106,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
+      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.name'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.name'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The name of the resource
 
@@ -126,11 +125,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
+      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement.EmailTemplateContract.type'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateContract.type'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -146,6 +145,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
-extends: <xref uid="@azure/arm-apimanagement.Resource" />
+      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
+      v8.1.2.Resource.type)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserIdentityContract
-uid: '@azure/arm-apimanagement.UserIdentityContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.UserIdentityContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: User identity details.
 fullName: UserIdentityContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: id
-    uid: '@azure/arm-apimanagement.UserIdentityContract.id'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserIdentityContract.id'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Identifier value within provider.
     fullName: id
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: provider
-    uid: '@azure/arm-apimanagement.UserIdentityContract.provider'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.UserIdentityContract.provider'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Identity provider name.
     fullName: provider
     remarks: ''

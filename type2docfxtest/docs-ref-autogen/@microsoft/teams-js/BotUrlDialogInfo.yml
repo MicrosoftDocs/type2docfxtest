@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BotUrlDialogInfo
-uid: '@microsoft/teams-js.BotUrlDialogInfo'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.BotUrlDialogInfo'
+package: '@microsoft/teams-js - v2.5.0'
 summary: >-
   Data structure to describe dialog information needed to open a bot based
   dialog.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: completionBotId
-    uid: '@microsoft/teams-js.BotUrlDialogInfo.completionBotId'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.BotUrlDialogInfo.completionBotId'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       Specifies a bot ID to send the result of the user's interaction with the
       task module.
@@ -30,8 +30,8 @@ properties:
         type: string
 inheritedProperties:
   - name: fallbackUrl
-    uid: '@microsoft/teams-js.BotUrlDialogInfo.fallbackUrl'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.BotUrlDialogInfo.fallbackUrl'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: >-
       If client doesnt support the URL, the URL that needs to be opened in the
       browser.
@@ -44,11 +44,11 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [UrlDialogInfo.fallbackUrl](xref:@microsoft/teams-js.UrlDialogInfo.fallbackUrl)
+      <b>Inherited From</b> [UrlDialogInfo.fallbackUrl](xref:@microsoft/teams-js
+      - v2.5.0.UrlDialogInfo.fallbackUrl)
   - name: size
-    uid: '@microsoft/teams-js.BotUrlDialogInfo.size'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.BotUrlDialogInfo.size'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: ''
     fullName: size
     remarks: ''
@@ -57,13 +57,13 @@ inheritedProperties:
       content: 'size: DialogSize'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.DialogSize" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.DialogSize" />'
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [UrlDialogInfo.size](xref:@microsoft/teams-js.UrlDialogInfo.size)
+      <b>Inherited From</b> [UrlDialogInfo.size](xref:@microsoft/teams-js -
+      v2.5.0.UrlDialogInfo.size)
   - name: title
-    uid: '@microsoft/teams-js.BotUrlDialogInfo.title'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.BotUrlDialogInfo.title'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Title of the task module.
     fullName: title
     remarks: ''
@@ -74,11 +74,11 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [UrlDialogInfo.title](xref:@microsoft/teams-js.UrlDialogInfo.title)
+      <b>Inherited From</b> [UrlDialogInfo.title](xref:@microsoft/teams-js -
+      v2.5.0.UrlDialogInfo.title)
   - name: url
-    uid: '@microsoft/teams-js.BotUrlDialogInfo.url'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.BotUrlDialogInfo.url'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: The url to be rendered in the webview/iframe.
     fullName: url
     remarks: |-
@@ -91,6 +91,6 @@ inheritedProperties:
         description: ''
         type: string
     inheritanceDescription: >-
-      <b>Inherited From</b>
-      [UrlDialogInfo.url](xref:@microsoft/teams-js.UrlDialogInfo.url)
-extends: <xref uid="@microsoft/teams-js.UrlDialogInfo" />
+      <b>Inherited From</b> [UrlDialogInfo.url](xref:@microsoft/teams-js -
+      v2.5.0.UrlDialogInfo.url)
+extends: '@microsoft/teams-js - <xref uid="v2.5.0.UrlDialogInfo" />'

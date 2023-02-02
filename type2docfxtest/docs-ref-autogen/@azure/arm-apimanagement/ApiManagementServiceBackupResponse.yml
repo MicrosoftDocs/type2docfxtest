@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceBackupResponse
-uid: '@azure/arm-apimanagement.ApiManagementServiceBackupResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceBackupResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the backup operation.
 fullName: ApiManagementServiceBackupResponse
 remarks: ''

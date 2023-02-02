@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GatewayListByServiceNextResponse
-uid: '@azure/arm-apimanagement.GatewayListByServiceNextResponse'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.GatewayListByServiceNextResponse'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listByServiceNext operation.
 fullName: GatewayListByServiceNextResponse
 remarks: ''

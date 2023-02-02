@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SuppressionsListNextOptionalParams
-uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.SuppressionsListNextOptionalParams'
+package: '@azure/arm-advisor - v3.1.0'
 summary: Optional parameters.
 fullName: SuppressionsListNextOptionalParams
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: skipToken
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.skipToken'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.SuppressionsListNextOptionalParams.skipToken'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: The page-continuation token to use with a paged version of this API.
     fullName: skipToken
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: top
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.top'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.SuppressionsListNextOptionalParams.top'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: >-
       The number of suppressions per page if a paged version of this API is
       being used.
@@ -36,8 +36,8 @@ properties:
         type: undefined | number
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.abortSignal'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.SuppressionsListNextOptionalParams.abortSignal'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -49,8 +49,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.onResponse'
-    package: '@azure/arm-advisor'
+    uid: '@azure/arm-advisor - v3.1.0.SuppressionsListNextOptionalParams.onResponse'
+    package: '@azure/arm-advisor - v3.1.0'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -65,8 +65,10 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.requestOptions'
-    package: '@azure/arm-advisor'
+    uid: >-
+      @azure/arm-advisor -
+      v3.1.0.SuppressionsListNextOptionalParams.requestOptions
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -78,8 +80,10 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.serializerOptions'
-    package: '@azure/arm-advisor'
+    uid: >-
+      @azure/arm-advisor -
+      v3.1.0.SuppressionsListNextOptionalParams.serializerOptions
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -91,8 +95,10 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: '@azure/arm-advisor.SuppressionsListNextOptionalParams.tracingOptions'
-    package: '@azure/arm-advisor'
+    uid: >-
+      @azure/arm-advisor -
+      v3.1.0.SuppressionsListNextOptionalParams.tracingOptions
+    package: '@azure/arm-advisor - v3.1.0'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

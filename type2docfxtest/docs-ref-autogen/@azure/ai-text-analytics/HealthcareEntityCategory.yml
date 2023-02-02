@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: HealthcareEntityCategory
-uid: '@azure/ai-text-analytics.HealthcareEntityCategory'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntityCategory'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
   Defines values for HealthcareEntityCategory. \
 
-  <xref:@azure/ai-text-analytics.KnownHealthcareEntityCategory> can be used
-  interchangeably with HealthcareEntityCategory,
+  <xref:@azure/ai-text-analytics - v5.1.0.KnownHealthcareEntityCategory> can be
+  used interchangeably with HealthcareEntityCategory,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

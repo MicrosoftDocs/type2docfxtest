@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementServiceBackupRestoreParameters
-uid: '@azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceBackupRestoreParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Parameters supplied to the Backup/Restore of an API Management service
   operation.
@@ -12,8 +12,9 @@ type: interface
 properties:
   - name: accessKey
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters.accessKey
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceBackupRestoreParameters.accessKey
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Storage account access key. Required only if `accessType` is set to
       `AccessKey`.
@@ -27,8 +28,9 @@ properties:
         type: undefined | string
   - name: accessType
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters.accessType
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceBackupRestoreParameters.accessType
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The type of access to be used for the storage account.
     fullName: accessType
     remarks: ''
@@ -37,11 +39,12 @@ properties:
       content: 'accessType?: AccessType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AccessType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessType" />'
   - name: backupName
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters.backupName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceBackupRestoreParameters.backupName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The name of the backup file to create/retrieve.
     fullName: backupName
     remarks: ''
@@ -53,8 +56,9 @@ properties:
         type: string
   - name: clientId
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters.clientId
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceBackupRestoreParameters.clientId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       The Client ID of user assigned managed identity. Required only if
       `accessType` is set to `UserAssignedManagedIdentity`.
@@ -68,8 +72,9 @@ properties:
         type: undefined | string
   - name: containerName
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters.containerName
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceBackupRestoreParameters.containerName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The name of the blob container (used to place/retrieve the backup).
     fullName: containerName
     remarks: ''
@@ -81,8 +86,9 @@ properties:
         type: string
   - name: storageAccount
     uid: >-
-      @azure/arm-apimanagement.ApiManagementServiceBackupRestoreParameters.storageAccount
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementServiceBackupRestoreParameters.storageAccount
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The name of the Azure storage account (used to place/retrieve the backup).
     fullName: storageAccount
     remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: KeyVaultContractCreateProperties
-uid: '@azure/arm-apimanagement.KeyVaultContractCreateProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KeyVaultContractCreateProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Create keyVault contract details.
 fullName: KeyVaultContractCreateProperties
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: identityClientId
-    uid: '@azure/arm-apimanagement.KeyVaultContractCreateProperties.identityClientId'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KeyVaultContractCreateProperties.identityClientId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       SystemAssignedIdentity or UserAssignedIdentity Client Id which will be
       used to access key vault secret.
@@ -23,8 +25,10 @@ properties:
         description: ''
         type: undefined | string
   - name: secretIdentifier
-    uid: '@azure/arm-apimanagement.KeyVaultContractCreateProperties.secretIdentifier'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KeyVaultContractCreateProperties.secretIdentifier
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Key vault secret identifier for fetching secret. Providing a versioned
       secret will prevent auto-refresh. This requires API Management service to

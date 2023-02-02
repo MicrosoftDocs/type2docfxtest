@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: SuppressionsListNextResponse
-uid: '@azure/arm-advisor.SuppressionsListNextResponse'
-package: '@azure/arm-advisor'
+uid: '@azure/arm-advisor - v3.1.0.SuppressionsListNextResponse'
+package: '@azure/arm-advisor - v3.1.0'
 summary: Contains response data for the listNext operation.
 fullName: SuppressionsListNextResponse
 remarks: ''

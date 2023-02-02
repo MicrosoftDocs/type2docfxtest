@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementClient
-uid: '@azure/arm-apimanagement.ApiManagementClient'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: ''
 fullName: ApiManagementClient
 remarks: ''
@@ -11,8 +11,8 @@ constructors:
   - name: >-
       ApiManagementClient(TokenCredential, string,
       ApiManagementClientOptionalParams)
-    uid: '@azure/arm-apimanagement.ApiManagementClient.constructor'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.constructor'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Initializes a new instance of the ApiManagementClient class.
     remarks: ''
     isDeprecated: false
@@ -34,14 +34,14 @@ constructors:
                                   The subscription ID forms part of the URI for every service call.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.ApiManagementClientOptionalParams" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ApiManagementClientOptionalParams" />
           description: |
             The parameter options
 properties:
   - name: $host
-    uid: '@azure/arm-apimanagement.ApiManagementClient.$host'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.$host'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: $host
     remarks: ''
@@ -52,8 +52,8 @@ properties:
         description: ''
         type: string
   - name: api
-    uid: '@azure/arm-apimanagement.ApiManagementClient.api'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.api'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: api
     remarks: ''
@@ -62,10 +62,10 @@ properties:
       content: 'api: Api'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Api" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Api" />'
   - name: apiDiagnostic
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiDiagnostic'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiDiagnostic'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiDiagnostic
     remarks: ''
@@ -74,10 +74,10 @@ properties:
       content: 'apiDiagnostic: ApiDiagnostic'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiDiagnostic" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiDiagnostic" />'
   - name: apiExport
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiExport'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiExport'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiExport
     remarks: ''
@@ -86,10 +86,10 @@ properties:
       content: 'apiExport: ApiExport'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiExport" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiExport" />'
   - name: apiIssue
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiIssue'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiIssue'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiIssue
     remarks: ''
@@ -98,10 +98,10 @@ properties:
       content: 'apiIssue: ApiIssue'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiIssue" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiIssue" />'
   - name: apiIssueAttachment
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiIssueAttachment'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiIssueAttachment'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiIssueAttachment
     remarks: ''
@@ -110,10 +110,10 @@ properties:
       content: 'apiIssueAttachment: ApiIssueAttachment'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiIssueAttachment" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiIssueAttachment" />'
   - name: apiIssueComment
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiIssueComment'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiIssueComment'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiIssueComment
     remarks: ''
@@ -122,10 +122,12 @@ properties:
       content: 'apiIssueComment: ApiIssueComment'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiIssueComment" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiIssueComment" />'
   - name: apiManagementOperations
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiManagementOperations'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.apiManagementOperations
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiManagementOperations
     remarks: ''
@@ -134,10 +136,12 @@ properties:
       content: 'apiManagementOperations: ApiManagementOperations'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiManagementOperations" />
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementOperations"
+          />
   - name: apiManagementService
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiManagementService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiManagementService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiManagementService
     remarks: ''
@@ -146,10 +150,12 @@ properties:
       content: 'apiManagementService: ApiManagementService'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiManagementService" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementService" />'
   - name: apiManagementServiceSkus
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiManagementServiceSkus'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.apiManagementServiceSkus
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiManagementServiceSkus
     remarks: ''
@@ -158,10 +164,12 @@ properties:
       content: 'apiManagementServiceSkus: ApiManagementServiceSkus'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiManagementServiceSkus" />
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementServiceSkus"
+          />
   - name: apiManagementSkus
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiManagementSkus'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiManagementSkus'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiManagementSkus
     remarks: ''
@@ -170,10 +178,10 @@ properties:
       content: 'apiManagementSkus: ApiManagementSkus'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiManagementSkus" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementSkus" />'
   - name: apiOperation
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiOperation'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiOperation'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiOperation
     remarks: ''
@@ -182,10 +190,10 @@ properties:
       content: 'apiOperation: ApiOperation'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiOperation" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiOperation" />'
   - name: apiOperationPolicy
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiOperationPolicy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiOperationPolicy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiOperationPolicy
     remarks: ''
@@ -194,10 +202,10 @@ properties:
       content: 'apiOperationPolicy: ApiOperationPolicy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiOperationPolicy" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiOperationPolicy" />'
   - name: apiPolicy
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiPolicy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiPolicy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiPolicy
     remarks: ''
@@ -206,10 +214,10 @@ properties:
       content: 'apiPolicy: ApiPolicy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiPolicy" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiPolicy" />'
   - name: apiProduct
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiProduct'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiProduct'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiProduct
     remarks: ''
@@ -218,10 +226,10 @@ properties:
       content: 'apiProduct: ApiProduct'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiProduct" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiProduct" />'
   - name: apiRelease
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiRelease'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiRelease'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiRelease
     remarks: ''
@@ -230,10 +238,10 @@ properties:
       content: 'apiRelease: ApiRelease'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiRelease" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiRelease" />'
   - name: apiRevision
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiRevision'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiRevision'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiRevision
     remarks: ''
@@ -242,10 +250,10 @@ properties:
       content: 'apiRevision: ApiRevision'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiRevision" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiRevision" />'
   - name: apiSchema
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiSchema'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiSchema'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiSchema
     remarks: ''
@@ -254,10 +262,10 @@ properties:
       content: 'apiSchema: ApiSchema'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiSchema" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiSchema" />'
   - name: apiTagDescription
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiTagDescription'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiTagDescription'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiTagDescription
     remarks: ''
@@ -266,10 +274,10 @@ properties:
       content: 'apiTagDescription: ApiTagDescription'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiTagDescription" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiTagDescription" />'
   - name: apiVersion
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiVersion'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiVersion'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiVersion
     remarks: ''
@@ -280,8 +288,8 @@ properties:
         description: ''
         type: string
   - name: apiVersionSet
-    uid: '@azure/arm-apimanagement.ApiManagementClient.apiVersionSet'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.apiVersionSet'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: apiVersionSet
     remarks: ''
@@ -290,10 +298,10 @@ properties:
       content: 'apiVersionSet: ApiVersionSet'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiVersionSet" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiVersionSet" />'
   - name: authorizationServer
-    uid: '@azure/arm-apimanagement.ApiManagementClient.authorizationServer'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.authorizationServer'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: authorizationServer
     remarks: ''
@@ -302,10 +310,10 @@ properties:
       content: 'authorizationServer: AuthorizationServer'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.AuthorizationServer" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AuthorizationServer" />'
   - name: backend
-    uid: '@azure/arm-apimanagement.ApiManagementClient.backend'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.backend'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: backend
     remarks: ''
@@ -314,10 +322,10 @@ properties:
       content: 'backend: Backend'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Backend" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Backend" />'
   - name: cache
-    uid: '@azure/arm-apimanagement.ApiManagementClient.cache'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.cache'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: cache
     remarks: ''
@@ -326,10 +334,10 @@ properties:
       content: 'cache: Cache_2'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Cache_2" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Cache_2" />'
   - name: certificate
-    uid: '@azure/arm-apimanagement.ApiManagementClient.certificate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.certificate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: certificate
     remarks: ''
@@ -338,10 +346,10 @@ properties:
       content: 'certificate: Certificate'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Certificate" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Certificate" />'
   - name: contentItem
-    uid: '@azure/arm-apimanagement.ApiManagementClient.contentItem'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.contentItem'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: contentItem
     remarks: ''
@@ -350,10 +358,10 @@ properties:
       content: 'contentItem: ContentItem'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ContentItem" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ContentItem" />'
   - name: contentType
-    uid: '@azure/arm-apimanagement.ApiManagementClient.contentType'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.contentType'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: contentType
     remarks: ''
@@ -362,10 +370,10 @@ properties:
       content: 'contentType: ContentType'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ContentType" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ContentType" />'
   - name: delegationSettings
-    uid: '@azure/arm-apimanagement.ApiManagementClient.delegationSettings'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.delegationSettings'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: delegationSettings
     remarks: ''
@@ -374,10 +382,10 @@ properties:
       content: 'delegationSettings: DelegationSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.DelegationSettings" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.DelegationSettings" />'
   - name: deletedServices
-    uid: '@azure/arm-apimanagement.ApiManagementClient.deletedServices'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.deletedServices'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: deletedServices
     remarks: ''
@@ -386,10 +394,10 @@ properties:
       content: 'deletedServices: DeletedServices'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.DeletedServices" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.DeletedServices" />'
   - name: diagnostic
-    uid: '@azure/arm-apimanagement.ApiManagementClient.diagnostic'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.diagnostic'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: diagnostic
     remarks: ''
@@ -398,10 +406,10 @@ properties:
       content: 'diagnostic: Diagnostic'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Diagnostic" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Diagnostic" />'
   - name: emailTemplate
-    uid: '@azure/arm-apimanagement.ApiManagementClient.emailTemplate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.emailTemplate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: emailTemplate
     remarks: ''
@@ -410,10 +418,10 @@ properties:
       content: 'emailTemplate: EmailTemplate'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.EmailTemplate" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.EmailTemplate" />'
   - name: gateway
-    uid: '@azure/arm-apimanagement.ApiManagementClient.gateway'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.gateway'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: gateway
     remarks: ''
@@ -422,10 +430,10 @@ properties:
       content: 'gateway: Gateway'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Gateway" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Gateway" />'
   - name: gatewayApi
-    uid: '@azure/arm-apimanagement.ApiManagementClient.gatewayApi'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.gatewayApi'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: gatewayApi
     remarks: ''
@@ -434,10 +442,12 @@ properties:
       content: 'gatewayApi: GatewayApi'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.GatewayApi" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.GatewayApi" />'
   - name: gatewayCertificateAuthority
-    uid: '@azure/arm-apimanagement.ApiManagementClient.gatewayCertificateAuthority'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.gatewayCertificateAuthority
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: gatewayCertificateAuthority
     remarks: ''
@@ -446,10 +456,14 @@ properties:
       content: 'gatewayCertificateAuthority: GatewayCertificateAuthority'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.GatewayCertificateAuthority" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayCertificateAuthority" />
   - name: gatewayHostnameConfiguration
-    uid: '@azure/arm-apimanagement.ApiManagementClient.gatewayHostnameConfiguration'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.gatewayHostnameConfiguration
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: gatewayHostnameConfiguration
     remarks: ''
@@ -458,10 +472,12 @@ properties:
       content: 'gatewayHostnameConfiguration: GatewayHostnameConfiguration'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.GatewayHostnameConfiguration" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.GatewayHostnameConfiguration" />
   - name: group
-    uid: '@azure/arm-apimanagement.ApiManagementClient.group'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.group'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: group
     remarks: ''
@@ -470,10 +486,10 @@ properties:
       content: 'group: Group'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Group" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Group" />'
   - name: groupUser
-    uid: '@azure/arm-apimanagement.ApiManagementClient.groupUser'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.groupUser'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: groupUser
     remarks: ''
@@ -482,10 +498,10 @@ properties:
       content: 'groupUser: GroupUser'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.GroupUser" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.GroupUser" />'
   - name: identityProvider
-    uid: '@azure/arm-apimanagement.ApiManagementClient.identityProvider'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.identityProvider'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: identityProvider
     remarks: ''
@@ -494,10 +510,10 @@ properties:
       content: 'identityProvider: IdentityProvider'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.IdentityProvider" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProvider" />'
   - name: issue
-    uid: '@azure/arm-apimanagement.ApiManagementClient.issue'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.issue'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: issue
     remarks: ''
@@ -506,10 +522,10 @@ properties:
       content: 'issue: Issue'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Issue" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Issue" />'
   - name: logger
-    uid: '@azure/arm-apimanagement.ApiManagementClient.logger'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.logger'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: logger
     remarks: ''
@@ -518,10 +534,10 @@ properties:
       content: 'logger: Logger'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Logger" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Logger" />'
   - name: namedValue
-    uid: '@azure/arm-apimanagement.ApiManagementClient.namedValue'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.namedValue'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: namedValue
     remarks: ''
@@ -530,10 +546,10 @@ properties:
       content: 'namedValue: NamedValue'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.NamedValue" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NamedValue" />'
   - name: networkStatus
-    uid: '@azure/arm-apimanagement.ApiManagementClient.networkStatus'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.networkStatus'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: networkStatus
     remarks: ''
@@ -542,10 +558,10 @@ properties:
       content: 'networkStatus: NetworkStatus'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.NetworkStatus" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NetworkStatus" />'
   - name: notification
-    uid: '@azure/arm-apimanagement.ApiManagementClient.notification'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.notification'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: notification
     remarks: ''
@@ -554,10 +570,12 @@ properties:
       content: 'notification: Notification_2'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Notification_2" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Notification_2" />'
   - name: notificationRecipientEmail
-    uid: '@azure/arm-apimanagement.ApiManagementClient.notificationRecipientEmail'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.notificationRecipientEmail
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: notificationRecipientEmail
     remarks: ''
@@ -566,10 +584,14 @@ properties:
       content: 'notificationRecipientEmail: NotificationRecipientEmail'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.NotificationRecipientEmail" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.NotificationRecipientEmail" />
   - name: notificationRecipientUser
-    uid: '@azure/arm-apimanagement.ApiManagementClient.notificationRecipientUser'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.notificationRecipientUser
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: notificationRecipientUser
     remarks: ''
@@ -578,10 +600,14 @@ properties:
       content: 'notificationRecipientUser: NotificationRecipientUser'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.NotificationRecipientUser" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.NotificationRecipientUser" />
   - name: openIdConnectProvider
-    uid: '@azure/arm-apimanagement.ApiManagementClient.openIdConnectProvider'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.openIdConnectProvider
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: openIdConnectProvider
     remarks: ''
@@ -590,10 +616,10 @@ properties:
       content: 'openIdConnectProvider: OpenIdConnectProvider'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.OpenIdConnectProvider" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.OpenIdConnectProvider" />'
   - name: operationOperations
-    uid: '@azure/arm-apimanagement.ApiManagementClient.operationOperations'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.operationOperations'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: operationOperations
     remarks: ''
@@ -602,11 +628,12 @@ properties:
       content: 'operationOperations: OperationOperations'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.OperationOperations" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.OperationOperations" />'
   - name: outboundNetworkDependenciesEndpoints
     uid: >-
-      @azure/arm-apimanagement.ApiManagementClient.outboundNetworkDependenciesEndpoints
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.outboundNetworkDependenciesEndpoints
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: outboundNetworkDependenciesEndpoints
     remarks: ''
@@ -618,11 +645,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.OutboundNetworkDependenciesEndpoints" />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.OutboundNetworkDependenciesEndpoints" />
   - name: policy
-    uid: '@azure/arm-apimanagement.ApiManagementClient.policy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.policy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: policy
     remarks: ''
@@ -631,10 +658,10 @@ properties:
       content: 'policy: Policy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Policy" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Policy" />'
   - name: policyDescription
-    uid: '@azure/arm-apimanagement.ApiManagementClient.policyDescription'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.policyDescription'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: policyDescription
     remarks: ''
@@ -643,10 +670,10 @@ properties:
       content: 'policyDescription: PolicyDescription'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PolicyDescription" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PolicyDescription" />'
   - name: portalRevision
-    uid: '@azure/arm-apimanagement.ApiManagementClient.portalRevision'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.portalRevision'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: portalRevision
     remarks: ''
@@ -655,10 +682,10 @@ properties:
       content: 'portalRevision: PortalRevision'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PortalRevision" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PortalRevision" />'
   - name: portalSettings
-    uid: '@azure/arm-apimanagement.ApiManagementClient.portalSettings'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.portalSettings'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: portalSettings
     remarks: ''
@@ -667,11 +694,12 @@ properties:
       content: 'portalSettings: PortalSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.PortalSettings" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PortalSettings" />'
   - name: privateEndpointConnectionOperations
     uid: >-
-      @azure/arm-apimanagement.ApiManagementClient.privateEndpointConnectionOperations
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.privateEndpointConnectionOperations
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: privateEndpointConnectionOperations
     remarks: ''
@@ -681,11 +709,11 @@ properties:
       return:
         description: ''
         type: >-
-          <xref
-          uid="@azure/arm-apimanagement.PrivateEndpointConnectionOperations" />
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnectionOperations" />
   - name: product
-    uid: '@azure/arm-apimanagement.ApiManagementClient.product'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.product'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: product
     remarks: ''
@@ -694,10 +722,10 @@ properties:
       content: 'product: Product'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Product" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Product" />'
   - name: productApi
-    uid: '@azure/arm-apimanagement.ApiManagementClient.productApi'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.productApi'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: productApi
     remarks: ''
@@ -706,10 +734,10 @@ properties:
       content: 'productApi: ProductApi'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ProductApi" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductApi" />'
   - name: productGroup
-    uid: '@azure/arm-apimanagement.ApiManagementClient.productGroup'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.productGroup'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: productGroup
     remarks: ''
@@ -718,10 +746,10 @@ properties:
       content: 'productGroup: ProductGroup'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ProductGroup" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductGroup" />'
   - name: productPolicy
-    uid: '@azure/arm-apimanagement.ApiManagementClient.productPolicy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.productPolicy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: productPolicy
     remarks: ''
@@ -730,10 +758,10 @@ properties:
       content: 'productPolicy: ProductPolicy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ProductPolicy" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductPolicy" />'
   - name: productSubscriptions
-    uid: '@azure/arm-apimanagement.ApiManagementClient.productSubscriptions'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.productSubscriptions'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: productSubscriptions
     remarks: ''
@@ -742,10 +770,10 @@ properties:
       content: 'productSubscriptions: ProductSubscriptions'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ProductSubscriptions" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductSubscriptions" />'
   - name: quotaByCounterKeys
-    uid: '@azure/arm-apimanagement.ApiManagementClient.quotaByCounterKeys'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.quotaByCounterKeys'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: quotaByCounterKeys
     remarks: ''
@@ -754,10 +782,10 @@ properties:
       content: 'quotaByCounterKeys: QuotaByCounterKeys'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.QuotaByCounterKeys" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.QuotaByCounterKeys" />'
   - name: quotaByPeriodKeys
-    uid: '@azure/arm-apimanagement.ApiManagementClient.quotaByPeriodKeys'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.quotaByPeriodKeys'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: quotaByPeriodKeys
     remarks: ''
@@ -766,10 +794,10 @@ properties:
       content: 'quotaByPeriodKeys: QuotaByPeriodKeys'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.QuotaByPeriodKeys" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.QuotaByPeriodKeys" />'
   - name: region
-    uid: '@azure/arm-apimanagement.ApiManagementClient.region'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.region'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: region
     remarks: ''
@@ -778,10 +806,10 @@ properties:
       content: 'region: Region'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Region" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Region" />'
   - name: reports
-    uid: '@azure/arm-apimanagement.ApiManagementClient.reports'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.reports'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: reports
     remarks: ''
@@ -790,10 +818,10 @@ properties:
       content: 'reports: Reports'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Reports" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Reports" />'
   - name: signInSettings
-    uid: '@azure/arm-apimanagement.ApiManagementClient.signInSettings'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.signInSettings'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: signInSettings
     remarks: ''
@@ -802,10 +830,10 @@ properties:
       content: 'signInSettings: SignInSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SignInSettings" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SignInSettings" />'
   - name: signUpSettings
-    uid: '@azure/arm-apimanagement.ApiManagementClient.signUpSettings'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.signUpSettings'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: signUpSettings
     remarks: ''
@@ -814,10 +842,10 @@ properties:
       content: 'signUpSettings: SignUpSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.SignUpSettings" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SignUpSettings" />'
   - name: subscription
-    uid: '@azure/arm-apimanagement.ApiManagementClient.subscription'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.subscription'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: subscription
     remarks: ''
@@ -826,10 +854,10 @@ properties:
       content: 'subscription: Subscription'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Subscription" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Subscription" />'
   - name: subscriptionId
-    uid: '@azure/arm-apimanagement.ApiManagementClient.subscriptionId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.subscriptionId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: subscriptionId
     remarks: ''
@@ -840,8 +868,8 @@ properties:
         description: ''
         type: string
   - name: tag
-    uid: '@azure/arm-apimanagement.ApiManagementClient.tag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.tag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: tag
     remarks: ''
@@ -850,10 +878,10 @@ properties:
       content: 'tag: Tag'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.Tag" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Tag" />'
   - name: tagResource
-    uid: '@azure/arm-apimanagement.ApiManagementClient.tagResource'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.tagResource'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: tagResource
     remarks: ''
@@ -862,10 +890,10 @@ properties:
       content: 'tagResource: TagResource'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.TagResource" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.TagResource" />'
   - name: tenantAccess
-    uid: '@azure/arm-apimanagement.ApiManagementClient.tenantAccess'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.tenantAccess'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: tenantAccess
     remarks: ''
@@ -874,10 +902,10 @@ properties:
       content: 'tenantAccess: TenantAccess'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.TenantAccess" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.TenantAccess" />'
   - name: tenantAccessGit
-    uid: '@azure/arm-apimanagement.ApiManagementClient.tenantAccessGit'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.tenantAccessGit'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: tenantAccessGit
     remarks: ''
@@ -886,10 +914,10 @@ properties:
       content: 'tenantAccessGit: TenantAccessGit'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.TenantAccessGit" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.TenantAccessGit" />'
   - name: tenantConfiguration
-    uid: '@azure/arm-apimanagement.ApiManagementClient.tenantConfiguration'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.tenantConfiguration'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: tenantConfiguration
     remarks: ''
@@ -898,10 +926,10 @@ properties:
       content: 'tenantConfiguration: TenantConfiguration'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.TenantConfiguration" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.TenantConfiguration" />'
   - name: tenantSettings
-    uid: '@azure/arm-apimanagement.ApiManagementClient.tenantSettings'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.tenantSettings'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: tenantSettings
     remarks: ''
@@ -910,10 +938,10 @@ properties:
       content: 'tenantSettings: TenantSettings'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.TenantSettings" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.TenantSettings" />'
   - name: user
-    uid: '@azure/arm-apimanagement.ApiManagementClient.user'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.user'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: user
     remarks: ''
@@ -922,10 +950,12 @@ properties:
       content: 'user: User'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.User" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.User" />'
   - name: userConfirmationPassword
-    uid: '@azure/arm-apimanagement.ApiManagementClient.userConfirmationPassword'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.userConfirmationPassword
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: userConfirmationPassword
     remarks: ''
@@ -934,10 +964,12 @@ properties:
       content: 'userConfirmationPassword: UserConfirmationPassword'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserConfirmationPassword" />
+        type: >-
+          @azure/arm-apimanagement - <xref uid="v8.1.2.UserConfirmationPassword"
+          />
   - name: userGroup
-    uid: '@azure/arm-apimanagement.ApiManagementClient.userGroup'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.userGroup'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: userGroup
     remarks: ''
@@ -946,10 +978,10 @@ properties:
       content: 'userGroup: UserGroup'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserGroup" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserGroup" />'
   - name: userIdentities
-    uid: '@azure/arm-apimanagement.ApiManagementClient.userIdentities'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.userIdentities'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: userIdentities
     remarks: ''
@@ -958,10 +990,10 @@ properties:
       content: 'userIdentities: UserIdentities'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserIdentities" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserIdentities" />'
   - name: userSubscription
-    uid: '@azure/arm-apimanagement.ApiManagementClient.userSubscription'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.userSubscription'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: ''
     fullName: userSubscription
     remarks: ''
@@ -970,11 +1002,11 @@ properties:
       content: 'userSubscription: UserSubscription'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.UserSubscription" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.UserSubscription" />'
 inheritedProperties:
   - name: pipeline
-    uid: '@azure/arm-apimanagement.ApiManagementClient.pipeline'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.pipeline'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: The pipeline used by this client to make requests
     fullName: pipeline
     remarks: ''
@@ -987,8 +1019,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> ServiceClient.pipeline
 inheritedMethods:
   - name: 'sendOperationRequest<T>(OperationArguments, OperationSpec)'
-    uid: '@azure/arm-apimanagement.ApiManagementClient.sendOperationRequest'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.sendOperationRequest'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Send an HTTP request that is populated using the provided OperationSpec.
     remarks: ''
     isDeprecated: false
@@ -1011,8 +1043,8 @@ inheritedMethods:
         type: Promise&lt;T&gt;
     inheritanceDescription: <b>Inherited From</b> ServiceClient.sendOperationRequest
   - name: sendRequest(PipelineRequest)
-    uid: '@azure/arm-apimanagement.ApiManagementClient.sendRequest'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementClient.sendRequest'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Send the provided httpRequest.
     remarks: ''
     isDeprecated: false
@@ -1033,8 +1065,9 @@ methods:
       beginPerformConnectivityCheckAsync(string, string,
       ConnectivityCheckRequest, PerformConnectivityCheckAsyncOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.ApiManagementClient.beginPerformConnectivityCheckAsync
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.beginPerformConnectivityCheckAsync
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Performs a connectivity check between the API Management service and a
       given destination, and
@@ -1059,29 +1092,30 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: connectivityCheckRequestParams
-          type: <xref uid="@azure/arm-apimanagement.ConnectivityCheckRequest" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ConnectivityCheckRequest" />
           description: Connectivity Check request parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PerformConnectivityCheckAsyncOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PerformConnectivityCheckAsyncOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-apimanagement.PerformConnectivityCheckAsyncResponse"
-          />&gt;, <xref
-          uid="@azure/arm-apimanagement.PerformConnectivityCheckAsyncResponse"
-          />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
+          - <xref uid="v8.1.2.PerformConnectivityCheckAsyncResponse" />&gt;,
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PerformConnectivityCheckAsyncResponse" />&gt;&gt;
   - name: >-
       beginPerformConnectivityCheckAsyncAndWait(string, string,
       ConnectivityCheckRequest, PerformConnectivityCheckAsyncOptionalParams)
     uid: >-
-      @azure/arm-apimanagement.ApiManagementClient.beginPerformConnectivityCheckAsyncAndWait
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.ApiManagementClient.beginPerformConnectivityCheckAsyncAndWait
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Performs a connectivity check between the API Management service and a
       given destination, and
@@ -1105,19 +1139,19 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: connectivityCheckRequestParams
-          type: <xref uid="@azure/arm-apimanagement.ConnectivityCheckRequest" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.ConnectivityCheckRequest" />
           description: Connectivity Check request parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PerformConnectivityCheckAsyncOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PerformConnectivityCheckAsyncOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.PerformConnectivityCheckAsyncResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PerformConnectivityCheckAsyncResponse" />&gt;
 extends: ServiceClient

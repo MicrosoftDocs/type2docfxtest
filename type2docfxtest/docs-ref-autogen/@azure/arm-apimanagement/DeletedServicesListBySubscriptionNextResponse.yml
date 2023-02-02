@@ -1,7 +1,9 @@
 ### YamlMime:TSTypeAlias
 name: DeletedServicesListBySubscriptionNextResponse
-uid: '@azure/arm-apimanagement.DeletedServicesListBySubscriptionNextResponse'
-package: '@azure/arm-apimanagement'
+uid: >-
+  @azure/arm-apimanagement -
+  v8.1.2.DeletedServicesListBySubscriptionNextResponse
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Contains response data for the listBySubscriptionNext operation.
 fullName: DeletedServicesListBySubscriptionNextResponse
 remarks: ''

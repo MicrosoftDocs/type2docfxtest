@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AnalyzeSentimentActionResult
-uid: '@azure/ai-text-analytics.AnalyzeSentimentActionResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeSentimentActionResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: The result of an analyze sentiment action.
 fullName: AnalyzeSentimentActionResult
 remarks: ''

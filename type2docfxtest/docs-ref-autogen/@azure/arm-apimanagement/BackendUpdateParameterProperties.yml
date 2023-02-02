@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BackendUpdateParameterProperties
-uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.BackendUpdateParameterProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Parameters supplied to the Update Backend operation.
 fullName: BackendUpdateParameterProperties
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: protocol
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.protocol'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.BackendUpdateParameterProperties.protocol
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend communication protocol.
     fullName: protocol
     remarks: ''
@@ -19,10 +21,10 @@ properties:
       content: 'protocol?: BackendProtocol'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendProtocol" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendProtocol" />'
   - name: url
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.url'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendUpdateParameterProperties.url'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Runtime Url of the Backend.
     fullName: url
     remarks: ''
@@ -34,8 +36,10 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: credentials
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.credentials'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.BackendUpdateParameterProperties.credentials
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Credentials Contract Properties
     fullName: credentials
     remarks: ''
@@ -44,13 +48,18 @@ inheritedProperties:
       content: 'credentials?: BackendCredentialsContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendCredentialsContract" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendCredentialsContract" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.credentials](xref:@azure/arm-apimanagement.BackendBaseParameters.credentials)
+      [BackendBaseParameters.credentials](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.credentials)
   - name: description
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.description'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.BackendUpdateParameterProperties.description
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Description.
     fullName: description
     remarks: ''
@@ -62,10 +71,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.description](xref:@azure/arm-apimanagement.BackendBaseParameters.description)
+      [BackendBaseParameters.description](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.description)
   - name: properties
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.properties'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.BackendUpdateParameterProperties.properties
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Properties contract
     fullName: properties
     remarks: ''
@@ -74,13 +86,14 @@ inheritedProperties:
       content: 'properties?: BackendProperties'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendProperties" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendProperties" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.properties](xref:@azure/arm-apimanagement.BackendBaseParameters.properties)
+      [BackendBaseParameters.properties](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.properties)
   - name: proxy
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.proxy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendUpdateParameterProperties.proxy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Proxy Contract Properties
     fullName: proxy
     remarks: ''
@@ -89,13 +102,16 @@ inheritedProperties:
       content: 'proxy?: BackendProxyContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendProxyContract" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendProxyContract" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.proxy](xref:@azure/arm-apimanagement.BackendBaseParameters.proxy)
+      [BackendBaseParameters.proxy](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.proxy)
   - name: resourceId
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.resourceId'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.BackendUpdateParameterProperties.resourceId
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Management Uri of the Resource in External System. This url can be the Arm
       Resource Id of Logic Apps, Function Apps or API Apps.
@@ -109,10 +125,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.resourceId](xref:@azure/arm-apimanagement.BackendBaseParameters.resourceId)
+      [BackendBaseParameters.resourceId](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.resourceId)
   - name: title
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.title'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendUpdateParameterProperties.title'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Title.
     fullName: title
     remarks: ''
@@ -124,10 +141,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.title](xref:@azure/arm-apimanagement.BackendBaseParameters.title)
+      [BackendBaseParameters.title](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.title)
   - name: tls
-    uid: '@azure/arm-apimanagement.BackendUpdateParameterProperties.tls'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendUpdateParameterProperties.tls'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend TLS Properties
     fullName: tls
     remarks: ''
@@ -136,8 +154,9 @@ inheritedProperties:
       content: 'tls?: BackendTlsProperties'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendTlsProperties" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendTlsProperties" />'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [BackendBaseParameters.tls](xref:@azure/arm-apimanagement.BackendBaseParameters.tls)
-extends: <xref uid="@azure/arm-apimanagement.BackendBaseParameters" />
+      [BackendBaseParameters.tls](xref:@azure/arm-apimanagement -
+      v8.1.2.BackendBaseParameters.tls)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendBaseParameters" />'

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PolicyDescription
-uid: '@azure/arm-apimanagement.PolicyDescription'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PolicyDescription'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a PolicyDescription.
 fullName: PolicyDescription
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       listByService(string, string,
       PolicyDescriptionListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.PolicyDescription.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.PolicyDescription.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Lists all policy descriptions.
     remarks: ''
     isDeprecated: false
@@ -30,14 +30,12 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.PolicyDescriptionListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.PolicyDescriptionListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.PolicyDescriptionListByServiceResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.PolicyDescriptionListByServiceResponse" />&gt;

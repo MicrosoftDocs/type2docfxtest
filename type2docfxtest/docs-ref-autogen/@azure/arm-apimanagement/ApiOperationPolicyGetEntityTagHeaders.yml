@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiOperationPolicyGetEntityTagHeaders
-uid: '@azure/arm-apimanagement.ApiOperationPolicyGetEntityTagHeaders'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiOperationPolicyGetEntityTagHeaders'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Defines headers for ApiOperationPolicy_getEntityTag operation.
 fullName: ApiOperationPolicyGetEntityTagHeaders
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement.ApiOperationPolicyGetEntityTagHeaders.eTag'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiOperationPolicyGetEntityTagHeaders.eTag
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

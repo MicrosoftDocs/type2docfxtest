@@ -1,31 +1,31 @@
 ### YamlMime:TSEnum
 name: KnownHostnameType
-uid: '@azure/arm-apimanagement.KnownHostnameType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownHostnameType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.HostnameType> that the service
-  accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.HostnameType> that the
+  service accepts.
 fullName: KnownHostnameType
 remarks: ''
 isDeprecated: false
 fields:
   - name: DeveloperPortal
-    uid: '@azure/arm-apimanagement.KnownHostnameType.DeveloperPortal'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownHostnameType.DeveloperPortal'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: DeveloperPortal
   - name: Management
-    uid: '@azure/arm-apimanagement.KnownHostnameType.Management'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownHostnameType.Management'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Management
   - name: Portal
-    uid: '@azure/arm-apimanagement.KnownHostnameType.Portal'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownHostnameType.Portal'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Portal
   - name: Proxy
-    uid: '@azure/arm-apimanagement.KnownHostnameType.Proxy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownHostnameType.Proxy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Proxy
   - name: Scm
-    uid: '@azure/arm-apimanagement.KnownHostnameType.Scm'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownHostnameType.Scm'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Scm

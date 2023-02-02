@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizePiiEntitiesSuccessResult
-uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesSuccessResult'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
   The result of the recognize entities operation on a single document,
   containing the collection of
@@ -13,8 +13,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: entities
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.entities'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizePiiEntitiesSuccessResult.entities
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The collection of entities identified in the input document.
     fullName: entities
     remarks: ''
@@ -23,10 +25,12 @@ properties:
       content: 'entities: PiiEntity[]'
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.PiiEntity" />[]'
+        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.PiiEntity" />[]'
   - name: redactedText
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.redactedText'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizePiiEntitiesSuccessResult.redactedText
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: The text redacted.
     fullName: redactedText
     remarks: ''
@@ -38,8 +42,8 @@ properties:
         type: string
 inheritedProperties:
   - name: error
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.error'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesSuccessResult.error'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Discriminant to determine if that this is an error result.
     fullName: error
     remarks: ''
@@ -51,10 +55,11 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.error](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.error)
+      [TextAnalyticsSuccessResult.error](xref:@azure/ai-text-analytics -
+      v5.1.0.TextAnalyticsSuccessResult.error)
   - name: id
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.id'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesSuccessResult.id'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: 'Unique, non-empty document identifier.'
     fullName: id
     remarks: ''
@@ -66,10 +71,13 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.id](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.id)
+      [TextAnalyticsSuccessResult.id](xref:@azure/ai-text-analytics -
+      v5.1.0.TextAnalyticsSuccessResult.id)
   - name: statistics
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.statistics'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizePiiEntitiesSuccessResult.statistics
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: >-
       Statistics about the input document and how it was processed
 
@@ -84,13 +92,18 @@ inheritedProperties:
       content: 'statistics?: TextDocumentStatistics'
       return:
         description: ''
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.TextDocumentStatistics"
+          />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.statistics](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.statistics)
+      [TextAnalyticsSuccessResult.statistics](xref:@azure/ai-text-analytics -
+      v5.1.0.TextAnalyticsSuccessResult.statistics)
   - name: warnings
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.warnings'
-    package: '@azure/ai-text-analytics'
+    uid: >-
+      @azure/ai-text-analytics -
+      v5.1.0.RecognizePiiEntitiesSuccessResult.warnings
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: |
       An array of warning data corresponding to this document.
       If no warnings were returned, this array will be empty.
@@ -101,8 +114,11 @@ inheritedProperties:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
         description: ''
-        type: '<xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]'
+        type: >-
+          @azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsWarning"
+          />[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.warnings](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.warnings)
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+      [TextAnalyticsSuccessResult.warnings](xref:@azure/ai-text-analytics -
+      v5.1.0.TextAnalyticsSuccessResult.warnings)
+extends: '@azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsSuccessResult" />'

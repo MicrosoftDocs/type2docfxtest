@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NamedValueCollection
-uid: '@azure/arm-apimanagement.NamedValueCollection'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCollection'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Paged NamedValue list representation.
 fullName: NamedValueCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement.NamedValueCollection.count'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCollection.count'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement.NamedValueCollection.nextLink'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCollection.nextLink'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Next page link if any.
     fullName: nextLink
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement.NamedValueCollection.value'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NamedValueCollection.value'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Page values.
     fullName: value
     remarks: ''
@@ -43,4 +43,4 @@ properties:
       content: 'value?: NamedValueContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.NamedValueContract" />[]'
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NamedValueContract" />[]'

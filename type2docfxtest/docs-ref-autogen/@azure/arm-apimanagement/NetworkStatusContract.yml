@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NetworkStatusContract
-uid: '@azure/arm-apimanagement.NetworkStatusContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatusContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Network Status details.
 fullName: NetworkStatusContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: connectivityStatus
-    uid: '@azure/arm-apimanagement.NetworkStatusContract.connectivityStatus'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatusContract.connectivityStatus'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the list of Connectivity Status to the Resources on which the service
       depends upon.
@@ -21,10 +21,12 @@ properties:
       content: 'connectivityStatus: ConnectivityStatusContract[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.ConnectivityStatusContract" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ConnectivityStatusContract" />[]
   - name: dnsServers
-    uid: '@azure/arm-apimanagement.NetworkStatusContract.dnsServers'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatusContract.dnsServers'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the list of DNS servers IPV4 addresses.
     fullName: dnsServers
     remarks: ''

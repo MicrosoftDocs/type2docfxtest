@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagDescriptionContractProperties
-uid: '@azure/arm-apimanagement.TagDescriptionContractProperties'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.TagDescriptionContractProperties'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: TagDescription contract Properties.
 fullName: TagDescriptionContractProperties
 remarks: ''
@@ -9,8 +9,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: displayName
-    uid: '@azure/arm-apimanagement.TagDescriptionContractProperties.displayName'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.TagDescriptionContractProperties.displayName
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Tag name.
     fullName: displayName
     remarks: ''
@@ -21,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: tagId
-    uid: '@azure/arm-apimanagement.TagDescriptionContractProperties.tagId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.TagDescriptionContractProperties.tagId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: 'Identifier of the tag in the form of /tags/{tagId}'
     fullName: tagId
     remarks: ''
@@ -34,8 +36,10 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: description
-    uid: '@azure/arm-apimanagement.TagDescriptionContractProperties.description'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.TagDescriptionContractProperties.description
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the Tag.
     fullName: description
     remarks: ''
@@ -47,11 +51,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TagDescriptionBaseProperties.description](xref:@azure/arm-apimanagement.TagDescriptionBaseProperties.description)
+      [TagDescriptionBaseProperties.description](xref:@azure/arm-apimanagement -
+      v8.1.2.TagDescriptionBaseProperties.description)
   - name: externalDocsDescription
     uid: >-
-      @azure/arm-apimanagement.TagDescriptionContractProperties.externalDocsDescription
-    package: '@azure/arm-apimanagement'
+      @azure/arm-apimanagement -
+      v8.1.2.TagDescriptionContractProperties.externalDocsDescription
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of the external resources describing the tag.
     fullName: externalDocsDescription
     remarks: ''
@@ -63,10 +69,13 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TagDescriptionBaseProperties.externalDocsDescription](xref:@azure/arm-apimanagement.TagDescriptionBaseProperties.externalDocsDescription)
+      [TagDescriptionBaseProperties.externalDocsDescription](xref:@azure/arm-apimanagement
+      - v8.1.2.TagDescriptionBaseProperties.externalDocsDescription)
   - name: externalDocsUrl
-    uid: '@azure/arm-apimanagement.TagDescriptionContractProperties.externalDocsUrl'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.TagDescriptionContractProperties.externalDocsUrl
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Absolute URL of external resources describing the tag.
     fullName: externalDocsUrl
     remarks: ''
@@ -78,5 +87,6 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TagDescriptionBaseProperties.externalDocsUrl](xref:@azure/arm-apimanagement.TagDescriptionBaseProperties.externalDocsUrl)
-extends: <xref uid="@azure/arm-apimanagement.TagDescriptionBaseProperties" />
+      [TagDescriptionBaseProperties.externalDocsUrl](xref:@azure/arm-apimanagement
+      - v8.1.2.TagDescriptionBaseProperties.externalDocsUrl)
+extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.TagDescriptionBaseProperties" />'

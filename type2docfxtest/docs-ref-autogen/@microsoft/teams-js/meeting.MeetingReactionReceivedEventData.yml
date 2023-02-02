@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: MeetingReactionReceivedEventData
-uid: '@microsoft/teams-js.meeting.MeetingReactionReceivedEventData'
-package: '@microsoft/teams-js'
+uid: '@microsoft/teams-js - v2.5.0.meeting.MeetingReactionReceivedEventData'
+package: '@microsoft/teams-js - v2.5.0'
 summary: Property bag for the meeting reaction received event
 fullName: MeetingReactionReceivedEventData
 remarks: ''
@@ -10,8 +10,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: error
-    uid: '@microsoft/teams-js.meeting.MeetingReactionReceivedEventData.error'
-    package: '@microsoft/teams-js'
+    uid: >-
+      @microsoft/teams-js -
+      v2.5.0.meeting.MeetingReactionReceivedEventData.error
+    package: '@microsoft/teams-js - v2.5.0'
     summary: error object in case there is a failure
     fullName: error
     remarks: ''
@@ -20,11 +22,12 @@ properties:
       content: 'error?: SdkError'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.SdkError" />
+        type: '@microsoft/teams-js - <xref uid="v2.5.0.SdkError" />'
   - name: meetingReactionType
     uid: >-
-      @microsoft/teams-js.meeting.MeetingReactionReceivedEventData.meetingReactionType
-    package: '@microsoft/teams-js'
+      @microsoft/teams-js -
+      v2.5.0.meeting.MeetingReactionReceivedEventData.meetingReactionType
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Indicates the type of meeting reaction received
     fullName: meetingReactionType
     remarks: ''
@@ -33,4 +36,6 @@ properties:
       content: 'meetingReactionType?: MeetingReactionType'
       return:
         description: ''
-        type: <xref uid="@microsoft/teams-js.meeting.MeetingReactionType" />
+        type: >-
+          @microsoft/teams-js - <xref uid="v2.5.0.meeting.MeetingReactionType"
+          />

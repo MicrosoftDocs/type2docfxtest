@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextDocumentStatistics
-uid: '@azure/ai-text-analytics.TextDocumentStatistics'
-package: '@azure/ai-text-analytics'
+uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentStatistics'
+package: '@azure/ai-text-analytics - v5.1.0'
 summary: >-
   if includeStatistics=true was specified in the request this field will contain
   information about the document payload.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: characterCount
-    uid: '@azure/ai-text-analytics.TextDocumentStatistics.characterCount'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentStatistics.characterCount'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Number of text elements recognized in the document.
     fullName: characterCount
     remarks: ''
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: number
   - name: transactionCount
-    uid: '@azure/ai-text-analytics.TextDocumentStatistics.transactionCount'
-    package: '@azure/ai-text-analytics'
+    uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentStatistics.transactionCount'
+    package: '@azure/ai-text-analytics - v5.1.0'
     summary: Number of transactions for the document.
     fullName: transactionCount
     remarks: ''

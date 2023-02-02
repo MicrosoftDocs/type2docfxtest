@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PrivateEndpointConnectionListResult
-uid: '@azure/arm-apimanagement.PrivateEndpointConnectionListResult'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpointConnectionListResult'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   List of private endpoint connection associated with the specified storage
   account
@@ -11,8 +11,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: value
-    uid: '@azure/arm-apimanagement.PrivateEndpointConnectionListResult.value'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.PrivateEndpointConnectionListResult.value
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Array of private endpoint connections
     fullName: value
     remarks: ''
@@ -21,4 +23,6 @@ properties:
       content: 'value?: PrivateEndpointConnection[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-apimanagement.PrivateEndpointConnection" />[]'
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.PrivateEndpointConnection" />[]

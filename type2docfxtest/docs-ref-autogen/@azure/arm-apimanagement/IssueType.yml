@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: IssueType
-uid: '@azure/arm-apimanagement.IssueType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.IssueType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Defines values for IssueType. \
 
-  <xref:@azure/arm-apimanagement.KnownIssueType> can be used interchangeably
-  with IssueType,
+  <xref:@azure/arm-apimanagement - v8.1.2.KnownIssueType> can be used
+  interchangeably with IssueType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

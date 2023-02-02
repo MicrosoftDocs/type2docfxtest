@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BackendBaseParameters
-uid: '@azure/arm-apimanagement.BackendBaseParameters'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Backend entity base Parameter set.
 fullName: BackendBaseParameters
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: credentials
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.credentials'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.credentials'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Credentials Contract Properties
     fullName: credentials
     remarks: ''
@@ -19,10 +19,12 @@ properties:
       content: 'credentials?: BackendCredentialsContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendCredentialsContract" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.BackendCredentialsContract" />
   - name: description
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.description'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.description'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Description.
     fullName: description
     remarks: ''
@@ -33,8 +35,8 @@ properties:
         description: ''
         type: undefined | string
   - name: properties
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.properties'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.properties'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Properties contract
     fullName: properties
     remarks: ''
@@ -43,10 +45,10 @@ properties:
       content: 'properties?: BackendProperties'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendProperties" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendProperties" />'
   - name: proxy
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.proxy'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.proxy'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Proxy Contract Properties
     fullName: proxy
     remarks: ''
@@ -55,10 +57,10 @@ properties:
       content: 'proxy?: BackendProxyContract'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendProxyContract" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendProxyContract" />'
   - name: resourceId
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.resourceId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.resourceId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Management Uri of the Resource in External System. This url can be the Arm
       Resource Id of Logic Apps, Function Apps or API Apps.
@@ -71,8 +73,8 @@ properties:
         description: ''
         type: undefined | string
   - name: title
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.title'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.title'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend Title.
     fullName: title
     remarks: ''
@@ -83,8 +85,8 @@ properties:
         description: ''
         type: undefined | string
   - name: tls
-    uid: '@azure/arm-apimanagement.BackendBaseParameters.tls'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.BackendBaseParameters.tls'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Backend TLS Properties
     fullName: tls
     remarks: ''
@@ -93,4 +95,4 @@ properties:
       content: 'tls?: BackendTlsProperties'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.BackendTlsProperties" />
+        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.BackendTlsProperties" />'

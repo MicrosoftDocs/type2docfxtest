@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthorizationServer
-uid: '@azure/arm-apimanagement.AuthorizationServer'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: Interface representing a AuthorizationServer.
 fullName: AuthorizationServer
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, AuthorizationServerContract,
       AuthorizationServerCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.AuthorizationServer.createOrUpdate'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.createOrUpdate'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Creates new authorization server or updates an existing authorization
       server.
@@ -35,26 +35,26 @@ methods:
           type: string
           description: Identifier of the authorization server.
         - id: parameters
-          type: <xref uid="@azure/arm-apimanagement.AuthorizationServerContract" />
+          type: >-
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerContract" />
           description: Create or update parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerCreateOrUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.AuthorizationServerCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthorizationServerCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string,
       AuthorizationServerDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement.AuthorizationServer.delete'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.delete'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Deletes specific authorization server instance.
     remarks: ''
     isDeprecated: false
@@ -81,17 +81,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerDeleteOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, AuthorizationServerGetOptionalParams)'
-    uid: '@azure/arm-apimanagement.AuthorizationServer.get'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.get'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the details of the authorization server specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -112,21 +111,20 @@ methods:
           description: Identifier of the authorization server.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerGetOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.AuthorizationServerGetResponse" />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthorizationServerGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string,
       AuthorizationServerGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement.AuthorizationServer.getEntityTag'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.getEntityTag'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Gets the entity state (Etag) version of the authorizationServer specified
       by its identifier.
@@ -150,22 +148,20 @@ methods:
           description: Identifier of the authorization server.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerGetEntityTagOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerGetEntityTagOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.AuthorizationServerGetEntityTagResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthorizationServerGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string,
       AuthorizationServerListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement.AuthorizationServer.listByService'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.listByService'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Lists a collection of authorization servers defined within a service
       instance.
@@ -185,21 +181,20 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerListByServiceOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-apimanagement.AuthorizationServerContract" />&gt;
+          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthorizationServerContract" />&gt;
   - name: >-
       listSecrets(string, string, string,
       AuthorizationServerListSecretsOptionalParams)
-    uid: '@azure/arm-apimanagement.AuthorizationServer.listSecrets'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.listSecrets'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Gets the client secret details of the authorization server.
     remarks: ''
     isDeprecated: false
@@ -221,22 +216,20 @@ methods:
           description: Identifier of the authorization server.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerListSecretsOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerListSecretsOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.AuthorizationServerListSecretsResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthorizationServerListSecretsResponse" />&gt;
   - name: >-
       update(string, string, string, string, AuthorizationServerUpdateContract,
       AuthorizationServerUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement.AuthorizationServer.update'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServer.update'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: >-
       Updates the details of the authorization server specified by its
       identifier.
@@ -266,19 +259,17 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerUpdateContract" />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerUpdateContract" />
           description: OAuth2 Server settings Update parameters.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-apimanagement.AuthorizationServerUpdateOptionalParams"
-            />
+            @azure/arm-apimanagement - <xref
+            uid="v8.1.2.AuthorizationServerUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-apimanagement.AuthorizationServerUpdateResponse"
-          />&gt;
+          Promise&lt;@azure/arm-apimanagement - <xref
+          uid="v8.1.2.AuthorizationServerUpdateResponse" />&gt;

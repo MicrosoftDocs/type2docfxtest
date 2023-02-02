@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiRevisionInfoContract
-uid: '@azure/arm-apimanagement.ApiRevisionInfoContract'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.ApiRevisionInfoContract'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
   Object used to create an API Revision or Version based on an existing API
   Revision
@@ -11,8 +11,10 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiRevisionDescription
-    uid: '@azure/arm-apimanagement.ApiRevisionInfoContract.apiRevisionDescription'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.ApiRevisionInfoContract.apiRevisionDescription
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Description of new API Revision.
     fullName: apiRevisionDescription
     remarks: ''
@@ -23,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionName
-    uid: '@azure/arm-apimanagement.ApiRevisionInfoContract.apiVersionName'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiRevisionInfoContract.apiVersionName'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Version identifier for the new API Version.
     fullName: apiVersionName
     remarks: ''
@@ -35,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionSet
-    uid: '@azure/arm-apimanagement.ApiRevisionInfoContract.apiVersionSet'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiRevisionInfoContract.apiVersionSet'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Version set details
     fullName: apiVersionSet
     remarks: ''
@@ -45,10 +47,12 @@ properties:
       content: 'apiVersionSet?: ApiVersionSetContractDetails'
       return:
         description: ''
-        type: <xref uid="@azure/arm-apimanagement.ApiVersionSetContractDetails" />
+        type: >-
+          @azure/arm-apimanagement - <xref
+          uid="v8.1.2.ApiVersionSetContractDetails" />
   - name: sourceApiId
-    uid: '@azure/arm-apimanagement.ApiRevisionInfoContract.sourceApiId'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.ApiRevisionInfoContract.sourceApiId'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: Resource identifier of API to be used to create the revision from.
     fullName: sourceApiId
     remarks: ''

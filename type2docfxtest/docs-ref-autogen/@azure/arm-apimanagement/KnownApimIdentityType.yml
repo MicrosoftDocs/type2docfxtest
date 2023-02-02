@@ -1,27 +1,29 @@
 ### YamlMime:TSEnum
 name: KnownApimIdentityType
-uid: '@azure/arm-apimanagement.KnownApimIdentityType'
-package: '@azure/arm-apimanagement'
+uid: '@azure/arm-apimanagement - v8.1.2.KnownApimIdentityType'
+package: '@azure/arm-apimanagement - v8.1.2'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement.ApimIdentityType> that the
-  service accepts.
+  Known values of <xref:@azure/arm-apimanagement - v8.1.2.ApimIdentityType> that
+  the service accepts.
 fullName: KnownApimIdentityType
 remarks: ''
 isDeprecated: false
 fields:
   - name: None
-    uid: '@azure/arm-apimanagement.KnownApimIdentityType.None'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApimIdentityType.None'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: None
   - name: SystemAssigned
-    uid: '@azure/arm-apimanagement.KnownApimIdentityType.SystemAssigned'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApimIdentityType.SystemAssigned'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: SystemAssigned
   - name: SystemAssignedUserAssigned
-    uid: '@azure/arm-apimanagement.KnownApimIdentityType.SystemAssignedUserAssigned'
-    package: '@azure/arm-apimanagement'
+    uid: >-
+      @azure/arm-apimanagement -
+      v8.1.2.KnownApimIdentityType.SystemAssignedUserAssigned
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: SystemAssignedUserAssigned
   - name: UserAssigned
-    uid: '@azure/arm-apimanagement.KnownApimIdentityType.UserAssigned'
-    package: '@azure/arm-apimanagement'
+    uid: '@azure/arm-apimanagement - v8.1.2.KnownApimIdentityType.UserAssigned'
+    package: '@azure/arm-apimanagement - v8.1.2'
     summary: UserAssigned

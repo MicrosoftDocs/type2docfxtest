@@ -1,16 +1,16 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js.geoLocation.map'
+uid: '@microsoft/teams-js - v2.5.0.geoLocation.map'
 name: map
 type: module
-package: '@microsoft/teams-js'
+package: '@microsoft/teams-js - v2.5.0'
 summary: >-
   Namespace to interact with the location on map module-specific part of the
   SDK.
 previewState: beta
 functions:
   - name: chooseLocation()
-    uid: '@microsoft/teams-js.geoLocation.map.chooseLocation'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.geoLocation.map.chooseLocation'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Allows user to choose location on map
     remarks: ''
     previewState: beta
@@ -19,14 +19,15 @@ functions:
       content: 'function chooseLocation(): Promise<Location>'
       return:
         description: >-
-          Promise that will resolve with
-          <xref:@microsoft/teams-js.geoLocation.Location> object chosen by the
-          user or reject with an error. Function can also throw a
-          NOT_SUPPORTED_ON_PLATFORM error
-        type: Promise&lt;<xref uid="@microsoft/teams-js.geoLocation.Location" />&gt;
+          Promise that will resolve with <xref:@microsoft/teams-js -
+          v2.5.0.geoLocation.Location> object chosen by the user or reject with
+          an error. Function can also throw a NOT_SUPPORTED_ON_PLATFORM error
+        type: >-
+          Promise&lt;@microsoft/teams-js - <xref
+          uid="v2.5.0.geoLocation.Location" />&gt;
   - name: isSupported()
-    uid: '@microsoft/teams-js.geoLocation.map.isSupported'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.geoLocation.map.isSupported'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Checks if geoLocation.map capability is supported by the host
     remarks: ''
     previewState: beta
@@ -37,8 +38,8 @@ functions:
         description: boolean to represent whether geoLocation.map is supported
         type: boolean
   - name: showLocation(Location)
-    uid: '@microsoft/teams-js.geoLocation.map.showLocation'
-    package: '@microsoft/teams-js'
+    uid: '@microsoft/teams-js - v2.5.0.geoLocation.map.showLocation'
+    package: '@microsoft/teams-js - v2.5.0'
     summary: Shows the location on map corresponding to the given coordinates
     remarks: ''
     previewState: beta
@@ -47,7 +48,7 @@ functions:
       content: 'function showLocation(location: Location): Promise<void>'
       parameters:
         - id: location
-          type: <xref uid="@microsoft/teams-js.geoLocation.Location" />
+          type: '@microsoft/teams-js - <xref uid="v2.5.0.geoLocation.Location" />'
           description: Location to be shown on the map
       return:
         description: >-
