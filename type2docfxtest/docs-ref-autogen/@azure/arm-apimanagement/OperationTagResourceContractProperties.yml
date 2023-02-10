@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationTagResourceContractProperties
-uid: '@azure/arm-apimanagement - v8.1.2.OperationTagResourceContractProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OperationTagResourceContractProperties'
+package: '@azure/arm-apimanagement'
 summary: Operation Entity contract Properties.
 fullName: OperationTagResourceContractProperties
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.apiName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationTagResourceContractProperties.apiName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       API Name.
 
@@ -28,9 +26,8 @@ properties:
         type: undefined | string
   - name: apiRevision
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.apiRevision
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.OperationTagResourceContractProperties.apiRevision
+    package: '@azure/arm-apimanagement'
     summary: >-
       API Revision.
 
@@ -45,10 +42,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersion
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.apiVersion
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationTagResourceContractProperties.apiVersion'
+    package: '@azure/arm-apimanagement'
     summary: >-
       API Version.
 
@@ -64,9 +59,8 @@ properties:
         type: undefined | string
   - name: description
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.description
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.OperationTagResourceContractProperties.description
+    package: '@azure/arm-apimanagement'
     summary: >-
       Operation Description.
 
@@ -81,10 +75,8 @@ properties:
         description: ''
         type: undefined | string
   - name: id
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.id
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationTagResourceContractProperties.id'
+    package: '@azure/arm-apimanagement'
     summary: 'Identifier of the operation in form /operations/{operationId}.'
     fullName: id
     remarks: ''
@@ -95,10 +87,8 @@ properties:
         description: ''
         type: undefined | string
   - name: method
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.method
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationTagResourceContractProperties.method'
+    package: '@azure/arm-apimanagement'
     summary: >-
       A Valid HTTP Operation Method. Typical Http Methods like GET, PUT, POST
       but not limited by only them.
@@ -114,10 +104,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.name
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationTagResourceContractProperties.name'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Operation name.
 
@@ -133,9 +121,8 @@ properties:
         type: undefined | string
   - name: urlTemplate
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OperationTagResourceContractProperties.urlTemplate
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.OperationTagResourceContractProperties.urlTemplate
+    package: '@azure/arm-apimanagement'
     summary: >-
       Relative URL template identifying the target resource for this operation.
       May include parameters. Example:

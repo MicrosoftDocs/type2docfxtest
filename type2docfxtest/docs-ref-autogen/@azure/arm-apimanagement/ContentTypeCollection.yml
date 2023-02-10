@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ContentTypeCollection
-uid: '@azure/arm-apimanagement - v8.1.2.ContentTypeCollection'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ContentTypeCollection'
+package: '@azure/arm-apimanagement'
 summary: Paged list of content types.
 fullName: ContentTypeCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentTypeCollection.nextLink'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentTypeCollection.nextLink'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Next page link, if any.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentTypeCollection.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentTypeCollection.value'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Collection of content types.
 
@@ -39,4 +39,4 @@ properties:
       content: 'value?: ContentTypeContract[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ContentTypeContract" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.ContentTypeContract" />[]'

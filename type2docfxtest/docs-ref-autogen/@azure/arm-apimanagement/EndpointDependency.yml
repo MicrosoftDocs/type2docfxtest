@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: EndpointDependency
-uid: '@azure/arm-apimanagement - v8.1.2.EndpointDependency'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.EndpointDependency'
+package: '@azure/arm-apimanagement'
 summary: A domain name that a service is reached at.
 fullName: EndpointDependency
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: domainName
-    uid: '@azure/arm-apimanagement - v8.1.2.EndpointDependency.domainName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.EndpointDependency.domainName'
+    package: '@azure/arm-apimanagement'
     summary: The domain name of the dependency.
     fullName: domainName
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: endpointDetails
-    uid: '@azure/arm-apimanagement - v8.1.2.EndpointDependency.endpointDetails'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.EndpointDependency.endpointDetails'
+    package: '@azure/arm-apimanagement'
     summary: The Ports used when connecting to DomainName.
     fullName: endpointDetails
     remarks: ''
@@ -31,4 +31,4 @@ properties:
       content: 'endpointDetails?: EndpointDetail[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.EndpointDetail" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.EndpointDetail" />[]'

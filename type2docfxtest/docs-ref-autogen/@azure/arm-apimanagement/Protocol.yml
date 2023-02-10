@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Protocol
-uid: '@azure/arm-apimanagement - v8.1.2.Protocol'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Protocol'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for Protocol. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownProtocol> can be used
-  interchangeably with Protocol,
+  <xref:@azure/arm-apimanagement.KnownProtocol> can be used interchangeably with
+  Protocol,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

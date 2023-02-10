@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationsListNextOptionalParams
-uid: '@azure/arm-advisor - v3.1.0.OperationsListNextOptionalParams'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.OperationsListNextOptionalParams'
+package: '@azure/arm-advisor'
 summary: Optional parameters.
 fullName: OperationsListNextOptionalParams
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/arm-advisor - v3.1.0.OperationsListNextOptionalParams.abortSignal'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.OperationsListNextOptionalParams.abortSignal'
+    package: '@azure/arm-advisor'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -22,8 +22,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-advisor - v3.1.0.OperationsListNextOptionalParams.onResponse'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.OperationsListNextOptionalParams.onResponse'
+    package: '@azure/arm-advisor'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -38,10 +38,8 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.OperationsListNextOptionalParams.requestOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.OperationsListNextOptionalParams.requestOptions'
+    package: '@azure/arm-advisor'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -53,10 +51,8 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.OperationsListNextOptionalParams.serializerOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.OperationsListNextOptionalParams.serializerOptions'
+    package: '@azure/arm-advisor'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -68,10 +64,8 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.OperationsListNextOptionalParams.tracingOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.OperationsListNextOptionalParams.tracingOptions'
+    package: '@azure/arm-advisor'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

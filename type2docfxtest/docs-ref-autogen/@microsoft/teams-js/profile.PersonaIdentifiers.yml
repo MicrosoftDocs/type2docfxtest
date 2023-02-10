@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PersonaIdentifiers
-uid: '@microsoft/teams-js - v2.5.0.profile.PersonaIdentifiers'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.profile.PersonaIdentifiers'
+package: '@microsoft/teams-js'
 summary: |
   The set of identifiers that are supported for resolving the persona.
   At least one is required, and if multiple are provided then only the highest

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SdkError
-uid: '@microsoft/teams-js - v2.5.0.SdkError'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.SdkError'
+package: '@microsoft/teams-js'
 summary: ''
 fullName: SdkError
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: errorCode
-    uid: '@microsoft/teams-js - v2.5.0.SdkError.errorCode'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.SdkError.errorCode'
+    package: '@microsoft/teams-js'
     summary: error code
     fullName: errorCode
     remarks: ''
@@ -19,10 +19,10 @@ properties:
       content: 'errorCode: ErrorCode'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.ErrorCode" />'
+        type: <xref uid="@microsoft/teams-js.ErrorCode" />
   - name: message
-    uid: '@microsoft/teams-js - v2.5.0.SdkError.message'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.SdkError.message'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional description for the error. This may contain useful information
       for web-app developers.

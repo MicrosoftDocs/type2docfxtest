@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ListSettingsOptions
-uid: '@azure/app-configuration - v1.3.1.ListSettingsOptions'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.ListSettingsOptions'
+package: '@azure/app-configuration'
 summary: >-
   Common options for 'list' style APIs in AppConfig used to specify wildcards as
   well as
@@ -13,8 +13,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: acceptDateTime
-    uid: '@azure/app-configuration - v1.3.1.ListSettingsOptions.acceptDateTime'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.ListSettingsOptions.acceptDateTime'
+    package: '@azure/app-configuration'
     summary: >-
       Requests the server to respond with the state of the resource at the
       specified time.
@@ -27,8 +27,8 @@ properties:
         description: ''
         type: Date
   - name: keyFilter
-    uid: '@azure/app-configuration - v1.3.1.ListSettingsOptions.keyFilter'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.ListSettingsOptions.keyFilter'
+    package: '@azure/app-configuration'
     summary: >
       Filters for keys. There are two types of matching:
 
@@ -55,8 +55,8 @@ properties:
         description: ''
         type: string
   - name: labelFilter
-    uid: '@azure/app-configuration - v1.3.1.ListSettingsOptions.labelFilter'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.ListSettingsOptions.labelFilter'
+    package: '@azure/app-configuration'
     summary: |
       Filters for labels. There are two types of matching:
       1. Exact matching. Up to 5 labels are allowed, separated by commas (',')
@@ -81,8 +81,8 @@ properties:
         type: string
 inheritedProperties:
   - name: fields
-    uid: '@azure/app-configuration - v1.3.1.ListSettingsOptions.fields'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.ListSettingsOptions.fields'
+    package: '@azure/app-configuration'
     summary: Which fields to return for each ConfigurationSetting
     fullName: fields
     remarks: ''
@@ -98,6 +98,5 @@ inheritedProperties:
           "isReadOnly" | "lastModified")[]
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [OptionalFields.fields](xref:@azure/app-configuration -
-      v1.3.1.OptionalFields.fields)
-extends: '@azure/app-configuration - <xref uid="v1.3.1.OptionalFields" />'
+      [OptionalFields.fields](xref:@azure/app-configuration.OptionalFields.fields)
+extends: <xref uid="@azure/app-configuration.OptionalFields" />

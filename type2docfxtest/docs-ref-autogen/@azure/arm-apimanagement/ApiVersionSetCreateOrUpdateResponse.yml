@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiVersionSetCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSetCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the createOrUpdate operation.
 fullName: ApiVersionSetCreateOrUpdateResponse
 remarks: ''

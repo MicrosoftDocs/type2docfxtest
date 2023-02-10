@@ -1,9 +1,8 @@
 ### YamlMime:TSType
 name: GatewayCertificateAuthorityListByServiceNextOptionalParams
 uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams
-package: '@azure/arm-apimanagement - v8.1.2'
+  @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: GatewayCertificateAuthorityListByServiceNextOptionalParams
 remarks: ''
@@ -12,9 +11,8 @@ type: interface
 properties:
   - name: filter
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.filter
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.filter
+    package: '@azure/arm-apimanagement'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -30,9 +28,8 @@ properties:
         type: undefined | string
   - name: skip
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.skip
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.skip
+    package: '@azure/arm-apimanagement'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -44,9 +41,8 @@ properties:
         type: undefined | number
   - name: top
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.top
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.top
+    package: '@azure/arm-apimanagement'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -59,9 +55,8 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -74,9 +69,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.onResponse
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.onResponse
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -92,9 +86,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -107,9 +100,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -122,9 +114,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityListByServiceNextOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

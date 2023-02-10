@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: RecognizeCategorizedEntitiesResult
-uid: '@azure/ai-text-analytics - v5.1.0.RecognizeCategorizedEntitiesResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult'
+package: '@azure/ai-text-analytics'
 summary: The result of the recognize entities operation on a single document.
 fullName: RecognizeCategorizedEntitiesResult
 remarks: ''

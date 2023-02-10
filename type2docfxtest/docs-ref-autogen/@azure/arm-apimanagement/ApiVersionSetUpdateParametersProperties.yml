@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionSetUpdateParametersProperties
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetUpdateParametersProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSetUpdateParametersProperties'
+package: '@azure/arm-apimanagement'
 summary: Properties used to create or update an API Version Set.
 fullName: ApiVersionSetUpdateParametersProperties
 remarks: ''
@@ -10,9 +10,8 @@ type: interface
 properties:
   - name: displayName
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetUpdateParametersProperties.displayName
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiVersionSetUpdateParametersProperties.displayName
+    package: '@azure/arm-apimanagement'
     summary: Name of API Version Set
     fullName: displayName
     remarks: ''
@@ -24,9 +23,8 @@ properties:
         type: undefined | string
   - name: versioningScheme
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetUpdateParametersProperties.versioningScheme
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiVersionSetUpdateParametersProperties.versioningScheme
+    package: '@azure/arm-apimanagement'
     summary: >-
       An value that determines where the API Version identifier will be located
       in a HTTP request.
@@ -37,13 +35,12 @@ properties:
       content: 'versioningScheme?: VersioningScheme'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.VersioningScheme" />'
+        type: <xref uid="@azure/arm-apimanagement.VersioningScheme" />
 inheritedProperties:
   - name: description
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetUpdateParametersProperties.description
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiVersionSetUpdateParametersProperties.description
+    package: '@azure/arm-apimanagement'
     summary: Description of API Version Set.
     fullName: description
     remarks: ''
@@ -55,13 +52,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiVersionSetEntityBase.description](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetEntityBase.description)
+      [ApiVersionSetEntityBase.description](xref:@azure/arm-apimanagement.ApiVersionSetEntityBase.description)
   - name: versionHeaderName
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetUpdateParametersProperties.versionHeaderName
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiVersionSetUpdateParametersProperties.versionHeaderName
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of HTTP header parameter that indicates the API Version if
       versioningScheme is set to `header`.
@@ -75,13 +70,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiVersionSetEntityBase.versionHeaderName](xref:@azure/arm-apimanagement
-      - v8.1.2.ApiVersionSetEntityBase.versionHeaderName)
+      [ApiVersionSetEntityBase.versionHeaderName](xref:@azure/arm-apimanagement.ApiVersionSetEntityBase.versionHeaderName)
   - name: versionQueryName
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetUpdateParametersProperties.versionQueryName
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiVersionSetUpdateParametersProperties.versionQueryName
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of query parameter that indicates the API Version if versioningScheme
       is set to `query`.
@@ -95,6 +88,5 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiVersionSetEntityBase.versionQueryName](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetEntityBase.versionQueryName)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiVersionSetEntityBase" />'
+      [ApiVersionSetEntityBase.versionQueryName](xref:@azure/arm-apimanagement.ApiVersionSetEntityBase.versionQueryName)
+extends: <xref uid="@azure/arm-apimanagement.ApiVersionSetEntityBase" />

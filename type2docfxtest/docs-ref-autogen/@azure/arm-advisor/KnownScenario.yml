@@ -1,15 +1,13 @@
 ### YamlMime:TSEnum
 name: KnownScenario
-uid: '@azure/arm-advisor - v3.1.0.KnownScenario'
-package: '@azure/arm-advisor - v3.1.0'
-summary: >-
-  Known values of <xref:@azure/arm-advisor - v3.1.0.Scenario> that the service
-  accepts.
+uid: '@azure/arm-advisor.KnownScenario'
+package: '@azure/arm-advisor'
+summary: 'Known values of <xref:@azure/arm-advisor.Scenario> that the service accepts.'
 fullName: KnownScenario
 remarks: ''
 isDeprecated: false
 fields:
   - name: Alerts
-    uid: '@azure/arm-advisor - v3.1.0.KnownScenario.Alerts'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownScenario.Alerts'
+    package: '@azure/arm-advisor'
     summary: Alerts

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionConstraint
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionConstraint'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionConstraint'
+package: '@azure/arm-apimanagement'
 summary: Control Plane Apis version constraint for the API Management service.
 fullName: ApiVersionConstraint
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: minApiVersion
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionConstraint.minApiVersion'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionConstraint.minApiVersion'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Limit control plane API calls to API Management service with version equal
       to or newer than this value.

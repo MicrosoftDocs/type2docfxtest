@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiProduct
-uid: '@azure/arm-apimanagement - v8.1.2.ApiProduct'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiProduct'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiProduct.
 fullName: ApiProduct
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'listByApis(string, string, string, ApiProductListByApisOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiProduct.listByApis'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiProduct.listByApis'
+    package: '@azure/arm-apimanagement'
     summary: 'Lists all Products, which the API is part of.'
     remarks: ''
     isDeprecated: false
@@ -33,12 +33,12 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiProductListByApisOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiProductListByApisOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ProductContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ProductContract" />&gt;

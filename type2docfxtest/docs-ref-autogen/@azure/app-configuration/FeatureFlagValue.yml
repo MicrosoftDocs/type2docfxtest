@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: FeatureFlagValue
-uid: '@azure/app-configuration - v1.3.1.FeatureFlagValue'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.FeatureFlagValue'
+package: '@azure/app-configuration'
 summary: Value of a feature flag
 fullName: FeatureFlagValue
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: conditions
-    uid: '@azure/app-configuration - v1.3.1.FeatureFlagValue.conditions'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.FeatureFlagValue.conditions'
+    package: '@azure/app-configuration'
     summary: >
       A Feature filter consistently evaluates the state of a feature flag.
 
@@ -35,8 +35,8 @@ properties:
           { clientFilters: { name: string, parameters?: Record&lt;string,
           unknown&gt; }[] }
   - name: description
-    uid: '@azure/app-configuration - v1.3.1.FeatureFlagValue.description'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.FeatureFlagValue.description'
+    package: '@azure/app-configuration'
     summary: Description of the feature.
     fullName: description
     remarks: ''
@@ -47,8 +47,8 @@ properties:
         description: ''
         type: string
   - name: displayName
-    uid: '@azure/app-configuration - v1.3.1.FeatureFlagValue.displayName'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.FeatureFlagValue.displayName'
+    package: '@azure/app-configuration'
     summary: Display name for the feature to use for display rather than the ID.
     fullName: displayName
     remarks: ''
@@ -59,8 +59,8 @@ properties:
         description: ''
         type: string
   - name: enabled
-    uid: '@azure/app-configuration - v1.3.1.FeatureFlagValue.enabled'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.FeatureFlagValue.enabled'
+    package: '@azure/app-configuration'
     summary: Boolean flag to say if the feature flag is enabled.
     fullName: enabled
     remarks: ''
@@ -71,8 +71,8 @@ properties:
         description: ''
         type: boolean
   - name: id
-    uid: '@azure/app-configuration - v1.3.1.FeatureFlagValue.id'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.FeatureFlagValue.id'
+    package: '@azure/app-configuration'
     summary: Id for the feature flag.
     fullName: id
     remarks: ''

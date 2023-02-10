@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IssueCommentCollection
-uid: '@azure/arm-apimanagement - v8.1.2.IssueCommentCollection'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.IssueCommentCollection'
+package: '@azure/arm-apimanagement'
 summary: Paged Issue Comment list representation.
 fullName: IssueCommentCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement - v8.1.2.IssueCommentCollection.count'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IssueCommentCollection.count'
+    package: '@azure/arm-apimanagement'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement - v8.1.2.IssueCommentCollection.nextLink'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IssueCommentCollection.nextLink'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Next page link if any.
 
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.IssueCommentCollection.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IssueCommentCollection.value'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Issue Comment values.
 
@@ -51,6 +51,4 @@ properties:
       content: 'value?: IssueCommentContract[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref uid="v8.1.2.IssueCommentContract"
-          />[]
+        type: '<xref uid="@azure/arm-apimanagement.IssueCommentContract" />[]'

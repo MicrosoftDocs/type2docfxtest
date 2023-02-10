@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ConfigurationListResult
-uid: '@azure/arm-advisor - v3.1.0.ConfigurationListResult'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.ConfigurationListResult'
+package: '@azure/arm-advisor'
 summary: The list of Advisor configurations.
 fullName: ConfigurationListResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-advisor - v3.1.0.ConfigurationListResult.nextLink'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ConfigurationListResult.nextLink'
+    package: '@azure/arm-advisor'
     summary: The link used to get the next page of configurations.
     fullName: nextLink
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-advisor - v3.1.0.ConfigurationListResult.value'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ConfigurationListResult.value'
+    package: '@azure/arm-advisor'
     summary: The list of configurations.
     fullName: value
     remarks: ''
@@ -31,4 +31,4 @@ properties:
       content: 'value?: ConfigData[]'
       return:
         description: ''
-        type: '@azure/arm-advisor - <xref uid="v3.1.0.ConfigData" />[]'
+        type: '<xref uid="@azure/arm-advisor.ConfigData" />[]'

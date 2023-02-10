@@ -1,13 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: CertificateConfigurationStoreName
-uid: '@azure/arm-apimanagement - v8.1.2.CertificateConfigurationStoreName'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.CertificateConfigurationStoreName'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for CertificateConfigurationStoreName. \
 
-  <xref:@azure/arm-apimanagement -
-  v8.1.2.KnownCertificateConfigurationStoreName> can be used interchangeably
-  with CertificateConfigurationStoreName,
+  <xref:@azure/arm-apimanagement.KnownCertificateConfigurationStoreName> can be
+  used interchangeably with CertificateConfigurationStoreName,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

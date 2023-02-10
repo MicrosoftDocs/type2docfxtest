@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: VideoAndImageProps
-uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.media.VideoAndImageProps'
+package: '@microsoft/teams-js'
 summary: >-
   All properties in VideoAndImageProps are optional and have default values in
   the platform
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: enableFilter
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.enableFilter'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.enableFilter'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; indicate if image filtering mode is enabled on the selected
       image
@@ -27,11 +27,11 @@ inheritedProperties:
         description: ''
         type: boolean
     inheritanceDescription: >-
-      <b>Inherited From</b> [ImageProps.enableFilter](xref:@microsoft/teams-js -
-      v2.5.0.media.ImageProps.enableFilter)
+      <b>Inherited From</b>
+      [ImageProps.enableFilter](xref:@microsoft/teams-js.media.ImageProps.enableFilter)
   - name: imageOutputFormats
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.imageOutputFormats'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.imageOutputFormats'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; Lets the developer specify the image output formats, more than
       one can be specified.
@@ -44,14 +44,13 @@ inheritedProperties:
       content: 'imageOutputFormats?: ImageOutputFormats[]'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.media.ImageOutputFormats" />[]'
+        type: '<xref uid="@microsoft/teams-js.media.ImageOutputFormats" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ImageProps.imageOutputFormats](xref:@microsoft/teams-js -
-      v2.5.0.media.ImageProps.imageOutputFormats)
+      [ImageProps.imageOutputFormats](xref:@microsoft/teams-js.media.ImageProps.imageOutputFormats)
   - name: ink
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.ink'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.ink'
+    package: '@microsoft/teams-js'
     summary: |-
       Optional; indicate if inking on the selected Image is allowed or not
       Default value is true
@@ -64,11 +63,11 @@ inheritedProperties:
         description: ''
         type: boolean
     inheritanceDescription: >-
-      <b>Inherited From</b> [ImageProps.ink](xref:@microsoft/teams-js -
-      v2.5.0.media.ImageProps.ink)
+      <b>Inherited From</b>
+      [ImageProps.ink](xref:@microsoft/teams-js.media.ImageProps.ink)
   - name: isFullScreenMode
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.isFullScreenMode'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.isFullScreenMode'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; to determine if the video capturing flow needs to be launched
 
@@ -87,11 +86,10 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [VideoProps.isFullScreenMode](xref:@microsoft/teams-js -
-      v2.5.0.media.VideoProps.isFullScreenMode)
+      [VideoProps.isFullScreenMode](xref:@microsoft/teams-js.media.VideoProps.isFullScreenMode)
   - name: isStopButtonVisible
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.isStopButtonVisible'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.isStopButtonVisible'
+    package: '@microsoft/teams-js'
     summary: |-
       Optional; controls the visibility of stop button in PictureInPicture Mode.
       Default value is true, indicating the user will be able to stop the video.
@@ -105,11 +103,10 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [VideoProps.isStopButtonVisible](xref:@microsoft/teams-js -
-      v2.5.0.media.VideoProps.isStopButtonVisible)
+      [VideoProps.isStopButtonVisible](xref:@microsoft/teams-js.media.VideoProps.isStopButtonVisible)
   - name: maxDuration
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.maxDuration'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.maxDuration'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; the maximum duration in seconds after which the recording should
       terminate automatically.
@@ -124,11 +121,11 @@ inheritedProperties:
         description: ''
         type: number
     inheritanceDescription: >-
-      <b>Inherited From</b> [VideoProps.maxDuration](xref:@microsoft/teams-js -
-      v2.5.0.media.VideoProps.maxDuration)
+      <b>Inherited From</b>
+      [VideoProps.maxDuration](xref:@microsoft/teams-js.media.VideoProps.maxDuration)
   - name: textSticker
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.textSticker'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.textSticker'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; indicate if putting text stickers on the selected Image is
       allowed or not
@@ -143,11 +140,11 @@ inheritedProperties:
         description: ''
         type: boolean
     inheritanceDescription: >-
-      <b>Inherited From</b> [ImageProps.textSticker](xref:@microsoft/teams-js -
-      v2.5.0.media.ImageProps.textSticker)
+      <b>Inherited From</b>
+      [ImageProps.textSticker](xref:@microsoft/teams-js.media.ImageProps.textSticker)
   - name: videoController
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoAndImageProps.videoController'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoAndImageProps.videoController'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; setting VideoController will register your app to listen to the
       lifecycle events during the video capture flow.
@@ -161,9 +158,8 @@ inheritedProperties:
       content: 'videoController?: VideoController'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.media.VideoController" />'
+        type: <xref uid="@microsoft/teams-js.media.VideoController" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [VideoProps.videoController](xref:@microsoft/teams-js -
-      v2.5.0.media.VideoProps.videoController)
-extends: '@microsoft/teams-js - <xref uid="v2.5.0.media.ImageProps" />'
+      [VideoProps.videoController](xref:@microsoft/teams-js.media.VideoProps.videoController)
+extends: <xref uid="@microsoft/teams-js.media.ImageProps" />

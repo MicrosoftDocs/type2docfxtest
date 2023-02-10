@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DeletedServices
-uid: '@azure/arm-apimanagement - v8.1.2.DeletedServices'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.DeletedServices'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a DeletedServices.
 fullName: DeletedServices
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'beginPurge(string, string, DeletedServicesPurgeOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.DeletedServices.beginPurge'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DeletedServices.beginPurge'
+    package: '@azure/arm-apimanagement'
     summary: Purges Api Management Service (deletes it with no option to undelete).
     remarks: ''
     isDeprecated: false
@@ -28,16 +28,16 @@ methods:
           description: The location of the deleted API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.DeletedServicesPurgeOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.DeletedServicesPurgeOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
   - name: 'beginPurgeAndWait(string, string, DeletedServicesPurgeOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.DeletedServices.beginPurgeAndWait'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DeletedServices.beginPurgeAndWait'
+    package: '@azure/arm-apimanagement'
     summary: Purges Api Management Service (deletes it with no option to undelete).
     remarks: ''
     isDeprecated: false
@@ -54,16 +54,16 @@ methods:
           description: The location of the deleted API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.DeletedServicesPurgeOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.DeletedServicesPurgeOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'getByName(string, string, DeletedServicesGetByNameOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.DeletedServices.getByName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DeletedServices.getByName'
+    package: '@azure/arm-apimanagement'
     summary: Get soft-deleted Api Management Service by name.
     remarks: ''
     isDeprecated: false
@@ -81,18 +81,19 @@ methods:
           description: The location of the deleted API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.DeletedServicesGetByNameOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.DeletedServicesGetByNameOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.DeletedServicesGetByNameResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.DeletedServicesGetByNameResponse" />&gt;
   - name: listBySubscription(DeletedServicesListBySubscriptionOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.DeletedServices.listBySubscription'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DeletedServices.listBySubscription'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists all soft-deleted services available for undelete for the given
       subscription.
@@ -106,12 +107,13 @@ methods:
       parameters:
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.DeletedServicesListBySubscriptionOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.DeletedServicesListBySubscriptionOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.DeletedServiceContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.DeletedServiceContract" />&gt;

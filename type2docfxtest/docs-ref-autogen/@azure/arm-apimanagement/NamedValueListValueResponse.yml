@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: NamedValueListValueResponse
-uid: '@azure/arm-apimanagement - v8.1.2.NamedValueListValueResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.NamedValueListValueResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listValue operation.
 fullName: NamedValueListValueResponse
 remarks: ''

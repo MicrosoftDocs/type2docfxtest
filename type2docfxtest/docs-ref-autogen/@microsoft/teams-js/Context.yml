@@ -1,12 +1,12 @@
 ### YamlMime:TSType
 name: Context
-uid: '@microsoft/teams-js - v2.5.0.Context'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.Context'
+package: '@microsoft/teams-js'
 summary: ''
 fullName: Context
 remarks: >-
-  For more details about the updated <xref:@microsoft/teams-js -
-  v2.5.0.app.Context> interface, visit the
+  For more details about the updated <xref:@microsoft/teams-js.app.Context>
+  interface, visit the
 
   [Teams JavaScript client
   SDK](https://learn.microsoft.com/microsoftteams/platform/tabs/how-to/using-teams-client-sdk#updates-to-the-context-interface)
@@ -17,21 +17,20 @@ remarks: >-
   Represents the structure of the received context message.
 isDeprecated: true
 customDeprecatedMessage: >-
-  As of 2.0.0, please use the <xref:@microsoft/teams-js - v2.5.0.app.Context>
-  interface and its updated properties instead.
+  As of 2.0.0, please use the <xref:@microsoft/teams-js.app.Context> interface
+  and its updated properties instead.
 type: interface
 properties:
   - name: actionInfo
-    uid: '@microsoft/teams-js - v2.5.0.Context.actionInfo'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.actionInfo'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: actionInfo
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.actionInfo](xref:@microsoft/teams-js - v2.5.0.ActionInfo)
-      instead
+      app.Context.actionInfo](xref:@microsoft/teams-js.ActionInfo) instead
 
 
       Common information applicable to all content actions
@@ -39,18 +38,18 @@ properties:
       content: 'actionInfo?: ActionInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.ActionInfo" />'
+        type: <xref uid="@microsoft/teams-js.ActionInfo" />
   - name: appIconPosition
-    uid: '@microsoft/teams-js - v2.5.0.Context.appIconPosition'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.appIconPosition'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: appIconPosition
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.iconPositionVertical](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.iconPositionVertical) instead
+      app.Context.app.iconPositionVertical](xref:@microsoft/teams-js.app.AppInfo.iconPositionVertical)
+      instead
 
 
       Personal app icon y coordinate position
@@ -60,16 +59,16 @@ properties:
         description: ''
         type: number
   - name: appLaunchId
-    uid: '@microsoft/teams-js - v2.5.0.Context.appLaunchId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.appLaunchId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: appLaunchId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.appLaunchId](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.appLaunchId) instead
+      app.Context.app.appLaunchId](xref:@microsoft/teams-js.app.AppInfo.appLaunchId)
+      instead
 
 
       ID for the current visible app which is different for across cached
@@ -80,16 +79,16 @@ properties:
         description: ''
         type: string
   - name: appSessionId
-    uid: '@microsoft/teams-js - v2.5.0.Context.appSessionId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.appSessionId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: appSessionId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.sessionId](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.sessionId) instead
+      app.Context.app.sessionId](xref:@microsoft/teams-js.app.AppInfo.sessionId)
+      instead
 
 
       Unique ID for the current session for use in correlating telemetry data.
@@ -99,16 +98,16 @@ properties:
         description: ''
         type: string
   - name: channelId
-    uid: '@microsoft/teams-js - v2.5.0.Context.channelId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.channelId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: channelId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.id](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.id) instead
+      app.Context.channel.id](xref:@microsoft/teams-js.app.ChannelInfo.id)
+      instead
 
 
       The Microsoft Teams ID for the channel with which the content is
@@ -119,16 +118,16 @@ properties:
         description: ''
         type: string
   - name: channelName
-    uid: '@microsoft/teams-js - v2.5.0.Context.channelName'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.channelName'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: channelName
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.displayName](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.displayName) instead
+      app.Context.channel.displayName](xref:@microsoft/teams-js.app.ChannelInfo.displayName)
+      instead
 
 
       The name for the channel with which the content is associated.
@@ -138,16 +137,16 @@ properties:
         description: ''
         type: string
   - name: channelRelativeUrl
-    uid: '@microsoft/teams-js - v2.5.0.Context.channelRelativeUrl'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.channelRelativeUrl'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: channelRelativeUrl
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.relativeUrl](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.relativeUrl) instead
+      app.Context.channel.relativeUrl](xref:@microsoft/teams-js.app.ChannelInfo.relativeUrl)
+      instead
 
 
       The relative path to the SharePoint folder associated with the channel.
@@ -157,16 +156,16 @@ properties:
         description: ''
         type: string
   - name: channelType
-    uid: '@microsoft/teams-js - v2.5.0.Context.channelType'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.channelType'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: channelType
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.membershipType](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.membershipType) instead
+      app.Context.channel.membershipType](xref:@microsoft/teams-js.app.ChannelInfo.membershipType)
+      instead
 
 
       The type of the channel with which the content is associated.
@@ -174,17 +173,17 @@ properties:
       content: 'channelType?: ChannelType'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.ChannelType" />'
+        type: <xref uid="@microsoft/teams-js.ChannelType" />
   - name: chatId
-    uid: '@microsoft/teams-js - v2.5.0.Context.chatId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.chatId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: chatId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [| app.Context.chat.id](xref:@microsoft/teams-js -
-      v2.5.0.app.ChatInfo.id) instead
+      As of 2.0.0, please use [|
+      app.Context.chat.id](xref:@microsoft/teams-js.app.ChatInfo.id) instead
 
 
       The Microsoft Teams ID for the chat with which the content is associated.
@@ -194,16 +193,16 @@ properties:
         description: ''
         type: string
   - name: defaultOneNoteSectionId
-    uid: '@microsoft/teams-js - v2.5.0.Context.defaultOneNoteSectionId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.defaultOneNoteSectionId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: defaultOneNoteSectionId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.defaultOneNoteSectionId](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.defaultOneNoteSectionId) instead
+      app.Context.channel.defaultOneNoteSectionId](xref:@microsoft/teams-js.app.ChannelInfo.defaultOneNoteSectionId)
+      instead
 
 
       The OneNote section ID that is linked to the channel.
@@ -213,15 +212,15 @@ properties:
         description: ''
         type: string
   - name: entityId
-    uid: '@microsoft/teams-js - v2.5.0.Context.entityId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.entityId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: entityId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [| app.Context.page.id](xref:@microsoft/teams-js -
-      v2.5.0.app.PageInfo.id) instead
+      As of 2.0.0, please use [|
+      app.Context.page.id](xref:@microsoft/teams-js.app.PageInfo.id) instead
 
 
       The developer-defined unique ID for the entity this content points to.
@@ -231,16 +230,16 @@ properties:
         description: ''
         type: string
   - name: frameContext
-    uid: '@microsoft/teams-js - v2.5.0.Context.frameContext'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.frameContext'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: frameContext
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.page.frameContext](xref:@microsoft/teams-js -
-      v2.5.0.app.PageInfo.frameContext) instead
+      app.Context.page.frameContext](xref:@microsoft/teams-js.app.PageInfo.frameContext)
+      instead
 
 
       The context where tab url is loaded (content, task, setting, remove,
@@ -249,18 +248,18 @@ properties:
       content: 'frameContext?: FrameContexts'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.FrameContexts" />'
+        type: <xref uid="@microsoft/teams-js.FrameContexts" />
   - name: groupId
-    uid: '@microsoft/teams-js - v2.5.0.Context.groupId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.groupId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: groupId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.team.groupId](xref:@microsoft/teams-js -
-      v2.5.0.app.TeamInfo.groupId) instead
+      app.Context.team.groupId](xref:@microsoft/teams-js.app.TeamInfo.groupId)
+      instead
 
 
       The Office 365 group ID for the team with which the content is associated.
@@ -273,16 +272,16 @@ properties:
         description: ''
         type: string
   - name: hostClientType
-    uid: '@microsoft/teams-js - v2.5.0.Context.hostClientType'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.hostClientType'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: hostClientType
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.host.clientType](xref:@microsoft/teams-js -
-      v2.5.0.app.AppHostInfo.clientType) instead
+      app.Context.app.host.clientType](xref:@microsoft/teams-js.app.AppHostInfo.clientType)
+      instead
 
 
       The type of the host client. Possible values are : android, ios, web,
@@ -294,18 +293,18 @@ properties:
       content: 'hostClientType?: HostClientType'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.HostClientType" />'
+        type: <xref uid="@microsoft/teams-js.HostClientType" />
   - name: hostName
-    uid: '@microsoft/teams-js - v2.5.0.Context.hostName'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.hostName'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: hostName
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.host.name](xref:@microsoft/teams-js -
-      v2.5.0.app.AppHostInfo.name) instead
+      app.Context.app.host.name](xref:@microsoft/teams-js.app.AppHostInfo.name)
+      instead
 
 
       The name of the host client. Possible values are: Office, Orange, Outlook,
@@ -314,18 +313,18 @@ properties:
       content: 'hostName?: HostName'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.HostName" />'
+        type: <xref uid="@microsoft/teams-js.HostName" />
   - name: hostTeamGroupId
-    uid: '@microsoft/teams-js - v2.5.0.Context.hostTeamGroupId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.hostTeamGroupId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: hostTeamGroupId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.ownerGroupId](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.ownerGroupId) instead
+      app.Context.channel.ownerGroupId](xref:@microsoft/teams-js.app.ChannelInfo.ownerGroupId)
+      instead
 
 
       The AAD group ID of the host team.
@@ -335,16 +334,16 @@ properties:
         description: ''
         type: string
   - name: hostTeamTenantId
-    uid: '@microsoft/teams-js - v2.5.0.Context.hostTeamTenantId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.hostTeamTenantId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: hostTeamTenantId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.channel.ownerTenantId](xref:@microsoft/teams-js -
-      v2.5.0.app.ChannelInfo.ownerTenantId) instead
+      app.Context.channel.ownerTenantId](xref:@microsoft/teams-js.app.ChannelInfo.ownerTenantId)
+      instead
 
 
       The tenant ID of the host team.
@@ -354,16 +353,16 @@ properties:
         description: ''
         type: string
   - name: isCallingAllowed
-    uid: '@microsoft/teams-js - v2.5.0.Context.isCallingAllowed'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.isCallingAllowed'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: isCallingAllowed
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.isCallingAllowed](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.isCallingAllowed) instead
+      app.Context.user.isCallingAllowed](xref:@microsoft/teams-js.app.UserInfo.isCallingAllowed)
+      instead
 
 
       Represents whether calling is allowed for the current logged in User
@@ -373,16 +372,16 @@ properties:
         description: ''
         type: boolean
   - name: isFullScreen
-    uid: '@microsoft/teams-js - v2.5.0.Context.isFullScreen'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.isFullScreen'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: isFullScreen
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.page.isFullScreen](xref:@microsoft/teams-js -
-      v2.5.0.app.PageInfo.isFullScreen) instead
+      app.Context.page.isFullScreen](xref:@microsoft/teams-js.app.PageInfo.isFullScreen)
+      instead
 
 
       Indication whether the tab is in full-screen mode.
@@ -392,16 +391,16 @@ properties:
         description: ''
         type: boolean
   - name: isMultiWindow
-    uid: '@microsoft/teams-js - v2.5.0.Context.isMultiWindow'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.isMultiWindow'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: isMultiWindow
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.page.isMultiWindow](xref:@microsoft/teams-js -
-      v2.5.0.app.PageInfo.isMultiWindow) instead
+      app.Context.page.isMultiWindow](xref:@microsoft/teams-js.app.PageInfo.isMultiWindow)
+      instead
 
 
       Indication whether the tab is in a pop out window
@@ -411,16 +410,16 @@ properties:
         description: ''
         type: boolean
   - name: isPSTNCallingAllowed
-    uid: '@microsoft/teams-js - v2.5.0.Context.isPSTNCallingAllowed'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.isPSTNCallingAllowed'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: isPSTNCallingAllowed
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.isPSTNCallingAllowed](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.isPSTNCallingAllowed) instead
+      app.Context.user.isPSTNCallingAllowed](xref:@microsoft/teams-js.app.UserInfo.isPSTNCallingAllowed)
+      instead
 
 
       Represents whether PSTN calling is allowed for the current logged in User
@@ -430,16 +429,16 @@ properties:
         description: ''
         type: boolean
   - name: isTeamArchived
-    uid: '@microsoft/teams-js - v2.5.0.Context.isTeamArchived'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.isTeamArchived'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: isTeamArchived
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.team.isArchived](xref:@microsoft/teams-js -
-      v2.5.0.app.TeamInfo.isArchived) instead
+      app.Context.team.isArchived](xref:@microsoft/teams-js.app.TeamInfo.isArchived)
+      instead
 
 
       Indicates whether team is archived.
@@ -452,16 +451,16 @@ properties:
         description: ''
         type: boolean
   - name: locale
-    uid: '@microsoft/teams-js - v2.5.0.Context.locale'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.locale'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: locale
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.locale](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.locale) instead
+      app.Context.app.locale](xref:@microsoft/teams-js.app.AppInfo.locale)
+      instead
 
 
       The current locale that the user has configured for the app formatted as
@@ -473,16 +472,16 @@ properties:
         description: ''
         type: string
   - name: loginHint
-    uid: '@microsoft/teams-js - v2.5.0.Context.loginHint'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.loginHint'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: loginHint
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.loginHint](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.loginHint) instead
+      app.Context.user.loginHint](xref:@microsoft/teams-js.app.UserInfo.loginHint)
+      instead
 
 
       A value suitable for use as a login_hint when authenticating with Azure
@@ -502,16 +501,16 @@ properties:
         description: ''
         type: string
   - name: meetingId
-    uid: '@microsoft/teams-js - v2.5.0.Context.meetingId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.meetingId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: meetingId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.meeting.id](xref:@microsoft/teams-js -
-      v2.5.0.app.MeetingInfo.id) instead
+      app.Context.meeting.id](xref:@microsoft/teams-js.app.MeetingInfo.id)
+      instead
 
 
       Meeting Id used by tab when running in meeting context
@@ -521,16 +520,16 @@ properties:
         description: ''
         type: string
   - name: mySiteDomain
-    uid: '@microsoft/teams-js - v2.5.0.Context.mySiteDomain'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.mySiteDomain'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: mySiteDomain
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharePointSite.mySiteDomain](xref:@microsoft/teams-js -
-      v2.5.0.app.SharePointSiteInfo.mySiteDomain) instead
+      app.Context.sharePointSite.mySiteDomain](xref:@microsoft/teams-js.app.SharePointSiteInfo.mySiteDomain)
+      instead
 
 
       The SharePoint my site domain associated with the user.
@@ -540,16 +539,16 @@ properties:
         description: ''
         type: string
   - name: mySitePath
-    uid: '@microsoft/teams-js - v2.5.0.Context.mySitePath'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.mySitePath'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: mySitePath
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharePointSite.mySitePath](xref:@microsoft/teams-js -
-      v2.5.0.app.SharePointSiteInfo.mySitePath) instead
+      app.Context.sharePointSite.mySitePath](xref:@microsoft/teams-js.app.SharePointSiteInfo.mySitePath)
+      instead
 
 
       The SharePoint relative path to the current users mysite
@@ -559,16 +558,16 @@ properties:
         description: ''
         type: string
   - name: osLocaleInfo
-    uid: '@microsoft/teams-js - v2.5.0.Context.osLocaleInfo'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.osLocaleInfo'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: osLocaleInfo
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.osLocaleInfo](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.osLocaleInfo) instead
+      app.Context.app.osLocaleInfo](xref:@microsoft/teams-js.app.AppInfo.osLocaleInfo)
+      instead
 
 
       More detailed locale info from the user's OS if available. Can be used
@@ -582,18 +581,18 @@ properties:
       content: 'osLocaleInfo?: LocaleInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.LocaleInfo" />'
+        type: <xref uid="@microsoft/teams-js.LocaleInfo" />
   - name: parentMessageId
-    uid: '@microsoft/teams-js - v2.5.0.Context.parentMessageId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.parentMessageId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: parentMessageId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.parentMessageId](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.parentMessageId) instead
+      app.Context.app.parentMessageId](xref:@microsoft/teams-js.app.AppInfo.parentMessageId)
+      instead
 
 
       The ID of the parent message from which this task module was launched.
@@ -605,16 +604,16 @@ properties:
         description: ''
         type: string
   - name: ringId
-    uid: '@microsoft/teams-js - v2.5.0.Context.ringId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.ringId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: ringId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.host.ringId](xref:@microsoft/teams-js -
-      v2.5.0.app.AppHostInfo.ringId) instead
+      app.Context.app.host.ringId](xref:@microsoft/teams-js.app.AppHostInfo.ringId)
+      instead
 
 
       Current ring ID
@@ -624,16 +623,16 @@ properties:
         description: ''
         type: string
   - name: sessionId
-    uid: '@microsoft/teams-js - v2.5.0.Context.sessionId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.sessionId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: sessionId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.host.sessionId](xref:@microsoft/teams-js -
-      v2.5.0.app.AppHostInfo.sessionId) instead
+      app.Context.app.host.sessionId](xref:@microsoft/teams-js.app.AppHostInfo.sessionId)
+      instead
 
 
       Unique ID for the current Teams session for use in correlating telemetry
@@ -644,16 +643,15 @@ properties:
         description: ''
         type: string
   - name: sharepoint
-    uid: '@microsoft/teams-js - v2.5.0.Context.sharepoint'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.sharepoint'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: sharepoint
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharepoint](xref:@microsoft/teams-js - v2.5.0.app.Context)
-      instead
+      app.Context.sharepoint](xref:@microsoft/teams-js.app.Context) instead
 
 
       SharePoint context. This is only available when hosted in SharePoint.
@@ -663,16 +661,16 @@ properties:
         description: ''
         type: any
   - name: sourceOrigin
-    uid: '@microsoft/teams-js - v2.5.0.Context.sourceOrigin'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.sourceOrigin'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: sourceOrigin
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.page.sourceOrigin](xref:@microsoft/teams-js -
-      v2.5.0.app.PageInfo.sourceOrigin) instead
+      app.Context.page.sourceOrigin](xref:@microsoft/teams-js.app.PageInfo.sourceOrigin)
+      instead
 
 
       Source origin from where the tab is opened
@@ -682,16 +680,16 @@ properties:
         description: ''
         type: string
   - name: subEntityId
-    uid: '@microsoft/teams-js - v2.5.0.Context.subEntityId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.subEntityId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: subEntityId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.page.subPageId](xref:@microsoft/teams-js -
-      v2.5.0.app.PageInfo.subPageId) instead
+      app.Context.page.subPageId](xref:@microsoft/teams-js.app.PageInfo.subPageId)
+      instead
 
 
       The developer-defined unique ID for the sub-entity this content points to.
@@ -705,16 +703,16 @@ properties:
         description: ''
         type: string
   - name: teamId
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.team.internalId](xref:@microsoft/teams-js -
-      v2.5.0.app.TeamInfo.internalId) instead
+      app.Context.team.internalId](xref:@microsoft/teams-js.app.TeamInfo.internalId)
+      instead
 
 
       The Microsoft Teams ID for the team with which the content is associated.
@@ -724,16 +722,16 @@ properties:
         description: ''
         type: string
   - name: teamName
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamName'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamName'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamName
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.team.displayName](xref:@microsoft/teams-js -
-      v2.5.0.app.TeamInfo.displayName) instead
+      app.Context.team.displayName](xref:@microsoft/teams-js.app.TeamInfo.displayName)
+      instead
 
 
       The name for the team with which the content is associated.
@@ -743,16 +741,16 @@ properties:
         description: ''
         type: string
   - name: teamSiteDomain
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamSiteDomain'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamSiteDomain'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamSiteDomain
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSiteDomain](xref:@microsoft/teams-js -
-      v2.5.0.app.SharePointSiteInfo.teamSiteDomain) instead
+      app.Context.sharePointSite.teamSiteDomain](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteDomain)
+      instead
 
 
       The domain of the root SharePoint site associated with the team.
@@ -762,16 +760,16 @@ properties:
         description: ''
         type: string
   - name: teamSiteId
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamSiteId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamSiteId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamSiteId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSiteId](xref:@microsoft/teams-js -
-      v2.5.0.app.SharePointSiteInfo.teamSiteId) instead
+      app.Context.sharePointSite.teamSiteId](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteId)
+      instead
 
 
       Teamsite ID, aka sharepoint site id.
@@ -781,16 +779,16 @@ properties:
         description: ''
         type: string
   - name: teamSitePath
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamSitePath'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamSitePath'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamSitePath
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSitePath](xref:@microsoft/teams-js -
-      v2.5.0.app.SharePointSiteInfo.teamSitePath) instead
+      app.Context.sharePointSite.teamSitePath](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSitePath)
+      instead
 
 
       The relative path to the SharePoint site associated with the team.
@@ -800,16 +798,16 @@ properties:
         description: ''
         type: string
   - name: teamSiteUrl
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamSiteUrl'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamSiteUrl'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamSiteUrl
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSiteUrl](xref:@microsoft/teams-js -
-      v2.5.0.app.SharePointSiteInfo.teamSiteUrl) instead
+      app.Context.sharePointSite.teamSiteUrl](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteUrl)
+      instead
 
 
       The root SharePoint site associated with the team.
@@ -819,16 +817,16 @@ properties:
         description: ''
         type: string
   - name: teamTemplateId
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamTemplateId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamTemplateId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamTemplateId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.team.templateId](xref:@microsoft/teams-js -
-      v2.5.0.app.TeamInfo.templateId) instead
+      app.Context.team.templateId](xref:@microsoft/teams-js.app.TeamInfo.templateId)
+      instead
 
 
       Team Template ID if there was a Team Template associated with the creation
@@ -839,15 +837,15 @@ properties:
         description: ''
         type: string
   - name: teamType
-    uid: '@microsoft/teams-js - v2.5.0.Context.teamType'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.teamType'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: teamType
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [| app.Context.team.type](xref:@microsoft/teams-js
-      - v2.5.0.app.TeamInfo.type) instead
+      As of 2.0.0, please use [|
+      app.Context.team.type](xref:@microsoft/teams-js.app.TeamInfo.type) instead
 
 
       The type of the team.
@@ -855,18 +853,18 @@ properties:
       content: 'teamType?: TeamType'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.TeamType" />'
+        type: <xref uid="@microsoft/teams-js.TeamType" />
   - name: tenantSKU
-    uid: '@microsoft/teams-js - v2.5.0.Context.tenantSKU'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.tenantSKU'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: tenantSKU
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.tenant.teamsSku](xref:@microsoft/teams-js -
-      v2.5.0.app.TenantInfo.teamsSku) instead
+      app.Context.tenant.teamsSku](xref:@microsoft/teams-js.app.TenantInfo.teamsSku)
+      instead
 
 
       The type of license for the current users tenant.
@@ -876,15 +874,15 @@ properties:
         description: ''
         type: string
   - name: theme
-    uid: '@microsoft/teams-js - v2.5.0.Context.theme'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.theme'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: theme
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [| app.Context.app.theme](xref:@microsoft/teams-js
-      - v2.5.0.app.AppInfo.theme) instead
+      As of 2.0.0, please use [|
+      app.Context.app.theme](xref:@microsoft/teams-js.app.AppInfo.theme) instead
 
 
       The current UI theme.
@@ -894,16 +892,16 @@ properties:
         description: ''
         type: string
   - name: tid
-    uid: '@microsoft/teams-js - v2.5.0.Context.tid'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.tid'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: tid
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.tenant.id](xref:@microsoft/teams-js -
-      v2.5.0.app.TenantInfo.id) instead
+      app.Context.user.tenant.id](xref:@microsoft/teams-js.app.TenantInfo.id)
+      instead
 
 
       The Azure AD tenant ID of the current user.
@@ -922,19 +920,20 @@ properties:
         description: ''
         type: string
   - name: upn
-    uid: '@microsoft/teams-js - v2.5.0.Context.upn'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.upn'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: upn
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.loginHint](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.loginHint) or
+      app.Context.user.loginHint](xref:@microsoft/teams-js.app.UserInfo.loginHint)
+      or
 
-      [| app.Context.user.userPrincipalName](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.userPrincipalName) instead.
+      [|
+      app.Context.user.userPrincipalName](xref:@microsoft/teams-js.app.UserInfo.userPrincipalName)
+      instead.
 
       The UPN of the current user.
 
@@ -952,16 +951,16 @@ properties:
         description: ''
         type: string
   - name: userClickTime
-    uid: '@microsoft/teams-js - v2.5.0.Context.userClickTime'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userClickTime'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userClickTime
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.userClickTime](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.userClickTime) instead
+      app.Context.app.userClickTime](xref:@microsoft/teams-js.app.AppInfo.userClickTime)
+      instead
 
 
       Time when the user clicked on the tab
@@ -971,16 +970,16 @@ properties:
         description: ''
         type: number
   - name: userDisplayName
-    uid: '@microsoft/teams-js - v2.5.0.Context.userDisplayName'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userDisplayName'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userDisplayName
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.displayName](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.displayName) instead
+      app.Context.user.displayName](xref:@microsoft/teams-js.app.UserInfo.displayName)
+      instead
 
 
       The address book name of the current user.
@@ -990,16 +989,16 @@ properties:
         description: ''
         type: string
   - name: userFileOpenPreference
-    uid: '@microsoft/teams-js - v2.5.0.Context.userFileOpenPreference'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userFileOpenPreference'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userFileOpenPreference
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.app.userFileOpenPreference](xref:@microsoft/teams-js -
-      v2.5.0.app.AppInfo.userFileOpenPreference) instead
+      app.Context.app.userFileOpenPreference](xref:@microsoft/teams-js.app.AppInfo.userFileOpenPreference)
+      instead
 
 
       Where the user prefers the file to be opened from by default during file
@@ -1008,18 +1007,18 @@ properties:
       content: 'userFileOpenPreference?: FileOpenPreference'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.FileOpenPreference" />'
+        type: <xref uid="@microsoft/teams-js.FileOpenPreference" />
   - name: userLicenseType
-    uid: '@microsoft/teams-js - v2.5.0.Context.userLicenseType'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userLicenseType'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userLicenseType
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.licenseType](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.licenseType) instead
+      app.Context.user.licenseType](xref:@microsoft/teams-js.app.UserInfo.licenseType)
+      instead
 
 
       The license type for the current user.
@@ -1029,15 +1028,15 @@ properties:
         description: ''
         type: string
   - name: userObjectId
-    uid: '@microsoft/teams-js - v2.5.0.Context.userObjectId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userObjectId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userObjectId
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [| app.Context.user.id](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.id) instead
+      As of 2.0.0, please use [|
+      app.Context.user.id](xref:@microsoft/teams-js.app.UserInfo.id) instead
 
 
       The Azure AD object id of the current user.
@@ -1055,16 +1054,16 @@ properties:
         description: ''
         type: string
   - name: userPrincipalName
-    uid: '@microsoft/teams-js - v2.5.0.Context.userPrincipalName'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userPrincipalName'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userPrincipalName
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.user.userPrincipalName](xref:@microsoft/teams-js -
-      v2.5.0.app.UserInfo.userPrincipalName) instead
+      app.Context.user.userPrincipalName](xref:@microsoft/teams-js.app.UserInfo.userPrincipalName)
+      instead
 
 
       The UPN of the current user. This may be an externally-authenticated UPN
@@ -1083,16 +1082,16 @@ properties:
         description: ''
         type: string
   - name: userTeamRole
-    uid: '@microsoft/teams-js - v2.5.0.Context.userTeamRole'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.Context.userTeamRole'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: userTeamRole
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use [|
-      app.Context.team.userRole](xref:@microsoft/teams-js -
-      v2.5.0.app.TeamInfo.userRole) instead
+      app.Context.team.userRole](xref:@microsoft/teams-js.app.TeamInfo.userRole)
+      instead
 
 
       The user's role in the team.
@@ -1106,4 +1105,4 @@ properties:
       content: 'userTeamRole?: UserTeamRole'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.UserTeamRole" />'
+        type: <xref uid="@microsoft/teams-js.UserTeamRole" />

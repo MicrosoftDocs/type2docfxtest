@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TagGetByProductResponse
-uid: '@azure/arm-apimanagement - v8.1.2.TagGetByProductResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TagGetByProductResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the getByProduct operation.
 fullName: TagGetByProductResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiDiagnostic
-uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiDiagnostic'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiDiagnostic.
 fullName: ApiDiagnostic
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string, DiagnosticContract,
       ApiDiagnosticCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiDiagnostic.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates a new Diagnostic for an API or updates an existing one.
     remarks: ''
     isDeprecated: false
@@ -41,24 +41,26 @@ methods:
             service
                                 instance.
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.DiagnosticContract" />'
+          type: <xref uid="@azure/arm-apimanagement.DiagnosticContract" />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDiagnosticCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiDiagnosticCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiDiagnosticCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiDiagnosticCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, string, string, string,
       ApiDiagnosticDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiDiagnostic.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the specified Diagnostic from an API.
     remarks: ''
     isDeprecated: false
@@ -93,16 +95,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDiagnosticDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiDiagnosticDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, string, ApiDiagnosticGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiDiagnostic.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the Diagnostic for an API specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -131,20 +133,20 @@ methods:
                                 instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDiagnosticGetOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiDiagnosticGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiDiagnosticGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiDiagnosticGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       ApiDiagnosticGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiDiagnostic.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the Diagnostic for an API
       specified by its identifier.
@@ -176,20 +178,22 @@ methods:
                                 instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDiagnosticGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiDiagnosticGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiDiagnosticGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiDiagnosticGetEntityTagResponse"
+          />&gt;
   - name: >-
       listByService(string, string, string,
       ApiDiagnosticListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiDiagnostic.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists all diagnostics of an API.
     remarks: ''
     isDeprecated: false
@@ -212,20 +216,21 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDiagnosticListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiDiagnosticListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.DiagnosticContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.DiagnosticContract" />&gt;
   - name: >-
       update(string, string, string, string, string, DiagnosticContract,
       ApiDiagnosticUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiDiagnostic.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiDiagnostic.update'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Updates the details of the Diagnostic for an API specified by its
       identifier.
@@ -262,16 +267,16 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.DiagnosticContract" />'
+          type: <xref uid="@azure/arm-apimanagement.DiagnosticContract" />
           description: Diagnostic Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDiagnosticUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiDiagnosticUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiDiagnosticUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiDiagnosticUpdateResponse" />&gt;

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ResourceRecommendationBase
-uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.ResourceRecommendationBase'
+package: '@azure/arm-advisor'
 summary: Advisor Recommendation.
 fullName: ResourceRecommendationBase
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: actions
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.actions'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.actions'
+    package: '@azure/arm-advisor'
     summary: The list of recommended actions to implement recommendation.
     fullName: actions
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: '[key: string]\: Record[]'
   - name: category
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.category'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.category'
+    package: '@azure/arm-advisor'
     summary: The category of the recommendation.
     fullName: category
     remarks: ''
@@ -31,10 +31,10 @@ properties:
       content: 'category?: Category'
       return:
         description: ''
-        type: '@azure/arm-advisor - <xref uid="v3.1.0.Category" />'
+        type: <xref uid="@azure/arm-advisor.Category" />
   - name: description
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.description'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.description'
+    package: '@azure/arm-advisor'
     summary: The detailed description of recommendation.
     fullName: description
     remarks: ''
@@ -45,10 +45,8 @@ properties:
         description: ''
         type: undefined | string
   - name: exposedMetadataProperties
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.ResourceRecommendationBase.exposedMetadataProperties
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.exposedMetadataProperties'
+    package: '@azure/arm-advisor'
     summary: >-
       The recommendation metadata properties exposed to customer to provide
       additional information.
@@ -61,8 +59,8 @@ properties:
         description: ''
         type: 'undefined | [key: string]: Record'
   - name: extendedProperties
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.extendedProperties'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.extendedProperties'
+    package: '@azure/arm-advisor'
     summary: Extended properties
     fullName: extendedProperties
     remarks: ''
@@ -73,8 +71,8 @@ properties:
         description: ''
         type: 'undefined | [key: string]: string'
   - name: impact
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.impact'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.impact'
+    package: '@azure/arm-advisor'
     summary: The business impact of the recommendation.
     fullName: impact
     remarks: ''
@@ -83,10 +81,10 @@ properties:
       content: 'impact?: Impact'
       return:
         description: ''
-        type: '@azure/arm-advisor - <xref uid="v3.1.0.Impact" />'
+        type: <xref uid="@azure/arm-advisor.Impact" />
   - name: impactedField
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.impactedField'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.impactedField'
+    package: '@azure/arm-advisor'
     summary: The resource type identified by Advisor.
     fullName: impactedField
     remarks: ''
@@ -97,8 +95,8 @@ properties:
         description: ''
         type: undefined | string
   - name: impactedValue
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.impactedValue'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.impactedValue'
+    package: '@azure/arm-advisor'
     summary: The resource identified by Advisor.
     fullName: impactedValue
     remarks: ''
@@ -109,8 +107,8 @@ properties:
         description: ''
         type: undefined | string
   - name: label
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.label'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.label'
+    package: '@azure/arm-advisor'
     summary: The label of recommendation.
     fullName: label
     remarks: ''
@@ -121,8 +119,8 @@ properties:
         description: ''
         type: undefined | string
   - name: lastUpdated
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.lastUpdated'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.lastUpdated'
+    package: '@azure/arm-advisor'
     summary: >-
       The most recent time that Advisor checked the validity of the
       recommendation.
@@ -135,8 +133,8 @@ properties:
         description: ''
         type: Date
   - name: learnMoreLink
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.learnMoreLink'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.learnMoreLink'
+    package: '@azure/arm-advisor'
     summary: The link to learn more about recommendation and generation logic.
     fullName: learnMoreLink
     remarks: ''
@@ -147,8 +145,8 @@ properties:
         description: ''
         type: undefined | string
   - name: metadata
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.metadata'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.metadata'
+    package: '@azure/arm-advisor'
     summary: The recommendation metadata.
     fullName: metadata
     remarks: ''
@@ -159,8 +157,8 @@ properties:
         description: ''
         type: 'undefined | [key: string]: Record'
   - name: potentialBenefits
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.potentialBenefits'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.potentialBenefits'
+    package: '@azure/arm-advisor'
     summary: The potential benefit of implementing recommendation.
     fullName: potentialBenefits
     remarks: ''
@@ -171,10 +169,8 @@ properties:
         description: ''
         type: undefined | string
   - name: recommendationTypeId
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.ResourceRecommendationBase.recommendationTypeId
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.recommendationTypeId'
+    package: '@azure/arm-advisor'
     summary: The recommendation-type GUID.
     fullName: recommendationTypeId
     remarks: ''
@@ -185,8 +181,8 @@ properties:
         description: ''
         type: undefined | string
   - name: remediation
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.remediation'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.remediation'
+    package: '@azure/arm-advisor'
     summary: The automated way to apply recommendation.
     fullName: remediation
     remarks: ''
@@ -197,8 +193,8 @@ properties:
         description: ''
         type: 'undefined | [key: string]: Record'
   - name: resourceMetadata
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.resourceMetadata'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.resourceMetadata'
+    package: '@azure/arm-advisor'
     summary: Metadata of resource that was assessed
     fullName: resourceMetadata
     remarks: ''
@@ -207,10 +203,10 @@ properties:
       content: 'resourceMetadata?: ResourceMetadata'
       return:
         description: ''
-        type: '@azure/arm-advisor - <xref uid="v3.1.0.ResourceMetadata" />'
+        type: <xref uid="@azure/arm-advisor.ResourceMetadata" />
   - name: risk
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.risk'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.risk'
+    package: '@azure/arm-advisor'
     summary: The potential risk of not implementing the recommendation.
     fullName: risk
     remarks: ''
@@ -219,10 +215,10 @@ properties:
       content: 'risk?: Risk'
       return:
         description: ''
-        type: '@azure/arm-advisor - <xref uid="v3.1.0.Risk" />'
+        type: <xref uid="@azure/arm-advisor.Risk" />
   - name: shortDescription
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.shortDescription'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.shortDescription'
+    package: '@azure/arm-advisor'
     summary: A summary of the recommendation.
     fullName: shortDescription
     remarks: ''
@@ -231,10 +227,10 @@ properties:
       content: 'shortDescription?: ShortDescription'
       return:
         description: ''
-        type: '@azure/arm-advisor - <xref uid="v3.1.0.ShortDescription" />'
+        type: <xref uid="@azure/arm-advisor.ShortDescription" />
   - name: suppressionIds
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.suppressionIds'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.suppressionIds'
+    package: '@azure/arm-advisor'
     summary: The list of snoozed and dismissed rules for the recommendation.
     fullName: suppressionIds
     remarks: ''
@@ -246,8 +242,8 @@ properties:
         type: 'string[]'
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.id'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.id'
+    package: '@azure/arm-advisor'
     summary: >-
       The resource ID.
 
@@ -261,12 +257,10 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
-    inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-advisor -
-      v3.1.0.Resource.id)
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:@azure/arm-advisor.Resource.id)'
   - name: name
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.name'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.name'
+    package: '@azure/arm-advisor'
     summary: >-
       The name of the resource.
 
@@ -281,11 +275,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-advisor -
-      v3.1.0.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-advisor.Resource.name)
   - name: type
-    uid: '@azure/arm-advisor - v3.1.0.ResourceRecommendationBase.type'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.ResourceRecommendationBase.type'
+    package: '@azure/arm-advisor'
     summary: >-
       The type of the resource.
 
@@ -300,6 +294,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-advisor -
-      v3.1.0.Resource.type)
-extends: '@azure/arm-advisor - <xref uid="v3.1.0.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-advisor.Resource.type)
+extends: <xref uid="@azure/arm-advisor.Resource" />

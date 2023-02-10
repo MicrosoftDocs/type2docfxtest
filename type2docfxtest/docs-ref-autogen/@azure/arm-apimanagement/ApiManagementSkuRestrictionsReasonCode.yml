@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementSkuRestrictionsReasonCode
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictionsReasonCode'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictionsReasonCode'
+package: '@azure/arm-apimanagement'
 summary: Defines values for ApiManagementSkuRestrictionsReasonCode.
 fullName: ApiManagementSkuRestrictionsReasonCode
 remarks: ''

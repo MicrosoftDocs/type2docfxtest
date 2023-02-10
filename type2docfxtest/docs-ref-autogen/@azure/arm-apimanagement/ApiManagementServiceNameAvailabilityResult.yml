@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementServiceNameAvailabilityResult
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceNameAvailabilityResult'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementServiceNameAvailabilityResult'
+package: '@azure/arm-apimanagement'
 summary: Response of the CheckNameAvailability operation.
 fullName: ApiManagementServiceNameAvailabilityResult
 remarks: ''
@@ -10,9 +10,8 @@ type: interface
 properties:
   - name: message
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiManagementServiceNameAvailabilityResult.message
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiManagementServiceNameAvailabilityResult.message
+    package: '@azure/arm-apimanagement'
     summary: >-
       If reason == invalid, provide the user with the reason why the given name
       is invalid, and provide the resource naming requirements so that the user
@@ -32,9 +31,8 @@ properties:
         type: undefined | string
   - name: nameAvailable
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiManagementServiceNameAvailabilityResult.nameAvailable
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiManagementServiceNameAvailabilityResult.nameAvailable
+    package: '@azure/arm-apimanagement'
     summary: >-
       True if the name is available and can be used to create a new API
       Management service; otherwise false.
@@ -50,10 +48,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: reason
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiManagementServiceNameAvailabilityResult.reason
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementServiceNameAvailabilityResult.reason'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Invalid indicates the name provided does not match the resource provider’s
       naming requirements (incorrect length, unsupported characters, etc.) 
@@ -66,6 +62,4 @@ properties:
       content: 'reason?: NameAvailabilityReason'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref uid="v8.1.2.NameAvailabilityReason"
-          />
+        type: <xref uid="@azure/arm-apimanagement.NameAvailabilityReason" />

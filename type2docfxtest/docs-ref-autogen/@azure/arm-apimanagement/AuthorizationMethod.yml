@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AuthorizationMethod
-uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationMethod'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AuthorizationMethod'
+package: '@azure/arm-apimanagement'
 summary: Defines values for AuthorizationMethod.
 fullName: AuthorizationMethod
 remarks: ''

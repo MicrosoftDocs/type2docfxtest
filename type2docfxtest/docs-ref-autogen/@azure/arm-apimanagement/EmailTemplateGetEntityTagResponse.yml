@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: EmailTemplateGetEntityTagResponse
-uid: '@azure/arm-apimanagement - v8.1.2.EmailTemplateGetEntityTagResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.EmailTemplateGetEntityTagResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the getEntityTag operation.
 fullName: EmailTemplateGetEntityTagResponse
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: HealthcareEntityRelationType
-uid: '@azure/ai-text-analytics - v5.1.0.HealthcareEntityRelationType'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.HealthcareEntityRelationType'
+package: '@azure/ai-text-analytics'
 summary: |-
   Defines values for RelationType. \
   <xref:KnownRelationType> can be used interchangeably with RelationType,

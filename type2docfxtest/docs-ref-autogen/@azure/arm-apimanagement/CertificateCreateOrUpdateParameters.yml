@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: CertificateCreateOrUpdateParameters
-uid: '@azure/arm-apimanagement - v8.1.2.CertificateCreateOrUpdateParameters'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.CertificateCreateOrUpdateParameters'
+package: '@azure/arm-apimanagement'
 summary: Certificate create or update details.
 fullName: CertificateCreateOrUpdateParameters
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: data
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateCreateOrUpdateParameters.data'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateCreateOrUpdateParameters.data'
+    package: '@azure/arm-apimanagement'
     summary: Base 64 encoded certificate using the application/x-pkcs12 representation.
     fullName: data
     remarks: ''
@@ -21,10 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: keyVault
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.CertificateCreateOrUpdateParameters.keyVault
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateCreateOrUpdateParameters.keyVault'
+    package: '@azure/arm-apimanagement'
     summary: KeyVault location details of the certificate.
     fullName: keyVault
     remarks: ''
@@ -34,13 +32,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.KeyVaultContractCreateProperties" />
+          <xref uid="@azure/arm-apimanagement.KeyVaultContractCreateProperties"
+          />
   - name: password
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.CertificateCreateOrUpdateParameters.password
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateCreateOrUpdateParameters.password'
+    package: '@azure/arm-apimanagement'
     summary: Password for the Certificate
     fullName: password
     remarks: ''

@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: ExportResultFormat
-uid: '@azure/arm-apimanagement - v8.1.2.ExportResultFormat'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ExportResultFormat'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for ExportResultFormat. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownExportResultFormat> can be used
+  <xref:@azure/arm-apimanagement.KnownExportResultFormat> can be used
   interchangeably with ExportResultFormat,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

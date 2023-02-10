@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiExportResult
-uid: '@azure/arm-apimanagement - v8.1.2.ApiExportResult'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiExportResult'
+package: '@azure/arm-apimanagement'
 summary: API Export result.
 fullName: ApiExportResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: exportResultFormat
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiExportResult.exportResultFormat'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiExportResult.exportResultFormat'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Format in which the API Details are exported to the Storage Blob with Sas
       Key valid for 5 minutes.
@@ -21,10 +21,10 @@ properties:
       content: 'exportResultFormat?: ExportResultFormat'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ExportResultFormat" />'
+        type: <xref uid="@azure/arm-apimanagement.ExportResultFormat" />
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiExportResult.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiExportResult.id'
+    package: '@azure/arm-apimanagement'
     summary: ResourceId of the API which was exported.
     fullName: id
     remarks: ''
@@ -35,8 +35,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiExportResult.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiExportResult.value'
+    package: '@azure/arm-apimanagement'
     summary: The object defining the schema of the exported API Detail
     fullName: value
     remarks: ''
@@ -45,4 +45,4 @@ properties:
       content: 'value?: ApiExportResultValue'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiExportResultValue" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiExportResultValue" />

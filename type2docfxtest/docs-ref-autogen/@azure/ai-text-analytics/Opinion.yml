@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Opinion
-uid: '@azure/ai-text-analytics - v5.1.0.Opinion'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.Opinion'
+package: '@azure/ai-text-analytics'
 summary: |-
   A mined opinion object represents an opinion we've extracted from a sentence.
   It consists of both a target that these assessments are about, and the actual
@@ -12,8 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: assessments
-    uid: '@azure/ai-text-analytics - v5.1.0.Opinion.assessments'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Opinion.assessments'
+    package: '@azure/ai-text-analytics'
     summary: The actual assessments of the target.
     fullName: assessments
     remarks: ''
@@ -22,10 +22,10 @@ properties:
       content: 'assessments: AssessmentSentiment[]'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.AssessmentSentiment" />[]'
+        type: '<xref uid="@azure/ai-text-analytics.AssessmentSentiment" />[]'
   - name: target
-    uid: '@azure/ai-text-analytics - v5.1.0.Opinion.target'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Opinion.target'
+    package: '@azure/ai-text-analytics'
     summary: The target of a product/service that this assessment is about.
     fullName: target
     remarks: ''
@@ -34,4 +34,4 @@ properties:
       content: 'target: TargetSentiment'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.TargetSentiment" />'
+        type: <xref uid="@azure/ai-text-analytics.TargetSentiment" />

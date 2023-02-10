@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DelegationSettingsGetEntityTagHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.DelegationSettingsGetEntityTagHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.DelegationSettingsGetEntityTagHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for DelegationSettings_getEntityTag operation.
 fullName: DelegationSettingsGetEntityTagHeaders
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.DelegationSettingsGetEntityTagHeaders.eTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DelegationSettingsGetEntityTagHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

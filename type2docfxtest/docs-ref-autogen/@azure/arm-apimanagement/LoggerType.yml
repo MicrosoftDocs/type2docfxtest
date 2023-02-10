@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: LoggerType
-uid: '@azure/arm-apimanagement - v8.1.2.LoggerType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.LoggerType'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for LoggerType. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownLoggerType> can be used
-  interchangeably with LoggerType,
+  <xref:@azure/arm-apimanagement.KnownLoggerType> can be used interchangeably
+  with LoggerType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

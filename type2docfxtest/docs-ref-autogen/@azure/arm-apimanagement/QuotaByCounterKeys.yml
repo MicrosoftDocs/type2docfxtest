@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: QuotaByCounterKeys
-uid: '@azure/arm-apimanagement - v8.1.2.QuotaByCounterKeys'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.QuotaByCounterKeys'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a QuotaByCounterKeys.
 fullName: QuotaByCounterKeys
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       listByService(string, string, string,
       QuotaByCounterKeysListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.QuotaByCounterKeys.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.QuotaByCounterKeys.listByService'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists a collection of current quota counter periods associated with the
       counter-key configured in
@@ -44,20 +44,22 @@ methods:
                                    counter-key="@("b"+"a")" then it will be accessible by "ba" key
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.QuotaByCounterKeysListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.QuotaByCounterKeysListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.QuotaByCounterKeysListByServiceResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.QuotaByCounterKeysListByServiceResponse"
+          />&gt;
   - name: >-
       update(string, string, string, QuotaCounterValueUpdateContract,
       QuotaByCounterKeysUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.QuotaByCounterKeys.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.QuotaByCounterKeys.update'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Updates all the quota counter values specified with the existing quota
       counter key to a value in the
@@ -89,19 +91,20 @@ methods:
                                    counter-key="@("b"+"a")" then it will be accessible by "ba" key
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.QuotaCounterValueUpdateContract" />
+            <xref uid="@azure/arm-apimanagement.QuotaCounterValueUpdateContract"
+            />
           description: >-
             The value of the quota counter to be applied to all quota counter
             periods.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.QuotaByCounterKeysUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.QuotaByCounterKeysUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.QuotaByCounterKeysUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.QuotaByCounterKeysUpdateResponse" />&gt;

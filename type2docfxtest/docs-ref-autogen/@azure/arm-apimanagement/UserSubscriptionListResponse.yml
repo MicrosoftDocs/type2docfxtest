@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: UserSubscriptionListResponse
-uid: '@azure/arm-apimanagement - v8.1.2.UserSubscriptionListResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.UserSubscriptionListResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the list operation.
 fullName: UserSubscriptionListResponse
 remarks: ''

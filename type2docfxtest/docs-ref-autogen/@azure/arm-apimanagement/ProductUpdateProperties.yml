@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductUpdateProperties
-uid: '@azure/arm-apimanagement - v8.1.2.ProductUpdateProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ProductUpdateProperties'
+package: '@azure/arm-apimanagement'
 summary: Parameters supplied to the Update Product operation.
 fullName: ProductUpdateProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: displayName
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductUpdateProperties.displayName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.displayName'
+    package: '@azure/arm-apimanagement'
     summary: Product name.
     fullName: displayName
     remarks: ''
@@ -22,8 +22,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: approvalRequired
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductUpdateProperties.approvalRequired'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.approvalRequired'
+    package: '@azure/arm-apimanagement'
     summary: >-
       whether subscription approval is required. If false, new subscriptions
       will be approved automatically enabling developers to call the product’s
@@ -41,11 +41,10 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ProductEntityBaseParameters.approvalRequired](xref:@azure/arm-apimanagement
-      - v8.1.2.ProductEntityBaseParameters.approvalRequired)
+      [ProductEntityBaseParameters.approvalRequired](xref:@azure/arm-apimanagement.ProductEntityBaseParameters.approvalRequired)
   - name: description
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductUpdateProperties.description'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.description'
+    package: '@azure/arm-apimanagement'
     summary: Product description. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -57,11 +56,10 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ProductEntityBaseParameters.description](xref:@azure/arm-apimanagement -
-      v8.1.2.ProductEntityBaseParameters.description)
+      [ProductEntityBaseParameters.description](xref:@azure/arm-apimanagement.ProductEntityBaseParameters.description)
   - name: state
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductUpdateProperties.state'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.state'
+    package: '@azure/arm-apimanagement'
     summary: >-
       whether product is published or not. Published products are discoverable
       by users of developer portal. Non published products are visible only to
@@ -73,16 +71,13 @@ inheritedProperties:
       content: 'state?: ProductState'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductState" />'
+        type: <xref uid="@azure/arm-apimanagement.ProductState" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ProductEntityBaseParameters.state](xref:@azure/arm-apimanagement -
-      v8.1.2.ProductEntityBaseParameters.state)
+      [ProductEntityBaseParameters.state](xref:@azure/arm-apimanagement.ProductEntityBaseParameters.state)
   - name: subscriptionRequired
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ProductUpdateProperties.subscriptionRequired
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.subscriptionRequired'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Whether a product subscription is required for accessing APIs included in
       this product. If true, the product is referred to as "protected" and a
@@ -101,13 +96,10 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ProductEntityBaseParameters.subscriptionRequired](xref:@azure/arm-apimanagement
-      - v8.1.2.ProductEntityBaseParameters.subscriptionRequired)
+      [ProductEntityBaseParameters.subscriptionRequired](xref:@azure/arm-apimanagement.ProductEntityBaseParameters.subscriptionRequired)
   - name: subscriptionsLimit
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ProductUpdateProperties.subscriptionsLimit
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.subscriptionsLimit'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Whether the number of subscriptions a user can have to this product at the
       same time. Set to null or omit to allow unlimited per user subscriptions.
@@ -123,11 +115,10 @@ inheritedProperties:
         type: undefined | number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ProductEntityBaseParameters.subscriptionsLimit](xref:@azure/arm-apimanagement
-      - v8.1.2.ProductEntityBaseParameters.subscriptionsLimit)
+      [ProductEntityBaseParameters.subscriptionsLimit](xref:@azure/arm-apimanagement.ProductEntityBaseParameters.subscriptionsLimit)
   - name: terms
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductUpdateProperties.terms'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductUpdateProperties.terms'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Product terms of use. Developers trying to subscribe to the product will
       be presented and required to accept these terms before they can complete
@@ -142,6 +133,5 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ProductEntityBaseParameters.terms](xref:@azure/arm-apimanagement -
-      v8.1.2.ProductEntityBaseParameters.terms)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductEntityBaseParameters" />'
+      [ProductEntityBaseParameters.terms](xref:@azure/arm-apimanagement.ProductEntityBaseParameters.terms)
+extends: <xref uid="@azure/arm-apimanagement.ProductEntityBaseParameters" />

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OutboundEnvironmentEndpoint
-uid: '@azure/arm-apimanagement - v8.1.2.OutboundEnvironmentEndpoint'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OutboundEnvironmentEndpoint'
+package: '@azure/arm-apimanagement'
 summary: >-
   Endpoints accessed for a common purpose that the Api Management Service
   requires outbound network access to.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: category
-    uid: '@azure/arm-apimanagement - v8.1.2.OutboundEnvironmentEndpoint.category'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OutboundEnvironmentEndpoint.category'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of service accessed by the Api Management Service, e.g., Azure
       Storage, Azure SQL Database, and Azure Active Directory.
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: endpoints
-    uid: '@azure/arm-apimanagement - v8.1.2.OutboundEnvironmentEndpoint.endpoints'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OutboundEnvironmentEndpoint.endpoints'
+    package: '@azure/arm-apimanagement'
     summary: The endpoints that the Api Management Service reaches the service at.
     fullName: endpoints
     remarks: ''
@@ -35,4 +35,4 @@ properties:
       content: 'endpoints?: EndpointDependency[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.EndpointDependency" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.EndpointDependency" />[]'

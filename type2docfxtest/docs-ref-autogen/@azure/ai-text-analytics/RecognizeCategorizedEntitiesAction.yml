@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizeCategorizedEntitiesAction
-uid: '@azure/ai-text-analytics - v5.1.0.RecognizeCategorizedEntitiesAction'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction'
+package: '@azure/ai-text-analytics'
 summary: Options for an entities recognition action.
 fullName: RecognizeCategorizedEntitiesAction
 remarks: ''
@@ -10,9 +10,8 @@ type: interface
 properties:
   - name: disableServiceLogs
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesAction.disableServiceLogs
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesAction.disableServiceLogs
+    package: '@azure/ai-text-analytics'
     summary: >-
       If set to true, you opt-out of having your text input logged for
       troubleshooting. By default, Text Analytics
@@ -32,9 +31,8 @@ properties:
         type: boolean
   - name: stringIndexType
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesAction.stringIndexType
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesAction.stringIndexType
+    package: '@azure/ai-text-analytics'
     summary: >-
       Specifies the measurement unit used to calculate the offset and length
       properties.
@@ -50,13 +48,11 @@ properties:
       content: 'stringIndexType?: StringIndexType'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.StringIndexType" />'
+        type: <xref uid="@azure/ai-text-analytics.StringIndexType" />
 inheritedProperties:
   - name: actionName
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesAction.actionName
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction.actionName'
+    package: '@azure/ai-text-analytics'
     summary: The preferred name for this action.
     fullName: actionName
     remarks: ''
@@ -68,13 +64,10 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsAction.actionName](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsAction.actionName)
+      [TextAnalyticsAction.actionName](xref:@azure/ai-text-analytics.TextAnalyticsAction.actionName)
   - name: modelVersion
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesAction.modelVersion
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction.modelVersion'
+    package: '@azure/ai-text-analytics'
     summary: |-
       The version of the text analytics model used by this operation on this
       batch of input documents.
@@ -88,6 +81,5 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsAction.modelVersion](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsAction.modelVersion)
-extends: '@azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsAction" />'
+      [TextAnalyticsAction.modelVersion](xref:@azure/ai-text-analytics.TextAnalyticsAction.modelVersion)
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsAction" />

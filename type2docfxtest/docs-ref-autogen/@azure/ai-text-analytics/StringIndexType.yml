@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: StringIndexType
-uid: '@azure/ai-text-analytics - v5.1.0.StringIndexType'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.StringIndexType'
+package: '@azure/ai-text-analytics'
 summary: Measurement units that can used to calculate the offset and length properties.
 fullName: StringIndexType
 remarks: ''

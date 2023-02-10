@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: LocaleInfo
-uid: '@microsoft/teams-js - v2.5.0.LocaleInfo'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.LocaleInfo'
+package: '@microsoft/teams-js'
 summary: Represents OS locale info used for formatting date and time data
 fullName: LocaleInfo
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: longDate
-    uid: '@microsoft/teams-js - v2.5.0.LocaleInfo.longDate'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.LocaleInfo.longDate'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: longDate
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: string
   - name: longTime
-    uid: '@microsoft/teams-js - v2.5.0.LocaleInfo.longTime'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.LocaleInfo.longTime'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: longTime
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: string
   - name: platform
-    uid: '@microsoft/teams-js - v2.5.0.LocaleInfo.platform'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.LocaleInfo.platform'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: platform
     remarks: ''
@@ -45,8 +45,8 @@ properties:
         description: ''
         type: '"windows" | "macos"'
   - name: regionalFormat
-    uid: '@microsoft/teams-js - v2.5.0.LocaleInfo.regionalFormat'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.LocaleInfo.regionalFormat'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: regionalFormat
     remarks: ''
@@ -57,8 +57,8 @@ properties:
         description: ''
         type: string
   - name: shortDate
-    uid: '@microsoft/teams-js - v2.5.0.LocaleInfo.shortDate'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.LocaleInfo.shortDate'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: shortDate
     remarks: ''
@@ -69,8 +69,8 @@ properties:
         description: ''
         type: string
   - name: shortTime
-    uid: '@microsoft/teams-js - v2.5.0.LocaleInfo.shortTime'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.LocaleInfo.shortTime'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: shortTime
     remarks: ''

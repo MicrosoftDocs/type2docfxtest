@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserIdentities
-uid: '@azure/arm-apimanagement - v8.1.2.UserIdentities'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.UserIdentities'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a UserIdentities.
 fullName: UserIdentities
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'list(string, string, string, UserIdentitiesListOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.UserIdentities.list'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserIdentities.list'
+    package: '@azure/arm-apimanagement'
     summary: List of all user identities.
     remarks: ''
     isDeprecated: false
@@ -33,12 +33,12 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.UserIdentitiesListOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.UserIdentitiesListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.UserIdentityContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.UserIdentityContract" />&gt;

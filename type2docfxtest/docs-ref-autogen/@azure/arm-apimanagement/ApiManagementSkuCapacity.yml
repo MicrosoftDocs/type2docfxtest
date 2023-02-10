@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkuCapacity
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapacity'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkuCapacity'
+package: '@azure/arm-apimanagement'
 summary: Describes scaling information of a SKU.
 fullName: ApiManagementSkuCapacity
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: default
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapacity.default'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCapacity.default'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The default capacity.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | number
   - name: maximum
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapacity.maximum'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCapacity.maximum'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The maximum capacity that can be set.
 
@@ -41,8 +41,8 @@ properties:
         description: ''
         type: undefined | number
   - name: minimum
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapacity.minimum'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCapacity.minimum'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The minimum capacity.
 
@@ -57,8 +57,8 @@ properties:
         description: ''
         type: undefined | number
   - name: scaleType
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapacity.scaleType'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCapacity.scaleType'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The scale type applicable to the sku.
 
@@ -72,5 +72,5 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiManagementSkuCapacityScaleType" />
+          <xref uid="@azure/arm-apimanagement.ApiManagementSkuCapacityScaleType"
+          />

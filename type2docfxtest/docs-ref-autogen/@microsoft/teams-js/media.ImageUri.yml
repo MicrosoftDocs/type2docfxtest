@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ImageUri
-uid: '@microsoft/teams-js - v2.5.0.media.ImageUri'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.media.ImageUri'
+package: '@microsoft/teams-js'
 summary: Input for view images API
 fullName: ImageUri
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: type
-    uid: '@microsoft/teams-js - v2.5.0.media.ImageUri.type'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.ImageUri.type'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: type
     remarks: ''
@@ -19,10 +19,10 @@ properties:
       content: 'type: ImageUriType'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.media.ImageUriType" />'
+        type: <xref uid="@microsoft/teams-js.media.ImageUriType" />
   - name: value
-    uid: '@microsoft/teams-js - v2.5.0.media.ImageUri.value'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.ImageUri.value'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: value
     remarks: ''

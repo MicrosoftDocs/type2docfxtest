@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayHostnameConfiguration
-uid: '@azure/arm-apimanagement - v8.1.2.GatewayHostnameConfiguration'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GatewayHostnameConfiguration'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a GatewayHostnameConfiguration.
 fullName: GatewayHostnameConfiguration
 remarks: ''
@@ -12,10 +12,8 @@ methods:
       createOrUpdate(string, string, string, string,
       GatewayHostnameConfigurationContract,
       GatewayHostnameConfigurationCreateOrUpdateOptionalParams)
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayHostnameConfiguration.createOrUpdate
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayHostnameConfiguration.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates of updates hostname configuration for a Gateway.
     remarks: ''
     isDeprecated: false
@@ -47,26 +45,28 @@ methods:
                         entity.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GatewayHostnameConfigurationContract" />
+            <xref
+            uid="@azure/arm-apimanagement.GatewayHostnameConfigurationContract"
+            />
           description: Gateway hostname configuration details.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GatewayHostnameConfigurationCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.GatewayHostnameConfigurationCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GatewayHostnameConfigurationCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.GatewayHostnameConfigurationCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, string, string, string,
       GatewayHostnameConfigurationDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.GatewayHostnameConfiguration.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayHostnameConfiguration.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the specified hostname configuration from the specified Gateway.
     remarks: ''
     isDeprecated: false
@@ -102,8 +102,9 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GatewayHostnameConfigurationDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.GatewayHostnameConfigurationDeleteOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -112,8 +113,8 @@ methods:
   - name: >-
       get(string, string, string, string,
       GatewayHostnameConfigurationGetOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.GatewayHostnameConfiguration.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayHostnameConfiguration.get'
+    package: '@azure/arm-apimanagement'
     summary: Get details of a hostname configuration
     remarks: ''
     isDeprecated: false
@@ -144,22 +145,22 @@ methods:
                         entity.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GatewayHostnameConfigurationGetOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.GatewayHostnameConfigurationGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GatewayHostnameConfigurationGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.GatewayHostnameConfigurationGetResponse"
+          />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       GatewayHostnameConfigurationGetEntityTagOptionalParams)
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayHostnameConfiguration.getEntityTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayHostnameConfiguration.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Checks that hostname configuration entity specified by identifier exists
       for specified Gateway
@@ -194,23 +195,22 @@ methods:
                         entity.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GatewayHostnameConfigurationGetEntityTagOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.GatewayHostnameConfigurationGetEntityTagOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GatewayHostnameConfigurationGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.GatewayHostnameConfigurationGetEntityTagResponse"
+          />&gt;
   - name: >-
       listByService(string, string, string,
       GatewayHostnameConfigurationListByServiceOptionalParams)
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayHostnameConfiguration.listByService
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayHostnameConfiguration.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists the collection of hostname configurations for the specified gateway.
     remarks: ''
     isDeprecated: false
@@ -235,13 +235,14 @@ methods:
                              instance. Must not have value 'managed'
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GatewayHostnameConfigurationListByServiceOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.GatewayHostnameConfigurationListByServiceOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GatewayHostnameConfigurationContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.GatewayHostnameConfigurationContract"
+          />&gt;

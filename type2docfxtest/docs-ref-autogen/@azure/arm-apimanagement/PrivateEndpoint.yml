@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PrivateEndpoint
-uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpoint'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PrivateEndpoint'
+package: '@azure/arm-apimanagement'
 summary: The Private Endpoint resource.
 fullName: PrivateEndpoint
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.PrivateEndpoint.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.PrivateEndpoint.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The ARM identifier for Private Endpoint
 

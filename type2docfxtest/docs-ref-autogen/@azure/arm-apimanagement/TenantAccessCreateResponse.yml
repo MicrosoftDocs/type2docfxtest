@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TenantAccessCreateResponse
-uid: '@azure/arm-apimanagement - v8.1.2.TenantAccessCreateResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TenantAccessCreateResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the create operation.
 fullName: TenantAccessCreateResponse
 remarks: ''

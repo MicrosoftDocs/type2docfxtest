@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: BackendUpdateResponse
-uid: '@azure/arm-apimanagement - v8.1.2.BackendUpdateResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.BackendUpdateResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the update operation.
 fullName: BackendUpdateResponse
 remarks: ''

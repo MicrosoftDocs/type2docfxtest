@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkuLocationInfo
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuLocationInfo'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkuLocationInfo'
+package: '@azure/arm-apimanagement'
 summary: ''
 fullName: ApiManagementSkuLocationInfo
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: location
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuLocationInfo.location'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuLocationInfo.location'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Location of the SKU
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: zoneDetails
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuLocationInfo.zoneDetails'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuLocationInfo.zoneDetails'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Details of capabilities available to a SKU in specific zones.
 
@@ -39,12 +39,10 @@ properties:
       content: 'zoneDetails?: ApiManagementSkuZoneDetails[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiManagementSkuZoneDetails" />[]
+        type: '<xref uid="@azure/arm-apimanagement.ApiManagementSkuZoneDetails" />[]'
   - name: zones
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuLocationInfo.zones'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuLocationInfo.zones'
+    package: '@azure/arm-apimanagement'
     summary: >-
       List of availability zones where the SKU is supported.
 

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SentenceSentiment
-uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.SentenceSentiment'
+package: '@azure/ai-text-analytics'
 summary: >-
   The predicted sentiment for a given span of text. For more information
   regarding text sentiment, see
@@ -12,8 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: confidenceScores
-    uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment.confidenceScores'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentenceSentiment.confidenceScores'
+    package: '@azure/ai-text-analytics'
     summary: >-
       The sentiment confidence score between 0 and 1 for the sentence for all
       classes.
@@ -24,12 +24,10 @@ properties:
       content: 'confidenceScores: SentimentConfidenceScores'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.SentimentConfidenceScores" />
+        type: <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores" />
   - name: length
-    uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment.length'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentenceSentiment.length'
+    package: '@azure/ai-text-analytics'
     summary: The length of the sentence text.
     fullName: length
     remarks: ''
@@ -40,8 +38,8 @@ properties:
         description: ''
         type: number
   - name: offset
-    uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment.offset'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentenceSentiment.offset'
+    package: '@azure/ai-text-analytics'
     summary: The sentence text offset from the start of the document.
     fullName: offset
     remarks: ''
@@ -52,8 +50,8 @@ properties:
         description: ''
         type: number
   - name: opinions
-    uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment.opinions'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentenceSentiment.opinions'
+    package: '@azure/ai-text-analytics'
     summary: |-
       The list of opinions mined from this sentence. For example in "The food is
       good, but the service is bad", we would mine these two opinions "food is
@@ -66,10 +64,10 @@ properties:
       content: 'opinions: Opinion[]'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.Opinion" />[]'
+        type: '<xref uid="@azure/ai-text-analytics.Opinion" />[]'
   - name: sentiment
-    uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment.sentiment'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentenceSentiment.sentiment'
+    package: '@azure/ai-text-analytics'
     summary: The predicted Sentiment for the sentence.
     fullName: sentiment
     remarks: ''
@@ -78,12 +76,10 @@ properties:
       content: 'sentiment: SentenceSentimentLabel'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref uid="v5.1.0.SentenceSentimentLabel"
-          />
+        type: <xref uid="@azure/ai-text-analytics.SentenceSentimentLabel" />
   - name: text
-    uid: '@azure/ai-text-analytics - v5.1.0.SentenceSentiment.text'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentenceSentiment.text'
+    package: '@azure/ai-text-analytics'
     summary: The sentence text.
     fullName: text
     remarks: ''

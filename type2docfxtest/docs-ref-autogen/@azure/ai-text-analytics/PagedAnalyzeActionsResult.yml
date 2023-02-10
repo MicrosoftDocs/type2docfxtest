@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PagedAnalyzeActionsResult
-uid: '@azure/ai-text-analytics - v5.1.0.PagedAnalyzeActionsResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.PagedAnalyzeActionsResult'
+package: '@azure/ai-text-analytics'
 summary: >-
   The results of an analyze actions operation represented as a paged iterator
   that
@@ -13,8 +13,8 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: byPage
-    uid: '@azure/ai-text-analytics - v5.1.0.PagedAnalyzeActionsResult.byPage'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.PagedAnalyzeActionsResult.byPage'
+    package: '@azure/ai-text-analytics'
     summary: Return an AsyncIterableIterator that works a page at a time
     fullName: byPage
     remarks: ''
@@ -27,8 +27,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> PagedAsyncIterableIterator.byPage
 inheritedMethods:
   - name: next()
-    uid: '@azure/ai-text-analytics - v5.1.0.PagedAnalyzeActionsResult.next'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.PagedAnalyzeActionsResult.next'
+    package: '@azure/ai-text-analytics'
     summary: 'The next method, part of the iteration protocol'
     remarks: ''
     isDeprecated: false
@@ -38,20 +38,4 @@ inheritedMethods:
         description: ''
         type: Promise&lt;IteratorResult&lt;TElement&gt;&gt;
     inheritanceDescription: <b>Inherited From</b> PagedAsyncIterableIterator.next
-  - name: '[Symbol.asyncIterator]()'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.PagedAnalyzeActionsResult.[Symbol.asyncIterator]
-    package: '@azure/ai-text-analytics - v5.1.0'
-    summary: 'The connection to the async iterator, part of the iteration protocol'
-    remarks: ''
-    isDeprecated: false
-    syntax:
-      content: >-
-        function [Symbol.asyncIterator](): PagedAsyncIterableIterator<TElement,
-        TPage, TPageSettings>
-      return:
-        description: ''
-        type: 'PagedAsyncIterableIterator&lt;TElement, TPage, TPageSettings&gt;'
-    inheritanceDescription: '<b>Inherited From</b> PagedAsyncIterableIterator.[Symbol.asyncIterator]'
 extends: PagedAsyncIterableIterator

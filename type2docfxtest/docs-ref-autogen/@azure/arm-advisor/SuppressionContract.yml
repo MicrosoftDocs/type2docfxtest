@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SuppressionContract
-uid: '@azure/arm-advisor - v3.1.0.SuppressionContract'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.SuppressionContract'
+package: '@azure/arm-advisor'
 summary: >-
   The details of the snoozed or dismissed rule; for example, the duration, name,
   and GUID associated with the rule.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: expirationTimeStamp
-    uid: '@azure/arm-advisor - v3.1.0.SuppressionContract.expirationTimeStamp'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.SuppressionContract.expirationTimeStamp'
+    package: '@azure/arm-advisor'
     summary: >-
       Gets or sets the expiration time stamp.
 
@@ -27,8 +27,8 @@ properties:
         description: ''
         type: Date
   - name: suppressionId
-    uid: '@azure/arm-advisor - v3.1.0.SuppressionContract.suppressionId'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.SuppressionContract.suppressionId'
+    package: '@azure/arm-advisor'
     summary: The GUID of the suppression.
     fullName: suppressionId
     remarks: ''
@@ -39,8 +39,8 @@ properties:
         description: ''
         type: undefined | string
   - name: ttl
-    uid: '@azure/arm-advisor - v3.1.0.SuppressionContract.ttl'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.SuppressionContract.ttl'
+    package: '@azure/arm-advisor'
     summary: The duration for which the suppression is valid.
     fullName: ttl
     remarks: ''
@@ -52,8 +52,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-advisor - v3.1.0.SuppressionContract.id'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.SuppressionContract.id'
+    package: '@azure/arm-advisor'
     summary: >-
       The resource ID.
 
@@ -67,12 +67,10 @@ inheritedProperties:
       return:
         description: ''
         type: undefined | string
-    inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-advisor -
-      v3.1.0.Resource.id)
+    inheritanceDescription: '<b>Inherited From</b> [Resource.id](xref:@azure/arm-advisor.Resource.id)'
   - name: name
-    uid: '@azure/arm-advisor - v3.1.0.SuppressionContract.name'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.SuppressionContract.name'
+    package: '@azure/arm-advisor'
     summary: >-
       The name of the resource.
 
@@ -87,11 +85,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-advisor -
-      v3.1.0.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-advisor.Resource.name)
   - name: type
-    uid: '@azure/arm-advisor - v3.1.0.SuppressionContract.type'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.SuppressionContract.type'
+    package: '@azure/arm-advisor'
     summary: >-
       The type of the resource.
 
@@ -106,6 +104,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-advisor -
-      v3.1.0.Resource.type)
-extends: '@azure/arm-advisor - <xref uid="v3.1.0.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-advisor.Resource.type)
+extends: <xref uid="@azure/arm-advisor.Resource" />

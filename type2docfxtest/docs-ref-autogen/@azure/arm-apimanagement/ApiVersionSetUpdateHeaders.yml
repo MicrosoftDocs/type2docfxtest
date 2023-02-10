@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionSetUpdateHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetUpdateHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSetUpdateHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for ApiVersionSet_update operation.
 fullName: ApiVersionSetUpdateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetUpdateHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

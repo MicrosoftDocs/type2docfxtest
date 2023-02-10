@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecipientUserCollection
-uid: '@azure/arm-apimanagement - v8.1.2.RecipientUserCollection'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.RecipientUserCollection'
+package: '@azure/arm-apimanagement'
 summary: Paged Recipient User list representation.
 fullName: RecipientUserCollection
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: count
-    uid: '@azure/arm-apimanagement - v8.1.2.RecipientUserCollection.count'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RecipientUserCollection.count'
+    package: '@azure/arm-apimanagement'
     summary: Total record count number across all pages.
     fullName: count
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: nextLink
-    uid: '@azure/arm-apimanagement - v8.1.2.RecipientUserCollection.nextLink'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RecipientUserCollection.nextLink'
+    package: '@azure/arm-apimanagement'
     summary: Next page link if any.
     fullName: nextLink
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.RecipientUserCollection.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RecipientUserCollection.value'
+    package: '@azure/arm-apimanagement'
     summary: Page values.
     fullName: value
     remarks: ''
@@ -43,6 +43,4 @@ properties:
       content: 'value?: RecipientUserContract[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref uid="v8.1.2.RecipientUserContract"
-          />[]
+        type: '<xref uid="@azure/arm-apimanagement.RecipientUserContract" />[]'

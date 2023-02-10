@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: PublicNetworkAccess
-uid: '@azure/arm-apimanagement - v8.1.2.PublicNetworkAccess'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PublicNetworkAccess'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for PublicNetworkAccess. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownPublicNetworkAccess> can be used
+  <xref:@azure/arm-apimanagement.KnownPublicNetworkAccess> can be used
   interchangeably with PublicNetworkAccess,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

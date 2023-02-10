@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RemotePrivateEndpointConnectionWrapper
-uid: '@azure/arm-apimanagement - v8.1.2.RemotePrivateEndpointConnectionWrapper'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper'
+package: '@azure/arm-apimanagement'
 summary: Remote Private Endpoint Connection resource.
 fullName: RemotePrivateEndpointConnectionWrapper
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: groupIds
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.groupIds
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.groupIds'
+    package: '@azure/arm-apimanagement'
     summary: >-
       All the Group ids.
 
@@ -27,10 +25,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: id
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.id
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.id'
+    package: '@azure/arm-apimanagement'
     summary: Private Endpoint connection resource id
     fullName: id
     remarks: ''
@@ -41,10 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.name
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.name'
+    package: '@azure/arm-apimanagement'
     summary: Private Endpoint Connection Name
     fullName: name
     remarks: ''
@@ -56,9 +50,8 @@ properties:
         type: undefined | string
   - name: privateEndpoint
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.privateEndpoint
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.privateEndpoint
+    package: '@azure/arm-apimanagement'
     summary: The resource of private end point.
     fullName: privateEndpoint
     remarks: ''
@@ -67,12 +60,11 @@ properties:
       content: 'privateEndpoint?: ArmIdWrapper'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ArmIdWrapper" />'
+        type: <xref uid="@azure/arm-apimanagement.ArmIdWrapper" />
   - name: privateLinkServiceConnectionState
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.privateLinkServiceConnectionState
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.privateLinkServiceConnectionState
+    package: '@azure/arm-apimanagement'
     summary: >-
       A collection of information about the state of the connection between
       service consumer and provider.
@@ -84,13 +76,12 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.PrivateLinkServiceConnectionState" />
+          <xref uid="@azure/arm-apimanagement.PrivateLinkServiceConnectionState"
+          />
   - name: provisioningState
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.provisioningState
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.provisioningState
+    package: '@azure/arm-apimanagement'
     summary: >-
       The provisioning state of the private endpoint connection resource.
 
@@ -105,10 +96,8 @@ properties:
         description: ''
         type: undefined | string
   - name: type
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.RemotePrivateEndpointConnectionWrapper.type
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.RemotePrivateEndpointConnectionWrapper.type'
+    package: '@azure/arm-apimanagement'
     summary: Private Endpoint Connection Resource Type
     fullName: type
     remarks: ''

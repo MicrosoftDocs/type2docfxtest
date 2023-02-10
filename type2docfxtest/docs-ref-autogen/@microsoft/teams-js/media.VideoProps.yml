@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: VideoProps
-uid: '@microsoft/teams-js - v2.5.0.media.VideoProps'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.media.VideoProps'
+package: '@microsoft/teams-js'
 summary: >-
   All properties in VideoProps are optional and have default values in the
   platform
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: isFullScreenMode
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoProps.isFullScreenMode'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoProps.isFullScreenMode'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; to determine if the video capturing flow needs to be launched
 
@@ -30,8 +30,8 @@ properties:
         description: ''
         type: boolean
   - name: isStopButtonVisible
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoProps.isStopButtonVisible'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoProps.isStopButtonVisible'
+    package: '@microsoft/teams-js'
     summary: |-
       Optional; controls the visibility of stop button in PictureInPicture Mode.
       Default value is true, indicating the user will be able to stop the video.
@@ -44,8 +44,8 @@ properties:
         description: ''
         type: boolean
   - name: maxDuration
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoProps.maxDuration'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoProps.maxDuration'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; the maximum duration in seconds after which the recording should
       terminate automatically.
@@ -60,8 +60,8 @@ properties:
         description: ''
         type: number
   - name: videoController
-    uid: '@microsoft/teams-js - v2.5.0.media.VideoProps.videoController'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.media.VideoProps.videoController'
+    package: '@microsoft/teams-js'
     summary: >-
       Optional; setting VideoController will register your app to listen to the
       lifecycle events during the video capture flow.
@@ -75,5 +75,5 @@ properties:
       content: 'videoController?: VideoController'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.media.VideoController" />'
+        type: <xref uid="@microsoft/teams-js.media.VideoController" />
 extends: MediaProps

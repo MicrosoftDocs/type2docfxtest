@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: DetectLanguageErrorResult
-uid: '@azure/ai-text-analytics - v5.1.0.DetectLanguageErrorResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.DetectLanguageErrorResult'
+package: '@azure/ai-text-analytics'
 summary: An error result from the detect languge operation on a single document.
 fullName: DetectLanguageErrorResult
 remarks: ''

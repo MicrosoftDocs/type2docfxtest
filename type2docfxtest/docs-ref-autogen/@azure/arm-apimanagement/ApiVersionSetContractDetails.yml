@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionSetContractDetails
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContractDetails'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails'
+package: '@azure/arm-apimanagement'
 summary: >-
   An API Version Set contains the common configuration for a set of API Versions
   relating
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContractDetails.description'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of API Version Set.
     fullName: description
     remarks: ''
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContractDetails.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Identifier for existing API Version Set. Omit this value to create a new
       Version Set.
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContractDetails.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails.name'
+    package: '@azure/arm-apimanagement'
     summary: The display Name of the API Version Set.
     fullName: name
     remarks: ''
@@ -49,10 +49,8 @@ properties:
         description: ''
         type: undefined | string
   - name: versionHeaderName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetContractDetails.versionHeaderName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails.versionHeaderName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of HTTP header parameter that indicates the API Version if
       versioningScheme is set to `header`.
@@ -65,10 +63,8 @@ properties:
         description: ''
         type: undefined | string
   - name: versioningScheme
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetContractDetails.versioningScheme
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails.versioningScheme'
+    package: '@azure/arm-apimanagement'
     summary: >-
       An value that determines where the API Version identifier will be located
       in a HTTP request.
@@ -80,13 +76,12 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiVersionSetContractDetailsVersioningScheme" />
+          <xref
+          uid="@azure/arm-apimanagement.ApiVersionSetContractDetailsVersioningScheme"
+          />
   - name: versionQueryName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetContractDetails.versionQueryName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContractDetails.versionQueryName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of query parameter that indicates the API Version if versioningScheme
       is set to `query`.

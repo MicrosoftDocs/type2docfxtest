@@ -1,9 +1,8 @@
 ### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionListPrivateLinkResourcesResponse
 uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.PrivateEndpointConnectionListPrivateLinkResourcesResponse
-package: '@azure/arm-apimanagement - v8.1.2'
+  @azure/arm-apimanagement.PrivateEndpointConnectionListPrivateLinkResourcesResponse
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listPrivateLinkResources operation.
 fullName: PrivateEndpointConnectionListPrivateLinkResourcesResponse
 remarks: ''

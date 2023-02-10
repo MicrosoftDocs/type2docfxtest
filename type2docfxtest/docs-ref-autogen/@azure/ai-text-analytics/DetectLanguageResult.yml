@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: DetectLanguageResult
-uid: '@azure/ai-text-analytics - v5.1.0.DetectLanguageResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.DetectLanguageResult'
+package: '@azure/ai-text-analytics'
 summary: The result of the detect language operation on a single document.
 fullName: DetectLanguageResult
 remarks: ''

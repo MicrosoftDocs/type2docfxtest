@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TenantAccess
-uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TenantAccess'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a TenantAccess.
 fullName: TenantAccess
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       create(string, string, AccessIdName, string,
       AccessInformationCreateParameters, TenantAccessCreateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.create'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.create'
+    package: '@azure/arm-apimanagement'
     summary: Update tenant access information details.
     remarks: ''
     isDeprecated: false
@@ -30,7 +30,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: ifMatch
           type: string
@@ -40,23 +40,23 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.AccessInformationCreateParameters" />
+            <xref
+            uid="@azure/arm-apimanagement.AccessInformationCreateParameters" />
           description: Parameters supplied to retrieve the Tenant Access Information.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessCreateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessCreateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantAccessCreateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TenantAccessCreateResponse" />&gt;
   - name: 'get(string, string, AccessIdName, TenantAccessGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.get'
+    package: '@azure/arm-apimanagement'
     summary: Get tenant access information details without secrets.
     remarks: ''
     isDeprecated: false
@@ -73,24 +73,24 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessGetOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TenantAccessGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantAccessGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TenantAccessGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, AccessIdName,
       TenantAccessGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: Tenant access metadata
     remarks: ''
     isDeprecated: false
@@ -108,22 +108,23 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantAccessGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TenantAccessGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, TenantAccessListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Returns list of access infos - for Git and Management endpoints.
     remarks: ''
     isDeprecated: false
@@ -141,20 +142,21 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.AccessInformationContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.AccessInformationContract" />&gt;
   - name: >-
       listSecrets(string, string, AccessIdName,
       TenantAccessListSecretsOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.listSecrets'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.listSecrets'
+    package: '@azure/arm-apimanagement'
     summary: Get tenant access information details.
     remarks: ''
     isDeprecated: false
@@ -172,24 +174,25 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessListSecretsOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessListSecretsOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantAccessListSecretsResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TenantAccessListSecretsResponse" />&gt;
   - name: >-
       regeneratePrimaryKey(string, string, AccessIdName,
       TenantAccessRegeneratePrimaryKeyOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.regeneratePrimaryKey'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.regeneratePrimaryKey'
+    package: '@azure/arm-apimanagement'
     summary: Regenerate primary access key
     remarks: ''
     isDeprecated: false
@@ -206,12 +209,13 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessRegeneratePrimaryKeyOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessRegeneratePrimaryKeyOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -220,8 +224,8 @@ methods:
   - name: >-
       regenerateSecondaryKey(string, string, AccessIdName,
       TenantAccessRegenerateSecondaryKeyOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.regenerateSecondaryKey'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.regenerateSecondaryKey'
+    package: '@azure/arm-apimanagement'
     summary: Regenerate secondary access key
     remarks: ''
     isDeprecated: false
@@ -238,12 +242,13 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessRegenerateSecondaryKeyOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessRegenerateSecondaryKeyOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -252,8 +257,8 @@ methods:
   - name: >-
       update(string, string, AccessIdName, string,
       AccessInformationUpdateParameters, TenantAccessUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantAccess.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantAccess.update'
+    package: '@azure/arm-apimanagement'
     summary: Update tenant access information details.
     remarks: ''
     isDeprecated: false
@@ -271,7 +276,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: accessName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AccessIdName" />'
+          type: <xref uid="@azure/arm-apimanagement.AccessIdName" />
           description: The identifier of the Access configuration.
         - id: ifMatch
           type: string
@@ -281,17 +286,17 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.AccessInformationUpdateParameters" />
+            <xref
+            uid="@azure/arm-apimanagement.AccessInformationUpdateParameters" />
           description: Parameters supplied to retrieve the Tenant Access Information.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantAccessUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantAccessUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantAccessUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TenantAccessUpdateResponse" />&gt;

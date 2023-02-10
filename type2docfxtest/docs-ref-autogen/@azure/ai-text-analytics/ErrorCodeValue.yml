@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ErrorCodeValue
-uid: '@azure/ai-text-analytics - v5.1.0.ErrorCodeValue'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.ErrorCodeValue'
+package: '@azure/ai-text-analytics'
 summary: |-
   Defines values for ErrorCodeValue. \
   <xref:KnownErrorCodeValue> can be used interchangeably with ErrorCodeValue,

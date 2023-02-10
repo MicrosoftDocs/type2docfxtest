@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiSchemaCreateOrUpdateOptionalParams
-uid: '@azure/arm-apimanagement - v8.1.2.ApiSchemaCreateOrUpdateOptionalParams'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams'
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: ApiSchemaCreateOrUpdateOptionalParams
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: ifMatch
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.ifMatch
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.ifMatch'
+    package: '@azure/arm-apimanagement'
     summary: >-
       ETag of the Entity. Not required when creating an entity, but required
       when updating an entity.
@@ -25,10 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: resumeFrom
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.resumeFrom
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.resumeFrom'
+    package: '@azure/arm-apimanagement'
     summary: >-
       A serialized poller which can be used to resume an existing paused
       Long-Running-Operation.
@@ -42,9 +38,8 @@ properties:
         type: undefined | string
   - name: updateIntervalInMs
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.updateIntervalInMs
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.updateIntervalInMs
+    package: '@azure/arm-apimanagement'
     summary: 'Delay to wait until next poll, in milliseconds.'
     fullName: updateIntervalInMs
     remarks: ''
@@ -56,10 +51,8 @@ properties:
         type: undefined | number
 inheritedProperties:
   - name: abortSignal
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.abortSignal'
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -71,10 +64,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.onResponse
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.onResponse'
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -90,9 +81,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -105,9 +95,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -120,9 +109,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiSchemaCreateOrUpdateOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiSchemaCreateOrUpdateOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

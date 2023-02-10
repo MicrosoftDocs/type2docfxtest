@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceGetResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceGetResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementServiceGetResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the get operation.
 fullName: ApiManagementServiceGetResponse
 remarks: ''

@@ -1,27 +1,27 @@
 ### YamlMime:TSEnum
 name: KnownCpuThreshold
-uid: '@azure/arm-advisor - v3.1.0.KnownCpuThreshold'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.KnownCpuThreshold'
+package: '@azure/arm-advisor'
 summary: >-
-  Known values of <xref:@azure/arm-advisor - v3.1.0.CpuThreshold> that the
-  service accepts.
+  Known values of <xref:@azure/arm-advisor.CpuThreshold> that the service
+  accepts.
 fullName: KnownCpuThreshold
 remarks: ''
 isDeprecated: false
 fields:
   - name: Fifteen
-    uid: '@azure/arm-advisor - v3.1.0.KnownCpuThreshold.Fifteen'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCpuThreshold.Fifteen'
+    package: '@azure/arm-advisor'
     summary: Fifteen
   - name: Five
-    uid: '@azure/arm-advisor - v3.1.0.KnownCpuThreshold.Five'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCpuThreshold.Five'
+    package: '@azure/arm-advisor'
     summary: Five
   - name: Ten
-    uid: '@azure/arm-advisor - v3.1.0.KnownCpuThreshold.Ten'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCpuThreshold.Ten'
+    package: '@azure/arm-advisor'
     summary: Ten
   - name: Twenty
-    uid: '@azure/arm-advisor - v3.1.0.KnownCpuThreshold.Twenty'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCpuThreshold.Twenty'
+    package: '@azure/arm-advisor'
     summary: Twenty

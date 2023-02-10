@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: OperationNameFormat
-uid: '@azure/arm-apimanagement - v8.1.2.OperationNameFormat'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OperationNameFormat'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for OperationNameFormat. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownOperationNameFormat> can be used
+  <xref:@azure/arm-apimanagement.KnownOperationNameFormat> can be used
   interchangeably with OperationNameFormat,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: SoapApiType
-uid: '@azure/arm-apimanagement - v8.1.2.SoapApiType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.SoapApiType'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for SoapApiType. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownSoapApiType> can be used
-  interchangeably with SoapApiType,
+  <xref:@azure/arm-apimanagement.KnownSoapApiType> can be used interchangeably
+  with SoapApiType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

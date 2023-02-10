@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextAnalyticsActions
-uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsActions'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TextAnalyticsActions'
+package: '@azure/ai-text-analytics'
 summary: >-
   Description of collection of actions for the analyze API to perform on input
   documents. However, currently, the service can accept up to one action only
@@ -12,10 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: analyzeSentimentActions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActions.analyzeSentimentActions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsActions.analyzeSentimentActions'
+    package: '@azure/ai-text-analytics'
     summary: >-
       A collection of descriptions of sentiment analysis actions. However,
       currently, the service can accept up to one action only for
@@ -27,14 +25,10 @@ properties:
       content: 'analyzeSentimentActions?: AnalyzeSentimentAction[]'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref uid="v5.1.0.AnalyzeSentimentAction"
-          />[]
+        type: '<xref uid="@azure/ai-text-analytics.AnalyzeSentimentAction" />[]'
   - name: extractKeyPhrasesActions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActions.extractKeyPhrasesActions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsActions.extractKeyPhrasesActions'
+    package: '@azure/ai-text-analytics'
     summary: >-
       A collection of descriptions of key phrases recognition actions. However,
       currently, the service can accept up to one action only for
@@ -46,14 +40,10 @@ properties:
       content: 'extractKeyPhrasesActions?: ExtractKeyPhrasesAction[]'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref uid="v5.1.0.ExtractKeyPhrasesAction"
-          />[]
+        type: '<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesAction" />[]'
   - name: recognizeEntitiesActions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActions.recognizeEntitiesActions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsActions.recognizeEntitiesActions'
+    package: '@azure/ai-text-analytics'
     summary: >-
       A collection of descriptions of entities recognition actions. However,
       currently, the service can accept up to one action only for
@@ -66,13 +56,12 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesAction" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction" />[]
   - name: recognizeLinkedEntitiesActions
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActions.recognizeLinkedEntitiesActions
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.TextAnalyticsActions.recognizeLinkedEntitiesActions
+    package: '@azure/ai-text-analytics'
     summary: >-
       A collection of descriptions of entities linking actions. However,
       currently, the service can accept up to one action only for
@@ -85,13 +74,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeLinkedEntitiesAction" />[]
+          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesAction"
+          />[]
   - name: recognizePiiEntitiesActions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActions.recognizePiiEntitiesActions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsActions.recognizePiiEntitiesActions'
+    package: '@azure/ai-text-analytics'
     summary: >-
       A collection of descriptions of Pii entities recognition actions. However,
       currently, the service can accept up to one action only for
@@ -103,6 +90,4 @@ properties:
       content: 'recognizePiiEntitiesActions?: RecognizePiiEntitiesAction[]'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesAction" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesAction" />[]'

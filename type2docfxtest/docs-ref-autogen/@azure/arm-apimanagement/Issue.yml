@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Issue
-uid: '@azure/arm-apimanagement - v8.1.2.Issue'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Issue'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a Issue.
 fullName: Issue
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'get(string, string, string, IssueGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Issue.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Issue.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets API Management issue details
     remarks: ''
     isDeprecated: false
@@ -31,19 +31,17 @@ methods:
             Issue identifier. Must be unique in the current API Management
             service instance.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IssueGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IssueGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IssueGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.IssueGetResponse"
+          />&gt;
   - name: 'listByService(string, string, IssueListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Issue.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Issue.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists a collection of issues in the specified service instance.
     remarks: ''
     isDeprecated: false
@@ -61,12 +59,12 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IssueListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IssueListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IssueContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.IssueContract" />&gt;

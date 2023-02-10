@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ContentItem
-uid: '@azure/arm-apimanagement - v8.1.2.ContentItem'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ContentItem'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ContentItem.
 fullName: ContentItem
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string,
       ContentItemCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentItem.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentItem.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Creates a new developer portal's content item specified by the provided
       content type.
@@ -39,20 +39,22 @@ methods:
           description: Content item identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ContentItemCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ContentItemCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ContentItemCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ContentItemCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, string, string, string,
       ContentItemDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentItem.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentItem.delete'
+    package: '@azure/arm-apimanagement'
     summary: Removes the specified developer portal's content item.
     remarks: ''
     isDeprecated: false
@@ -82,16 +84,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ContentItemDeleteOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ContentItemDeleteOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, string, ContentItemGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentItem.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentItem.get'
+    package: '@azure/arm-apimanagement'
     summary: Returns the developer portal's content item specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -114,21 +116,19 @@ methods:
           type: string
           description: Content item identifier.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ContentItemGetOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.ContentItemGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ContentItemGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.ContentItemGetResponse"
+          />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       ContentItemGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentItem.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentItem.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Returns the entity state (ETag) version of the developer portal's content
       item specified by its
@@ -157,20 +157,21 @@ methods:
           description: Content item identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ContentItemGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ContentItemGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ContentItemGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ContentItemGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string, string,
       ContentItemListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ContentItem.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ContentItem.listByService'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists developer portal's content items specified by the provided content
       type.
@@ -194,12 +195,13 @@ methods:
           description: Content type identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ContentItemListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ContentItemListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ContentItemContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ContentItemContract" />&gt;

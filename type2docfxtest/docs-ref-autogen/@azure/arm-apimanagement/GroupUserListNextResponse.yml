@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GroupUserListNextResponse
-uid: '@azure/arm-apimanagement - v8.1.2.GroupUserListNextResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GroupUserListNextResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listNext operation.
 fullName: GroupUserListNextResponse
 remarks: ''

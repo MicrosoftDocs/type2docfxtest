@@ -1,9 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceCheckNameAvailabilityResponse
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.ApiManagementServiceCheckNameAvailabilityResponse
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementServiceCheckNameAvailabilityResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the checkNameAvailability operation.
 fullName: ApiManagementServiceCheckNameAvailabilityResponse
 remarks: ''

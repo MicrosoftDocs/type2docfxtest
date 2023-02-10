@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Api
-uid: '@azure/arm-apimanagement - v8.1.2.Api'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Api'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a Api.
 fullName: Api
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       beginCreateOrUpdate(string, string, string, ApiCreateOrUpdateParameter,
       ApiCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.beginCreateOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.beginCreateOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Creates new or updates existing specified API of the API Management
       service instance.
@@ -39,28 +39,25 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiCreateOrUpdateParameter" />
+          type: <xref uid="@azure/arm-apimanagement.ApiCreateOrUpdateParameter" />
           description: Create or update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiCreateOrUpdateOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;PollerLike&lt;PollOperationState&lt;@azure/arm-apimanagement
-          - <xref uid="v8.1.2.ApiCreateOrUpdateResponse" />&gt;,
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiCreateOrUpdateResponse" />&gt;&gt;
+          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
+          uid="@azure/arm-apimanagement.ApiCreateOrUpdateResponse" />&gt;, <xref
+          uid="@azure/arm-apimanagement.ApiCreateOrUpdateResponse" />&gt;&gt;
   - name: >-
       beginCreateOrUpdateAndWait(string, string, string,
       ApiCreateOrUpdateParameter, ApiCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.beginCreateOrUpdateAndWait'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.beginCreateOrUpdateAndWait'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Creates new or updates existing specified API of the API Management
       service instance.
@@ -86,24 +83,22 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiCreateOrUpdateParameter" />
+          type: <xref uid="@azure/arm-apimanagement.ApiCreateOrUpdateParameter" />
           description: Create or update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiCreateOrUpdateOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, ApiDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the specified API of the API Management service instance.
     remarks: ''
     isDeprecated: false
@@ -132,17 +127,15 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiDeleteOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.ApiDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, ApiGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the API specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -164,19 +157,15 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.ApiGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-apimanagement.ApiGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
-        type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-apimanagement.ApiGetResponse" />&gt;
   - name: 'getEntityTag(string, string, string, ApiGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the API specified by its
       identifier.
@@ -202,18 +191,18 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiGetEntityTagOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, ApiListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists all APIs of the API Management service instance.
     remarks: ''
     isDeprecated: false
@@ -231,18 +220,18 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiListByServiceOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ApiContract" />&gt;
   - name: 'listByTags(string, string, ApiListByTagsOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.listByTags'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.listByTags'
+    package: '@azure/arm-apimanagement'
     summary: Lists a collection of apis associated with tags.
     remarks: ''
     isDeprecated: false
@@ -259,21 +248,19 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiListByTagsOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.ApiListByTagsOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagResourceContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.TagResourceContract" />&gt;
   - name: >-
       update(string, string, string, string, ApiUpdateContract,
       ApiUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Api.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Api.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the specified API of the API Management service instance.
     remarks: ''
     isDeprecated: false
@@ -302,16 +289,14 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiUpdateContract" />'
+          type: <xref uid="@azure/arm-apimanagement.ApiUpdateContract" />
           description: API Update Contract parameters.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiUpdateOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.ApiUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiUpdateResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiUpdateResponse"
+          />&gt;

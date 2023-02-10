@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthorizationServerCreateOrUpdateHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServerCreateOrUpdateHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AuthorizationServerCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for AuthorizationServer_createOrUpdate operation.
 fullName: AuthorizationServerCreateOrUpdateHeaders
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerCreateOrUpdateHeaders.eTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthorizationServerCreateOrUpdateHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ReportsListByGeoOptionalParams
-uid: '@azure/arm-apimanagement - v8.1.2.ReportsListByGeoOptionalParams'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams'
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: ReportsListByGeoOptionalParams
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: skip
-    uid: '@azure/arm-apimanagement - v8.1.2.ReportsListByGeoOptionalParams.skip'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.skip'
+    package: '@azure/arm-apimanagement'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | number
   - name: top
-    uid: '@azure/arm-apimanagement - v8.1.2.ReportsListByGeoOptionalParams.top'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.top'
+    package: '@azure/arm-apimanagement'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -34,10 +34,8 @@ properties:
         type: undefined | number
 inheritedProperties:
   - name: abortSignal
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ReportsListByGeoOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.abortSignal'
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -49,10 +47,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ReportsListByGeoOptionalParams.onResponse
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.onResponse'
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -67,10 +63,8 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ReportsListByGeoOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.requestOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -82,10 +76,8 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ReportsListByGeoOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.serializerOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -97,10 +89,8 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ReportsListByGeoOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ReportsListByGeoOptionalParams.tracingOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

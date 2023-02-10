@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiListByTagsNextResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ApiListByTagsNextResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiListByTagsNextResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByTagsNext operation.
 fullName: ApiListByTagsNextResponse
 remarks: ''

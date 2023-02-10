@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: RecognizePiiEntitiesErrorResult
-uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesErrorResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.RecognizePiiEntitiesErrorResult'
+package: '@azure/ai-text-analytics'
 summary: An error result from the recognize entities operation on a single document.
 fullName: RecognizePiiEntitiesErrorResult
 remarks: ''

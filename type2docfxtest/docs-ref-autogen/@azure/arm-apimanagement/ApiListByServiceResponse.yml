@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiListByServiceResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ApiListByServiceResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiListByServiceResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByService operation.
 fullName: ApiListByServiceResponse
 remarks: ''

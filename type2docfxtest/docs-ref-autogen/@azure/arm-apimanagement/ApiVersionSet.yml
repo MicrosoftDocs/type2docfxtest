@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionSet
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSet'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiVersionSet.
 fullName: ApiVersionSet
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, ApiVersionSetContract,
       ApiVersionSetCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSet.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates or Updates a Api Version Set.
     remarks: ''
     isDeprecated: false
@@ -36,24 +36,24 @@ methods:
             Management service
                                 instance.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.ApiVersionSetContract"
-            />
+          type: <xref uid="@azure/arm-apimanagement.ApiVersionSetContract" />
           description: Create or update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiVersionSetCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiVersionSetCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiVersionSetCreateOrUpdateResponse"
+          />&gt;
   - name: 'delete(string, string, string, string, ApiVersionSetDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSet.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes specific Api Version Set.
     remarks: ''
     isDeprecated: false
@@ -83,16 +83,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiVersionSetDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, ApiVersionSetGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSet.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the Api Version Set specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -116,20 +116,20 @@ methods:
                                 instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetGetOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiVersionSetGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiVersionSetGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiVersionSetGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string,
       ApiVersionSetGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSet.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the Api Version Set specified by
       its identifier.
@@ -156,18 +156,20 @@ methods:
                                 instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiVersionSetGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiVersionSetGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiVersionSetGetEntityTagResponse"
+          />&gt;
   - name: 'listByService(string, string, ApiVersionSetListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSet.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists a collection of API Version Sets in the specified service instance.
     remarks: ''
     isDeprecated: false
@@ -185,20 +187,21 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiVersionSetListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiVersionSetContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ApiVersionSetContract" />&gt;
   - name: >-
       update(string, string, string, string, ApiVersionSetUpdateParameters,
       ApiVersionSetUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSet.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSet.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the details of the Api VersionSet specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -229,17 +232,17 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetUpdateParameters" />
+            <xref uid="@azure/arm-apimanagement.ApiVersionSetUpdateParameters"
+            />
           description: Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiVersionSetUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiVersionSetUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiVersionSetUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiVersionSetUpdateResponse" />&gt;

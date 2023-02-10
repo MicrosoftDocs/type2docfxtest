@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: DelegationSettingsGetResponse
-uid: '@azure/arm-apimanagement - v8.1.2.DelegationSettingsGetResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.DelegationSettingsGetResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the get operation.
 fullName: DelegationSettingsGetResponse
 remarks: ''

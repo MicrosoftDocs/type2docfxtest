@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DiagnosticGetHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticGetHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.DiagnosticGetHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for Diagnostic_get operation.
 fullName: DiagnosticGetHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.DiagnosticGetHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DiagnosticGetHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

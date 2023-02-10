@@ -1,9 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionListByServiceResponse
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.PrivateEndpointConnectionListByServiceResponse
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PrivateEndpointConnectionListByServiceResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByService operation.
 fullName: PrivateEndpointConnectionListByServiceResponse
 remarks: ''

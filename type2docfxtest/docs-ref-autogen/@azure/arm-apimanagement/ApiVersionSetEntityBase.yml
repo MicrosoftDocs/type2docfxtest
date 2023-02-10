@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionSetEntityBase
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetEntityBase'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSetEntityBase'
+package: '@azure/arm-apimanagement'
 summary: API Version set base parameters
 fullName: ApiVersionSetEntityBase
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetEntityBase.description'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetEntityBase.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of API Version Set.
     fullName: description
     remarks: ''
@@ -21,10 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: versionHeaderName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiVersionSetEntityBase.versionHeaderName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetEntityBase.versionHeaderName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of HTTP header parameter that indicates the API Version if
       versioningScheme is set to `header`.
@@ -37,8 +35,8 @@ properties:
         description: ''
         type: undefined | string
   - name: versionQueryName
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetEntityBase.versionQueryName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetEntityBase.versionQueryName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of query parameter that indicates the API Version if versioningScheme
       is set to `query`.

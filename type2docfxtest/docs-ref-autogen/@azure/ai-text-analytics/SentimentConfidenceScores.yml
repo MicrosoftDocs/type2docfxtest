@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SentimentConfidenceScores
-uid: '@azure/ai-text-analytics - v5.1.0.SentimentConfidenceScores'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.SentimentConfidenceScores'
+package: '@azure/ai-text-analytics'
 summary: >-
   Represents the confidence scores between 0 and 1 across all sentiment classes:
   positive, neutral, negative.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: negative
-    uid: '@azure/ai-text-analytics - v5.1.0.SentimentConfidenceScores.negative'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentimentConfidenceScores.negative'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: negative
     remarks: ''
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: number
   - name: neutral
-    uid: '@azure/ai-text-analytics - v5.1.0.SentimentConfidenceScores.neutral'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentimentConfidenceScores.neutral'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: neutral
     remarks: ''
@@ -35,8 +35,8 @@ properties:
         description: ''
         type: number
   - name: positive
-    uid: '@azure/ai-text-analytics - v5.1.0.SentimentConfidenceScores.positive'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.SentimentConfidenceScores.positive'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: positive
     remarks: ''

@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: PortalRevisionStatus
-uid: '@azure/arm-apimanagement - v8.1.2.PortalRevisionStatus'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PortalRevisionStatus'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for PortalRevisionStatus. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownPortalRevisionStatus> can be used
+  <xref:@azure/arm-apimanagement.KnownPortalRevisionStatus> can be used
   interchangeably with PortalRevisionStatus,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

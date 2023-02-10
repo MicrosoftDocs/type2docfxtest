@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IdentityProviderUpdateParameters
-uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderUpdateParameters'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters'
+package: '@azure/arm-apimanagement'
 summary: Parameters supplied to update Identity Provider
 fullName: IdentityProviderUpdateParameters
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: allowedTenants
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.allowedTenants
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.allowedTenants'
+    package: '@azure/arm-apimanagement'
     summary: List of Allowed Tenants when configuring Azure Active Directory login.
     fullName: allowedTenants
     remarks: ''
@@ -23,10 +21,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: authority
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.authority
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.authority'
+    package: '@azure/arm-apimanagement'
     summary: OpenID Connect discovery endpoint hostname for AAD or AAD B2C.
     fullName: authority
     remarks: ''
@@ -37,10 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: clientId
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.clientId
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.clientId'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Client Id of the Application in the external Identity Provider. It is App
       ID for Facebook login, Client ID for Google login, App ID for Microsoft.
@@ -53,10 +47,8 @@ properties:
         description: ''
         type: undefined | string
   - name: clientSecret
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.clientSecret
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.clientSecret'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Client secret of the Application in external Identity Provider, used to
       authenticate login request. For example, it is App Secret for Facebook
@@ -71,9 +63,8 @@ properties:
         type: undefined | string
   - name: passwordResetPolicyName
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.passwordResetPolicyName
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.IdentityProviderUpdateParameters.passwordResetPolicyName
+    package: '@azure/arm-apimanagement'
     summary: Password Reset Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: passwordResetPolicyName
     remarks: ''
@@ -85,9 +76,8 @@ properties:
         type: undefined | string
   - name: profileEditingPolicyName
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.profileEditingPolicyName
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.IdentityProviderUpdateParameters.profileEditingPolicyName
+    package: '@azure/arm-apimanagement'
     summary: Profile Editing Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: profileEditingPolicyName
     remarks: ''
@@ -98,10 +88,8 @@ properties:
         description: ''
         type: undefined | string
   - name: signinPolicyName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.signinPolicyName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.signinPolicyName'
+    package: '@azure/arm-apimanagement'
     summary: Signin Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: signinPolicyName
     remarks: ''
@@ -112,10 +100,8 @@ properties:
         description: ''
         type: undefined | string
   - name: signinTenant
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.signinTenant
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.signinTenant'
+    package: '@azure/arm-apimanagement'
     summary: The TenantId to use instead of Common when logging into Active Directory
     fullName: signinTenant
     remarks: ''
@@ -126,10 +112,8 @@ properties:
         description: ''
         type: undefined | string
   - name: signupPolicyName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.IdentityProviderUpdateParameters.signupPolicyName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.signupPolicyName'
+    package: '@azure/arm-apimanagement'
     summary: Signup Policy Name. Only applies to AAD B2C Identity Provider.
     fullName: signupPolicyName
     remarks: ''
@@ -140,8 +124,8 @@ properties:
         description: ''
         type: undefined | string
   - name: type
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderUpdateParameters.type'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderUpdateParameters.type'
+    package: '@azure/arm-apimanagement'
     summary: Identity Provider Type identifier.
     fullName: type
     remarks: ''
@@ -150,4 +134,4 @@ properties:
       content: 'type?: IdentityProviderType'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType" />'
+        type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextDocumentBatchStatistics
-uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentBatchStatistics'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+package: '@azure/ai-text-analytics'
 summary: >-
   if includeStatistics=true was specified in the request this field will contain
   information about the request payload.
@@ -11,10 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: documentCount
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextDocumentBatchStatistics.documentCount
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics.documentCount'
+    package: '@azure/ai-text-analytics'
     summary: Number of documents submitted in the request.
     fullName: documentCount
     remarks: ''
@@ -26,9 +24,8 @@ properties:
         type: number
   - name: erroneousDocumentCount
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextDocumentBatchStatistics.erroneousDocumentCount
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.TextDocumentBatchStatistics.erroneousDocumentCount
+    package: '@azure/ai-text-analytics'
     summary: >-
       Number of invalid documents. This includes empty, over-size limit or
       non-supported languages documents.
@@ -41,10 +38,8 @@ properties:
         description: ''
         type: number
   - name: transactionCount
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextDocumentBatchStatistics.transactionCount
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics.transactionCount'
+    package: '@azure/ai-text-analytics'
     summary: Number of transactions for the request.
     fullName: transactionCount
     remarks: ''
@@ -55,10 +50,8 @@ properties:
         description: ''
         type: number
   - name: validDocumentCount
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextDocumentBatchStatistics.validDocumentCount
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics.validDocumentCount'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Number of valid documents. This excludes empty, over-size limit or
       non-supported languages documents.

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementOperationsListResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementOperationsListResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementOperationsListResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the list operation.
 fullName: ApiManagementOperationsListResponse
 remarks: ''

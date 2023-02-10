@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: CertificateGetHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.CertificateGetHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.CertificateGetHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for Certificate_get operation.
 fullName: CertificateGetHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateGetHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateGetHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

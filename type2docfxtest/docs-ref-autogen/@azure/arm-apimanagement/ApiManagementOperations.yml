@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementOperations
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementOperations'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementOperations'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiManagementOperations.
 fullName: ApiManagementOperations
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: list(ApiManagementOperationsListOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementOperations.list'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementOperations.list'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists all of the available REST API operations of the
       Microsoft.ApiManagement provider.
@@ -23,12 +23,13 @@ methods:
       parameters:
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiManagementOperationsListOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiManagementOperationsListOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.Operation" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.Operation" />&gt;

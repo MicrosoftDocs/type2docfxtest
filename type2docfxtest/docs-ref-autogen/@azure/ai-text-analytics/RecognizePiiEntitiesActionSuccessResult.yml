@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizePiiEntitiesActionSuccessResult
-uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesActionSuccessResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult'
+package: '@azure/ai-text-analytics'
 summary: The results of a succeeded recognize pii entities action.
 fullName: RecognizePiiEntitiesActionSuccessResult
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: results
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesActionSuccessResult.results
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.results'
+    package: '@azure/ai-text-analytics'
     summary: Array of the results for each pii entities recognition action.
     fullName: results
     remarks: ''
@@ -22,14 +20,13 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResultArray" />
+          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray"
+          />
 inheritedProperties:
   - name: completedOn
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesActionSuccessResult.completedOn
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.completedOn
+    package: '@azure/ai-text-analytics'
     summary: When this action was completed by the service.
     fullName: completedOn
     remarks: ''
@@ -41,13 +38,10 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics
-      - v5.1.0.TextAnalyticsActionSuccessState.completedOn)
+      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.completedOn)
   - name: error
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesActionSuccessResult.error
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.error'
+    package: '@azure/ai-text-analytics'
     summary: Discriminant to determine if that this is an error result.
     fullName: error
     remarks: ''
@@ -59,8 +53,5 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActionSuccessState.error)
-extends: >-
-  @azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsActionSuccessState"
-  />
+      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.error)
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />

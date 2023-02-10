@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserSubscription
-uid: '@azure/arm-apimanagement - v8.1.2.UserSubscription'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.UserSubscription'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a UserSubscription.
 fullName: UserSubscription
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'get(string, string, string, string, UserSubscriptionGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.UserSubscription.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserSubscription.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the specified Subscription entity associated with a particular user.
     remarks: ''
     isDeprecated: false
@@ -39,18 +39,18 @@ methods:
                        a product in API Management.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.UserSubscriptionGetOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.UserSubscriptionGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.UserSubscriptionGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.UserSubscriptionGetResponse" />&gt;
   - name: 'list(string, string, string, UserSubscriptionListOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.UserSubscription.list'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserSubscription.list'
+    package: '@azure/arm-apimanagement'
     summary: Lists the collection of subscriptions of the specified user.
     remarks: ''
     isDeprecated: false
@@ -73,12 +73,12 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.UserSubscriptionListOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.UserSubscriptionListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.SubscriptionContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.SubscriptionContract" />&gt;

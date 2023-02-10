@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: UserState
-uid: '@azure/arm-apimanagement - v8.1.2.UserState'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.UserState'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for UserState. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownUserState> can be used
-  interchangeably with UserState,
+  <xref:@azure/arm-apimanagement.KnownUserState> can be used interchangeably
+  with UserState,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

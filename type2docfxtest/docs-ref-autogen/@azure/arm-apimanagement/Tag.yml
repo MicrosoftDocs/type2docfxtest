@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Tag
-uid: '@azure/arm-apimanagement - v8.1.2.Tag'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Tag'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a Tag.
 fullName: Tag
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'assignToApi(string, string, string, string, TagAssignToApiOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.assignToApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.assignToApi'
+    package: '@azure/arm-apimanagement'
     summary: Assign tag to the Api.
     remarks: ''
     isDeprecated: false
@@ -38,21 +38,19 @@ methods:
             Tag identifier. Must be unique in the current API Management service
             instance.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagAssignToApiOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.TagAssignToApiOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagAssignToApiResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.TagAssignToApiResponse"
+          />&gt;
   - name: >-
       assignToOperation(string, string, string, string, string,
       TagAssignToOperationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.assignToOperation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.assignToOperation'
+    package: '@azure/arm-apimanagement'
     summary: Assign tag to the Operation.
     remarks: ''
     isDeprecated: false
@@ -88,20 +86,20 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagAssignToOperationOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagAssignToOperationOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagAssignToOperationResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagAssignToOperationResponse" />&gt;
   - name: >-
       assignToProduct(string, string, string, string,
       TagAssignToProductOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.assignToProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.assignToProduct'
+    package: '@azure/arm-apimanagement'
     summary: Assign tag to the Product.
     remarks: ''
     isDeprecated: false
@@ -129,20 +127,20 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagAssignToProductOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagAssignToProductOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagAssignToProductResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagAssignToProductResponse" />&gt;
   - name: >-
       createOrUpdate(string, string, string, TagCreateUpdateParameters,
       TagCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates a tag.
     remarks: ''
     isDeprecated: false
@@ -164,24 +162,22 @@ methods:
             Tag identifier. Must be unique in the current API Management service
             instance.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagCreateUpdateParameters" />
+          type: <xref uid="@azure/arm-apimanagement.TagCreateUpdateParameters" />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagCreateOrUpdateOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, TagDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes specific tag of the API Management service instance.
     remarks: ''
     isDeprecated: false
@@ -209,9 +205,7 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagDeleteOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.TagDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -220,8 +214,8 @@ methods:
   - name: >-
       detachFromApi(string, string, string, string,
       TagDetachFromApiOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.detachFromApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.detachFromApi'
+    package: '@azure/arm-apimanagement'
     summary: Detach the tag from the Api.
     remarks: ''
     isDeprecated: false
@@ -250,8 +244,8 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagDetachFromApiOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagDetachFromApiOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -260,8 +254,8 @@ methods:
   - name: >-
       detachFromOperation(string, string, string, string, string,
       TagDetachFromOperationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.detachFromOperation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.detachFromOperation'
+    package: '@azure/arm-apimanagement'
     summary: Detach the tag from the Operation.
     remarks: ''
     isDeprecated: false
@@ -296,8 +290,9 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagDetachFromOperationOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagDetachFromOperationOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -306,8 +301,8 @@ methods:
   - name: >-
       detachFromProduct(string, string, string, string,
       TagDetachFromProductOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.detachFromProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.detachFromProduct'
+    package: '@azure/arm-apimanagement'
     summary: Detach the tag from the Product.
     remarks: ''
     isDeprecated: false
@@ -335,16 +330,16 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagDetachFromProductOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagDetachFromProductOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, TagGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the tag specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -365,19 +360,15 @@ methods:
             Tag identifier. Must be unique in the current API Management service
             instance.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.TagGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-apimanagement.TagGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
-        type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-apimanagement.TagGetResponse" />&gt;
   - name: 'getByApi(string, string, string, string, TagGetByApiOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getByApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getByApi'
+    package: '@azure/arm-apimanagement'
     summary: Get tag associated with the API.
     remarks: ''
     isDeprecated: false
@@ -405,21 +396,19 @@ methods:
             Tag identifier. Must be unique in the current API Management service
             instance.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetByApiOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.TagGetByApiOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetByApiResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.TagGetByApiResponse"
+          />&gt;
   - name: >-
       getByOperation(string, string, string, string, string,
       TagGetByOperationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getByOperation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getByOperation'
+    package: '@azure/arm-apimanagement'
     summary: Get tag associated with the Operation.
     remarks: ''
     isDeprecated: false
@@ -454,20 +443,20 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetByOperationOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagGetByOperationOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetByOperationResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagGetByOperationResponse" />&gt;
   - name: >-
       getByProduct(string, string, string, string,
       TagGetByProductOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getByProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getByProduct'
+    package: '@azure/arm-apimanagement'
     summary: Get tag associated with the Product.
     remarks: ''
     isDeprecated: false
@@ -495,18 +484,18 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetByProductOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagGetByProductOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetByProductResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagGetByProductResponse" />&gt;
   - name: 'getEntityState(string, string, string, TagGetEntityStateOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getEntityState'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getEntityState'
+    package: '@azure/arm-apimanagement'
     summary: Gets the entity state version of the tag specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -529,20 +518,20 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetEntityStateOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagGetEntityStateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetEntityStateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagGetEntityStateResponse" />&gt;
   - name: >-
       getEntityStateByApi(string, string, string, string,
       TagGetEntityStateByApiOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getEntityStateByApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getEntityStateByApi'
+    package: '@azure/arm-apimanagement'
     summary: Gets the entity state version of the tag specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -572,20 +561,21 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetEntityStateByApiOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagGetEntityStateByApiOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetEntityStateByApiResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagGetEntityStateByApiResponse" />&gt;
   - name: >-
       getEntityStateByOperation(string, string, string, string, string,
       TagGetEntityStateByOperationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getEntityStateByOperation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getEntityStateByOperation'
+    package: '@azure/arm-apimanagement'
     summary: Gets the entity state version of the tag specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -621,20 +611,22 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetEntityStateByOperationOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagGetEntityStateByOperationOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetEntityStateByOperationResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagGetEntityStateByOperationResponse"
+          />&gt;
   - name: >-
       getEntityStateByProduct(string, string, string, string,
       TagGetEntityStateByProductOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.getEntityStateByProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.getEntityStateByProduct'
+    package: '@azure/arm-apimanagement'
     summary: Gets the entity state version of the tag specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -663,18 +655,20 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagGetEntityStateByProductOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagGetEntityStateByProductOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagGetEntityStateByProductResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TagGetEntityStateByProductResponse"
+          />&gt;
   - name: 'listByApi(string, string, string, TagListByApiOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.listByApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.listByApi'
+    package: '@azure/arm-apimanagement'
     summary: Lists all Tags associated with the API.
     remarks: ''
     isDeprecated: false
@@ -697,21 +691,19 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagListByApiOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.TagListByApiOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.TagContract" />&gt;
   - name: >-
       listByOperation(string, string, string, string,
       TagListByOperationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.listByOperation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.listByOperation'
+    package: '@azure/arm-apimanagement'
     summary: Lists all Tags associated with the Operation.
     remarks: ''
     isDeprecated: false
@@ -742,18 +734,18 @@ methods:
                                service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagListByOperationOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TagListByOperationOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.TagContract" />&gt;
   - name: 'listByProduct(string, string, string, TagListByProductOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.listByProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.listByProduct'
+    package: '@azure/arm-apimanagement'
     summary: Lists all Tags associated with the Product.
     remarks: ''
     isDeprecated: false
@@ -776,18 +768,18 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagListByProductOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagListByProductOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.TagContract" />&gt;
   - name: 'listByService(string, string, TagListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists a collection of tags defined within a service instance.
     remarks: ''
     isDeprecated: false
@@ -805,20 +797,20 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagListByServiceOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TagListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.TagContract" />&gt;
   - name: >-
       update(string, string, string, string, TagCreateUpdateParameters,
       TagUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Tag.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Tag.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the details of the tag specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -846,18 +838,14 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagCreateUpdateParameters" />
+          type: <xref uid="@azure/arm-apimanagement.TagCreateUpdateParameters" />
           description: Update parameters.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TagUpdateOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.TagUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagUpdateResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.TagUpdateResponse"
+          />&gt;

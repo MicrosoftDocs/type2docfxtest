@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiRelease
-uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiRelease'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiRelease.
 fullName: ApiRelease
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string, ApiReleaseContract,
       ApiReleaseCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiRelease.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates a new Release for the API.
     remarks: ''
     isDeprecated: false
@@ -41,24 +41,25 @@ methods:
             Management
                              service instance.
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiReleaseContract" />'
+          type: <xref uid="@azure/arm-apimanagement.ApiReleaseContract" />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiReleaseCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiReleaseCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiReleaseCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiReleaseCreateOrUpdateResponse" />&gt;
   - name: >-
       delete(string, string, string, string, string,
       ApiReleaseDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiRelease.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the specified release in the API.
     remarks: ''
     isDeprecated: false
@@ -93,16 +94,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiReleaseDeleteOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiReleaseDeleteOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, string, ApiReleaseGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiRelease.get'
+    package: '@azure/arm-apimanagement'
     summary: Returns the details of an API release.
     remarks: ''
     isDeprecated: false
@@ -130,21 +131,19 @@ methods:
             Management
                              service instance.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiReleaseGetOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.ApiReleaseGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiReleaseGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiReleaseGetResponse"
+          />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       ApiReleaseGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiRelease.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: Returns the etag of an API release.
     remarks: ''
     isDeprecated: false
@@ -174,20 +173,21 @@ methods:
                              service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiReleaseGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiReleaseGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiReleaseGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiReleaseGetEntityTagResponse" />&gt;
   - name: >-
       listByService(string, string, string,
       ApiReleaseListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiRelease.listByService'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists all releases of an API. An API release is created when making an API
       Revision current.
@@ -217,20 +217,21 @@ methods:
             instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiReleaseListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiReleaseListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiReleaseContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ApiReleaseContract" />&gt;
   - name: >-
       update(string, string, string, string, string, ApiReleaseContract,
       ApiReleaseUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiRelease.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiRelease.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the details of the release of the API specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -265,16 +266,16 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiReleaseContract" />'
+          type: <xref uid="@azure/arm-apimanagement.ApiReleaseContract" />
           description: API Release Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiReleaseUpdateOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiReleaseUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiReleaseUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiReleaseUpdateResponse" />&gt;

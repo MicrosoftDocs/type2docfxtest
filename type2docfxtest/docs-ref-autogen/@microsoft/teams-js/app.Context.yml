@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Context
-uid: '@microsoft/teams-js - v2.5.0.app.Context'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.app.Context'
+package: '@microsoft/teams-js'
 summary: Represents structure of the received context message.
 fullName: Context
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: actionInfo
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.actionInfo'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.actionInfo'
+    package: '@microsoft/teams-js'
     summary: Content Action Info
     fullName: actionInfo
     remarks: ''
@@ -20,10 +20,10 @@ properties:
       content: 'actionInfo?: ActionInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.ActionInfo" />'
+        type: <xref uid="@microsoft/teams-js.ActionInfo" />
   - name: app
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.app'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.app'
+    package: '@microsoft/teams-js'
     summary: Properties about the current session for your app
     fullName: app
     remarks: ''
@@ -32,10 +32,10 @@ properties:
       content: 'app: AppInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.AppInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.AppInfo" />
   - name: channel
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.channel'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.channel'
+    package: '@microsoft/teams-js'
     summary: >-
       When running in the context of a Teams channel, provides information about
       the channel, else `undefined`
@@ -46,10 +46,10 @@ properties:
       content: 'channel?: ChannelInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.ChannelInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.ChannelInfo" />
   - name: chat
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.chat'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.chat'
+    package: '@microsoft/teams-js'
     summary: >-
       When running in the context of a Teams chat, provides information about
       the chat, else `undefined`
@@ -60,10 +60,10 @@ properties:
       content: 'chat?: ChatInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.ChatInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.ChatInfo" />
   - name: meeting
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.meeting'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.meeting'
+    package: '@microsoft/teams-js'
     summary: >-
       When running in the context of a Teams meeting, provides information about
       the meeting, else `undefined`
@@ -74,10 +74,10 @@ properties:
       content: 'meeting?: MeetingInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.MeetingInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.MeetingInfo" />
   - name: page
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.page'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.page'
+    package: '@microsoft/teams-js'
     summary: Info about the current page context hosting your app
     fullName: page
     remarks: ''
@@ -86,10 +86,10 @@ properties:
       content: 'page: PageInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.PageInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.PageInfo" />
   - name: sharepoint
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.sharepoint'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.sharepoint'
+    package: '@microsoft/teams-js'
     summary: >-
       When hosted in SharePoint, this is the [SharePoint
       PageContext](https://learn.microsoft.com/en-us/javascript/api/sp-page-context/pagecontext?view=sp-typescript-latest),
@@ -103,8 +103,8 @@ properties:
         description: ''
         type: any
   - name: sharePointSite
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.sharePointSite'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.sharePointSite'
+    package: '@microsoft/teams-js'
     summary: >-
       When running in Teams for an organization with a tenant, provides
       information about the SharePoint site associated with the team.
@@ -118,10 +118,10 @@ properties:
       content: 'sharePointSite?: SharePointSiteInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.SharePointSiteInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.SharePointSiteInfo" />
   - name: team
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.team'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.team'
+    package: '@microsoft/teams-js'
     summary: >-
       When running in Teams, provides information about the Team context in
       which your app is running.
@@ -134,10 +134,10 @@ properties:
       content: 'team?: TeamInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.TeamInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.TeamInfo" />
   - name: user
-    uid: '@microsoft/teams-js - v2.5.0.app.Context.user'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.app.Context.user'
+    package: '@microsoft/teams-js'
     summary: >-
       Info about the currently logged in user running the app.
 
@@ -150,4 +150,4 @@ properties:
       content: 'user?: UserInfo'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.app.UserInfo" />'
+        type: <xref uid="@microsoft/teams-js.app.UserInfo" />

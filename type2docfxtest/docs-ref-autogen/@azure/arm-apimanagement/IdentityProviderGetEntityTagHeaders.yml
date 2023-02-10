@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IdentityProviderGetEntityTagHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderGetEntityTagHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.IdentityProviderGetEntityTagHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for IdentityProvider_getEntityTag operation.
 fullName: IdentityProviderGetEntityTagHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProviderGetEntityTagHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProviderGetEntityTagHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

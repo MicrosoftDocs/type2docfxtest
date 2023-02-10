@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Entity
-uid: '@azure/ai-text-analytics - v5.1.0.Entity'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.Entity'
+package: '@azure/ai-text-analytics'
 summary: >-
   A word or phrase identified as an entity that is categorized within a taxonomy
   of types. The set of categories recognized by the Text Analytics service is
@@ -14,8 +14,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: category
-    uid: '@azure/ai-text-analytics - v5.1.0.Entity.category'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Entity.category'
+    package: '@azure/ai-text-analytics'
     summary: Entity type.
     fullName: category
     remarks: ''
@@ -26,8 +26,8 @@ properties:
         description: ''
         type: string
   - name: confidenceScore
-    uid: '@azure/ai-text-analytics - v5.1.0.Entity.confidenceScore'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Entity.confidenceScore'
+    package: '@azure/ai-text-analytics'
     summary: Confidence score between 0 and 1 of the extracted entity.
     fullName: confidenceScore
     remarks: ''
@@ -38,8 +38,8 @@ properties:
         description: ''
         type: number
   - name: length
-    uid: '@azure/ai-text-analytics - v5.1.0.Entity.length'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Entity.length'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Length for the entity text. Use of different 'stringIndexType' values can
       affect the length returned.
@@ -52,8 +52,8 @@ properties:
         description: ''
         type: number
   - name: offset
-    uid: '@azure/ai-text-analytics - v5.1.0.Entity.offset'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Entity.offset'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Start position for the entity text. Use of different 'stringIndexType'
       values can affect the offset returned.
@@ -66,8 +66,8 @@ properties:
         description: ''
         type: number
   - name: subCategory
-    uid: '@azure/ai-text-analytics - v5.1.0.Entity.subCategory'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Entity.subCategory'
+    package: '@azure/ai-text-analytics'
     summary: (Optional) Entity sub type.
     fullName: subCategory
     remarks: ''
@@ -78,8 +78,8 @@ properties:
         description: ''
         type: string
   - name: text
-    uid: '@azure/ai-text-analytics - v5.1.0.Entity.text'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Entity.text'
+    package: '@azure/ai-text-analytics'
     summary: Entity text as appears in the request.
     fullName: text
     remarks: ''

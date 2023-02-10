@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TagGetEntityStateByApiResponse
-uid: '@azure/arm-apimanagement - v8.1.2.TagGetEntityStateByApiResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TagGetEntityStateByApiResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the getEntityStateByApi operation.
 fullName: TagGetEntityStateByApiResponse
 remarks: ''

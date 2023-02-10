@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: PlatformVersion
-uid: '@azure/arm-apimanagement - v8.1.2.PlatformVersion'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PlatformVersion'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for PlatformVersion. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownPlatformVersion> can be used
+  <xref:@azure/arm-apimanagement.KnownPlatformVersion> can be used
   interchangeably with PlatformVersion,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AdditionalLocation
-uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AdditionalLocation'
+package: '@azure/arm-apimanagement'
 summary: Description of an additional API Management resource location.
 fullName: AdditionalLocation
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: disableGateway
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.disableGateway'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.disableGateway'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Property only valid for an Api Management service deployed in multiple
       locations. This can be used to disable the gateway in this additional
@@ -24,8 +24,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: gatewayRegionalUrl
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.gatewayRegionalUrl'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.gatewayRegionalUrl'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gateway URL of the API Management service in the Region.
 
@@ -40,8 +40,8 @@ properties:
         description: ''
         type: undefined | string
   - name: location
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.location'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.location'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The location name of the additional region among Azure Data center
       regions.
@@ -54,8 +54,8 @@ properties:
         description: ''
         type: string
   - name: platformVersion
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.platformVersion'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.platformVersion'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Compute Platform Version running the service.
 
@@ -68,10 +68,10 @@ properties:
       content: 'platformVersion?: PlatformVersion'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PlatformVersion" />'
+        type: <xref uid="@azure/arm-apimanagement.PlatformVersion" />
   - name: privateIPAddresses
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.privateIPAddresses'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.privateIPAddresses'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Private Static Load Balanced IP addresses of the API Management service
       which is deployed in an Internal Virtual Network in a particular
@@ -89,8 +89,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: publicIPAddresses
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.publicIPAddresses'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.publicIPAddresses'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Public Static Load Balanced IP addresses of the API Management service in
       the additional location. Available only for Basic, Standard, Premium and
@@ -107,8 +107,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: publicIpAddressId
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.publicIpAddressId'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.publicIpAddressId'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Public Standard SKU IP V4 based IP address to be associated with Virtual
       Network deployed service in the location. Supported only for Premium SKU
@@ -122,8 +122,8 @@ properties:
         description: ''
         type: undefined | string
   - name: sku
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.sku'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.sku'
+    package: '@azure/arm-apimanagement'
     summary: SKU properties of the API Management service.
     fullName: sku
     remarks: ''
@@ -133,13 +133,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiManagementServiceSkuProperties" />
+          <xref uid="@azure/arm-apimanagement.ApiManagementServiceSkuProperties"
+          />
   - name: virtualNetworkConfiguration
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AdditionalLocation.virtualNetworkConfiguration
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.virtualNetworkConfiguration'
+    package: '@azure/arm-apimanagement'
     summary: Virtual network configuration for the location.
     fullName: virtualNetworkConfiguration
     remarks: ''
@@ -148,12 +146,10 @@ properties:
       content: 'virtualNetworkConfiguration?: VirtualNetworkConfiguration'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.VirtualNetworkConfiguration" />
+        type: <xref uid="@azure/arm-apimanagement.VirtualNetworkConfiguration" />
   - name: zones
-    uid: '@azure/arm-apimanagement - v8.1.2.AdditionalLocation.zones'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AdditionalLocation.zones'
+    package: '@azure/arm-apimanagement'
     summary: >-
       A list of availability zones denoting where the resource needs to come
       from.

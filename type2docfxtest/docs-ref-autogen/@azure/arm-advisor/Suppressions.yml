@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Suppressions
-uid: '@azure/arm-advisor - v3.1.0.Suppressions'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.Suppressions'
+package: '@azure/arm-advisor'
 summary: Interface representing a Suppressions.
 fullName: Suppressions
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       create(string, string, string, SuppressionContract,
       SuppressionsCreateOptionalParams)
-    uid: '@azure/arm-advisor - v3.1.0.Suppressions.create'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.Suppressions.create'
+    package: '@azure/arm-advisor'
     summary: >-
       Enables the snoozed or dismissed attribute of a recommendation. The
       snoozed or dismissed attribute
@@ -42,24 +42,22 @@ methods:
           type: string
           description: The name of the suppression.
         - id: suppressionContract
-          type: '@azure/arm-advisor - <xref uid="v3.1.0.SuppressionContract" />'
+          type: <xref uid="@azure/arm-advisor.SuppressionContract" />
           description: >-
             The snoozed or dismissed attribute; for example, the snooze
             duration.
         - id: options
-          type: >-
-            @azure/arm-advisor - <xref
-            uid="v3.1.0.SuppressionsCreateOptionalParams" />
+          type: <xref uid="@azure/arm-advisor.SuppressionsCreateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-advisor - <xref
-          uid="v3.1.0.SuppressionsCreateResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-advisor.SuppressionsCreateResponse"
+          />&gt;
   - name: 'delete(string, string, string, SuppressionsDeleteOptionalParams)'
-    uid: '@azure/arm-advisor - v3.1.0.Suppressions.delete'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.Suppressions.delete'
+    package: '@azure/arm-advisor'
     summary: >-
       Enables the activation of a snoozed or dismissed recommendation. The
       snoozed or dismissed attribute
@@ -85,17 +83,15 @@ methods:
           type: string
           description: The name of the suppression.
         - id: options
-          type: >-
-            @azure/arm-advisor - <xref
-            uid="v3.1.0.SuppressionsDeleteOptionalParams" />
+          type: <xref uid="@azure/arm-advisor.SuppressionsDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, SuppressionsGetOptionalParams)'
-    uid: '@azure/arm-advisor - v3.1.0.Suppressions.get'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.Suppressions.get'
+    package: '@azure/arm-advisor'
     summary: Obtains the details of a suppression.
     remarks: ''
     isDeprecated: false
@@ -118,19 +114,17 @@ methods:
           type: string
           description: The name of the suppression.
         - id: options
-          type: >-
-            @azure/arm-advisor - <xref
-            uid="v3.1.0.SuppressionsGetOptionalParams" />
+          type: <xref uid="@azure/arm-advisor.SuppressionsGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-advisor - <xref
-          uid="v3.1.0.SuppressionsGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-advisor.SuppressionsGetResponse"
+          />&gt;
   - name: list(SuppressionsListOptionalParams)
-    uid: '@azure/arm-advisor - v3.1.0.Suppressions.list'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.Suppressions.list'
+    package: '@azure/arm-advisor'
     summary: >-
       Retrieves the list of snoozed or dismissed suppressions for a
       subscription. The snoozed or dismissed
@@ -144,13 +138,11 @@ methods:
         PagedAsyncIterableIterator<SuppressionContract>
       parameters:
         - id: options
-          type: >-
-            @azure/arm-advisor - <xref
-            uid="v3.1.0.SuppressionsListOptionalParams" />
+          type: <xref uid="@azure/arm-advisor.SuppressionsListOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-advisor - <xref
-          uid="v3.1.0.SuppressionContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-advisor.SuppressionContract" />&gt;

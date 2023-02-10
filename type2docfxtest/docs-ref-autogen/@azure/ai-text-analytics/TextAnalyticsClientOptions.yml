@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextAnalyticsClientOptions
-uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsClientOptions'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions'
+package: '@azure/ai-text-analytics'
 summary: Client options used to configure TextAnalytics API requests.
 fullName: TextAnalyticsClientOptions
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: defaultCountryHint
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsClientOptions.defaultCountryHint
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.defaultCountryHint'
+    package: '@azure/ai-text-analytics'
     summary: The default country hint to use. Defaults to "us".
     fullName: defaultCountryHint
     remarks: ''
@@ -23,10 +21,8 @@ properties:
         description: ''
         type: string
   - name: defaultLanguage
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsClientOptions.defaultLanguage
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.defaultLanguage'
+    package: '@azure/ai-text-analytics'
     summary: The default language to use. Defaults to "en".
     fullName: defaultLanguage
     remarks: ''
@@ -38,10 +34,8 @@ properties:
         type: string
 inheritedProperties:
   - name: additionalPolicies
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsClientOptions.additionalPolicies
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.additionalPolicies'
+    package: '@azure/ai-text-analytics'
     summary: Additional policies to include in the HTTP pipeline.
     fullName: additionalPolicies
     remarks: ''
@@ -54,9 +48,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.additionalPolicies
   - name: allowInsecureConnection
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsClientOptions.allowInsecureConnection
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.TextAnalyticsClientOptions.allowInsecureConnection
+    package: '@azure/ai-text-analytics'
     summary: Set to true if the request is sent over HTTP instead of HTTPS
     fullName: allowInsecureConnection
     remarks: ''
@@ -68,8 +61,8 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.allowInsecureConnection
   - name: httpClient
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsClientOptions.httpClient'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.httpClient'
+    package: '@azure/ai-text-analytics'
     summary: The HttpClient that will be used to send HTTP requests.
     fullName: httpClient
     remarks: ''
@@ -81,8 +74,8 @@ inheritedProperties:
         type: HttpClient
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.httpClient
   - name: proxyOptions
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsClientOptions.proxyOptions'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.proxyOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options to configure a proxy for outgoing requests.
     fullName: proxyOptions
     remarks: ''
@@ -94,10 +87,8 @@ inheritedProperties:
         type: ProxySettings
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.proxyOptions
   - name: redirectOptions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsClientOptions.redirectOptions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.redirectOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options for how redirect responses are handled.
     fullName: redirectOptions
     remarks: ''
@@ -109,8 +100,8 @@ inheritedProperties:
         type: RedirectPolicyOptions
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.redirectOptions
   - name: retryOptions
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsClientOptions.retryOptions'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.retryOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options that control how to retry failed requests.
     fullName: retryOptions
     remarks: ''
@@ -122,8 +113,8 @@ inheritedProperties:
         type: PipelineRetryOptions
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.retryOptions
   - name: tlsOptions
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsClientOptions.tlsOptions'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.tlsOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options for configuring TLS authentication
     fullName: tlsOptions
     remarks: ''
@@ -135,10 +126,8 @@ inheritedProperties:
         type: TlsSettings
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.tlsOptions
   - name: userAgentOptions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsClientOptions.userAgentOptions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.userAgentOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options for adding user agent details to outgoing requests.
     fullName: userAgentOptions
     remarks: ''

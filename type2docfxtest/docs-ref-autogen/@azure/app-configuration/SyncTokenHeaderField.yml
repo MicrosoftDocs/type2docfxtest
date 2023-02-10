@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SyncTokenHeaderField
-uid: '@azure/app-configuration - v1.3.1.SyncTokenHeaderField'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.SyncTokenHeaderField'
+package: '@azure/app-configuration'
 summary: Sync token header field
 fullName: SyncTokenHeaderField
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: syncToken
-    uid: '@azure/app-configuration - v1.3.1.SyncTokenHeaderField.syncToken'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.SyncTokenHeaderField.syncToken'
+    package: '@azure/app-configuration'
     summary: >-
       Enables real-time consistency between requests by providing the returned
       value in the next

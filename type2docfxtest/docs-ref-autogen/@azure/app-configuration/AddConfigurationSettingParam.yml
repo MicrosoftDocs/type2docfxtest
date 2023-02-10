@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AddConfigurationSettingParam
-uid: '@azure/app-configuration - v1.3.1.AddConfigurationSettingParam'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.AddConfigurationSettingParam'
+package: '@azure/app-configuration'
 summary: Parameters for adding a new configuration setting
 fullName: AddConfigurationSettingParam<T>
 remarks: ''

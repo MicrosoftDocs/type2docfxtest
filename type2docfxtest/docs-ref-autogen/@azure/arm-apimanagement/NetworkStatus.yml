@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NetworkStatus
-uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatus'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.NetworkStatus'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a NetworkStatus.
 fullName: NetworkStatus
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       listByLocation(string, string, string,
       NetworkStatusListByLocationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatus.listByLocation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.NetworkStatus.listByLocation'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the Connectivity Status to the external resources on which the Api
       Management service depends
@@ -42,18 +42,20 @@ methods:
                                 Azure Regions like West US, East US, South Central US.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.NetworkStatusListByLocationOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.NetworkStatusListByLocationOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.NetworkStatusListByLocationResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.NetworkStatusListByLocationResponse"
+          />&gt;
   - name: 'listByService(string, string, NetworkStatusListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.NetworkStatus.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.NetworkStatus.listByService'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the Connectivity Status to the external resources on which the Api
       Management service depends
@@ -76,12 +78,14 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.NetworkStatusListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.NetworkStatusListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.NetworkStatusListByServiceResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.NetworkStatusListByServiceResponse"
+          />&gt;

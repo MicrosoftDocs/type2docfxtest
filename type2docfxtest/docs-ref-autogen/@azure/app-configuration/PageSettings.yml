@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PageSettings
-uid: '@azure/app-configuration - v1.3.1.PageSettings'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.PageSettings'
+package: '@azure/app-configuration'
 summary: An interface that tracks the settings for paged iteration
 fullName: PageSettings
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: continuationToken
-    uid: '@azure/app-configuration - v1.3.1.PageSettings.continuationToken'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.PageSettings.continuationToken'
+    package: '@azure/app-configuration'
     summary: The token that keeps track of where to continue the iterator
     fullName: continuationToken
     remarks: ''

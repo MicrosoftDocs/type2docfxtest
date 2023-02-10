@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DeployConfigurationParameters
-uid: '@azure/arm-apimanagement - v8.1.2.DeployConfigurationParameters'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.DeployConfigurationParameters'
+package: '@azure/arm-apimanagement'
 summary: Deploy Tenant Configuration Contract.
 fullName: DeployConfigurationParameters
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: branch
-    uid: '@azure/arm-apimanagement - v8.1.2.DeployConfigurationParameters.branch'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DeployConfigurationParameters.branch'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The name of the Git branch from which the configuration is to be deployed
       to the configuration database.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: force
-    uid: '@azure/arm-apimanagement - v8.1.2.DeployConfigurationParameters.force'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.DeployConfigurationParameters.force'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The value enforcing deleting subscriptions to products that are deleted in
       this update.

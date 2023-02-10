@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Cache_2
-uid: '@azure/arm-apimanagement - v8.1.2.Cache_2'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Cache_2'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a Cache.
 fullName: Cache_2
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, CacheContract,
       CacheCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Cache_2.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Cache_2.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Creates or updates an External Cache to be used in Api Management
       instance.
@@ -37,22 +37,22 @@ methods:
             'default' or valid
                            Azure region identifier).
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.CacheContract" />'
+          type: <xref uid="@azure/arm-apimanagement.CacheContract" />
           description: Create or Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.CacheCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.CacheCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.CacheCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.CacheCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, CacheDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Cache_2.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Cache_2.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes specific Cache.
     remarks: ''
     isDeprecated: false
@@ -81,17 +81,15 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.CacheDeleteOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.CacheDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, CacheGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Cache_2.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Cache_2.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the Cache specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -113,19 +111,17 @@ methods:
             'default' or valid
                            Azure region identifier).
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.CacheGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-apimanagement.CacheGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.CacheGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.CacheGetResponse"
+          />&gt;
   - name: 'getEntityTag(string, string, string, CacheGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Cache_2.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Cache_2.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the Cache specified by its
       identifier.
@@ -151,18 +147,18 @@ methods:
                            Azure region identifier).
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.CacheGetEntityTagOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.CacheGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.CacheGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.CacheGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, CacheListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Cache_2.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Cache_2.listByService'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists a collection of all external Caches in the specified service
       instance.
@@ -182,20 +178,20 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.CacheListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.CacheListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.CacheContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.CacheContract" />&gt;
   - name: >-
       update(string, string, string, string, CacheUpdateParameters,
       CacheUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Cache_2.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Cache_2.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the details of the cache specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -224,18 +220,14 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.CacheUpdateParameters"
-            />
+          type: <xref uid="@azure/arm-apimanagement.CacheUpdateParameters" />
           description: Update parameters.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.CacheUpdateOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.CacheUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.CacheUpdateResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.CacheUpdateResponse"
+          />&gt;

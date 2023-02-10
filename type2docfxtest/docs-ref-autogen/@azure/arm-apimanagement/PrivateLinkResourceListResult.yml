@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: PrivateLinkResourceListResult
-uid: '@azure/arm-apimanagement - v8.1.2.PrivateLinkResourceListResult'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PrivateLinkResourceListResult'
+package: '@azure/arm-apimanagement'
 summary: A list of private link resources
 fullName: PrivateLinkResourceListResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.PrivateLinkResourceListResult.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.PrivateLinkResourceListResult.value'
+    package: '@azure/arm-apimanagement'
     summary: Array of private link resources
     fullName: value
     remarks: ''
@@ -19,4 +19,4 @@ properties:
       content: 'value?: PrivateLinkResource[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PrivateLinkResource" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.PrivateLinkResource" />[]'

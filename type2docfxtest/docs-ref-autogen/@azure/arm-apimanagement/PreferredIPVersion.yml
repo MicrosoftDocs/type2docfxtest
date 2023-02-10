@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: PreferredIPVersion
-uid: '@azure/arm-apimanagement - v8.1.2.PreferredIPVersion'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PreferredIPVersion'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for PreferredIPVersion. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownPreferredIPVersion> can be used
+  <xref:@azure/arm-apimanagement.KnownPreferredIPVersion> can be used
   interchangeably with PreferredIPVersion,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

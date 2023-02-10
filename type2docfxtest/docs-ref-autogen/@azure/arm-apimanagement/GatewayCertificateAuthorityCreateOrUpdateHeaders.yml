@@ -1,9 +1,7 @@
 ### YamlMime:TSType
 name: GatewayCertificateAuthorityCreateOrUpdateHeaders
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.GatewayCertificateAuthorityCreateOrUpdateHeaders
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GatewayCertificateAuthorityCreateOrUpdateHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for GatewayCertificateAuthority_createOrUpdate operation.
 fullName: GatewayCertificateAuthorityCreateOrUpdateHeaders
 remarks: ''
@@ -12,9 +10,8 @@ type: interface
 properties:
   - name: eTag
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityCreateOrUpdateHeaders.eTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityCreateOrUpdateHeaders.eTag
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

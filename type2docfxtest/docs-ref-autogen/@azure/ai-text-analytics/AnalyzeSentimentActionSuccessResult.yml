@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AnalyzeSentimentActionSuccessResult
-uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeSentimentActionSuccessResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.AnalyzeSentimentActionSuccessResult'
+package: '@azure/ai-text-analytics'
 summary: The results of a succeeded analyze sentiment action.
 fullName: AnalyzeSentimentActionSuccessResult
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: results
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeSentimentActionSuccessResult.results
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeSentimentActionSuccessResult.results'
+    package: '@azure/ai-text-analytics'
     summary: Array of the results for each analyze sentiment action.
     fullName: results
     remarks: ''
@@ -21,15 +19,11 @@ properties:
       content: 'results: AnalyzeSentimentResultArray'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.AnalyzeSentimentResultArray" />
+        type: <xref uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray" />
 inheritedProperties:
   - name: completedOn
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeSentimentActionSuccessResult.completedOn
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeSentimentActionSuccessResult.completedOn'
+    package: '@azure/ai-text-analytics'
     summary: When this action was completed by the service.
     fullName: completedOn
     remarks: ''
@@ -41,13 +35,10 @@ inheritedProperties:
         type: Date
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics
-      - v5.1.0.TextAnalyticsActionSuccessState.completedOn)
+      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.completedOn)
   - name: error
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeSentimentActionSuccessResult.error
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeSentimentActionSuccessResult.error'
+    package: '@azure/ai-text-analytics'
     summary: Discriminant to determine if that this is an error result.
     fullName: error
     remarks: ''
@@ -59,8 +50,5 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsActionSuccessState.error)
-extends: >-
-  @azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsActionSuccessState"
-  />
+      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.error)
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />

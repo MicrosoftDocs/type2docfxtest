@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: ClientAuthenticationMethod
-uid: '@azure/arm-apimanagement - v8.1.2.ClientAuthenticationMethod'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ClientAuthenticationMethod'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for ClientAuthenticationMethod. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownClientAuthenticationMethod> can
-  be used interchangeably with ClientAuthenticationMethod,
+  <xref:@azure/arm-apimanagement.KnownClientAuthenticationMethod> can be used
+  interchangeably with ClientAuthenticationMethod,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

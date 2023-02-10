@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizeCategorizedEntitiesResultArray
-uid: '@azure/ai-text-analytics - v5.1.0.RecognizeCategorizedEntitiesResultArray'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray'
+package: '@azure/ai-text-analytics'
 summary: >-
   Array of `RecognizeCategorizedEntitiesResult` objects corresponding to a batch
   of input documents, and
@@ -13,10 +13,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: Array
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.Array
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.Array'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: Array
     remarks: ''
@@ -28,9 +26,8 @@ properties:
         type: ArrayConstructor
   - name: modelVersion
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.modelVersion
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.modelVersion
+    package: '@azure/ai-text-analytics'
     summary: |-
       The version of the text analytics model used by this operation on this
       batch of input documents.
@@ -44,9 +41,8 @@ properties:
         type: string
   - name: statistics
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.statistics
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.statistics
+    package: '@azure/ai-text-analytics'
     summary: >-
       Statistics about the input document batch and how it was processed
 
@@ -61,15 +57,11 @@ properties:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.TextDocumentBatchStatistics" />
+        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
 inheritedProperties:
   - name: length
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.length
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.length'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Gets or sets the length of the array. This is a number one higher than the
       highest element defined in an array.
@@ -84,10 +76,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> Array.length
 inheritedMethods:
   - name: 'concat((T | ConcatArray<T>)[])'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.concat_1
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.concat_1'
+    package: '@azure/ai-text-analytics'
     summary: Combines two or more arrays.
     remarks: ''
     isDeprecated: false
@@ -103,14 +93,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: 'concat(ConcatArray<RecognizeCategorizedEntitiesResult>[])'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.concat
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.concat'
+    package: '@azure/ai-text-analytics'
     summary: Combines two or more arrays.
     remarks: ''
     isDeprecated: false
@@ -122,23 +110,22 @@ inheritedMethods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;@azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />&gt;[]
+            ConcatArray&lt;<xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: >-
       every((value: RecognizeCategorizedEntitiesResult, index: number, array:
       RecognizeCategorizedEntitiesResult[]) => unknown, any)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.every
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.every'
+    package: '@azure/ai-text-analytics'
     summary: Determines whether all the members of an array satisfy the specified test.
     remarks: ''
     isDeprecated: false
@@ -175,10 +162,8 @@ inheritedMethods:
   - name: >-
       filter((value: RecognizeCategorizedEntitiesResult, index: number, array:
       RecognizeCategorizedEntitiesResult[]) => unknown, any)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.filter_1
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.filter_1'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Returns the elements of an array that meet the condition specified in a
       callback function.
@@ -207,16 +192,14 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: RecognizeCategorizedEntitiesResult, index: number,
       array: RecognizeCategorizedEntitiesResult[]) => value, any)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.filter
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.filter'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Returns the elements of an array that meet the condition specified in a
       callback function.
@@ -249,10 +232,8 @@ inheritedMethods:
   - name: >-
       forEach((value: RecognizeCategorizedEntitiesResult, index: number, array:
       RecognizeCategorizedEntitiesResult[]) => void, any)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.forEach
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.forEach'
+    package: '@azure/ai-text-analytics'
     summary: Performs the specified action for each element in an array.
     remarks: ''
     isDeprecated: false
@@ -277,10 +258,8 @@ inheritedMethods:
             value.
     inheritanceDescription: <b>Inherited From</b> Array.forEach
   - name: 'indexOf(RecognizeCategorizedEntitiesResult, number)'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.indexOf
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.indexOf'
+    package: '@azure/ai-text-analytics'
     summary: Returns the index of the first occurrence of a value in an array.
     remarks: ''
     isDeprecated: false
@@ -291,8 +270,8 @@ inheritedMethods:
       parameters:
         - id: searchElement
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -304,10 +283,8 @@ inheritedMethods:
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.indexOf
   - name: join(string)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.join
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.join'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Adds all the elements of an array separated by the specified separator
       string.
@@ -328,9 +305,8 @@ inheritedMethods:
     inheritanceDescription: <b>Inherited From</b> Array.join
   - name: 'lastIndexOf(RecognizeCategorizedEntitiesResult, number)'
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.lastIndexOf
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.lastIndexOf
+    package: '@azure/ai-text-analytics'
     summary: Returns the index of the last occurrence of a specified value in an array.
     remarks: ''
     isDeprecated: false
@@ -341,8 +317,8 @@ inheritedMethods:
       parameters:
         - id: searchElement
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -356,10 +332,8 @@ inheritedMethods:
   - name: >-
       map<U>((value: RecognizeCategorizedEntitiesResult, index: number, array:
       RecognizeCategorizedEntitiesResult[]) => U, any)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.map
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.map'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls a defined callback function on each element of an array, and returns
       an array that contains the results.
@@ -389,10 +363,8 @@ inheritedMethods:
         type: 'U[]'
     inheritanceDescription: <b>Inherited From</b> Array.map
   - name: pop()
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.pop
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.pop'
+    package: '@azure/ai-text-analytics'
     summary: Removes the last element from an array and returns it.
     remarks: ''
     isDeprecated: false
@@ -401,14 +373,13 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" /> | undefined
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: 'push(RecognizeCategorizedEntitiesResult[])'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.push
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.push'
+    package: '@azure/ai-text-analytics'
     summary: 'Appends new elements to an array, and returns the new length of the array.'
     remarks: ''
     isDeprecated: false
@@ -417,8 +388,9 @@ inheritedMethods:
       parameters:
         - id: items
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            />[]
           description: |
             New elements of the Array.
       return:
@@ -430,10 +402,8 @@ inheritedMethods:
       RecognizeCategorizedEntitiesResult, currentIndex: number, array:
       RecognizeCategorizedEntitiesResult[]) =>
       RecognizeCategorizedEntitiesResult)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reduce
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reduce'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array.
       The return value of the callback function is the accumulated result, and
@@ -461,18 +431,16 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce((previousValue: RecognizeCategorizedEntitiesResult, currentValue:
       RecognizeCategorizedEntitiesResult, currentIndex: number, array:
       RecognizeCategorizedEntitiesResult[]) =>
       RecognizeCategorizedEntitiesResult, RecognizeCategorizedEntitiesResult)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reduce_1
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reduce_1'
+    package: '@azure/ai-text-analytics'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -494,23 +462,21 @@ inheritedMethods:
           description: ''
         - id: initialValue
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
           description: ''
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce<U>((previousValue: U, currentValue:
       RecognizeCategorizedEntitiesResult, currentIndex: number, array:
       RecognizeCategorizedEntitiesResult[]) => U, U)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reduce_2
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reduce_2'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array.
       The return value of the callback function is the accumulated result, and
@@ -548,9 +514,8 @@ inheritedMethods:
       array: RecognizeCategorizedEntitiesResult[]) =>
       RecognizeCategorizedEntitiesResult)
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reduceRight
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reduceRight
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array, in
       descending order. The return value of the callback function is the
@@ -579,8 +544,8 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight((previousValue: RecognizeCategorizedEntitiesResult,
@@ -588,9 +553,8 @@ inheritedMethods:
       array: RecognizeCategorizedEntitiesResult[]) =>
       RecognizeCategorizedEntitiesResult, RecognizeCategorizedEntitiesResult)
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reduceRight_1
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reduceRight_1
+    package: '@azure/ai-text-analytics'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -612,23 +576,22 @@ inheritedMethods:
           description: ''
         - id: initialValue
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
           description: ''
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight<U>((previousValue: U, currentValue:
       RecognizeCategorizedEntitiesResult, currentIndex: number, array:
       RecognizeCategorizedEntitiesResult[]) => U, U)
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reduceRight_2
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reduceRight_2
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array, in
       descending order. The return value of the callback function is the
@@ -662,10 +625,8 @@ inheritedMethods:
         type: U
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: reverse()
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.reverse
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.reverse'
+    package: '@azure/ai-text-analytics'
     summary: Reverses the elements in an Array.
     remarks: ''
     isDeprecated: false
@@ -674,14 +635,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.reverse
   - name: shift()
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.shift
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.shift'
+    package: '@azure/ai-text-analytics'
     summary: Removes the first element from an array and returns it.
     remarks: ''
     isDeprecated: false
@@ -690,14 +649,13 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" /> | undefined
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: 'slice(number, number)'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.slice
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.slice'
+    package: '@azure/ai-text-analytics'
     summary: Returns a section of an array.
     remarks: ''
     isDeprecated: false
@@ -717,16 +675,14 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.slice
   - name: >-
       some((value: RecognizeCategorizedEntitiesResult, index: number, array:
       RecognizeCategorizedEntitiesResult[]) => unknown, any)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.some
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.some'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Determines whether the specified callback function returns true for any
       element of an array.
@@ -764,10 +720,8 @@ inheritedMethods:
   - name: >-
       sort((a: RecognizeCategorizedEntitiesResult, b:
       RecognizeCategorizedEntitiesResult) => number)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.sort
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.sort'
+    package: '@azure/ai-text-analytics'
     summary: Sorts an array.
     remarks: ''
     isDeprecated: false
@@ -800,10 +754,8 @@ inheritedMethods:
         type: this
     inheritanceDescription: <b>Inherited From</b> Array.sort
   - name: 'splice(number, number)'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.splice
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.splice'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
@@ -826,14 +778,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: 'splice(number, number, RecognizeCategorizedEntitiesResult[])'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.splice_1
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.splice_1'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
@@ -855,21 +805,21 @@ inheritedMethods:
           description: The number of elements to remove.
         - id: items
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
     inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: toLocaleString()
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.toLocaleString
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.toLocaleString
+    package: '@azure/ai-text-analytics'
     summary: >-
       Returns a string representation of an array. The elements are converted to
       string using their toLocalString methods.
@@ -882,10 +832,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
   - name: toString()
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.toString
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.toString'
+    package: '@azure/ai-text-analytics'
     summary: Returns a string representation of an array.
     remarks: ''
     isDeprecated: false
@@ -896,10 +844,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.toString
   - name: 'unshift(RecognizeCategorizedEntitiesResult[])'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizeCategorizedEntitiesResultArray.unshift
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray.unshift'
+    package: '@azure/ai-text-analytics'
     summary: Inserts new elements at the start of an array.
     remarks: ''
     isDeprecated: false
@@ -908,8 +854,9 @@ inheritedMethods:
       parameters:
         - id: items
           type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizeCategorizedEntitiesResult" />[]
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -917,5 +864,5 @@ inheritedMethods:
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.unshift
 extends: >-
-  Array&lt;@azure/ai-text-analytics - <xref
-  uid="v5.1.0.RecognizeCategorizedEntitiesResult" />&gt;
+  Array&lt;<xref
+  uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />&gt;

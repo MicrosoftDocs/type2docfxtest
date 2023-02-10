@@ -1,9 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: OpenIdConnectProviderListByServiceNextResponse
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.OpenIdConnectProviderListByServiceNextResponse
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OpenIdConnectProviderListByServiceNextResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByServiceNext operation.
 fullName: OpenIdConnectProviderListByServiceNextResponse
 remarks: ''

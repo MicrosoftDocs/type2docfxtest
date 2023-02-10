@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ComposeNewParams
-uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.mail.ComposeNewParams'
+package: '@microsoft/teams-js'
 summary: Interfaces for each type.
 fullName: ComposeNewParams
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: bccRecipients
-    uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams.bccRecipients'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.mail.ComposeNewParams.bccRecipients'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: bccRecipients
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: ccRecipients
-    uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams.ccRecipients'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.mail.ComposeNewParams.ccRecipients'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: ccRecipients
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: message
-    uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams.message'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.mail.ComposeNewParams.message'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: message
     remarks: ''
@@ -45,8 +45,8 @@ properties:
         description: ''
         type: string
   - name: subject
-    uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams.subject'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.mail.ComposeNewParams.subject'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: subject
     remarks: ''
@@ -57,8 +57,8 @@ properties:
         description: ''
         type: string
   - name: toRecipients
-    uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams.toRecipients'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.mail.ComposeNewParams.toRecipients'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: toRecipients
     remarks: ''
@@ -70,8 +70,8 @@ properties:
         type: 'string[]'
 inheritedProperties:
   - name: type
-    uid: '@microsoft/teams-js - v2.5.0.mail.ComposeNewParams.type'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.mail.ComposeNewParams.type'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: type
     remarks: ''
@@ -80,10 +80,10 @@ inheritedProperties:
       content: 'type: New'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.mail.ComposeMailType.New" />'
+        type: <xref uid="@microsoft/teams-js.mail.ComposeMailType.New" />
     inheritanceDescription: >-
-      <b>Inherited From</b> [ComposeMailBase.type](xref:@microsoft/teams-js -
-      v2.5.0.mail.ComposeMailBase.type)
+      <b>Inherited From</b>
+      [ComposeMailBase.type](xref:@microsoft/teams-js.mail.ComposeMailBase.type)
 extends: >-
-  @microsoft/teams-js - <xref uid="v2.5.0.mail.ComposeMailBase"
-  />&lt;@microsoft/teams-js - <xref uid="v2.5.0.mail.ComposeMailType.New" />&gt;
+  <xref uid="@microsoft/teams-js.mail.ComposeMailBase" />&lt;<xref
+  uid="@microsoft/teams-js.mail.ComposeMailType.New" />&gt;

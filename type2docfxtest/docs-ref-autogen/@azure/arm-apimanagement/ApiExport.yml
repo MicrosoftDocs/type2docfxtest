@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiExport
-uid: '@azure/arm-apimanagement - v8.1.2.ApiExport'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiExport'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiExport.
 fullName: ApiExport
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       get(string, string, string, ExportFormat, ExportApi,
       ApiExportGetOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiExport.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiExport.get'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the details of the API specified by its identifier in the format
       specified to the Storage Blob
@@ -39,22 +39,20 @@ methods:
             Management service instance.
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: format
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ExportFormat" />'
+          type: <xref uid="@azure/arm-apimanagement.ExportFormat" />
           description: >-
             Format in which to export the Api Details to the Storage Blob with
             Sas Key valid for 5
                           minutes.
         - id: exportParam
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ExportApi" />'
+          type: <xref uid="@azure/arm-apimanagement.ExportApi" />
           description: Query parameter required to export the API details.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiExportGetOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.ApiExportGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiExportGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.ApiExportGetResponse"
+          />&gt;

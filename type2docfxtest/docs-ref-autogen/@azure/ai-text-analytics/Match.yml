@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Match
-uid: '@azure/ai-text-analytics - v5.1.0.Match'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.Match'
+package: '@azure/ai-text-analytics'
 summary: >-
   Details about the specific substring in a document that refers to a linked
   entity identified by the Text Analytics model.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: confidenceScore
-    uid: '@azure/ai-text-analytics - v5.1.0.Match.confidenceScore'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Match.confidenceScore'
+    package: '@azure/ai-text-analytics'
     summary: >-
       If a well known item is recognized, a decimal number denoting the
       confidence level between 0 and 1 will be returned.
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: number
   - name: length
-    uid: '@azure/ai-text-analytics - v5.1.0.Match.length'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Match.length'
+    package: '@azure/ai-text-analytics'
     summary: Length for the entity match text.
     fullName: length
     remarks: ''
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: number
   - name: offset
-    uid: '@azure/ai-text-analytics - v5.1.0.Match.offset'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Match.offset'
+    package: '@azure/ai-text-analytics'
     summary: Start position for the entity match text.
     fullName: offset
     remarks: ''
@@ -49,8 +49,8 @@ properties:
         description: ''
         type: number
   - name: text
-    uid: '@azure/ai-text-analytics - v5.1.0.Match.text'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.Match.text'
+    package: '@azure/ai-text-analytics'
     summary: Entity text as appears in the request.
     fullName: text
     remarks: ''

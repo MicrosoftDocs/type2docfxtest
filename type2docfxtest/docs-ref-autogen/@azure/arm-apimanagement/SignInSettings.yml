@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SignInSettings
-uid: '@azure/arm-apimanagement - v8.1.2.SignInSettings'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.SignInSettings'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a SignInSettings.
 fullName: SignInSettings
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, PortalSigninSettings,
       SignInSettingsCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.SignInSettings.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.SignInSettings.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Create or Update Sign-In settings.
     remarks: ''
     isDeprecated: false
@@ -30,24 +30,24 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.PortalSigninSettings"
-            />
+          type: <xref uid="@azure/arm-apimanagement.PortalSigninSettings" />
           description: Create or update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.SignInSettingsCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.SignInSettingsCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.SignInSettingsCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.SignInSettingsCreateOrUpdateResponse"
+          />&gt;
   - name: 'get(string, string, SignInSettingsGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.SignInSettings.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.SignInSettings.get'
+    package: '@azure/arm-apimanagement'
     summary: Get Sign In Settings for the Portal
     remarks: ''
     isDeprecated: false
@@ -64,18 +64,18 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.SignInSettingsGetOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.SignInSettingsGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.SignInSettingsGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.SignInSettingsGetResponse" />&gt;
   - name: 'getEntityTag(string, string, SignInSettingsGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.SignInSettings.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.SignInSettings.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: Gets the entity state (Etag) version of the SignInSettings.
     remarks: ''
     isDeprecated: false
@@ -93,20 +93,22 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.SignInSettingsGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.SignInSettingsGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.SignInSettingsGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.SignInSettingsGetEntityTagResponse"
+          />&gt;
   - name: >-
       update(string, string, string, PortalSigninSettings,
       SignInSettingsUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.SignInSettings.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.SignInSettings.update'
+    package: '@azure/arm-apimanagement'
     summary: Update Sign-In settings.
     remarks: ''
     isDeprecated: false
@@ -129,14 +131,12 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.PortalSigninSettings"
-            />
+          type: <xref uid="@azure/arm-apimanagement.PortalSigninSettings" />
           description: Update Sign-In settings.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.SignInSettingsUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.SignInSettingsUpdateOptionalParams" />
           description: |
             The options parameters.
       return:

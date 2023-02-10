@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GetConfigurationSettingResponse
-uid: '@azure/app-configuration - v1.3.1.GetConfigurationSettingResponse'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.GetConfigurationSettingResponse'
+package: '@azure/app-configuration'
 summary: Response from retrieving a ConfigurationSetting.
 fullName: GetConfigurationSettingResponse
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 inheritedProperties:
   - name: contentType
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.GetConfigurationSettingResponse.contentType
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.contentType'
+    package: '@azure/app-configuration'
     summary: The content type of the setting's value
     fullName: contentType
     remarks: ''
@@ -24,8 +22,8 @@ inheritedProperties:
         type: string
     inheritanceDescription: '<b>Inherited From</b> [__type.contentType](xref:__type.contentType)'
   - name: etag
-    uid: '@azure/app-configuration - v1.3.1.GetConfigurationSettingResponse.etag'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.etag'
+    package: '@azure/app-configuration'
     summary: The etag for this setting
     fullName: etag
     remarks: ''
@@ -37,13 +35,10 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ConfigurationSettingId.etag](xref:@azure/app-configuration -
-      v1.3.1.ConfigurationSettingId.etag)
+      [ConfigurationSettingId.etag](xref:@azure/app-configuration.ConfigurationSettingId.etag)
   - name: isReadOnly
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.GetConfigurationSettingResponse.isReadOnly
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.isReadOnly'
+    package: '@azure/app-configuration'
     summary: Whether or not the setting is read-only
     fullName: isReadOnly
     remarks: ''
@@ -55,8 +50,8 @@ inheritedProperties:
         type: boolean
     inheritanceDescription: '<b>Inherited From</b> [__type.isReadOnly](xref:__type.isReadOnly)'
   - name: key
-    uid: '@azure/app-configuration - v1.3.1.GetConfigurationSettingResponse.key'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.key'
+    package: '@azure/app-configuration'
     summary: >-
       The key for this setting.
 
@@ -72,11 +67,10 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ConfigurationSettingId.key](xref:@azure/app-configuration -
-      v1.3.1.ConfigurationSettingId.key)
+      [ConfigurationSettingId.key](xref:@azure/app-configuration.ConfigurationSettingId.key)
   - name: label
-    uid: '@azure/app-configuration - v1.3.1.GetConfigurationSettingResponse.label'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.label'
+    package: '@azure/app-configuration'
     summary: |-
       The label for this setting. Leaving this undefined means this
       setting does not have a label.
@@ -90,13 +84,10 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ConfigurationSettingId.label](xref:@azure/app-configuration -
-      v1.3.1.ConfigurationSettingId.label)
+      [ConfigurationSettingId.label](xref:@azure/app-configuration.ConfigurationSettingId.label)
   - name: lastModified
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.GetConfigurationSettingResponse.lastModified
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.lastModified'
+    package: '@azure/app-configuration'
     summary: The date when this setting was last modified
     fullName: lastModified
     remarks: ''
@@ -108,10 +99,8 @@ inheritedProperties:
         type: Date
     inheritanceDescription: '<b>Inherited From</b> [__type.lastModified](xref:__type.lastModified)'
   - name: statusCode
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.GetConfigurationSettingResponse.statusCode
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.statusCode'
+    package: '@azure/app-configuration'
     summary: The HTTP status code for the response
     fullName: statusCode
     remarks: ''
@@ -123,13 +112,10 @@ inheritedProperties:
         type: number
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [HttpResponseFields.statusCode](xref:@azure/app-configuration -
-      v1.3.1.HttpResponseFields.statusCode)
+      [HttpResponseFields.statusCode](xref:@azure/app-configuration.HttpResponseFields.statusCode)
   - name: syncToken
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.GetConfigurationSettingResponse.syncToken
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.syncToken'
+    package: '@azure/app-configuration'
     summary: >-
       Enables real-time consistency between requests by providing the returned
       value in the next
@@ -145,11 +131,10 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [SyncTokenHeaderField.syncToken](xref:@azure/app-configuration -
-      v1.3.1.SyncTokenHeaderField.syncToken)
+      [SyncTokenHeaderField.syncToken](xref:@azure/app-configuration.SyncTokenHeaderField.syncToken)
   - name: tags
-    uid: '@azure/app-configuration - v1.3.1.GetConfigurationSettingResponse.tags'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.tags'
+    package: '@azure/app-configuration'
     summary: Tags for this key
     fullName: tags
     remarks: ''
@@ -161,8 +146,8 @@ inheritedProperties:
         type: '[key: string]\: string'
     inheritanceDescription: '<b>Inherited From</b> [__type.tags](xref:__type.tags)'
   - name: value
-    uid: '@azure/app-configuration - v1.3.1.GetConfigurationSettingResponse.value'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.GetConfigurationSettingResponse.value'
+    package: '@azure/app-configuration'
     summary: The setting's value
     fullName: value
     remarks: ''
@@ -174,6 +159,6 @@ inheritedProperties:
         type: string
     inheritanceDescription: '<b>Inherited From</b> [__type.value](xref:__type.value)'
 extends: >-
-  @azure/app-configuration - <xref uid="v1.3.1.ConfigurationSettingId" /> & {
+  <xref uid="@azure/app-configuration.ConfigurationSettingId" /> & {
   contentType?: string, tags?: [key: string]: string } & { value?: string } & {
   isReadOnly: boolean, lastModified?: Date }

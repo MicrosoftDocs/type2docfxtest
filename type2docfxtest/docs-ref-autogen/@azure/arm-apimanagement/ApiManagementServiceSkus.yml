@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementServiceSkus
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceSkus'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementServiceSkus'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiManagementServiceSkus.
 fullName: ApiManagementServiceSkus
 remarks: ''
@@ -11,10 +11,8 @@ methods:
   - name: >-
       listAvailableServiceSkus(string, string,
       ApiManagementServiceSkusListAvailableServiceSkusOptionalParams)
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiManagementServiceSkus.listAvailableServiceSkus
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementServiceSkus.listAvailableServiceSkus'
+    package: '@azure/arm-apimanagement'
     summary: Gets all available SKU for a given API Management service
     remarks: ''
     isDeprecated: false
@@ -33,13 +31,13 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiManagementServiceSkusListAvailableServiceSkusOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.ApiManagementServiceSkusListAvailableServiceSkusOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ResourceSkuResult" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ResourceSkuResult" />&gt;

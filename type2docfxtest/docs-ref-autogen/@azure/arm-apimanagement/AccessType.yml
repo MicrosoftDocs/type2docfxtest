@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: AccessType
-uid: '@azure/arm-apimanagement - v8.1.2.AccessType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AccessType'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for AccessType. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownAccessType> can be used
-  interchangeably with AccessType,
+  <xref:@azure/arm-apimanagement.KnownAccessType> can be used interchangeably
+  with AccessType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

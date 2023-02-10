@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AppConfigurationClientOptions
-uid: '@azure/app-configuration - v1.3.1.AppConfigurationClientOptions'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.AppConfigurationClientOptions'
+package: '@azure/app-configuration'
 summary: Provides configuration options for AppConfigurationClient.
 fullName: AppConfigurationClientOptions
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: retryOptions
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.AppConfigurationClientOptions.retryOptions
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.AppConfigurationClientOptions.retryOptions'
+    package: '@azure/app-configuration'
     summary: Options that control how to retry failed requests.
     fullName: retryOptions
     remarks: ''
@@ -21,12 +19,10 @@ properties:
       content: 'retryOptions?: RetryOptions'
       return:
         description: ''
-        type: '@azure/app-configuration - <xref uid="v1.3.1.RetryOptions" />'
+        type: <xref uid="@azure/app-configuration.RetryOptions" />
   - name: userAgentOptions
-    uid: >-
-      @azure/app-configuration -
-      v1.3.1.AppConfigurationClientOptions.userAgentOptions
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.AppConfigurationClientOptions.userAgentOptions'
+    package: '@azure/app-configuration'
     summary: Options for adding user agent details to outgoing requests.
     fullName: userAgentOptions
     remarks: ''

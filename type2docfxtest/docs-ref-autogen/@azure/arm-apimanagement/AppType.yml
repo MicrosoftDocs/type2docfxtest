@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: AppType
-uid: '@azure/arm-apimanagement - v8.1.2.AppType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AppType'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for AppType. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownAppType> can be used
-  interchangeably with AppType,
+  <xref:@azure/arm-apimanagement.KnownAppType> can be used interchangeably with
+  AppType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

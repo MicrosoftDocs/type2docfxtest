@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TokenBodyParameterContract
-uid: '@azure/arm-apimanagement - v8.1.2.TokenBodyParameterContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TokenBodyParameterContract'
+package: '@azure/arm-apimanagement'
 summary: OAuth acquire token request body parameter (www-url-form-encoded).
 fullName: TokenBodyParameterContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.TokenBodyParameterContract.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TokenBodyParameterContract.name'
+    package: '@azure/arm-apimanagement'
     summary: body parameter name.
     fullName: name
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.TokenBodyParameterContract.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TokenBodyParameterContract.value'
+    package: '@azure/arm-apimanagement'
     summary: body parameter value.
     fullName: value
     remarks: ''

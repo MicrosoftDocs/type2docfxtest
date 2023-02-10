@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextAnalyticsOperationOptions
-uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsOperationOptions'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
+package: '@azure/ai-text-analytics'
 summary: Options common to all text analytics operations.
 fullName: TextAnalyticsOperationOptions
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: disableServiceLogs
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.disableServiceLogs
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.disableServiceLogs'
+    package: '@azure/ai-text-analytics'
     summary: >-
       If set to true (the default for `beginAnalyzeHealthcareEntities` and
       `recognizePiiEntities`),
@@ -36,10 +34,8 @@ properties:
         description: ''
         type: boolean
   - name: includeStatistics
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.includeStatistics
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.includeStatistics'
+    package: '@azure/ai-text-analytics'
     summary: 'If set to true, response will contain input and document level statistics.'
     fullName: includeStatistics
     remarks: ''
@@ -50,10 +46,8 @@ properties:
         description: ''
         type: boolean
   - name: modelVersion
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.modelVersion
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.modelVersion'
+    package: '@azure/ai-text-analytics'
     summary: >-
       This value indicates which model will be used for scoring. If a
       model-version is
@@ -74,10 +68,8 @@ properties:
         type: string
 inheritedProperties:
   - name: abortSignal
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.abortSignal
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.abortSignal'
+    package: '@azure/ai-text-analytics'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -89,8 +81,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsOperationOptions.onResponse'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.onResponse'
+    package: '@azure/ai-text-analytics'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -105,10 +97,8 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.requestOptions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.requestOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -120,10 +110,8 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.serializerOptions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.serializerOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -135,10 +123,8 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsOperationOptions.tracingOptions
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions.tracingOptions'
+    package: '@azure/ai-text-analytics'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

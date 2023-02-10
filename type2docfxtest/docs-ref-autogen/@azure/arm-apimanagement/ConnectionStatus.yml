@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: ConnectionStatus
-uid: '@azure/arm-apimanagement - v8.1.2.ConnectionStatus'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ConnectionStatus'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for ConnectionStatus. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownConnectionStatus> can be used
+  <xref:@azure/arm-apimanagement.KnownConnectionStatus> can be used
   interchangeably with ConnectionStatus,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

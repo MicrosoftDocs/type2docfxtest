@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiVersionSetContract
-uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiVersionSetContract'
+package: '@azure/arm-apimanagement'
 summary: API Version Set Contract details.
 fullName: ApiVersionSetContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.description'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of API Version Set.
     fullName: description
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.displayName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.displayName'
+    package: '@azure/arm-apimanagement'
     summary: Name of API Version Set
     fullName: displayName
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: versionHeaderName
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.versionHeaderName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.versionHeaderName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of HTTP header parameter that indicates the API Version if
       versioningScheme is set to `header`.
@@ -47,8 +47,8 @@ properties:
         description: ''
         type: undefined | string
   - name: versioningScheme
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.versioningScheme'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.versioningScheme'
+    package: '@azure/arm-apimanagement'
     summary: >-
       An value that determines where the API Version identifier will be located
       in a HTTP request.
@@ -59,10 +59,10 @@ properties:
       content: 'versioningScheme?: VersioningScheme'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.VersioningScheme" />'
+        type: <xref uid="@azure/arm-apimanagement.VersioningScheme" />
   - name: versionQueryName
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.versionQueryName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.versionQueryName'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Name of query parameter that indicates the API Version if versioningScheme
       is set to `query`.
@@ -76,8 +76,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -93,11 +93,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.id)
+      <b>Inherited From</b>
+      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.name'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The name of the resource
 
@@ -112,11 +112,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiVersionSetContract.type'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiVersionSetContract.type'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -132,6 +132,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.type)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
+extends: <xref uid="@azure/arm-apimanagement.Resource" />

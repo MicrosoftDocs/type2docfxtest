@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Method
-uid: '@azure/arm-apimanagement - v8.1.2.Method'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Method'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for Method. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownMethod> can be used
-  interchangeably with Method,
+  <xref:@azure/arm-apimanagement.KnownMethod> can be used interchangeably with
+  Method,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

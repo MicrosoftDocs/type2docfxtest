@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Reports
-uid: '@azure/arm-apimanagement - v8.1.2.Reports'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Reports'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a Reports.
 fullName: Reports
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'listByApi(string, string, string, ReportsListByApiOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByApi'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by API.
     remarks: ''
     isDeprecated: false
@@ -31,18 +31,18 @@ methods:
           description: The filter to apply on the operation.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByApiOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ReportsListByApiOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;
   - name: 'listByGeo(string, string, string, ReportsListByGeoOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByGeo'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByGeo'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by geography.
     remarks: ''
     isDeprecated: false
@@ -76,20 +76,20 @@ methods:
                           serviceTimeMax | select |     |     | </br>
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByGeoOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ReportsListByGeoOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;
   - name: >-
       listByOperation(string, string, string,
       ReportsListByOperationOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByOperation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByOperation'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by API Operations.
     remarks: ''
     isDeprecated: false
@@ -123,18 +123,19 @@ methods:
                           </br>| serviceTimeMin | select |     |     | </br>| serviceTimeMax | select |     |     | </br>
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByOperationOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ReportsListByOperationOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;
   - name: 'listByProduct(string, string, string, ReportsListByProductOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByProduct'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by Product.
     remarks: ''
     isDeprecated: false
@@ -168,18 +169,18 @@ methods:
                           serviceTimeMax | select |     |     | </br>
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByProductOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ReportsListByProductOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;
   - name: 'listByRequest(string, string, string, ReportsListByRequestOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByRequest'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByRequest'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by Request.
     remarks: ''
     isDeprecated: false
@@ -206,20 +207,20 @@ methods:
                           </br>| subscriptionId | filter | eq |     | </br>
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByRequestOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ReportsListByRequestOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.RequestReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.RequestReportRecordContract" />&gt;
   - name: >-
       listBySubscription(string, string, string,
       ReportsListBySubscriptionOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listBySubscription'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listBySubscription'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by subscription.
     remarks: ''
     isDeprecated: false
@@ -254,20 +255,21 @@ methods:
                           serviceTimeMax | select |     |     | </br>
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListBySubscriptionOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ReportsListBySubscriptionOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;
   - name: >-
       listByTime(string, string, string, string,
       ReportsListByTimeOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByTime'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByTime'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by Time.
     remarks: ''
     isDeprecated: false
@@ -309,18 +311,18 @@ methods:
                             minutes, seconds)).
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByTimeOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ReportsListByTimeOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;
   - name: 'listByUser(string, string, string, ReportsListByUserOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Reports.listByUser'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Reports.listByUser'
+    package: '@azure/arm-apimanagement'
     summary: Lists report records by User.
     remarks: ''
     isDeprecated: false
@@ -355,12 +357,12 @@ methods:
                             |     | </br>
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ReportsListByUserOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ReportsListByUserOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ReportRecordContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.ReportRecordContract" />&gt;

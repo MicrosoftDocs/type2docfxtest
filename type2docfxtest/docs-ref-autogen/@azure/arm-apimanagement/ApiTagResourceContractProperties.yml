@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiTagResourceContractProperties
-uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties'
+package: '@azure/arm-apimanagement'
 summary: API contract properties for the Tag Resources.
 fullName: ApiTagResourceContractProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.id'
+    package: '@azure/arm-apimanagement'
     summary: 'API identifier in the form /apis/{apiId}.'
     fullName: id
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.name'
+    package: '@azure/arm-apimanagement'
     summary: API name.
     fullName: name
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: path
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties.path'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.path'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Relative URL uniquely identifying this API and all of its resource paths
       within the API Management service instance. It is appended to the API
@@ -49,10 +49,8 @@ properties:
         description: ''
         type: undefined | string
   - name: protocols
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.protocols
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.protocols'
+    package: '@azure/arm-apimanagement'
     summary: Describes on which protocols the operations in this API can be invoked.
     fullName: protocols
     remarks: ''
@@ -61,12 +59,10 @@ properties:
       content: 'protocols?: Protocol[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Protocol" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.Protocol" />[]'
   - name: serviceUrl
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.serviceUrl
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.serviceUrl'
+    package: '@azure/arm-apimanagement'
     summary: Absolute URL of the backend service implementing this API.
     fullName: serviceUrl
     remarks: ''
@@ -78,10 +74,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: apiRevision
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.apiRevision
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.apiRevision'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Describes the revision of the API. If no value is provided, default
       revision 1 is created
@@ -95,13 +89,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.apiRevision](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.apiRevision)
+      [ApiEntityBaseContract.apiRevision](xref:@azure/arm-apimanagement.ApiEntityBaseContract.apiRevision)
   - name: apiRevisionDescription
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.apiRevisionDescription
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiTagResourceContractProperties.apiRevisionDescription
+    package: '@azure/arm-apimanagement'
     summary: Description of the API Revision.
     fullName: apiRevisionDescription
     remarks: ''
@@ -113,11 +105,10 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.apiRevisionDescription](xref:@azure/arm-apimanagement
-      - v8.1.2.ApiEntityBaseContract.apiRevisionDescription)
+      [ApiEntityBaseContract.apiRevisionDescription](xref:@azure/arm-apimanagement.ApiEntityBaseContract.apiRevisionDescription)
   - name: apiType
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties.apiType'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.apiType'
+    package: '@azure/arm-apimanagement'
     summary: Type of API.
     fullName: apiType
     remarks: ''
@@ -126,16 +117,13 @@ inheritedProperties:
       content: 'apiType?: ApiType'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiType" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiType" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.apiType](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.apiType)
+      [ApiEntityBaseContract.apiType](xref:@azure/arm-apimanagement.ApiEntityBaseContract.apiType)
   - name: apiVersion
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.apiVersion
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.apiVersion'
+    package: '@azure/arm-apimanagement'
     summary: Indicates the version identifier of the API if the API is versioned
     fullName: apiVersion
     remarks: ''
@@ -147,13 +135,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.apiVersion](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.apiVersion)
+      [ApiEntityBaseContract.apiVersion](xref:@azure/arm-apimanagement.ApiEntityBaseContract.apiVersion)
   - name: apiVersionDescription
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.apiVersionDescription
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiTagResourceContractProperties.apiVersionDescription
+    package: '@azure/arm-apimanagement'
     summary: Description of the API Version.
     fullName: apiVersionDescription
     remarks: ''
@@ -165,13 +151,10 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.apiVersionDescription](xref:@azure/arm-apimanagement
-      - v8.1.2.ApiEntityBaseContract.apiVersionDescription)
+      [ApiEntityBaseContract.apiVersionDescription](xref:@azure/arm-apimanagement.ApiEntityBaseContract.apiVersionDescription)
   - name: apiVersionSetId
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.apiVersionSetId
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.apiVersionSetId'
+    package: '@azure/arm-apimanagement'
     summary: A resource identifier for the related ApiVersionSet.
     fullName: apiVersionSetId
     remarks: ''
@@ -183,13 +166,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.apiVersionSetId](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.apiVersionSetId)
+      [ApiEntityBaseContract.apiVersionSetId](xref:@azure/arm-apimanagement.ApiEntityBaseContract.apiVersionSetId)
   - name: authenticationSettings
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.authenticationSettings
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiTagResourceContractProperties.authenticationSettings
+    package: '@azure/arm-apimanagement'
     summary: Collection of authentication settings included into this API.
     fullName: authenticationSettings
     remarks: ''
@@ -198,16 +179,13 @@ inheritedProperties:
       content: 'authenticationSettings?: AuthenticationSettingsContract'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.AuthenticationSettingsContract" />
+        type: <xref uid="@azure/arm-apimanagement.AuthenticationSettingsContract" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.authenticationSettings](xref:@azure/arm-apimanagement
-      - v8.1.2.ApiEntityBaseContract.authenticationSettings)
+      [ApiEntityBaseContract.authenticationSettings](xref:@azure/arm-apimanagement.ApiEntityBaseContract.authenticationSettings)
   - name: contact
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties.contact'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.contact'
+    package: '@azure/arm-apimanagement'
     summary: Contact information for the API.
     fullName: contact
     remarks: ''
@@ -216,16 +194,13 @@ inheritedProperties:
       content: 'contact?: ApiContactInformation'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiContactInformation" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiContactInformation" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.contact](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.contact)
+      [ApiEntityBaseContract.contact](xref:@azure/arm-apimanagement.ApiEntityBaseContract.contact)
   - name: description
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.description
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of the API. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -237,13 +212,10 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.description](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.description)
+      [ApiEntityBaseContract.description](xref:@azure/arm-apimanagement.ApiEntityBaseContract.description)
   - name: isCurrent
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.isCurrent
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.isCurrent'
+    package: '@azure/arm-apimanagement'
     summary: Indicates if API revision is current api revision.
     fullName: isCurrent
     remarks: ''
@@ -255,13 +227,10 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.isCurrent](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.isCurrent)
+      [ApiEntityBaseContract.isCurrent](xref:@azure/arm-apimanagement.ApiEntityBaseContract.isCurrent)
   - name: isOnline
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.isOnline
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.isOnline'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Indicates if API revision is accessible via the gateway.
 
@@ -277,11 +246,10 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.isOnline](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.isOnline)
+      [ApiEntityBaseContract.isOnline](xref:@azure/arm-apimanagement.ApiEntityBaseContract.isOnline)
   - name: license
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiTagResourceContractProperties.license'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiTagResourceContractProperties.license'
+    package: '@azure/arm-apimanagement'
     summary: License information for the API.
     fullName: license
     remarks: ''
@@ -290,16 +258,14 @@ inheritedProperties:
       content: 'license?: ApiLicenseInformation'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiLicenseInformation" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiLicenseInformation" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.license](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.license)
+      [ApiEntityBaseContract.license](xref:@azure/arm-apimanagement.ApiEntityBaseContract.license)
   - name: subscriptionKeyParameterNames
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.subscriptionKeyParameterNames
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiTagResourceContractProperties.subscriptionKeyParameterNames
+    package: '@azure/arm-apimanagement'
     summary: Protocols over which API is made available.
     fullName: subscriptionKeyParameterNames
     remarks: ''
@@ -309,17 +275,16 @@ inheritedProperties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.SubscriptionKeyParameterNamesContract" />
+          <xref
+          uid="@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract"
+          />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.subscriptionKeyParameterNames](xref:@azure/arm-apimanagement
-      - v8.1.2.ApiEntityBaseContract.subscriptionKeyParameterNames)
+      [ApiEntityBaseContract.subscriptionKeyParameterNames](xref:@azure/arm-apimanagement.ApiEntityBaseContract.subscriptionKeyParameterNames)
   - name: subscriptionRequired
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.subscriptionRequired
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiTagResourceContractProperties.subscriptionRequired
+    package: '@azure/arm-apimanagement'
     summary: >-
       Specifies whether an API or Product subscription is required for accessing
       the API.
@@ -333,13 +298,11 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.subscriptionRequired](xref:@azure/arm-apimanagement
-      - v8.1.2.ApiEntityBaseContract.subscriptionRequired)
+      [ApiEntityBaseContract.subscriptionRequired](xref:@azure/arm-apimanagement.ApiEntityBaseContract.subscriptionRequired)
   - name: termsOfServiceUrl
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiTagResourceContractProperties.termsOfServiceUrl
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.ApiTagResourceContractProperties.termsOfServiceUrl
+    package: '@azure/arm-apimanagement'
     summary: A URL to the Terms of Service for the API. MUST be in the format of a URL.
     fullName: termsOfServiceUrl
     remarks: ''
@@ -351,6 +314,5 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [ApiEntityBaseContract.termsOfServiceUrl](xref:@azure/arm-apimanagement -
-      v8.1.2.ApiEntityBaseContract.termsOfServiceUrl)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiEntityBaseContract" />'
+      [ApiEntityBaseContract.termsOfServiceUrl](xref:@azure/arm-apimanagement.ApiEntityBaseContract.termsOfServiceUrl)
+extends: <xref uid="@azure/arm-apimanagement.ApiEntityBaseContract" />

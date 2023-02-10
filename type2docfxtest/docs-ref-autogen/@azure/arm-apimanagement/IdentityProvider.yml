@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IdentityProvider
-uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.IdentityProvider'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a IdentityProvider.
 fullName: IdentityProvider
 remarks: ''
@@ -12,8 +12,8 @@ methods:
       createOrUpdate(string, string, IdentityProviderType,
       IdentityProviderCreateContract,
       IdentityProviderCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates or Updates the IdentityProvider configuration.
     remarks: ''
     isDeprecated: false
@@ -32,31 +32,31 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: identityProviderName
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
           description: Identity Provider Type identifier.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderCreateContract" />
+            <xref uid="@azure/arm-apimanagement.IdentityProviderCreateContract"
+            />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IdentityProviderCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.IdentityProviderCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, IdentityProviderType, string,
       IdentityProviderDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the specified identity provider configuration.
     remarks: ''
     isDeprecated: false
@@ -73,9 +73,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: identityProviderName
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
           description: Identity Provider Type identifier.
         - id: ifMatch
           type: string
@@ -85,8 +83,9 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderDeleteOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -95,8 +94,8 @@ methods:
   - name: >-
       get(string, string, IdentityProviderType,
       IdentityProviderGetOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.get'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the configuration details of the identity Provider configured in
       specified service instance.
@@ -115,26 +114,24 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: identityProviderName
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
           description: Identity Provider Type identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderGetOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IdentityProviderGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.IdentityProviderGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, IdentityProviderType,
       IdentityProviderGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the identityProvider specified by
       its identifier.
@@ -154,24 +151,24 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: identityProviderName
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
           description: Identity Provider Type identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IdentityProviderGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.IdentityProviderGetEntityTagResponse"
+          />&gt;
   - name: 'listByService(string, string, IdentityProviderListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.listByService'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists a collection of Identity Provider configured in the specified
       service instance.
@@ -191,20 +188,21 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IdentityProviderContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.IdentityProviderContract" />&gt;
   - name: >-
       listSecrets(string, string, IdentityProviderType,
       IdentityProviderListSecretsOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.listSecrets'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.listSecrets'
+    package: '@azure/arm-apimanagement'
     summary: Gets the client secret details of the Identity Provider.
     remarks: ''
     isDeprecated: false
@@ -222,26 +220,26 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: identityProviderName
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
           description: Identity Provider Type identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderListSecretsOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderListSecretsOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IdentityProviderListSecretsResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.IdentityProviderListSecretsResponse"
+          />&gt;
   - name: >-
       update(string, string, IdentityProviderType, string,
       IdentityProviderUpdateParameters, IdentityProviderUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.IdentityProvider.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IdentityProvider.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates an existing IdentityProvider configuration.
     remarks: ''
     isDeprecated: false
@@ -260,9 +258,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: identityProviderName
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.IdentityProviderType"
-            />
+          type: <xref uid="@azure/arm-apimanagement.IdentityProviderType" />
           description: Identity Provider Type identifier.
         - id: ifMatch
           type: string
@@ -272,17 +268,18 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderUpdateParameters" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderUpdateParameters" />
           description: Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.IdentityProviderUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.IdentityProviderUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.IdentityProviderUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.IdentityProviderUpdateResponse" />&gt;

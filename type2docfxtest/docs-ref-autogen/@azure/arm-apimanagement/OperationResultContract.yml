@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OperationResultContract
-uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OperationResultContract'
+package: '@azure/arm-apimanagement'
 summary: Long Running Git Operation Results.
 fullName: OperationResultContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: actionLog
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.actionLog'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.actionLog'
+    package: '@azure/arm-apimanagement'
     summary: >-
       This property if only provided as part of the TenantConfiguration_Validate
       operation. It contains the log the entities which will be
@@ -27,11 +27,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.OperationResultLogItemContract" />[]
+          <xref uid="@azure/arm-apimanagement.OperationResultLogItemContract"
+          />[]
   - name: error
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.error'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.error'
+    package: '@azure/arm-apimanagement'
     summary: Error Body Contract
     fullName: error
     remarks: ''
@@ -40,10 +40,10 @@ properties:
       content: 'error?: ErrorResponseBody'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ErrorResponseBody" />'
+        type: <xref uid="@azure/arm-apimanagement.ErrorResponseBody" />
   - name: idPropertiesId
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.idPropertiesId'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.idPropertiesId'
+    package: '@azure/arm-apimanagement'
     summary: Operation result identifier.
     fullName: idPropertiesId
     remarks: ''
@@ -54,8 +54,8 @@ properties:
         description: ''
         type: undefined | string
   - name: resultInfo
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.resultInfo'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.resultInfo'
+    package: '@azure/arm-apimanagement'
     summary: Optional result info.
     fullName: resultInfo
     remarks: ''
@@ -66,8 +66,8 @@ properties:
         description: ''
         type: undefined | string
   - name: started
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.started'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.started'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Start time of an async operation. The date conforms to the following
       format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601 standard.
@@ -80,8 +80,8 @@ properties:
         description: ''
         type: Date
   - name: status
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.status'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.status'
+    package: '@azure/arm-apimanagement'
     summary: Status of an async operation.
     fullName: status
     remarks: ''
@@ -90,10 +90,10 @@ properties:
       content: 'status?: AsyncOperationStatus'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AsyncOperationStatus" />'
+        type: <xref uid="@azure/arm-apimanagement.AsyncOperationStatus" />
   - name: updated
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.updated'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.updated'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Last update time of an async operation. The date conforms to the following
       format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601 standard.
@@ -107,8 +107,8 @@ properties:
         type: Date
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -124,11 +124,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.id)
+      <b>Inherited From</b>
+      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.name'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The name of the resource
 
@@ -143,11 +143,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement - v8.1.2.OperationResultContract.type'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OperationResultContract.type'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -163,6 +163,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.type)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
+extends: <xref uid="@azure/arm-apimanagement.Resource" />

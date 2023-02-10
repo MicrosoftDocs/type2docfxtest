@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: LinkedEntity
-uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.LinkedEntity'
+package: '@azure/ai-text-analytics'
 summary: >-
   A word or phrase identified as a well-known entity within a database,
   including its formal (disambiguated) name and a link to the entity information
@@ -12,8 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: bingEntitySearchApiId
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.bingEntitySearchApiId'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.bingEntitySearchApiId'
+    package: '@azure/ai-text-analytics'
     summary: Bing Entity Search API unique identifier of the recognized entity.
     fullName: bingEntitySearchApiId
     remarks: ''
@@ -24,8 +24,8 @@ properties:
         description: ''
         type: string
   - name: dataSource
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.dataSource'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.dataSource'
+    package: '@azure/ai-text-analytics'
     summary: 'Data source used to extract entity linking, such as Wiki/Bing etc.'
     fullName: dataSource
     remarks: ''
@@ -36,8 +36,8 @@ properties:
         description: ''
         type: string
   - name: dataSourceEntityId
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.dataSourceEntityId'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.dataSourceEntityId'
+    package: '@azure/ai-text-analytics'
     summary: Unique identifier of the recognized entity from the data source.
     fullName: dataSourceEntityId
     remarks: ''
@@ -48,8 +48,8 @@ properties:
         description: ''
         type: string
   - name: language
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.language'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.language'
+    package: '@azure/ai-text-analytics'
     summary: Language used in the data source.
     fullName: language
     remarks: ''
@@ -60,8 +60,8 @@ properties:
         description: ''
         type: string
   - name: matches
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.matches'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.matches'
+    package: '@azure/ai-text-analytics'
     summary: List of instances this entity appears in the text.
     fullName: matches
     remarks: ''
@@ -70,10 +70,10 @@ properties:
       content: 'matches: Match[]'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.Match" />[]'
+        type: '<xref uid="@azure/ai-text-analytics.Match" />[]'
   - name: name
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.name'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.name'
+    package: '@azure/ai-text-analytics'
     summary: Entity Linking formal name.
     fullName: name
     remarks: ''
@@ -84,8 +84,8 @@ properties:
         description: ''
         type: string
   - name: url
-    uid: '@azure/ai-text-analytics - v5.1.0.LinkedEntity.url'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.LinkedEntity.url'
+    package: '@azure/ai-text-analytics'
     summary: URL for the entity's page from the data source.
     fullName: url
     remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AnalyzeHealthcareEntitiesSuccessResult
-uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareEntitiesSuccessResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult'
+package: '@azure/ai-text-analytics'
 summary: The results of a successful healthcare operation for a single document.
 fullName: AnalyzeHealthcareEntitiesSuccessResult
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: entities
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeHealthcareEntitiesSuccessResult.entities
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult.entities'
+    package: '@azure/ai-text-analytics'
     summary: Healthcare entities.
     fullName: entities
     remarks: ''
@@ -21,12 +19,11 @@ properties:
       content: 'entities: HealthcareEntity[]'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.HealthcareEntity" />[]'
+        type: '<xref uid="@azure/ai-text-analytics.HealthcareEntity" />[]'
   - name: entityRelations
     uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeHealthcareEntitiesSuccessResult.entityRelations
-    package: '@azure/ai-text-analytics - v5.1.0'
+      @azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult.entityRelations
+    package: '@azure/ai-text-analytics'
     summary: Relations between healthcare entities.
     fullName: entityRelations
     remarks: ''
@@ -35,15 +32,11 @@ properties:
       content: 'entityRelations: HealthcareEntityRelation[]'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref uid="v5.1.0.HealthcareEntityRelation"
-          />[]
+        type: '<xref uid="@azure/ai-text-analytics.HealthcareEntityRelation" />[]'
 inheritedProperties:
   - name: error
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeHealthcareEntitiesSuccessResult.error
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult.error'
+    package: '@azure/ai-text-analytics'
     summary: Discriminant to determine if that this is an error result.
     fullName: error
     remarks: ''
@@ -55,13 +48,10 @@ inheritedProperties:
         type: undefined
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.error](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsSuccessResult.error)
+      [TextAnalyticsSuccessResult.error](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.error)
   - name: id
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeHealthcareEntitiesSuccessResult.id
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult.id'
+    package: '@azure/ai-text-analytics'
     summary: 'Unique, non-empty document identifier.'
     fullName: id
     remarks: ''
@@ -73,13 +63,10 @@ inheritedProperties:
         type: string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.id](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsSuccessResult.id)
+      [TextAnalyticsSuccessResult.id](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.id)
   - name: statistics
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeHealthcareEntitiesSuccessResult.statistics
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult.statistics'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Statistics about the input document and how it was processed
 
@@ -94,18 +81,13 @@ inheritedProperties:
       content: 'statistics?: TextDocumentStatistics'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref uid="v5.1.0.TextDocumentStatistics"
-          />
+        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.statistics](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsSuccessResult.statistics)
+      [TextAnalyticsSuccessResult.statistics](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.statistics)
   - name: warnings
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.AnalyzeHealthcareEntitiesSuccessResult.warnings
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult.warnings'
+    package: '@azure/ai-text-analytics'
     summary: |
       An array of warning data corresponding to this document.
       If no warnings were returned, this array will be empty.
@@ -116,11 +98,8 @@ inheritedProperties:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsWarning"
-          />[]
+        type: '<xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [TextAnalyticsSuccessResult.warnings](xref:@azure/ai-text-analytics -
-      v5.1.0.TextAnalyticsSuccessResult.warnings)
-extends: '@azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsSuccessResult" />'
+      [TextAnalyticsSuccessResult.warnings](xref:@azure/ai-text-analytics.TextAnalyticsSuccessResult.warnings)
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />

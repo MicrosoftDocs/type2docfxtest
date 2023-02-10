@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiIssueAttachmentGetEntityTagHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.ApiIssueAttachmentGetEntityTagHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiIssueAttachmentGetEntityTagHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for ApiIssueAttachment_getEntityTag operation.
 fullName: ApiIssueAttachmentGetEntityTagHeaders
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiIssueAttachmentGetEntityTagHeaders.eTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiIssueAttachmentGetEntityTagHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

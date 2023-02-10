@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: VideoFrameConfig
-uid: '@microsoft/teams-js - v2.5.0.video.VideoFrameConfig'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.video.VideoFrameConfig'
+package: '@microsoft/teams-js'
 summary: >-
   Video frame configuration supplied to the host to customize the generated
   video frame parameters, like format
@@ -12,8 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: format
-    uid: '@microsoft/teams-js - v2.5.0.video.VideoFrameConfig.format'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.video.VideoFrameConfig.format'
+    package: '@microsoft/teams-js'
     summary: Video format
     fullName: format
     remarks: ''
@@ -22,4 +22,4 @@ properties:
       content: 'format: VideoFrameFormat'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.video.VideoFrameFormat" />'
+        type: <xref uid="@microsoft/teams-js.video.VideoFrameFormat" />

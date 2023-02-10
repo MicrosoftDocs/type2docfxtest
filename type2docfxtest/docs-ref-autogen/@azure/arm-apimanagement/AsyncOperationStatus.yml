@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AsyncOperationStatus
-uid: '@azure/arm-apimanagement - v8.1.2.AsyncOperationStatus'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AsyncOperationStatus'
+package: '@azure/arm-apimanagement'
 summary: Defines values for AsyncOperationStatus.
 fullName: AsyncOperationStatus
 remarks: ''

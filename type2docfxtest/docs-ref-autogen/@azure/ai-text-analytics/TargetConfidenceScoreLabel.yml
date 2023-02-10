@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TargetConfidenceScoreLabel
-uid: '@azure/ai-text-analytics - v5.1.0.TargetConfidenceScoreLabel'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TargetConfidenceScoreLabel'
+package: '@azure/ai-text-analytics'
 summary: >-
   Represents the confidence scores across all sentiment classes: positive,
   neutral, negative.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: negative
-    uid: '@azure/ai-text-analytics - v5.1.0.TargetConfidenceScoreLabel.negative'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TargetConfidenceScoreLabel.negative'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: negative
     remarks: ''
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: number
   - name: positive
-    uid: '@azure/ai-text-analytics - v5.1.0.TargetConfidenceScoreLabel.positive'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TargetConfidenceScoreLabel.positive'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: positive
     remarks: ''

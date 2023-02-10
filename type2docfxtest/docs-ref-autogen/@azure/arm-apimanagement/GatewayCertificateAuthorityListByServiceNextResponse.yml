@@ -1,9 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: GatewayCertificateAuthorityListByServiceNextResponse
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.GatewayCertificateAuthorityListByServiceNextResponse
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GatewayCertificateAuthorityListByServiceNextResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByServiceNext operation.
 fullName: GatewayCertificateAuthorityListByServiceNextResponse
 remarks: ''

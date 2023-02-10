@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AdvisorManagementClientOptionalParams
-uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClientOptionalParams'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams'
+package: '@azure/arm-advisor'
 summary: Optional parameters.
 fullName: AdvisorManagementClientOptionalParams
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: $host
-    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClientOptionalParams.$host'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.$host'
+    package: '@azure/arm-advisor'
     summary: server parameter
     fullName: $host
     remarks: ''
@@ -21,10 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersion
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.apiVersion
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.apiVersion'
+    package: '@azure/arm-advisor'
     summary: Api Version
     fullName: apiVersion
     remarks: ''
@@ -35,8 +33,8 @@ properties:
         description: ''
         type: undefined | string
   - name: endpoint
-    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClientOptionalParams.endpoint'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.endpoint'
+    package: '@azure/arm-advisor'
     summary: Overrides client endpoint.
     fullName: endpoint
     remarks: ''
@@ -49,9 +47,8 @@ properties:
 inheritedProperties:
   - name: additionalPolicies
     uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.additionalPolicies
-    package: '@azure/arm-advisor - v3.1.0'
+      @azure/arm-advisor.AdvisorManagementClientOptionalParams.additionalPolicies
+    package: '@azure/arm-advisor'
     summary: Additional policies to include in the HTTP pipeline.
     fullName: additionalPolicies
     remarks: ''
@@ -64,9 +61,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.additionalPolicies
   - name: allowInsecureConnection
     uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.allowInsecureConnection
-    package: '@azure/arm-advisor - v3.1.0'
+      @azure/arm-advisor.AdvisorManagementClientOptionalParams.allowInsecureConnection
+    package: '@azure/arm-advisor'
     summary: Set to true if the request is sent over HTTP instead of HTTPS
     fullName: allowInsecureConnection
     remarks: ''
@@ -78,8 +74,8 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.allowInsecureConnection
   - name: baseUri
-    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClientOptionalParams.baseUri'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.baseUri'
+    package: '@azure/arm-advisor'
     summary: >-
       If specified, this is the base URI that requests will be made against for
       this ServiceClient.
@@ -99,10 +95,8 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.baseUri
   - name: credential
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.credential
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.credential'
+    package: '@azure/arm-advisor'
     summary: Credential used to authenticate the request.
     fullName: credential
     remarks: ''
@@ -114,10 +108,8 @@ inheritedProperties:
         type: TokenCredential
     inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.credential
   - name: credentialScopes
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.credentialScopes
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.credentialScopes'
+    package: '@azure/arm-advisor'
     summary: 'If specified, will be used to build the BearerTokenAuthenticationPolicy.'
     fullName: credentialScopes
     remarks: ''
@@ -129,10 +121,8 @@ inheritedProperties:
         type: 'string | string[]'
     inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.credentialScopes
   - name: httpClient
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.httpClient
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.httpClient'
+    package: '@azure/arm-advisor'
     summary: The HttpClient that will be used to send HTTP requests.
     fullName: httpClient
     remarks: ''
@@ -144,8 +134,8 @@ inheritedProperties:
         type: HttpClient
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.httpClient
   - name: pipeline
-    uid: '@azure/arm-advisor - v3.1.0.AdvisorManagementClientOptionalParams.pipeline'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.pipeline'
+    package: '@azure/arm-advisor'
     summary: 'A customized pipeline to use, otherwise a default one will be created.'
     fullName: pipeline
     remarks: ''
@@ -157,10 +147,8 @@ inheritedProperties:
         type: Pipeline
     inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.pipeline
   - name: proxyOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.proxyOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.proxyOptions'
+    package: '@azure/arm-advisor'
     summary: Options to configure a proxy for outgoing requests.
     fullName: proxyOptions
     remarks: ''
@@ -172,10 +160,8 @@ inheritedProperties:
         type: ProxySettings
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.proxyOptions
   - name: redirectOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.redirectOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.redirectOptions'
+    package: '@azure/arm-advisor'
     summary: Options for how redirect responses are handled.
     fullName: redirectOptions
     remarks: ''
@@ -188,9 +174,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.redirectOptions
   - name: requestContentType
     uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.requestContentType
-    package: '@azure/arm-advisor - v3.1.0'
+      @azure/arm-advisor.AdvisorManagementClientOptionalParams.requestContentType
+    package: '@azure/arm-advisor'
     summary: |-
       The default request content type for the service.
       Used if no requestContentType is present on an OperationSpec.
@@ -204,10 +189,8 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.requestContentType
   - name: retryOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.retryOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.retryOptions'
+    package: '@azure/arm-advisor'
     summary: Options that control how to retry failed requests.
     fullName: retryOptions
     remarks: ''
@@ -219,10 +202,8 @@ inheritedProperties:
         type: PipelineRetryOptions
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.retryOptions
   - name: tlsOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.tlsOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.tlsOptions'
+    package: '@azure/arm-advisor'
     summary: Options for configuring TLS authentication
     fullName: tlsOptions
     remarks: ''
@@ -234,10 +215,8 @@ inheritedProperties:
         type: TlsSettings
     inheritanceDescription: <b>Inherited From</b> PipelineOptions.tlsOptions
   - name: userAgentOptions
-    uid: >-
-      @azure/arm-advisor -
-      v3.1.0.AdvisorManagementClientOptionalParams.userAgentOptions
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.AdvisorManagementClientOptionalParams.userAgentOptions'
+    package: '@azure/arm-advisor'
     summary: Options for adding user agent details to outgoing requests.
     fullName: userAgentOptions
     remarks: ''

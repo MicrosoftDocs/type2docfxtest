@@ -1,23 +1,23 @@
 ### YamlMime:TSEnum
 name: KnownConnectivityStatusType
-uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityStatusType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.KnownConnectivityStatusType'
+package: '@azure/arm-apimanagement'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement -
-  v8.1.2.ConnectivityStatusType> that the service accepts.
+  Known values of <xref:@azure/arm-apimanagement.ConnectivityStatusType> that
+  the service accepts.
 fullName: KnownConnectivityStatusType
 remarks: ''
 isDeprecated: false
 fields:
   - name: Failure
-    uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityStatusType.Failure'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KnownConnectivityStatusType.Failure'
+    package: '@azure/arm-apimanagement'
     summary: Failure
   - name: Initializing
-    uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityStatusType.Initializing'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KnownConnectivityStatusType.Initializing'
+    package: '@azure/arm-apimanagement'
     summary: Initializing
   - name: Success
-    uid: '@azure/arm-apimanagement - v8.1.2.KnownConnectivityStatusType.Success'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KnownConnectivityStatusType.Success'
+    package: '@azure/arm-apimanagement'
     summary: Success

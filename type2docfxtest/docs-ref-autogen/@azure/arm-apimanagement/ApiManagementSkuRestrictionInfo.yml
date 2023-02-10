@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkuRestrictionInfo
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictionInfo'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictionInfo'
+package: '@azure/arm-apimanagement'
 summary: ''
 fullName: ApiManagementSkuRestrictionInfo
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: locations
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiManagementSkuRestrictionInfo.locations
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictionInfo.locations'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Locations where the SKU is restricted
 
@@ -27,8 +25,8 @@ properties:
         description: ''
         type: 'string[]'
   - name: zones
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuRestrictionInfo.zones'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuRestrictionInfo.zones'
+    package: '@azure/arm-apimanagement'
     summary: >-
       List of availability zones where the SKU is restricted.
 

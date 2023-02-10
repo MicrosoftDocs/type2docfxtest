@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductContract
-uid: '@azure/arm-apimanagement - v8.1.2.ProductContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ProductContract'
+package: '@azure/arm-apimanagement'
 summary: Product details.
 fullName: ProductContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: approvalRequired
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.approvalRequired'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.approvalRequired'
+    package: '@azure/arm-apimanagement'
     summary: >-
       whether subscription approval is required. If false, new subscriptions
       will be approved automatically enabling developers to call the product’s
@@ -27,8 +27,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: description
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.description'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.description'
+    package: '@azure/arm-apimanagement'
     summary: Product description. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -39,8 +39,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.displayName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.displayName'
+    package: '@azure/arm-apimanagement'
     summary: Product name.
     fullName: displayName
     remarks: ''
@@ -51,8 +51,8 @@ properties:
         description: ''
         type: undefined | string
   - name: state
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.state'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.state'
+    package: '@azure/arm-apimanagement'
     summary: >-
       whether product is published or not. Published products are discoverable
       by users of developer portal. Non published products are visible only to
@@ -64,10 +64,10 @@ properties:
       content: 'state?: ProductState'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ProductState" />'
+        type: <xref uid="@azure/arm-apimanagement.ProductState" />
   - name: subscriptionRequired
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.subscriptionRequired'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.subscriptionRequired'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Whether a product subscription is required for accessing APIs included in
       this product. If true, the product is referred to as "protected" and a
@@ -85,8 +85,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: subscriptionsLimit
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.subscriptionsLimit'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.subscriptionsLimit'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Whether the number of subscriptions a user can have to this product at the
       same time. Set to null or omit to allow unlimited per user subscriptions.
@@ -101,8 +101,8 @@ properties:
         description: ''
         type: undefined | number
   - name: terms
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.terms'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.terms'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Product terms of use. Developers trying to subscribe to the product will
       be presented and required to accept these terms before they can complete
@@ -117,8 +117,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -134,11 +134,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.id)
+      <b>Inherited From</b>
+      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.name'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The name of the resource
 
@@ -153,11 +153,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductContract.type'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductContract.type'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -173,6 +173,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.type)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
+extends: <xref uid="@azure/arm-apimanagement.Resource" />

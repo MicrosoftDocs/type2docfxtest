@@ -1,18 +1,18 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js - v2.5.0.geoLocation'
+uid: '@microsoft/teams-js.geoLocation'
 name: geoLocation
 summary: >-
   Namespace to interact with the geoLocation module-specific part of the SDK.
   This is the newer version of location module.
 type: module
 interfaces:
-  - '@microsoft/teams-js - v2.5.0.geoLocation.Location'
-package: '@microsoft/teams-js - v2.5.0'
+  - '@microsoft/teams-js.geoLocation.Location'
+package: '@microsoft/teams-js'
 previewState: beta
 functions:
   - name: getCurrentLocation()
-    uid: '@microsoft/teams-js - v2.5.0.geoLocation.getCurrentLocation'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.geoLocation.getCurrentLocation'
+    package: '@microsoft/teams-js'
     summary: Fetches current user coordinates
     remarks: ''
     previewState: beta
@@ -21,15 +21,13 @@ functions:
       content: 'function getCurrentLocation(): Promise<Location>'
       return:
         description: >-
-          Promise that will resolve with <xref:@microsoft/teams-js -
-          v2.5.0.geoLocation.Location> object or reject with an error. Function
-          can also throw a NOT_SUPPORTED_ON_PLATFORM error
-        type: >-
-          Promise&lt;@microsoft/teams-js - <xref
-          uid="v2.5.0.geoLocation.Location" />&gt;
+          Promise that will resolve with
+          <xref:@microsoft/teams-js.geoLocation.Location> object or reject with
+          an error. Function can also throw a NOT_SUPPORTED_ON_PLATFORM error
+        type: Promise&lt;<xref uid="@microsoft/teams-js.geoLocation.Location" />&gt;
   - name: hasPermission()
-    uid: '@microsoft/teams-js - v2.5.0.geoLocation.hasPermission'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.geoLocation.hasPermission'
+    package: '@microsoft/teams-js'
     summary: Checks whether or not location has user permission
     remarks: ''
     previewState: beta
@@ -45,8 +43,8 @@ functions:
           also throw a NOT_SUPPORTED_ON_PLATFORM error
         type: Promise&lt;boolean&gt;
   - name: isSupported()
-    uid: '@microsoft/teams-js - v2.5.0.geoLocation.isSupported'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.geoLocation.isSupported'
+    package: '@microsoft/teams-js'
     summary: Checks if geoLocation capability is supported by the host
     remarks: ''
     previewState: beta
@@ -57,8 +55,8 @@ functions:
         description: boolean to represent whether geoLocation is supported
         type: boolean
   - name: requestPermission()
-    uid: '@microsoft/teams-js - v2.5.0.geoLocation.requestPermission'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.geoLocation.requestPermission'
+    package: '@microsoft/teams-js'
     summary: Requests user permission for location
     remarks: ''
     previewState: beta

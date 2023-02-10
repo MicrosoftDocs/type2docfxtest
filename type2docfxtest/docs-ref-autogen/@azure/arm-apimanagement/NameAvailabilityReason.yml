@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: NameAvailabilityReason
-uid: '@azure/arm-apimanagement - v8.1.2.NameAvailabilityReason'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.NameAvailabilityReason'
+package: '@azure/arm-apimanagement'
 summary: Defines values for NameAvailabilityReason.
 fullName: NameAvailabilityReason
 remarks: ''

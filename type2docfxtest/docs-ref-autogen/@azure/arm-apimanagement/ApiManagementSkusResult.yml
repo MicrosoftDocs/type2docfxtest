@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkusResult
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkusResult'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkusResult'
+package: '@azure/arm-apimanagement'
 summary: The List Resource Skus operation response.
 fullName: ApiManagementSkusResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkusResult.nextLink'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkusResult.nextLink'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The URI to fetch the next page of Resource Skus. Call ListNext() with this
       URI to fetch the next page of Resource Skus
@@ -26,8 +26,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkusResult.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkusResult.value'
+    package: '@azure/arm-apimanagement'
     summary: The list of skus available for the subscription.
     fullName: value
     remarks: ''
@@ -36,4 +36,4 @@ properties:
       content: 'value: ApiManagementSku[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiManagementSku" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.ApiManagementSku" />[]'

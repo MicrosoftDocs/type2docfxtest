@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: M365ContentAction
-uid: '@microsoft/teams-js - v2.5.0.M365ContentAction'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.M365ContentAction'
+package: '@microsoft/teams-js'
 summary: |-
   Stores information needed to represent M365 Content stored
   in OneDrive or Sharepoint
@@ -12,8 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: itemId
-    uid: '@microsoft/teams-js - v2.5.0.M365ContentAction.itemId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.M365ContentAction.itemId'
+    package: '@microsoft/teams-js'
     summary: |-
       Only office content IDs are passed to the app. Apps should use these ids
       to query the Microsoft graph for more details.
@@ -26,8 +26,8 @@ properties:
         description: ''
         type: string
   - name: secondaryId
-    uid: '@microsoft/teams-js - v2.5.0.M365ContentAction.secondaryId'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.M365ContentAction.secondaryId'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: secondaryId
     remarks: ''
@@ -36,11 +36,11 @@ properties:
       content: 'secondaryId?: SecondaryId'
       return:
         description: ''
-        type: '@microsoft/teams-js - <xref uid="v2.5.0.SecondaryId" />'
+        type: <xref uid="@microsoft/teams-js.SecondaryId" />
 inheritedProperties:
   - name: type
-    uid: '@microsoft/teams-js - v2.5.0.M365ContentAction.type'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.M365ContentAction.type'
+    package: '@microsoft/teams-js'
     summary: ''
     fullName: type
     remarks: ''
@@ -49,13 +49,10 @@ inheritedProperties:
       content: 'type: M365Content'
       return:
         description: ''
-        type: >-
-          @microsoft/teams-js - <xref uid="v2.5.0.ActionObjectType.M365Content"
-          />
+        type: <xref uid="@microsoft/teams-js.ActionObjectType.M365Content" />
     inheritanceDescription: >-
-      <b>Inherited From</b> [BaseActionObject.type](xref:@microsoft/teams-js -
-      v2.5.0.BaseActionObject.type)
+      <b>Inherited From</b>
+      [BaseActionObject.type](xref:@microsoft/teams-js.BaseActionObject.type)
 extends: >-
-  @microsoft/teams-js - <xref uid="v2.5.0.BaseActionObject"
-  />&lt;@microsoft/teams-js - <xref uid="v2.5.0.ActionObjectType.M365Content"
-  />&gt;
+  <xref uid="@microsoft/teams-js.BaseActionObject" />&lt;<xref
+  uid="@microsoft/teams-js.ActionObjectType.M365Content" />&gt;

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextAnalyticsErrorResult
-uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsErrorResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult'
+package: '@azure/ai-text-analytics'
 summary: |-
   Base type for error results of text analytics operations corresponding to a
   single document.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: error
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsErrorResult.error'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult.error'
+    package: '@azure/ai-text-analytics'
     summary: The Error for this document result.
     fullName: error
     remarks: ''
@@ -21,10 +21,10 @@ properties:
       content: 'error: TextAnalyticsError'
       return:
         description: ''
-        type: '@azure/ai-text-analytics - <xref uid="v5.1.0.TextAnalyticsError" />'
+        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsError" />
   - name: id
-    uid: '@azure/ai-text-analytics - v5.1.0.TextAnalyticsErrorResult.id'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult.id'
+    package: '@azure/ai-text-analytics'
     summary: 'Unique, non-empty document identifier.'
     fullName: id
     remarks: ''

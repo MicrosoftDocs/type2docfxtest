@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthenticationSettingsContract
-uid: '@azure/arm-apimanagement - v8.1.2.AuthenticationSettingsContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AuthenticationSettingsContract'
+package: '@azure/arm-apimanagement'
 summary: API Authentication Settings.
 fullName: AuthenticationSettingsContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: oAuth2
-    uid: '@azure/arm-apimanagement - v8.1.2.AuthenticationSettingsContract.oAuth2'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthenticationSettingsContract.oAuth2'
+    package: '@azure/arm-apimanagement'
     summary: OAuth2 Authentication settings
     fullName: oAuth2
     remarks: ''
@@ -20,11 +20,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.OAuth2AuthenticationSettingsContract" />
+          <xref
+          uid="@azure/arm-apimanagement.OAuth2AuthenticationSettingsContract" />
   - name: openid
-    uid: '@azure/arm-apimanagement - v8.1.2.AuthenticationSettingsContract.openid'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthenticationSettingsContract.openid'
+    package: '@azure/arm-apimanagement'
     summary: OpenID Connect Authentication Settings
     fullName: openid
     remarks: ''
@@ -34,5 +34,5 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenIdAuthenticationSettingsContract" />
+          <xref
+          uid="@azure/arm-apimanagement.OpenIdAuthenticationSettingsContract" />

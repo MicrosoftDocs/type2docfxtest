@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiOperation
-uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiOperation'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ApiOperation.
 fullName: ApiOperation
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, string, OperationContract,
       ApiOperationCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiOperation.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates a new operation in the API or updates an existing one.
     remarks: ''
     isDeprecated: false
@@ -42,24 +42,26 @@ methods:
             API Management
                                service instance.
         - id: parameters
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.OperationContract" />'
+          type: <xref uid="@azure/arm-apimanagement.OperationContract" />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiOperationCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiOperationCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiOperationCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiOperationCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, string, string, string,
       ApiOperationDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiOperation.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the specified operation in the API.
     remarks: ''
     isDeprecated: false
@@ -95,16 +97,16 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiOperationDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiOperationDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, string, ApiOperationGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiOperation.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the API Operation specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -134,20 +136,20 @@ methods:
                                service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiOperationGetOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.ApiOperationGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiOperationGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiOperationGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string, string,
       ApiOperationGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiOperation.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the API operation specified by its
       identifier.
@@ -180,18 +182,19 @@ methods:
                                service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiOperationGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiOperationGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiOperationGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiOperationGetEntityTagResponse" />&gt;
   - name: 'listByApi(string, string, string, ApiOperationListByApiOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation.listByApi'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiOperation.listByApi'
+    package: '@azure/arm-apimanagement'
     summary: Lists a collection of the operations for the specified API.
     remarks: ''
     isDeprecated: false
@@ -215,20 +218,21 @@ methods:
                          Non-current revision has ;rev=n as a suffix where n is the revision number.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiOperationListByApiOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiOperationListByApiOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OperationContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.OperationContract" />&gt;
   - name: >-
       update(string, string, string, string, string, OperationUpdateContract,
       ApiOperationUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiOperation.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiOperation.update'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Updates the details of the operation in the API specified by its
       identifier.
@@ -266,18 +270,16 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OperationUpdateContract" />
+          type: <xref uid="@azure/arm-apimanagement.OperationUpdateContract" />
           description: API Operation Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ApiOperationUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ApiOperationUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiOperationUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ApiOperationUpdateResponse" />&gt;

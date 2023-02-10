@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagResourceContract
-uid: '@azure/arm-apimanagement - v8.1.2.TagResourceContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TagResourceContract'
+package: '@azure/arm-apimanagement'
 summary: TagResource contract properties.
 fullName: TagResourceContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: api
-    uid: '@azure/arm-apimanagement - v8.1.2.TagResourceContract.api'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagResourceContract.api'
+    package: '@azure/arm-apimanagement'
     summary: API associated with the tag.
     fullName: api
     remarks: ''
@@ -20,11 +20,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ApiTagResourceContractProperties" />
+          <xref uid="@azure/arm-apimanagement.ApiTagResourceContractProperties"
+          />
   - name: operation
-    uid: '@azure/arm-apimanagement - v8.1.2.TagResourceContract.operation'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagResourceContract.operation'
+    package: '@azure/arm-apimanagement'
     summary: Operation associated with the tag.
     fullName: operation
     remarks: ''
@@ -34,11 +34,12 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.OperationTagResourceContractProperties" />
+          <xref
+          uid="@azure/arm-apimanagement.OperationTagResourceContractProperties"
+          />
   - name: product
-    uid: '@azure/arm-apimanagement - v8.1.2.TagResourceContract.product'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagResourceContract.product'
+    package: '@azure/arm-apimanagement'
     summary: Product associated with the tag.
     fullName: product
     remarks: ''
@@ -48,11 +49,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ProductTagResourceContractProperties" />
+          <xref
+          uid="@azure/arm-apimanagement.ProductTagResourceContractProperties" />
   - name: tag
-    uid: '@azure/arm-apimanagement - v8.1.2.TagResourceContract.tag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagResourceContract.tag'
+    package: '@azure/arm-apimanagement'
     summary: Tag associated with the resource.
     fullName: tag
     remarks: ''
@@ -61,6 +62,4 @@ properties:
       content: 'tag: TagResourceContractProperties'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.TagResourceContractProperties" />
+        type: <xref uid="@azure/arm-apimanagement.TagResourceContractProperties" />

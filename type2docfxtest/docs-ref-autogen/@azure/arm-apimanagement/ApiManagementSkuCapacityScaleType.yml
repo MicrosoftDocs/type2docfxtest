@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementSkuCapacityScaleType
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCapacityScaleType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkuCapacityScaleType'
+package: '@azure/arm-apimanagement'
 summary: Defines values for ApiManagementSkuCapacityScaleType.
 fullName: ApiManagementSkuCapacityScaleType
 remarks: ''

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OAuth2AuthenticationSettingsContract
-uid: '@azure/arm-apimanagement - v8.1.2.OAuth2AuthenticationSettingsContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OAuth2AuthenticationSettingsContract'
+package: '@azure/arm-apimanagement'
 summary: API OAuth2 Authentication settings details.
 fullName: OAuth2AuthenticationSettingsContract
 remarks: ''
@@ -10,9 +10,8 @@ type: interface
 properties:
   - name: authorizationServerId
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OAuth2AuthenticationSettingsContract.authorizationServerId
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.OAuth2AuthenticationSettingsContract.authorizationServerId
+    package: '@azure/arm-apimanagement'
     summary: OAuth authorization server identifier.
     fullName: authorizationServerId
     remarks: ''
@@ -23,10 +22,8 @@ properties:
         description: ''
         type: undefined | string
   - name: scope
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.OAuth2AuthenticationSettingsContract.scope
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OAuth2AuthenticationSettingsContract.scope'
+    package: '@azure/arm-apimanagement'
     summary: operations scope.
     fullName: scope
     remarks: ''

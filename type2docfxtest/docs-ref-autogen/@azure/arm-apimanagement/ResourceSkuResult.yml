@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ResourceSkuResult
-uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResult'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ResourceSkuResult'
+package: '@azure/arm-apimanagement'
 summary: Describes an available API Management service SKU.
 fullName: ResourceSkuResult
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: capacity
-    uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResult.capacity'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ResourceSkuResult.capacity'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Specifies the number of API Management units.
 
@@ -23,10 +23,10 @@ properties:
       content: 'capacity?: ResourceSkuCapacity'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ResourceSkuCapacity" />'
+        type: <xref uid="@azure/arm-apimanagement.ResourceSkuCapacity" />
   - name: resourceType
-    uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResult.resourceType'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ResourceSkuResult.resourceType'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of resource the SKU applies to.
 
@@ -41,8 +41,8 @@ properties:
         description: ''
         type: undefined | string
   - name: sku
-    uid: '@azure/arm-apimanagement - v8.1.2.ResourceSkuResult.sku'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ResourceSkuResult.sku'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Specifies API Management SKU.
 
@@ -55,4 +55,4 @@ properties:
       content: 'sku?: ResourceSku'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ResourceSku" />'
+        type: <xref uid="@azure/arm-apimanagement.ResourceSku" />

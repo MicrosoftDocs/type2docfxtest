@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ContentItemListByServiceNextResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ContentItemListByServiceNextResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ContentItemListByServiceNextResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByServiceNext operation.
 fullName: ContentItemListByServiceNextResponse
 remarks: ''

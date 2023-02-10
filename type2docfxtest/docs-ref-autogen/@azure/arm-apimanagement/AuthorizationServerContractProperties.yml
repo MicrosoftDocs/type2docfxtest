@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: AuthorizationServerContractProperties
-uid: '@azure/arm-apimanagement - v8.1.2.AuthorizationServerContractProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.AuthorizationServerContractProperties'
+package: '@azure/arm-apimanagement'
 summary: External OAuth authorization server settings Properties.
 fullName: AuthorizationServerContractProperties
 remarks: ''
@@ -10,9 +10,8 @@ type: interface
 properties:
   - name: authorizationEndpoint
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.authorizationEndpoint
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.authorizationEndpoint
+    package: '@azure/arm-apimanagement'
     summary: >-
       OAuth authorization endpoint. See
       http://tools.ietf.org/html/rfc6749#section-3.2.
@@ -25,10 +24,8 @@ properties:
         description: ''
         type: string
   - name: clientId
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.clientId
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthorizationServerContractProperties.clientId'
+    package: '@azure/arm-apimanagement'
     summary: Client or app id registered with this authorization server.
     fullName: clientId
     remarks: ''
@@ -40,9 +37,8 @@ properties:
         type: string
   - name: clientRegistrationEndpoint
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.clientRegistrationEndpoint
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.clientRegistrationEndpoint
+    package: '@azure/arm-apimanagement'
     summary: >-
       Optional reference to a page where client or app registration for this
       authorization server is performed. Contains absolute URL to entity being
@@ -57,9 +53,8 @@ properties:
         type: string
   - name: clientSecret
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.clientSecret
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.clientSecret
+    package: '@azure/arm-apimanagement'
     summary: >-
       Client or app secret registered with this authorization server. This
       property will not be filled on 'GET' operations! Use '/listSecrets' POST
@@ -73,10 +68,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.displayName
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthorizationServerContractProperties.displayName'
+    package: '@azure/arm-apimanagement'
     summary: User-friendly authorization server name.
     fullName: displayName
     remarks: ''
@@ -87,10 +80,8 @@ properties:
         description: ''
         type: string
   - name: grantTypes
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.grantTypes
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthorizationServerContractProperties.grantTypes'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Form of an authorization grant, which the client uses to request the
       access token.
@@ -101,13 +92,12 @@ properties:
       content: 'grantTypes: GrantType[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.GrantType" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.GrantType" />[]'
 inheritedProperties:
   - name: authorizationMethods
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.authorizationMethods
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.authorizationMethods
+    package: '@azure/arm-apimanagement'
     summary: >-
       HTTP verbs supported by the authorization endpoint. GET must be always
       present. POST is optional.
@@ -118,16 +108,14 @@ inheritedProperties:
       content: 'authorizationMethods?: AuthorizationMethod[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AuthorizationMethod" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.AuthorizationMethod" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.authorizationMethods](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.authorizationMethods)
+      [AuthorizationServerContractBaseProperties.authorizationMethods](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.authorizationMethods)
   - name: bearerTokenSendingMethods
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.bearerTokenSendingMethods
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.bearerTokenSendingMethods
+    package: '@azure/arm-apimanagement'
     summary: Specifies the mechanism by which access token is passed to the API.
     fullName: bearerTokenSendingMethods
     remarks: ''
@@ -136,19 +124,14 @@ inheritedProperties:
       content: 'bearerTokenSendingMethods?: BearerTokenSendingMethod[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref uid="v8.1.2.BearerTokenSendingMethod"
-          />[]
+        type: '<xref uid="@azure/arm-apimanagement.BearerTokenSendingMethod" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.bearerTokenSendingMethods](xref:@azure/arm-apimanagement
-      -
-      v8.1.2.AuthorizationServerContractBaseProperties.bearerTokenSendingMethods)
+      [AuthorizationServerContractBaseProperties.bearerTokenSendingMethods](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.bearerTokenSendingMethods)
   - name: clientAuthenticationMethod
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.clientAuthenticationMethod
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.clientAuthenticationMethod
+    package: '@azure/arm-apimanagement'
     summary: >-
       Method of authentication supported by the token endpoint of this
       authorization server. Possible values are Basic and/or Body. When Body is
@@ -161,19 +144,14 @@ inheritedProperties:
       content: 'clientAuthenticationMethod?: ClientAuthenticationMethod[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ClientAuthenticationMethod" />[]
+        type: '<xref uid="@azure/arm-apimanagement.ClientAuthenticationMethod" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.clientAuthenticationMethod](xref:@azure/arm-apimanagement
-      -
-      v8.1.2.AuthorizationServerContractBaseProperties.clientAuthenticationMethod)
+      [AuthorizationServerContractBaseProperties.clientAuthenticationMethod](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.clientAuthenticationMethod)
   - name: defaultScope
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.defaultScope
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.defaultScope
+    package: '@azure/arm-apimanagement'
     summary: >-
       Access token scope that is going to be requested by default. Can be
       overridden at the API level. Should be provided in the form of a string
@@ -188,13 +166,10 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.defaultScope](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.defaultScope)
+      [AuthorizationServerContractBaseProperties.defaultScope](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.defaultScope)
   - name: description
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.description
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.AuthorizationServerContractProperties.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of the authorization server. Can contain HTML formatting tags.
     fullName: description
     remarks: ''
@@ -206,13 +181,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.description](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.description)
+      [AuthorizationServerContractBaseProperties.description](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.description)
   - name: resourceOwnerPassword
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.resourceOwnerPassword
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.resourceOwnerPassword
+    package: '@azure/arm-apimanagement'
     summary: >-
       Can be optionally specified when resource owner password grant type is
       supported by this authorization server. Default resource owner password.
@@ -226,13 +199,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.resourceOwnerPassword](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.resourceOwnerPassword)
+      [AuthorizationServerContractBaseProperties.resourceOwnerPassword](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.resourceOwnerPassword)
   - name: resourceOwnerUsername
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.resourceOwnerUsername
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.resourceOwnerUsername
+    package: '@azure/arm-apimanagement'
     summary: >-
       Can be optionally specified when resource owner password grant type is
       supported by this authorization server. Default resource owner username.
@@ -246,13 +217,11 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.resourceOwnerUsername](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.resourceOwnerUsername)
+      [AuthorizationServerContractBaseProperties.resourceOwnerUsername](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.resourceOwnerUsername)
   - name: supportState
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.supportState
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.supportState
+    package: '@azure/arm-apimanagement'
     summary: >-
       If true, authorization server will include state parameter from the
       authorization request to its response. Client may use state parameter to
@@ -267,13 +236,11 @@ inheritedProperties:
         type: undefined | false | true
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.supportState](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.supportState)
+      [AuthorizationServerContractBaseProperties.supportState](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.supportState)
   - name: tokenBodyParameters
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.tokenBodyParameters
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.tokenBodyParameters
+    package: '@azure/arm-apimanagement'
     summary: >-
       Additional parameters required by the token endpoint of this authorization
       server represented as an array of JSON objects with name and value string
@@ -285,18 +252,14 @@ inheritedProperties:
       content: 'tokenBodyParameters?: TokenBodyParameterContract[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.TokenBodyParameterContract" />[]
+        type: '<xref uid="@azure/arm-apimanagement.TokenBodyParameterContract" />[]'
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.tokenBodyParameters](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.tokenBodyParameters)
+      [AuthorizationServerContractBaseProperties.tokenBodyParameters](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.tokenBodyParameters)
   - name: tokenEndpoint
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.AuthorizationServerContractProperties.tokenEndpoint
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.AuthorizationServerContractProperties.tokenEndpoint
+    package: '@azure/arm-apimanagement'
     summary: OAuth token endpoint. Contains absolute URI to entity being referenced.
     fullName: tokenEndpoint
     remarks: ''
@@ -308,8 +271,7 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [AuthorizationServerContractBaseProperties.tokenEndpoint](xref:@azure/arm-apimanagement
-      - v8.1.2.AuthorizationServerContractBaseProperties.tokenEndpoint)
+      [AuthorizationServerContractBaseProperties.tokenEndpoint](xref:@azure/arm-apimanagement.AuthorizationServerContractBaseProperties.tokenEndpoint)
 extends: >-
-  @azure/arm-apimanagement - <xref
-  uid="v8.1.2.AuthorizationServerContractBaseProperties" />
+  <xref uid="@azure/arm-apimanagement.AuthorizationServerContractBaseProperties"
+  />

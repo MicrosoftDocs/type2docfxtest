@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiManagementSkuCosts
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCosts'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementSkuCosts'
+package: '@azure/arm-apimanagement'
 summary: Describes metadata for retrieving price info.
 fullName: ApiManagementSkuCosts
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: extendedUnit
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCosts.extendedUnit'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCosts.extendedUnit'
+    package: '@azure/arm-apimanagement'
     summary: >-
       An invariant to show the extended unit.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: meterID
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCosts.meterID'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCosts.meterID'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Used for querying price from commerce.
 
@@ -41,8 +41,8 @@ properties:
         description: ''
         type: undefined | string
   - name: quantity
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementSkuCosts.quantity'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiManagementSkuCosts.quantity'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The multiplier is needed to extend the base metered cost.
 

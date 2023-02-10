@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: GrantType
-uid: '@azure/arm-apimanagement - v8.1.2.GrantType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GrantType'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for GrantType. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownGrantType> can be used
-  interchangeably with GrantType,
+  <xref:@azure/arm-apimanagement.KnownGrantType> can be used interchangeably
+  with GrantType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

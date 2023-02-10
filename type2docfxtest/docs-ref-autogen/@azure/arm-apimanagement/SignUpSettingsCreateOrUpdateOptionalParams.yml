@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SignUpSettingsCreateOrUpdateOptionalParams
-uid: '@azure/arm-apimanagement - v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams'
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: SignUpSettingsCreateOrUpdateOptionalParams
 remarks: ''
@@ -10,9 +10,8 @@ type: interface
 properties:
   - name: ifMatch
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams.ifMatch
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams.ifMatch
+    package: '@azure/arm-apimanagement'
     summary: >-
       ETag of the Entity. Not required when creating an entity, but required
       when updating an entity.
@@ -27,9 +26,8 @@ properties:
 inheritedProperties:
   - name: abortSignal
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams.abortSignal
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -42,9 +40,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams.onResponse
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams.onResponse
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -60,9 +57,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -75,9 +71,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -90,9 +85,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.SignUpSettingsCreateOrUpdateOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.SignUpSettingsCreateOrUpdateOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

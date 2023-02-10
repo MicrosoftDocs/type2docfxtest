@@ -1,23 +1,23 @@
 ### YamlMime:TSPackage
-uid: '@microsoft/teams-js - v2.5.0.video'
+uid: '@microsoft/teams-js.video'
 name: video
 summary: Namespace to video extensibility of the SDK
 type: module
 enums:
-  - '@microsoft/teams-js - v2.5.0.video.EffectChangeType'
-  - '@microsoft/teams-js - v2.5.0.video.VideoFrameFormat'
+  - '@microsoft/teams-js.video.EffectChangeType'
+  - '@microsoft/teams-js.video.VideoFrameFormat'
 typeAliases:
-  - '@microsoft/teams-js - v2.5.0.video.VideoEffectCallBack'
-  - '@microsoft/teams-js - v2.5.0.video.VideoFrameCallback'
+  - '@microsoft/teams-js.video.VideoEffectCallBack'
+  - '@microsoft/teams-js.video.VideoFrameCallback'
 interfaces:
-  - '@microsoft/teams-js - v2.5.0.video.VideoFrame'
-  - '@microsoft/teams-js - v2.5.0.video.VideoFrameConfig'
-package: '@microsoft/teams-js - v2.5.0'
+  - '@microsoft/teams-js.video.VideoFrame'
+  - '@microsoft/teams-js.video.VideoFrameConfig'
+package: '@microsoft/teams-js'
 previewState: beta
 functions:
   - name: isSupported()
-    uid: '@microsoft/teams-js - v2.5.0.video.isSupported'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.video.isSupported'
+    package: '@microsoft/teams-js'
     summary: Checks if video capability is supported by the host
     remarks: ''
     previewState: beta
@@ -30,8 +30,8 @@ functions:
           false if it is disabled
         type: boolean
   - name: 'notifySelectedVideoEffectChanged(EffectChangeType, string | undefined)'
-    uid: '@microsoft/teams-js - v2.5.0.video.notifySelectedVideoEffectChanged'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.video.notifySelectedVideoEffectChanged'
+    package: '@microsoft/teams-js'
     summary: >-
       Video extension should call this to notify host that the current selected
       effect parameter changed.
@@ -50,15 +50,15 @@ functions:
         EffectChangeType, effectId: string | undefined)
       parameters:
         - id: effectChangeType
-          type: '@microsoft/teams-js - <xref uid="v2.5.0.video.EffectChangeType" />'
+          type: <xref uid="@microsoft/teams-js.video.EffectChangeType" />
           description: the effect change type.
         - id: effectId
           type: string | undefined
           description: |
             Newly selected effect id.
   - name: registerForVideoEffect(VideoEffectCallBack)
-    uid: '@microsoft/teams-js - v2.5.0.video.registerForVideoEffect'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.video.registerForVideoEffect'
+    package: '@microsoft/teams-js'
     summary: >-
       Register the video effect callback, host uses this to notify the video
       extension the new video effect will by applied
@@ -69,15 +69,13 @@ functions:
       content: 'function registerForVideoEffect(callback: VideoEffectCallBack)'
       parameters:
         - id: callback
-          type: >-
-            @microsoft/teams-js - <xref uid="v2.5.0.video.VideoEffectCallBack"
-            />
+          type: <xref uid="@microsoft/teams-js.video.VideoEffectCallBack" />
           description: >
             The VideoEffectCallback to invoke when registerForVideoEffect has
             completed
   - name: 'registerForVideoFrame(VideoFrameCallback, VideoFrameConfig)'
-    uid: '@microsoft/teams-js - v2.5.0.video.registerForVideoFrame'
-    package: '@microsoft/teams-js - v2.5.0'
+    uid: '@microsoft/teams-js.video.registerForVideoFrame'
+    package: '@microsoft/teams-js'
     summary: Register to read the video frames in Permissions section
     remarks: ''
     previewState: beta
@@ -88,9 +86,9 @@ functions:
         config: VideoFrameConfig)
       parameters:
         - id: frameCallback
-          type: '@microsoft/teams-js - <xref uid="v2.5.0.video.VideoFrameCallback" />'
+          type: <xref uid="@microsoft/teams-js.video.VideoFrameCallback" />
           description: The callback to invoke when registerForVideoFrame has completed
         - id: config
-          type: '@microsoft/teams-js - <xref uid="v2.5.0.video.VideoFrameConfig" />'
+          type: <xref uid="@microsoft/teams-js.video.VideoFrameConfig" />
           description: |
             VideoFrameConfig to customize generated video frame parameters

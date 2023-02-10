@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TextDocumentInput
-uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentInput'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.TextDocumentInput'
+package: '@azure/ai-text-analytics'
 summary: >-
   An object representing an individual text document to be analyzed by the Text
   Analytics service. The document contains a unique document ID, the full text
@@ -12,8 +12,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: id
-    uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentInput.id'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextDocumentInput.id'
+    package: '@azure/ai-text-analytics'
     summary: 'A unique, non-empty document identifier.'
     fullName: id
     remarks: ''
@@ -24,8 +24,8 @@ properties:
         description: ''
         type: string
   - name: language
-    uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentInput.language'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextDocumentInput.language'
+    package: '@azure/ai-text-analytics'
     summary: >-
       (Optional) This is the 2 letter ISO 639-1 representation of a language.
       For example, use "en" for English; "es" for Spanish etc. If not set, use
@@ -39,8 +39,8 @@ properties:
         description: ''
         type: string
   - name: text
-    uid: '@azure/ai-text-analytics - v5.1.0.TextDocumentInput.text'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.TextDocumentInput.text'
+    package: '@azure/ai-text-analytics'
     summary: The input text to process.
     fullName: text
     remarks: ''

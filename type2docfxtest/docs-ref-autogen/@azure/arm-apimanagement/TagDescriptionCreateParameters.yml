@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagDescriptionCreateParameters
-uid: '@azure/arm-apimanagement - v8.1.2.TagDescriptionCreateParameters'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TagDescriptionCreateParameters'
+package: '@azure/arm-apimanagement'
 summary: Parameters supplied to the Create TagDescription operation.
 fullName: TagDescriptionCreateParameters
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: description
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.TagDescriptionCreateParameters.description
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagDescriptionCreateParameters.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of the Tag.
     fullName: description
     remarks: ''
@@ -24,9 +22,8 @@ properties:
         type: undefined | string
   - name: externalDocsDescription
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.TagDescriptionCreateParameters.externalDocsDescription
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.TagDescriptionCreateParameters.externalDocsDescription
+    package: '@azure/arm-apimanagement'
     summary: Description of the external resources describing the tag.
     fullName: externalDocsDescription
     remarks: ''
@@ -37,10 +34,8 @@ properties:
         description: ''
         type: undefined | string
   - name: externalDocsUrl
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.TagDescriptionCreateParameters.externalDocsUrl
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagDescriptionCreateParameters.externalDocsUrl'
+    package: '@azure/arm-apimanagement'
     summary: Absolute URL of external resources describing the tag.
     fullName: externalDocsUrl
     remarks: ''

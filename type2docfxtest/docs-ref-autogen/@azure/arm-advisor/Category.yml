@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Category
-uid: '@azure/arm-advisor - v3.1.0.Category'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.Category'
+package: '@azure/arm-advisor'
 summary: >-
   Defines values for Category. \
 
-  <xref:@azure/arm-advisor - v3.1.0.KnownCategory> can be used interchangeably
-  with Category,
+  <xref:@azure/arm-advisor.KnownCategory> can be used interchangeably with
+  Category,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

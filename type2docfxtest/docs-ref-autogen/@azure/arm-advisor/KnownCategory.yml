@@ -1,31 +1,29 @@
 ### YamlMime:TSEnum
 name: KnownCategory
-uid: '@azure/arm-advisor - v3.1.0.KnownCategory'
-package: '@azure/arm-advisor - v3.1.0'
-summary: >-
-  Known values of <xref:@azure/arm-advisor - v3.1.0.Category> that the service
-  accepts.
+uid: '@azure/arm-advisor.KnownCategory'
+package: '@azure/arm-advisor'
+summary: 'Known values of <xref:@azure/arm-advisor.Category> that the service accepts.'
 fullName: KnownCategory
 remarks: ''
 isDeprecated: false
 fields:
   - name: Cost
-    uid: '@azure/arm-advisor - v3.1.0.KnownCategory.Cost'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCategory.Cost'
+    package: '@azure/arm-advisor'
     summary: Cost
   - name: HighAvailability
-    uid: '@azure/arm-advisor - v3.1.0.KnownCategory.HighAvailability'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCategory.HighAvailability'
+    package: '@azure/arm-advisor'
     summary: HighAvailability
   - name: OperationalExcellence
-    uid: '@azure/arm-advisor - v3.1.0.KnownCategory.OperationalExcellence'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCategory.OperationalExcellence'
+    package: '@azure/arm-advisor'
     summary: OperationalExcellence
   - name: Performance
-    uid: '@azure/arm-advisor - v3.1.0.KnownCategory.Performance'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCategory.Performance'
+    package: '@azure/arm-advisor'
     summary: Performance
   - name: Security
-    uid: '@azure/arm-advisor - v3.1.0.KnownCategory.Security'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.KnownCategory.Security'
+    package: '@azure/arm-advisor'
     summary: Security

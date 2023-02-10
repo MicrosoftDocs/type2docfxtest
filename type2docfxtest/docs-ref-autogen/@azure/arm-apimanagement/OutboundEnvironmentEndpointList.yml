@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OutboundEnvironmentEndpointList
-uid: '@azure/arm-apimanagement - v8.1.2.OutboundEnvironmentEndpointList'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OutboundEnvironmentEndpointList'
+package: '@azure/arm-apimanagement'
 summary: Collection of Outbound Environment Endpoints
 fullName: OutboundEnvironmentEndpointList
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: nextLink
-    uid: '@azure/arm-apimanagement - v8.1.2.OutboundEnvironmentEndpointList.nextLink'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OutboundEnvironmentEndpointList.nextLink'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Link to next page of resources.
 
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: undefined | string
   - name: value
-    uid: '@azure/arm-apimanagement - v8.1.2.OutboundEnvironmentEndpointList.value'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OutboundEnvironmentEndpointList.value'
+    package: '@azure/arm-apimanagement'
     summary: Collection of resources.
     fullName: value
     remarks: ''
@@ -35,6 +35,4 @@ properties:
       content: 'value: OutboundEnvironmentEndpoint[]'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.OutboundEnvironmentEndpoint" />[]
+        type: '<xref uid="@azure/arm-apimanagement.OutboundEnvironmentEndpoint" />[]'

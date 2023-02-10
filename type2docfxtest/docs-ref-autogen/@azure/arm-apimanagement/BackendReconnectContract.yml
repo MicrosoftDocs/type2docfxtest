@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BackendReconnectContract
-uid: '@azure/arm-apimanagement - v8.1.2.BackendReconnectContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.BackendReconnectContract'
+package: '@azure/arm-apimanagement'
 summary: Reconnect request parameters.
 fullName: BackendReconnectContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: after
-    uid: '@azure/arm-apimanagement - v8.1.2.BackendReconnectContract.after'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.BackendReconnectContract.after'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Duration in ISO8601 format after which reconnect will be initiated.
       Minimum duration of the Reconnect is PT2M.
@@ -24,8 +24,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.BackendReconnectContract.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.BackendReconnectContract.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -41,11 +41,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.id)
+      <b>Inherited From</b>
+      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.BackendReconnectContract.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.BackendReconnectContract.name'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The name of the resource
 
@@ -60,11 +60,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement - v8.1.2.BackendReconnectContract.type'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.BackendReconnectContract.type'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -80,6 +80,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.type)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
+extends: <xref uid="@azure/arm-apimanagement.Resource" />

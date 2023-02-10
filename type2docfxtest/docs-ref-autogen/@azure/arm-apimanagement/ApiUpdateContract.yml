@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ApiUpdateContract
-uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiUpdateContract'
+package: '@azure/arm-apimanagement'
 summary: API update contract details.
 fullName: ApiUpdateContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: apiRevision
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.apiRevision'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.apiRevision'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Describes the revision of the API. If no value is provided, default
       revision 1 is created
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiRevisionDescription
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.apiRevisionDescription'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.apiRevisionDescription'
+    package: '@azure/arm-apimanagement'
     summary: Description of the API Revision.
     fullName: apiRevisionDescription
     remarks: ''
@@ -35,8 +35,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiType
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.apiType'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.apiType'
+    package: '@azure/arm-apimanagement'
     summary: Type of API.
     fullName: apiType
     remarks: ''
@@ -45,10 +45,10 @@ properties:
       content: 'apiType?: ApiType'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiType" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiType" />
   - name: apiVersion
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.apiVersion'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.apiVersion'
+    package: '@azure/arm-apimanagement'
     summary: Indicates the version identifier of the API if the API is versioned
     fullName: apiVersion
     remarks: ''
@@ -59,8 +59,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionDescription
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.apiVersionDescription'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.apiVersionDescription'
+    package: '@azure/arm-apimanagement'
     summary: Description of the API Version.
     fullName: apiVersionDescription
     remarks: ''
@@ -71,8 +71,8 @@ properties:
         description: ''
         type: undefined | string
   - name: apiVersionSetId
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.apiVersionSetId'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.apiVersionSetId'
+    package: '@azure/arm-apimanagement'
     summary: A resource identifier for the related ApiVersionSet.
     fullName: apiVersionSetId
     remarks: ''
@@ -83,8 +83,8 @@ properties:
         description: ''
         type: undefined | string
   - name: authenticationSettings
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.authenticationSettings'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.authenticationSettings'
+    package: '@azure/arm-apimanagement'
     summary: Collection of authentication settings included into this API.
     fullName: authenticationSettings
     remarks: ''
@@ -93,12 +93,10 @@ properties:
       content: 'authenticationSettings?: AuthenticationSettingsContract'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.AuthenticationSettingsContract" />
+        type: <xref uid="@azure/arm-apimanagement.AuthenticationSettingsContract" />
   - name: contact
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.contact'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.contact'
+    package: '@azure/arm-apimanagement'
     summary: Contact information for the API.
     fullName: contact
     remarks: ''
@@ -107,10 +105,10 @@ properties:
       content: 'contact?: ApiContactInformation'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiContactInformation" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiContactInformation" />
   - name: description
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.description'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.description'
+    package: '@azure/arm-apimanagement'
     summary: Description of the API. May include HTML formatting tags.
     fullName: description
     remarks: ''
@@ -121,8 +119,8 @@ properties:
         description: ''
         type: undefined | string
   - name: displayName
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.displayName'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.displayName'
+    package: '@azure/arm-apimanagement'
     summary: API name.
     fullName: displayName
     remarks: ''
@@ -133,8 +131,8 @@ properties:
         description: ''
         type: undefined | string
   - name: isCurrent
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.isCurrent'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.isCurrent'
+    package: '@azure/arm-apimanagement'
     summary: Indicates if API revision is current api revision.
     fullName: isCurrent
     remarks: ''
@@ -145,8 +143,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: isOnline
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.isOnline'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.isOnline'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Indicates if API revision is accessible via the gateway.
 
@@ -161,8 +159,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: license
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.license'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.license'
+    package: '@azure/arm-apimanagement'
     summary: License information for the API.
     fullName: license
     remarks: ''
@@ -171,10 +169,10 @@ properties:
       content: 'license?: ApiLicenseInformation'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.ApiLicenseInformation" />'
+        type: <xref uid="@azure/arm-apimanagement.ApiLicenseInformation" />
   - name: path
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.path'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.path'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Relative URL uniquely identifying this API and all of its resource paths
       within the API Management service instance. It is appended to the API
@@ -189,8 +187,8 @@ properties:
         description: ''
         type: undefined | string
   - name: protocols
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.protocols'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.protocols'
+    package: '@azure/arm-apimanagement'
     summary: Describes on which protocols the operations in this API can be invoked.
     fullName: protocols
     remarks: ''
@@ -199,10 +197,10 @@ properties:
       content: 'protocols?: Protocol[]'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.Protocol" />[]'
+        type: '<xref uid="@azure/arm-apimanagement.Protocol" />[]'
   - name: serviceUrl
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.serviceUrl'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.serviceUrl'
+    package: '@azure/arm-apimanagement'
     summary: Absolute URL of the backend service implementing this API.
     fullName: serviceUrl
     remarks: ''
@@ -213,10 +211,8 @@ properties:
         description: ''
         type: undefined | string
   - name: subscriptionKeyParameterNames
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ApiUpdateContract.subscriptionKeyParameterNames
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.subscriptionKeyParameterNames'
+    package: '@azure/arm-apimanagement'
     summary: Protocols over which API is made available.
     fullName: subscriptionKeyParameterNames
     remarks: ''
@@ -226,11 +222,12 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.SubscriptionKeyParameterNamesContract" />
+          <xref
+          uid="@azure/arm-apimanagement.SubscriptionKeyParameterNamesContract"
+          />
   - name: subscriptionRequired
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.subscriptionRequired'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.subscriptionRequired'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Specifies whether an API or Product subscription is required for accessing
       the API.
@@ -243,8 +240,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: termsOfServiceUrl
-    uid: '@azure/arm-apimanagement - v8.1.2.ApiUpdateContract.termsOfServiceUrl'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ApiUpdateContract.termsOfServiceUrl'
+    package: '@azure/arm-apimanagement'
     summary: A URL to the Terms of Service for the API. MUST be in the format of a URL.
     fullName: termsOfServiceUrl
     remarks: ''

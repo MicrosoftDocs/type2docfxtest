@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: DetectLanguageInput
-uid: '@azure/ai-text-analytics - v5.1.0.DetectLanguageInput'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.DetectLanguageInput'
+package: '@azure/ai-text-analytics'
 summary: >-
   An input to the language detection operation. This object specifies a unique
   document id, as well as the full text of a document and a hint indicating the
@@ -13,8 +13,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: countryHint
-    uid: '@azure/ai-text-analytics - v5.1.0.DetectLanguageInput.countryHint'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.DetectLanguageInput.countryHint'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: countryHint
     remarks: ''
@@ -25,8 +25,8 @@ properties:
         description: ''
         type: string
   - name: id
-    uid: '@azure/ai-text-analytics - v5.1.0.DetectLanguageInput.id'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.DetectLanguageInput.id'
+    package: '@azure/ai-text-analytics'
     summary: 'Unique, non-empty document identifier.'
     fullName: id
     remarks: ''
@@ -37,8 +37,8 @@ properties:
         description: ''
         type: string
   - name: text
-    uid: '@azure/ai-text-analytics - v5.1.0.DetectLanguageInput.text'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.DetectLanguageInput.text'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: text
     remarks: ''

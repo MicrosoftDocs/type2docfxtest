@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: LoggerListByServiceNextOptionalParams
-uid: '@azure/arm-apimanagement - v8.1.2.LoggerListByServiceNextOptionalParams'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.LoggerListByServiceNextOptionalParams'
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: LoggerListByServiceNextOptionalParams
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: filter
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.filter
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.filter'
+    package: '@azure/arm-apimanagement'
     summary: >-
       |     Field     |     Usage     |     Supported operators     |    
       Supported functions    
@@ -31,10 +29,8 @@ properties:
         description: ''
         type: undefined | string
   - name: skip
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.skip
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.skip'
+    package: '@azure/arm-apimanagement'
     summary: Number of records to skip.
     fullName: skip
     remarks: ''
@@ -45,10 +41,8 @@ properties:
         description: ''
         type: undefined | number
   - name: top
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.top
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.top'
+    package: '@azure/arm-apimanagement'
     summary: Number of records to return.
     fullName: top
     remarks: ''
@@ -60,10 +54,8 @@ properties:
         type: undefined | number
 inheritedProperties:
   - name: abortSignal
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.abortSignal
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.abortSignal'
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -75,10 +67,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.onResponse
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.onResponse'
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -94,9 +84,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.requestOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -109,9 +98,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.serializerOptions
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -124,9 +112,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.LoggerListByServiceNextOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.LoggerListByServiceNextOptionalParams.tracingOptions
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

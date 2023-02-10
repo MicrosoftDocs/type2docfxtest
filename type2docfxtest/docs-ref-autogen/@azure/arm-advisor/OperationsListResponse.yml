@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: OperationsListResponse
-uid: '@azure/arm-advisor - v3.1.0.OperationsListResponse'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.OperationsListResponse'
+package: '@azure/arm-advisor'
 summary: Contains response data for the list operation.
 fullName: OperationsListResponse
 remarks: ''

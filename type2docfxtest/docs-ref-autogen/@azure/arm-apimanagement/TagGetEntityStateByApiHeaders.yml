@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagGetEntityStateByApiHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.TagGetEntityStateByApiHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TagGetEntityStateByApiHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for Tag_getEntityStateByApi operation.
 fullName: TagGetEntityStateByApiHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.TagGetEntityStateByApiHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagGetEntityStateByApiHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

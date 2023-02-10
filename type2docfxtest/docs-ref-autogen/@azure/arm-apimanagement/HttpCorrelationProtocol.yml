@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: HttpCorrelationProtocol
-uid: '@azure/arm-apimanagement - v8.1.2.HttpCorrelationProtocol'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.HttpCorrelationProtocol'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for HttpCorrelationProtocol. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownHttpCorrelationProtocol> can be
-  used interchangeably with HttpCorrelationProtocol,
+  <xref:@azure/arm-apimanagement.KnownHttpCorrelationProtocol> can be used
+  interchangeably with HttpCorrelationProtocol,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

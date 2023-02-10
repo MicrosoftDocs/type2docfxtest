@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: OpenIdConnectProvider
-uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.OpenIdConnectProvider'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a OpenIdConnectProvider.
 fullName: OpenIdConnectProvider
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, OpenidConnectProviderContract,
       OpenIdConnectProviderCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates or updates the OpenID Connect Provider.
     remarks: ''
     isDeprecated: false
@@ -34,25 +34,27 @@ methods:
           description: Identifier of the OpenID Connect Provider.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenidConnectProviderContract" />
+            <xref uid="@azure/arm-apimanagement.OpenidConnectProviderContract"
+            />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenIdConnectProviderCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.OpenIdConnectProviderCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, string, string,
       OpenIdConnectProviderDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.delete'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Deletes specific OpenID Connect Provider of the API Management service
       instance.
@@ -81,16 +83,17 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderDeleteOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, OpenIdConnectProviderGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets specific OpenID Connect Provider without secrets.
     remarks: ''
     isDeprecated: false
@@ -111,20 +114,21 @@ methods:
           description: Identifier of the OpenID Connect Provider.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderGetOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenIdConnectProviderGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.OpenIdConnectProviderGetResponse" />&gt;
   - name: >-
       getEntityTag(string, string, string,
       OpenIdConnectProviderGetEntityTagOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the openIdConnectProvider
       specified by its identifier.
@@ -148,20 +152,22 @@ methods:
           description: Identifier of the OpenID Connect Provider.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderGetEntityTagOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenIdConnectProviderGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.OpenIdConnectProviderGetEntityTagResponse"
+          />&gt;
   - name: >-
       listByService(string, string,
       OpenIdConnectProviderListByServiceOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists of all the OpenId Connect Providers.
     remarks: ''
     isDeprecated: false
@@ -179,20 +185,21 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenidConnectProviderContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.OpenidConnectProviderContract" />&gt;
   - name: >-
       listSecrets(string, string, string,
       OpenIdConnectProviderListSecretsOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.listSecrets'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.listSecrets'
+    package: '@azure/arm-apimanagement'
     summary: Gets the client secret details of the OpenID Connect Provider.
     remarks: ''
     isDeprecated: false
@@ -213,21 +220,23 @@ methods:
           description: Identifier of the OpenID Connect Provider.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderListSecretsOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderListSecretsOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenIdConnectProviderListSecretsResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.OpenIdConnectProviderListSecretsResponse"
+          />&gt;
   - name: >-
       update(string, string, string, string,
       OpenidConnectProviderUpdateContract,
       OpenIdConnectProviderUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.OpenIdConnectProvider.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.OpenIdConnectProvider.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the specific OpenID Connect Provider.
     remarks: ''
     isDeprecated: false
@@ -256,17 +265,20 @@ methods:
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenidConnectProviderUpdateContract" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenidConnectProviderUpdateContract"
+            />
           description: Update parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.OpenIdConnectProviderUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.OpenIdConnectProviderUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.OpenIdConnectProviderUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.OpenIdConnectProviderUpdateResponse"
+          />&gt;

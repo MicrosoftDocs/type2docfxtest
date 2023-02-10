@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TermsOfServiceProperties
-uid: '@azure/arm-apimanagement - v8.1.2.TermsOfServiceProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TermsOfServiceProperties'
+package: '@azure/arm-apimanagement'
 summary: Terms of service contract properties.
 fullName: TermsOfServiceProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: consentRequired
-    uid: '@azure/arm-apimanagement - v8.1.2.TermsOfServiceProperties.consentRequired'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TermsOfServiceProperties.consentRequired'
+    package: '@azure/arm-apimanagement'
     summary: Ask user for consent to the terms of service.
     fullName: consentRequired
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: enabled
-    uid: '@azure/arm-apimanagement - v8.1.2.TermsOfServiceProperties.enabled'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TermsOfServiceProperties.enabled'
+    package: '@azure/arm-apimanagement'
     summary: Display terms of service during a sign-up process.
     fullName: enabled
     remarks: ''
@@ -33,8 +33,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: text
-    uid: '@azure/arm-apimanagement - v8.1.2.TermsOfServiceProperties.text'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TermsOfServiceProperties.text'
+    package: '@azure/arm-apimanagement'
     summary: A terms of service text.
     fullName: text
     remarks: ''

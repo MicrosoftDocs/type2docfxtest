@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecognizePiiEntitiesResultArray
-uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray'
+package: '@azure/ai-text-analytics'
 summary: >-
   Collection of `RecognizePiiEntitiesResult` objects corresponding to a batch of
   input documents, and
@@ -13,8 +13,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: Array
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.Array'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.Array'
+    package: '@azure/ai-text-analytics'
     summary: ''
     fullName: Array
     remarks: ''
@@ -25,10 +25,8 @@ properties:
         description: ''
         type: ArrayConstructor
   - name: modelVersion
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.modelVersion
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.modelVersion'
+    package: '@azure/ai-text-analytics'
     summary: |-
       The version of the text analytics model used by this operation on this
       batch of input documents.
@@ -41,10 +39,8 @@ properties:
         description: ''
         type: string
   - name: statistics
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.statistics
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.statistics'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Statistics about the input document batch and how it was processed
 
@@ -59,13 +55,11 @@ properties:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.TextDocumentBatchStatistics" />
+        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
 inheritedProperties:
   - name: length
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.length'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.length'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Gets or sets the length of the array. This is a number one higher than the
       highest element defined in an array.
@@ -80,8 +74,8 @@ inheritedProperties:
     inheritanceDescription: <b>Inherited From</b> Array.length
 inheritedMethods:
   - name: 'concat((T | ConcatArray<T>)[])'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.concat_1'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.concat_1'
+    package: '@azure/ai-text-analytics'
     summary: Combines two or more arrays.
     remarks: ''
     isDeprecated: false
@@ -96,13 +90,11 @@ inheritedMethods:
             Additional items to add to the end of array1.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: 'concat(ConcatArray<RecognizePiiEntitiesResult>[])'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.concat'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.concat'
+    package: '@azure/ai-text-analytics'
     summary: Combines two or more arrays.
     remarks: ''
     isDeprecated: false
@@ -113,21 +105,19 @@ inheritedMethods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;@azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />&gt;[]
+            ConcatArray&lt;<xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: >-
       every((value: RecognizePiiEntitiesResult, index: number, array:
       RecognizePiiEntitiesResult[]) => unknown, any)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.every'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.every'
+    package: '@azure/ai-text-analytics'
     summary: Determines whether all the members of an array satisfy the specified test.
     remarks: ''
     isDeprecated: false
@@ -164,8 +154,8 @@ inheritedMethods:
   - name: >-
       filter((value: RecognizePiiEntitiesResult, index: number, array:
       RecognizePiiEntitiesResult[]) => unknown, any)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.filter_1'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.filter_1'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Returns the elements of an array that meet the condition specified in a
       callback function.
@@ -193,15 +183,13 @@ inheritedMethods:
             value.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: RecognizePiiEntitiesResult, index: number, array:
       RecognizePiiEntitiesResult[]) => value, any)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.filter'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.filter'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Returns the elements of an array that meet the condition specified in a
       callback function.
@@ -234,8 +222,8 @@ inheritedMethods:
   - name: >-
       forEach((value: RecognizePiiEntitiesResult, index: number, array:
       RecognizePiiEntitiesResult[]) => void, any)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.forEach'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.forEach'
+    package: '@azure/ai-text-analytics'
     summary: Performs the specified action for each element in an array.
     remarks: ''
     isDeprecated: false
@@ -259,8 +247,8 @@ inheritedMethods:
             value.
     inheritanceDescription: <b>Inherited From</b> Array.forEach
   - name: 'indexOf(RecognizePiiEntitiesResult, number)'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.indexOf'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.indexOf'
+    package: '@azure/ai-text-analytics'
     summary: Returns the index of the first occurrence of a value in an array.
     remarks: ''
     isDeprecated: false
@@ -270,9 +258,7 @@ inheritedMethods:
         number): number
       parameters:
         - id: searchElement
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />
+          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -284,8 +270,8 @@ inheritedMethods:
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.indexOf
   - name: join(string)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.join'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.join'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Adds all the elements of an array separated by the specified separator
       string.
@@ -305,10 +291,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.join
   - name: 'lastIndexOf(RecognizePiiEntitiesResult, number)'
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.lastIndexOf
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.lastIndexOf'
+    package: '@azure/ai-text-analytics'
     summary: Returns the index of the last occurrence of a specified value in an array.
     remarks: ''
     isDeprecated: false
@@ -318,9 +302,7 @@ inheritedMethods:
         fromIndex?: number): number
       parameters:
         - id: searchElement
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />
+          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -334,8 +316,8 @@ inheritedMethods:
   - name: >-
       map<U>((value: RecognizePiiEntitiesResult, index: number, array:
       RecognizePiiEntitiesResult[]) => U, any)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.map'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.map'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls a defined callback function on each element of an array, and returns
       an array that contains the results.
@@ -364,8 +346,8 @@ inheritedMethods:
         type: 'U[]'
     inheritanceDescription: <b>Inherited From</b> Array.map
   - name: pop()
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.pop'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.pop'
+    package: '@azure/ai-text-analytics'
     summary: Removes the last element from an array and returns it.
     remarks: ''
     isDeprecated: false
@@ -374,12 +356,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" /> | undefined
+          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: 'push(RecognizePiiEntitiesResult[])'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.push'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.push'
+    package: '@azure/ai-text-analytics'
     summary: 'Appends new elements to an array, and returns the new length of the array.'
     remarks: ''
     isDeprecated: false
@@ -387,9 +369,7 @@ inheritedMethods:
       content: 'function push(items: RecognizePiiEntitiesResult[]): number'
       parameters:
         - id: items
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+          type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
           description: |
             New elements of the Array.
       return:
@@ -400,8 +380,8 @@ inheritedMethods:
       reduce((previousValue: RecognizePiiEntitiesResult, currentValue:
       RecognizePiiEntitiesResult, currentIndex: number, array:
       RecognizePiiEntitiesResult[]) => RecognizePiiEntitiesResult)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.reduce'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reduce'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array.
       The return value of the callback function is the accumulated result, and
@@ -426,17 +406,15 @@ inheritedMethods:
             array.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />
+        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce((previousValue: RecognizePiiEntitiesResult, currentValue:
       RecognizePiiEntitiesResult, currentIndex: number, array:
       RecognizePiiEntitiesResult[]) => RecognizePiiEntitiesResult,
       RecognizePiiEntitiesResult)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.reduce_1'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reduce_1'
+    package: '@azure/ai-text-analytics'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -454,21 +432,17 @@ inheritedMethods:
             RecognizePiiEntitiesResult[]) =&gt; RecognizePiiEntitiesResult
           description: ''
         - id: initialValue
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />
+          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
           description: ''
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />
+        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce<U>((previousValue: U, currentValue: RecognizePiiEntitiesResult,
       currentIndex: number, array: RecognizePiiEntitiesResult[]) => U, U)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.reduce_2'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reduce_2'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array.
       The return value of the callback function is the accumulated result, and
@@ -503,10 +477,8 @@ inheritedMethods:
       reduceRight((previousValue: RecognizePiiEntitiesResult, currentValue:
       RecognizePiiEntitiesResult, currentIndex: number, array:
       RecognizePiiEntitiesResult[]) => RecognizePiiEntitiesResult)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.reduceRight
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reduceRight'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array, in
       descending order. The return value of the callback function is the
@@ -532,19 +504,15 @@ inheritedMethods:
             array.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />
+        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight((previousValue: RecognizePiiEntitiesResult, currentValue:
       RecognizePiiEntitiesResult, currentIndex: number, array:
       RecognizePiiEntitiesResult[]) => RecognizePiiEntitiesResult,
       RecognizePiiEntitiesResult)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.reduceRight_1
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reduceRight_1'
+    package: '@azure/ai-text-analytics'
     summary: ''
     remarks: ''
     isDeprecated: false
@@ -563,24 +531,18 @@ inheritedMethods:
             RecognizePiiEntitiesResult[]) =&gt; RecognizePiiEntitiesResult
           description: ''
         - id: initialValue
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />
+          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
           description: ''
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />
+        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight<U>((previousValue: U, currentValue:
       RecognizePiiEntitiesResult, currentIndex: number, array:
       RecognizePiiEntitiesResult[]) => U, U)
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.reduceRight_2
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reduceRight_2'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Calls the specified callback function for all the elements in an array, in
       descending order. The return value of the callback function is the
@@ -613,8 +575,8 @@ inheritedMethods:
         type: U
     inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: reverse()
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.reverse'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.reverse'
+    package: '@azure/ai-text-analytics'
     summary: Reverses the elements in an Array.
     remarks: ''
     isDeprecated: false
@@ -622,13 +584,11 @@ inheritedMethods:
       content: 'function reverse(): RecognizePiiEntitiesResult[]'
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.reverse
   - name: shift()
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.shift'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.shift'
+    package: '@azure/ai-text-analytics'
     summary: Removes the first element from an array and returns it.
     remarks: ''
     isDeprecated: false
@@ -637,12 +597,12 @@ inheritedMethods:
       return:
         description: ''
         type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" /> | undefined
+          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" /> |
+          undefined
     inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: 'slice(number, number)'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.slice'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.slice'
+    package: '@azure/ai-text-analytics'
     summary: Returns a section of an array.
     remarks: ''
     isDeprecated: false
@@ -661,15 +621,13 @@ inheritedMethods:
             the element at the index 'end'.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.slice
   - name: >-
       some((value: RecognizePiiEntitiesResult, index: number, array:
       RecognizePiiEntitiesResult[]) => unknown, any)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.some'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.some'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Determines whether the specified callback function returns true for any
       element of an array.
@@ -707,8 +665,8 @@ inheritedMethods:
   - name: >-
       sort((a: RecognizePiiEntitiesResult, b: RecognizePiiEntitiesResult) =>
       number)
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.sort'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.sort'
+    package: '@azure/ai-text-analytics'
     summary: Sorts an array.
     remarks: ''
     isDeprecated: false
@@ -741,8 +699,8 @@ inheritedMethods:
         type: this
     inheritanceDescription: <b>Inherited From</b> Array.sort
   - name: 'splice(number, number)'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.splice'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.splice'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
@@ -764,13 +722,11 @@ inheritedMethods:
             The number of elements to remove.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: 'splice(number, number, RecognizePiiEntitiesResult[])'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.splice_1'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.splice_1'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
@@ -790,22 +746,16 @@ inheritedMethods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+          type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         description: ''
-        type: >-
-          @azure/ai-text-analytics - <xref
-          uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+        type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
     inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: toLocaleString()
-    uid: >-
-      @azure/ai-text-analytics -
-      v5.1.0.RecognizePiiEntitiesResultArray.toLocaleString
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.toLocaleString'
+    package: '@azure/ai-text-analytics'
     summary: >-
       Returns a string representation of an array. The elements are converted to
       string using their toLocalString methods.
@@ -818,8 +768,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
   - name: toString()
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.toString'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.toString'
+    package: '@azure/ai-text-analytics'
     summary: Returns a string representation of an array.
     remarks: ''
     isDeprecated: false
@@ -830,8 +780,8 @@ inheritedMethods:
         type: string
     inheritanceDescription: <b>Inherited From</b> Array.toString
   - name: 'unshift(RecognizePiiEntitiesResult[])'
-    uid: '@azure/ai-text-analytics - v5.1.0.RecognizePiiEntitiesResultArray.unshift'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.unshift'
+    package: '@azure/ai-text-analytics'
     summary: Inserts new elements at the start of an array.
     remarks: ''
     isDeprecated: false
@@ -839,9 +789,7 @@ inheritedMethods:
       content: 'function unshift(items: RecognizePiiEntitiesResult[]): number'
       parameters:
         - id: items
-          type: >-
-            @azure/ai-text-analytics - <xref
-            uid="v5.1.0.RecognizePiiEntitiesResult" />[]
+          type: '<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]'
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -849,5 +797,5 @@ inheritedMethods:
         type: number
     inheritanceDescription: <b>Inherited From</b> Array.unshift
 extends: >-
-  Array&lt;@azure/ai-text-analytics - <xref
-  uid="v5.1.0.RecognizePiiEntitiesResult" />&gt;
+  Array&lt;<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult"
+  />&gt;

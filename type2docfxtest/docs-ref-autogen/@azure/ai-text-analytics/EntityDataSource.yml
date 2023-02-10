@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: EntityDataSource
-uid: '@azure/ai-text-analytics - v5.1.0.EntityDataSource'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.EntityDataSource'
+package: '@azure/ai-text-analytics'
 summary: |-
   A type representing a reference for the healthcare entity into a specific
   entity catalog.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: entityId
-    uid: '@azure/ai-text-analytics - v5.1.0.EntityDataSource.entityId'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.EntityDataSource.entityId'
+    package: '@azure/ai-text-analytics'
     summary: Entity id in the given source catalog.
     fullName: entityId
     remarks: ''
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: string
   - name: name
-    uid: '@azure/ai-text-analytics - v5.1.0.EntityDataSource.name'
-    package: '@azure/ai-text-analytics - v5.1.0'
+    uid: '@azure/ai-text-analytics.EntityDataSource.name'
+    package: '@azure/ai-text-analytics'
     summary: 'Entity Catalog. Examples include: UMLS, CHV, MSH, etc.'
     fullName: name
     remarks: ''

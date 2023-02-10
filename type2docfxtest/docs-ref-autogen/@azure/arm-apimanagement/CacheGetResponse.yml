@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: CacheGetResponse
-uid: '@azure/arm-apimanagement - v8.1.2.CacheGetResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.CacheGetResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the get operation.
 fullName: CacheGetResponse
 remarks: ''

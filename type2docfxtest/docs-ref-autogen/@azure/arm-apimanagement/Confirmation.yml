@@ -1,12 +1,12 @@
 ### YamlMime:TSTypeAlias
 name: Confirmation
-uid: '@azure/arm-apimanagement - v8.1.2.Confirmation'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Confirmation'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for Confirmation. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownConfirmation> can be used
-  interchangeably with Confirmation,
+  <xref:@azure/arm-apimanagement.KnownConfirmation> can be used interchangeably
+  with Confirmation,
    this enum contains the known values that the service supports.
   ### Known values supported by the service
 

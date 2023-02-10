@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: LoggerUpdateResponse
-uid: '@azure/arm-apimanagement - v8.1.2.LoggerUpdateResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.LoggerUpdateResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the update operation.
 fullName: LoggerUpdateResponse
 remarks: ''

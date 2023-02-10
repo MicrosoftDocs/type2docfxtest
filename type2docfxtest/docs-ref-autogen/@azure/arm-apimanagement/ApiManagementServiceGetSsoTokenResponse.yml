@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceGetSsoTokenResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ApiManagementServiceGetSsoTokenResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApiManagementServiceGetSsoTokenResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the getSsoToken operation.
 fullName: ApiManagementServiceGetSsoTokenResponse
 remarks: ''

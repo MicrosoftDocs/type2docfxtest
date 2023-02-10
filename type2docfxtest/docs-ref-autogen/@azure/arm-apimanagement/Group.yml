@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: Group
-uid: '@azure/arm-apimanagement - v8.1.2.Group'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.Group'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a Group.
 fullName: Group
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       createOrUpdate(string, string, string, GroupCreateParameters,
       GroupCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Group.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Group.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: Creates or Updates a group.
     remarks: ''
     isDeprecated: false
@@ -34,24 +34,22 @@ methods:
             Group identifier. Must be unique in the current API Management
             service instance.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.GroupCreateParameters"
-            />
+          type: <xref uid="@azure/arm-apimanagement.GroupCreateParameters" />
           description: Create parameters.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GroupCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.GroupCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GroupCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.GroupCreateOrUpdateResponse" />&gt;
   - name: 'delete(string, string, string, string, GroupDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Group.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Group.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes specific group of the API Management service instance.
     remarks: ''
     isDeprecated: false
@@ -79,17 +77,15 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GroupDeleteOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.GroupDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
   - name: 'get(string, string, string, GroupGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Group.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Group.get'
+    package: '@azure/arm-apimanagement'
     summary: Gets the details of the group specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -110,19 +106,17 @@ methods:
             Group identifier. Must be unique in the current API Management
             service instance.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.GroupGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-apimanagement.GroupGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GroupGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.GroupGetResponse"
+          />&gt;
   - name: 'getEntityTag(string, string, string, GroupGetEntityTagOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Group.getEntityTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Group.getEntityTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the entity state (Etag) version of the group specified by its
       identifier.
@@ -147,18 +141,18 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GroupGetEntityTagOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.GroupGetEntityTagOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GroupGetEntityTagResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.GroupGetEntityTagResponse" />&gt;
   - name: 'listByService(string, string, GroupListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.Group.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Group.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Lists a collection of groups defined within a service instance.
     remarks: ''
     isDeprecated: false
@@ -176,20 +170,20 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GroupListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.GroupListByServiceOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GroupContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.GroupContract" />&gt;
   - name: >-
       update(string, string, string, string, GroupUpdateParameters,
       GroupUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.Group.update'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.Group.update'
+    package: '@azure/arm-apimanagement'
     summary: Updates the details of the group specified by its identifier.
     remarks: ''
     isDeprecated: false
@@ -217,18 +211,14 @@ methods:
             the header
                            response of the GET request or it should be * for unconditional update.
         - id: parameters
-          type: >-
-            @azure/arm-apimanagement - <xref uid="v8.1.2.GroupUpdateParameters"
-            />
+          type: <xref uid="@azure/arm-apimanagement.GroupUpdateParameters" />
           description: Update parameters.
         - id: options
-          type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.GroupUpdateOptionalParams" />
+          type: <xref uid="@azure/arm-apimanagement.GroupUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GroupUpdateResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-apimanagement.GroupUpdateResponse"
+          />&gt;

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TenantSettings
-uid: '@azure/arm-apimanagement - v8.1.2.TenantSettings'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TenantSettings'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a TenantSettings.
 fullName: TenantSettings
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 methods:
   - name: 'get(string, string, SettingsTypeName, TenantSettingsGetOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantSettings.get'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantSettings.get'
+    package: '@azure/arm-apimanagement'
     summary: Get tenant settings.
     remarks: ''
     isDeprecated: false
@@ -27,22 +27,22 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: settingsType
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.SettingsTypeName" />'
+          type: <xref uid="@azure/arm-apimanagement.SettingsTypeName" />
           description: The identifier of the settings.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantSettingsGetOptionalParams" />
+            <xref uid="@azure/arm-apimanagement.TenantSettingsGetOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantSettingsGetResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.TenantSettingsGetResponse" />&gt;
   - name: 'listByService(string, string, TenantSettingsListByServiceOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.TenantSettings.listByService'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TenantSettings.listByService'
+    package: '@azure/arm-apimanagement'
     summary: Public settings.
     remarks: ''
     isDeprecated: false
@@ -60,12 +60,13 @@ methods:
           description: The name of the API Management service.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.TenantSettingsListByServiceOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.TenantSettingsListByServiceOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.TenantSettingsContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.TenantSettingsContract" />&gt;

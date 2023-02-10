@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PolicyScopeContract
-uid: '@azure/arm-apimanagement - v8.1.2.PolicyScopeContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.PolicyScopeContract'
+package: '@azure/arm-apimanagement'
 summary: Defines values for PolicyScopeContract.
 fullName: PolicyScopeContract
 remarks: ''

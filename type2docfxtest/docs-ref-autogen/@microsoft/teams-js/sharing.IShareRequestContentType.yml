@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: IShareRequestContentType
-uid: '@microsoft/teams-js - v2.5.0.sharing.IShareRequestContentType'
-package: '@microsoft/teams-js - v2.5.0'
+uid: '@microsoft/teams-js.sharing.IShareRequestContentType'
+package: '@microsoft/teams-js'
 summary: ''
 fullName: IShareRequestContentType
 remarks: ''

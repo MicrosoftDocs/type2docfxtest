@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: GatewayKeysContract
-uid: '@azure/arm-apimanagement - v8.1.2.GatewayKeysContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GatewayKeysContract'
+package: '@azure/arm-apimanagement'
 summary: Gateway authentication keys.
 fullName: GatewayKeysContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: primary
-    uid: '@azure/arm-apimanagement - v8.1.2.GatewayKeysContract.primary'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayKeysContract.primary'
+    package: '@azure/arm-apimanagement'
     summary: Primary gateway key.
     fullName: primary
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: secondary
-    uid: '@azure/arm-apimanagement - v8.1.2.GatewayKeysContract.secondary'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.GatewayKeysContract.secondary'
+    package: '@azure/arm-apimanagement'
     summary: Secondary gateway key.
     fullName: secondary
     remarks: ''

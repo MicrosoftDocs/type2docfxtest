@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: HttpOnlyIfUnchangedField
-uid: '@azure/app-configuration - v1.3.1.HttpOnlyIfUnchangedField'
-package: '@azure/app-configuration - v1.3.1'
+uid: '@azure/app-configuration.HttpOnlyIfUnchangedField'
+package: '@azure/app-configuration'
 summary: Options used to provide if-match for an HTTP request
 fullName: HttpOnlyIfUnchangedField
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: onlyIfUnchanged
-    uid: '@azure/app-configuration - v1.3.1.HttpOnlyIfUnchangedField.onlyIfUnchanged'
-    package: '@azure/app-configuration - v1.3.1'
+    uid: '@azure/app-configuration.HttpOnlyIfUnchangedField.onlyIfUnchanged'
+    package: '@azure/app-configuration'
     summary: >-
       Used to perform an operation only if the targeted resource's etag matches
       the value provided.

@@ -1,11 +1,11 @@
 ### YamlMime:TSTypeAlias
 name: ApimIdentityType
-uid: '@azure/arm-apimanagement - v8.1.2.ApimIdentityType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ApimIdentityType'
+package: '@azure/arm-apimanagement'
 summary: >-
   Defines values for ApimIdentityType. \
 
-  <xref:@azure/arm-apimanagement - v8.1.2.KnownApimIdentityType> can be used
+  <xref:@azure/arm-apimanagement.KnownApimIdentityType> can be used
   interchangeably with ApimIdentityType,
    this enum contains the known values that the service supports.
   ### Known values supported by the service

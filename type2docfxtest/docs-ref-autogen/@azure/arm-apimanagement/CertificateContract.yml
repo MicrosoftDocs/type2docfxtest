@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: CertificateContract
-uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.CertificateContract'
+package: '@azure/arm-apimanagement'
 summary: Certificate details.
 fullName: CertificateContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: expirationDate
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.expirationDate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.expirationDate'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Expiration date of the certificate. The date conforms to the following
       format: `yyyy-MM-ddTHH:mm:ssZ` as specified by the ISO 8601 standard.
@@ -23,8 +23,8 @@ properties:
         description: ''
         type: Date
   - name: keyVault
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.keyVault'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.keyVault'
+    package: '@azure/arm-apimanagement'
     summary: KeyVault location details of the certificate.
     fullName: keyVault
     remarks: ''
@@ -33,12 +33,10 @@ properties:
       content: 'keyVault?: KeyVaultContractProperties'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.KeyVaultContractProperties" />
+        type: <xref uid="@azure/arm-apimanagement.KeyVaultContractProperties" />
   - name: subject
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.subject'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.subject'
+    package: '@azure/arm-apimanagement'
     summary: Subject attribute of the certificate.
     fullName: subject
     remarks: ''
@@ -49,8 +47,8 @@ properties:
         description: ''
         type: undefined | string
   - name: thumbprint
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.thumbprint'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.thumbprint'
+    package: '@azure/arm-apimanagement'
     summary: Thumbprint of the certificate.
     fullName: thumbprint
     remarks: ''
@@ -62,8 +60,8 @@ properties:
         type: undefined | string
 inheritedProperties:
   - name: id
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.id'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.id'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Fully qualified resource ID for the resource. Ex -
       /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
@@ -79,11 +77,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.id](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.id)
+      <b>Inherited From</b>
+      [Resource.id](xref:@azure/arm-apimanagement.Resource.id)
   - name: name
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.name'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.name'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The name of the resource
 
@@ -98,11 +96,11 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.name](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.name)
+      <b>Inherited From</b>
+      [Resource.name](xref:@azure/arm-apimanagement.Resource.name)
   - name: type
-    uid: '@azure/arm-apimanagement - v8.1.2.CertificateContract.type'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.CertificateContract.type'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
       "Microsoft.Storage/storageAccounts"
@@ -118,6 +116,6 @@ inheritedProperties:
         description: ''
         type: undefined | string
     inheritanceDescription: >-
-      <b>Inherited From</b> [Resource.type](xref:@azure/arm-apimanagement -
-      v8.1.2.Resource.type)
-extends: '@azure/arm-apimanagement - <xref uid="v8.1.2.Resource" />'
+      <b>Inherited From</b>
+      [Resource.type](xref:@azure/arm-apimanagement.Resource.type)
+extends: <xref uid="@azure/arm-apimanagement.Resource" />

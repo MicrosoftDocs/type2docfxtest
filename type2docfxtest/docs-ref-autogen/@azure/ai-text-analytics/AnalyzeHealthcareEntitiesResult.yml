@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: AnalyzeHealthcareEntitiesResult
-uid: '@azure/ai-text-analytics - v5.1.0.AnalyzeHealthcareEntitiesResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult'
+package: '@azure/ai-text-analytics'
 summary: The result of the healthcare operation on a single document.
 fullName: AnalyzeHealthcareEntitiesResult
 remarks: ''

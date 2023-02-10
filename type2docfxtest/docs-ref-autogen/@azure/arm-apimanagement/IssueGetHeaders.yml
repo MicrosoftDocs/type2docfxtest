@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: IssueGetHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.IssueGetHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.IssueGetHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for Issue_get operation.
 fullName: IssueGetHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.IssueGetHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.IssueGetHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ConnectivityCheckRequest
-uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckRequest'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ConnectivityCheckRequest'
+package: '@azure/arm-apimanagement'
 summary: >-
   A request to perform the connectivity check operation on a API Management
   service.
@@ -11,8 +11,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: destination
-    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckRequest.destination'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ConnectivityCheckRequest.destination'
+    package: '@azure/arm-apimanagement'
     summary: The connectivity check operation destination.
     fullName: destination
     remarks: ''
@@ -22,13 +22,11 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ConnectivityCheckRequestDestination" />
+          <xref
+          uid="@azure/arm-apimanagement.ConnectivityCheckRequestDestination" />
   - name: preferredIPVersion
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ConnectivityCheckRequest.preferredIPVersion
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ConnectivityCheckRequest.preferredIPVersion'
+    package: '@azure/arm-apimanagement'
     summary: The IP version to be used. Only IPv4 is supported for now.
     fullName: preferredIPVersion
     remarks: ''
@@ -37,10 +35,10 @@ properties:
       content: 'preferredIPVersion?: PreferredIPVersion'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.PreferredIPVersion" />'
+        type: <xref uid="@azure/arm-apimanagement.PreferredIPVersion" />
   - name: protocol
-    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckRequest.protocol'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ConnectivityCheckRequest.protocol'
+    package: '@azure/arm-apimanagement'
     summary: >-
       The request's protocol. Specific protocol configuration can be available
       based on this selection. The specified destination address must be
@@ -52,14 +50,10 @@ properties:
       content: 'protocol?: ConnectivityCheckProtocol'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ConnectivityCheckProtocol" />
+        type: <xref uid="@azure/arm-apimanagement.ConnectivityCheckProtocol" />
   - name: protocolConfiguration
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ConnectivityCheckRequest.protocolConfiguration
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ConnectivityCheckRequest.protocolConfiguration'
+    package: '@azure/arm-apimanagement'
     summary: Protocol-specific configuration.
     fullName: protocolConfiguration
     remarks: ''
@@ -69,11 +63,12 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ConnectivityCheckRequestProtocolConfiguration" />
+          <xref
+          uid="@azure/arm-apimanagement.ConnectivityCheckRequestProtocolConfiguration"
+          />
   - name: source
-    uid: '@azure/arm-apimanagement - v8.1.2.ConnectivityCheckRequest.source'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ConnectivityCheckRequest.source'
+    package: '@azure/arm-apimanagement'
     summary: Definitions about the connectivity check origin.
     fullName: source
     remarks: ''
@@ -82,6 +77,4 @@ properties:
       content: 'source: ConnectivityCheckRequestSource'
       return:
         description: ''
-        type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.ConnectivityCheckRequestSource" />
+        type: <xref uid="@azure/arm-apimanagement.ConnectivityCheckRequestSource" />

@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: IssueListByServiceResponse
-uid: '@azure/arm-apimanagement - v8.1.2.IssueListByServiceResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.IssueListByServiceResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the listByService operation.
 fullName: IssueListByServiceResponse
 remarks: ''

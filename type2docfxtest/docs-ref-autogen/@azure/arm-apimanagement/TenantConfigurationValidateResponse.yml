@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: TenantConfigurationValidateResponse
-uid: '@azure/arm-apimanagement - v8.1.2.TenantConfigurationValidateResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TenantConfigurationValidateResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the validate operation.
 fullName: TenantConfigurationValidateResponse
 remarks: ''

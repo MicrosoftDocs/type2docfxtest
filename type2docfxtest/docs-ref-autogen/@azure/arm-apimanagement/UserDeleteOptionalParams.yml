@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: UserDeleteOptionalParams
-uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.UserDeleteOptionalParams'
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: UserDeleteOptionalParams
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: appType
-    uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams.appType'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.appType'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Determines the type of application which send the create user request.
       Default is legacy publisher portal.
@@ -21,12 +21,10 @@ properties:
       content: 'appType?: AppType'
       return:
         description: ''
-        type: '@azure/arm-apimanagement - <xref uid="v8.1.2.AppType" />'
+        type: <xref uid="@azure/arm-apimanagement.AppType" />
   - name: deleteSubscriptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.UserDeleteOptionalParams.deleteSubscriptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.deleteSubscriptions'
+    package: '@azure/arm-apimanagement'
     summary: Whether to delete user's subscription or not.
     fullName: deleteSubscriptions
     remarks: ''
@@ -37,8 +35,8 @@ properties:
         description: ''
         type: undefined | false | true
   - name: notify
-    uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams.notify'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.notify'
+    package: '@azure/arm-apimanagement'
     summary: Send an Account Closed Email notification to the User.
     fullName: notify
     remarks: ''
@@ -50,8 +48,8 @@ properties:
         type: undefined | false | true
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams.abortSignal'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.abortSignal'
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -63,8 +61,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams.onResponse'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.onResponse'
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -79,8 +77,8 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams.requestOptions'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.requestOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -92,10 +90,8 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.UserDeleteOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.serializerOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -107,8 +103,8 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: '@azure/arm-apimanagement - v8.1.2.UserDeleteOptionalParams.tracingOptions'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.UserDeleteOptionalParams.tracingOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

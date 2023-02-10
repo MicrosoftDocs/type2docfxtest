@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: KeyVaultContractProperties
-uid: '@azure/arm-apimanagement - v8.1.2.KeyVaultContractProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.KeyVaultContractProperties'
+package: '@azure/arm-apimanagement'
 summary: KeyVault contract details.
 fullName: KeyVaultContractProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: lastStatus
-    uid: '@azure/arm-apimanagement - v8.1.2.KeyVaultContractProperties.lastStatus'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KeyVaultContractProperties.lastStatus'
+    package: '@azure/arm-apimanagement'
     summary: Last time sync and refresh status of secret from key vault.
     fullName: lastStatus
     remarks: ''
@@ -20,14 +20,13 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.KeyVaultLastAccessStatusContractProperties" />
+          <xref
+          uid="@azure/arm-apimanagement.KeyVaultLastAccessStatusContractProperties"
+          />
 inheritedProperties:
   - name: identityClientId
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.KeyVaultContractProperties.identityClientId
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KeyVaultContractProperties.identityClientId'
+    package: '@azure/arm-apimanagement'
     summary: >-
       SystemAssignedIdentity or UserAssignedIdentity Client Id which will be
       used to access key vault secret.
@@ -41,13 +40,10 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [KeyVaultContractCreateProperties.identityClientId](xref:@azure/arm-apimanagement
-      - v8.1.2.KeyVaultContractCreateProperties.identityClientId)
+      [KeyVaultContractCreateProperties.identityClientId](xref:@azure/arm-apimanagement.KeyVaultContractCreateProperties.identityClientId)
   - name: secretIdentifier
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.KeyVaultContractProperties.secretIdentifier
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KeyVaultContractProperties.secretIdentifier'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Key vault secret identifier for fetching secret. Providing a versioned
       secret will prevent auto-refresh. This requires API Management service to
@@ -62,8 +58,5 @@ inheritedProperties:
         type: undefined | string
     inheritanceDescription: >-
       <b>Inherited From</b>
-      [KeyVaultContractCreateProperties.secretIdentifier](xref:@azure/arm-apimanagement
-      - v8.1.2.KeyVaultContractCreateProperties.secretIdentifier)
-extends: >-
-  @azure/arm-apimanagement - <xref uid="v8.1.2.KeyVaultContractCreateProperties"
-  />
+      [KeyVaultContractCreateProperties.secretIdentifier](xref:@azure/arm-apimanagement.KeyVaultContractCreateProperties.secretIdentifier)
+extends: <xref uid="@azure/arm-apimanagement.KeyVaultContractCreateProperties" />

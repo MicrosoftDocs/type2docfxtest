@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductGroup
-uid: '@azure/arm-apimanagement - v8.1.2.ProductGroup'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ProductGroup'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a ProductGroup.
 fullName: ProductGroup
 remarks: ''
@@ -11,8 +11,8 @@ methods:
   - name: >-
       checkEntityExists(string, string, string, string,
       ProductGroupCheckEntityExistsOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductGroup.checkEntityExists'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductGroup.checkEntityExists'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Checks that Group entity specified by identifier is associated with the
       Product entity.
@@ -43,20 +43,22 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ProductGroupCheckEntityExistsOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ProductGroupCheckEntityExistsOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ProductGroupCheckEntityExistsResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ProductGroupCheckEntityExistsResponse"
+          />&gt;
   - name: >-
       createOrUpdate(string, string, string, string,
       ProductGroupCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductGroup.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductGroup.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Adds the association between the specified developer group with the
       specified product.
@@ -87,18 +89,20 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ProductGroupCreateOrUpdateOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ProductGroupCreateOrUpdateOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.ProductGroupCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.ProductGroupCreateOrUpdateResponse"
+          />&gt;
   - name: 'delete(string, string, string, string, ProductGroupDeleteOptionalParams)'
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductGroup.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductGroup.delete'
+    package: '@azure/arm-apimanagement'
     summary: Deletes the association between the specified group and product.
     remarks: ''
     isDeprecated: false
@@ -126,8 +130,8 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ProductGroupDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ProductGroupDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -136,8 +140,8 @@ methods:
   - name: >-
       listByProduct(string, string, string,
       ProductGroupListByProductOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductGroup.listByProduct'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductGroup.listByProduct'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Lists the collection of developer groups associated with the specified
       product.
@@ -162,12 +166,13 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.ProductGroupListByProductOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.ProductGroupListByProductOptionalParams"
+            />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          PagedAsyncIterableIterator&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.GroupContract" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-apimanagement.GroupContract" />&gt;

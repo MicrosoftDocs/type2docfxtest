@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: ProductDeleteOptionalParams
-uid: '@azure/arm-apimanagement - v8.1.2.ProductDeleteOptionalParams'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams'
+package: '@azure/arm-apimanagement'
 summary: Optional parameters.
 fullName: ProductDeleteOptionalParams
 remarks: ''
@@ -9,10 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: deleteSubscriptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ProductDeleteOptionalParams.deleteSubscriptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams.deleteSubscriptions'
+    package: '@azure/arm-apimanagement'
     summary: Delete existing subscriptions associated with the product or not.
     fullName: deleteSubscriptions
     remarks: ''
@@ -24,8 +22,8 @@ properties:
         type: undefined | false | true
 inheritedProperties:
   - name: abortSignal
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductDeleteOptionalParams.abortSignal'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams.abortSignal'
+    package: '@azure/arm-apimanagement'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -37,8 +35,8 @@ inheritedProperties:
         type: AbortSignalLike
     inheritanceDescription: <b>Inherited From</b> OperationOptions.abortSignal
   - name: onResponse
-    uid: '@azure/arm-apimanagement - v8.1.2.ProductDeleteOptionalParams.onResponse'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams.onResponse'
+    package: '@azure/arm-apimanagement'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -53,10 +51,8 @@ inheritedProperties:
         type: RawResponseCallback
     inheritanceDescription: <b>Inherited From</b> OperationOptions.onResponse
   - name: requestOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ProductDeleteOptionalParams.requestOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams.requestOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -68,10 +64,8 @@ inheritedProperties:
         type: OperationRequestOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.requestOptions
   - name: serializerOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ProductDeleteOptionalParams.serializerOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams.serializerOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -83,10 +77,8 @@ inheritedProperties:
         type: SerializerOptions
     inheritanceDescription: <b>Inherited From</b> OperationOptions.serializerOptions
   - name: tracingOptions
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.ProductDeleteOptionalParams.tracingOptions
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.ProductDeleteOptionalParams.tracingOptions'
+    package: '@azure/arm-apimanagement'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

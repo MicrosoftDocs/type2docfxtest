@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: ProductCreateOrUpdateResponse
-uid: '@azure/arm-apimanagement - v8.1.2.ProductCreateOrUpdateResponse'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.ProductCreateOrUpdateResponse'
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the createOrUpdate operation.
 fullName: ProductCreateOrUpdateResponse
 remarks: ''

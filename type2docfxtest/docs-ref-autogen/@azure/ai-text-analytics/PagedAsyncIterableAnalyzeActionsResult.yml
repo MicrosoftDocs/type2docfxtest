@@ -1,7 +1,7 @@
 ### YamlMime:TSTypeAlias
 name: PagedAsyncIterableAnalyzeActionsResult
-uid: '@azure/ai-text-analytics - v5.1.0.PagedAsyncIterableAnalyzeActionsResult'
-package: '@azure/ai-text-analytics - v5.1.0'
+uid: '@azure/ai-text-analytics.PagedAsyncIterableAnalyzeActionsResult'
+package: '@azure/ai-text-analytics'
 summary: >-
   The results of an analyze Actions operation represented as a paged iterator
   that

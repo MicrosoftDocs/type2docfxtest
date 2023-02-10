@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: NotificationRecipientUser
-uid: '@azure/arm-apimanagement - v8.1.2.NotificationRecipientUser'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.NotificationRecipientUser'
+package: '@azure/arm-apimanagement'
 summary: Interface representing a NotificationRecipientUser.
 fullName: NotificationRecipientUser
 remarks: ''
@@ -11,10 +11,8 @@ methods:
   - name: >-
       checkEntityExists(string, string, NotificationName, string,
       NotificationRecipientUserCheckEntityExistsOptionalParams)
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.NotificationRecipientUser.checkEntityExists
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.NotificationRecipientUser.checkEntityExists'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Determine if the Notification Recipient User is subscribed to the
       notification.
@@ -34,7 +32,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: notificationName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NotificationName" />'
+          type: <xref uid="@azure/arm-apimanagement.NotificationName" />
           description: Notification Name Identifier.
         - id: userId
           type: string
@@ -43,21 +41,22 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.NotificationRecipientUserCheckEntityExistsOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.NotificationRecipientUserCheckEntityExistsOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.NotificationRecipientUserCheckEntityExistsResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.NotificationRecipientUserCheckEntityExistsResponse"
+          />&gt;
   - name: >-
       createOrUpdate(string, string, NotificationName, string,
       NotificationRecipientUserCreateOrUpdateOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.NotificationRecipientUser.createOrUpdate'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.NotificationRecipientUser.createOrUpdate'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Adds the API Management User to the list of Recipients for the
       Notification.
@@ -77,7 +76,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: notificationName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NotificationName" />'
+          type: <xref uid="@azure/arm-apimanagement.NotificationName" />
           description: Notification Name Identifier.
         - id: userId
           type: string
@@ -86,21 +85,22 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.NotificationRecipientUserCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.NotificationRecipientUserCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.NotificationRecipientUserCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.NotificationRecipientUserCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       delete(string, string, NotificationName, string,
       NotificationRecipientUserDeleteOptionalParams)
-    uid: '@azure/arm-apimanagement - v8.1.2.NotificationRecipientUser.delete'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.NotificationRecipientUser.delete'
+    package: '@azure/arm-apimanagement'
     summary: Removes the API Management user from the list of Notification.
     remarks: ''
     isDeprecated: false
@@ -117,7 +117,7 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: notificationName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NotificationName" />'
+          type: <xref uid="@azure/arm-apimanagement.NotificationName" />
           description: Notification Name Identifier.
         - id: userId
           type: string
@@ -126,8 +126,9 @@ methods:
             service instance.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.NotificationRecipientUserDeleteOptionalParams" />
+            <xref
+            uid="@azure/arm-apimanagement.NotificationRecipientUserDeleteOptionalParams"
+            />
           description: |
             The options parameters.
       return:
@@ -136,10 +137,8 @@ methods:
   - name: >-
       listByNotification(string, string, NotificationName,
       NotificationRecipientUserListByNotificationOptionalParams)
-    uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.NotificationRecipientUser.listByNotification
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.NotificationRecipientUser.listByNotification'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Gets the list of the Notification Recipient User subscribed to the
       notification.
@@ -159,18 +158,18 @@ methods:
           type: string
           description: The name of the API Management service.
         - id: notificationName
-          type: '@azure/arm-apimanagement - <xref uid="v8.1.2.NotificationName" />'
+          type: <xref uid="@azure/arm-apimanagement.NotificationName" />
           description: Notification Name Identifier.
         - id: options
           type: >-
-            @azure/arm-apimanagement - <xref
-            uid="v8.1.2.NotificationRecipientUserListByNotificationOptionalParams"
+            <xref
+            uid="@azure/arm-apimanagement.NotificationRecipientUserListByNotificationOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;@azure/arm-apimanagement - <xref
-          uid="v8.1.2.NotificationRecipientUserListByNotificationResponse"
+          Promise&lt;<xref
+          uid="@azure/arm-apimanagement.NotificationRecipientUserListByNotificationResponse"
           />&gt;

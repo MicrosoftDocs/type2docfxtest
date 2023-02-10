@@ -1,9 +1,7 @@
 ### YamlMime:TSType
 name: GatewayCertificateAuthorityGetEntityTagHeaders
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.GatewayCertificateAuthorityGetEntityTagHeaders
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GatewayCertificateAuthorityGetEntityTagHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for GatewayCertificateAuthority_getEntityTag operation.
 fullName: GatewayCertificateAuthorityGetEntityTagHeaders
 remarks: ''
@@ -12,9 +10,8 @@ type: interface
 properties:
   - name: eTag
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayCertificateAuthorityGetEntityTagHeaders.eTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayCertificateAuthorityGetEntityTagHeaders.eTag
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

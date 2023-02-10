@@ -1,15 +1,15 @@
 ### YamlMime:TSEnum
 name: KnownSamplingType
-uid: '@azure/arm-apimanagement - v8.1.2.KnownSamplingType'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.KnownSamplingType'
+package: '@azure/arm-apimanagement'
 summary: >-
-  Known values of <xref:@azure/arm-apimanagement - v8.1.2.SamplingType> that the
-  service accepts.
+  Known values of <xref:@azure/arm-apimanagement.SamplingType> that the service
+  accepts.
 fullName: KnownSamplingType
 remarks: ''
 isDeprecated: false
 fields:
   - name: Fixed
-    uid: '@azure/arm-apimanagement - v8.1.2.KnownSamplingType.Fixed'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.KnownSamplingType.Fixed'
+    package: '@azure/arm-apimanagement'
     summary: Fixed-rate sampling.

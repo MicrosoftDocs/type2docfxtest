@@ -1,9 +1,7 @@
 ### YamlMime:TSType
 name: GatewayHostnameConfigurationGetEntityTagHeaders
-uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.GatewayHostnameConfigurationGetEntityTagHeaders
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.GatewayHostnameConfigurationGetEntityTagHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for GatewayHostnameConfiguration_getEntityTag operation.
 fullName: GatewayHostnameConfigurationGetEntityTagHeaders
 remarks: ''
@@ -12,9 +10,8 @@ type: interface
 properties:
   - name: eTag
     uid: >-
-      @azure/arm-apimanagement -
-      v8.1.2.GatewayHostnameConfigurationGetEntityTagHeaders.eTag
-    package: '@azure/arm-apimanagement - v8.1.2'
+      @azure/arm-apimanagement.GatewayHostnameConfigurationGetEntityTagHeaders.eTag
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

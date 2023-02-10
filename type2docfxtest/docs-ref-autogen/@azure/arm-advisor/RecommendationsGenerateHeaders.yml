@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: RecommendationsGenerateHeaders
-uid: '@azure/arm-advisor - v3.1.0.RecommendationsGenerateHeaders'
-package: '@azure/arm-advisor - v3.1.0'
+uid: '@azure/arm-advisor.RecommendationsGenerateHeaders'
+package: '@azure/arm-advisor'
 summary: Defines headers for Recommendations_generate operation.
 fullName: RecommendationsGenerateHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: location
-    uid: '@azure/arm-advisor - v3.1.0.RecommendationsGenerateHeaders.location'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.RecommendationsGenerateHeaders.location'
+    package: '@azure/arm-advisor'
     summary: The URL where the status of the asynchronous operation can be checked.
     fullName: location
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: retryAfter
-    uid: '@azure/arm-advisor - v3.1.0.RecommendationsGenerateHeaders.retryAfter'
-    package: '@azure/arm-advisor - v3.1.0'
+    uid: '@azure/arm-advisor.RecommendationsGenerateHeaders.retryAfter'
+    package: '@azure/arm-advisor'
     summary: >-
       The amount of delay to use while the status of the operation is checked.
       The value is expressed in seconds.

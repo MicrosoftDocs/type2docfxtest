@@ -1,9 +1,8 @@
 ### YamlMime:TSTypeAlias
 name: ApiManagementServiceApplyNetworkConfigurationUpdatesResponse
 uid: >-
-  @azure/arm-apimanagement -
-  v8.1.2.ApiManagementServiceApplyNetworkConfigurationUpdatesResponse
-package: '@azure/arm-apimanagement - v8.1.2'
+  @azure/arm-apimanagement.ApiManagementServiceApplyNetworkConfigurationUpdatesResponse
+package: '@azure/arm-apimanagement'
 summary: Contains response data for the applyNetworkConfigurationUpdates operation.
 fullName: ApiManagementServiceApplyNetworkConfigurationUpdatesResponse
 remarks: ''

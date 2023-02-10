@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: SubscriptionKeysContract
-uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionKeysContract'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.SubscriptionKeysContract'
+package: '@azure/arm-apimanagement'
 summary: Subscription keys.
 fullName: SubscriptionKeysContract
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: primaryKey
-    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionKeysContract.primaryKey'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.SubscriptionKeysContract.primaryKey'
+    package: '@azure/arm-apimanagement'
     summary: Subscription primary key.
     fullName: primaryKey
     remarks: ''
@@ -21,8 +21,8 @@ properties:
         description: ''
         type: undefined | string
   - name: secondaryKey
-    uid: '@azure/arm-apimanagement - v8.1.2.SubscriptionKeysContract.secondaryKey'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.SubscriptionKeysContract.secondaryKey'
+    package: '@azure/arm-apimanagement'
     summary: Subscription secondary key.
     fullName: secondaryKey
     remarks: ''

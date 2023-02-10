@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: TagAssignToApiHeaders
-uid: '@azure/arm-apimanagement - v8.1.2.TagAssignToApiHeaders'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.TagAssignToApiHeaders'
+package: '@azure/arm-apimanagement'
 summary: Defines headers for Tag_assignToApi operation.
 fullName: TagAssignToApiHeaders
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: eTag
-    uid: '@azure/arm-apimanagement - v8.1.2.TagAssignToApiHeaders.eTag'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.TagAssignToApiHeaders.eTag'
+    package: '@azure/arm-apimanagement'
     summary: >-
       Current entity state version. Should be treated as opaque and used to make
       conditional HTTP requests.

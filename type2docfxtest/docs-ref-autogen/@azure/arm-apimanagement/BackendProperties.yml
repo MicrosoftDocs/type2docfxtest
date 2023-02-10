@@ -1,7 +1,7 @@
 ### YamlMime:TSType
 name: BackendProperties
-uid: '@azure/arm-apimanagement - v8.1.2.BackendProperties'
-package: '@azure/arm-apimanagement - v8.1.2'
+uid: '@azure/arm-apimanagement.BackendProperties'
+package: '@azure/arm-apimanagement'
 summary: Properties specific to the Backend Type.
 fullName: BackendProperties
 remarks: ''
@@ -9,8 +9,8 @@ isDeprecated: false
 type: interface
 properties:
   - name: serviceFabricCluster
-    uid: '@azure/arm-apimanagement - v8.1.2.BackendProperties.serviceFabricCluster'
-    package: '@azure/arm-apimanagement - v8.1.2'
+    uid: '@azure/arm-apimanagement.BackendProperties.serviceFabricCluster'
+    package: '@azure/arm-apimanagement'
     summary: Backend Service Fabric Cluster Properties
     fullName: serviceFabricCluster
     remarks: ''
@@ -20,5 +20,6 @@ properties:
       return:
         description: ''
         type: >-
-          @azure/arm-apimanagement - <xref
-          uid="v8.1.2.BackendServiceFabricClusterProperties" />
+          <xref
+          uid="@azure/arm-apimanagement.BackendServiceFabricClusterProperties"
+          />
