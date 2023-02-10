@@ -28,10 +28,8 @@ properties:
     fullName: actionInfo
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.actionInfo](xref:@microsoft/teams-js.ActionInfo) instead
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.ActionInfo> instead
 
       Common information applicable to all content actions
     syntax:
@@ -47,9 +45,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.iconPositionVertical](xref:@microsoft/teams-js.app.AppInfo.iconPositionVertical)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppInfo.iconPositionVertical> instead
 
 
       Personal app icon y coordinate position
@@ -66,8 +63,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.appLaunchId](xref:@microsoft/teams-js.app.AppInfo.appLaunchId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.AppInfo.appLaunchId>
       instead
 
 
@@ -86,8 +82,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.sessionId](xref:@microsoft/teams-js.app.AppInfo.sessionId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.AppInfo.sessionId>
       instead
 
 
@@ -105,8 +100,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.id](xref:@microsoft/teams-js.app.ChannelInfo.id)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.ChannelInfo.id>
       instead
 
 
@@ -125,9 +119,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.displayName](xref:@microsoft/teams-js.app.ChannelInfo.displayName)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.ChannelInfo.displayName> instead
 
 
       The name for the channel with which the content is associated.
@@ -144,9 +137,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.relativeUrl](xref:@microsoft/teams-js.app.ChannelInfo.relativeUrl)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.ChannelInfo.relativeUrl> instead
 
 
       The relative path to the SharePoint folder associated with the channel.
@@ -163,9 +155,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.membershipType](xref:@microsoft/teams-js.app.ChannelInfo.membershipType)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.ChannelInfo.membershipType> instead
 
 
       The type of the channel with which the content is associated.
@@ -181,10 +172,8 @@ properties:
     fullName: chatId
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.chat.id](xref:@microsoft/teams-js.app.ChatInfo.id) instead
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.ChatInfo.id> instead
 
       The Microsoft Teams ID for the chat with which the content is associated.
     syntax:
@@ -200,9 +189,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.defaultOneNoteSectionId](xref:@microsoft/teams-js.app.ChannelInfo.defaultOneNoteSectionId)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.ChannelInfo.defaultOneNoteSectionId> instead
 
 
       The OneNote section ID that is linked to the channel.
@@ -218,10 +206,8 @@ properties:
     fullName: entityId
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.page.id](xref:@microsoft/teams-js.app.PageInfo.id) instead
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.PageInfo.id> instead
 
       The developer-defined unique ID for the entity this content points to.
     syntax:
@@ -237,9 +223,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.page.frameContext](xref:@microsoft/teams-js.app.PageInfo.frameContext)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.PageInfo.frameContext> instead
 
 
       The context where tab url is loaded (content, task, setting, remove,
@@ -257,8 +242,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.groupId](xref:@microsoft/teams-js.app.TeamInfo.groupId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TeamInfo.groupId>
       instead
 
 
@@ -279,9 +263,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.host.clientType](xref:@microsoft/teams-js.app.AppHostInfo.clientType)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppHostInfo.clientType> instead
 
 
       The type of the host client. Possible values are : android, ios, web,
@@ -302,8 +285,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.host.name](xref:@microsoft/teams-js.app.AppHostInfo.name)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.AppHostInfo.name>
       instead
 
 
@@ -322,9 +304,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.ownerGroupId](xref:@microsoft/teams-js.app.ChannelInfo.ownerGroupId)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.ChannelInfo.ownerGroupId> instead
 
 
       The AAD group ID of the host team.
@@ -341,9 +322,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.channel.ownerTenantId](xref:@microsoft/teams-js.app.ChannelInfo.ownerTenantId)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.ChannelInfo.ownerTenantId> instead
 
 
       The tenant ID of the host team.
@@ -360,9 +340,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.isCallingAllowed](xref:@microsoft/teams-js.app.UserInfo.isCallingAllowed)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.UserInfo.isCallingAllowed> instead
 
 
       Represents whether calling is allowed for the current logged in User
@@ -379,9 +358,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.page.isFullScreen](xref:@microsoft/teams-js.app.PageInfo.isFullScreen)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.PageInfo.isFullScreen> instead
 
 
       Indication whether the tab is in full-screen mode.
@@ -398,9 +376,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.page.isMultiWindow](xref:@microsoft/teams-js.app.PageInfo.isMultiWindow)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.PageInfo.isMultiWindow> instead
 
 
       Indication whether the tab is in a pop out window
@@ -417,9 +394,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.isPSTNCallingAllowed](xref:@microsoft/teams-js.app.UserInfo.isPSTNCallingAllowed)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.UserInfo.isPSTNCallingAllowed> instead
 
 
       Represents whether PSTN calling is allowed for the current logged in User
@@ -436,8 +412,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.isArchived](xref:@microsoft/teams-js.app.TeamInfo.isArchived)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TeamInfo.isArchived>
       instead
 
 
@@ -458,8 +433,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.locale](xref:@microsoft/teams-js.app.AppInfo.locale)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.AppInfo.locale>
       instead
 
 
@@ -479,8 +453,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.loginHint](xref:@microsoft/teams-js.app.UserInfo.loginHint)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.UserInfo.loginHint>
       instead
 
 
@@ -508,8 +481,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.meeting.id](xref:@microsoft/teams-js.app.MeetingInfo.id)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.MeetingInfo.id>
       instead
 
 
@@ -527,9 +499,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharePointSite.mySiteDomain](xref:@microsoft/teams-js.app.SharePointSiteInfo.mySiteDomain)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.SharePointSiteInfo.mySiteDomain> instead
 
 
       The SharePoint my site domain associated with the user.
@@ -546,9 +517,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharePointSite.mySitePath](xref:@microsoft/teams-js.app.SharePointSiteInfo.mySitePath)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.SharePointSiteInfo.mySitePath> instead
 
 
       The SharePoint relative path to the current users mysite
@@ -565,9 +535,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.osLocaleInfo](xref:@microsoft/teams-js.app.AppInfo.osLocaleInfo)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppInfo.osLocaleInfo> instead
 
 
       More detailed locale info from the user's OS if available. Can be used
@@ -590,9 +559,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.parentMessageId](xref:@microsoft/teams-js.app.AppInfo.parentMessageId)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppInfo.parentMessageId> instead
 
 
       The ID of the parent message from which this task module was launched.
@@ -611,8 +579,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.host.ringId](xref:@microsoft/teams-js.app.AppHostInfo.ringId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.AppHostInfo.ringId>
       instead
 
 
@@ -630,9 +597,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.host.sessionId](xref:@microsoft/teams-js.app.AppHostInfo.sessionId)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppHostInfo.sessionId> instead
 
 
       Unique ID for the current Teams session for use in correlating telemetry
@@ -649,10 +615,8 @@ properties:
     fullName: sharepoint
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharepoint](xref:@microsoft/teams-js.app.Context) instead
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.Context> instead
 
       SharePoint context. This is only available when hosted in SharePoint.
     syntax:
@@ -668,9 +632,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.page.sourceOrigin](xref:@microsoft/teams-js.app.PageInfo.sourceOrigin)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.PageInfo.sourceOrigin> instead
 
 
       Source origin from where the tab is opened
@@ -687,8 +650,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.page.subPageId](xref:@microsoft/teams-js.app.PageInfo.subPageId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.PageInfo.subPageId>
       instead
 
 
@@ -710,8 +672,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.internalId](xref:@microsoft/teams-js.app.TeamInfo.internalId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TeamInfo.internalId>
       instead
 
 
@@ -729,9 +690,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.displayName](xref:@microsoft/teams-js.app.TeamInfo.displayName)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.TeamInfo.displayName> instead
 
 
       The name for the team with which the content is associated.
@@ -748,9 +708,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSiteDomain](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteDomain)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteDomain> instead
 
 
       The domain of the root SharePoint site associated with the team.
@@ -767,9 +726,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSiteId](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteId)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteId> instead
 
 
       Teamsite ID, aka sharepoint site id.
@@ -786,9 +744,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSitePath](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSitePath)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSitePath> instead
 
 
       The relative path to the SharePoint site associated with the team.
@@ -805,9 +762,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.sharePointSite.teamSiteUrl](xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteUrl)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.SharePointSiteInfo.teamSiteUrl> instead
 
 
       The root SharePoint site associated with the team.
@@ -824,8 +780,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.templateId](xref:@microsoft/teams-js.app.TeamInfo.templateId)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TeamInfo.templateId>
       instead
 
 
@@ -844,8 +799,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.type](xref:@microsoft/teams-js.app.TeamInfo.type) instead
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TeamInfo.type>
+      instead
 
 
       The type of the team.
@@ -862,8 +817,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.tenant.teamsSku](xref:@microsoft/teams-js.app.TenantInfo.teamsSku)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TenantInfo.teamsSku>
       instead
 
 
@@ -881,8 +835,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.theme](xref:@microsoft/teams-js.app.AppInfo.theme) instead
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.AppInfo.theme>
+      instead
 
 
       The current UI theme.
@@ -899,8 +853,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.tenant.id](xref:@microsoft/teams-js.app.TenantInfo.id)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TenantInfo.id>
       instead
 
 
@@ -927,13 +880,10 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.loginHint](xref:@microsoft/teams-js.app.UserInfo.loginHint)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.UserInfo.loginHint>
       or
 
-      [|
-      app.Context.user.userPrincipalName](xref:@microsoft/teams-js.app.UserInfo.userPrincipalName)
-      instead.
+      <xref:@microsoft/teams-js.app.UserInfo.userPrincipalName> instead.
 
       The UPN of the current user.
 
@@ -958,9 +908,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.userClickTime](xref:@microsoft/teams-js.app.AppInfo.userClickTime)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppInfo.userClickTime> instead
 
 
       Time when the user clicked on the tab
@@ -977,9 +926,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.displayName](xref:@microsoft/teams-js.app.UserInfo.displayName)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.UserInfo.displayName> instead
 
 
       The address book name of the current user.
@@ -996,9 +944,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.app.userFileOpenPreference](xref:@microsoft/teams-js.app.AppInfo.userFileOpenPreference)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.AppInfo.userFileOpenPreference> instead
 
 
       Where the user prefers the file to be opened from by default during file
@@ -1016,9 +963,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.licenseType](xref:@microsoft/teams-js.app.UserInfo.licenseType)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.UserInfo.licenseType> instead
 
 
       The license type for the current user.
@@ -1035,8 +981,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.id](xref:@microsoft/teams-js.app.UserInfo.id) instead
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.UserInfo.id> instead
 
 
       The Azure AD object id of the current user.
@@ -1061,9 +1006,8 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.user.userPrincipalName](xref:@microsoft/teams-js.app.UserInfo.userPrincipalName)
-      instead
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.UserInfo.userPrincipalName> instead
 
 
       The UPN of the current user. This may be an externally-authenticated UPN
@@ -1089,8 +1033,7 @@ properties:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [|
-      app.Context.team.userRole](xref:@microsoft/teams-js.app.TeamInfo.userRole)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.TeamInfo.userRole>
       instead
 
 

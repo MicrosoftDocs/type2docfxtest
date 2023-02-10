@@ -14,11 +14,11 @@ summary: >-
 
   **Legacy**: Inject Request-Id and Request-Context headers with request
   correlation data. See
-  https:\/\/github.com\/dotnet\/corefx\/blob\/master\/src\/System.Diagnostics.DiagnosticSource\/src\/HttpCorrelationProtocol.md.
+  https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.DiagnosticSource/src/HttpCorrelationProtocol.md.
   \
 
   **W3C**: Inject Trace Context headers. See
-  https:\/\/w3c.github.io\/trace-context.
+  https://w3c.github.io/trace-context.
 fullName: HttpCorrelationProtocol
 remarks: ''
 isDeprecated: false

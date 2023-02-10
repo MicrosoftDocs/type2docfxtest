@@ -35,7 +35,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when the personal app button is clicked in the
             app bar.
   - name: onHoverEnter(() => void)
@@ -53,7 +53,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when entering hover of the personal app button
             in the app bar.
   - name: onHoverLeave(() => void)
@@ -71,6 +71,6 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when exiting hover of the personal app button
             in the app bar.

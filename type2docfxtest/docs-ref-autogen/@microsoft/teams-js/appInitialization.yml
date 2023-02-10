@@ -12,8 +12,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.notifyAppLoaded():
-      void](xref:@microsoft/teams-js.app.notifyAppLoaded) instead.
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.notifyAppLoaded>
+      instead.
 
 
       Notifies the frame that app has loaded and to hide the loading indicator
@@ -27,9 +27,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.notifyExpectedFailure(expectedFailureRequest:
-      IExpectedFailureRequest):
-      void](xref:@microsoft/teams-js.app.notifyExpectedFailure) instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.notifyExpectedFailure> instead.
 
 
       Notifies the frame that app initialized with some expected errors.
@@ -40,7 +39,7 @@ functions:
       parameters:
         - id: expectedFailureRequest
           type: <xref uid="@microsoft/teams-js.app.IExpectedFailureRequest" />
-          description: >
+          description: >-
             The expected failure request containing the reason and an optional
             message
   - name: notifyFailure(IFailedRequest)
@@ -50,8 +49,7 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.notifyFailure(appInitializationFailedRequest:
-      IFailedRequest): void](xref:@microsoft/teams-js.app.notifyFailure)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.notifyFailure>
       instead.
 
 
@@ -62,7 +60,7 @@ functions:
       parameters:
         - id: appInitializationFailedRequest
           type: <xref uid="@microsoft/teams-js.app.IFailedRequest" />
-          description: |
+          description: |-
             The failure request containing the reason for why the app failed
             during initialization as well as an optional message.
   - name: notifySuccess()
@@ -72,8 +70,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.notifySuccess():
-      void](xref:@microsoft/teams-js.app.notifySuccess) instead.
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.notifySuccess>
+      instead.
 
 
       Notifies the frame that app initialization is successful and is ready for

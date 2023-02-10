@@ -9,6 +9,6 @@ isDeprecated: false
 syntax: |
   type ComposeMailParams =
     | ComposeNewParams
-    | ComposeReplyOrForwardParams<Reply>
-    | ComposeReplyOrForwardParams<ReplyAll>
-    | ComposeReplyOrForwardParams<Forward>
+    | ComposeReplyOrForwardParams<ComposeMailType.Reply>
+    | ComposeReplyOrForwardParams<ComposeMailType.ReplyAll>
+    | ComposeReplyOrForwardParams<ComposeMailType.Forward>

@@ -64,5 +64,5 @@ functions:
     syntax:
       content: 'function requestPermission(): Promise<boolean>'
       return:
-        description: 'true if the user consented permission for location, false otherwise'
+        description: true if the user consented permission for location, false otherwise
         type: Promise&lt;boolean&gt;

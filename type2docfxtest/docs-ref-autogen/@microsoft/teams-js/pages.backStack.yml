@@ -55,6 +55,6 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; boolean
-          description: >
+          description: >-
             The handler to invoke when the user presses the host client's back
             button.

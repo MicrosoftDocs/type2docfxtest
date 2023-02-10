@@ -16,7 +16,7 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'modality?: profile.Modality'
+      content: 'modality?: Modality'
       return:
         description: ''
         type: <xref uid="@microsoft/teams-js.profile.Modality" />
@@ -52,7 +52,7 @@ properties:
     remarks: ''
     isDeprecated: false
     syntax:
-      content: 'triggerType: profile.TriggerType'
+      content: 'triggerType: TriggerType'
       return:
         description: ''
         type: <xref uid="@microsoft/teams-js.profile.TriggerType" />

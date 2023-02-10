@@ -9,12 +9,12 @@ fullName: KnownHealthcareEntityCategory
 remarks: ''
 isDeprecated: false
 fields:
-  - name: AGE
-    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.AGE'
-    package: '@azure/ai-text-analytics'
-    summary: ''
   - name: AdministrativeEvent
     uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.AdministrativeEvent'
+    package: '@azure/ai-text-analytics'
+    summary: ''
+  - name: AGE
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.AGE'
     package: '@azure/ai-text-analytics'
     summary: ''
   - name: BodyStructure

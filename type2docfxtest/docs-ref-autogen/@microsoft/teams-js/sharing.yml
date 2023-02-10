@@ -3,13 +3,11 @@ uid: '@microsoft/teams-js.sharing'
 name: sharing
 summary: ''
 type: module
-typeAliases:
-  - '@microsoft/teams-js.sharing.ContentType'
-  - '@microsoft/teams-js.sharing.IShareRequestContentType'
 interfaces:
-  - '@microsoft/teams-js.sharing.IBaseSharedContent'
   - '@microsoft/teams-js.sharing.IShareRequest'
   - '@microsoft/teams-js.sharing.IURLContent'
+typeAliases:
+  - '@microsoft/teams-js.sharing.IShareRequestContentType'
 package: '@microsoft/teams-js'
 functions:
   - name: isSupported()
@@ -23,7 +21,7 @@ functions:
       return:
         description: ''
         type: boolean
-  - name: shareWebContent(IShareRequest<IShareRequestContentType>)
+  - name: shareWebContent(IShareRequest<IURLContent>)
     uid: '@microsoft/teams-js.sharing.shareWebContent'
     package: '@microsoft/teams-js'
     summary: |-
@@ -34,29 +32,25 @@ functions:
     syntax:
       content: >-
         function shareWebContent(shareWebContentRequest:
-        IShareRequest<IShareRequestContentType>): Promise<void>
+        IShareRequest<IURLContent>): Promise<void>
       parameters:
         - id: shareWebContentRequest
           type: >-
             <xref uid="@microsoft/teams-js.sharing.IShareRequest" />&lt;<xref
-            uid="@microsoft/teams-js.sharing.IShareRequestContentType" />&gt;
+            uid="@microsoft/teams-js.sharing.IURLContent" />&gt;
           description: web content info
       return:
         description: Promise that will be fulfilled when the operation has completed
         type: Promise&lt;void&gt;
-  - name: >-
-      shareWebContent(IShareRequest<IShareRequestContentType>, (err?: SdkError)
-      => void)
+  - name: 'shareWebContent(IShareRequest<IURLContent>, (err?: SdkError) => void)'
     uid: '@microsoft/teams-js.sharing.shareWebContent_1'
     package: '@microsoft/teams-js'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [sharing.shareWebContent(shareWebContentRequest:
-      IShareRequest\<IShareRequestContentType\>):
-      Promise\<void\>](xref:@microsoft/teams-js.sharing.shareWebContent)
-      instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.sharing.shareWebContent_1> instead.
 
 
       Feature is under development
@@ -65,15 +59,13 @@ functions:
     syntax:
       content: >-
         function shareWebContent(shareWebContentRequest:
-        IShareRequest<IShareRequestContentType>, callback: (err?: SdkError) =>
-        void)
+        IShareRequest<IURLContent>, callback: (err?: SdkError) => void)
       parameters:
         - id: shareWebContentRequest
           type: >-
             <xref uid="@microsoft/teams-js.sharing.IShareRequest" />&lt;<xref
-            uid="@microsoft/teams-js.sharing.IShareRequestContentType" />&gt;
+            uid="@microsoft/teams-js.sharing.IURLContent" />&gt;
           description: web content info
         - id: callback
           type: '(err?: SdkError) =&gt; void'
-          description: |
-            optional callback
+          description: optional callback

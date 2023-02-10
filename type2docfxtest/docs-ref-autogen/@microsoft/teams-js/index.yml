@@ -29,7 +29,6 @@ interfaces:
   - '@microsoft/teams-js.geoLocation.Location'
   - '@microsoft/teams-js.location.Location'
   - '@microsoft/teams-js.location.LocationProps'
-  - '@microsoft/teams-js.mail.ComposeMailBase'
   - '@microsoft/teams-js.mail.ComposeNewParams'
   - '@microsoft/teams-js.mail.ComposeReplyOrForwardParams'
   - '@microsoft/teams-js.mail.OpenMailItemParams'
@@ -63,7 +62,6 @@ interfaces:
   - '@microsoft/teams-js.profile.Persona'
   - '@microsoft/teams-js.profile.ShowProfileRequest'
   - '@microsoft/teams-js.search.SearchQuery'
-  - '@microsoft/teams-js.sharing.IBaseSharedContent'
   - '@microsoft/teams-js.sharing.IShareRequest'
   - '@microsoft/teams-js.sharing.IURLContent'
   - '@microsoft/teams-js.stageView.StageViewParams'
@@ -80,7 +78,6 @@ interfaces:
   - '@microsoft/teams-js.IAppWindow'
   - '@microsoft/teams-js.LocaleInfo'
   - '@microsoft/teams-js.M365ContentAction'
-  - '@microsoft/teams-js.OpenChatRequest'
   - '@microsoft/teams-js.OpenGroupChatRequest'
   - '@microsoft/teams-js.OpenSingleChatRequest'
   - '@microsoft/teams-js.SdkError'
@@ -131,7 +128,6 @@ typeAliases:
   - '@microsoft/teams-js.profile.PersonaIdentifiers'
   - '@microsoft/teams-js.profile.TriggerType'
   - '@microsoft/teams-js.search.SearchQueryHandler'
-  - '@microsoft/teams-js.sharing.ContentType'
   - '@microsoft/teams-js.sharing.IShareRequestContentType'
   - '@microsoft/teams-js.video.VideoEffectCallBack'
   - '@microsoft/teams-js.video.VideoFrameCallback'
@@ -153,8 +149,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [teamsCore.enablePrintCapability():
-      void](xref:@microsoft/teams-js.teamsCore.enablePrintCapability) instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.teamsCore.enablePrintCapability> instead.
 
 
       Enable print capability to support printing page using Ctrl+P and cmd+P
@@ -166,10 +162,8 @@ functions:
     summary: ''
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.openLink(deepLink: string):
-      Promise\<void\>](xref:@microsoft/teams-js.app.openLink) instead.
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.openLink> instead.
 
       Execute deep link API.
     syntax:
@@ -179,8 +173,7 @@ functions:
       parameters:
         - id: deepLink
           type: string
-          description: |
-            deep link.
+          description: deep link.
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
           description: ''
@@ -190,10 +183,8 @@ functions:
     summary: ''
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.getContext():
-      Promise\<app.Context\>](xref:@microsoft/teams-js.app.getContext) instead.
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.getContext> instead.
 
       Retrieves the current context the frame is running in.
     syntax:
@@ -201,7 +192,7 @@ functions:
       parameters:
         - id: callback
           type: '(context: Context) =&gt; void'
-          description: >
+          description: >-
             The callback to invoke when the <xref:@microsoft/teams-js.Context>
             object is retrieved.
   - name: >-
@@ -214,10 +205,7 @@ functions:
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use
-      [pages.tabs.getMruTabInstances(tabInstanceParameters?:
-      TabInstanceParameters):
-      Promise\<TabInformation\>](xref:@microsoft/teams-js.pages.tabs.getMruTabInstances)
-      instead.
+      <xref:@microsoft/teams-js.pages.tabs.getMruTabInstances> instead.
 
 
       Allows an app to retrieve the most recently used tabs for this user.
@@ -233,8 +221,7 @@ functions:
             <xref:@microsoft/teams-js.TabInformation> object is retrieved.
         - id: tabInstanceParameters
           type: <xref uid="@microsoft/teams-js.TabInstanceParameters" />
-          description: |
-            OPTIONAL Ignored, kept for future use
+          description: OPTIONAL Ignored, kept for future use
   - name: 'getTabInstances((tabInfo: TabInformation) => void, TabInstanceParameters)'
     uid: '@microsoft/teams-js.getTabInstances'
     package: '@microsoft/teams-js'
@@ -243,10 +230,7 @@ functions:
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use
-      [pages.tabs.getTabInstances(tabInstanceParameters?:
-      TabInstanceParameters):
-      Promise\<TabInformation\>](xref:@microsoft/teams-js.pages.tabs.getTabInstances)
-      instead.
+      <xref:@microsoft/teams-js.pages.tabs.getTabInstances> instead.
 
 
       Allows an app to retrieve for this user tabs that are owned by this app.
@@ -266,22 +250,19 @@ functions:
             retrieved.
         - id: tabInstanceParameters
           type: <xref uid="@microsoft/teams-js.TabInstanceParameters" />
-          description: >
+          description: >-
             OPTIONAL Flags that specify whether to scope call to favorite teams
             or channels.
-  - name: 'initialize(() => void, string[])'
+  - name: initialize(() => void, string[])
     uid: '@microsoft/teams-js.initialize'
     package: '@microsoft/teams-js'
     summary: ''
     remarks: ''
     isDeprecated: true
-    customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.initialize(validMessageOrigins?: string[]):
-      Promise\<void\>](xref:@microsoft/teams-js.app.initialize) instead.
-
+    customDeprecatedMessage: |-
+      As of 2.0.0, please use <xref:@microsoft/teams-js.app.initialize> instead.
 
       Initializes the library. This must be called before any other SDK calls
-
       but after the frame is loaded successfully.
     syntax:
       content: >-
@@ -294,33 +275,32 @@ functions:
             Optionally specify a callback to invoke when Teams SDK has
             successfully initialized
         - id: validMessageOrigins
-          type: 'string[]'
-          description: >
+          type: string[]
+          description: >-
             Optionally specify a list of cross frame message origins. There must
             have
 
             https: protocol otherwise they will be ignored. Example:
             https://www.example.com
-  - name: 'initializeWithFrameContext(FrameContext, () => void, string[])'
+  - name: initializeWithFrameContext(FrameInfo, () => void, string[])
     uid: '@microsoft/teams-js.initializeWithFrameContext'
     package: '@microsoft/teams-js'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.initializeWithFrameContext(frameInfo:
-      FrameInfo, callback?: () => void, validMessageOrigins?: string[],):
-      void](xref:@microsoft/teams-js.pages.initializeWithFrameContext) instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.initializeWithFrameContext> instead.
 
 
       Initialize with FrameContext
     syntax:
       content: >-
-        function initializeWithFrameContext(frameContext: FrameContext,
-        callback?: () => void, validMessageOrigins?: string[])
+        function initializeWithFrameContext(frameContext: FrameInfo, callback?:
+        () => void, validMessageOrigins?: string[])
       parameters:
         - id: frameContext
-          type: <xref uid="@microsoft/teams-js.FrameContext" />
+          type: <xref uid="@microsoft/teams-js.FrameInfo" />
           description: FrameContext information to be set
         - id: callback
           type: () =&gt; void
@@ -328,8 +308,8 @@ functions:
             The optional callback to be invoked be invoked after initilizing the
             frame context
         - id: validMessageOrigins
-          type: 'string[]'
-          description: >
+          type: string[]
+          description: >-
             Optionally specify a list of cross frame message origins.
 
             They must have https: protocol otherwise they will be ignored.
@@ -341,9 +321,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.backStack.navigateBack():
-      Promise\<void\>](xref:@microsoft/teams-js.pages.backStack.navigateBack)
-      instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.backStack.navigateBack> instead.
 
 
       Navigates back in the Teams client.
@@ -357,8 +336,7 @@ functions:
       parameters:
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
-          description: |
-            The callback to invoke when the action is complete.
+          description: The callback to invoke when the action is complete.
   - name: 'navigateCrossDomain(string, (status: boolean, reason?: string) => void)'
     uid: '@microsoft/teams-js.navigateCrossDomain'
     package: '@microsoft/teams-js'
@@ -366,9 +344,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.navigateCrossDomain(url: string):
-      Promise\<void\>](xref:@microsoft/teams-js.pages.navigateCrossDomain)
-      instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.navigateCrossDomain> instead.
 
 
       Navigates the frame to a new cross-domain URL. The domain of this URL must
@@ -394,8 +371,7 @@ functions:
           description: The URL to navigate the frame to.
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
-          description: |
-            The callback to invoke when the action is complete.
+          description: The callback to invoke when the action is complete.
   - name: 'navigateToTab(TabInstance, (status: boolean, reason?: string) => void)'
     uid: '@microsoft/teams-js.navigateToTab'
     package: '@microsoft/teams-js'
@@ -403,10 +379,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.tabs.navigateToTab(tabInstance:
-      TabInstance):
-      Promise\<void\>](xref:@microsoft/teams-js.pages.tabs.navigateToTab)
-      instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.tabs.navigateToTab> instead.
 
 
       Navigates the Microsoft Teams app to the specified tab instance.
@@ -420,8 +394,7 @@ functions:
           description: The tab instance to navigate to.
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
-          description: |
-            The callback to invoke when the action is complete.
+          description: The callback to invoke when the action is complete.
   - name: print()
     uid: '@microsoft/teams-js.print'
     package: '@microsoft/teams-js'
@@ -429,8 +402,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [teamsCore.print():
-      void](xref:@microsoft/teams-js.teamsCore.print) instead.
+      As of 2.0.0, please use <xref:@microsoft/teams-js.teamsCore.print>
+      instead.
 
 
       Default print handler
@@ -443,8 +416,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.appButton.onClick(handler: () => void):
-      void](xref:@microsoft/teams-js.pages.appButton.onClick) instead.
+      As of 2.0.0, please use <xref:@microsoft/teams-js.pages.appButton.onClick>
+      instead.
 
 
       Registers a handler for clicking the app button.
@@ -456,7 +429,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when the personal app button is clicked in the
             app bar.
   - name: registerAppButtonHoverEnterHandler(() => void)
@@ -466,9 +439,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.appButton.onHoverEnter(handler: () =>
-      void): void](xref:@microsoft/teams-js.pages.appButton.onHoverEnter)
-      instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.appButton.onHoverEnter> instead.
 
 
       Registers a handler for entering hover of the app button.
@@ -480,7 +452,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when entering hover of the personal app button
             in the app bar.
   - name: registerAppButtonHoverLeaveHandler(() => void)
@@ -490,9 +462,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.appButton.onHoverLeave(handler: () =>
-      void): void](xref:@microsoft/teams-js.pages.appButton.onHoverLeave)
-      instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.appButton.onHoverLeave> instead.
 
 
       Registers a handler for exiting hover of the app button.
@@ -504,10 +475,9 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >+
+          description: >-
             The handler to invoke when exiting hover of the personal app button
             in the app bar.
-
   - name: registerBackButtonHandler(() => boolean)
     uid: '@microsoft/teams-js.registerBackButtonHandler'
     package: '@microsoft/teams-js'
@@ -516,8 +486,7 @@ functions:
     isDeprecated: true
     customDeprecatedMessage: >-
       As of 2.0.0, please use
-      [pages.backStack.registerBackButtonHandler(handler: () => boolean):
-      void](xref:@microsoft/teams-js.pages.backStack.registerBackButtonHandler)
+      <xref:@microsoft/teams-js.pages.backStack.registerBackButtonHandler>
       instead.
 
 
@@ -536,7 +505,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; boolean
-          description: >
+          description: >-
             The handler to invoke when the user presses their Team client's back
             button.
   - name: registerChangeSettingsHandler(() => void)
@@ -546,9 +515,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.config.registerChangeConfigHandler(handler:
-      () => void):
-      void](xref:@microsoft/teams-js.pages.config.registerChangeConfigHandler)
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.config.registerChangeConfigHandler>
       instead.
 
 
@@ -558,8 +526,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: |
-            The handler to invoke when the user click on Settings.
+          description: The handler to invoke when the user click on Settings.
   - name: 'registerFullScreenHandler((isFullScreen: boolean) => void)'
     uid: '@microsoft/teams-js.registerFullScreenHandler'
     package: '@microsoft/teams-js'
@@ -567,9 +534,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.registerFullScreenHandler(handler:
-      (isFullScreen: boolean) => void):
-      void](xref:@microsoft/teams-js.pages.registerFullScreenHandler) instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.pages.registerFullScreenHandler> instead.
 
 
       Registers a handler for changes from or to full-screen view for a tab.
@@ -583,7 +549,7 @@ functions:
       parameters:
         - id: handler
           type: '(isFullScreen: boolean) =&gt; void'
-          description: >
+          description: >-
             The handler to invoke when the user toggles full-screen view for a
             tab.
   - name: 'registerOnThemeChangeHandler((theme: string) => void)'
@@ -593,9 +559,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [app.registerOnThemeChangeHandler(handler: (theme:
-      string) => void):
-      void](xref:@microsoft/teams-js.app.registerOnThemeChangeHandler) instead.
+      As of 2.0.0, please use
+      <xref:@microsoft/teams-js.app.registerOnThemeChangeHandler> instead.
 
 
       Registers a handler for theme changes.
@@ -607,8 +572,7 @@ functions:
       parameters:
         - id: handler
           type: '(theme: string) =&gt; void'
-          description: |
-            The handler to invoke when the user changes their theme.
+          description: The handler to invoke when the user changes their theme.
   - name: returnFocus(boolean)
     uid: '@microsoft/teams-js.returnFocus'
     package: '@microsoft/teams-js'
@@ -616,8 +580,8 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.returnFocus(navigateForward?: boolean):
-      void](xref:@microsoft/teams-js.pages.returnFocus) instead.
+      As of 2.0.0, please use <xref:@microsoft/teams-js.pages.returnFocus>
+      instead.
 
 
       Return focus to the main Teams app. Will focus search bar if navigating
@@ -627,27 +591,25 @@ functions:
       parameters:
         - id: navigateForward
           type: boolean
-          description: |
-            Determines the direction to focus in teams app.
-  - name: setFrameContext(FrameContext)
+          description: Determines the direction to focus in teams app.
+  - name: setFrameContext(FrameInfo)
     uid: '@microsoft/teams-js.setFrameContext'
     package: '@microsoft/teams-js'
     summary: ''
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.setCurrentFrame(frameInfo: FrameInfo):
-      void](xref:@microsoft/teams-js.pages.setCurrentFrame) instead.
+      As of 2.0.0, please use <xref:@microsoft/teams-js.pages.setCurrentFrame>
+      instead.
 
 
       Set the current Frame Context
     syntax:
-      content: 'function setFrameContext(frameContext: FrameContext)'
+      content: 'function setFrameContext(frameContext: FrameInfo)'
       parameters:
         - id: frameContext
-          type: <xref uid="@microsoft/teams-js.FrameContext" />
-          description: |
-            FrameContext information to be set
+          type: <xref uid="@microsoft/teams-js.FrameInfo" />
+          description: FrameContext information to be set
   - name: shareDeepLink(DeepLinkParameters)
     uid: '@microsoft/teams-js.shareDeepLink'
     package: '@microsoft/teams-js'
@@ -655,8 +617,7 @@ functions:
     remarks: ''
     isDeprecated: true
     customDeprecatedMessage: >-
-      As of 2.0.0, please use [pages.shareDeepLink(deepLinkParameters:
-      DeepLinkParameters): void](xref:@microsoft/teams-js.pages.shareDeepLink)
+      As of 2.0.0, please use <xref:@microsoft/teams-js.pages.shareDeepLink>
       instead.
 
 
@@ -667,5 +628,4 @@ functions:
       parameters:
         - id: deepLinkParameters
           type: <xref uid="@microsoft/teams-js.DeepLinkParameters" />
-          description: |
-            ID and label for the link and fallback URL.
+          description: ID and label for the link and fallback URL.

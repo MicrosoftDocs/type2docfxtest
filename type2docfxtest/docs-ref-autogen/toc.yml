@@ -65,6 +65,9 @@
     - uid: '@azure/ai-text-analytics.AssessmentSentiment'
       name: AssessmentSentiment
       items: []
+    - uid: '@azure/ai-text-analytics.AzureKeyCredential'
+      name: AzureKeyCredential
+      items: []
     - uid: '@azure/ai-text-analytics.BeginAnalyzeActionsOptions'
       name: BeginAnalyzeActionsOptions
       items: []
@@ -1910,6 +1913,9 @@
     - uid: '@azure/arm-apimanagement.BodyDiagnosticSettings'
       name: BodyDiagnosticSettings
       items: []
+    - uid: '@azure/arm-apimanagement.Cache'
+      name: Cache
+      items: []
     - uid: '@azure/arm-apimanagement.CacheCollection'
       name: CacheCollection
       items: []
@@ -1969,9 +1975,6 @@
       items: []
     - uid: '@azure/arm-apimanagement.CacheUpdateResponse'
       name: CacheUpdateResponse
-      items: []
-    - uid: '@azure/arm-apimanagement.Cache_2'
-      name: Cache_2
       items: []
     - uid: '@azure/arm-apimanagement.Certificate'
       name: Certificate
@@ -2938,8 +2941,8 @@
     - uid: '@azure/arm-apimanagement.IssueUpdateContractProperties'
       name: IssueUpdateContractProperties
       items: []
-    - uid: '@azure/arm-apimanagement.KeyType_2'
-      name: KeyType_2
+    - uid: '@azure/arm-apimanagement.KeyType'
+      name: KeyType
       items: []
     - uid: '@azure/arm-apimanagement.KeyVaultContractCreateProperties'
       name: KeyVaultContractCreateProperties
@@ -3314,6 +3317,9 @@
     - uid: '@azure/arm-apimanagement.NetworkStatusListByServiceResponse'
       name: NetworkStatusListByServiceResponse
       items: []
+    - uid: '@azure/arm-apimanagement.Notification'
+      name: Notification
+      items: []
     - uid: '@azure/arm-apimanagement.NotificationCollection'
       name: NotificationCollection
       items: []
@@ -3405,9 +3411,6 @@
     - uid: >-
         @azure/arm-apimanagement.NotificationRecipientUserListByNotificationResponse
       name: NotificationRecipientUserListByNotificationResponse
-      items: []
-    - uid: '@azure/arm-apimanagement.Notification_2'
-      name: Notification_2
       items: []
     - uid: '@azure/arm-apimanagement.OAuth2AuthenticationSettingsContract'
       name: OAuth2AuthenticationSettingsContract
@@ -5209,9 +5212,6 @@
       items:
         - name: Overview
           uid: '@microsoft/teams-js.mail'
-        - uid: '@microsoft/teams-js.mail.ComposeMailBase'
-          name: ComposeMailBase
-          items: []
         - uid: '@microsoft/teams-js.mail.ComposeMailParams'
           name: ComposeMailParams
           items: []
@@ -5341,12 +5341,6 @@
     - uid: '@microsoft/teams-js.monetization'
       name: monetization
       items: []
-    - uid: '@microsoft/teams-js.notifications'
-      name: notifications
-      items: []
-    - uid: '@microsoft/teams-js.OpenChatRequest'
-      name: OpenChatRequest
-      items: []
     - uid: '@microsoft/teams-js.OpenGroupChatRequest'
       name: OpenGroupChatRequest
       items: []
@@ -5456,12 +5450,6 @@
       items:
         - name: Overview
           uid: '@microsoft/teams-js.sharing'
-        - uid: '@microsoft/teams-js.sharing.ContentType'
-          name: ContentType
-          items: []
-        - uid: '@microsoft/teams-js.sharing.IBaseSharedContent'
-          name: IBaseSharedContent
-          items: []
         - uid: '@microsoft/teams-js.sharing.IShareRequest'
           name: IShareRequest
           items: []

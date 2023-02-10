@@ -21,7 +21,7 @@ summary: >-
   **swagger-link-json**: The OpenAPI 2.0 JSON document is hosted on a publicly
   accessible internet address. \
 
-  **wsdl**: The contents are inline and the document is a WSDL\/Soap document. \
+  **wsdl**: The contents are inline and the document is a WSDL/Soap document. \
 
   **wsdl-link**: The WSDL document is hosted on a publicly accessible internet
   address. \
