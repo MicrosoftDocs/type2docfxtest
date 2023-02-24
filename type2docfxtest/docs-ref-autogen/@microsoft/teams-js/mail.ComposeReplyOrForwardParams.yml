@@ -33,7 +33,5 @@ inheritedProperties:
       return:
         description: ''
         type: T
-    inheritanceDescription: >-
-      <b>Inherited From</b>
-      [ComposeMailBase.type](xref:@microsoft/teams-js.mail.ComposeMailBase.type)
-extends: <xref uid="@microsoft/teams-js.mail.ComposeMailBase" />&lt;T&gt;
+    inheritanceDescription: <b>Inherited From</b> ComposeMailBase.type
+extends: ComposeMailBase&lt;T&gt;

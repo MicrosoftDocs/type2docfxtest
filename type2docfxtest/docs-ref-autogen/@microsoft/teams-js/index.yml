@@ -29,7 +29,6 @@ interfaces:
   - '@microsoft/teams-js.geoLocation.Location'
   - '@microsoft/teams-js.location.Location'
   - '@microsoft/teams-js.location.LocationProps'
-  - '@microsoft/teams-js.mail.ComposeMailBase'
   - '@microsoft/teams-js.mail.ComposeNewParams'
   - '@microsoft/teams-js.mail.ComposeReplyOrForwardParams'
   - '@microsoft/teams-js.mail.OpenMailItemParams'
@@ -63,7 +62,6 @@ interfaces:
   - '@microsoft/teams-js.profile.Persona'
   - '@microsoft/teams-js.profile.ShowProfileRequest'
   - '@microsoft/teams-js.search.SearchQuery'
-  - '@microsoft/teams-js.sharing.IBaseSharedContent'
   - '@microsoft/teams-js.sharing.IShareRequest'
   - '@microsoft/teams-js.sharing.IURLContent'
   - '@microsoft/teams-js.stageView.StageViewParams'
@@ -80,7 +78,6 @@ interfaces:
   - '@microsoft/teams-js.IAppWindow'
   - '@microsoft/teams-js.LocaleInfo'
   - '@microsoft/teams-js.M365ContentAction'
-  - '@microsoft/teams-js.OpenChatRequest'
   - '@microsoft/teams-js.OpenGroupChatRequest'
   - '@microsoft/teams-js.OpenSingleChatRequest'
   - '@microsoft/teams-js.SdkError'
@@ -131,7 +128,6 @@ typeAliases:
   - '@microsoft/teams-js.profile.PersonaIdentifiers'
   - '@microsoft/teams-js.profile.TriggerType'
   - '@microsoft/teams-js.search.SearchQueryHandler'
-  - '@microsoft/teams-js.sharing.ContentType'
   - '@microsoft/teams-js.sharing.IShareRequestContentType'
   - '@microsoft/teams-js.video.VideoEffectCallBack'
   - '@microsoft/teams-js.video.VideoFrameCallback'
@@ -179,8 +175,7 @@ functions:
       parameters:
         - id: deepLink
           type: string
-          description: |
-            deep link.
+          description: deep link.
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
           description: ''
@@ -201,9 +196,9 @@ functions:
       parameters:
         - id: callback
           type: '(context: Context) =&gt; void'
-          description: >
-            The callback to invoke when the <xref:@microsoft/teams-js.Context>
-            object is retrieved.
+          description: >-
+            The callback to invoke when the
+            [Context](xref:@microsoft/teams-js.Context) object is retrieved.
   - name: >-
       getMruTabInstances((tabInfo: TabInformation) => void,
       TabInstanceParameters)
@@ -230,11 +225,11 @@ functions:
           type: '(tabInfo: TabInformation) =&gt; void'
           description: >-
             The callback to invoke when the
-            <xref:@microsoft/teams-js.TabInformation> object is retrieved.
+            [TabInformation](xref:@microsoft/teams-js.TabInformation) object is
+            retrieved.
         - id: tabInstanceParameters
           type: <xref uid="@microsoft/teams-js.TabInstanceParameters" />
-          description: |
-            OPTIONAL Ignored, kept for future use
+          description: OPTIONAL Ignored, kept for future use
   - name: 'getTabInstances((tabInfo: TabInformation) => void, TabInstanceParameters)'
     uid: '@microsoft/teams-js.getTabInstances'
     package: '@microsoft/teams-js'
@@ -262,14 +257,14 @@ functions:
           type: '(tabInfo: TabInformation) =&gt; void'
           description: >-
             The callback to invoke when the
-            <xref:@microsoft/teams-js.TabInstanceParameters> object is
-            retrieved.
+            [TabInstanceParameters](xref:@microsoft/teams-js.TabInstanceParameters)
+            object is retrieved.
         - id: tabInstanceParameters
           type: <xref uid="@microsoft/teams-js.TabInstanceParameters" />
-          description: >
+          description: >-
             OPTIONAL Flags that specify whether to scope call to favorite teams
             or channels.
-  - name: 'initialize(() => void, string[])'
+  - name: initialize(() => void, string[])
     uid: '@microsoft/teams-js.initialize'
     package: '@microsoft/teams-js'
     summary: ''
@@ -294,14 +289,14 @@ functions:
             Optionally specify a callback to invoke when Teams SDK has
             successfully initialized
         - id: validMessageOrigins
-          type: 'string[]'
-          description: >
+          type: string[]
+          description: >-
             Optionally specify a list of cross frame message origins. There must
             have
 
             https: protocol otherwise they will be ignored. Example:
             https://www.example.com
-  - name: 'initializeWithFrameContext(FrameContext, () => void, string[])'
+  - name: initializeWithFrameContext(FrameInfo, () => void, string[])
     uid: '@microsoft/teams-js.initializeWithFrameContext'
     package: '@microsoft/teams-js'
     summary: ''
@@ -316,11 +311,11 @@ functions:
       Initialize with FrameContext
     syntax:
       content: >-
-        function initializeWithFrameContext(frameContext: FrameContext,
-        callback?: () => void, validMessageOrigins?: string[])
+        function initializeWithFrameContext(frameContext: FrameInfo, callback?:
+        () => void, validMessageOrigins?: string[])
       parameters:
         - id: frameContext
-          type: <xref uid="@microsoft/teams-js.FrameContext" />
+          type: <xref uid="@microsoft/teams-js.FrameInfo" />
           description: FrameContext information to be set
         - id: callback
           type: () =&gt; void
@@ -328,8 +323,8 @@ functions:
             The optional callback to be invoked be invoked after initilizing the
             frame context
         - id: validMessageOrigins
-          type: 'string[]'
-          description: >
+          type: string[]
+          description: >-
             Optionally specify a list of cross frame message origins.
 
             They must have https: protocol otherwise they will be ignored.
@@ -357,8 +352,7 @@ functions:
       parameters:
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
-          description: |
-            The callback to invoke when the action is complete.
+          description: The callback to invoke when the action is complete.
   - name: 'navigateCrossDomain(string, (status: boolean, reason?: string) => void)'
     uid: '@microsoft/teams-js.navigateCrossDomain'
     package: '@microsoft/teams-js'
@@ -394,8 +388,7 @@ functions:
           description: The URL to navigate the frame to.
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
-          description: |
-            The callback to invoke when the action is complete.
+          description: The callback to invoke when the action is complete.
   - name: 'navigateToTab(TabInstance, (status: boolean, reason?: string) => void)'
     uid: '@microsoft/teams-js.navigateToTab'
     package: '@microsoft/teams-js'
@@ -420,8 +413,7 @@ functions:
           description: The tab instance to navigate to.
         - id: onComplete
           type: '(status: boolean, reason?: string) =&gt; void'
-          description: |
-            The callback to invoke when the action is complete.
+          description: The callback to invoke when the action is complete.
   - name: print()
     uid: '@microsoft/teams-js.print'
     package: '@microsoft/teams-js'
@@ -456,7 +448,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when the personal app button is clicked in the
             app bar.
   - name: registerAppButtonHoverEnterHandler(() => void)
@@ -480,7 +472,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >
+          description: >-
             The handler to invoke when entering hover of the personal app button
             in the app bar.
   - name: registerAppButtonHoverLeaveHandler(() => void)
@@ -504,10 +496,9 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: >+
+          description: >-
             The handler to invoke when exiting hover of the personal app button
             in the app bar.
-
   - name: registerBackButtonHandler(() => boolean)
     uid: '@microsoft/teams-js.registerBackButtonHandler'
     package: '@microsoft/teams-js'
@@ -536,7 +527,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; boolean
-          description: >
+          description: >-
             The handler to invoke when the user presses their Team client's back
             button.
   - name: registerChangeSettingsHandler(() => void)
@@ -558,8 +549,7 @@ functions:
       parameters:
         - id: handler
           type: () =&gt; void
-          description: |
-            The handler to invoke when the user click on Settings.
+          description: The handler to invoke when the user click on Settings.
   - name: 'registerFullScreenHandler((isFullScreen: boolean) => void)'
     uid: '@microsoft/teams-js.registerFullScreenHandler'
     package: '@microsoft/teams-js'
@@ -583,7 +573,7 @@ functions:
       parameters:
         - id: handler
           type: '(isFullScreen: boolean) =&gt; void'
-          description: >
+          description: >-
             The handler to invoke when the user toggles full-screen view for a
             tab.
   - name: 'registerOnThemeChangeHandler((theme: string) => void)'
@@ -607,8 +597,7 @@ functions:
       parameters:
         - id: handler
           type: '(theme: string) =&gt; void'
-          description: |
-            The handler to invoke when the user changes their theme.
+          description: The handler to invoke when the user changes their theme.
   - name: returnFocus(boolean)
     uid: '@microsoft/teams-js.returnFocus'
     package: '@microsoft/teams-js'
@@ -627,9 +616,8 @@ functions:
       parameters:
         - id: navigateForward
           type: boolean
-          description: |
-            Determines the direction to focus in teams app.
-  - name: setFrameContext(FrameContext)
+          description: Determines the direction to focus in teams app.
+  - name: setFrameContext(FrameInfo)
     uid: '@microsoft/teams-js.setFrameContext'
     package: '@microsoft/teams-js'
     summary: ''
@@ -642,12 +630,11 @@ functions:
 
       Set the current Frame Context
     syntax:
-      content: 'function setFrameContext(frameContext: FrameContext)'
+      content: 'function setFrameContext(frameContext: FrameInfo)'
       parameters:
         - id: frameContext
-          type: <xref uid="@microsoft/teams-js.FrameContext" />
-          description: |
-            FrameContext information to be set
+          type: <xref uid="@microsoft/teams-js.FrameInfo" />
+          description: FrameContext information to be set
   - name: shareDeepLink(DeepLinkParameters)
     uid: '@microsoft/teams-js.shareDeepLink'
     package: '@microsoft/teams-js'
@@ -667,5 +654,4 @@ functions:
       parameters:
         - id: deepLinkParameters
           type: <xref uid="@microsoft/teams-js.DeepLinkParameters" />
-          description: |
-            ID and label for the link and fallback URL.
+          description: ID and label for the link and fallback URL.

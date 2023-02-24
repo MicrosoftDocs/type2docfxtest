@@ -21,7 +21,7 @@ properties:
       content: 'claims?: string[]'
       return:
         description: ''
-        type: 'string[]'
+        type: string[]
   - name: resources
     uid: '@microsoft/teams-js.authentication.AuthTokenRequestParameters.resources'
     package: '@microsoft/teams-js'
@@ -35,7 +35,7 @@ properties:
       content: 'resources?: string[]'
       return:
         description: ''
-        type: 'string[]'
+        type: string[]
   - name: silent
     uid: '@microsoft/teams-js.authentication.AuthTokenRequestParameters.silent'
     package: '@microsoft/teams-js'

@@ -12,7 +12,7 @@ properties:
   - name: chromaStride
     uid: '@microsoft/teams-js.video.VideoFrame.chromaStride'
     package: '@microsoft/teams-js'
-    summary: 'NV12 chroma stride, valid only when video frame format is NV12'
+    summary: NV12 chroma stride, valid only when video frame format is NV12
     fullName: chromaStride
     remarks: ''
     isDeprecated: false
@@ -48,7 +48,7 @@ properties:
   - name: lumaStride
     uid: '@microsoft/teams-js.video.VideoFrame.lumaStride'
     package: '@microsoft/teams-js'
-    summary: 'NV12 luma stride, valid only when video frame format is NV12'
+    summary: NV12 luma stride, valid only when video frame format is NV12
     fullName: lumaStride
     remarks: ''
     isDeprecated: false
@@ -60,7 +60,7 @@ properties:
   - name: stride
     uid: '@microsoft/teams-js.video.VideoFrame.stride'
     package: '@microsoft/teams-js'
-    summary: 'RGB stride, valid only when video frame format is RGB'
+    summary: RGB stride, valid only when video frame format is RGB
     fullName: stride
     remarks: ''
     isDeprecated: false
